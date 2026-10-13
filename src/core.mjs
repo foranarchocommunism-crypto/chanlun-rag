@@ -9,6 +9,7 @@ function decode(row) {
 }
 function bounded(value, fallback, max) {
   if (value === undefined) return fallback;
+  if (typeof value !== 'number' && !(typeof value === 'string' && /^\d+$/.test(value))) throw new Error('数值参数必须是整数或CLI十进制整数字符串');
   const n = Number(value);
   if (!Number.isInteger(n) || n < 1 || n > max) throw new Error(`limit 必须是 1–${max} 的整数`);
   return n;
@@ -38,6 +39,7 @@ export class KnowledgeGraph {
     return { schema_version: this.metadata.schema_version, graph_version: this.metadata.graph_version, data, ...extra };
   }
   claimWhere(options = {}, prefix = '') {
+    if (options.includeUnreviewed !== undefined && typeof options.includeUnreviewed !== 'boolean') throw new Error('includeUnreviewed 必须是 boolean');
     if (options.reviewStatus && !['pending', 'reviewed', 'rejected'].includes(options.reviewStatus)) throw new Error('未知复核状态');
     if (options.reviewStatus && options.reviewStatus !== 'reviewed' && !options.includeUnreviewed) throw new Error('查询待核或拒绝项需要 includeUnreviewed');
     const state = options.reviewStatus ? `${prefix}review_status='${options.reviewStatus}'` : options.includeUnreviewed ? `${prefix}review_status!='rejected'` : `${prefix}review_status='reviewed'`;
@@ -142,6 +144,7 @@ export class KnowledgeGraph {
     return this.envelope({ documents: this.db.prepare('SELECT * FROM documents ORDER BY filename').all().map(decode) });
   }
   concepts(options = {}) {
+    if (options.includeUnreviewed !== undefined && typeof options.includeUnreviewed !== 'boolean') throw new Error('includeUnreviewed 必须是 boolean');
     const includeUnreviewed = !!options.includeUnreviewed;
     const all = this.db.prepare('SELECT * FROM concepts ORDER BY label').all().map(decode);
     return this.envelope({ concepts: all.map(concept => ({ ...concept,

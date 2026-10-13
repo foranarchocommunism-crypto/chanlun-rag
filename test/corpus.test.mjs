@@ -15,7 +15,7 @@ test('固定底本覆盖907个实际PDF页面与108课，语义进度独立', ()
   const c = graph.coverage().data;
   assert.equal(c.counts.pages, 907);
   assert.equal(c.counts.documents, 2);
-  assert.equal(new Set(c.units.map(x => x.lesson_number)).size, 108);
+  assert.equal(new Set(c.units.filter(x => x.kind === 'lesson').map(x => x.lesson_number)).size, 108);
   assert.equal(c.source_extraction_complete, true);
   assert.equal(typeof c.semantic_completion, 'boolean');
   assert.ok(c.units.some(x => x.processing_status !== 'semantic_extraction_complete'));
@@ -70,7 +70,7 @@ test('每个复核引用精确对应归一文本及实际PDF字符', () => {
     assert.ok([1, 2, 3, 4].includes(c.importance_level), id);
     assert.ok(c.importance_reason.length > 0, id);
     for (const e of c.evidence) {
-      assert.equal(e.passage_text.slice(e.quote_start, e.quote_end), e.quote, e.id);
+      assert.equal(Array.from(e.passage_text).slice(e.quote_start, e.quote_end).join(''), e.quote, e.id);
       assert.equal(e.speaker, '缠中说禅');
       for (const span of e.source_spans) {
         const page = graph.db.prepare('SELECT geometry_path FROM pages WHERE document_id=? AND pdf_page=?').get(span.document_id, span.pdf_page);
@@ -99,6 +99,34 @@ test('候选必须显式开启，重要性与复核状态独立', () => {
   assert.equal(graph.getClaim(candidate.id, { includeUnreviewed: true }).review_status, 'pending');
   assert.ok(graph.search('', { maxImportance: 1, limit: 100 }).data.results.every(c => c.importance_level === 1));
   assert.throws(() => graph.search('', { reviewStatus: 'pending' }), /includeUnreviewed/);
+});
+test('字符串false和隐式数值转换不能开启候选或改变查询规模', () => {
+  for (const includeUnreviewed of ['false', 'true', 0, 1, [], null]) {
+    assert.throws(() => graph.search('', { includeUnreviewed }), /boolean/);
+    assert.throws(() => graph.concepts({ includeUnreviewed }), /boolean/);
+  }
+  for (const value of [true, false, [1], null, '', '1e1', '0x10', 1.5]) {
+    assert.throws(() => graph.search('中枢', { limit: value }), /整数/);
+    assert.throws(() => graph.search('中枢', { maxImportance: value }), /整数/);
+    assert.throws(() => graph.neighbors('走势中枢', { depth: value }), /整数/);
+  }
+  assert.equal(graph.search('中枢', { limit: '2' }).data.limit, 2);
+});
+test('汇编后记和006年读者头不会留作作者候选，后加图有独立来源状态', () => {
+  const appendices = graph.db.prepare("SELECT * FROM units WHERE kind='compiler_appendix'").all();
+  assert.equal(appendices.length, 2);
+  for (const unit of appendices) {
+    assert.equal(unit.lesson_number, null);
+    assert.equal(unit.processing_status, 'excluded_from_author_knowledge');
+    assert.equal(graph.db.prepare("SELECT count(*) AS n FROM passages WHERE unit_id=? AND (role!='unknown' OR speaker IS NOT NULL)").get(unit.id).n, 0);
+    assert.equal(graph.db.prepare("SELECT count(*) AS n FROM claims c JOIN evidence e ON e.claim_id=c.id JOIN passages p ON p.id=e.passage_id WHERE p.unit_id=? AND c.review_status!='rejected'").get(unit.id).n, 0);
+  }
+  const reader = graph.db.prepare('SELECT role,speaker,published_at FROM passages WHERE id=?').get('volume_1-a53e99c37ca5-p0074-b008');
+  assert.equal(reader.role, 'reader');
+  assert.equal(reader.published_at, null);
+  const figure = graph.db.prepare('SELECT origin_status,note FROM figures WHERE id=?').get('volume_2-5332cd1b6038-p0054-fig1');
+  assert.equal(figure.origin_status, 'later_annotation');
+  assert.match(figure.note, /2008-08-15/);
 });
 test('关系均由已复核命题支持，等级筛选沿同一依据', () => {
   const r = graph.neighbors('走势中枢', { maxImportance: 1 }).data;

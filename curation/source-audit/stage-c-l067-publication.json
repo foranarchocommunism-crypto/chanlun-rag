@@ -1,0 +1,87 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-91dfeb3c452e",
+  "scope": "第67课全部78段及其作者解盘技术解释",
+  "records": 45,
+  "reviewed_before": 114,
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261013T132101140512Z-curation-l067",
+  "checks_run": [
+    "JSON Schema draft2020-12：45条通过",
+    "只读导入预检：45条通过，graph.sqlite与manifest哈希不变",
+    "17项Node工程测试全部通过",
+    "13项合成导入契约测试全部通过（不计真实覆盖）",
+    "validate.mjs：159条默认知识无错误",
+    "Agent与桌面vendor查询核心SHA256一致",
+    "同版本JSONL/Markdown及coverage导出完成"
+  ],
+  "acceptance": "本批45条已发布；整课仍有明确待核，整体工程未验收",
+  "pending": [
+    {
+      "id": "lower-l067-chart-seven-unanswered",
+      "lesson": 67,
+      "passage_id": "volume_2-5332cd1b6038-p0059-b004",
+      "status": "pending",
+      "issue": "作者问图中7与1分钟中枢的关系，当前单元未给答案；不能把问题当定理，已查看p58图，仍须其他明确作者讲解才能作原文明说结论。"
+    },
+    {
+      "id": "lower-l067-figure-origin",
+      "lesson": 67,
+      "status": "pending",
+      "issue": "已查看本课14个图对象所在页，但p50/51/52前两图/55/58原图身份仍未核；p52-fig3、p53两图及p54图已确认陈仁后加。不将未核图或后加图当作者原始证言。"
+    },
+    {
+      "id": "lower-l067-equality-boundary-detail",
+      "lesson": 67,
+      "passage_id": "volume_2-5332cd1b6038-p0056-b005",
+      "status": "pending",
+      "issue": "作者只明确回复包含才合并的一般边界；对提问的单边等值、双边等值、麻点未逐项给算法，保留相等边界细节待跨课核对，不补造EPS或等号规则。"
+    }
+  ],
+  "next_action": "完整审读第65、66课及后附作者技术解释，按当前契约发布新批次",
+  "graph_version": "0.1.0-review-f5f9f8f623d9",
+  "formal_import": "passed",
+  "original_114_claims_and_evidence_unchanged": true,
+  "counts": {
+    "concepts": 123,
+    "claims": 2798,
+    "evidence": 2833,
+    "relations": 114,
+    "reviews": 211
+  },
+  "claim_status_counts": [
+    [
+      "pending",
+      2618
+    ],
+    [
+      "rejected",
+      21
+    ],
+    [
+      "reviewed",
+      159
+    ]
+  ],
+  "new_evidence_roles": [
+    [
+      "author_body",
+      18
+    ],
+    [
+      "author_commentary",
+      19
+    ],
+    [
+      "author_reply",
+      13
+    ]
+  ],
+  "checks_not_run": [
+    "整库逐条语义复核尚未完成",
+    "240条真实验收题尚未完成",
+    "本次未重新运行桌面缩放/旋转及打包后离线验收"
+  ],
+  "exported_version": "0.1.0-review-f5f9f8f623d9"
+}

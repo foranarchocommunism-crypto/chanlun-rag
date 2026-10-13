@@ -21,6 +21,10 @@ Agent 开始研究前读取 [取证步骤](AGENT_GUIDE.md)。机器可读接口�
 
 数据契约见 [schema.sql](contracts/schema.sql)。`explicit/inferred` 与 `pending/reviewed/rejected` 独立记录；“已复核”不代表所有解释歧义已经消除。
 
+整理批次的字段契约见 [curation.schema.json](contracts/curation.schema.json)。`python tools/import_curation.py --kb <图谱目录> --check <批次.jsonl>` 只读预检引用、身份、字符映射、坐标、关系和推论前提；机器通过不替代原文语义或原图复核。正式导入前备份共享数据库和清单。新增记录填写实际复核者；作者解盘技术解释在 `review_note` 中分别写明“语境：”和“适用条件：”。
+
+阶段进度与恢复入口见 [curation/progress.json](curation/progress.json)。覆盖日志采用追加记录；按课程读取最新记录，并核对其批次是否已导入。第67课的新批004重新复核旧批003中的15条第67课记录；旧批003剩余的第65、66课内容仍需继续审读。
+
 ## 详细覆盖与重要性
 
 逐课提取定义、定理、判定条件、前置关系、例外、辨析、作者技术答疑及相关案例。每课分别记录审读进度、抽取进度、排除理由和待核问题。重要性由整理者评定并附理由：1基础核心、2主要方法、3补充深化、4背景细节。关键条件和例外跟随其核心命题，所有等级默认保留。使用 `--max-importance 1` 可只看基础核心。

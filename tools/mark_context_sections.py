@@ -14,6 +14,9 @@ COMMENTARY = re.compile(r"^(?:今日|当日|缠中说禅)?解盘\s*[：:]")
 def mark(root):
     db = sqlite3.connect(root / "graph.sqlite")
     db.row_factory = sqlite3.Row
+    if db.execute("SELECT 1 FROM metadata WHERE key='source_structure_revision'").fetchone():
+        db.close()
+        raise RuntimeError("来源已有逐项复核修订，禁止旧状态解析覆盖；使用source_structure_review.py的具体版本化计划")
     changes, previous_doc, state = [], None, ("unknown", None, None)
     rows = db.execute("SELECT * FROM passages ORDER BY document_id,pdf_page,block_index").fetchall()
     db.execute("BEGIN IMMEDIATE")

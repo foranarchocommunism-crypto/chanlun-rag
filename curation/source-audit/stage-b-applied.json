@@ -1,0 +1,67 @@
+{
+  "stage": "B-source-corrections",
+  "base_graph_version": "0.1.0-review-a72efa4c6c05",
+  "graph_version": "0.1.0-review-8da5b245f702",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261013T123637329252Z-source-structure",
+  "new_units": 2,
+  "source_operations": 3824,
+  "rejected_candidates": [
+    "candidate-fac2e79b1ca88e82",
+    "candidate-70a9dc5e4ae31137",
+    "candidate-c2158603cba5060a",
+    "candidate-eff74073b622130a",
+    "candidate-986dae67258c1f7e",
+    "candidate-fe1b121b53fec5e6",
+    "candidate-921c1003046c1431",
+    "candidate-993a6462fd69cf12",
+    "candidate-caee25e0ad1fc078",
+    "candidate-06f2a3222861a9c9",
+    "candidate-4ef6cf5a509b62fc",
+    "candidate-227b7149eecd7c5a",
+    "candidate-5f41ed9a577ce48f",
+    "candidate-08e225c7aaa5e393",
+    "candidate-88ea903d4e7592ef",
+    "candidate-575a985ba1b1a7de",
+    "candidate-32c5bf8c9b9b64f8",
+    "candidate-30d0cd4e515a16ce",
+    "candidate-7c1f8c65534c51a0",
+    "candidate-0691bfd89c0afa11",
+    "candidate-08b92ebfab77e984"
+  ],
+  "pending": [
+    {
+      "id": "source-bare-timestamps",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF30/34/42/438-439",
+        "volume_2 PDF391-408/425-427"
+      ],
+      "reason": "裸日期与整句被当speaker、日期在前后段的作用域需逐篇核对，不用日期先后猜作者身份。"
+    },
+    {
+      "id": "source-quoted-reader-scope",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF151",
+        "volume_2 PDF162-165"
+      ],
+      "reason": "嵌入读者引文结束后作者叙述未恢复；需逐段回到引号和上下文确认。"
+    },
+    {
+      "id": "source-parenthetical-note",
+      "status": "pending",
+      "passage_id": "volume_1-a53e99c37ca5-p0090-b002",
+      "reason": "括号注的作者/汇编补注身份未核，不能作为一般作者规则。"
+    },
+    {
+      "id": "source-historical-byline",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF33"
+      ],
+      "reason": "喜欢数学的女孩署名与作者身份的关系未在固定底本内确认，不自动合并作者身份。"
+    }
+  ],
+  "reviewed_claims_changed": 0,
+  "text_or_geometry_changed": false
+}

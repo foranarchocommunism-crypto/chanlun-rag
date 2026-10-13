@@ -93,6 +93,30 @@ test('作者明说与推论有独立身份和可解析前提链', () => {
   for (const premise of c.derivation.supporting_claim_ids) assert.equal(graph.getClaim(premise).review_status, 'reviewed');
   assert.equal(graph.getClaim('upper-l017-center-definition').kind, 'explicit');
 });
+test('解盘技术补充保留作者身份、递归入口和成交分笔的区别', () => {
+  const c = graph.getClaim('lower-l065-recursion-a0-practical-theoretical');
+  assert.equal(c.kind, 'explicit');
+  assert.match(c.text, /a0/);
+  assert.match(c.conditions.join(' '), /实际分笔成交不是/);
+  const e = c.evidence.find(x => x.passage_id.endsWith('p0039-b009'));
+  assert.equal(e.role, 'author_commentary');
+  assert.equal(e.speaker, '缠中说禅');
+  assert.equal(e.published_at, '2007-07-20 08:26:20');
+  assert.match(c.review_note, /语境：/);
+  assert.match(c.review_note, /适用条件：/);
+});
+test('简短组合回复保留问题范围，低级别卖点不冒充日线背驰定位', () => {
+  const nine = graph.getClaim('lower-l066-nine-types-combine-before-center');
+  assert.match(nine.text, /提问中/);
+  assert.match(nine.text, /不一定/);
+  assert.match(nine.text, /3\+3\+3/);
+  assert.ok(nine.evidence.every(e => !/^缠中说禅20/.test(e.quote)));
+  const sells = graph.getClaim('lower-l066-intraday-sell-point-not-daily-location-case');
+  assert.match(sells.text, /不能称日线背驰段已经被定位/);
+  assert.match(sells.conditions.join(' '), /60分钟尚未/);
+  assert.ok(sells.evidence.some(e => e.pdf_page === 49));
+  assert.ok(sells.evidence.some(e => e.pdf_page === 50));
+});
 test('候选必须显式开启，重要性与复核状态独立', () => {
   const candidate = graph.db.prepare("SELECT id FROM claims WHERE review_status='pending' LIMIT 1").get();
   assert.equal(graph.getClaim(candidate.id), null);

@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-10-13T13:24:03.034890+00:00",
+  "updated_at": "2026-10-13T13:58:27.961474+00:00",
   "stage": "C",
   "run_mode": "authorized_execution",
   "authorization": "用户指定阶段B并授权按计划流程自动推进；原实现和数据整理授权继续适用",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-f5f9f8f623d9",
-  "source_boundary": "固定两册PDF共907页；未声称与原博客逐字核对",
+  "graph_version": "0.1.0-review-957cec1c4258",
+  "source_boundary": "固定两册PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
-    "阶段A只读数据契约审查",
-    "阶段B全库来源结构审查及已证实问题的可回退修订",
-    "第67课全部78段四轮审读及45条增量命题发布",
-    "17项Node工程测试、13项合成导入契约测试及159条正式引用校验通过",
-    "两端核心同步及同版本导出"
+    "阶段A只读契约审查",
+    "阶段B来源结构审查和可定位问题的可回退修订",
+    "第65至67课全部249段四轮审读；新增146条已复核命题（65课65条、66课36条、67课45条）",
+    "8个后加图已标注来源；未知图源仍明确保留",
+    "19项Node工程测试、13项合成导入契约测试以及260条默认知识引用校验通过",
+    "两端公共核心副本8组查询一致，同版本导出完成"
   ],
   "counts": {
-    "concepts": 123,
-    "claims": 2798,
-    "evidence": 2833,
-    "relations": 114,
-    "reviews": 211
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 144,
+    "claims": 2899,
+    "evidence": 2962,
+    "relations": 144,
+    "reviews": 312
   },
   "claim_status_counts": [
     [
@@ -31,38 +37,53 @@
     ],
     [
       "reviewed",
-      159
+      260
+    ]
+  ],
+  "figure_origin_counts": [
+    [
+      "later_annotation",
+      8
+    ],
+    [
+      "unverified",
+      520
     ]
   ],
   "pending": [
-    "第67课3项待核见批004.pending.jsonl",
-    "裸日期与嵌入读者引文作用域等来源问题见source-audit/stage-c-figure54-applied.json",
-    "第65/66课旧批003尚未发布；仅其67课部分由004重新复核发布",
-    "其余课程全面抽取、跨课关系、重要性复查和数据契约余项尚未完成",
-    "240条真实验收题及Windows打包后离线、旋转等实机验收尚未完成"
+    "第65至67课8项待核：未答练习完整答案、未核图源、等值边界及15分钟区间套图示等，见各批pending日志",
+    "裸日期与嵌入读者引文作用域等来源缺口仍需逐段核实",
+    "其余课程完整抽取、阶段D跨课关系和阶段E重要性复查尚未完成",
+    "阶段F余项：完整查询参数契约、输出类型及bbox解码、默认过滤和依赖变更等",
+    "阶段G的240条真实验收题和阶段H的Windows打包后离线、缩放旋转验收尚未完成"
   ],
   "machine_outputs": [
     "source-audit/stage-b-applied.json",
     "source-audit/stage-c-figure54-applied.json",
+    "source-audit/stage-c-figure35-applied.json",
     "source-audit/stage-c-l067-publication.json",
-    "lower/batch_004_l067_full_review.summary.json"
+    "source-audit/stage-c-l065-l066-publication.json",
+    "lower/batch_004_l067_full_review.summary.json",
+    "lower/batch_005_l065_l066_full_review.summary.json"
   ],
   "checks_run": [
-    "JSON Schema draft2020-12：45条通过",
-    "只读导入预检：45条通过，graph.sqlite与manifest哈希不变",
-    "17项Node工程测试全部通过",
-    "13项合成导入契约测试全部通过（不计真实覆盖）",
-    "validate.mjs：159条默认知识无错误",
-    "Agent与桌面vendor查询核心SHA256一致",
-    "同版本JSONL/Markdown及coverage导出完成"
+    "JSON Schema：101条通过",
+    "只读导入预检：101条通过，数据库和manifest哈希不变",
+    "19项Node工程测试全部通过",
+    "validate.mjs：260条默认知识无错误",
+    "既有159条命题及其证据逐项比对未变",
+    "公共查询模块与桌面vendor副本8组调用输出一致（非界面验收）",
+    "同版本260条命题、144概念、144关系及Markdown和coverage导出完成",
+    "13项合成导入契约测试在本轮先前通过，不计真实来源覆盖"
   ],
   "checks_not_run": [
     "整库逐条语义复核尚未完成",
     "240条真实验收题尚未完成",
-    "本次未重新运行桌面缩放/旋转及打包后离线验收"
+    "本次未执行Electron界面、旋转或打包后离线验收"
   ],
-  "acceptance": "第67课本批发布通过；整课有待核；整个工程未验收",
-  "next_resume_anchor": "lesson-065（下册实际PDF32-b006至45-b002）及lesson-066",
-  "next_action": "完整审读第65、66课及后附作者技术解释，按当前契约发布新批次",
-  "subagents": "此前GPT-6.1 Sol xhigh子代理遭遇额度限制，当前由主代理接手；未替换为其他子代理模型"
+  "acceptance": "本轮146条增量已发布；指定三课已读完但各有待核；整个工程未验收",
+  "next_resume_anchor": "lesson-017：上册实际PDF75至81；继而18至20课完整审读",
+  "next_action": "从上册第17课全部段落开始，补齐正文及作者技术解释，再依次审读18至20课",
+  "subagents": "GPT-6.1 Sol xhigh子代理此前遭遇额度限制，当前由主代理接手；未替换其他模型",
+  "history": "旧批003全部50条均由004/005重新复核发布，保留旧文件，禁止整文件重复导入"
 }

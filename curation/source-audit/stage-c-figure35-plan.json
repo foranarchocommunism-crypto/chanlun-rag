@@ -1,0 +1,1473 @@
+{
+  "stage": "B",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-f5f9f8f623d9",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "units_before": [
+    {
+      "id": "lesson-001",
+      "title": "教你炒股票 1：不会赢钱的经济人，只是废人！(2006-06-07 18:08:15)",
+      "kind": "lesson",
+      "lesson_number": 1,
+      "published_at": "2006-06-07 18:08:15",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 8,
+      "end_page": 9,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-002",
+      "title": "教你炒股票 2：没有庄家，有的只是赢家和输家！(2006-06-07)",
+      "kind": "lesson",
+      "lesson_number": 2,
+      "published_at": "2006-06-07",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 9,
+      "end_page": 10,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-003",
+      "title": "教你炒股票 3：你的喜好，你的死亡陷阱！(2006-06-09 17:03:48)",
+      "kind": "lesson",
+      "lesson_number": 3,
+      "published_at": "2006-06-09 17:03:48",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 10,
+      "end_page": 11,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-004",
+      "title": "教你炒股票 4：什么是理性？今早买 N 中工就是理性！(2006-06-19)",
+      "kind": "lesson",
+      "lesson_number": 4,
+      "published_at": "2006-06-19",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 11,
+      "end_page": 13,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-005",
+      "title": "教你炒股票 5：市场无须分析，只要看和干！(2006-06-21 20:52:02)",
+      "kind": "lesson",
+      "lesson_number": 5,
+      "published_at": "2006-06-21 20:52:02",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 13,
+      "end_page": 14,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-006",
+      "title": "教你炒股票 6：本 ID 如何在五粮液、包钢权证上提款的！(2006-10-24)",
+      "kind": "lesson",
+      "lesson_number": 6,
+      "published_at": "2006-10-24",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 14,
+      "end_page": 16,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-007",
+      "title": "教你炒股票 7：给赚了指数亏了钱的一些忠告(2006-11-16 12:00:01)",
+      "kind": "lesson",
+      "lesson_number": 7,
+      "published_at": "2006-11-16 12:00:01",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 16,
+      "end_page": 19,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-008",
+      "title": "教你炒股票 8：投资如选面首，G 点为中心，拒绝 ED 男！(2006-11-20)",
+      "kind": "lesson",
+      "lesson_number": 8,
+      "published_at": "2006-11-20",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 19,
+      "end_page": 22,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-009",
+      "title": "教你炒股票 9：甄别“早泄”男的数学原则！(2006-11-22 12:00:00)",
+      "kind": "lesson",
+      "lesson_number": 9,
+      "published_at": "2006-11-22 12:00:00",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 22,
+      "end_page": 27,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-010",
+      "title": "教你炒股票 10：2005 年 6 月，本 ID 为何时隔四年后重看股票(11-24)",
+      "kind": "lesson",
+      "lesson_number": 10,
+      "published_at": null,
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 27,
+      "end_page": 37,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-011",
+      "title": "教你炒股票 11：不会吻，无以高潮！(2006-11-29 12:00:00)",
+      "kind": "lesson",
+      "lesson_number": 11,
+      "published_at": "2006-11-29 12:00:00",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 37,
+      "end_page": 39,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-012",
+      "title": "教你炒股票 12：一吻何能消魂？(2006-12-01 12:03:48)",
+      "kind": "lesson",
+      "lesson_number": 12,
+      "published_at": "2006-12-01 12:03:48",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 39,
+      "end_page": 43,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-013",
+      "title": "教你炒股票 13：不带套的操作不是好操作！(2006-12-04 12:08:28)",
+      "kind": "lesson",
+      "lesson_number": 13,
+      "published_at": "2006-12-04 12:08:28",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 43,
+      "end_page": 47,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-014",
+      "title": "教你炒股票 14：喝茅台的高潮程序！(2006-12-05 11:35:20)",
+      "kind": "lesson",
+      "lesson_number": 14,
+      "published_at": "2006-12-05 11:35:20",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 47,
+      "end_page": 58,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-015",
+      "title": "教你炒股票 15：没有趋势，没有背驰。(2006-12-08 11:55:57)",
+      "kind": "lesson",
+      "lesson_number": 15,
+      "published_at": "2006-12-08 11:55:57",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 58,
+      "end_page": 70,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-016",
+      "title": "教你炒股票 16：中小资金的高效买卖法。(2006-12-14 12:06:47)",
+      "kind": "lesson",
+      "lesson_number": 16,
+      "published_at": "2006-12-14 12:06:47",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 70,
+      "end_page": 75,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-017",
+      "title": "教你炒股票 17：走势终完美(2006-12-18 11:52:42)",
+      "kind": "lesson",
+      "lesson_number": 17,
+      "published_at": "2006-12-18 11:52:42",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 75,
+      "end_page": 81,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson_number\":17,\"document_id\":\"volume_1-a53e99c37ca5\",\"actual_read_scope\":\"PDF75–81全部正文、解盘与答疑逐段审读；PDF75–77视觉核对\",\"extracted_themes\":[\"走势类型划分\",\"原理一二\",\"中枢/盘整/趋势定义\",\"分解定理\",\"第一二类买点\",\"转折定律\",\"重叠解释\"],\"excluded\":[\"解盘预测、具体个股案例未进入一般命题\",\"公告修辞\",\"未获答案的思考题不作定理\"],\"pending\":[\"p80-b019至p81-b003作者答复角色误分，待修后抽辅助指标与逻辑顺序\",\"配图原发身份未确认，个股图例待视觉核对\"],\"whole_lesson_semantic_read_complete\":true,\"batch\":\"01-center-trend-level-pilot\",\"reviewer\":\"GPT-6.1 Sol xhigh upper\",\"logged_at\":\"2026-10-13T15:12:23\"}"
+    },
+    {
+      "id": "lesson-018",
+      "title": "教你炒股票 18：不被面首的雏男是不完美的。(2006-12-26 15:05:58)",
+      "kind": "lesson",
+      "lesson_number": 18,
+      "published_at": "2006-12-26 15:05:58",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 82,
+      "end_page": 84,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson_number\":18,\"document_id\":\"volume_1-a53e99c37ca5\",\"actual_read_scope\":\"PDF82–84全课正文语义审读；本课无新增作者答疑\",\"extracted_themes\":[\"中枢计算与完成条件\",\"走势延伸\",\"中枢维持和破坏三定理\",\"盘整高低点\",\"破坏组合\"],\"excluded\":[\"类比、修辞及收益绝对化宣传未作投资事实\",\"重复原理合并引用\"],\"pending\":[\"18课区间圆括号与20课方括号不据此独立推导开闭区间\"],\"whole_lesson_semantic_read_complete\":true,\"batch\":\"01-center-trend-level-pilot\",\"reviewer\":\"GPT-6.1 Sol xhigh upper\",\"logged_at\":\"2026-10-13T15:12:23\"}"
+    },
+    {
+      "id": "lesson-019",
+      "title": "教你炒股票 19：学习缠中说禅技术分析理论的关键(2006-12-27)",
+      "kind": "lesson",
+      "lesson_number": 19,
+      "published_at": "2006-12-27",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 84,
+      "end_page": 97,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson_number\":19,\"document_id\":\"volume_1-a53e99c37ca5\",\"actual_read_scope\":\"PDF84–97全课正文/解盘/答疑逐段审读\",\"extracted_themes\":[\"技术分析当下与多级别合力\",\"中枢离开返回\",\"新股买点前提\",\"缺口类型\",\"背驰内部观察\"],\"excluded\":[\"具体个股行情结论、牛市阶段预测与基金期货预言\",\"读者原话不入主干\"],\"pending\":[\"多处作者嵌时间头误reader，已报根待修\",\"p90-b002括号注作者身份不明\",\"个股配图来源待核\"],\"whole_lesson_semantic_read_complete\":true,\"batch\":\"02-level-expansion-third-points\",\"reviewer\":\"GPT-6.1 Sol xhigh upper\",\"logged_at\":\"2026-10-13T15:16:11\"}"
+    },
+    {
+      "id": "lesson-020",
+      "title": "教你炒股票 20：缠中说禅走势中枢级别扩张及第三类买卖点(07-01-05)",
+      "kind": "lesson",
+      "lesson_number": 20,
+      "published_at": null,
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 97,
+      "end_page": 104,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson_number\":20,\"document_id\":\"volume_1-a53e99c37ca5\",\"actual_read_scope\":\"PDF97–104全课正文/答疑逐段审读，PDF97–100渲染与视觉核对\",\"extracted_themes\":[\"中枢延伸/扩张\",\"走势级别延续两定理\",\"Z段与GG/G/D/DD/ZG/ZD\",\"中心定理\",\"第三类买卖点与第一次限制\",\"三层级别答疑\"],\"excluded\":[\"配图内非正文补注与具体个股买点例示尚未作图像知识\",\"盘中事件解读与未获答思考题\"],\"pending\":[\"p103-b005/006读者身份待根修\",\"汇编配图原发身份待核\"],\"whole_lesson_semantic_read_complete\":true,\"batch\":\"02-level-expansion-third-points\",\"reviewer\":\"GPT-6.1 Sol xhigh upper\",\"logged_at\":\"2026-10-13T15:16:11\"}"
+    },
+    {
+      "id": "lesson-021",
+      "title": "教你炒股票 21：缠中说禅买卖点分析的完备性(2007-01-09 15:03:58)",
+      "kind": "lesson",
+      "lesson_number": 21,
+      "published_at": "2007-01-09 15:03:58",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 104,
+      "end_page": 109,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-022",
+      "title": "教你炒股票 22：将 8 亿的大米装到 5 个庄家的肚里。(2007-01-11 15:10)",
+      "kind": "lesson",
+      "lesson_number": 22,
+      "published_at": "2007-01-11 15:10",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 109,
+      "end_page": 119,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-023",
+      "title": "教你炒股票 23：市场与人生(2007-01-15 15:50:11)",
+      "kind": "lesson",
+      "lesson_number": 23,
+      "published_at": "2007-01-15 15:50:11",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 119,
+      "end_page": 132,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-024",
+      "title": "教你炒股票 24：MACD 对背弛的辅助判断(2007-01-18 15:02:43)",
+      "kind": "lesson",
+      "lesson_number": 24,
+      "published_at": "2007-01-18 15:02:43",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 132,
+      "end_page": 144,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-025",
+      "title": "教你炒股票 25：吻，MACD、背弛、中枢(2007-01-23 15:13:13)",
+      "kind": "lesson",
+      "lesson_number": 25,
+      "published_at": "2007-01-23 15:13:13",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 144,
+      "end_page": 166,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-026",
+      "title": "教你炒股票 26：市场风险如何回避(2007-01-30 15:09:57)",
+      "kind": "lesson",
+      "lesson_number": 26,
+      "published_at": "2007-01-30 15:09:57",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 166,
+      "end_page": 178,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-027",
+      "title": "教你炒股票 27：盘整背驰与历史性底部(2007-02-0215:11:27)",
+      "kind": "lesson",
+      "lesson_number": 27,
+      "published_at": "2007-02-02",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 178,
+      "end_page": 187,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-028",
+      "title": "教你炒股票 28：下一目标：摧毁基金(2007-02-06 15:04:50)",
+      "kind": "lesson",
+      "lesson_number": 28,
+      "published_at": "2007-02-06 15:04:50",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 187,
+      "end_page": 203,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-029",
+      "title": "教你炒股票 29：转折的力度与级别(2007-02-09 15:08:08)",
+      "kind": "lesson",
+      "lesson_number": 29,
+      "published_at": "2007-02-09 15:08:08",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 204,
+      "end_page": 213,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-030",
+      "title": "教你炒股票 30：缠中说禅理论的绝对性(2007-02-13 15:07:02)",
+      "kind": "lesson",
+      "lesson_number": 30,
+      "published_at": "2007-02-13 15:07:02",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 213,
+      "end_page": 218,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-031",
+      "title": "教你炒股票 31：资金管理的最稳固基础(2007-02-15 15:16:12)",
+      "kind": "lesson",
+      "lesson_number": 31,
+      "published_at": "2007-02-15 15:16:12",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 219,
+      "end_page": 232,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-032",
+      "title": "教你炒股票 32：走势的当下与投资者的思维方式(2007-02-28 08:44:37)",
+      "kind": "lesson",
+      "lesson_number": 32,
+      "published_at": "2007-02-28 08:44:37",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 233,
+      "end_page": 243,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-033",
+      "title": "教你炒股票 33：走势的多义性(2007-03-02 15:20:37)",
+      "kind": "lesson",
+      "lesson_number": 33,
+      "published_at": "2007-03-02 15:20:37",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 243,
+      "end_page": 254,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-034",
+      "title": "教你炒股票 34：宁当面首，莫成怨男(2007-03-07 15:09:54)",
+      "kind": "lesson",
+      "lesson_number": 34,
+      "published_at": "2007-03-07 15:09:54",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 254,
+      "end_page": 259,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-035",
+      "title": "教你炒股票 35：给基础差的同学补补课(2007-03-09 11:51:34)",
+      "kind": "lesson",
+      "lesson_number": 35,
+      "published_at": "2007-03-09 11:51:34",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 259,
+      "end_page": 265,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-036",
+      "title": "教你炒股票 36：走势类型连接结合性的简单运用(2007-03-13 09:00:49)",
+      "kind": "lesson",
+      "lesson_number": 36,
+      "published_at": "2007-03-13 09:00:49",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 265,
+      "end_page": 273,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-037",
+      "title": "教你炒股票 37：背驰的再分辨(2007-03-16 11:51:32)",
+      "kind": "lesson",
+      "lesson_number": 37,
+      "published_at": "2007-03-16 11:51:32",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 273,
+      "end_page": 279,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-038",
+      "title": "教你炒股票 38：走势类型连接的同级别分解(2007-03-21 15:23:21)",
+      "kind": "lesson",
+      "lesson_number": 38,
+      "published_at": "2007-03-21 15:23:21",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 280,
+      "end_page": 287,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-039",
+      "title": "教你炒股票 39：同级别分解再研究(2007-03-23 15:16:51)",
+      "kind": "lesson",
+      "lesson_number": 39,
+      "published_at": "2007-03-23 15:16:51",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 287,
+      "end_page": 290,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-040",
+      "title": "教你炒股票 40：同级别分解的多重赋格(2007-03-27 12:53:22)",
+      "kind": "lesson",
+      "lesson_number": 40,
+      "published_at": "2007-03-27 12:53:22",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 291,
+      "end_page": 301,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-041",
+      "title": "教你炒股票 41：没有节奏，只有死(2007-03-30 15:17:22)",
+      "kind": "lesson",
+      "lesson_number": 41,
+      "published_at": "2007-03-30 15:17:22",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 301,
+      "end_page": 306,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-042",
+      "title": "教你炒股票 42：有些人是不适合参与市场的(2007-04-04 15:31:30)",
+      "kind": "lesson",
+      "lesson_number": 42,
+      "published_at": "2007-04-04 15:31:30",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 306,
+      "end_page": 311,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-043",
+      "title": "教你炒股票 43：有关背驰的补习课(2007-04-06 15:31:28)",
+      "kind": "lesson",
+      "lesson_number": 43,
+      "published_at": "2007-04-06 15:31:28",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 311,
+      "end_page": 316,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-044",
+      "title": "教你炒股票 44：小级别背驰引发大级别转折(2007-04-10 15:23:46)",
+      "kind": "lesson",
+      "lesson_number": 44,
+      "published_at": "2007-04-10 15:23:46",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 316,
+      "end_page": 320,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-045",
+      "title": "教你炒股票 45：持股与持币，两种最基本的操作。(2007-04-12 15:39:04)",
+      "kind": "lesson",
+      "lesson_number": 45,
+      "published_at": "2007-04-12 15:39:04",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 320,
+      "end_page": 331,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-046",
+      "title": "教你炒股票 46：每日走势的分类(2007-04-18 15:36:09)",
+      "kind": "lesson",
+      "lesson_number": 46,
+      "published_at": "2007-04-18 15:36:09",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 331,
+      "end_page": 339,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-047",
+      "title": "教你炒股票 47：一夜情行情分析(2007-04-20 08:51:58)",
+      "kind": "lesson",
+      "lesson_number": 47,
+      "published_at": "2007-04-20 08:51:58",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 339,
+      "end_page": 347,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-048",
+      "title": "教你炒股票 48：暴跌，牛市行情的一夜情(2007-04-24 08:52:02)",
+      "kind": "lesson",
+      "lesson_number": 48,
+      "published_at": "2007-04-24 08:52:02",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 347,
+      "end_page": 355,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-049",
+      "title": "教你炒股票 49：利润率最大的操作模式(2007-04-26 08:16:56)",
+      "kind": "lesson",
+      "lesson_number": 49,
+      "published_at": "2007-04-26 08:16:56",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 355,
+      "end_page": 362,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-050",
+      "title": "教你炒股票 50：操作中的一些细节问题(2007-04-27 08:42:51)",
+      "kind": "lesson",
+      "lesson_number": 50,
+      "published_at": "2007-04-27 08:42:51",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 362,
+      "end_page": 371,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-051",
+      "title": "教你炒股票 51：短线股评荐股者的传销把戏(2007-05-09 08:30:16)",
+      "kind": "lesson",
+      "lesson_number": 51,
+      "published_at": "2007-05-09 08:30:16",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 371,
+      "end_page": 382,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-052",
+      "title": "教你炒股票 52：炒股票就是真正的学佛(2007-05-18 08:49:05)",
+      "kind": "lesson",
+      "lesson_number": 52,
+      "published_at": "2007-05-18 08:49:05",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 382,
+      "end_page": 396,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-053",
+      "title": "教你炒股票 53：三类买卖点的再分辨(2007-05-23 08:47:18)",
+      "kind": "lesson",
+      "lesson_number": 53,
+      "published_at": "2007-05-23 08:47:18",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 396,
+      "end_page": 400,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-054",
+      "title": "教你炒股票 54：一个具体走势的分析(2007-05-24 01:37:31)",
+      "kind": "lesson",
+      "lesson_number": 54,
+      "published_at": "2007-05-24 01:37:31",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 400,
+      "end_page": 411,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-055",
+      "title": "教你炒股票 55：买之前戏，卖之高潮(2007-05-28 08:12:41)",
+      "kind": "lesson",
+      "lesson_number": 55,
+      "published_at": "2007-05-28 08:12:41",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 412,
+      "end_page": 422,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-056",
+      "title": "教你炒股票 56：530 印花税当日行情图解(2007-05-30 22:49:10)",
+      "kind": "lesson",
+      "lesson_number": 56,
+      "published_at": "2007-05-30 22:49:10",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 422,
+      "end_page": 427,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-057",
+      "title": "教你炒股票 57：当下图解分析再示范(2007-05-31 22:35:44)",
+      "kind": "lesson",
+      "lesson_number": 57,
+      "published_at": "2007-05-31 22:35:44",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 427,
+      "end_page": 436,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-058",
+      "title": "教你炒股票 58：图解分析示范三(2007-06-04 22:34:47)",
+      "kind": "lesson",
+      "lesson_number": 58,
+      "published_at": "2007-06-04 22:34:47",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 436,
+      "end_page": 443,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-059",
+      "title": "教你炒股票 59：图解分析示范四(2007-06-14 08:23:43)",
+      "kind": "lesson",
+      "lesson_number": 59,
+      "published_at": "2007-06-14 08:23:43",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 443,
+      "end_page": 450,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-060",
+      "title": "教你炒股票 60：图解分析示范五(2007-06-19 08:04:06)",
+      "kind": "lesson",
+      "lesson_number": 60,
+      "published_at": "2007-06-19 08:04:06",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 451,
+      "end_page": 457,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-061",
+      "title": "教你炒股票 61：区间套定位标准图解（分析示范六）(2007-06-21)",
+      "kind": "lesson",
+      "lesson_number": 61,
+      "published_at": "2007-06-21",
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 457,
+      "end_page": 470,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "appendix-volume_1-a53e99c37ca5-learning-outline",
+      "title": "后记——缠中说禅教你炒股票108课学习大纲",
+      "kind": "compiler_appendix",
+      "lesson_number": null,
+      "published_at": null,
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 471,
+      "end_page": 475,
+      "processing_status": "excluded_from_author_knowledge",
+      "note": "汇编后记及课程学习大纲；非对应末课正文。具体整理者身份未核，不作为作者直接证据，保留原文与定位。"
+    },
+    {
+      "id": "lesson-062",
+      "title": "教你炒股票 62：分型、笔与线段(2007-06-30 09:49:51)",
+      "kind": "lesson",
+      "lesson_number": 62,
+      "published_at": "2007-06-30 09:49:51",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 6,
+      "end_page": 8,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson\":62,\"read_range\":\"p0006-b000至p0008-b000全课逐段；二次渲染审图p6-7\",\"extracted_claims\":12,\"batch\":\"batch_002_l062_l064.jsonl\",\"excluded\":\"宾馆闲谈、修辞自评以及未提供推导的包罗其他理论宣称；彩色编者后加解释图不作作者证言\",\"pending\":\"配图原始出处仍未核实；图8/9仅记录示意不扩展为尚未严格定义的破坏细则\",\"full_lesson_read_complete\":true,\"technical_extraction_complete\":true}"
+    },
+    {
+      "id": "lesson-063",
+      "title": "教你炒股票 63：替各位理理基本概念(2007-07-02 00:07:39)",
+      "kind": "lesson",
+      "lesson_number": 63,
+      "published_at": "2007-07-02 00:07:39",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 8,
+      "end_page": 12,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson\":63,\"read_range\":\"p0008-b001至p0012-b001，完整逐段读取；正文p0008-b001至p0010-b003，随后解盘\",\"extracted_claims\":7,\"batch\":\"batch_001_pilot_levels.jsonl\",\"excluded\":\"生活、性类比及修辞；p0010-b004起具体历史大盘解盘保留原文但不作为一般理论主干\",\"pending\":\"全部配图原始来源未核；正文技术命题不依赖配图；解盘中图示案例未提升为一般规则\",\"full_lesson_read_complete\":true,\"technical_extraction_complete\":false,\"note\":\"先提交中枢/走势/级别试点；技术外围内容后续补充，不以7条宣称全课抽取完成\"}"
+    },
+    {
+      "id": "lesson-064",
+      "title": "教你炒股票 64：去机场路上给各位补课(2007-07-02 21:37:44)",
+      "kind": "lesson",
+      "lesson_number": 64,
+      "published_at": "2007-07-02 21:37:44",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 12,
+      "end_page": 32,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson\":64,\"read_range\":\"p0012-b002至p0032-b005全部逐段读取，明确区分正文p12-14和p15后附录市场文章与作者技术答疑\",\"extracted_claims\":16,\"batch\":\"batch_002_l062_l064.jsonl\",\"excluded\":\"历史市场点位、个股投资价值、政策与政治性自述不作为一般技术规则；读者观点不入主干\",\"pending\":\"正文108-109、110-111红绿箭头图例待配图定位与图审；逆向突发缺口视为一段的早期说法待和67/72精确化结合，不作为已确认通用例外；附录操作纪律可进一步作背景补充\",\"full_lesson_read_complete\":true,\"technical_extraction_complete\":false}"
+    },
+    {
+      "id": "lesson-065",
+      "title": "教你炒股票 65：再说说分型、笔、线段(2007-07-16 22:14:16)",
+      "kind": "lesson",
+      "lesson_number": 65,
+      "published_at": "2007-07-16 22:14:16",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 32,
+      "end_page": 45,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson\":65,\"read_range\":\"p0032-b006至p0045-b002全部逐段读取；二次审读定义正文与p37/p39技术补充；渲染核对p39文章身份边界\",\"extracted_claims\":21,\"batch\":\"batch_003_l065_l067.jsonl\",\"excluded\":\"p35以后具体历史市场行动、个股价格与政治修辞；p39插班生/CCTV答案不是作者证言\",\"pending\":\"p37十二图练习与p39两图具体划分，须定位原图来源、逐图核对；作者仅明确说存在本质区别而未在该段逐图给完整答案，未借读者答案填充\",\"full_lesson_read_complete\":true,\"technical_extraction_complete\":false}"
+    },
+    {
+      "id": "lesson-066",
+      "title": "教你炒股票 66：主力资金的食物链(2007-07-30 22:42:05)",
+      "kind": "lesson",
+      "lesson_number": 66,
+      "published_at": "2007-07-30 22:42:05",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 45,
+      "end_page": 50,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson\":66,\"read_range\":\"p0045-b003至p0050-b000全部逐段；技术答疑相邻身份与指代二次核查\",\"extracted_claims\":14,\"batch\":\"batch_003_l065_l067.jsonl\",\"excluded\":\"具体行情点位与宏观预测不作为几何定理，主力背景观点保留为4级\",\"pending\":\"附录p50具体15分钟卖点案例的图示未审，不作独立已核案例\",\"full_lesson_read_complete\":true,\"technical_extraction_complete\":false}"
+    },
+    {
+      "id": "lesson-067",
+      "title": "教你炒股票 67：线段的划分标准(2007-08-01 22:31:55)",
+      "kind": "lesson",
+      "lesson_number": 67,
+      "published_at": "2007-08-01 22:31:55",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 50,
+      "end_page": 59,
+      "processing_status": "semantic_read_with_pending",
+      "note": "{\"lesson_number\":67,\"document_id\":\"volume_2-5332cd1b6038\",\"actual_read_scope\":\"全部78个passages，PDF50-b001至59-b004；正文定义及后附两篇市场文章和答疑\",\"whole_lesson_semantic_read_complete\":true,\"technical_extraction_complete\":false,\"four_round_review\":true,\"reviewer\":\"主代理 / 阶段C第67课四轮原文复核\",\"batch\":\"batch_004_l067_full_review\",\"base_graph_version\":\"0.1.0-review-91dfeb3c452e\",\"records\":45,\"legacy_unimported_records_re_reviewed\":15,\"coverage_ledger\":\"batch_004_l067_full_review.coverage.jsonl\",\"pending\":[{\"id\":\"lower-l067-chart-seven-unanswered\",\"lesson\":67,\"passage_id\":\"volume_2-5332cd1b6038-p0059-b004\",\"status\":\"pending\",\"issue\":\"作者问图中7与1分钟中枢的关系，当前单元未给答案；不能把问题当定理，已查看p58图，仍须其他明确作者讲解才能作原文明说结论。\"},{\"id\":\"lower-l067-figure-origin\",\"lesson\":67,\"status\":\"pending\",\"issue\":\"已查看本课14个图对象所在页，但p50/51/52前两图/55/58原图身份仍未核；p52-fig3、p53两图及p54图已确认陈仁后加。不将未核图或后加图当作者原始证言。\"},{\"id\":\"lower-l067-equality-boundary-detail\",\"lesson\":67,\"passage_id\":\"volume_2-5332cd1b6038-p0056-b005\",\"status\":\"pending\",\"issue\":\"作者只明确回复包含才合并的一般边界；对提问的单边等值、双边等值、麻点未逐项给算法，保留相等边界细节待跨课核对，不补造EPS或等号规则。\"}],\"visual_pdf_pages\":[50,51,52,53,54,55,58,59],\"figure_objects_viewed\":14,\"logged_at\":\"2026-10-13T13:18:35.421871+00:00\",\"supersedes_unimported_records\":{\"file\":\"batch_003_l065_l067.jsonl\",\"id_prefix\":\"lower-l067-\",\"count\":15,\"reason\":\"本批重新复核；旧批的65/66课尚未发布，不应整文件重新导入\"}}"
+    },
+    {
+      "id": "lesson-068",
+      "title": "教你炒股票 68：走势预测的精确意义(2007-08-05 10:36:28)",
+      "kind": "lesson",
+      "lesson_number": 68,
+      "published_at": "2007-08-05 10:36:28",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 59,
+      "end_page": 72,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-069",
+      "title": "教你炒股票 69：月线分段与上海大走势分析、预判(2007-08-09 23:03)",
+      "kind": "lesson",
+      "lesson_number": 69,
+      "published_at": "2007-08-09 23:03",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 72,
+      "end_page": 84,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-070",
+      "title": "教你炒股票 70：一个教科书式走势的示范分析(2007-08-15 22:41:35)",
+      "kind": "lesson",
+      "lesson_number": 70,
+      "published_at": "2007-08-15 22:41:35",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 85,
+      "end_page": 92,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-071",
+      "title": "教你炒股票 71：线段划分标准的再分辨(2007-08-16 23:02:06)",
+      "kind": "lesson",
+      "lesson_number": 71,
+      "published_at": "2007-08-16 23:02:06",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 92,
+      "end_page": 102,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-072",
+      "title": "教你炒股票 72：本 ID 已有课程的再梳理(2007-08-21 22:37:20)",
+      "kind": "lesson",
+      "lesson_number": 72,
+      "published_at": "2007-08-21 22:37:20",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 102,
+      "end_page": 110,
+      "processing_status": "semantic_read_partial",
+      "note": "{\"lesson\":72,\"read_range\":\"已完整读取正文p0102-b008至p0105-b005；p0105-b006后另日大盘文字只部分读取\",\"extracted_claims\":10,\"batch\":\"batch_001_pilot_levels.jsonl\",\"excluded\":\"自传性修辞、个股价格示例未转为普遍规则\",\"pending\":\"尚需补读p105-b006至本课末的解盘段；三独立系统、均线辅助及具体教学例子待补抽取\",\"full_lesson_read_complete\":false,\"technical_extraction_complete\":false,\"note\":\"已二次重读形态学/动力学正文；尚未称全课完成\"}"
+    },
+    {
+      "id": "lesson-073",
+      "title": "教你炒股票 73：市场获利机会的绝对分类(2007-08-23 22:35:20)",
+      "kind": "lesson",
+      "lesson_number": 73,
+      "published_at": "2007-08-23 22:35:20",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 110,
+      "end_page": 117,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-074",
+      "title": "教你炒股票 74：如何躲避政策性风险(2007-08-28 08:41:11)",
+      "kind": "lesson",
+      "lesson_number": 74,
+      "published_at": "2007-08-28 08:41:11",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 117,
+      "end_page": 120,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-075",
+      "title": "教你炒股票 75：逗庄家玩的一些杂史 1(2007-08-2922:00:23)",
+      "kind": "lesson",
+      "lesson_number": 75,
+      "published_at": "2007-08-29",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 121,
+      "end_page": 132,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-076",
+      "title": "教你炒股票 76：逗庄家玩的一些杂史 2(2007-09-03 19:19:43)",
+      "kind": "lesson",
+      "lesson_number": 76,
+      "published_at": "2007-09-03 19:19:43",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 132,
+      "end_page": 137,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-077",
+      "title": "教你炒股票 77：一些概念的再分辨(2007-09-05 23:24:01)",
+      "kind": "lesson",
+      "lesson_number": 77,
+      "published_at": "2007-09-05 23:24:01",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 137,
+      "end_page": 142,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-078",
+      "title": "教你炒股票 78：继续说线段的划分(2007-09-06 22:28:31)",
+      "kind": "lesson",
+      "lesson_number": 78,
+      "published_at": "2007-09-06 22:28:31",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 142,
+      "end_page": 151,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-079",
+      "title": "教你炒股票 79：分型的辅助操作与一些问题的再解答(2007-09-10)",
+      "kind": "lesson",
+      "lesson_number": 79,
+      "published_at": "2007-09-10",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 151,
+      "end_page": 157,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-080",
+      "title": "教你炒股票 80：市场没有同情、不信眼泪(2007-09-11 21:38:07)",
+      "kind": "lesson",
+      "lesson_number": 80,
+      "published_at": "2007-09-11 21:38:07",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 158,
+      "end_page": 173,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-081",
+      "title": "教你炒股票 81：图例、更正及分型、走势类型的哲学本质(2007-09-17)",
+      "kind": "lesson",
+      "lesson_number": 81,
+      "published_at": "2007-09-17",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 173,
+      "end_page": 188,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-082",
+      "title": "教你炒股票 82：分型结构的心理因素(2007-09-24 21:31:06)",
+      "kind": "lesson",
+      "lesson_number": 82,
+      "published_at": "2007-09-24 21:31:06",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 189,
+      "end_page": 196,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-083",
+      "title": "教你炒股票 83：笔-线段与线段-最小中枢结构的不同心理意义(0926)",
+      "kind": "lesson",
+      "lesson_number": 83,
+      "published_at": null,
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 196,
+      "end_page": 199,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-084",
+      "title": "教你炒股票 84：本 ID 理论一些必须注意的问题(2007-10-07 16:09)",
+      "kind": "lesson",
+      "lesson_number": 84,
+      "published_at": "2007-10-07 16:09",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 199,
+      "end_page": 221,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-085",
+      "title": "教你炒股票 85：逗庄家玩的一些杂史 3(2007-10-22 21:42:06)",
+      "kind": "lesson",
+      "lesson_number": 85,
+      "published_at": "2007-10-22 21:42:06",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 221,
+      "end_page": 224,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-086",
+      "title": "教你炒股票 86：走势分析中必须杜绝一根筋思维(2007-10-24 21:53)",
+      "kind": "lesson",
+      "lesson_number": 86,
+      "published_at": "2007-10-24 21:53",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 224,
+      "end_page": 233,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-087",
+      "title": "教你炒股票 87：逗庄家玩的一些杂史 4(2007-10-30 22:05:40)",
+      "kind": "lesson",
+      "lesson_number": 87,
+      "published_at": "2007-10-30 22:05:40",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 233,
+      "end_page": 239,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-088",
+      "title": "教你炒股票 88：图形生长的一个具体案例(2007-11-06 22:38:43)",
+      "kind": "lesson",
+      "lesson_number": 88,
+      "published_at": "2007-11-06 22:38:43",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 239,
+      "end_page": 250,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-089",
+      "title": "教你炒股票 89：中阴阶段的具体分析(2007-11-18 20:14:06)",
+      "kind": "lesson",
+      "lesson_number": 89,
+      "published_at": "2007-11-18 20:14:06",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 250,
+      "end_page": 262,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-090",
+      "title": "教你炒股票 90：中阴阶段结束时间的辅助判断(2007-12-03 22:33:08)",
+      "kind": "lesson",
+      "lesson_number": 90,
+      "published_at": "2007-12-03 22:33:08",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 262,
+      "end_page": 277,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-091",
+      "title": "教你炒股票 91：走势结构的两重表里关系 1(2007-12-17 21:40:15)",
+      "kind": "lesson",
+      "lesson_number": 91,
+      "published_at": "2007-12-17 21:40:15",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 277,
+      "end_page": 290,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-092",
+      "title": "教你炒股票 92：中枢震荡的监视器(2007-12-27 20:31:33)",
+      "kind": "lesson",
+      "lesson_number": 92,
+      "published_at": "2007-12-27 20:31:33",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 290,
+      "end_page": 302,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-093",
+      "title": "教你炒股票 93：走势结构的两重表里关系 2(2008-01-15 18:08:05)",
+      "kind": "lesson",
+      "lesson_number": 93,
+      "published_at": "2008-01-15 18:08:05",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 302,
+      "end_page": 310,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-094",
+      "title": "教你炒股票 94：当机立断(2008-01-21 17:29:47)",
+      "kind": "lesson",
+      "lesson_number": 94,
+      "published_at": "2008-01-21 17:29:47",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 310,
+      "end_page": 313,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-095",
+      "title": "教你炒股票 95：修炼自己(2008-01-22 16:10:20)",
+      "kind": "lesson",
+      "lesson_number": 95,
+      "published_at": "2008-01-22 16:10:20",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 313,
+      "end_page": 316,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-096",
+      "title": "教你炒股票 96：无处不在的赌徒心理(2008-01-23 16:18:38)",
+      "kind": "lesson",
+      "lesson_number": 96,
+      "published_at": "2008-01-23 16:18:38",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 316,
+      "end_page": 323,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-097",
+      "title": "教你炒股票 97：中医、兵法、诗歌、操作 1(2008-01-29 15:49:06)",
+      "kind": "lesson",
+      "lesson_number": 97,
+      "published_at": "2008-01-29 15:49:06",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 323,
+      "end_page": 332,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-098",
+      "title": "教你炒股票 98：中医、兵法、诗歌、操作 2(2008-02-04 19:51:49)",
+      "kind": "lesson",
+      "lesson_number": 98,
+      "published_at": "2008-02-04 19:51:49",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 332,
+      "end_page": 338,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-099",
+      "title": "教你炒股票 99：走势结构的两重表里关系 3(2008-02-18 16:19:16)",
+      "kind": "lesson",
+      "lesson_number": 99,
+      "published_at": "2008-02-18 16:19:16",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 338,
+      "end_page": 346,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-100",
+      "title": "教你炒股票 100：中医、兵法、诗歌、操作 3(2008-02-25 16:32:23)",
+      "kind": "lesson",
+      "lesson_number": 100,
+      "published_at": "2008-02-25 16:32:23",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 346,
+      "end_page": 352,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-101",
+      "title": "教你炒股票 101：答疑 1(2008-03-04 16:14:02)",
+      "kind": "lesson",
+      "lesson_number": 101,
+      "published_at": "2008-03-04 16:14:02",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 353,
+      "end_page": 356,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-102",
+      "title": "教你炒股票 102：再说走势必完美(2008-03-06 16:10:18)",
+      "kind": "lesson",
+      "lesson_number": 102,
+      "published_at": "2008-03-06 16:10:18",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 356,
+      "end_page": 366,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-103",
+      "title": "教你炒股票 103：学屠龙术前先学好防狼术(2008-03-19 15:58:15)",
+      "kind": "lesson",
+      "lesson_number": 103,
+      "published_at": "2008-03-19 15:58:15",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 366,
+      "end_page": 373,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-104",
+      "title": "教你炒股票 104：几何结构与能量动力结构 1(2008-03-26 15:47:42)",
+      "kind": "lesson",
+      "lesson_number": 104,
+      "published_at": "2008-03-26 15:47:42",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 373,
+      "end_page": 382,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-105",
+      "title": "教你炒股票 105：远离聪明、机械操作(2008-04-13 21:51:14)",
+      "kind": "lesson",
+      "lesson_number": 105,
+      "published_at": "2008-04-13 21:51:14",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 382,
+      "end_page": 401,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-106",
+      "title": "教你炒股票 106：均线、轮动与缠中说禅板块强弱指标(2008-07-10)",
+      "kind": "lesson",
+      "lesson_number": 106,
+      "published_at": "2008-07-10",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 401,
+      "end_page": 416,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-107",
+      "title": "教你炒股票 107：如何操作短线反弹(2008-08-19 16:10:39)",
+      "kind": "lesson",
+      "lesson_number": 107,
+      "published_at": "2008-08-19 16:10:39",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 416,
+      "end_page": 421,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "lesson-108",
+      "title": "教你炒股票 108：何谓底部？从月线看中期走势演化(2008-08-29)",
+      "kind": "lesson",
+      "lesson_number": 108,
+      "published_at": "2008-08-29",
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 421,
+      "end_page": 427,
+      "processing_status": "extracted",
+      "note": "语义抽取尚待复核"
+    },
+    {
+      "id": "appendix-volume_2-5332cd1b6038-learning-outline",
+      "title": "后记——缠中说禅教你炒股票108课学习大纲",
+      "kind": "compiler_appendix",
+      "lesson_number": null,
+      "published_at": null,
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 428,
+      "end_page": 432,
+      "processing_status": "excluded_from_author_knowledge",
+      "note": "汇编后记及课程学习大纲；非对应末课正文。具体整理者身份未核，不作为作者直接证据，保留原文与定位。"
+    }
+  ],
+  "visual_pdf_pages": {
+    "volume_1.pdf": [
+      80,
+      90,
+      438,
+      471
+    ],
+    "volume_2.pdf": [
+      6,
+      7,
+      52,
+      53,
+      392,
+      428,
+      429
+    ]
+  },
+  "page_map": {
+    "volume_1.pdf": {
+      "numbered_pdf_range": [
+        7,
+        470
+      ],
+      "printed_equals_pdf_minus": 6,
+      "printed_unrecorded_pdf_ranges": [
+        [
+          1,
+          6
+        ],
+        [
+          471,
+          475
+        ]
+      ]
+    },
+    "volume_2.pdf": {
+      "numbered_pdf_range": [
+        6,
+        427
+      ],
+      "printed_equals_pdf_minus": 5,
+      "printed_unrecorded_pdf_ranges": [
+        [
+          1,
+          5
+        ],
+        [
+          428,
+          432
+        ]
+      ]
+    }
+  },
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0035-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "后加第65课包含处理解释图；图内有FHSL 20080729署名日期，晚于2007-07-16课程。已视觉核对，不作为作者原始定义证言。"
+      },
+      "reason": [
+        "实际PDF页面视觉核对图内署名及日期，图意不因此自动获批"
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0035-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "后加第65课顺序包含处理和方向解释图；图内有FHSL 20080730署名日期，晚于2007-07-16课程。已视觉核对，不以图中新增细节替代作者文字。"
+      },
+      "reason": [
+        "实际PDF页面视觉核对图内署名及日期，图意不因此自动获批"
+      ]
+    }
+  ],
+  "affected_references": [],
+  "impact": {
+    "reviewed_evidence": 0,
+    "reviews_for_affected_claims": [],
+    "coverage_units": [],
+    "fts_text_changes": 0,
+    "passage_ids_changed": 0
+  },
+  "pending": [
+    {
+      "id": "source-bare-timestamps",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF30/34/42/438-439",
+        "volume_2 PDF391-408/425-427"
+      ],
+      "reason": "裸日期与整句被当speaker、日期在前后段的作用域需逐篇核对，不用日期先后猜作者身份。"
+    },
+    {
+      "id": "source-quoted-reader-scope",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF151",
+        "volume_2 PDF162-165"
+      ],
+      "reason": "嵌入读者引文结束后作者叙述未恢复；需逐段回到引号和上下文确认。"
+    },
+    {
+      "id": "source-parenthetical-note",
+      "status": "pending",
+      "passage_id": "volume_1-a53e99c37ca5-p0090-b002",
+      "reason": "括号注的作者/汇编补注身份未核，不能作为一般作者规则。"
+    },
+    {
+      "id": "source-historical-byline",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF33"
+      ],
+      "reason": "喜欢数学的女孩署名与作者身份的关系未在固定底本内确认，不自动合并作者身份。"
+    }
+  ],
+  "semantic_completion": false
+}

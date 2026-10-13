@@ -1,0 +1,18 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE metadata(key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE documents(id TEXT PRIMARY KEY, filename TEXT NOT NULL, sha256 TEXT NOT NULL, page_count INTEGER NOT NULL, resource_path TEXT NOT NULL);
+CREATE TABLE units(id TEXT PRIMARY KEY, title TEXT NOT NULL, kind TEXT NOT NULL, lesson_number INTEGER, published_at TEXT, document_id TEXT NOT NULL REFERENCES documents(id), start_page INTEGER NOT NULL, end_page INTEGER NOT NULL, processing_status TEXT NOT NULL DEFAULT 'extracted', note TEXT NOT NULL DEFAULT '语义抽取尚待复核');
+CREATE TABLE pages(id TEXT PRIMARY KEY, document_id TEXT NOT NULL REFERENCES documents(id), pdf_page INTEGER NOT NULL, printed_page TEXT, width REAL NOT NULL, height REAL NOT NULL, raw_text TEXT NOT NULL, geometry_path TEXT NOT NULL, UNIQUE(document_id,pdf_page));
+CREATE TABLE passages(id TEXT PRIMARY KEY, unit_id TEXT REFERENCES units(id), document_id TEXT NOT NULL REFERENCES documents(id), pdf_page INTEGER NOT NULL, block_index INTEGER NOT NULL, role TEXT NOT NULL, speaker TEXT, published_at TEXT, text TEXT NOT NULL, raw_text TEXT NOT NULL, boxes TEXT NOT NULL, normalized_map TEXT NOT NULL, source_char_indices TEXT NOT NULL);
+CREATE INDEX passages_page ON passages(document_id,pdf_page,block_index);
+CREATE INDEX passages_unit ON passages(unit_id);
+CREATE INDEX passages_role ON passages(role);
+CREATE TABLE figures(id TEXT PRIMARY KEY, document_id TEXT NOT NULL REFERENCES documents(id), pdf_page INTEGER NOT NULL, bbox TEXT NOT NULL, pixel_width INTEGER, pixel_height INTEGER, origin_status TEXT NOT NULL DEFAULT 'unverified', note TEXT NOT NULL DEFAULT '汇编内配图，未核实原始作者');
+CREATE TABLE concepts(id TEXT PRIMARY KEY, label TEXT NOT NULL UNIQUE, aliases TEXT NOT NULL DEFAULT '[]', description TEXT NOT NULL DEFAULT '', importance_level INTEGER CHECK(importance_level BETWEEN 1 AND 4), importance_reason TEXT NOT NULL DEFAULT '待评定');
+CREATE TABLE claims(id TEXT PRIMARY KEY, text TEXT NOT NULL, kind TEXT NOT NULL CHECK(kind IN ('explicit','inferred')), conditions TEXT NOT NULL DEFAULT '[]', exceptions TEXT NOT NULL DEFAULT '[]', concept_ids TEXT NOT NULL, review_status TEXT NOT NULL CHECK(review_status IN ('pending','reviewed','rejected')), ambiguity_status TEXT NOT NULL DEFAULT 'none', review_note TEXT NOT NULL DEFAULT '', derivation TEXT NOT NULL DEFAULT '{}', importance_level INTEGER CHECK(importance_level BETWEEN 1 AND 4), importance_reason TEXT NOT NULL DEFAULT '待评定');
+CREATE INDEX claims_status ON claims(review_status);
+CREATE TABLE evidence(id TEXT PRIMARY KEY, claim_id TEXT NOT NULL REFERENCES claims(id), passage_id TEXT NOT NULL REFERENCES passages(id), quote TEXT NOT NULL, quote_start INTEGER NOT NULL, quote_end INTEGER NOT NULL, source_spans TEXT NOT NULL, figure_ids TEXT NOT NULL DEFAULT '[]');
+CREATE INDEX evidence_claim ON evidence(claim_id);
+CREATE TABLE relations(id TEXT PRIMARY KEY, source TEXT NOT NULL REFERENCES concepts(id), target TEXT NOT NULL REFERENCES concepts(id), type TEXT NOT NULL, claim_ids TEXT NOT NULL, review_status TEXT NOT NULL CHECK(review_status IN ('pending','reviewed','rejected')), importance_level INTEGER CHECK(importance_level BETWEEN 1 AND 4), importance_reason TEXT NOT NULL DEFAULT '待评定');
+CREATE TABLE reviews(id TEXT PRIMARY KEY, claim_id TEXT NOT NULL REFERENCES claims(id), reviewer TEXT NOT NULL, checked_at TEXT NOT NULL, checks TEXT NOT NULL, result TEXT NOT NULL, note TEXT NOT NULL);
+CREATE VIRTUAL TABLE passage_fts USING fts5(passage_id UNINDEXED,text,tokenize='trigram');

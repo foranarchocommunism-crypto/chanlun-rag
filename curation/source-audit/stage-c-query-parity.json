@@ -1,0 +1,78 @@
+{
+  "graph_version": "0.1.0-review-b8840ae38391",
+  "module_query_equivalence_pass": true,
+  "query_count": 8,
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "queries": [
+    {
+      "command": "search",
+      "args": {
+        "query": "中枢",
+        "limit": 5
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "1f511d9540a52defd5f35e0487839b9983f4a08f87d224a431a075801a09b8a2"
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "特征序列",
+        "scope": "source",
+        "role": "author_reply",
+        "limit": 5
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "0eaf22739aec79c693d700d6227db9606d476d8791a5c288fd563aafa18a5ee9"
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "笔",
+        "maxImportance": 2
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "e780435cfe3c033404be331837abb9a496cfd70694bcd3255995827a1a27af12"
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "特征序列",
+        "depth": 1,
+        "limit": 25
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "e8fcbb83352e70c01fb70ab36a4b6486b5abbda4911244e6d4287f59ebfb36f0"
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-e31ed7f5b0e37949"
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "6a41575d04950b5aee24b14a898f8ec9b2eb330e7175eb8e02bcc7a3cddca17a"
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "938b48322d71291b127031cb56ec721589786f2bb9dd25751a5c659eabe7c94a"
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 173
+      },
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "e465f306ddfd32cee1fff11e11df9f2958beeee776437241ef7dc861aa5f6615"
+    },
+    {
+      "command": "sources",
+      "args": {},
+      "graph_version": "0.1.0-review-b8840ae38391",
+      "output_sha256": "8c81d7fcea4865a652c6d8e0d20e173b4809b165d158d96d6831f75f1f23fed7"
+    }
+  ],
+  "electron_ui_tested": false,
+  "packaged_offline_runtime_tested": false
+}

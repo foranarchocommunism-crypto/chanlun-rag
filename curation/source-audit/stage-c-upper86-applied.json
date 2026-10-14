@@ -1,0 +1,45 @@
+{
+  "stage": "B-source-corrections",
+  "base_graph_version": "0.1.0-review-957cec1c4258",
+  "graph_version": "0.1.0-review-ed2514eb5a74",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261013T235942414059Z-source-structure",
+  "new_units": 0,
+  "source_operations": 4,
+  "rejected_candidates": [],
+  "pending": [
+    {
+      "id": "source-bare-timestamps",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF30/34/42/438-439",
+        "volume_2 PDF391-408/425-427"
+      ],
+      "reason": "裸日期与整句被当speaker、日期在前后段的作用域需逐篇核对，不用日期先后猜作者身份。"
+    },
+    {
+      "id": "source-quoted-reader-scope",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF151",
+        "volume_2 PDF162-165"
+      ],
+      "reason": "嵌入读者引文结束后作者叙述未恢复；需逐段回到引号和上下文确认。"
+    },
+    {
+      "id": "source-parenthetical-note",
+      "status": "pending",
+      "passage_id": "volume_1-a53e99c37ca5-p0090-b002",
+      "reason": "括号注的作者/汇编补注身份未核，不能作为一般作者规则。"
+    },
+    {
+      "id": "source-historical-byline",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF33"
+      ],
+      "reason": "喜欢数学的女孩署名与作者身份的关系未在固定底本内确认，不自动合并作者身份。"
+    }
+  ],
+  "reviewed_claims_changed": 0,
+  "text_or_geometry_changed": false
+}

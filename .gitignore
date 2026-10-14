@@ -8,4 +8,6 @@ __pycache__/
 *.tgz
 curation/**/page-*.png
 curation/**/renders/
+curation/**/*_visual/
+curation/**/*.visual/
 

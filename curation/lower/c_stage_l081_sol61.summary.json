@@ -1,0 +1,86 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_new_curation_files_only",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-3fdff34fe599",
+  "reviewer": "GPT-6.1 Sol xhigh / 阶段C下册第81课四轮复核",
+  "independent_review_claimed": false,
+  "lesson_number": 81,
+  "unit_id": "lesson-081",
+  "document_id": "volume_2-5332cd1b6038",
+  "source_filename": "volume_2.pdf",
+  "actual_pdf_page_range": [
+    173,
+    188
+  ],
+  "passage_count": 188,
+  "role_counts": {
+    "author_body": 30,
+    "author_commentary": 79,
+    "unknown": 2,
+    "reader": 37,
+    "author_reply": 40
+  },
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "claims": 51,
+  "kind_counts": {
+    "explicit": 51
+  },
+  "evidence": 71,
+  "importance_counts": {
+    "1": 13,
+    "3": 20,
+    "2": 15,
+    "4": 3
+  },
+  "relations": 0,
+  "new_concepts": [
+    "交易条件",
+    "流通量",
+    "自相似性",
+    "自组性",
+    "跨市场交易价值"
+  ],
+  "existing_candidates_mapped": 53,
+  "figure_objects_viewed": 11,
+  "visual_pages": [
+    94,
+    173,
+    174,
+    176,
+    177,
+    179,
+    180,
+    183,
+    185,
+    187,
+    188
+  ],
+  "pending": [
+    "lower-l081-c-stage-pending-original-figures",
+    "lower-l081-c-stage-pending-reader-generalization-boundary",
+    "lower-l081-c-stage-pending-second-question-not-answered",
+    "lower-l081-c-stage-pending-open-research",
+    "lower-l081-c-stage-pending-sep17-second-third-segments"
+  ],
+  "rejected_extractions": 7,
+  "lesson71_textual_correction_verified": true,
+  "database_mode": "ro",
+  "formal_writes": false,
+  "old_l068_l071_files_modified": false,
+  "imports_run": false,
+  "commit_run": false,
+  "checks_run": [
+    "逐段语义四轮审读",
+    "图示视觉核对",
+    "只读curation_contract字符映射/几何/角色/ID检查"
+  ],
+  "machine_checks_pass": true,
+  "semantic_entailment_automatically_proven": false,
+  "visual_interpretation_automatically_proven": false,
+  "acceptance": "部分通过：全188段审读与所列新增命题完成；作者明确第71课更正已核清，原图来源、未答第二问题及理论开放边界仍保留pending。",
+  "next_resume_anchor": "c_stage_l081_sol61.pending.jsonl",
+  "next_action": "主任务复核新批并按当前版本统一只读预检和发布；旧71课pending历史由主任务追加解析记录。"
+}

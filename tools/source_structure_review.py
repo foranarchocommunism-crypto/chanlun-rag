@@ -125,6 +125,34 @@ def build_plan(root):
             row = next(r for r in rows if r["document_id"].startswith("volume_1-") and r["id"].endswith(suffix))
             propose("passages", row, {"role": "reader", "speaker": speaker, "published_at": None}, "读者署名/提问明确；源头年份为006，不补造缺失年份，保留原文")
 
+        # PDF86 puts a new commentary timestamp at the preceding block's tail.
+        # The following content keeps its stable text/ID; only its date is fixed.
+        for suffix, timestamp in (("p0086-b003", "2006-12-27 15:29:37"), ("p0086-b004", "2006-12-28 15:45:14"), ("p0086-b005", "2006-12-28 15:45:14"), ("p0086-b006", "2006-12-28 15:45:14")):
+            row = next(r for r in rows if r["document_id"].startswith("volume_1-") and r["id"].endswith(suffix))
+            if row["role"] != "author_commentary" or row["speaker"] != "缠中说禅":
+                raise ValueError("PDF86已复核解盘身份发生变化：" + row["id"])
+            propose("passages", row, {"published_at": timestamp}, "实际查看PDF86：新时间头在前一block尾部，支配后文；不把尾部头的日期覆盖前段正文")
+
+        # Individually reviewed scope in lessons21-24; these timestamps are
+        # layout headers, some extracted into the preceding block's tail.
+        reviewed_comment_dates = {
+            "2007-01-10 16:22:39": ["p0107-b006", "p0107-b007"],
+            "2007-01-10 22:02:27": ["p0107-b008"],
+            "2007-01-12 12:02:09": ["p0114-b003"],
+            "2007-01-12 15:26:45": ["p0114-b004", "p0114-b005", "p0115-b000", "p0115-b001"],
+            "2007-01-15 22:40:08": ["p0120-b002", "p0120-b003"],
+            "2007-01-16 15:37:18": ["p0120-b004"],
+            "2007-01-16 15:51:16": ["p0120-b005", "p0120-b006", "p0120-b007"],
+            "2007-01-17 15:18:53": ["p0120-b008", "p0120-b009", "p0121-b000", "p0121-b001"],
+            "2007-01-22 15:27:14": ["p0136-b000", "p0136-b001", "p0136-b002", "p0137-b000", "p0137-b001", "p0137-b002"],
+        }
+        for timestamp, suffixes in reviewed_comment_dates.items():
+            for suffix in suffixes:
+                row = next(r for r in rows if r["document_id"].startswith("volume_1-") and r["id"].endswith(suffix))
+                if row["role"] != "author_commentary" or row["speaker"] != "缠中说禅":
+                    raise ValueError("21至24课已复核解盘身份发生变化：" + row["id"])
+                propose("passages", row, {"published_at": timestamp}, "实际查看PDF107/114/115/120/121/136/137：时间头管辖其后内容，跨页保留直至下个时间头或回复栏目；只纠正日期元数据")
+
         figure_notes = {
             "p0006-fig1": "后加彩色解释图；图内署名 FHSL 20080727，晚于第62课。已视觉核对，不作为作者原始配图证言。",
             "p0007-fig1": "后加彩色分型/包含解释图；原始图像裁切可见陈仁制作、2009-10-12 0:31:56水印，晚于第62课。旧日志将日期记为2009-09-10，本轮实际图像复核纠正。",
@@ -134,12 +162,16 @@ def build_plan(root):
             "p0053-fig1": "后加第三/第四种情况解释图；陈仁制作、2008-08-14水印。已视觉核对，保留第三方来源边界。",
             "p0053-fig2": "后加第五/第六种情况解释图；陈仁制作、2008-08-14水印。已视觉核对，保留第三方来源边界。",
             "p0054-fig1": "后加第七/第八种情况解释图；图内有陈仁制作、2008-08-15水印。已视觉核对，不作为第67课作者原始划分标准的证言。",
+            "p0094-fig1": "后加标准顶与底组合形式一解释图；实际查看PDF94下部彩色图，陈仁制作及2008年日期水印晚于第71课2007年文字，不作为作者原始定义证言。",
+            "p0095-fig1": "后加标准顶与底组合形式二解释图；实际查看PDF95上部彩色图，陈仁制作及2008年日期水印晚于第71课2007年文字，保留第三方解释身份。",
         }
         for suffix, note in figure_notes.items():
             row = db.execute("SELECT * FROM figures WHERE document_id LIKE 'volume_2-%' AND id LIKE ?", ("%-" + suffix,)).fetchone()
             if not row:
                 raise ValueError("已复核图像对象不存在：" + suffix)
             propose("figures", dict(row), {"origin_status": "later_annotation", "note": note}, "实际PDF页面视觉核对图内署名及日期，图意不因此自动获批")
+        row = db.execute("SELECT * FROM figures WHERE id='volume_2-5332cd1b6038-p0094-fig2'").fetchone()
+        propose("figures", dict(row), {"note": "第71课上方黑色四图示意；作者在p0094-b002明确说最后一个图有问题、须看第81课更正。已实际查看并记录警示，原始绘制者未核，不把最后图作无条件正确例证。"}, "实际PDF94原页及邻接作者更正提示；补充警示而不批准错误图")
 
         operations = [x for x in changed.values() if x["after"]]
         source_ids = [x["id"] for x in operations if x["table"] == "passages"]

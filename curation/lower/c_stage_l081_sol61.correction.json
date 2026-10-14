@@ -1,0 +1,23 @@
+{
+  "lesson_71_evidence": "volume_2-5332cd1b6038-p0094-b002",
+  "lesson_71_figure": "volume_2-5332cd1b6038-p0094-fig2",
+  "lesson_81_passage": "volume_2-5332cd1b6038-p0173-b012",
+  "new_claim_id": "lower-l081-c-stage-lesson71-last-diagram-correction",
+  "exact_quote": "另外，有人提到71课里最后一个图，那个图显然是错的，问题就在于与这里类似的，把7的位置画高了，应该类似7的位置比类似5的位置低才对，那才是三段，当时画的时候，没特别注意。所以这里必须指出。",
+  "author_correction": "类似7的位置应低于类似5的位置，才是三段。",
+  "supporting_conditional_answer": "两图5=7或5<7为一段；5>7为三段。",
+  "conditional_answer_source": [
+    "volume_2-5332cd1b6038-p0173-b009",
+    "volume_2-5332cd1b6038-p0173-b010",
+    "volume_2-5332cd1b6038-p0173-b011"
+  ],
+  "reader_quote_with_author_endorsement": true,
+  "visual_comparison_pages": [
+    94,
+    173
+  ],
+  "scope_note": "更正的是该最后示意图的相对高度及三段标记成立条件；不能直接外推任意线段划分的普遍算法。",
+  "old_l071_files_modified": false,
+  "old_pending_database_status_changed": false,
+  "remaining_boundary": "原博客图源仍未核；作者明确文字更正已经核清。"
+}

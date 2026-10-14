@@ -1,0 +1,70 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-540732b6b3b2",
+  "input_scope": [
+    "下册第81课188段，PDF173至188；对照第71课PDF94旧图"
+  ],
+  "new_claims": 51,
+  "reviewed_before": 482,
+  "batch_sha256": "aa095d2b34903b493345e0e0f665363a9161286bec715efe2c3df5c382529cc5",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261014T053243202041Z-curation-l081",
+  "root_review_scope": "检查全部51条陈述及条件，逐条检查关键更正、新旧笔标准、类背驰及第三买点答疑引文；实际查看PDF173/177/179/180/188。全188段四轮语义审读和11图视觉记录由实际Sol6.1子代理完成，不声称独立/人工审查。",
+  "checks_run": [
+    "51条JSON Schema通过",
+    "当前版本只读导入预检51条通过，DB和manifest哈希不变",
+    "本批发布后的26项Node工程检查通过",
+    "validate.mjs：当前533条默认知识无错误"
+  ],
+  "pending_summary": [
+    "lower-l081-c-stage-pending-original-figures",
+    "lower-l081-c-stage-pending-reader-generalization-boundary",
+    "lower-l081-c-stage-pending-second-question-not-answered",
+    "lower-l081-c-stage-pending-open-research",
+    "lower-l081-c-stage-pending-sep17-second-third-segments"
+  ],
+  "resolution": {
+    "id": "lower-l071-c-stage-resolution-lesson81-correction",
+    "status": "resolved_textual_correction",
+    "resolves": "lower-l071-c-stage-pending-lesson81-correction",
+    "lesson_number": 71,
+    "source_lesson_number": 81,
+    "claim_ids": [
+      "lower-l081-c-stage-lesson71-last-diagram-correction",
+      "lower-l081-c-stage-two-diagrams-conditional-answer"
+    ],
+    "passage_ids": [
+      "volume_2-5332cd1b6038-p0173-b012",
+      "volume_2-5332cd1b6038-p0173-b009",
+      "volume_2-5332cd1b6038-p0173-b010",
+      "volume_2-5332cd1b6038-p0173-b011"
+    ],
+    "issue": "第81课明确更正71最后图类似7应低于类似5才是三段；两图5=7或5<7一段，5>7三段保存作者认可链；只解决文字更正，不确认原博客图源或普遍算法。",
+    "reviewer": "主代理复核 + GPT-6.1 Sol xhigh子批来源复核",
+    "logged_at": "2026-10-14T05:32:43.202041+00:00"
+  },
+  "acceptance": "51条增量通过发布门槛，整课读完仍有5项pending；整个工程未验收",
+  "graph_version": "0.1.0-review-e5333df86a40",
+  "formal_import": "passed",
+  "original_482_claims_and_evidence_unchanged": true,
+  "reviewed_after": 533,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 168,
+    "claims": 3172,
+    "evidence": 3323,
+    "relations": 151,
+    "reviews": 586
+  },
+  "checks_not_run": [
+    "240条真实检索评测尚未完成",
+    "本次未执行Electron界面、旋转或打包后离线验收"
+  ],
+  "verification_graph_version": "0.1.0-review-b8840ae38391",
+  "next_action": "继续阶段C新批完整审读与发布"
+}

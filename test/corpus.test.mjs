@@ -93,6 +93,22 @@ test('作者明说与推论有独立身份和可解析前提链', () => {
   for (const premise of c.derivation.supporting_claim_ids) assert.equal(graph.getClaim(premise).review_status, 'reviewed');
   assert.equal(graph.getClaim('upper-l017-center-definition').kind, 'explicit');
 });
+test('重叠例子的算术答案独立标为整理推论，不补出中枢成立条件', () => {
+  const c = graph.getClaim('upper-l017-c-stage-example-overlap-arithmetic');
+  assert.equal(c.kind, 'inferred');
+  assert.match(c.text, /下界为12元、上界为18元/);
+  assert.match(c.conditions.join(' '), /不据此确认三段的级别、完成状态/);
+  assert.deepEqual(c.derivation.supporting_claim_ids, ['upper-l017-overlap-example', 'upper-l018-center-first-three']);
+  assert.match(c.review_note, /未直接写出答案/);
+  assert.equal(graph.getClaim('upper-l017-second-point-law').ambiguity_status, 'source_buy_sell_wording_pending');
+});
+test('前段尾部的新时间头只修订其后内容日期', () => {
+  const page = graph.page({ documentId: 'volume_1.pdf', page: 86 }).data;
+  const dates = Object.fromEntries(page.passages.map(p => [p.id.split('-p')[1], p.published_at]));
+  assert.equal(dates['0086-b002'], '2006-12-27 15:25:27');
+  assert.equal(dates['0086-b003'], '2006-12-27 15:29:37');
+  for (const suffix of ['0086-b004', '0086-b005', '0086-b006']) assert.equal(dates[suffix], '2006-12-28 15:45:14');
+});
 test('解盘技术补充保留作者身份、递归入口和成交分笔的区别', () => {
   const c = graph.getClaim('lower-l065-recursion-a0-practical-theoretical');
   assert.equal(c.kind, 'explicit');
@@ -117,6 +133,62 @@ test('简短组合回复保留问题范围，低级别卖点不冒充日线背�
   assert.ok(sells.evidence.some(e => e.pdf_page === 49));
   assert.ok(sells.evidence.some(e => e.pdf_page === 50));
 });
+test('中枢的九段延伸不被当成所有中枢必要条件，笔破坏与线段破坏分开', () => {
+  const nine = graph.getClaim('lower-l069-c-stage-nine-segments-not-necessary');
+  assert.match(nine.text, /不等于所有5分钟中枢必须由九段构成/);
+  const destruction = graph.getClaim('lower-l071-c-stage-stroke-vs-segment-no-implication');
+  assert.match(destruction.text, /笔破坏不必然线段破坏/);
+  assert.match(destruction.text, /第二种未必/);
+  assert.ok(destruction.evidence.some(e => e.passage_id.endsWith('p0102-b007')));
+});
+test('作者错误图警示及后加图来源与文字命题分别保留', () => {
+  const notice = graph.getClaim('lower-l071-c-stage-diagram-correction-notice');
+  assert.match(notice.text, /第81课更正/);
+  const figures = graph.db.prepare("SELECT id,origin_status,note FROM figures WHERE id IN ('volume_2-5332cd1b6038-p0094-fig1','volume_2-5332cd1b6038-p0094-fig2','volume_2-5332cd1b6038-p0095-fig1')").all();
+  assert.equal(figures.filter(f => f.origin_status === 'later_annotation').length, 2);
+  assert.match(figures.find(f => f.id.endsWith('p0094-fig2')).note, /最后一个图有问题/);
+  const macd = graph.getClaim('upper-l019-c-stage-macd-new-low-contrast-case');
+  assert.ok(macd.evidence.every(e => !e.quote.includes('最小级别')));
+  assert.match(macd.review_note, /引文严格止于括号注之前/);
+});
+test('71课错误图的更正保留81课限定及作者认可读者答案的证据链', () => {
+  const correction = graph.getClaim('lower-l081-c-stage-lesson71-last-diagram-correction');
+  assert.match(correction.text, /第71课最后一图/);
+  assert.match(correction.text, /低于类似5/);
+  assert.ok(correction.evidence.some(e => e.passage_id.endsWith('p0173-b012')));
+  const answer = graph.getClaim('lower-l081-c-stage-two-diagrams-conditional-answer');
+  for (const suffix of ['p0173-b009', 'p0173-b010', 'p0173-b011']) {
+    assert.ok(answer.evidence.some(e => e.passage_id.endsWith(suffix)));
+  }
+  assert.match(answer.review_note, /引述读者答案/);
+  assert.match(answer.conditions.join(' '), /第81课开头图一、图二/);
+});
+
+test('新笔两个联合条件及新旧标准选择分别可查', () => {
+  const criteria = graph.getClaim('lower-l081-c-stage-new-stroke-two-joint-conditions');
+  assert.match(criteria.text, /联合满足/);
+  assert.match(criteria.text, /不共用K线/);
+  assert.match(criteria.text, /不考虑包含关系，至少有3根K线/);
+  const choice = graph.getClaim('lower-l081-c-stage-new-standard-optional-old-kept');
+  assert.match(choice.text, /可以用新笔标准/);
+  assert.match(choice.text, /仍用老标准/);
+  assert.ok(choice.evidence.some(e => e.passage_id.endsWith('p0179-b001')));
+});
+
+test('中枢简式的回升或回调是替代条件，来源时间头不污染跨页评论', () => {
+  const formula = graph.getClaim('upper-l020-center-formula-reduced');
+  assert.equal(formula.conditions.length, 2);
+  assert.match(formula.conditions[1], /择一适用/);
+  assert.match(formula.conditions[1], /或回调形成时/);
+  assert.equal(formula.evidence[0].id, 'evidence-7d2db211b0452a2d');
+  for (const [suffix, date] of [['p0107-b006', '2007-01-10 16:22:39'], ['p0115-b001', '2007-01-12 15:26:45'], ['p0121-b000', '2007-01-17 15:18:53'], ['p0137-b002', '2007-01-22 15:27:14']]) {
+    const p = graph.db.prepare('SELECT published_at,role,speaker FROM passages WHERE id=?').get(`volume_1-a53e99c37ca5-${suffix}`);
+    assert.equal(p.published_at, date);
+    assert.equal(p.role, 'author_commentary');
+    assert.equal(p.speaker, '缠中说禅');
+  }
+});
+
 test('候选必须显式开启，重要性与复核状态独立', () => {
   const candidate = graph.db.prepare("SELECT id FROM claims WHERE review_status='pending' LIMIT 1").get();
   assert.equal(graph.getClaim(candidate.id), null);

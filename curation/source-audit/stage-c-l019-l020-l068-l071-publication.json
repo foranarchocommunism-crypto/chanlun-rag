@@ -1,0 +1,75 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-a11bf8d7a717",
+  "input_scope": [
+    "上册19、20课167段",
+    "下册68至71课428段"
+  ],
+  "new_claims": 189,
+  "reviewed_before": 293,
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261014T005725055868Z-curation-l019-l020-l068-l071",
+  "batch_sha256": {
+    "curation\\upper\\04-l019-l020-complete.reviewed.jsonl": "27b7169ac170c7c6825a6e8c5c0584e989340394add207027e8ce9d259a48e37",
+    "curation\\lower\\c_stage_l068_l071_sol61.jsonl": "85e96e0d1792a338939fcd55b4e47da676c067d65bd75e68cb4cd79c9cf867ea"
+  },
+  "root_review_scope": "检查全部189条命题陈述、条件及证据位置，抽核关键背驰、级别、笔/线段破坏原文；复看下册PDF94/95并标注后加图与错误图提示；四轮全段语义复核由所记录的Sol6.1子代理完成，不称独立审查",
+  "checks_run": [
+    "JSON Schema：67+122条通过",
+    "当前版本联合只读预检189条通过，DB和manifest哈希不变",
+    "本批发布后的26项Node工程检查通过",
+    "validate.mjs：当前533条默认知识无错误"
+  ],
+  "pending_summary": [
+    "上册8项待核，见04批pending",
+    "下册12项待核，见68至71课pending",
+    "第81课更正正在后续独立子批完整复核"
+  ],
+  "acceptance": "189条增量已发布；六课均保留明确pending，整个工程尚未验收",
+  "next_action": "继续阶段C新批完整审读与发布",
+  "graph_version": "0.1.0-review-3fdff34fe599",
+  "formal_import": "passed",
+  "original_293_claims_and_evidence_unchanged": true,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 163,
+    "claims": 3121,
+    "evidence": 3252,
+    "relations": 151,
+    "reviews": 535
+  },
+  "claim_status_counts": [
+    [
+      "pending",
+      2618
+    ],
+    [
+      "rejected",
+      21
+    ],
+    [
+      "reviewed",
+      482
+    ]
+  ],
+  "figure_origin_counts": [
+    [
+      "later_annotation",
+      10
+    ],
+    [
+      "unverified",
+      518
+    ]
+  ],
+  "checks_not_run": [
+    "240条真实检索评测尚未完成",
+    "本次未执行Electron界面、旋转或打包后离线验收"
+  ],
+  "verification_graph_version": "0.1.0-review-b8840ae38391"
+}

@@ -1,16 +1,17 @@
 {
-  "graph_version": "0.1.0-review-a80a4a9bf9cd",
-  "executable_development_cases": 24,
+  "graph_version": "0.1.0-review-3e11d6872cf2",
+  "executable_development_cases": 36,
   "final_target_cases": 240,
   "source_case_files": [
     "stage-g-batch-05.cases.jsonl",
-    "stage-g-batch-07.cases.jsonl"
+    "stage-g-batch-07.cases.jsonl",
+    "stage-g-batch-08.cases.jsonl"
   ],
   "gold_review_status": "model_reviewed_development",
   "human_gold_reviewed": false,
   "independent_test_set": false,
   "generated_answers_evaluated": false,
-  "retrieval_plan_contract_passed": 24,
+  "retrieval_plan_contract_passed": 36,
   "observations": [
     {
       "query_id": "g-b05-coincidence",
@@ -18,6 +19,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -28,9 +31,9 @@
               "limit": 20
             }
           },
-          "total": 11,
+          "total": 12,
           "truncated": false,
-          "elapsed_ms": 17.127399999999994
+          "elapsed_ms": 18.3551
         }
       ],
       "generated_answer_scored": false,
@@ -42,6 +45,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -52,9 +57,9 @@
               "limit": 20
             }
           },
-          "total": 66,
+          "total": 67,
           "truncated": true,
-          "elapsed_ms": 19.504800000000003
+          "elapsed_ms": 27.161600000000007
         }
       ],
       "generated_answer_scored": false,
@@ -66,6 +71,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -78,7 +85,7 @@
           },
           "total": 14,
           "truncated": false,
-          "elapsed_ms": 17.731300000000005
+          "elapsed_ms": 24.66080000000001
         }
       ],
       "generated_answer_scored": false,
@@ -90,6 +97,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -100,9 +109,9 @@
               "limit": 20
             }
           },
-          "total": 104,
+          "total": 109,
           "truncated": true,
-          "elapsed_ms": 23.022400000000005
+          "elapsed_ms": 29.7474
         }
       ],
       "generated_answer_scored": false,
@@ -114,6 +123,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -124,9 +135,9 @@
               "limit": 20
             }
           },
-          "total": 96,
+          "total": 101,
           "truncated": true,
-          "elapsed_ms": 18.9983
+          "elapsed_ms": 24.34190000000001
         },
         {
           "request": {
@@ -136,9 +147,9 @@
               "limit": 20
             }
           },
-          "total": 43,
+          "total": 44,
           "truncated": true,
-          "elapsed_ms": 21.218099999999993
+          "elapsed_ms": 23.54309999999998
         }
       ],
       "generated_answer_scored": false,
@@ -150,6 +161,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -160,9 +173,9 @@
               "limit": 20
             }
           },
-          "total": 133,
+          "total": 149,
           "truncated": true,
-          "elapsed_ms": 22.108599999999996
+          "elapsed_ms": 22.457300000000004
         }
       ],
       "generated_answer_scored": false,
@@ -174,6 +187,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -186,7 +201,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.360800000000012
+          "elapsed_ms": 5.829399999999993
         }
       ],
       "generated_answer_scored": false,
@@ -198,6 +213,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -210,7 +227,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.134100000000018
+          "elapsed_ms": 4.755599999999987
         },
         {
           "request": {
@@ -220,9 +237,9 @@
               "limit": 20
             }
           },
-          "total": 43,
+          "total": 44,
           "truncated": true,
-          "elapsed_ms": 29.57899999999998
+          "elapsed_ms": 25.493400000000037
         }
       ],
       "generated_answer_scored": false,
@@ -234,6 +251,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -246,7 +265,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 6.292000000000002
+          "elapsed_ms": 8.407100000000014
         }
       ],
       "generated_answer_scored": false,
@@ -258,6 +277,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -268,9 +289,9 @@
               "limit": 20
             }
           },
-          "total": 149,
+          "total": 160,
           "truncated": true,
-          "elapsed_ms": 23.800399999999996
+          "elapsed_ms": 22.031900000000007
         }
       ],
       "generated_answer_scored": false,
@@ -282,6 +303,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -294,7 +317,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.59820000000002
+          "elapsed_ms": 6.159999999999968
         }
       ],
       "generated_answer_scored": false,
@@ -306,6 +329,8 @@
       "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -318,7 +343,7 @@
           },
           "total": 18,
           "truncated": false,
-          "elapsed_ms": 2.6539000000000215
+          "elapsed_ms": 2.4493999999999687
         }
       ],
       "generated_answer_scored": false,
@@ -330,6 +355,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -342,7 +369,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 3.6306999999999903
+          "elapsed_ms": 3.7864000000000146
         },
         {
           "request": {
@@ -354,7 +381,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 3.744899999999973
+          "elapsed_ms": 5.071100000000001
         }
       ],
       "generated_answer_scored": false,
@@ -366,6 +393,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -378,7 +407,7 @@
           },
           "total": 7,
           "truncated": false,
-          "elapsed_ms": 10.444099999999992
+          "elapsed_ms": 8.588399999999979
         }
       ],
       "generated_answer_scored": false,
@@ -390,6 +419,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -402,7 +433,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.2509000000000015
+          "elapsed_ms": 4.404200000000003
         }
       ],
       "generated_answer_scored": false,
@@ -414,6 +445,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -424,9 +457,9 @@
               "limit": 20
             }
           },
-          "total": 1,
+          "total": 2,
           "truncated": false,
-          "elapsed_ms": 3.932700000000011
+          "elapsed_ms": 5.1053
         }
       ],
       "generated_answer_scored": false,
@@ -438,6 +471,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -450,7 +485,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 3.838099999999997
+          "elapsed_ms": 4.133200000000045
         }
       ],
       "generated_answer_scored": false,
@@ -462,6 +497,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -472,9 +509,9 @@
               "limit": 20
             }
           },
-          "total": 132,
+          "total": 143,
           "truncated": true,
-          "elapsed_ms": 26.882900000000006
+          "elapsed_ms": 22.530699999999968
         },
         {
           "request": {
@@ -486,7 +523,7 @@
           },
           "total": 41,
           "truncated": true,
-          "elapsed_ms": 22.052100000000053
+          "elapsed_ms": 23.897099999999966
         }
       ],
       "generated_answer_scored": false,
@@ -498,6 +535,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -508,9 +547,9 @@
               "limit": 20
             }
           },
-          "total": 76,
+          "total": 84,
           "truncated": true,
-          "elapsed_ms": 16.903599999999983
+          "elapsed_ms": 19.054299999999955
         }
       ],
       "generated_answer_scored": false,
@@ -522,6 +561,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -534,7 +575,7 @@
           },
           "total": 12,
           "truncated": false,
-          "elapsed_ms": 17.91489999999999
+          "elapsed_ms": 19.55509999999998
         }
       ],
       "generated_answer_scored": false,
@@ -546,6 +587,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -558,7 +601,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.699299999999994
+          "elapsed_ms": 5.804100000000005
         }
       ],
       "generated_answer_scored": false,
@@ -570,6 +613,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -582,7 +627,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.495599999999968
+          "elapsed_ms": 5.486199999999997
         }
       ],
       "generated_answer_scored": false,
@@ -594,6 +639,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -604,9 +651,9 @@
               "limit": 20
             }
           },
-          "total": 98,
+          "total": 114,
           "truncated": true,
-          "elapsed_ms": 15.290599999999984
+          "elapsed_ms": 17.351099999999974
         }
       ],
       "generated_answer_scored": false,
@@ -618,6 +665,8 @@
       "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
       "original_expected_evidence_ids_preserved": true,
       "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
       "missing": [],
       "queries": [
         {
@@ -630,7 +679,367 @@
           },
           "total": 21,
           "truncated": false,
-          "elapsed_ms": 2.0778000000000247
+          "elapsed_ms": 1.8308999999999855
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-prior-confirmation",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "B已确认破坏其前段",
+              "limit": 20
+            }
+          },
+          "total": 29,
+          "truncated": true,
+          "elapsed_ms": 24.835399999999993
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "每一线段都应破坏前一段",
+              "limit": 20
+            }
+          },
+          "total": 122,
+          "truncated": true,
+          "elapsed_ms": 18.83050000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-second-inclusion",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第二种情况的第二特征序列须严格",
+              "limit": 20
+            }
+          },
+          "total": 46,
+          "truncated": true,
+          "elapsed_ms": 17.69900000000007
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-normalize",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "无内部结构的基本部件",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.757600000000025
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-trend-outside-legs",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "A+b+B",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.850200000000086
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-right-unfinished",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "须再看两笔",
+              "limit": 20
+            }
+          },
+          "total": 85,
+          "truncated": true,
+          "elapsed_ms": 19.38220000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "9跌破7",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.8378999999999905
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-method-capacity",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "有充足时间且交易通道可用",
+              "limit": 20
+            }
+          },
+          "total": 4,
+          "truncated": false,
+          "elapsed_ms": 8.43870000000004
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "对背驰判断特别有把握",
+              "limit": 20
+            }
+          },
+          "total": 82,
+          "truncated": true,
+          "elapsed_ms": 20.534200000000055
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-first-center-preference",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "尽量只参与第一个",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.24879999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-fractal-one-way",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不一定形成大级别分型",
+              "limit": 20
+            }
+          },
+          "total": 158,
+          "truncated": true,
+          "elapsed_ms": 20.06409999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-quote-boundary",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 162
+            }
+          },
+          "total": 16,
+          "truncated": false,
+          "elapsed_ms": 1.921100000000024
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-corrected-level",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "错把绿箭头中一折",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 7.150600000000054
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "跌破96则1分钟中枢形成",
+              "limit": 20
+            }
+          },
+          "total": 148,
+          "truncated": true,
+          "elapsed_ms": 17.422500000000014
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-pure-center",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "明确否认后期",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.374199999999973
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b08-later-explicit-completion",
+      "source_case_file": "stage-g-batch-08.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-f74f3c05f891",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5＝7",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.511899999999969
         }
       ],
       "generated_answer_scored": false,

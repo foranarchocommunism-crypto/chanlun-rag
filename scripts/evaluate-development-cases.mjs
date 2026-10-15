@@ -21,22 +21,35 @@ try {
       assert.ok(claims.every(Boolean),item.query_id+': reviewed support missing');
       const anchors=claims.flatMap(c=>c.evidence);
       assert.ok(item.expected_evidence_ids.every(id=>anchors.some(x=>x.id===id)),item.query_id+': original evidence IDs changed');
-      const observedClaims=new Set(),observedPassages=new Set(),queries=[];
+      const observedClaims=new Set(),observedPassages=new Set(),observedSources=new Map(),queries=[];
       for(const request of item.retrieval_plan){
         const start=performance.now(),result=graph.query(request.command,request.args);
         for(const c of [...(result.data.results??[]),...(result.data.claims??[])]){
           observedClaims.add(c.id);
-          for(const e of c.evidence??[])observedPassages.add(e.passage_id);
+          for(const e of c.evidence??[]){observedPassages.add(e.passage_id);observedSources.set(e.passage_id,e);}
+          if(c.role&&c.pdf_page){observedPassages.add(c.id);observedSources.set(c.id,c);}
         }
-        for(const p of result.data.passages??[])observedPassages.add(p.id);
+        for(const p of result.data.passages??[]){
+          observedPassages.add(p.id);
+          observedSources.set(p.id,{...p,document_id:result.data.document.id,printed_page:result.data.page.printed_page});
+        }
         queries.push({request,total:result.data.total??result.data.passages?.length??null,
           truncated:result.data.truncated??false,elapsed_ms:performance.now()-start});
       }
       const usesPage=item.retrieval_plan.every(x=>x.command==='page');
       const missing=usesPage?item.expected_source_refs.filter(x=>!observedPassages.has(x.passage_id)).map(x=>x.passage_id):
         item.required_claims.filter(id=>!observedClaims.has(id));
+      const sourceMismatches=[];
+      for(const expected of item.expected_source_refs){
+        const actual=observedSources.get(expected.passage_id);
+        for(const field of ['document_id','pdf_page','printed_page','role']){
+          if(expected[field]!==undefined&&actual?.[field]!==expected[field])
+            sourceMismatches.push({passage_id:expected.passage_id,field,expected:expected[field],actual:actual?.[field]??null});
+        }
+      }
       observations.push({query_id:item.query_id,source_case_file:file,gold_created_graph_version:item.graph_version,
-        original_expected_evidence_ids_preserved:true,automatic_retrieval_contract_pass:missing.length===0,
+        original_expected_evidence_ids_preserved:true,automatic_retrieval_contract_pass:missing.length===0&&sourceMismatches.length===0,
+        source_identity_matches_expected:sourceMismatches.length===0,source_mismatches:sourceMismatches,
         missing,queries,generated_answer_scored:false,semantic_answer_faithfulness_automatically_proven:false});
     }
   }

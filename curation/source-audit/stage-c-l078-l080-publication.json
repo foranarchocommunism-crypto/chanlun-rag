@@ -1,0 +1,86 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-18ddc713f496",
+  "graph_version": "0.1.0-review-3e11d6872cf2",
+  "scope": "第78至80课392段，PDF142至173共32页与21张当课图；21段来源身份已恢复，80课简答明确关联81课完整答案",
+  "new_claims": 83,
+  "new_evidence": 154,
+  "relation_supports_added": 7,
+  "reviewed_before": 958,
+  "reviewed_after": 1041,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 190,
+    "claims": 3680,
+    "evidence": 4049,
+    "relations": 168,
+    "reviews": 1097
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l078_l080.reviewed.jsonl": "b62e3c95be80ef62599eb77982a17914e857a61b8937734a057d5b2f1ce38032"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T141522205424Z-curation-l078-l080",
+  "reviewer": "Codex 主代理 / 阶段C下册78至80课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l078-l080-c-stage-pending-stroke-endpoint-reply-reference",
+    "lower-l078-l080-c-stage-pending-valid-break-no-fixed-threshold",
+    "lower-l078-l080-c-stage-pending-fractal-exit-scope",
+    "lower-l078-l080-c-stage-pending-short-method-exit-timing",
+    "lower-l078-l080-c-stage-pending-chart-timing-and-makers",
+    "lower-l078-l080-c-stage-pending-same-high-not-explicit-answer",
+    "lower-l078-l080-c-stage-pending-forecast-performance-not-measured",
+    "lower-l078-l080-c-stage-pending-normalization-operation-details"
+  ],
+  "explicit_later_source_resolutions": [
+    {
+      "id": "lower-l080-diagrams-explicit-l081-completion",
+      "status": "resolved_by_explicit_later_source",
+      "lesson_number": 80,
+      "passage_ids": [
+        "volume_2-5332cd1b6038-p0172-b006",
+        "volume_2-5332cd1b6038-p0172-b009"
+      ],
+      "supporting_claim_ids": [
+        "lower-l081-c-stage-two-diagrams-conditional-answer"
+      ],
+      "resolution": "81课作者明确承认下午答复不完整，并认可5=7或5<7两图一段、5>7两图三段；旧答复及图像保留，不作无条件都一段规则。",
+      "author_explicit_correction_not_timestamp_inference": true,
+      "reviewer": "Codex 主代理 / 阶段C下册78至80课同模型四轮复核"
+    }
+  ],
+  "source_structure_changes": "stage-c-l078-l080-source-applied.json",
+  "checks_run": [
+    "83条JSON Schema及引用/身份/映射/坐标预检",
+    "392段原文哈希及全段台账一致",
+    "原958条已复核命题及其全部证据未改",
+    "一条过强requires关系显式改为related，原批字节归档、原全部命题与证据未改",
+    "修订后26项Node工程检查全通过",
+    "validate.mjs全量1041条默认知识0错误",
+    "7组本批边界及8组CLI/共享核心/桌面vendor结果一致；数据文件查询前后哈希未变",
+    "1041命题、190概念、168关系及coverage/Markdown同版本导出",
+    "新增12条开发题；三批36条在当前图谱36/36取证计划及来源文档/页码/身份核验通过，原题和证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答评分及检索基线对比未完成；36条仅为同模型开发题",
+    "Electron界面及Windows成品离线、缩放/旋转/跨页高亮实际交互未验收",
+    "剩余71课未完整语义审读，全书关系与图源审查未完成"
+  ],
+  "acceptance": "83条增量及154证据已发布，身份恢复与一条关系修订可追溯；全量1041条与两端模块一致性通过，8项待核及总目标未完成均保留。",
+  "next_action": "第81课已处理；接续下册82至84课341段，实际PDF189至221。先逐段读原文及相关图。",
+  "initial_import_graph_version": "0.1.0-review-f74f3c05f891",
+  "initial_batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l078_l080.reviewed.jsonl": "bd33e1b6fea9d22d824147a56365b6010d23184988f770460f1a60115789fa4e"
+  },
+  "initial_batch_archive": "../lower/c_stage_l078_l080.initial-reviewed.jsonl",
+  "post_import_amendments": [
+    "stage-c-l078-l080-relation-amendment.json"
+  ]
+}

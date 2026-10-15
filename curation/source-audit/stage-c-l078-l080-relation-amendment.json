@@ -1,0 +1,45 @@
+{
+  "stage": "C-relation-correction",
+  "base_graph_version": "0.1.0-review-f74f3c05f891",
+  "graph_version": "0.1.0-review-3e11d6872cf2",
+  "before": {
+    "id": "relation-e8ad5ab70e5ab8c8",
+    "source": "concept-6e4260e255d3de11",
+    "target": "concept-e9c45e3ee8a99fa1",
+    "type": "requires",
+    "claim_ids": "[\"lower-l080-c-stage-feature-sequence-three-elements-general\"]",
+    "review_status": "reviewed",
+    "importance_level": 1,
+    "importance_reason": "按支持该关系的已复核命题最高重要性汇总"
+  },
+  "after": {
+    "id": "relation-62536992b0ec5170",
+    "source": "concept-6e4260e255d3de11",
+    "target": "concept-e9c45e3ee8a99fa1",
+    "type": "related",
+    "claim_ids": "[\"lower-l080-c-stage-feature-sequence-three-elements-general\"]",
+    "review_status": "reviewed",
+    "importance_level": 1,
+    "importance_reason": "按支持该关系的已复核命题最高重要性汇总"
+  },
+  "reason": "三个元素才可能有分型只支持两概念关联，不能推出特征序列必须有分型；删除本批过强requires并改related。",
+  "source_passage_id": "volume_2-5332cd1b6038-p0173-b003",
+  "claims_and_evidence_unchanged": true,
+  "initial_batch_archive": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l078_l080.initial-reviewed.jsonl",
+  "initial_batch_sha256": "bd33e1b6fea9d22d824147a56365b6010d23184988f770460f1a60115789fa4e",
+  "final_batch_sha256": "b62e3c95be80ef62599eb77982a17914e857a61b8937734a057d5b2f1ce38032",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T143849900551Z-relation-l078-l080",
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 190,
+    "claims": 3680,
+    "evidence": 4049,
+    "relations": 168,
+    "reviews": 1097
+  },
+  "independent_review_claimed": false
+}

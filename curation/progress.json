@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-14T06:20:32.291034+00:00",
+  "updated_at": "2026-10-15T08:12:31.355113+00:00",
   "stage": "C",
   "run_mode": "authorized_execution",
   "authorization": "用户指定阶段B并授权按计划流程自动推进；已授权代码实现、数据整理和必要发布继续适用，无需逐阶段重复询问",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-b8840ae38391",
+  "graph_version": "0.1.0-review-5b278dccfccb",
   "source_boundary": "两册固定汇编PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
     "阶段A只读契约审查",
     "阶段B来源结构审查和可定位问题的可回退修订",
-    "阶段C：第17至20、65至71、81课共12课全部1131段四轮审读，技术抽取仍有待核",
-    "阶段C累计新增419条已复核命题，原试点114条保留；现533条已复核",
-    "10个后加图已标注；第71课旧图错误已以第81课作者明确文字更正及认可链单独收录",
-    "上册PDF86的4处和PDF107至137范围的24处评论日期作用域已按实际版面最小修复",
-    "第20课中枢公式条件经显式修订计划/备份/新增Review，澄清回升或回调择一适用；其他532条命题及全部533条证据未变",
-    "26项Node工程测试通过，validate.mjs检查533条默认知识无错误；13项合成导入契约测试此前通过",
-    "两端公共模块8组查询输出一致；533条命题、168概念、151关系及Markdown/coverage同版本导出"
+    "阶段C：第9、17至20、65至74、81课共16课1361段全部四轮审读，待核项目仍分别保留",
+    "阶段C累计新增532条已复核命题，现646条默认知识",
+    "14个含后期行情/水印的图已标后加图；作者对第71课旧图的明确更正保存于81课命题及认可链",
+    "本轮第9课8处读者身份、6处评论时间作用域纠正，拒绝1条误归作者的待核候选；原文、ID及坐标未变",
+    "第20课公式回升/回调互择条件已显式修订，原证据全部保留",
+    "26项Node工程检查通过，validate.mjs校验646条默认知识无错误",
+    "当前646条命题、178概念、151关系及Markdown/coverage同版本导出"
   ],
   "counts": {
     "documents": 2,
@@ -23,40 +23,40 @@
     "units": 110,
     "passages": 9647,
     "figures": 528,
-    "concepts": 168,
-    "claims": 3172,
-    "evidence": 3323,
+    "concepts": 178,
+    "claims": 3285,
+    "evidence": 3493,
     "relations": 151,
-    "reviews": 587
+    "reviews": 701
   },
   "claim_status_counts": [
     [
       "pending",
-      2618
+      2617
     ],
     [
       "rejected",
-      21
+      22
     ],
     [
       "reviewed",
-      533
+      646
     ]
   ],
   "figure_origin_counts": [
     [
       "later_annotation",
-      10
+      14
     ],
     [
       "unverified",
-      518
+      514
     ]
   ],
   "semantic_completion": false,
   "pending": [
     "各已读课程的未答练习、来源未知图像及条件边界见对应pending日志；第71课明确文字更正及第20课条件分支问题已追加解决记录，旧日志留历史",
-    "阶段C其余课程逐段抽取尚未完成；当前正在整理1至8、21至24、72至74课",
+    "阶段C其余课程尚未完成；正在整理1至8、21至24、75至77课；77课证明分支文字疑点已定位待核",
     "裸日期、嵌入读者引用作用域与来源身份缺口需随课核实",
     "阶段D跨课关系与阶段E重要性复查尚未完成",
     "阶段F完整查询输入/输出契约及依赖变更处理余项尚未完成",
@@ -70,25 +70,31 @@
     "source-audit/stage-c-l081-publication.json",
     "source-audit/stage-c-upper107-137-applied.json",
     "source-audit/stage-c-l020-amendment-applied.json",
-    "source-audit/stage-c-query-parity.json"
+    "source-audit/stage-c-query-parity.json",
+    "source-audit/stage-c-upper15-27-applied.json",
+    "source-audit/stage-c-l009-l072-l074-publication.json"
   ],
   "checks_run": [
-    "只读预检51条并验证DB/manifest哈希不变；51条JSON Schema通过",
-    "发布81课51条后既有482条命题和证据逐项未变；显式修订20课后另532条命题和全533条证据逐项未变",
-    "26项Node工程测试全部通过",
-    "validate.mjs：533条默认知识0错误",
-    "公共查询模块与桌面vendor副本8组输出一致，核心SHA256相同；非Electron界面验收",
-    "同版本533条命题、168概念、151关系与Markdown/coverage导出，逐行版本检查通过"
+    "联合只读预检113条和JSON Schema均通过，数据库/manifest哈希未变",
+    "正式发布新增113条后，旧533条命题及其全部证据逐项未变",
+    "26项Node工程测试全通过",
+    "validate.mjs：646条默认知识0错误",
+    "同版本646条命题、178概念、151关系及Markdown/coverage导出；公共核心SHA仍相同，8组模块一致性最近检查版本b8840ae38391"
   ],
   "checks_not_run": [
     "整库逐条语义复核尚未完成",
     "240条真实验收题尚未完成",
     "本次未执行Electron界面或打包后离线验收"
   ],
-  "acceptance": "局部增量发布和相关工程检查通过；12课读完仍有明确待核，整个工程未验收",
-  "next_resume_anchor": "curation/upper/05-l021-l024-complete.*；curation/lower/c_stage_l072_l074_sol61.*；curation/upper/06-l001-l008-complete.*",
+  "acceptance": "113条新增量已发布，16课全部逐段阅读并保留待核；整个工程尚未验收",
+  "next_resume_anchor": "curation/upper/05-l021-l024-complete.*；curation/upper/06-l001-l008-complete.*；curation/lower/c_stage_l075_l077_sol61.*",
   "next_action": "接收并复核当前三个阶段C子批，按当前版本统一预检、备份、发布和验证",
   "subagents": [
+    {
+      "model": "GPT-6.1 Sol",
+      "reasoning_effort": "xhigh",
+      "scope": "上册1至8课"
+    },
     {
       "model": "GPT-6.1 Sol",
       "reasoning_effort": "xhigh",
@@ -97,12 +103,7 @@
     {
       "model": "GPT-6.1 Sol",
       "reasoning_effort": "xhigh",
-      "scope": "下册72至74课"
-    },
-    {
-      "model": "GPT-6.1 Sol",
-      "reasoning_effort": "xhigh",
-      "scope": "上册1至8课"
+      "scope": "下册75至77课"
     }
   ],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。"

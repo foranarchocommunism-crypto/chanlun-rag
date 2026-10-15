@@ -133,9 +133,12 @@ def build_plan(root):
                 raise ValueError("PDF86已复核解盘身份发生变化：" + row["id"])
             propose("passages", row, {"published_at": timestamp}, "实际查看PDF86：新时间头在前一block尾部，支配后文；不把尾部头的日期覆盖前段正文")
 
-        # Individually reviewed scope in lessons21-24; these timestamps are
+        # Individually reviewed commentary; these timestamps are
         # layout headers, some extracted into the preceding block's tail.
         reviewed_comment_dates = {
+            "2006-11-23 12:09:31": ["p0024-b003", "p0024-b004"],
+            "2006-11-23 13:42:46": ["p0024-b005"],
+            "2006-11-23 15:11:58": ["p0024-b006", "p0025-b000", "p0025-b001"],
             "2007-01-10 16:22:39": ["p0107-b006", "p0107-b007"],
             "2007-01-10 22:02:27": ["p0107-b008"],
             "2007-01-12 12:02:09": ["p0114-b003"],
@@ -150,8 +153,24 @@ def build_plan(root):
             for suffix in suffixes:
                 row = next(r for r in rows if r["document_id"].startswith("volume_1-") and r["id"].endswith(suffix))
                 if row["role"] != "author_commentary" or row["speaker"] != "缠中说禅":
-                    raise ValueError("21至24课已复核解盘身份发生变化：" + row["id"])
-                propose("passages", row, {"published_at": timestamp}, "实际查看PDF107/114/115/120/121/136/137：时间头管辖其后内容，跨页保留直至下个时间头或回复栏目；只纠正日期元数据")
+                    raise ValueError("已复核解盘身份发生变化：" + row["id"])
+                propose("passages", row, {"published_at": timestamp}, "实际查看PDF24/25/107/114/115/120/121/136/137：时间头管辖其后内容，跨页保留直至下个时间头或回复栏目；只纠正日期元数据")
+
+        for suffix, speaker in (("p0025-b004", "Nn"), ("p0025-b005", "Nn"), ("p0026-b014", "酸辣粉"), ("p0027-b000", "酸辣粉"), ("p0027-b002", "酸辣粉"), ("p0027-b003", "酸辣粉"), ("p0027-b005", None), ("p0027-b006", None)):
+            row = next(r for r in rows if r["document_id"].startswith("volume_1-") and r["id"].endswith(suffix))
+            propose("passages", row, {"role": "reader", "speaker": speaker, "published_at": None}, "实际查看PDF25至27：读者署名及提问在随后黄色作者署名之前；不沿用前一作者回复时间，末一提问未署名则不造姓名")
+
+        upper_figure_notes = {
+            "p0015-fig1": "第6课认沽权证后加截图；图中行情标2007-03-23，晚于2006-10-24课程；网页版权还标2008。已视觉核对，不作为课程原发时点证言，制作人未核。",
+            "p0015-fig2": "第6课认购权证后加截图；图中行情标2007-03-23，晚于2006-10-24课程；网页版权还标2008。已视觉核对，不据该后期截图改写正文底线数值，制作人未核。",
+            "p0016-fig1": "第6课正股后加行情图；横轴延伸至2007年4月，晚于2006-10-24课程；上方光标日期不等于全图最后行情日期。已视觉核对，制作人未核。",
+            "p0022-fig1": "第8课东方金钰后加月线图；图头显示2007/11/30，晚于2006年11月课程及答疑；内嵌20061116回复、5.97元及注5月线与正文答疑2006-11-21、5.9元有差别，不视为作者更正，制作人未核。",
+        }
+        for suffix, note in upper_figure_notes.items():
+            row = db.execute("SELECT * FROM figures WHERE document_id LIKE 'volume_1-%' AND id LIKE ?", ("%-" + suffix,)).fetchone()
+            if not row:
+                raise ValueError("已复核上册图像对象不存在：" + suffix)
+            propose("figures", dict(row), {"origin_status": "later_annotation", "note": note}, "实际PDF15/16/22显示课程之后行情；后加时间证据与制作身份、图文含义分别记录")
 
         figure_notes = {
             "p0006-fig1": "后加彩色解释图；图内署名 FHSL 20080727，晚于第62课。已视觉核对，不作为作者原始配图证言。",

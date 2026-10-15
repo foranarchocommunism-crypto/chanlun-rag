@@ -1,17 +1,18 @@
 {
-  "graph_version": "0.1.0-review-3e11d6872cf2",
-  "executable_development_cases": 36,
+  "graph_version": "0.1.0-review-b19951bdb3de",
+  "executable_development_cases": 48,
   "final_target_cases": 240,
   "source_case_files": [
     "stage-g-batch-05.cases.jsonl",
     "stage-g-batch-07.cases.jsonl",
-    "stage-g-batch-08.cases.jsonl"
+    "stage-g-batch-08.cases.jsonl",
+    "stage-g-batch-09.cases.jsonl"
   ],
   "gold_review_status": "model_reviewed_development",
   "human_gold_reviewed": false,
   "independent_test_set": false,
   "generated_answers_evaluated": false,
-  "retrieval_plan_contract_passed": 36,
+  "retrieval_plan_contract_passed": 48,
   "observations": [
     {
       "query_id": "g-b05-coincidence",
@@ -33,7 +34,7 @@
           },
           "total": 12,
           "truncated": false,
-          "elapsed_ms": 18.3551
+          "elapsed_ms": 17.323200000000007
         }
       ],
       "generated_answer_scored": false,
@@ -57,9 +58,9 @@
               "limit": 20
             }
           },
-          "total": 67,
+          "total": 68,
           "truncated": true,
-          "elapsed_ms": 27.161600000000007
+          "elapsed_ms": 33.561400000000006
         }
       ],
       "generated_answer_scored": false,
@@ -85,7 +86,7 @@
           },
           "total": 14,
           "truncated": false,
-          "elapsed_ms": 24.66080000000001
+          "elapsed_ms": 48.8477
         }
       ],
       "generated_answer_scored": false,
@@ -109,9 +110,9 @@
               "limit": 20
             }
           },
-          "total": 109,
+          "total": 112,
           "truncated": true,
-          "elapsed_ms": 29.7474
+          "elapsed_ms": 51.46179999999998
         }
       ],
       "generated_answer_scored": false,
@@ -135,9 +136,9 @@
               "limit": 20
             }
           },
-          "total": 101,
+          "total": 105,
           "truncated": true,
-          "elapsed_ms": 24.34190000000001
+          "elapsed_ms": 39.166799999999995
         },
         {
           "request": {
@@ -147,9 +148,9 @@
               "limit": 20
             }
           },
-          "total": 44,
+          "total": 46,
           "truncated": true,
-          "elapsed_ms": 23.54309999999998
+          "elapsed_ms": 32.37229999999997
         }
       ],
       "generated_answer_scored": false,
@@ -173,9 +174,9 @@
               "limit": 20
             }
           },
-          "total": 149,
+          "total": 165,
           "truncated": true,
-          "elapsed_ms": 22.457300000000004
+          "elapsed_ms": 20.035900000000026
         }
       ],
       "generated_answer_scored": false,
@@ -201,7 +202,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.829399999999993
+          "elapsed_ms": 6.069899999999961
         }
       ],
       "generated_answer_scored": false,
@@ -227,7 +228,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.755599999999987
+          "elapsed_ms": 3.9125999999999976
         },
         {
           "request": {
@@ -237,9 +238,9 @@
               "limit": 20
             }
           },
-          "total": 44,
+          "total": 46,
           "truncated": true,
-          "elapsed_ms": 25.493400000000037
+          "elapsed_ms": 19.777199999999993
         }
       ],
       "generated_answer_scored": false,
@@ -265,7 +266,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 8.407100000000014
+          "elapsed_ms": 7.012200000000007
         }
       ],
       "generated_answer_scored": false,
@@ -289,9 +290,9 @@
               "limit": 20
             }
           },
-          "total": 160,
+          "total": 165,
           "truncated": true,
-          "elapsed_ms": 22.031900000000007
+          "elapsed_ms": 22.756200000000035
         }
       ],
       "generated_answer_scored": false,
@@ -317,7 +318,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 6.159999999999968
+          "elapsed_ms": 5.696000000000026
         }
       ],
       "generated_answer_scored": false,
@@ -343,7 +344,7 @@
           },
           "total": 18,
           "truncated": false,
-          "elapsed_ms": 2.4493999999999687
+          "elapsed_ms": 2.972699999999975
         }
       ],
       "generated_answer_scored": false,
@@ -369,7 +370,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 3.7864000000000146
+          "elapsed_ms": 4.008899999999983
         },
         {
           "request": {
@@ -381,7 +382,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.071100000000001
+          "elapsed_ms": 4.818399999999997
         }
       ],
       "generated_answer_scored": false,
@@ -407,7 +408,7 @@
           },
           "total": 7,
           "truncated": false,
-          "elapsed_ms": 8.588399999999979
+          "elapsed_ms": 10.93870000000004
         }
       ],
       "generated_answer_scored": false,
@@ -433,7 +434,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.404200000000003
+          "elapsed_ms": 6.0822
         }
       ],
       "generated_answer_scored": false,
@@ -459,7 +460,7 @@
           },
           "total": 2,
           "truncated": false,
-          "elapsed_ms": 5.1053
+          "elapsed_ms": 4.752399999999966
         }
       ],
       "generated_answer_scored": false,
@@ -485,7 +486,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.133200000000045
+          "elapsed_ms": 3.6562999999999874
         }
       ],
       "generated_answer_scored": false,
@@ -509,9 +510,9 @@
               "limit": 20
             }
           },
-          "total": 143,
+          "total": 147,
           "truncated": true,
-          "elapsed_ms": 22.530699999999968
+          "elapsed_ms": 26.947099999999978
         },
         {
           "request": {
@@ -521,9 +522,9 @@
               "limit": 20
             }
           },
-          "total": 41,
+          "total": 42,
           "truncated": true,
-          "elapsed_ms": 23.897099999999966
+          "elapsed_ms": 30.399599999999964
         }
       ],
       "generated_answer_scored": false,
@@ -547,9 +548,9 @@
               "limit": 20
             }
           },
-          "total": 84,
+          "total": 91,
           "truncated": true,
-          "elapsed_ms": 19.054299999999955
+          "elapsed_ms": 29.059300000000007
         }
       ],
       "generated_answer_scored": false,
@@ -575,7 +576,7 @@
           },
           "total": 12,
           "truncated": false,
-          "elapsed_ms": 19.55509999999998
+          "elapsed_ms": 41.80790000000002
         }
       ],
       "generated_answer_scored": false,
@@ -601,7 +602,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.804100000000005
+          "elapsed_ms": 12.316700000000083
         }
       ],
       "generated_answer_scored": false,
@@ -627,7 +628,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.486199999999997
+          "elapsed_ms": 10.67349999999999
         }
       ],
       "generated_answer_scored": false,
@@ -651,9 +652,9 @@
               "limit": 20
             }
           },
-          "total": 114,
+          "total": 123,
           "truncated": true,
-          "elapsed_ms": 17.351099999999974
+          "elapsed_ms": 25.020999999999958
         }
       ],
       "generated_answer_scored": false,
@@ -679,7 +680,7 @@
           },
           "total": 21,
           "truncated": false,
-          "elapsed_ms": 1.8308999999999855
+          "elapsed_ms": 2.1853999999999587
         }
       ],
       "generated_answer_scored": false,
@@ -703,9 +704,9 @@
               "limit": 20
             }
           },
-          "total": 29,
+          "total": 33,
           "truncated": true,
-          "elapsed_ms": 24.835399999999993
+          "elapsed_ms": 20.291200000000003
         },
         {
           "request": {
@@ -715,9 +716,9 @@
               "limit": 20
             }
           },
-          "total": 122,
+          "total": 128,
           "truncated": true,
-          "elapsed_ms": 18.83050000000003
+          "elapsed_ms": 17.093700000000013
         }
       ],
       "generated_answer_scored": false,
@@ -741,9 +742,9 @@
               "limit": 20
             }
           },
-          "total": 46,
+          "total": 49,
           "truncated": true,
-          "elapsed_ms": 17.69900000000007
+          "elapsed_ms": 15.23720000000003
         }
       ],
       "generated_answer_scored": false,
@@ -769,7 +770,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.757600000000025
+          "elapsed_ms": 5.737100000000055
         }
       ],
       "generated_answer_scored": false,
@@ -795,7 +796,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.850200000000086
+          "elapsed_ms": 6.265800000000013
         }
       ],
       "generated_answer_scored": false,
@@ -819,9 +820,9 @@
               "limit": 20
             }
           },
-          "total": 85,
+          "total": 92,
           "truncated": true,
-          "elapsed_ms": 19.38220000000001
+          "elapsed_ms": 20.484300000000076
         },
         {
           "request": {
@@ -833,7 +834,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 4.8378999999999905
+          "elapsed_ms": 4.8069000000000415
         }
       ],
       "generated_answer_scored": false,
@@ -859,7 +860,7 @@
           },
           "total": 4,
           "truncated": false,
-          "elapsed_ms": 8.43870000000004
+          "elapsed_ms": 7.555999999999926
         },
         {
           "request": {
@@ -869,9 +870,9 @@
               "limit": 20
             }
           },
-          "total": 82,
+          "total": 84,
           "truncated": true,
-          "elapsed_ms": 20.534200000000055
+          "elapsed_ms": 16.432500000000005
         }
       ],
       "generated_answer_scored": false,
@@ -897,7 +898,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 6.24879999999996
+          "elapsed_ms": 4.769400000000019
         }
       ],
       "generated_answer_scored": false,
@@ -921,9 +922,9 @@
               "limit": 20
             }
           },
-          "total": 158,
+          "total": 171,
           "truncated": true,
-          "elapsed_ms": 20.06409999999994
+          "elapsed_ms": 18.495699999999943
         }
       ],
       "generated_answer_scored": false,
@@ -949,7 +950,7 @@
           },
           "total": 16,
           "truncated": false,
-          "elapsed_ms": 1.921100000000024
+          "elapsed_ms": 1.8852999999999156
         }
       ],
       "generated_answer_scored": false,
@@ -975,7 +976,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 7.150600000000054
+          "elapsed_ms": 5.074700000000007
         },
         {
           "request": {
@@ -985,9 +986,9 @@
               "limit": 20
             }
           },
-          "total": 148,
+          "total": 164,
           "truncated": true,
-          "elapsed_ms": 17.422500000000014
+          "elapsed_ms": 17.015499999999975
         }
       ],
       "generated_answer_scored": false,
@@ -1013,7 +1014,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.374199999999973
+          "elapsed_ms": 4.971000000000004
         }
       ],
       "generated_answer_scored": false,
@@ -1039,7 +1040,355 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 5.511899999999969
+          "elapsed_ms": 4.189799999999991
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-fractal-word",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "其“分型”与数学分形",
+              "limit": 20
+            }
+          },
+          "total": 62,
+          "truncated": true,
+          "elapsed_ms": 17.195400000000063
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-inclusion-psychology",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "长阴直接吞掉阳线",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.984699999999975
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-third-no-expansion",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该卖点不形成中枢扩张",
+              "limit": 20
+            }
+          },
+          "total": 186,
+          "truncated": true,
+          "elapsed_ms": 14.964699999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-break-top-third-buy",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "最终有效破坏该顶分型",
+              "limit": 20
+            }
+          },
+          "total": 111,
+          "truncated": true,
+          "elapsed_ms": 14.625699999999938
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-stroke-base",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "可以设计用笔构造",
+              "limit": 20
+            }
+          },
+          "total": 91,
+          "truncated": true,
+          "elapsed_ms": 14.212600000000066
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-rename",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "以后统一称",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.254800000000046
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-different-functions",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "f1与f2可以完全不同",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.286100000000033
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-replace-unique",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "前提是保证分解唯一性",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.901200000000017
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "其上级别再用另一套",
+              "limit": 20
+            }
+          },
+          "total": 113,
+          "truncated": true,
+          "elapsed_ms": 14.635499999999979
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-level-duration",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者举100年说明",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.258200000000102
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-reprint-identity",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 211
+            }
+          },
+          "total": 14,
+          "truncated": false,
+          "elapsed_ms": 1.5108000000000175
+        },
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 209
+            }
+          },
+          "total": 10,
+          "truncated": false,
+          "elapsed_ms": 1.3257000000000971
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-three-phrase",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 196
+            }
+          },
+          "total": 13,
+          "truncated": false,
+          "elapsed_ms": 1.9220000000000255
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "三个元素才可能形成分型",
+              "limit": 20
+            }
+          },
+          "total": 61,
+          "truncated": true,
+          "elapsed_ms": 14.077599999999961
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b09-late-confirmation",
+      "source_case_file": "stage-g-batch-09.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-b19951bdb3de",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "source_identity_matches_expected": true,
+      "source_mismatches": [],
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "139起线段尚未确认结束",
+              "limit": 20
+            }
+          },
+          "total": 153,
+          "truncated": true,
+          "elapsed_ms": 21.94150000000002
         }
       ],
       "generated_answer_scored": false,

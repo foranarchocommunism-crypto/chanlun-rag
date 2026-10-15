@@ -1,0 +1,10 @@
+{
+  "graph_version": "0.1.0-review-87a6461088c9",
+  "source_passage_id": "volume_2-5332cd1b6038-p0211-b008",
+  "role": "unknown",
+  "speaker": "转载文（含华生访谈，原文作者未核）",
+  "negative_author_evidence_probe_rejected": true,
+  "reason": "{\"batch_rejected_atomically\":true,\"errors\":[{\"id\":\"negative-probe-reprint-author-evidence\",\"file\":\"curation\\\\lower\\\\c_stage_l082_l084.reviewed.jsonl\",\"line\":1,\"error\":\"引用身份未确认是作者：volume_2-5332cd1b6038-p0211-b008\"}]}",
+  "database_mode": "ro",
+  "writes_to_database": false
+}

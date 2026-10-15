@@ -1,0 +1,70 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-5b278dccfccb",
+  "reviewer": "Codex 主代理 / 阶段C上册1至8课同模型四轮审读",
+  "lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "passages_read": 126,
+  "claims": 60,
+  "evidence": 73,
+  "importance_counts": {
+    "4": 7,
+    "3": 30,
+    "2": 23
+  },
+  "new_concepts": [
+    "多头陷阱",
+    "安全线",
+    "年线",
+    "权证",
+    "空头陷阱"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "figure_objects_viewed": 7,
+  "pending": [
+    "upper-l001-l008-c-stage-pending-l006-warrant-numeric-conflict",
+    "upper-l001-l008-c-stage-pending-l006-attached-terms-origin",
+    "upper-l001-l008-c-stage-pending-l006-warrant-floor-proof",
+    "upper-l001-l008-c-stage-pending-l007-origin",
+    "upper-l001-l008-c-stage-pending-l008-failure-percentages",
+    "upper-l001-l008-c-stage-pending-l008-classification-joint-example",
+    "upper-l001-l008-c-stage-pending-l008-monthly-case-annotation",
+    "upper-l001-l008-c-stage-pending-l004-chart-origin"
+  ],
+  "database_mode": "ro",
+  "formal_import": true,
+  "context_drafts_not_published": 16,
+  "acceptance": "60条已复核命题已发布；126段审读与7图视觉核对完成，8项待核保留。",
+  "published_graph_version": "0.1.0-review-2b771977d4aa",
+  "publication_record": "curation/source-audit/stage-c-l001-l008-publication.json"
+}

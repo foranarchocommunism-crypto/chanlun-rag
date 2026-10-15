@@ -1,0 +1,644 @@
+{
+  "graph_version": "0.1.0-review-a80a4a9bf9cd",
+  "executable_development_cases": 24,
+  "final_target_cases": 240,
+  "source_case_files": [
+    "stage-g-batch-05.cases.jsonl",
+    "stage-g-batch-07.cases.jsonl"
+  ],
+  "gold_review_status": "model_reviewed_development",
+  "human_gold_reviewed": false,
+  "independent_test_set": false,
+  "generated_answers_evaluated": false,
+  "retrieval_plan_contract_passed": 24,
+  "observations": [
+    {
+      "query_id": "g-b05-coincidence",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "重合",
+              "limit": 20
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 17.127399999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-same-level",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上涨趋势确定",
+              "limit": 20
+            }
+          },
+          "total": 66,
+          "truncated": true,
+          "elapsed_ms": 19.504800000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-platform",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "平台突破",
+              "limit": 20
+            }
+          },
+          "total": 14,
+          "truncated": false,
+          "elapsed_ms": 17.731300000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-three-levels",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "三个级别共同",
+              "limit": 20
+            }
+          },
+          "total": 104,
+          "truncated": true,
+          "elapsed_ms": 23.022400000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-standard-structure",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "用MACD判断标准背驰",
+              "limit": 20
+            }
+          },
+          "total": 96,
+          "truncated": true,
+          "elapsed_ms": 18.9983
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "标准MACD",
+              "limit": 20
+            }
+          },
+          "total": 43,
+          "truncated": true,
+          "elapsed_ms": 21.218099999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-consolidation",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "C上破中枢",
+              "limit": 20
+            }
+          },
+          "total": 133,
+          "truncated": true,
+          "elapsed_ms": 22.108599999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-b-center",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "重新进入B段",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.360800000000012
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-estimate",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "面积乘二",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.134100000000018
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "标准MACD",
+              "limit": 20
+            }
+          },
+          "total": 43,
+          "truncated": true,
+          "elapsed_ms": 29.57899999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-zero-axis",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "略在其上或下",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.292000000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-end-low",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "整个次级别回拉最低位",
+              "limit": 20
+            }
+          },
+          "total": 149,
+          "truncated": true,
+          "elapsed_ms": 23.800399999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-source-code",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "6000217",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.59820000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-unanswered",
+      "source_case_file": "stage-g-batch-05.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-00cb21ad34ab",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 143
+            }
+          },
+          "total": 18,
+          "truncated": false,
+          "elapsed_ms": 2.6539000000000215
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-equal-boundaries",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "对应的一端相同",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.6306999999999903
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "软件显示到最后一位",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.744899999999973
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-one-price-limit",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "全天未打开的一字涨停",
+              "limit": 20
+            }
+          },
+          "total": 7,
+          "truncated": false,
+          "elapsed_ms": 10.444099999999992
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-uncompleted",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "尚未走完的段",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.2509000000000015
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-return-force",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "才可能形成",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.932700000000011
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-gap-complete",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "最终全部再次出现成交",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.838099999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-gap-level",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "调整级别至少大于",
+              "limit": 20
+            }
+          },
+          "total": 132,
+          "truncated": true,
+          "elapsed_ms": 26.882900000000006
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不能直接按缺口",
+              "limit": 20
+            }
+          },
+          "total": 41,
+          "truncated": true,
+          "elapsed_ms": 22.052100000000053
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-old-stroke",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第77课笔须",
+              "limit": 20
+            }
+          },
+          "total": 76,
+          "truncated": true,
+          "elapsed_ms": 16.903599999999983
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-proof-wording",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "两处分支原字重叠",
+              "limit": 20
+            }
+          },
+          "total": 12,
+          "truncated": false,
+          "elapsed_ms": 17.91489999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-first-second",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "应先区分类别",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.699299999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-provisional-abc",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "假设称呼",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.495599999999968
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-later-annotation",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第一笔破坏、A及该反弹",
+              "limit": 20
+            }
+          },
+          "total": 98,
+          "truncated": true,
+          "elapsed_ms": 15.290599999999984
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-pair-unanswered",
+      "source_case_file": "stage-g-batch-07.cases.jsonl",
+      "gold_created_graph_version": "0.1.0-review-a80a4a9bf9cd",
+      "original_expected_evidence_ids_preserved": true,
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 136
+            }
+          },
+          "total": 21,
+          "truncated": false,
+          "elapsed_ms": 2.0778000000000247
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "limits": [
+    "逐批固定来源开发题，非独立或人工金标准。",
+    "只执行取证计划，未评分生成回答，也未完成240题及各检索基线对比。"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "graph_version": "0.1.0-review-a80a4a9bf9cd",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b07-equal-boundaries",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "对应的一端相同",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 7.472000000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "软件显示到最后一位",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.047399999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-one-price-limit",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "全天未打开的一字涨停",
+              "limit": 20
+            }
+          },
+          "total": 7,
+          "truncated": false,
+          "elapsed_ms": 10.992500000000007
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-uncompleted",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "尚未走完的段",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.185199999999995
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-return-force",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "才可能形成",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.3057000000000016
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-gap-complete",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "最终全部再次出现成交",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.972999999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-gap-level",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "调整级别至少大于",
+              "limit": 20
+            }
+          },
+          "total": 132,
+          "truncated": true,
+          "elapsed_ms": 17.784899999999993
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不能直接按缺口",
+              "limit": 20
+            }
+          },
+          "total": 41,
+          "truncated": true,
+          "elapsed_ms": 20.820300000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-old-stroke",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第77课笔须",
+              "limit": 20
+            }
+          },
+          "total": 76,
+          "truncated": true,
+          "elapsed_ms": 15.810900000000004
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-proof-wording",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "两处分支原字重叠",
+              "limit": 20
+            }
+          },
+          "total": 12,
+          "truncated": false,
+          "elapsed_ms": 15.968400000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-first-second",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "应先区分类别",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.089500000000015
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-provisional-abc",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "假设称呼",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.8522000000000105
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-later-annotation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第一笔破坏、A及该反弹",
+              "limit": 20
+            }
+          },
+          "total": 98,
+          "truncated": true,
+          "elapsed_ms": 17.673399999999987
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b07-pair-unanswered",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 136
+            }
+          },
+          "total": 21,
+          "truncated": false,
+          "elapsed_ms": 2.3537000000000035
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只检查取证计划取得预定证据，不把检索命中等同回答忠实度或人工语义评分。",
+    "开发题在整理时建立，未作为独立留出集。"
+  ]
+}

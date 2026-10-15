@@ -1,0 +1,84 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-decdbfb1d167",
+  "graph_version": "0.1.0-review-a80a4a9bf9cd",
+  "scope": "第75至77课234段，PDF121至142共22页与10张当课图；67课等值疑问仅追加部分解除记录",
+  "new_claims": 75,
+  "new_evidence": 119,
+  "relation_supports_added": 7,
+  "reviewed_before": 883,
+  "reviewed_after": 958,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 190,
+    "claims": 3597,
+    "evidence": 3895,
+    "relations": 161,
+    "reviews": 1013
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l075_l077.reviewed.jsonl": "f0695954e7dca9e35458b8c7f6c18b262c1556cc101d94e3478c57b9ca2349a7"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T100041173624Z-curation-l075-l077",
+  "reviewer": "Codex 主代理 / 阶段C下册75至77课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l075-l077-c-stage-pending-proof-bottom-branch-overlap",
+    "lower-l075-l077-c-stage-pending-finite-chain-proof",
+    "lower-l075-l077-c-stage-pending-62-63-unexpanded-answer",
+    "lower-l075-l077-c-stage-pending-74-75-no-marked-proof",
+    "lower-l075-l077-c-stage-pending-79-80-comparison-pair-unanswered",
+    "lower-l075-l077-c-stage-pending-measurement-equality-unspecified",
+    "lower-l075-l077-c-stage-pending-dream-talk-probability",
+    "lower-l075-l077-c-stage-pending-figure-dates-and-makers"
+  ],
+  "partial_resolutions": [
+    {
+      "id": "lower-l067-equality-boundary-detail-partial-resolution-l075",
+      "status": "partially_resolved",
+      "resolves_pending_id": "lower-l067-equality-boundary-detail",
+      "lesson_number": 67,
+      "source_lesson_number": 75,
+      "resolved_aspects": [
+        "对应一端相同为包含",
+        "对应两端相同为包含",
+        "相等须软件最后一位小数绝对相同"
+      ],
+      "supporting_claim_ids": [
+        "lower-l075-c-stage-equal-endpoint-inclusion",
+        "lower-l075-c-stage-absolute-and-measurement-equality"
+      ],
+      "remaining": [
+        "其他麻点走势逐段处理未全部展开；一字涨停只解决所述特例",
+        "测量相等未给通用容差算法"
+      ],
+      "old_pending_record_preserved": true,
+      "reviewer": "Codex 主代理 / 阶段C下册75至77课同模型四轮复核"
+    }
+  ],
+  "source_figure_changes": "stage-c-l075-l077-figure-applied.json",
+  "checks_run": [
+    "75条JSON Schema及引用/身份/映射/坐标预检",
+    "234段原文哈希及全段台账一致",
+    "原883条已复核命题及其全部证据未改",
+    "26项Node工程检查全通过",
+    "validate.mjs全量958条默认知识0错误",
+    "7组本批边界场景及8组CLI/共享核心/桌面vendor一致性通过；查询未改数据文件",
+    "958命题、190概念、161关系及coverage/Markdown同版本导出",
+    "本批12条新增开发题取证计划通过；两批24条固定开发题在当前图谱24/24命中且旧证据ID未变"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答忠实度和基线对比未完成；24条仅为同模型来源开发题",
+    "Electron实际界面、Windows打包后离线及PDF缩放旋转多页高亮未验收",
+    "全书其他未审读课程及完整跨课图文审查未完成"
+  ],
+  "acceptance": "75条新增知识及119证据已发布，958条全量校验与两端查询模块一致性通过；8项待核、67课部分解除及未完成总目标均明确保留。",
+  "next_action": "从下册78课实际PDF142-b007继续78至80课392段，先逐段阅读及配图核对。"
+}

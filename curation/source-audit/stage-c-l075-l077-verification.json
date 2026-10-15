@@ -1,0 +1,91 @@
+{
+  "graph_version": "0.1.0-review-a80a4a9bf9cd",
+  "schema_version": "1.1.0",
+  "checks": [
+    "包含的对应端点和绝对精度有作者证据；一字涨停两种构造入口未混合",
+    "第三类点力度只作必要条件；未完成段不冒充已完成比较",
+    "补缺为全区间且无强制期限；调整走势级别与图周期分开",
+    "旧笔和后课新笔同时保留；原文不低于及证明分支歧义可返回",
+    "第一二种情况先分类；A/B/C确认前为假设，不因单笔破坏确认分段",
+    "81—82正文组合关系可查；蓝字新笔后加状态与原文证据分别返回",
+    "67课仅部分解除等值疑问；读者/作者回复/下一课边界与全书未完成状态保持"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "相等",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "笔",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "线段",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-407fe9aa59e8375e"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 141
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "不低于后面的底",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "验证共享模块、桌面vendor及CLI；未执行Electron界面或打包离线交互。",
+    "同模型开发验收，不宣称独立或人工语义金标准。"
+  ]
+}

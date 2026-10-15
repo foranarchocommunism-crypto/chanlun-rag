@@ -1,0 +1,64 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-c864a3304c31",
+  "graph_version": "0.1.0-review-00cb21ad34ab",
+  "scope": "第21至24课375段，实际PDF104至144共41页和37图对象",
+  "new_claims": 177,
+  "new_evidence": 210,
+  "relation_supports_added": 5,
+  "reviewed_before": 706,
+  "reviewed_after": 883,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 190,
+    "claims": 3522,
+    "evidence": 3776,
+    "relations": 155,
+    "reviews": 938
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\05-l021-l024-complete.reviewed.jsonl": "f786c2ee39385ca72a746d2883088de125dab804cc3e2fac354d1f19f10d767a"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T090630377472Z-curation-l021-l024",
+  "reviewer": "Codex 主代理 / 阶段C上册21至24课同模型四轮复核",
+  "formal_import": "passed",
+  "withheld_default_claims": 1,
+  "pending": [
+    "upper-l021-l024-c-stage-pending-unanswered-point-combinations",
+    "upper-l021-l024-c-stage-pending-second-retrace-missing-question",
+    "upper-l021-l024-c-stage-pending-third-buy-reference-level",
+    "upper-l021-l024-c-stage-pending-unanswered-three-stock-questions",
+    "upper-l021-l024-c-stage-pending-one-price-overlap-unanswered",
+    "upper-l021-l024-c-stage-pending-pattern-strength-and-bottom-connection",
+    "upper-l021-l024-c-stage-pending-6000217-source-typing",
+    "upper-l021-l024-c-stage-pending-macd-area-estimate-versus-completion",
+    "upper-l021-l024-c-stage-pending-theorem-proof-not-present",
+    "upper-l021-l024-c-stage-pending-reported-performance-not-validated",
+    "upper-l021-l024-c-stage-pending-figure-makers-and-annotations"
+  ],
+  "source_figure_changes": "stage-c-l021-l024-figure-applied.json",
+  "checks_run": [
+    "177条JSON Schema及只读引用/身份/映射/坐标预检",
+    "375段原文哈希与全段台账一致",
+    "原706条已复核命题及其全部证据未改",
+    "26项Node工程检查全通过",
+    "validate.mjs：883条默认知识0错误",
+    "6组本批语义场景通过；8组CLI/共享核心/桌面vendor查询结果一致，查询前后数据文件哈希未变",
+    "883命题、190概念、155关系及Markdown/coverage同版本导出",
+    "12个模型复核开发题已保存并执行取证计划，12/12取得预定证据"
+  ],
+  "checks_not_run": [
+    "240条全项目评测尚未完成，现12条开发题；未运行生成回答忠实度评分或独立人工金标准",
+    "Electron真实界面与Windows打包后离线、缩放/旋转验收未完成",
+    "全书其余课程语义复核未完成"
+  ],
+  "acceptance": "177条增量已发布，11项待核及1条缺失语境候选保留；全书和桌面交付未完成",
+  "next_action": "继续下册75至77课；原恢复点只有渲染结果，需要从PDF121至142与全部passages开始逐段复核。"
+}

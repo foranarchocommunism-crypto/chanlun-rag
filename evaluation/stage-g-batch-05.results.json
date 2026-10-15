@@ -1,0 +1,299 @@
+{
+  "graph_version": "0.1.0-review-00cb21ad34ab",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b05-coincidence",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "重合",
+              "limit": 20
+            }
+          },
+          "total": 9,
+          "truncated": false,
+          "elapsed_ms": 15.38349999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-same-level",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上涨趋势确定",
+              "limit": 20
+            }
+          },
+          "total": 64,
+          "truncated": true,
+          "elapsed_ms": 19.5047
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-platform",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "平台突破",
+              "limit": 20
+            }
+          },
+          "total": 14,
+          "truncated": false,
+          "elapsed_ms": 16.4752
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-three-levels",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "三个级别共同",
+              "limit": 20
+            }
+          },
+          "total": 99,
+          "truncated": true,
+          "elapsed_ms": 19.884299999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-standard-structure",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "用MACD判断标准背驰",
+              "limit": 20
+            }
+          },
+          "total": 95,
+          "truncated": true,
+          "elapsed_ms": 20.539000000000016
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "标准MACD",
+              "limit": 20
+            }
+          },
+          "total": 43,
+          "truncated": true,
+          "elapsed_ms": 22.68209999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-consolidation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "C上破中枢",
+              "limit": 20
+            }
+          },
+          "total": 129,
+          "truncated": true,
+          "elapsed_ms": 20.623199999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-b-center",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "重新进入B段",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.825400000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-estimate",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "面积乘二",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 3.5283000000000015
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "标准MACD",
+              "limit": 20
+            }
+          },
+          "total": 43,
+          "truncated": true,
+          "elapsed_ms": 18.749000000000024
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-zero-axis",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "略在其上或下",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.85329999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-end-low",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "整个次级别回拉最低位",
+              "limit": 20
+            }
+          },
+          "total": 143,
+          "truncated": true,
+          "elapsed_ms": 22.498400000000032
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-source-code",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "6000217",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 4.495400000000018
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b05-unanswered",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 143
+            }
+          },
+          "total": 18,
+          "truncated": false,
+          "elapsed_ms": 2.871399999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只检查取证计划取得预定证据，不把检索命中等同回答忠实度或人工语义评分。",
+    "开发题在整理时建立，未作为独立留出集。"
+  ]
+}

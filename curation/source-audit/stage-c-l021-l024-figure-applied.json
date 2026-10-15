@@ -1,0 +1,18 @@
+{
+  "stage": "B-source-corrections",
+  "base_graph_version": "0.1.0-review-2b771977d4aa",
+  "graph_version": "0.1.0-review-c864a3304c31",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T085729585626Z-source-structure",
+  "new_units": 0,
+  "source_operations": 12,
+  "rejected_candidates": [],
+  "pending": [
+    {
+      "id": "upper-l021-l024-figure-creators",
+      "status": "pending",
+      "reason": "后加图的制作人及原博客出处未核，不能以这些图新增作者一般规则。"
+    }
+  ],
+  "reviewed_claims_changed": 0,
+  "text_or_geometry_changed": false
+}

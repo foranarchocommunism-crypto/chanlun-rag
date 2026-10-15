@@ -1,0 +1,202 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-2b771977d4aa",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0110-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第22课配图：嵌入2007-01-14文字，晚于2007-01-11正文；图头当日光标不能代表所有嵌文时间。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0118-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第22课工行30分钟图：图头2007/01/15，晚于2007-01-12答疑。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0118-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第22课万科日线图：虽光标为2007/01/12，横轴及行情延至2007年3月，晚于1月12日答疑。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0122-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第23课上证30分钟图：图头2007/02/05，晚于2007-01-15答疑；后续三角走势不得倒填为发言时已知。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0125-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第23课60019630分钟图：图头2007/01/19，晚于2007-01-16答疑；嵌入读者交易与作者纠错需分开。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0131-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第23课上证5分钟图：图头2007/01/18，晚于2007-01-17答疑。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0136-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课工行日线图：光标2006/11/23，但全图行情横轴延至2007年5月，晚于2007-01-18解盘；光标日期不是整图制作日期。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0136-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课上证30分钟图：图头2007/01/26，晚于2007-01-22解盘。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0140-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课上证5分钟图：图头光标2007/01/22，行情与横轴包含1月23日，晚于1月22日答疑。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0141-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课600217五分钟图：图头2007/01/23，晚于2007-01-22答疑；图内另加黄白线解释不自动成为作者原文。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0141-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课上证30分钟图：图头2007/01/25，晚于2007-01-22答疑。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0144-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "第24课60133330分钟图：图头2007/01/26，晚于2007-01-22答疑；后续走势不能把原文未确认摆脱改为已确认。 主代理实际查看原页；原始制图人及注释者仍未核，文字命题独立按正文复核。"
+      },
+      "reason": "固定汇编原页可直接观察到晚于对应文字的日期或行情；后加时点与作者身份分别记录。"
+    }
+  ],
+  "affected_references": [],
+  "visual_pdf_pages": [
+    110,
+    118,
+    122,
+    125,
+    131,
+    136,
+    140,
+    141,
+    144
+  ],
+  "reviewer": "Codex 主代理 / 第21至24课图像来源复核",
+  "independent_review_claimed": false,
+  "pending": [
+    {
+      "id": "upper-l021-l024-figure-creators",
+      "status": "pending",
+      "reason": "后加图的制作人及原博客出处未核，不能以这些图新增作者一般规则。"
+    }
+  ]
+}

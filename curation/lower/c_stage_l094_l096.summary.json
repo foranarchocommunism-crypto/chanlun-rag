@@ -1,0 +1,63 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-157b2fbb1bb7",
+  "lessons": [
+    94,
+    95,
+    96
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册94—96课同模型四轮复核",
+  "passages_read": 168,
+  "claims": 48,
+  "evidence": 118,
+  "importance_counts": {
+    "1": 32,
+    "3": 4,
+    "2": 12
+  },
+  "new_concepts": [
+    "当机立断",
+    "赌徒心理"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323
+  ],
+  "figure_objects_viewed": 5,
+  "figure_origin_counts": {
+    "later_annotation": 3,
+    "unverified": 2
+  },
+  "pending": [
+    "lower-l094-l096-c-stage-pending-opportunity-completeness-not-proven",
+    "lower-l094-l096-c-stage-pending-t1-time-and-exit-parameters",
+    "lower-l094-l096-c-stage-pending-zero-cost-retry-boundaries",
+    "lower-l094-l096-c-stage-pending-bottom-preconfirmation-skill-scope",
+    "lower-l094-l096-c-stage-pending-nine-segments-and-second-case",
+    "lower-l094-l096-c-stage-pending-figure-makers-and-late",
+    "lower-l094-l096-c-stage-pending-warrant-expiry-and-historical-claims"
+  ],
+  "source_passages_snapshot_sha256": "2ff4b9cfdfb58f3875ff8075ed63a854ccc1c82a17e5eb09f60598cca6794ec4",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "168段四轮审读、14页5幅本批图检查；当机立断有退出/能力/T+1限制，零投入明确放宽与分型确认操作范围保留，三图后期，增量待预检发布。"
+}

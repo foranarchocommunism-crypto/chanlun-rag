@@ -1,0 +1,73 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-157b2fbb1bb7",
+  "graph_version": "0.1.0-review-82e7389a5855",
+  "scope": "第94—96课168段，PDF310至323共14页与5幅本批图；三图后期，当机立断能力与退出限制、零投入明确放宽及分型提前操作范围分别保留",
+  "new_claims": 48,
+  "new_evidence": 118,
+  "relation_supports_added": 7,
+  "reviewed_before": 1357,
+  "reviewed_after": 1405,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4044,
+    "evidence": 4662,
+    "relations": 220,
+    "reviews": 1464
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l094_l096.reviewed.jsonl": "bc0b38ce01111ac94ad25075d8ae89a36e2ef9b468859e2243fca2bd91afea35"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T160155397028Z-curation-l094-l096",
+  "reviewer": "Codex 主代理 / 阶段C下册94—96课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l094-l096-c-stage-pending-opportunity-completeness-not-proven",
+    "lower-l094-l096-c-stage-pending-t1-time-and-exit-parameters",
+    "lower-l094-l096-c-stage-pending-zero-cost-retry-boundaries",
+    "lower-l094-l096-c-stage-pending-bottom-preconfirmation-skill-scope",
+    "lower-l094-l096-c-stage-pending-nine-segments-and-second-case",
+    "lower-l094-l096-c-stage-pending-figure-makers-and-late",
+    "lower-l094-l096-c-stage-pending-warrant-expiry-and-historical-claims"
+  ],
+  "source_structure_changes": "stage-c-l094-l096-figure-applied.json",
+  "checks_run": [
+    "48条JSON Schema及引用/身份/映射/坐标预检",
+    "168段原文哈希及全段台账一致",
+    "原1357条已复核命题及其全部证据未改",
+    "27项Node工程检查通过；1405条全量引用0错误",
+    "8组能力/退出/资本补充/分型/图源边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1405命题/205概念/220关系同版本导出",
+    "新增12题后120/120开发取证计划及来源身份检查通过；旧题及证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线评分未完成",
+    "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
+    "其余56课完整语义及全书图源核查未完成",
+    "所有机会一一对应、零成本/收益保证或提前分型识别完整算法未独立证明"
+  ],
+  "acceptance": "48条增量已发布，7项待核与三张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第97至98课179段，实际PDF323至338，从p0323-b008开始；顺读正文及解盘，核对中医/兵法比喻和实际操作条件，不将类比当专业事实。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-82e7389a5855",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1405,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 120,
+    "development_cases_total": 120,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  },
+  "verification_script_correction": "初始跨日证据页码断言误设返回顺序；实际接口按证据ID排序。改为核对相同页码集合，所需证据ID、页码与开发题均未减弱，复跑通过。"
+}

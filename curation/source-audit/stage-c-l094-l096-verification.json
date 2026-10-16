@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-82e7389a5855",
+  "schema_version": "1.1.0",
+  "checks": [
+    "48新增默认命题；跨页准备句保留，选择机会可放弃且先设退出",
+    "T+1同日退出限制、中线/先卖/20%回补联合条件及初心者均线退出保留",
+    "1/22预期含例外、1/23已成及两条扩展路线分开，九次级非任意九K",
+    "0投入有作者明确放宽，借钱先还本仅自述；再试需复盘，后续多年学习路径不删除",
+    "无技术等底确认与熟练者具体提前操作并列，底形成不等于笔已确认",
+    "跨日问答第三段未完、13:40非1分钟三买及MACD非背驰充分条件可取证",
+    "认沽不归认购，教学/禁追与已持有高手例外保留；机会输出识别执行三步不同",
+    "三后期图两未核图与310邻图分开，2.3/2.029差异不自动改文，整体语义仍未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "赌徒心理"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "当机立断",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "赌徒心理",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "当机立断",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-f0cc92b292120a68"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 317
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第三段还没完成",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，未证明机会无遗漏/一一对应、资本/收益保证或提前分型操作的实时算法。"
+  ]
+}

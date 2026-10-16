@@ -1,0 +1,347 @@
+{
+  "graph_version": "0.1.0-review-82e7389a5855",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b15-prepare-and-skip",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "预先设置退出边界条件",
+              "limit": 20
+            }
+          },
+          "total": 18,
+          "truncated": false,
+          "elapsed_ms": 40.33240000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "选择参与或放弃",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.807000000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-t1-no-same-day-exit",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "买入后可能无法卖出",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 7.671499999999995
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-beginner-ma-conjunction",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "一旦分型后有效跌破须退出",
+              "limit": 20
+            }
+          },
+          "total": 84,
+          "truncated": true,
+          "elapsed_ms": 21.560999999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-jan22-versus-23",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "极可能是下跌第二中枢",
+              "limit": 20
+            }
+          },
+          "total": 233,
+          "truncated": true,
+          "elapsed_ms": 30.037800000000004
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第二1分钟中枢已形成",
+              "limit": 20
+            }
+          },
+          "total": 222,
+          "truncated": true,
+          "elapsed_ms": 30.928499999999985
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-zero-not-no-initial-money",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上市后归还本金",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.110299999999995
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "明确说0成本投入不必那么严格",
+              "limit": 20
+            }
+          },
+          "total": 35,
+          "truncated": true,
+          "elapsed_ms": 21.778999999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-retry-not-unlimited",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "必须先剖析全部失败根源",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.856200000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "经过多年学习历练",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 8.474100000000021
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-gambler-target",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "亏后要求反弹到自定价才走",
+              "limit": 20
+            }
+          },
+          "total": 28,
+          "truncated": true,
+          "elapsed_ms": 29.10300000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-wait-versus-early",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "没有相应技术者继续等日底分型确认",
+              "limit": 20
+            }
+          },
+          "total": 205,
+          "truncated": true,
+          "elapsed_ms": 26.460800000000006
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不是等分型已确认才操作",
+              "limit": 20
+            }
+          },
+          "total": 162,
+          "truncated": true,
+          "elapsed_ms": 49.79110000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-third-unfinished",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第三段尚未完成",
+              "limit": 20
+            }
+          },
+          "total": 71,
+          "truncated": true,
+          "elapsed_ms": 41.18309999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-put-not-call-not-recommendation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "580989认沽日线",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.972199999999987
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "一般人不可介入",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 18.391700000000014
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-macd-not-divergence",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不能以为MACD就等于背驰",
+              "limit": 20
+            }
+          },
+          "total": 148,
+          "truncated": true,
+          "elapsed_ms": 73.40969999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b15-three-steps-not-price-predictor",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不预测点位时间",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 33.944000000000074
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

@@ -1,19 +1,18 @@
 {
-  "updated_at": "2026-10-16T14:44:07.176733+00:00",
+  "updated_at": "2026-10-16T15:37:42.646680+00:00",
   "stage": "C with scoped E/G checks",
   "run_mode": "authorized_execution",
   "authorization": "用户在当前目标中明确授权全部权限、持续推进；按两册目标顺序先知识图谱与Agent访问包再Windows应用，无额外中途批准关卡。",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-e5c1e73cef63",
+  "graph_version": "0.1.0-review-24665e3d905d",
   "source_boundary": "两册固定汇编PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
-    "中断后核对89至90已发布66条及别名，修复条件/例外检索漏项，原失败题不改并通过84题；提交901be01",
-    "继续第91课119段同模型四轮审读，实际查看PDF277至290共14页及9图，92课相邻正文未计入本批",
-    "新增47条命题、73证据、8关系与笔定理/笔状态/表里关系3概念；五图明确后期，四图制作人未核",
-    "四状态六转换、单根小周期警告与大周期确认、周日四种次序可追溯；4^8/64不认证全组合可达，自动赚钱仅作者设想",
-    "91笔不能构中枢与83允许替代设计并列，未来图和网站值得参与加语不改正文，未成/已成及5210/5209精度分开",
-    "原1250命题及全部证据未改，当前1297默认知识、201概念、207关系，本批7项待核及旧待核局部补充分别保留",
-    "最终27工程、1297全量引用、8组边界与8组两端模块/CLI一致性通过，同版本导出完成，96/96开发取证题通过"
+    "第92—93课229段同模型四轮审读，实际查看PDF290至310共21页与12图；94课相邻正文未计本批",
+    "新增60命题、85证据、7关系与中枢震荡监视器/震荡中轴2概念；八图后加，四图制作人未核",
+    "Zn最终越界的作者必要断言与任次越界非充分分开，级别扩展一般非100%，高低预测大致且含特殊情况",
+    "Zn跨课多义区分，93零态两向、取本已有利润与能力门槛、下延不回补及对应小级别走势分别保留",
+    "原1297命题及全部证据未改；当前1357默认知识/203概念/214关系，9项待核及3项旧待核局部补充保留",
+    "27工程、1357全量引用、8组边界与8组入口一致性通过，同版本导出，108/108开发取证及来源身份检查通过"
   ],
   "counts": {
     "documents": 2,
@@ -21,11 +20,11 @@
     "units": 110,
     "passages": 9647,
     "figures": 528,
-    "concepts": 201,
-    "claims": 3936,
-    "evidence": 4459,
-    "relations": 207,
-    "reviews": 1356
+    "concepts": 203,
+    "claims": 3996,
+    "evidence": 4544,
+    "relations": 214,
+    "reviews": 1416
   },
   "claim_status_counts": [
     [
@@ -38,25 +37,25 @@
     ],
     [
       "reviewed",
-      1297
+      1357
     ]
   ],
   "figure_origin_counts": [
     [
       "later_annotation",
-      65
+      73
     ],
     [
       "unverified",
-      463
+      455
     ]
   ],
   "semantic_completion": false,
   "pending": [
-    "本批7项待核见c_stage_l091.pending.jsonl：笔构中枢跨课范围、零态确认指代、联合矩阵可达/获利、图源、确认层次、九段/背驰例、预测及数值参考",
-    "90课BOLL参数/周期选择和中枢升级待核获得91新边界来源，但未完整参数化，未自动关闭",
-    "剩余61课未完整语义审读；47课DB标已读含历史62至64记录，不代表全部技术已确认或独立复核",
-    "完整跨课关系、图文核验及240题/回答/基线评分未完成；当前96条同模型开发题",
+    "本批9项待核见c_stage_l092_l093.pending.jsonl：Zn取样/九点/预测、多义、配合、状态符号、缺失第二情形、阈值、类背驰范围、历史断言、图源",
+    "91零态确认/数值预测、90BOLL参数待核获得新局部来源，但没有统一算法或精确预测保证，未关闭",
+    "剩余59课未完整语义审读；49课DB标已读含历史62至64记录，不代表全部技术已确认或独立复核",
+    "完整跨课关系、图文核验及240题/回答/基线评分未完成；当前108条同模型开发题",
     "Windows成品实际离线、缩放/旋转/跨页高亮与真实交互验收未完成"
   ],
   "machine_outputs": [
@@ -129,48 +128,55 @@
     "source-audit/stage-c-l091-verification.json",
     "lower/c_stage_l091.partial-resolutions.jsonl",
     "../evaluation/stage-g-batch-13.cases.jsonl",
-    "../evaluation/stage-g-batch-13.results.json"
+    "../evaluation/stage-g-batch-13.results.json",
+    "source-audit/stage-c-l092-l093-figure-plan.json",
+    "source-audit/stage-c-l092-l093-figure-applied.json",
+    "source-audit/stage-c-l092-l093-publication.json",
+    "source-audit/stage-c-l092-l093-verification.json",
+    "lower/c_stage_l092_l093.partial-resolutions.jsonl",
+    "../evaluation/stage-g-batch-14.cases.jsonl",
+    "../evaluation/stage-g-batch-14.results.json"
   ],
   "checks_run": [
-    "47条JSON Schema及引用/身份/映射/坐标预检",
-    "119段原文哈希及全段台账一致",
-    "原1250条已复核命题及其全部证据未改",
-    "27项Node工程检查通过；1297条全量引用0错误",
-    "8组笔状态/转换/矩阵/跨课边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
-    "1297命题/201概念/207关系同版本导出",
-    "新增12题后96/96开发取证计划及来源身份检查通过；旧题与证据ID保留"
+    "60条JSON Schema及引用/身份/映射/坐标预检",
+    "229段原文哈希及全段台账一致",
+    "原1297条已复核命题及其全部证据未改",
+    "27项Node工程检查通过；1357条全量引用0错误",
+    "8组必要/非充分/状态/图源边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1357命题/203概念/214关系同版本导出",
+    "新增12题后108/108开发取证计划及来源身份检查通过；旧题及证据ID保留"
   ],
   "checks_not_run": [
     "240题完整评测、生成回答及检索基线评分未完成",
     "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
-    "其余61课完整语义及全书图源核查未完成",
-    "四态识别完备性、联合状态可达性和自动获利设想未证明"
+    "其余59课完整语义及全书图源核查未完成",
+    "Zn取样、九点升级及有效跌破阈值无统一完整算法；作者预测/获利主张未独立验证"
   ],
-  "acceptance": "第91课47条及73证据正式发布，1297条全量引用与96题开发取证通过；条件/例外检索修复沿用，7项待核与总目标未完成均保留。",
-  "next_resume_anchor": "volume_2-5332cd1b6038-p0290-b002 / lesson-092：实际PDF290；92至93课共229段，PDF290至310",
-  "next_action": "接续第92至93课229段，实际PDF290至310，从p0290-b002开始；先顺读正文及解盘，再检查所有原图。",
+  "acceptance": "第92—93课60条及85证据已发布，1357条全量引用与108题开发取证通过；9项待核及全书/Windows总目标未完成均保留。",
+  "next_resume_anchor": "volume_2-5332cd1b6038-p0310-b006 / lesson-094：实际PDF310；94至96课共168段，PDF310至323",
+  "next_action": "接续第94至96课168段，实际PDF310至323，从p0310-b006开始；先顺读正文及解盘，再核对图源和确认对象。",
   "subagents": [],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。",
   "previous_checkpoint": {
-    "graph_version": "0.1.0-review-089fa1fbf63b",
+    "graph_version": "0.1.0-review-e5c1e73cef63",
     "completed": [
-      "下册89至90课276段同模型四轮审读，实际查看PDF250至277共28页及18图；91课相邻正文未计本批",
-      "新增66条命题、102证据、11项关系支撑（净增9边）与布林通道/市场陷阱概念；11图明确后期、7图仍未核",
-      "结构必经5分钟中枢与BOLL有例外辅助分开，收口可扩展或结束、跨周期选择不固定六倍、构成/确立与预期/事实按时间保留",
-      "原1184命题及全部证据未改；当前1250默认知识、198概念、199关系，7项新待核及3项旧待核局部补充均保留",
-      "两项已核别名发布，命题证据段落关系未改；BOLL和中阴身阶段可返回对应规范概念",
-      "修复条件/例外字段不直接参与知识检索的漏项，原失败题问法与期望ID不变；两端公共模块SHA一致",
-      "最终27项工程、1250全量引用、8组边界、8组CLI/共享/桌面模块一致性及同版本导出通过，84/84开发取证题通过"
+      "中断后核对89至90已发布66条及别名，修复条件/例外检索漏项，原失败题不改并通过84题；提交901be01",
+      "继续第91课119段同模型四轮审读，实际查看PDF277至290共14页及9图，92课相邻正文未计入本批",
+      "新增47条命题、73证据、8关系与笔定理/笔状态/表里关系3概念；五图明确后期，四图制作人未核",
+      "四状态六转换、单根小周期警告与大周期确认、周日四种次序可追溯；4^8/64不认证全组合可达，自动赚钱仅作者设想",
+      "91笔不能构中枢与83允许替代设计并列，未来图和网站值得参与加语不改正文，未成/已成及5210/5209精度分开",
+      "原1250命题及全部证据未改，当前1297默认知识、201概念、207关系，本批7项待核及旧待核局部补充分别保留",
+      "最终27工程、1297全量引用、8组边界与8组两端模块/CLI一致性通过，同版本导出完成，96/96开发取证题通过"
     ],
-    "next_action": "接续第91课119段、实际PDF277至290，从p0277-b001开始；随后92课138段、93课91段，顺序审读及核图。",
+    "next_action": "接续第92至93课229段，实际PDF290至310，从p0290-b002开始；先顺读正文及解盘，再检查所有原图。",
     "evaluation": {
-      "executable_development_cases": 84,
+      "executable_development_cases": 108,
       "target": 240,
       "gold_review_status": "model_reviewed_development",
       "human_gold_reviewed": false,
       "independent_test_set": false,
       "generated_answers_scored": false,
-      "retrieval_plan_and_source_identity_passed_on_current_graph": 84
+      "retrieval_plan_and_source_identity_passed_on_current_graph": 108
     }
   },
   "unit_processing_status_counts": [
@@ -180,7 +186,7 @@
     ],
     [
       "extracted",
-      61
+      59
     ],
     [
       "semantic_extraction_complete",
@@ -188,19 +194,19 @@
     ],
     [
       "semantic_read_with_pending",
-      43
+      45
     ]
   ],
-  "coverage_caveat": "第91课直接审读119段并查看14页9图；DB累计47课含历史62至64记录。四态与机器设想的作者断言可查，不等于完整证明、交易实现或全部语义/图源确认。",
+  "coverage_caveat": "本批直接审读229段21页12图；DB累计49课含历史62至64记录。作者必要/概率/预测主张不等于独立证明或实测收益；尚未完成全书。",
   "execution_note": "主代理完成，未使用子代理；固定两册汇编边界，未核原博客或转载原网页。",
   "evaluation": {
-    "executable_development_cases": 96,
+    "executable_development_cases": 108,
     "target": 240,
     "gold_review_status": "model_reviewed_development",
     "human_gold_reviewed": false,
     "independent_test_set": false,
     "generated_answers_scored": false,
-    "retrieval_plan_and_source_identity_passed_on_current_graph": 96
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 108
   },
-  "previous_turn_classification": "progress：本轮从89至90中断状态恢复、修复实际检索漏项并提交，再完整审读发布91课47条；尚余61课与完整评测/成品验收。"
+  "previous_turn_classification": "progress：92至93课229段完整审读及12图核验，发布60条并通过108题开发检索；尚余59课与完整评测/成品验收。"
 }

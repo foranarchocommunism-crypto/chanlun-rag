@@ -1,0 +1,72 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-aa71611c4d3e",
+  "lessons": [
+    92,
+    93
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册92—93课同模型四轮复核",
+  "passages_read": 229,
+  "claims": 60,
+  "evidence": 85,
+  "importance_counts": {
+    "1": 33,
+    "3": 3,
+    "2": 22,
+    "4": 2
+  },
+  "new_concepts": [
+    "中枢震荡监视器",
+    "震荡中轴"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310
+  ],
+  "figure_objects_viewed": 12,
+  "figure_origin_counts": {
+    "unverified": 4,
+    "later_annotation": 8
+  },
+  "pending": [
+    "lower-l092-l093-c-stage-pending-midpoints-sampling-nine-and-prediction",
+    "lower-l092-l093-c-stage-pending-zn-notation-collision",
+    "lower-l092-l093-c-stage-pending-trend-cooperation-unquantified",
+    "lower-l092-l093-c-stage-pending-state-symbol-inconsistency",
+    "lower-l092-l093-c-stage-pending-second-situation-not-numbered",
+    "lower-l092-l093-c-stage-pending-effective-break-and-force-thresholds",
+    "lower-l092-l093-c-stage-pending-analog-divergence-daily-scope",
+    "lower-l092-l093-c-stage-pending-historical-forecast-and-profits",
+    "lower-l092-l093-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_passages_snapshot_sha256": "2c0574528df840512d1b6c9a51a5294777372b6b295da86464aa8630e5d49aeb",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "229段四轮审读、21页12图检查；监视器必要/非充分边界、状态操作能力及历史条件分开，八图后加，增量待预检发布。"
+}

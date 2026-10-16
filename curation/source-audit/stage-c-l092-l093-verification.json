@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-24665e3d905d",
+  "schema_version": "1.1.0",
+  "checks": [
+    "60条新增默认命题；92的Zn中点与20的Z走势段、88的周线编号分开",
+    "最终必要关系与任次越界非充分分开；扩展经验非100%，预计高低仅大致且有特殊情况",
+    "次级趋势、Zn配合及前后中枢联合条件保留；九点不能换成任意九根K线",
+    "300未完和缺三买突破未100%保留；1/8第二支仍可爆发、第一支当日已否",
+    "零态两向保留；先取本需已有利润与能力条件，短差先卖后买遇下延不回补，均线为替代",
+    "周K与走势级别不固定；最后中枢比较需背驰完全确认，未补第二情形或改不一致符号",
+    "区间上界非必经点；笔反弹不等于段破坏，类背驰观察范围待核，三卖已出不等于完整下跌必成",
+    "八后加图与四未核图分开；第三方吻图无作者命题唯一支撑，未来四支点不倒填当日完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "Zn超越A或B"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "中枢震荡监视器",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "震荡中轴",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "中枢震荡监视器",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-43fafb8d9b822976"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 302
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "以（1，0）为例子",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，未证明Zn实时取样、九点升级及均线有效跌破统一算法，也未证明预测/利润断言。"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-aa71611c4d3e",
+  "graph_version": "0.1.0-review-24665e3d905d",
+  "scope": "第92—93课229段，PDF290至310共21页与12图；八图后加，Zn必要/非充分条件、笔状态能力路径及未确认对象分别保留",
+  "new_claims": 60,
+  "new_evidence": 85,
+  "relation_supports_added": 7,
+  "reviewed_before": 1297,
+  "reviewed_after": 1357,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 203,
+    "claims": 3996,
+    "evidence": 4544,
+    "relations": 214,
+    "reviews": 1416
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l092_l093.reviewed.jsonl": "a94196a97b689bab7b60f412bc5709d5d398e7e55ac02d85a1103fa0ec7b8804"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T152314267968Z-curation-l092-l093",
+  "reviewer": "Codex 主代理 / 阶段C下册92—93课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l092-l093-c-stage-pending-midpoints-sampling-nine-and-prediction",
+    "lower-l092-l093-c-stage-pending-zn-notation-collision",
+    "lower-l092-l093-c-stage-pending-trend-cooperation-unquantified",
+    "lower-l092-l093-c-stage-pending-state-symbol-inconsistency",
+    "lower-l092-l093-c-stage-pending-second-situation-not-numbered",
+    "lower-l092-l093-c-stage-pending-effective-break-and-force-thresholds",
+    "lower-l092-l093-c-stage-pending-analog-divergence-daily-scope",
+    "lower-l092-l093-c-stage-pending-historical-forecast-and-profits",
+    "lower-l092-l093-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l092-l093-figure-applied.json",
+  "checks_run": [
+    "60条JSON Schema及引用/身份/映射/坐标预检",
+    "229段原文哈希及全段台账一致",
+    "原1297条已复核命题及其全部证据未改",
+    "27项Node工程检查通过；1357条全量引用0错误",
+    "8组必要/非充分/状态/图源边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1357命题/203概念/214关系同版本导出",
+    "新增12题后108/108开发取证计划及来源身份检查通过；旧题及证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线评分未完成",
+    "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
+    "其余59课完整语义及全书图源核查未完成",
+    "Zn取样、九点升级及有效跌破阈值无统一完整算法；作者预测/获利主张未独立验证"
+  ],
+  "acceptance": "60条增量已发布，9项待核与八张后加图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第94至96课168段，实际PDF310至323，从p0310-b006开始；先顺读正文及解盘，再核对图源和确认对象。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-24665e3d905d",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1357,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 108,
+    "development_cases_total": 108,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-089fa1fbf63b",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0282-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF282及单图：内嵌12月20日文字，图头已为12/21且行情延至12/20后，后期截图，绘者未核。不以次日走势倒填12/20第二1分钟中枢已成或未完成线段已确认。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0284-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF284及单图：2008年展望文章12月20日发布，年线图光标2009/12/31、季线2009/03/31，明显后期截图；不能用2008/2009实际K线验证当时未来预测。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0287-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF287及单图：嵌文12月25日，图头与右端行情12/26，后期截图。不能将次日变化反填当时中枢/三类点确认。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0288-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF288及单图：内嵌今天12/27正文，图头12/28，后期截图；BOLL(20,2)为图显示，正文未指定唯一参数。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0289-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF289及单图：内嵌12/27文字、光标12/27，但行情横轴明确至12/28，后期截图；图已标大5分钟框，不能倒填12/27仍有回到5240下才升级的条件。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    }
+  ],
+  "pending": []
+}

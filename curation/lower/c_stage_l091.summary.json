@@ -1,0 +1,63 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-7b0331dc59ea",
+  "lessons": [
+    91
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册91课同模型四轮复核",
+  "passages_read": 119,
+  "claims": 47,
+  "evidence": 73,
+  "importance_counts": {
+    "2": 14,
+    "1": 27,
+    "4": 4,
+    "3": 2
+  },
+  "new_concepts": [
+    "笔定理",
+    "笔状态",
+    "表里关系"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290
+  ],
+  "figure_objects_viewed": 9,
+  "figure_origin_counts": {
+    "unverified": 4,
+    "later_annotation": 5
+  },
+  "pending": [
+    "lower-l091-c-stage-pending-stroke-center-cross-lesson",
+    "lower-l091-c-stage-pending-zero-state-reference",
+    "lower-l091-c-stage-pending-matrix-reachability-and-profit",
+    "lower-l091-c-stage-pending-figure-makers-and-late",
+    "lower-l091-c-stage-pending-confirmation-scope",
+    "lower-l091-c-stage-pending-divergence-and-nine-segment-scope",
+    "lower-l091-c-stage-pending-forecast-and-numeric-reference"
+  ],
+  "source_passages_snapshot_sha256": "2efb9fa4564f8c05399acacce21f5c6b030683b51a612b163500644b6b318138",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "119段四轮审读、14页9图检查；笔状态转换、跨周期条件、作者理论断言与未核范围分开，五图后期，增量待预检发布。"
+}

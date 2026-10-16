@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-e5c1e73cef63",
+  "schema_version": "1.1.0",
+  "checks": [
+    "47条新默认知识；91配件语境与83替代程序并列，未以日期覆盖",
+    "四态方向/阶段与六允许连接可查，跨PDF277/278的原句分别保留",
+    "小图警告或条件与多数情形不同，单根5分钟警告和大图反转确认分层",
+    "周日四种次序保留，第四只可能转机，图中值得参与未升级作者原话",
+    "4^8/64为组合记录，联合可达和自动获利未证明，笔表里非完整诊断",
+    "第二中枢未出/次日已成、5210/5209及三买不背驰强势例外保留",
+    "BOLL选择依结构，九段与三买前背驰语境仅当例，不推广裸数量算法",
+    "五后期图四未核图分开；2009图不证明2008预言，24酒话/14愿望不是目标保证"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "(1,0)"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "笔状态",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "笔定理",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "表里关系",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-ef6c54548ca37a91"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 278
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "笔是不能构成中枢的",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，未证明全部联合状态可达、四态实时识别完备或自动机器获利。"
+  ]
+}

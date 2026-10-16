@@ -1,0 +1,91 @@
+{
+  "graph_version": "0.1.0-review-c66162c1fc73",
+  "schema_version": "1.1.0",
+  "checks": [
+    "51条为已复核原文明说；85/86/87标题及相邻88课边界保留",
+    "小三卖的上移、下移及震荡三种大背景分开，卖空例外与可能大买点保留",
+    "区间套、结构不破及中间大卖点分支保留，第二次介入不冒充二买",
+    "小级别原字疑点可见，次级别操作意义与一二类点身份的比喻区别保留",
+    "10/30条件预期、10/31未成、11/1已成逐日区分，后期图不倒填完成",
+    "晚卖后续跌仅概率，梦话成本与历史能力或条件不变成客观零风险证明",
+    "类三卖不升级严格中枢；首下降段结束仍非安全底，线段反弹不保证T+1利润",
+    "3天/3%为当次经验而非统一算法；三图后期、一图制作人未核，全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "第三类卖点"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "T+1"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "颈线",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "第三类卖点",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-56d2af5b973ad6dc"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 226
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "一般不具有小级别的操作意义",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "共享核心、桌面vendor和CLI的数据检查，不代替Electron界面或Windows打包离线验收。",
+    "同模型开发场景，非人工独立语义金标准。"
+  ]
+}

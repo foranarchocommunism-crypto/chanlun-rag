@@ -1,0 +1,335 @@
+{
+  "graph_version": "0.1.0-review-c66162c1fc73",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b10-upshift-small-sell",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "大级别中枢上移时",
+              "limit": 20
+            }
+          },
+          "total": 259,
+          "truncated": true,
+          "elapsed_ms": 27.987500000000004
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-downshift-shorting",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "明确把卖空另算",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.653199999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-nesting-not-second-type",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "往往是第二次介入机会",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.39800000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "原大买点所构造的大级别结构",
+              "limit": 20
+            }
+          },
+          "total": 139,
+          "truncated": true,
+          "elapsed_ms": 21.899500000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-intermediate-large-sell",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若两点间有大卖点",
+              "limit": 20
+            }
+          },
+          "total": 14,
+          "truncated": false,
+          "elapsed_ms": 19.03540000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-analogy-first-second",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "大中枢震荡中的次级别",
+              "limit": 20
+            }
+          },
+          "total": 311,
+          "truncated": true,
+          "elapsed_ms": 20.828900000000004
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "并非大级别真正第一",
+              "limit": 20
+            }
+          },
+          "total": 114,
+          "truncated": true,
+          "elapsed_ms": 23.0839
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-small-level-wording",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 226
+            }
+          },
+          "total": 13,
+          "truncated": false,
+          "elapsed_ms": 2.544000000000011
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-unformed-center",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若不回到原1分钟中枢",
+              "limit": 20
+            }
+          },
+          "total": 172,
+          "truncated": true,
+          "elapsed_ms": 20.36330000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当天仍未形成",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 8.220399999999984
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-late-sell-probability",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "195之后针对该次调整再卖已迟",
+              "limit": 20
+            }
+          },
+          "total": 47,
+          "truncated": true,
+          "elapsed_ms": 18.076599999999985
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-t1-not-safe-floor",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "高开低走新股",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.608699999999999
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不能保证次日无下降线段跌穿41.7",
+              "limit": 20
+            }
+          },
+          "total": 135,
+          "truncated": true,
+          "elapsed_ms": 18.247899999999987
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-class-third",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "类第三类卖点",
+              "limit": 20
+            }
+          },
+          "total": 41,
+          "truncated": true,
+          "elapsed_ms": 20.714
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-three-days-buffer",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上下另有3%的缓冲",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 5.923099999999977
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b10-dream-zero-cost",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "在自称“梦话”的庄家故事中",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.422199999999975
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "把零成本仅称为",
+              "limit": 20
+            }
+          },
+          "total": 29,
+          "truncated": true,
+          "elapsed_ms": 20.834899999999948
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

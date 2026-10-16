@@ -1,0 +1,51 @@
+{
+  "stage": "E-condition-exception-search",
+  "graph_version": "0.1.0-review-089fa1fbf63b",
+  "problem": "仅出现在独立conditions字段中的完整短语未优先检出目标命题；同类exceptions字段亦未直接搜索。",
+  "cause": "旧知识搜索只对子串正文及概念关联匹配；未搜索解码后的条件、例外条目。",
+  "change": "对正文、条件及例外做直接子串匹配，直接命中排在仅概念关联之前；保持复核过滤、分页及原文搜索语义。",
+  "regression": {
+    "query": "首先必须下周一构成日底分型",
+    "expected_id": "lower-l090-c-stage-dec14-next-daily-bottom-conditional",
+    "before_limit_1_id": "lower-l062-all-chart-periods",
+    "focused_test_before": "failed",
+    "focused_test_after": "passed",
+    "exception_query": "软件可采用不同配色",
+    "exception_expected_id": "upper-l024-c-stage-macd-lines-bars-zero-axis-terms",
+    "original_failed_case": "g-b12-monday-not-fulfilled",
+    "original_evaluation": "../../evaluation/stage-g-batch-12.initial-results.json",
+    "original_failed_case_query_not_changed": true
+  },
+  "engineering_tests_passed": 27,
+  "all_reviewed_claims_validation": {
+    "graph_version": "0.1.0-review-089fa1fbf63b",
+    "reviewed_claims": 1250,
+    "errors": [],
+    "coverage": {
+      "documents": 2,
+      "pages": 907,
+      "units": 110,
+      "passages": 9647,
+      "figures": 528,
+      "concepts": 198,
+      "claims": 3889,
+      "relations": 199
+    },
+    "pass": true
+  },
+  "development_retrieval": {
+    "cases": 84,
+    "passed": 84,
+    "failures": [],
+    "generated_answers_scored": false
+  },
+  "parity_queries_passed": 8,
+  "database_and_manifest_unchanged_by_queries": true,
+  "old_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "limits": [
+    "桌面vendor仅同步公共模块，未代替Windows成品或界面交互验收。",
+    "84题为同模型开发取证题，未评分生成回答，非240题完整验收。"
+  ]
+}

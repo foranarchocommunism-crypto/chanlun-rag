@@ -15,6 +15,8 @@ node bin/chan-kg.mjs coverage --kb ..\shared-knowledge\v0.1.0
 
 Agent 开始研究前读取 [取证步骤](AGENT_GUIDE.md)。机器可读接口以 JSON 返回版本、命题身份、适用条件、复核状态和证据；诊断信息输出至 stderr。
 
+知识检索匹配命题正文、适用条件和例外。这些字段直接命中时排在仅通过概念关联命中的结果之前，默认仍只返回已复核知识。
+
 ## 图谱构建
 
 固定来源为用户提供的 `volume_1.pdf` 与 `volume_2.pdf`。`tools/extract_corpus.py` 建立全文、字符坐标、发言者切分、配图位置和待核候选。语义复核由后续构建批次完成，不以词汇命中替代复核。共享图谱与原始 PDF 位于独立数据目录，不提交到代码仓库。

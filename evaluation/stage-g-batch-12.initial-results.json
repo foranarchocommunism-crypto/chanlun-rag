@@ -1,0 +1,349 @@
+{
+  "graph_version": "0.1.0-review-089fa1fbf63b",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 11,
+  "observations": [
+    {
+      "query_id": "g-b12-boll-auxiliary",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第90课明确限定所给中阴结束时间判断",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.389500000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-first-point-sequence",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "先从上轨上跌回其下",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.6107000000000085
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-contraction-two-results",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "更低某级别中阴过程将级别扩展或结束",
+              "limit": 20
+            }
+          },
+          "total": 136,
+          "truncated": true,
+          "elapsed_ms": 30.89999999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-period-not-six-times",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者所举5分钟中阴例用30分钟BOLL",
+              "limit": 20
+            }
+          },
+          "total": 10,
+          "truncated": false,
+          "elapsed_ms": 15.155300000000011
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-must-center-not-direction",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "必须先出现5分钟中枢",
+              "limit": 20
+            }
+          },
+          "total": 190,
+          "truncated": true,
+          "elapsed_ms": 27.62620000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若按5分钟以上级别操作",
+              "limit": 20
+            }
+          },
+          "total": 137,
+          "truncated": true,
+          "elapsed_ms": 24.809699999999992
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-consolidation-amplitude",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "10000跌到0也可属盘整",
+              "limit": 20
+            }
+          },
+          "total": 48,
+          "truncated": true,
+          "elapsed_ms": 23.859800000000007
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "盘整不一定比趋势弱",
+              "limit": 20
+            }
+          },
+          "total": 80,
+          "truncated": true,
+          "elapsed_ms": 31.82740000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-small-large-third",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "大5分钟三卖仍未知",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.378200000000021
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-future-fact-5032",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "将扩展出30分钟中枢",
+              "limit": 20
+            }
+          },
+          "total": 191,
+          "truncated": true,
+          "elapsed_ms": 20.74739999999997
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5032之前还不能称事实",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 6.302799999999991
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-trap-and-force",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者把市场陷阱归于中枢震荡",
+              "limit": 20
+            }
+          },
+          "total": 243,
+          "truncated": true,
+          "elapsed_ms": 20.575499999999977
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "辨陷阱除中枢震荡外还要比较前后力度",
+              "limit": 20
+            }
+          },
+          "total": 243,
+          "truncated": true,
+          "elapsed_ms": 24.57860000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-formed-versus-confirmed",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "12月12日日顶分型已形成",
+              "limit": 20
+            }
+          },
+          "total": 128,
+          "truncated": true,
+          "elapsed_ms": 24.05079999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "下午作者说周底已构成",
+              "limit": 20
+            }
+          },
+          "total": 12,
+          "truncated": false,
+          "elapsed_ms": 17.663900000000012
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-monday-not-fulfilled",
+      "automatic_retrieval_contract_pass": false,
+      "missing": [
+        "lower-l090-c-stage-dec14-next-daily-bottom-conditional"
+      ],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "首先必须下周一构成日底分型",
+              "limit": 20
+            }
+          },
+          "total": 106,
+          "truncated": true,
+          "elapsed_ms": 22.2029
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "12月17日作者说日底未构成",
+              "limit": 20
+            }
+          },
+          "total": 12,
+          "truncated": false,
+          "elapsed_ms": 18.0077
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b12-red-market-shortcut",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_2.pdf",
+              "page": 276
+            }
+          },
+          "total": 7,
+          "truncated": false,
+          "elapsed_ms": 2.314700000000016
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

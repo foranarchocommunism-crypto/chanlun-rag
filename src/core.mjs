@@ -91,10 +91,13 @@ export class KnowledgeGraph {
     concepts.sort((a, b) => Number(b.label === q || b.aliases.includes(q)) - Number(a.label === q || a.aliases.includes(q)) || a.label.length - b.label.length);
     const where = this.claimWhere(options);
     const ids = concepts.map(c => c.id);
-    const clause = ['instr(text,?)>0', ...ids.map(() => 'instr(concept_ids,?)>0')].join(' OR ');
-    const params = [q, ...ids];
+    const directMatch = `instr(text,?)>0
+      OR EXISTS (SELECT 1 FROM json_each(claims.conditions) AS condition WHERE instr(condition.value,?)>0)
+      OR EXISTS (SELECT 1 FROM json_each(claims.exceptions) AS exception WHERE instr(exception.value,?)>0)`;
+    const clause = [`(${directMatch})`, ...ids.map(() => 'instr(concept_ids,?)>0')].join(' OR ');
+    const params = [q, q, q, ...ids];
     const total = this.db.prepare(`SELECT count(*) AS n FROM claims WHERE ${where} AND (${clause})`).get(...params).n;
-    const rows = this.db.prepare(`SELECT id FROM claims WHERE ${where} AND (${clause}) ORDER BY CASE WHEN instr(text,?)>0 THEN 0 ELSE 1 END,${this.priorityOrder()}id LIMIT ? OFFSET ?`).all(...params, q, limit, offset);
+    const rows = this.db.prepare(`SELECT id FROM claims WHERE ${where} AND (${clause}) ORDER BY CASE WHEN (${directMatch}) THEN 0 ELSE 1 END,${this.priorityOrder()}id LIMIT ? OFFSET ?`).all(...params, q, q, q, limit, offset);
     return this.envelope({ scope: 'knowledge', query: q, concepts, results: rows.map(r => this.getClaim(r.id, options)), total, offset, limit, truncated: offset + rows.length < total, next_offset: offset + rows.length < total ? offset + rows.length : null, status: rows.length ? 'found' : 'insufficient_reviewed_evidence' });
   }
   concept(identifier, options = {}) {

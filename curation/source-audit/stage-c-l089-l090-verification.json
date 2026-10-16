@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-089fa1fbf63b",
+  "schema_version": "1.1.0",
+  "checks": [
+    "66条已复核知识；必经5分钟中枢的背驰前提、方向未定、操作级别与升级后处理保留",
+    "盘整与横盘、中枢和强弱分开，1分钟三卖不冒充5分钟确认",
+    "BOLL为有例外的辅助，近100%不是实测；一类点三步与二类点滞后条件保留",
+    "收口可提示扩展或结束，指标周期不按固定倍数换算；两项别名返回同一概念",
+    "展望与事实时点区分；通道三日观察和10日线确认不混并",
+    "陷阱要求中枢震荡而非移动，前后力度比较及关系依据保留",
+    "日顶形成/下笔确认、周底构成/确立及周一失败分支可查；旧股点评不成即时买点",
+    "11图后期/7图未核分开；不红盘原句保留但未抽成算法，全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "BOLL"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "BOLL",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "中阴身阶段",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "布林通道",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-d01b8d61c7c54e01"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 276
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "只要大盘不红盘",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "共享核心/桌面vendor/CLI验证不等于Electron成品离线或PDF交互验收。",
+    "同模型开发场景，未验证BOLL统计胜率、全参数算法及作者账户成绩。"
+  ]
+}

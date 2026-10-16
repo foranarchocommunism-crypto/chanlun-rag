@@ -28,6 +28,22 @@ test('两字词可查，并且默认命题均已复核', () => {
     assert.ok(graph.search(word, { scope: 'source' }).data.total > 0);
   }
 });
+
+test('独立条件和例外中的完整短语可直接命中并排在概念泛匹配之前', () => {
+  const cases = [
+    ['lower-l090-c-stage-dec14-next-daily-bottom-conditional', 'conditions', '首先必须下周一构成日底分型'],
+    ['upper-l024-c-stage-macd-lines-bars-zero-axis-terms', 'exceptions', '软件可采用不同配色'],
+  ];
+  for (const [id, field, query] of cases) {
+    const c = graph.getClaim(id);
+    assert.ok(c[field].includes(query));
+    assert.equal(c.text.includes(query), false, '短语应只在独立字段中，不能靠正文命中使回归失效');
+    const r = graph.search(query, { limit: 1 }).data;
+    assert.equal(r.results[0]?.id, id, query);
+    assert.equal(r.results[0].review_status, 'reviewed');
+    assert.ok(r.results[0][field].includes(query));
+  }
+});
 test('核心中枢定义保留数量、连续、次级别及完成条件', () => {
   const c = graph.getClaim('upper-l017-center-definition');
   assert.match(c.text, /至少三个连续次级别/);

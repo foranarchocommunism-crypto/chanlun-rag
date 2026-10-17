@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-c03707cf7b67",
+  "schema_version": "1.1.0",
+  "checks": [
+    "50新增；吻/均线/MACD辅助与中枢分开，12/26/9不倒填长一倍，急速一分钟柱高警告保留面积更大和特殊前提",
+    "一字涨停指标失真、零轴至少级别、常见两中枢形态的或项与柱缩非背驰分开，不省完整结构",
+    "外围高点/中枢沿与回拉级别、前上涨中枢/两个新下跌中枢、图上直线/递归走势及实用提示/严格定义分开",
+    "三买信号确认与不等额外确认分开；机动比例/快速行情/小资金条件保留，临停不能改错不被复利必然修辞覆盖",
+    "1分/5分与10:56/10:57不抹差异，最低级三买难非绝无；25价序与101二买可更低并存，未核括注及人寿原语气不补确定解释",
+    "19段身份时间修正及2误归候选拒绝；源原文/几何留存，13图8后加5未核，25已读仍with_pending、全书false"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "两次柱高不再突破"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "机动资金",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "乖离极限",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-f8172bd9f32993c4"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 151
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "怎么又变成要两次回试呢",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "这是同模型来源边界检查和模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未证实MACD或买卖点可保证盈利、历史预测已兑现、括注署名或全书价序解释已统一。"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-11d901d9404f",
+  "graph_version": "0.1.0-review-c03707cf7b67",
+  "scope": "第25课272段，PDF144至166共23页13本课图；19段身份/时间修正，辅助指标与中枢区别、急速行情特例、级别递归/回试与机动资金、价序跨课界限",
+  "new_claims": 50,
+  "new_evidence": 75,
+  "relation_supports_added": 11,
+  "reviewed_before": 1965,
+  "reviewed_after": 2015,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 243,
+    "claims": 4654,
+    "evidence": 5570,
+    "relations": 302,
+    "reviews": 2078
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l025.reviewed.jsonl": "cc4953fc661e10ed5ff5bcce14f2cd0c3df23d9d69ac4459a6066a1c31e9dd43"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T174346927819Z-curation-l025",
+  "reviewer": "Codex 主代理 / 阶段C上册25课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l025-c-stage-pending-auxiliary-system-vs-center-and-force",
+    "upper-l025-c-stage-pending-rapid-bars-and-limit-up-exceptions",
+    "upper-l025-c-stage-pending-center-level-recursion-retest-and-practical-heuristic",
+    "upper-l025-c-stage-pending-price-order-vs-l101-and-lowest-third-points",
+    "upper-l025-c-stage-pending-confirmation-word-and-double-retest",
+    "upper-l025-c-stage-pending-mixed-attribution-headers-and-time",
+    "upper-l025-c-stage-pending-case-time-prices-forecast-and-guarantees",
+    "upper-l025-c-stage-pending-figure-origin-and-extra-annotations"
+  ],
+  "source_structure_changes": "stage-c-l025-source-applied.json",
+  "checks_run": [
+    "50条JSON Schema及引用/身份/映射/坐标预检",
+    "272段原文哈希及全段台账一致；23页13本课图与144前课图边界实际视觉检查",
+    "原1965命题2856已复核证据未改，9647段528图仅19段13图授权元数据变更，2误归读者候选拒绝",
+    "当前工作区33项Node工程测试通过（原有27项和新增检索评测6项，后者另行验收）",
+    "2015条已复核命题全量引用校验0错误",
+    "6组边界断言及7组CLI/公共/桌面模块一致，只读检查哈希不变",
+    "240/240冻结开发题原取证计划与已标注来源身份在当前图谱通过；未以新题替换失败题",
+    "2015命题/243概念/302关系JSONL及Markdown/coverage同版本导出",
+    "5条旧待核补充关联保留原待核开放状态"
+  ],
+  "checks_not_run": [
+    "240题完整验收尚未完成；现有240道同模型开发取证计划不等完整类别覆盖、自然问题基线或生成回答评分",
+    "26至61共36课完整语义审读及全书跨课/图文统一审查未完成",
+    "独立Agent打包后运行及Electron Windows真实离线/缩放旋转跨页交互验收未完成"
+  ],
+  "acceptance": "第25课50条75证据、19段来源修正和13图来源复核已发布；2015引用/240开发取证计划通过；8待核及全书/产品验收未完成。",
+  "next_action": "接续上册26课，从实际PDF166页26课标题开始；核对可交易时间/停牌风险、走势风险与操作风格及作者问答，逐段核查身份和原图。",
+  "updated_at": "2026-10-17T17:48:00.124419+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2015,
+      "graph_version": "0.1.0-review-c03707cf7b67",
+      "sha256": "f51031152fe474a0b93b24e45991f68918a217d7675807541c93bcfc3678991d"
+    },
+    "concepts": {
+      "rows": 243,
+      "graph_version": "0.1.0-review-c03707cf7b67",
+      "sha256": "4a5eb256f0112f48835ee482103bf1ecd839b761f1421fcd183986a66c2b6b75"
+    },
+    "relations": {
+      "rows": 302,
+      "graph_version": "0.1.0-review-c03707cf7b67",
+      "sha256": "4e5c3801433dbb70b11392d8978c88369accca14482bb28a72d85e781b62d25b"
+    }
+  },
+  "final_sha256": {
+    "database": "2c2bab00027d7317290cf5624419b3e44ba710c4a4b7fa2101e7e00339ea51a4",
+    "manifest": "6dae1c4c6a7ad1ac5d27322370dd08df1a41459b52cfc9ea46c467b8f1fc7566"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "本批运行冻结240题回归及单独来源边界检查；全项目题型分布和G3/G4/G5/G6仍需专门核验。"
+  },
+  "partial_pending_followups": 5,
+  "semantic_completion": false,
+  "validation_execution_note": "并行首次旧开发题回归遇database is locked；全量引用检查结束后串行原样重跑240/240通过，未改断言、金标准或查询计划。",
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-85e5816782c5",
+  "schema_version": "1.1.0",
+  "checks": [
+    "66新增；机械操作标题别名与正文机械化操作同概念可查，完全分类前提保留，未宣称自动交易已实现",
+    "48段身份/日期逐项匹配源页校核，段末下一时间头不污染前段；连续作者解盘不再误标读者，文字哈希保留",
+    "4/16半仓只限当例，7/2部分筹码和固定数量两支不套统一半仓；主动买套无风险只归作者断言，能力门槛保留",
+    "历史力度级别不换成固定结构级别，分型/成笔与跨日包含/最低分型分别确认；完成又延伸措辞未擅改",
+    "区间套入场与2917持有/退出边界不倒置，站住及笔延伸联合，第二中枢后三卖/三买分支齐全",
+    "预测非100%与绝对操作规则设计不混，3300支撑缺口不补/新6月10日缺口反弹补回的对象和筹码回补分开",
+    "2990完成/相应级别条件与3700经验1/3分开，90/99/70皆作者自述非项目统计；两种第三中枢和80%例范围保留",
+    "11本课图9后加2未知流程，不将图表自动认可为作者算法，7/9均线分类仍只是作业，整体语义未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "机械操作"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "主动买套",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "倒T型K线",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "机械化操作",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-928b201dfdad06b5"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 392
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "2917",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明全书歧义已解决、作者2990理论已独立重建、3700经验/70/90/99比例已实测、主动买套无风险或未知图是作者程序。"
+  ]
+}

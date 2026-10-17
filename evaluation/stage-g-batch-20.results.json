@@ -1,0 +1,347 @@
+{
+  "graph_version": "0.1.0-review-85e5816782c5",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b20-mechanical-title-alias",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "机械操作",
+              "limit": 20
+            }
+          },
+          "total": 4,
+          "truncated": false,
+          "elapsed_ms": 15.868000000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-corrected-author-date",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "4月30日作者说3840",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 10.5364
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5月5日作者称上攻力度趋弱",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.176600000000008
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-half-vs-partial",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "明确后一法必然半仓",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.3138
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "筹码够多时可只补固定数量",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.652100000000004
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-strength-grade-not-structural-time",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "4778至5524为第一级别力度",
+              "limit": 20
+            }
+          },
+          "total": 181,
+          "truncated": true,
+          "elapsed_ms": 34.65320000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-apr22-fractal-not-stroke",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "3085突破确认60分钟小底分型成立",
+              "limit": 20
+            }
+          },
+          "total": 360,
+          "truncated": true,
+          "elapsed_ms": 31.987299999999976
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-jul3-jul4-containing-bars",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "两日包含令底分型须再等次日",
+              "limit": 20
+            }
+          },
+          "total": 158,
+          "truncated": true,
+          "elapsed_ms": 28.557999999999993
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "底分型终于勉强形成",
+              "limit": 20
+            }
+          },
+          "total": 158,
+          "truncated": true,
+          "elapsed_ms": 24.681299999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-entry-nesting-not-2917",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "区间套成立即进场",
+              "limit": 20
+            }
+          },
+          "total": 21,
+          "truncated": true,
+          "elapsed_ms": 30.307699999999983
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-theory-2990-empirical-3700",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "理论确保最低反弹",
+              "limit": 20
+            }
+          },
+          "total": 39,
+          "truncated": true,
+          "elapsed_ms": 27.9889
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "整个下跌约1/3",
+              "limit": 20
+            }
+          },
+          "total": 43,
+          "truncated": true,
+          "elapsed_ms": 29.662699999999973
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-active-no-risk-author-claim",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "主动买套两风险",
+              "limit": 20
+            }
+          },
+          "total": 6,
+          "truncated": false,
+          "elapsed_ms": 15.062999999999988
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "只因基本面等判断自称99%",
+              "limit": 20
+            }
+          },
+          "total": 20,
+          "truncated": false,
+          "elapsed_ms": 30.671600000000012
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-inverted-t-not-theory",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "自称成最终反弹底概率70%",
+              "limit": 20
+            }
+          },
+          "total": 51,
+          "truncated": true,
+          "elapsed_ms": 27.68459999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-different-gaps-and-buyback",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "3300缺口不回补才可回补筹码",
+              "limit": 20
+            }
+          },
+          "total": 56,
+          "truncated": true,
+          "elapsed_ms": 32.951899999999966
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "反弹不能回补6月10日缺口就退出",
+              "limit": 20
+            }
+          },
+          "total": 92,
+          "truncated": true,
+          "elapsed_ms": 28.5351
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b20-moving-average-homework-deferred",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "用最简单均线方式对股票完全分类",
+              "limit": 20
+            }
+          },
+          "total": 215,
+          "truncated": true,
+          "elapsed_ms": 31.410500000000013
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

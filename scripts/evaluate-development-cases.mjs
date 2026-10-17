@@ -42,7 +42,7 @@ try {
       const sourceMismatches=[];
       for(const expected of item.expected_source_refs){
         const actual=observedSources.get(expected.passage_id);
-        for(const field of ['document_id','pdf_page','printed_page','role','speaker']){
+        for(const field of ['document_id','pdf_page','printed_page','role','speaker','published_at']){
           if(expected[field]!==undefined&&actual?.[field]!==expected[field])
             sourceMismatches.push({passage_id:expected.passage_id,field,expected:expected[field],actual:actual?.[field]??null});
         }

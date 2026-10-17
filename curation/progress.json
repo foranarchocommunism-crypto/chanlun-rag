@@ -1,18 +1,20 @@
 {
-  "updated_at": "2026-10-17T17:12:43.042798+00:00",
+  "updated_at": "2026-10-17T17:30:28.101844+00:00",
   "stage": "C with scoped E/G checks",
   "run_mode": "authorized_execution",
   "authorization": "用户在当前目标中明确授权全部权限、持续推进；按两册目标顺序先知识图谱与Agent访问包再Windows应用，无额外中途批准关卡。",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-c5310a86c5bb",
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
   "source_boundary": "两册固定汇编PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
-    "上册13至14课120段16页18本课图同模型四轮完整审读，41命题54证据12关系支撑发布，新增主动带套/被动带套/买点定律/短差程序4概念",
-    "14段身份日期和18图元数据修正，9后加9来源未核；47读者瞎鼓捣与作者回复分开，多层自引11/29、12/1、12/5和外层12/6分别记载",
-    "原1864命题2719证据及全9647源段528图/原文/字符映射/坐标未改，来源备份逐行比较通过",
-    "主动带套两义及两个均线买点失效、TCL一次补/旧仓暂留的案例范围、相应周日买点与短差先减后补、MACD长一倍无参数及等低不标准均保留；8待核",
-    "1905命题/225概念/279关系同版本导出，27工程/1905引用0错误，7组边界与7组CLI/公共/桌面模块一致通过",
-    "228/228同模型开发题取证计划和来源身份通过，含47页读者误归样本；未评分生成回答或完成基线/240题完整验收"
+    "上册15至16课194段18页14图同模型四轮审读，60命题83证据13关系支撑发布，新增13概念",
+    "64页舞者两段读者和无时间作者答复分别修正，74页截断年份保留null；14图10后加4未核",
+    "原1905已复核命题2773证据及全部源原文/字符映射/坐标未改，来源备份逐行比较通过",
+    "早期高低点不严格及顺势平台、同级两同向趋势前提、两均线力度/平均力度/MACD柱波、拒绝盘整策略范围分别保留；8待核",
+    "日周持仓买点与15分箱型、T+1和资金条件、038004认沽、缺口原词及作者收益/概率自述保留原范围",
+    "1965命题/238概念/292关系同版本导出，1965引用0错误；7组边界与7组CLI/公共/桌面模块一致",
+    "当前工作区33项工程测试通过；240开发题取证计划和身份通过，本批33来源引用含日期；不称完整基线或回答验收",
+    "4条旧待核补充记录已关联，均未关闭全局待核；继续25至61共37课"
   ],
   "counts": {
     "documents": 2,
@@ -20,11 +22,11 @@
     "units": 110,
     "passages": 9647,
     "figures": 528,
-    "concepts": 225,
-    "claims": 4544,
-    "evidence": 5412,
-    "relations": 279,
-    "reviews": 1966
+    "concepts": 238,
+    "claims": 4604,
+    "evidence": 5495,
+    "relations": 292,
+    "reviews": 2026
   },
   "claim_status_counts": [
     [
@@ -37,25 +39,25 @@
     ],
     [
       "reviewed",
-      1905
+      1965
     ]
   ],
   "figure_origin_counts": [
     [
       "later_annotation",
-      138
+      148
     ],
     [
       "unverified",
-      390
+      380
     ]
   ],
   "semantic_completion": false,
   "pending": [
-    "本批8待核见upper/c_stage_l013_l014.pending.jsonl：早期均线类点/级别、主动防护与旧仓/一次补、半位参照、MACD参数/例子差异、图源/除权/日期、多层引用、概率/效益自述、专利自称",
-    "上册15至16及25至61共39课未完整语义审读；69课已有阅读记录含历史62至64，不代表全书技术抽取或全部解释统一",
-    "240题完整评测、生成回答评分、检索基线和全书跨课/图文审查未完成",
-    "Windows真实离线/缩放旋转跨页和实际交互验收未完成"
+    "本批8待核见upper/c_stage_l015_l016.pending.jsonl：早期分类/等值/顺势平台、首吻/盘整、力度面积/长度、MACD柱线组合、概率收益/时效、权证缺口/周期、读者年份、配图来源",
+    "25至61共37课未完整语义审读；71课已有阅读记录含历史62至64，不代表全书技术抽取或全部解释统一",
+    "240题完整评测、自然问题基线、生成回答评分和全书跨课/图文审查未完成",
+    "独立Agent实际交付运行及Windows真实离线/缩放旋转跨页交互未验收"
   ],
   "machine_outputs": [
     "source-audit/stage-b-applied.json",
@@ -208,48 +210,56 @@
     "source-audit/stage-c-l013-l014-publication.json",
     "source-audit/stage-c-l013-l014-verification.json",
     "../evaluation/stage-g-batch-24.cases.jsonl",
-    "../evaluation/stage-g-batch-24.results.json"
+    "../evaluation/stage-g-batch-24.results.json",
+    "source-audit/stage-c-l015-l016-source-plan.json",
+    "source-audit/stage-c-l015-l016-source-applied.json",
+    "source-audit/stage-c-l015-l016-source-invariants.json",
+    "source-audit/stage-c-l015-l016-publication.json",
+    "source-audit/stage-c-l015-l016-verification.json",
+    "upper/c_stage_l015_l016.partial-resolutions.jsonl",
+    "../evaluation/stage-g-batch-25.cases.jsonl",
+    "../evaluation/stage-g-batch-25.results.json"
   ],
   "checks_run": [
-    "41条JSON Schema及引用/身份/映射/坐标预检",
-    "120段原文哈希与全段台账一致",
-    "旧1864命题2719证据及全源9647段528图备份逐行核验",
-    "27项Node工程测试通过",
-    "1905全量引用0错误",
-    "7组边界与7组CLI/公共/桌面查询一致",
-    "1905命题/225概念/279关系同版本导出",
-    "228/228开发题取证及身份通过"
+    "60条JSON Schema及引用/身份/映射/坐标预检",
+    "194段原文哈希及全段台账一致，18页14图实际视觉核对",
+    "原1905条命题2773条已复核证据未改，9647段528图仅3段14图授权元数据变更",
+    "33项当前工作区Node测试通过（原有27项及新增检索评测6项）；新增基线文件另行验收",
+    "1965条已复核命题全量引用校验0错误",
+    "7组语义边界断言与7组CLI/公共/桌面模块结果一致，只读哈希不变",
+    "1965命题/238概念/292关系JSONL及Markdown/coverage同版本导出",
+    "240/240同模型开发题取证计划及已标注身份通过；本批12题33条来源引用含日期核对",
+    "4条旧待核补充关联保留原待核开放状态"
   ],
   "checks_not_run": [
-    "240题完整评测及生成回答/基线未完成",
-    "其余39课完整语义及全书跨课复核未完成",
-    "Windows真实离线及缩放旋转跨页未验收"
+    "240题完整验收尚未完成：开发取证计划检查不等于自然问题基线和生成回答评分",
+    "37课25至61的完整语义审读及全书跨课/图文统一审查未完成",
+    "独立Agent打包后运行和Electron Windows真实离线/缩放旋转跨页交互验收未完成"
   ],
-  "acceptance": "13至14课41条54证据和14段源修正已发布验证，1905引用/228开发题通过；8待核和全书/Windows目标未完成。",
-  "next_resume_anchor": "volume_1-a53e99c37ca5-p0058-b007 / lesson-015",
-  "next_action": "接续上册15至16课（实际PDF58至75），核对趋势/盘整的早期图周期定义、背驰比较与MACD辅助、中小资金方法、读者身份及原图。",
+  "acceptance": "15至16课60条83证据、3段身份时间及14图元数据已发布；1965引用/240开发取证计划通过；8待核与全书/产品目标仍未完成。",
+  "next_resume_anchor": "volume_1-a53e99c37ca5-p0144-b004 / lesson-025",
+  "next_action": "接续上册25课，从实际PDF144页标题开始；审读吻、MACD、背驰、中枢的联系，保留级别、作者/读者、原图和跨课补充的证据边界。",
   "subagents": [],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。",
   "previous_checkpoint": {
-    "graph_version": "0.1.0-review-fc861cf23919",
+    "graph_version": "0.1.0-review-c5310a86c5bb",
     "completed": [
-      "上册10至12课213段17页6图同模型四轮审读，61命题102证据11关系支撑发布；新增飞吻/唇吻/湿吻/均线体位及均线系统专属四种买卖点共8概念",
-      "54段身份/日期与6图来源元数据核对；2006解盘及作者自引不误标读者，11/27独立回放不误续11/24答复，2005自称旧名转载6段unknown保留",
-      "原1803复核命题2617证据及全源原文本/坐标未改；3后加3未核图、正文无年份不按后图补2005，正文/黄框时间分别保存",
-      "均线两点与后期严格三类点分开，唇吻不穿/湿吻可反复、第一次湿吻例外、T+0早盘限制两例外和其他点可买风险更大均保留；本批8待核",
-      "1864命题/221概念/267关系同版本导出；1864引用0错误、6组边界与7组CLI/公共/桌面查询一致，原文搜索保留unknown及原署名",
-      "27工程测试串行重跑全通过；首次并行引用测试遇临时database is locked，未改代码或断言，重跑通过",
-      "216/216同模型开发取证计划和身份检查通过，新增含33/34页旧名回放身份题；未评分生成回答、未完成独立集/基线与240题验收"
+      "上册13至14课120段16页18本课图同模型四轮完整审读，41命题54证据12关系支撑发布，新增主动带套/被动带套/买点定律/短差程序4概念",
+      "14段身份日期和18图元数据修正，9后加9来源未核；47读者瞎鼓捣与作者回复分开，多层自引11/29、12/1、12/5和外层12/6分别记载",
+      "原1864命题2719证据及全9647源段528图/原文/字符映射/坐标未改，来源备份逐行比较通过",
+      "主动带套两义及两个均线买点失效、TCL一次补/旧仓暂留的案例范围、相应周日买点与短差先减后补、MACD长一倍无参数及等低不标准均保留；8待核",
+      "1905命题/225概念/279关系同版本导出，27工程/1905引用0错误，7组边界与7组CLI/公共/桌面模块一致通过",
+      "228/228同模型开发题取证计划和来源身份通过，含47页读者误归样本；未评分生成回答或完成基线/240题完整验收"
     ],
-    "next_action": "接续上册13至16课，实际PDF43至75，从第13课标题开始；核对主动/被动被套、均线系统套法、无趋势无背驰的早期定义及中小资金方法，逐段保留作者/读者、日期及原图身份。",
+    "next_action": "接续上册15至16课（实际PDF58至75），核对趋势/盘整的早期图周期定义、背驰比较与MACD辅助、中小资金方法、读者身份及原图。",
     "evaluation": {
-      "executable_development_cases": 216,
+      "executable_development_cases": 228,
       "target": 240,
       "gold_review_status": "model_reviewed_development",
       "human_gold_reviewed": false,
       "independent_test_set": false,
       "generated_answers_scored": false,
-      "retrieval_plan_and_source_identity_passed_on_current_graph": 216
+      "retrieval_plan_and_source_identity_passed_on_current_graph": 228
     }
   },
   "unit_processing_status_counts": [
@@ -259,7 +269,7 @@
     ],
     [
       "extracted",
-      39
+      37
     ],
     [
       "semantic_extraction_complete",
@@ -267,19 +277,21 @@
     ],
     [
       "semantic_read_with_pending",
-      65
+      67
     ]
   ],
-  "coverage_caveat": "本批13至14课120段16页18本课图+1前课边界，累计69课阅读记录含历史62至64；同模型四轮，不称独立复核或全书完成。",
+  "coverage_caveat": "本批15至16课194段18页14图，累计71课阅读记录含历史62至64；同模型四轮，不称独立复核或全书完成。",
   "execution_note": "主代理完成，未使用子代理；固定两册汇编边界，未核原博客或转载原网页。",
   "evaluation": {
-    "executable_development_cases": 228,
+    "executable_development_cases": 240,
     "target": 240,
     "gold_review_status": "model_reviewed_development",
     "human_gold_reviewed": false,
     "independent_test_set": false,
     "generated_answers_scored": false,
-    "retrieval_plan_and_source_identity_passed_on_current_graph": 228
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "batch_25_date_annotated_source_refs_checked": 33,
+    "full_stage_g_acceptance_complete": false
   },
-  "previous_turn_classification": "progress：第13至14课120段/18图、14源修正及41条54证据正式发布；1905引用/228开发题通过，余39课。"
+  "previous_turn_classification": "progress：第15至16课194段14图、3源修正与60条83证据正式发布；1965引用/240开发取证计划通过，余37课。"
 }

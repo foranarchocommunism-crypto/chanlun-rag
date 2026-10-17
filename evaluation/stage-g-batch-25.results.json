@@ -1,0 +1,407 @@
+{
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b25-early-category-platform-exception",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "高点更高且低点更低，或高点更低且低点更高",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.502499999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当前趋势/盘整通用定义不完全严格",
+              "limit": 20
+            }
+          },
+          "total": 114,
+          "truncated": true,
+          "elapsed_ms": 31.2119
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-ma-area-versus-average-and-macd",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "前吻结束至后吻开始",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.883200000000002
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "前吻结束至当下两均线所形成面积除以时间",
+              "limit": 20
+            }
+          },
+          "total": 195,
+          "truncated": true,
+          "elapsed_ms": 29.313500000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-histogram-peak-not-price-turn",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "今日短于昨日且昨日长于前日",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.005899999999997
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该波峰值低于前波峰值",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.241500000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-first-kiss-only-trend-and-later-consolidation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "只针对趋势中寻找背驰",
+              "limit": 20
+            }
+          },
+          "total": 240,
+          "truncated": true,
+          "elapsed_ms": 31.9932
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "类似判断用于盘整则称盘整背驰",
+              "limit": 20
+            }
+          },
+          "total": 297,
+          "truncated": true,
+          "elapsed_ms": 27.919200000000018
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-skill-first-second-and-female-definition",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "熟悉背弛者第一类买点更好",
+              "limit": 20
+            }
+          },
+          "total": 64,
+          "truncated": true,
+          "elapsed_ms": 28.06400000000002
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "只把女上位第一次缠绕后定义为第二类买点",
+              "limit": 20
+            }
+          },
+          "total": 72,
+          "truncated": true,
+          "elapsed_ms": 27.692200000000014
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-box-entry-no-retroactive-horizon",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "按日/周买点持到日/周卖点须最初",
+              "limit": 20
+            }
+          },
+          "total": 48,
+          "truncated": true,
+          "elapsed_ms": 30.55200000000002
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不建议全仓按1/5分钟进出",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.411000000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-unfinished-patch-multilevel-confirmation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "30分钟背离早已发生、日线没有",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.350900000000024
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当前红柱仍较昨日长",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.070499999999981
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-down-up-specific-rule-versus-general-reduce",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "买后若盘整先减仓",
+              "limit": 20
+            }
+          },
+          "total": 76,
+          "truncated": true,
+          "elapsed_ms": 23.7894
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "只选下跌+盘整+下跌",
+              "limit": 20
+            }
+          },
+          "total": 112,
+          "truncated": true,
+          "elapsed_ms": 26.1241
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-half-probability-profit-300-not-proof",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者断言该方法可用低一级别一卖退出",
+              "limit": 20
+            }
+          },
+          "total": 197,
+          "truncated": true,
+          "elapsed_ms": 23.63680000000005
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "自称年300%都算差",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.286900000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-strategy-exclusion-not-no-profit",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不考虑不意味着不能盈利",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.582500000000039
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "日图并非跌+盘+跌而只是一跌",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.064899999999966
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-reader-identity",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 64
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 2.088099999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b25-macd-law-and-put-warning",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第一类买点在零轴下背驰形成",
+              "limit": 20
+            }
+          },
+          "total": 254,
+          "truncated": true,
+          "elapsed_ms": 27.4966
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该认沽风险极大",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.8279
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

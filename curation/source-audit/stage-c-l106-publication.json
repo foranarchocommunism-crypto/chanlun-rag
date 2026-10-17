@@ -45,12 +45,46 @@
     "原1694条已复核命题及其全部证据未改",
     "27工程回归与1749引用校验本轮通过",
     "8组边界与8入口一致性见stage-c-l106-verification.json",
-    "192开发题取证计划/身份见stage-g-development-current.results.json"
+    "192开发题取证计划/身份见stage-g-development-current.results.json",
+    "23段日期及10图修正后，9647段528图与源备份逐行一致，原文本/坐标/未授权字段及原1694命题2479证据未改",
+    "27项Node工程通过；1749条全量引用最终0错误",
+    "8组边界与8组CLI/公共查询/桌面vendor一致性通过，查询数据库清单只读",
+    "1749命题/213概念/248关系全部同版本导出",
+    "192/192开发取证计划及来源身份通过，旧题和证据ID保留"
   ],
   "checks_not_run": [
-    "240题完整评测、生成回答评分与基线未完成",
-    "Electron实际离线及打包交互未验收"
+    "240题完整评测、生成回答及基线评分未完成",
+    "其余46课完整语义及跨课/图文审查未完成",
+    "Windows成品真实离线与缩放/旋转/跨页高亮未验收"
   ],
   "acceptance": "55条增量已发布，7项待核与十张后加图分别保留；全书和Windows交付未完成",
-  "next_action": "接续第107至108课（下册实际PDF416至427），逐段核对短线反弹第一/第二/第三类点、反复各分支、月线底分型/底部和解盘日期/图源。"
+  "next_action": "接续107至108课120段，实际PDF416至427；核短线反弹操作与底部讲解及配图，核427末/428后记边界",
+  "transient_check_failures": [
+    {
+      "check": "node scripts/validate.mjs",
+      "first_result": "database is locked while checks ran concurrently",
+      "cause": "not established; version-session test uses a temporary database, so no attribution to that test",
+      "resolution": "after concurrent processes ended, serial retry passed on graph 0.1.0-review-d0d53f2f3dc0",
+      "engine_code_changed": false
+    }
+  ],
+  "export_checks": [
+    {
+      "name": "claims",
+      "count": 1749,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 213,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 248,
+      "all_rows_current_version": true
+    }
+  ],
+  "final_database_sha256": "2e31115d195dfcff384ac907a28bb4417b5813143279ba8bcd012dde2b71ee0f",
+  "final_manifest_sha256": "30d09b05d7411b29f914978c459534f56dd482a2bea439935a7cdfa2ad9dabee"
 }

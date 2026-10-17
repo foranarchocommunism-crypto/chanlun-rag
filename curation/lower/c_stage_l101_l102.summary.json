@@ -1,0 +1,65 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-0db24ad1b75d",
+  "lessons": [
+    101,
+    102
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册101—102课同模型四轮复核",
+  "passages_read": 161,
+  "claims": 59,
+  "evidence": 78,
+  "importance_counts": {
+    "1": 44,
+    "2": 11,
+    "3": 3,
+    "4": 1
+  },
+  "new_concepts": [],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366
+  ],
+  "figure_objects_viewed": 6,
+  "adjacent_figure_viewed": {
+    "id": "volume_2-5332cd1b6038-p0366-fig1",
+    "unit": "lesson-103",
+    "counted_in_batch": false
+  },
+  "figure_origin_counts": {
+    "unverified": 3,
+    "later_annotation": 3
+  },
+  "pending": [
+    "lower-l101-l102-c-stage-pending-second-buy-three-forms-and-loose-name",
+    "lower-l101-l102-c-stage-pending-uniqueness-and-recomposition-proof",
+    "lower-l101-l102-c-stage-pending-a0-arbitrary-vs-prerequisite",
+    "lower-l101-l102-c-stage-pending-chart-reference-frame-and-precision",
+    "lower-l101-l102-c-stage-pending-explicit-stroke-correction-and-confirmation",
+    "lower-l101-l102-c-stage-pending-historical-price-policy-and-self-report",
+    "lower-l101-l102-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_passages_snapshot_sha256": "bcf7e9340b5ea6d740d5268055f6f522aec461946f9ae3d1c8f412c06f2eac5c",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "161段四轮审读、14页6本课图及1邻课边界图；二买三式、唯一性主张、图参考框架及明确纠正分层，增量待预检发布。"
+}

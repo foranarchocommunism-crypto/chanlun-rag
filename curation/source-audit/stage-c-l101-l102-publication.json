@@ -1,0 +1,77 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-0db24ad1b75d",
+  "graph_version": "0.1.0-review-324a7257a56f",
+  "scope": "第101—102课161段，PDF353至366共14页，六本课图三后加三未核，另366邻课图仅边界检查；二买三式、唯一性主张、图参考框架与明确纠正分层",
+  "new_claims": 59,
+  "new_evidence": 78,
+  "relation_supports_added": 5,
+  "reviewed_before": 1516,
+  "reviewed_after": 1575,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4214,
+    "evidence": 4936,
+    "relations": 232,
+    "reviews": 1635
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l101_l102.reviewed.jsonl": "c3756095a59eafcd8c53cf73e387e1de1d84cadeec161cee9ed72ee7cf2ccea3"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T085834807554Z-curation-l101-l102",
+  "reviewer": "Codex 主代理 / 阶段C下册101—102课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l101-l102-c-stage-pending-second-buy-three-forms-and-loose-name",
+    "lower-l101-l102-c-stage-pending-uniqueness-and-recomposition-proof",
+    "lower-l101-l102-c-stage-pending-a0-arbitrary-vs-prerequisite",
+    "lower-l101-l102-c-stage-pending-chart-reference-frame-and-precision",
+    "lower-l101-l102-c-stage-pending-explicit-stroke-correction-and-confirmation",
+    "lower-l101-l102-c-stage-pending-historical-price-policy-and-self-report",
+    "lower-l101-l102-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l101-l102-figure-applied.json",
+  "checks_run": [
+    "59条JSON Schema及引用/身份/映射/坐标预检",
+    "161段原文哈希及全段台账一致",
+    "原1516条已复核命题及其全部证据未改",
+    "27项Node工程通过；1575条全量引用0错误",
+    "8组边界及8组CLI/公共查询/桌面vendor一致性通过，数据库清单只读",
+    "1575命题/205概念/232关系全部同版本导出",
+    "156/156开发取证计划及来源身份通过，旧题ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及基线评分未完成",
+    "其余50课完整语义及跨课/图文审查未完成",
+    "Windows成品真实离线与缩放/旋转/跨页高亮未验收"
+  ],
+  "acceptance": "59条增量已发布，7项待核与三张后加/三张未核配图分别保留；全书和Windows交付未完成",
+  "next_action": "继续第103至104课154段及原页图核查",
+  "export_checks": [
+    {
+      "name": "claims",
+      "count": 1575,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 205,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 232,
+      "all_rows_current_version": true
+    }
+  ],
+  "final_database_sha256": "b6ab9020dbf557777a905b6c01853a019e94a9f91f1dc9b0c052acd0d5e3f86e",
+  "final_manifest_sha256": "3eeee54fbbaa11b85797a09619c696907c5002ddd8fa87278825162fd21d4e6b"
+}

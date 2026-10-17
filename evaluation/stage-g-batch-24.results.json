@@ -1,0 +1,395 @@
+{
+  "graph_version": "0.1.0-review-c5310a86c5bb",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b24-active-passive-two-meanings",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "主动带套有两层意思",
+              "limit": 20
+            }
+          },
+          "total": 3,
+          "truncated": false,
+          "elapsed_ms": 14.211300000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "盲目状态下被套称为被动带套",
+              "limit": 20
+            }
+          },
+          "total": 2,
+          "truncated": false,
+          "elapsed_ms": 13.404199999999989
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-invalid-entry-two-branches",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上涨时又出现男上位缠绕",
+              "limit": 20
+            }
+          },
+          "total": 42,
+          "truncated": true,
+          "elapsed_ms": 27.2646
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该缠绕跌破前面男上位最低位",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.930499999999995
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-half-and-maotai-prior-low",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "称一般一半位置不该破",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.333200000000005
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "前低在5月26日37元多",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.323399999999992
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-tcl-case-lot-and-topup",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "在TCL既有套仓的具体答复",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 23.197599999999994
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "原套仓暂不动",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 17.600700000000018
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-ninety-and-no-speculative-switch",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "强市自称基本90%以上",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.267199999999974
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "原股未出卖出信号就持有",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.055999999999983
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-law-kiss-and-corresponding-next",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "缠绕包括飞吻、唇吻、湿吻",
+              "limit": 20
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 24.10560000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "次一级别相应走势的第一类买点",
+              "limit": 20
+            }
+          },
+          "total": 256,
+          "truncated": true,
+          "elapsed_ms": 25.580900000000014
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-short-program-order-and-specific-level",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "次级别第一类卖点出现可先减仓",
+              "limit": 20
+            }
+          },
+          "total": 294,
+          "truncated": true,
+          "elapsed_ms": 23.116299999999967
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "12月1日10:30在30分钟背驰约9.7",
+              "limit": 20
+            }
+          },
+          "total": 184,
+          "truncated": true,
+          "elapsed_ms": 28.71029999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-macd-doubled-not-fixed-priority",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "MACD周期比普通长一倍",
+              "limit": 20
+            }
+          },
+          "total": 95,
+          "truncated": true,
+          "elapsed_ms": 30.250200000000007
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "都要看、综合看",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.069999999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-week-day-thirty-not-same-confirmation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "周线不存在背驰，日线将演化",
+              "limit": 20
+            }
+          },
+          "total": 184,
+          "truncated": true,
+          "elapsed_ms": 28.132600000000025
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "30分钟图12月1日13:30卖点",
+              "limit": 20
+            }
+          },
+          "total": 19,
+          "truncated": false,
+          "elapsed_ms": 25.86719999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-divergence-amplitude-and-equal-low",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不承诺调整时间或幅度",
+              "limit": 20
+            }
+          },
+          "total": 55,
+          "truncated": true,
+          "elapsed_ms": 23.896500000000003
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "同为2.43、没有创新低",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.981400000000008
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-reader-identity",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 47
+            }
+          },
+          "total": 15,
+          "truncated": false,
+          "elapsed_ms": 3.4375
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b24-000063-correction",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者纠正1999年4月30日为第二类买点",
+              "limit": 20
+            }
+          },
+          "total": 72,
+          "truncated": true,
+          "elapsed_ms": 26.578700000000026
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

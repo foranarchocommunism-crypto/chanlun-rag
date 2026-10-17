@@ -1,0 +1,83 @@
+{
+  "graph_version": "0.1.0-review-c5310a86c5bb",
+  "schema_version": "1.1.0",
+  "checks": [
+    "41新增；主动带套两义与被动盲目介入、按走势而非盈亏退出可查，主动带套不自动别名105主动买套",
+    "一买再男吻/二买破前男低两种失效分开，8/7不是破5/26前低；一半位置未补50%公式，反抽一般非保证",
+    "TCL一次补/原仓暂留是案例，短差只用补仓部分且有能力条件；90%为作者估计、无卖点换股不能凭事后更好",
+    "缠绕包括三吻，买点定律跨页保留次一级别/相应走势和均线框架；50亿与10亿仅例，不造中间分档算法",
+    "短差先次级卖减再买补，000503具体30卖/5买时间价格独立；背驰不承诺调整长短和幅度，不把高效自述当实测最优",
+    "长一倍未补具体MACD参数；周无/日待/30短差分开，线柱综合不造优先级，等低非失败标准点及000063日期纠正保留",
+    "14源修正与哈希逐项一致，读者47无伪造时间；18图9后加9未核，43前课图不重算，两课仍with_pending"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "主动带套有两层意思"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅买点定律",
+        "limit": 30
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "缠中说禅短差程序",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-d365ca54df7e633e"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 52
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "瞎鼓捣",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "不是Windows成品离线或PDF真实交互验收。",
+    "同模型边界检查不是独立审查，不证明吻/买点定律/短差程序的收益、胜率、最优性、专利权或统一后的跨课算法。"
+  ]
+}

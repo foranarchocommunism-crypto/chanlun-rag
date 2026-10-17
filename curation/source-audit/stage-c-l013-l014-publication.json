@@ -1,0 +1,79 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-7263ee305f89",
+  "graph_version": "0.1.0-review-c5310a86c5bb",
+  "scope": "第13至14课120段，PDF43至58共16页18图；14段身份/日期修正，主动带套两义与程序失效保护、相应周日买点及短差、倍周期MACD和图源分开",
+  "new_claims": 41,
+  "new_evidence": 54,
+  "relation_supports_added": 12,
+  "reviewed_before": 1864,
+  "reviewed_after": 1905,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 225,
+    "claims": 4544,
+    "evidence": 5412,
+    "relations": 279,
+    "reviews": 1966
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l013_l014.reviewed.jsonl": "084012ffa41f7d5bd75023e4e2d2a6e8868c624014a16f42062fdf77efa0ad53"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T170959818692Z-curation-l013_l014",
+  "reviewer": "Codex 主代理 / 阶段C上册13至14课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l013-l014-c-stage-pending-early-class-names-and-level-law",
+    "upper-l013-l014-c-stage-pending-active-protection-vs-old-lot-and-lump-topup",
+    "upper-l013-l014-c-stage-pending-half-warning-and-retest",
+    "upper-l013-l014-c-stage-pending-macd-double-period-and-example-comparison",
+    "upper-l013-l014-c-stage-pending-figure-origin-adjustment-and-dates",
+    "upper-l013-l014-c-stage-pending-nested-quotations-and-reader-mislabel",
+    "upper-l013-l014-c-stage-pending-success-profits-and-efficiency-claims",
+    "upper-l013-l014-c-stage-pending-patent-and-copyright-self-description"
+  ],
+  "source_structure_changes": "stage-c-l013-l014-source-applied.json",
+  "checks_run": [
+    "41条JSON Schema及引用/身份/映射/坐标预检",
+    "120段原文哈希与全段台账一致",
+    "旧1864命题2719证据及全源9647段528图备份逐行核验",
+    "27项Node工程测试通过",
+    "1905全量引用0错误",
+    "7组边界与7组CLI/公共/桌面查询一致",
+    "1905命题/225概念/279关系同版本导出",
+    "228/228开发题取证及身份通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测及生成回答/基线未完成",
+    "其余39课完整语义及全书跨课复核未完成",
+    "Windows真实离线及缩放旋转跨页未验收"
+  ],
+  "acceptance": "13至14课41条54证据和14段源修正已发布验证，1905引用/228开发题通过；8待核和全书/Windows目标未完成。",
+  "next_action": "接续上册15至16课（实际PDF58至75），核对趋势/盘整的早期图周期定义、背驰比较与MACD辅助、中小资金方法、读者身份及原图。",
+  "exports": [
+    {
+      "name": "claims",
+      "count": 1905,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 225,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 279,
+      "all_rows_current_version": true
+    }
+  ],
+  "final_database_sha256": "3aaf29554fecfb3619ec39d92464d8a0469a98faab8ef651d4e418c898d55adf",
+  "final_manifest_sha256": "85fa95833b87fb1b7d9c1fc0e12c610d06c22c5e8420b09e312a140acb83d740"
+}

@@ -1,0 +1,78 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-16fde766eeec",
+  "graph_version": "0.1.0-review-8622f2f9c79f",
+  "scope": "第107至108课120段，PDF416至427共12页5本课后加图；13段身份日期修正，形成与完成、T+1与奔走型、底部两入口及月周日分层",
+  "new_claims": 54,
+  "new_evidence": 71,
+  "relation_supports_added": 8,
+  "reviewed_before": 1749,
+  "reviewed_after": 1803,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 213,
+    "claims": 4442,
+    "evidence": 5256,
+    "relations": 256,
+    "reviews": 1864
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l107_l108.reviewed.jsonl": "adfa86d31f78e0640dc7de4124dba37bfda78b67ab6a167bcc067295f2f523c9"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T164055475691Z-curation-l107_l108",
+  "reviewer": "Codex 主代理 / 阶段C下册107至108课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l107-l108-c-stage-pending-trend-formation-vs-completed-type",
+    "lower-l107-l108-c-stage-pending-absolute-safety-t1-and-efficiency",
+    "lower-l107-l108-c-stage-pending-fractal-bottom-vs-strict-type-and-entry",
+    "lower-l107-l108-c-stage-pending-historical-month-cycle-not-timing-law",
+    "lower-l107-l108-c-stage-pending-probabilities-levels-and-price-thresholds",
+    "lower-l107-l108-c-stage-pending-date-heads-role-and-quoted-title",
+    "lower-l107-l108-c-stage-pending-figure-makers-and-future-bars"
+  ],
+  "source_structure_changes": "stage-c-l107-l108-source-applied.json",
+  "checks_run": [
+    "54条JSON Schema与引用/身份/映射/坐标预检",
+    "120段全段台账/原文哈希一致",
+    "9647源段528图及旧1749命题2546证据逐行备份核对",
+    "27项Node工程通过",
+    "1803条引用0错误",
+    "7组边界与7组CLI/公共/桌面查询一致",
+    "1803命题/213概念/256关系同版本导出",
+    "204/204开发取证计划及身份通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测与生成回答/基线未完成",
+    "上册44课完整语义及全书跨课复核未完成",
+    "Windows真实离线及缩放旋转跨页未验收"
+  ],
+  "acceptance": "107至108课54条增量及13段源修正已发布验证，1803引用/204开发题通过；7待核与全书/Windows目标未完成。",
+  "next_action": "回到上册第10至12课，实际PDF27至43；从volume_1-a53e99c37ca5-p0027-b009逐段读取，核对早期均线/吻/背驰用语、作者答疑身份及配图，保留后期严格定义差异。",
+  "exports": [
+    {
+      "name": "claims",
+      "count": 1803,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 213,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 256,
+      "all_rows_current_version": true
+    }
+  ],
+  "final_database_sha256": "f93da6d4d1b30f294446c717701d75631ae0b99424e94e014fa50d6d00003228",
+  "final_manifest_sha256": "bd65b75503d87a5b08e2cf39bab0180a8beb6689b8b4fc38b4da4446dbcdb862"
+}

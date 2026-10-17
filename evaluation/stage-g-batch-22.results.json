@@ -1,0 +1,383 @@
+{
+  "graph_version": "0.1.0-review-8622f2f9c79f",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b22-running-fees-and-decomposition",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上下上反弹的末上不保证",
+              "limit": 20
+            }
+          },
+          "total": 68,
+          "truncated": true,
+          "elapsed_ms": 32.71370000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "30分钟反弹按5分钟节奏",
+              "limit": 20
+            }
+          },
+          "total": 68,
+          "truncated": true,
+          "elapsed_ms": 40.263000000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-t1-second-sell-alternatives",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "T+1可能使首类卖点无法卖出",
+              "limit": 20
+            }
+          },
+          "total": 18,
+          "truncated": false,
+          "elapsed_ms": 34.697199999999995
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-formation-versus-completed",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "上升趋势形成的精确定义",
+              "limit": 20
+            }
+          },
+          "total": 52,
+          "truncated": true,
+          "elapsed_ms": 36.9623
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "趋势是至少包含两个依次同向",
+              "limit": 20
+            }
+          },
+          "total": 52,
+          "truncated": true,
+          "elapsed_ms": 38.815
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-partition-directions",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "用上下上三个5分钟走势类型",
+              "limit": 20
+            }
+          },
+          "total": 92,
+          "truncated": true,
+          "elapsed_ms": 38.74880000000002
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "标准分解中，可把上涨趋势中枢",
+              "limit": 20
+            }
+          },
+          "total": 352,
+          "truncated": true,
+          "elapsed_ms": 36.16500000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-rotation-capacity-not-half",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "分段安全方案并非平均效率最高",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 20.800700000000006
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-bottom-precise-failure-and-coarse",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "到其引发中枢首次走出第三类买卖点前",
+              "limit": 20
+            }
+          },
+          "total": 373,
+          "truncated": true,
+          "elapsed_ms": 38.81569999999999
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "以分型定义底部称为较粗糙",
+              "limit": 20
+            }
+          },
+          "total": 101,
+          "truncated": true,
+          "elapsed_ms": 37.25650000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-fractal-confirmation-versus-entry",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "分型角度的底部是底分型所构区间",
+              "limit": 20
+            }
+          },
+          "total": 188,
+          "truncated": true,
+          "elapsed_ms": 30.456699999999955
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "在区间下探失败时买",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.972500000000025
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-month-candidate-and-confirmation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "8月K线给月区间2284",
+              "limit": 20
+            }
+          },
+          "total": 25,
+          "truncated": true,
+          "elapsed_ms": 39.066299999999956
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "10月有效确认站住2952前",
+              "limit": 20
+            }
+          },
+          "total": 277,
+          "truncated": true,
+          "elapsed_ms": 34.35109999999992
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-week-day-exception",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "走出底部还须2284—2601有效突破",
+              "limit": 20
+            }
+          },
+          "total": 46,
+          "truncated": true,
+          "elapsed_ms": 33.25709999999992
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "最终是否有效看2284—2455",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 20.189699999999903
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-sep12-role-and-ninety",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "9月12日作者说小反弹后继续下跌",
+              "limit": 20
+            }
+          },
+          "total": 110,
+          "truncated": true,
+          "elapsed_ms": 32.9547
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-new-level-day-week-confirmation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "9月25日作者说未破5日线",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.530900000000088
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "下一买点须站在新级别数中枢",
+              "limit": 20
+            }
+          },
+          "total": 466,
+          "truncated": true,
+          "elapsed_ms": 41.02729999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b22-aesthetic-period-and-macd-open",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "从美学称10月见底",
+              "limit": 20
+            }
+          },
+          "total": 23,
+          "truncated": true,
+          "elapsed_ms": 37.1255000000001
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "月线MACD回零轴后的中级回拉",
+              "limit": 20
+            }
+          },
+          "total": 87,
+          "truncated": true,
+          "elapsed_ms": 49.82089999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

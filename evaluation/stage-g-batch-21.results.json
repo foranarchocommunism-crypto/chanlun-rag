@@ -1,0 +1,395 @@
+{
+  "graph_version": "0.1.0-review-d0d53f2f3dc0",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b21-eight-parameters-history-system",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5、13、21、34、55、89、144、233",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.459999999999994
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "后续走势没有大变化时作者沿用",
+              "limit": 20
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 24.766000000000005
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-history-classification-not-current-count",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "未曾攻克的最小周期均线",
+              "limit": 20
+            }
+          },
+          "total": 111,
+          "truncated": true,
+          "elapsed_ms": 36.4619
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "最厉害者不一定当前",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.83669999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-sector-average-not-weighted-return",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "板块成员类别数的平均",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.161300000000011
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "还须配合具体股票走势分析",
+              "limit": 20
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 26.247500000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-averages-level-and-unverified-corrections",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "走势级别与均线没有必然关系",
+              "limit": 20
+            }
+          },
+          "total": 298,
+          "truncated": true,
+          "elapsed_ms": 32.01219999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "600578/600607第7",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.217800000000011
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-six-bars-vs-new-stroke",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "至少延伸6个基本K线单位",
+              "limit": 20
+            }
+          },
+          "total": 25,
+          "truncated": true,
+          "elapsed_ms": 37.891999999999996
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "顶分型最高K线与底分型最低K线之间",
+              "limit": 20
+            }
+          },
+          "total": 230,
+          "truncated": true,
+          "elapsed_ms": 35.56970000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-rotation-t1-and-buy-sell-points",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "所有节奏仍须以买卖点为基础",
+              "limit": 20
+            }
+          },
+          "total": 47,
+          "truncated": true,
+          "elapsed_ms": 38.33589999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "T+1确实限制",
+              "limit": 20
+            }
+          },
+          "total": 2,
+          "truncated": false,
+          "elapsed_ms": 23.653700000000015
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-boundary-not-best-entry",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "分型上边沿站稳不是最佳买点",
+              "limit": 20
+            }
+          },
+          "total": 111,
+          "truncated": true,
+          "elapsed_ms": 30.711099999999988
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不等单纯上下边沿判断",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.660399999999981
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-dates-next-header-not-previous-paragraph",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "T+1确实限制",
+              "limit": 20
+            }
+          },
+          "total": 2,
+          "truncated": false,
+          "elapsed_ms": 21.865399999999966
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "7月16日作者说未上5日线",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 16.871500000000026
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-first-leg-not-whole-type",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "2924下来至少第一段",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 15.146599999999978
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当天为三级反弹中的第二个",
+              "limit": 20
+            }
+          },
+          "total": 50,
+          "truncated": true,
+          "elapsed_ms": 34.43509999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-a-b-without-c-still-down",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "a、c可不出现而不改所述下跌性质",
+              "limit": 20
+            }
+          },
+          "total": 44,
+          "truncated": true,
+          "elapsed_ms": 39.4615
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-major-center-not-just-price-break",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "次级别类型完成后，其次级别反弹不能回该中枢",
+              "limit": 20
+            }
+          },
+          "total": 532,
+          "truncated": true,
+          "elapsed_ms": 35.45989999999995
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b21-probability-conditioning-not-eighties",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "破底概率至少95%",
+              "limit": 20
+            }
+          },
+          "total": 12,
+          "truncated": false,
+          "elapsed_ms": 21.337800000000016
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第二种从中枢直接三买扩大",
+              "limit": 20
+            }
+          },
+          "total": 297,
+          "truncated": true,
+          "elapsed_ms": 34.3223999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

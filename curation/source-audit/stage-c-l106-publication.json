@@ -1,0 +1,56 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-12a52fb79896",
+  "graph_version": "0.1.0-review-d0d53f2f3dc0",
+  "scope": "第106课125段，PDF401至416共16页10本课后加图+1邻课边界；23段日期及10图来源修正，均线九类/板块类别平均、六K与新笔、边沿非最佳入场和T+1、多层反弹分开",
+  "new_claims": 55,
+  "new_evidence": 67,
+  "relation_supports_added": 6,
+  "reviewed_before": 1694,
+  "reviewed_after": 1749,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 213,
+    "claims": 4388,
+    "evidence": 5185,
+    "relations": 248,
+    "reviews": 1810
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l106.reviewed.jsonl": "6b367d3e8e165aae2fe5b1428106bb6955851adef406aeb1c4024f276482ddcc"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T153451422907Z-curation-l106",
+  "reviewer": "Codex 主代理 / 阶段C下册106课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l106-c-stage-pending-six-bars-and-new-stroke-counting",
+    "lower-l106-c-stage-pending-classification-history-threshold-and-strongest-question",
+    "lower-l106-c-stage-pending-sector-average-system-scope",
+    "lower-l106-c-stage-pending-boundary-is-not-best-entry-and-t1-execution",
+    "lower-l106-c-stage-pending-rebound-numbering-and-second-center-reference",
+    "lower-l106-c-stage-pending-probabilities-historical-rhetoric-and-quote-context",
+    "lower-l106-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l106-source-applied.json",
+  "checks_run": [
+    "55条JSON Schema及引用/身份/映射/坐标预检",
+    "125段原文哈希及全段台账一致",
+    "原1694条已复核命题及其全部证据未改",
+    "27工程回归与1749引用校验本轮通过",
+    "8组边界与8入口一致性见stage-c-l106-verification.json",
+    "192开发题取证计划/身份见stage-g-development-current.results.json"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答评分与基线未完成",
+    "Electron实际离线及打包交互未验收"
+  ],
+  "acceptance": "55条增量已发布，7项待核与十张后加图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第107至108课（下册实际PDF416至427），逐段核对短线反弹第一/第二/第三类点、反复各分支、月线底分型/底部和解盘日期/图源。"
+}

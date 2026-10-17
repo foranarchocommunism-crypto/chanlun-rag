@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-d0d53f2f3dc0",
+  "schema_version": "1.1.0",
+  "checks": [
+    "55新增；八周期不插8，九类按本轮反弹历史未曾攻克最小周期，最强不必当前全在线上之设问未编造详答",
+    "板块取同规则类别平均且越大越强，不补市值权重；配合个股买卖点，未把电脑程序设想当成品交付",
+    "均线与严格级别不定式换算，正文233和600578第7类不依未知图注144/第6类擅改",
+    "六根原话/去包含示例与81两联合条件并列，未改81；8/14明文边沿仅观察成笔，非最佳买点或完整区间套",
+    "T+1明确限制理论化小级精确操作；23日期逐项匹配，2/28被引文章和14:21被引标题不作新解盘头，7/10不补时分秒",
+    "第一段终结非整体完成，大中枢三卖须次级下跌完后反抽不回；A/B合法而a/c可缺，8/13第二反弹明指构造2924第二中枢",
+    "预测在该段专指分级边界分类，不抹除旧方向预测非100%；95/两个10/90非实测且不能自加，次级反弹仍有三卖风险",
+    "10本课图全部文后行情，401邻课图未重算；全书语义与Windows成品目标仍未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "均线分类"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅板块强弱指标",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "均线系统",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "均线分类",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-598a54aee3aacd83"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 404
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "6根K线",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明全书歧义已解决、均线分类阈值/最强设问已有唯一算法、板块指标经收益回测、六K与81已统一或95/10/90比例已实测。"
+  ]
+}

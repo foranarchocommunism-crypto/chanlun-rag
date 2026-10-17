@@ -1,0 +1,432 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-85e5816782c5",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0406-b004",
+      "before": {
+        "published_at": "2008-07-14 06:40:48"
+      },
+      "after": {
+        "published_at": "2008-07-16 06:12:17"
+      },
+      "text_sha256": "1198f055dfb791c7bda45cca6e6cbf4362970f87f3c83c526243f1e6c5f956bd",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0406-b005",
+      "before": {
+        "published_at": "2008-07-14 06:40:48"
+      },
+      "after": {
+        "published_at": "2008-07-16 06:12:17"
+      },
+      "text_sha256": "9347268f912e422704afafd770cd64d5620cb519ad93abeac828e1627b5404e4",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b002",
+      "before": {
+        "published_at": "2008-07-19 05:57:14"
+      },
+      "after": {
+        "published_at": "2008-07-21 15:37:35"
+      },
+      "text_sha256": "d09868bf118b1545eb98c6dc703f30b642cf6e76cb52c7cf4cfe0e9d628a5f58",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b003",
+      "before": {
+        "published_at": "2008-07-19 05:57:14"
+      },
+      "after": {
+        "published_at": "2008-07-29 07:13:02"
+      },
+      "text_sha256": "227f98bf45141a3dc55707d184ed62e4a661aa49e0c09af48994c6537d3f497c",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b004",
+      "before": {
+        "published_at": "2008-07-19 05:57:14"
+      },
+      "after": {
+        "published_at": "2008-07-31 15:04:59"
+      },
+      "text_sha256": "a2ce7fb057effbab2d5d78671734379cc7302f810a29d264384555cea32ec96c",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b005",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-03 08:25:09"
+      },
+      "text_sha256": "8476a1784f0ac01341c4071c2886451cf19ab17eb28522f368f8a7d0ceb14c0c",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b006",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-03 08:25:09"
+      },
+      "text_sha256": "94cf96d9cc07dcb47693bbc9557ab6b1f30625c560fc5eb583216500a960a7d3",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0407-b007",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-03 08:25:09"
+      },
+      "text_sha256": "c8927633a1b638c28051d345b1699654dc5d475b9a316a3ce247217a36d1031f",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b000",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-03 08:25:09"
+      },
+      "text_sha256": "db14368226bccee1aaf522f74777a983cb608882cb56cd11cd1798f3360419ec",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b001",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-04 15:26:00"
+      },
+      "text_sha256": "a1df9413decc2206df8cfc6ae4484f983ec8f5b2a81598674118c9b4de70bc31",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b002",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-04 15:26:00"
+      },
+      "text_sha256": "a3f5d3c5c3f57a1a0f70eb3a463075aafeb3fbcd738cc5bd7b7d17e3923292bd",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b003",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-04 15:26:00"
+      },
+      "text_sha256": "9d87637afc920961020d70c1c4d4e074d04ac1f67fdbcd829d0dded0c5c0acc7",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b004",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-04 15:26:00"
+      },
+      "text_sha256": "ec79010f9ac7c5dfee9cffaacdc3b3ca57d5860ec60e1a54eedcd4ab5fc9a398",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0408-b005",
+      "before": {
+        "published_at": "2008-07-1905:57:14"
+      },
+      "after": {
+        "published_at": "2008-08-04 15:26:00"
+      },
+      "text_sha256": "7b23c81ec6a4807de0b9ca23497dddc2bf73511c888e893cd2c92999ed761718",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0409-b009",
+      "before": {
+        "published_at": "2008-08-08 14:21:32"
+      },
+      "after": {
+        "published_at": "2008-08-08 15:20:58"
+      },
+      "text_sha256": "616b71faeb18ce9a303d056158840baabfaf4b0a1df86d2081ea9500a52a9555",
+      "reason": "实际查看PDF409：14:21:32是15:20:58文章中请看后引用标题的内嵌时间，不是新解盘头；作者随后拜托及宏观评论继续属于本篇15:20:58，不把所引语当作者威胁指令。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0409-b010",
+      "before": {
+        "published_at": "2008-08-08 14:21:32"
+      },
+      "after": {
+        "published_at": "2008-08-08 15:20:58"
+      },
+      "text_sha256": "e17bcbb28c27321d978e523823fd6ca9186096f7fffb3f1aaaabd206c9a62aaa",
+      "reason": "实际查看PDF409：14:21:32是15:20:58文章中请看后引用标题的内嵌时间，不是新解盘头；作者随后拜托及宏观评论继续属于本篇15:20:58，不把所引语当作者威胁指令。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0409-b011",
+      "before": {
+        "published_at": "2008-08-08 14:21:32"
+      },
+      "after": {
+        "published_at": "2008-08-08 15:20:58"
+      },
+      "text_sha256": "4ae5ecc184ae5ce6c26c1619f1f57f142e3a619e3f048ebeeefdbe7b2b94ea3a",
+      "reason": "实际查看PDF409：14:21:32是15:20:58文章中请看后引用标题的内嵌时间，不是新解盘头；作者随后拜托及宏观评论继续属于本篇15:20:58，不把所引语当作者威胁指令。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0409-b012",
+      "before": {
+        "published_at": "2008-08-08 14:21:32"
+      },
+      "after": {
+        "published_at": "2008-08-08 15:20:58"
+      },
+      "text_sha256": "8f7441b295d4f1654e8452b7a5c6613ec78cc7dc74996c0124765d3f920cea7b",
+      "reason": "实际查看PDF409：14:21:32是15:20:58文章中请看后引用标题的内嵌时间，不是新解盘头；作者随后拜托及宏观评论继续属于本篇15:20:58，不把所引语当作者威胁指令。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0413-b006-s01",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2008-08-13 08:28:09"
+      },
+      "text_sha256": "85af9a9f5d287e6c5dd3253acdb8f6da28ea6ac0260eb6bb2c07f3c109be0a3f",
+      "reason": "实际查看PDF413末作者解盘栏目头与414页首2008-08-13 08:28:09共同组成时间头，后段属该早盘说明。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0414-b000",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2008-08-13 08:28:09"
+      },
+      "text_sha256": "e88c8c7ef2c7509612f0dfca8cf06f55a3418f6e160638bf4ef2f99229a0f247",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0414-b001",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2008-08-13 08:28:09"
+      },
+      "text_sha256": "155d26c1061a66cbd0219c99f0e4a349ff7e75d50bbf28605afd7f93d5931e6a",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0415-b000",
+      "before": {
+        "published_at": "2008-08-1408:03:14"
+      },
+      "after": {
+        "published_at": "2008-08-15 15:27:47"
+      },
+      "text_sha256": "57dd5f95599558fcf3ee4f5116f561077ec47ad35bdb87a9a12bfb1a5d66ba40",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0415-b001",
+      "before": {
+        "published_at": "2008-08-1408:03:14"
+      },
+      "after": {
+        "published_at": "2008-08-15 15:27:47"
+      },
+      "text_sha256": "6196590e1081da8ac0654f7cf8506f193e247121716677ab453502fd362d0e21",
+      "reason": "实际查看PDF406至415解盘时间头：新头可抽在前段末或跨页，日期支配后文而不改前段；只校来源日期，不动原文/ID/坐标。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0402-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：7/10光标而日图已到8月；嵌文旁是否应改144日只是整理者疑问，正文233照留；图中12:12:22不能反填原课程只有日期的时间。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0403-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：000802第9类图光标7/10而日K到8月，后加；标签9仅案例背景，不能取未来K验证当时分类或收益。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0403-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：600578图光标7/10而K到8月，后加；图标类别6与正文600578第7类不同，制作者未核，不擅改正文或当作者修订。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0405-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：7/11嵌文光标，日图到8月含2453.7低点；后加，不能用未来下跌确认7/11顶分型已延伸笔。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0407-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：7/19、7/21、7/31嵌文，主图已到9月含1802.3，后加；2896/2952及34/55均线条件按各原日期分别记录。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0408-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/6嵌文，主图右侧到9月含2248.1，后加；7/3中枢框不能倒填8/6已三卖破坏或2762条件已确认。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0410-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/11早盘嵌文和光标，日图行情到9月含1802.3，后加；次级下跌未完/反抽未出不以未来价格确7月大中枢已坏。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0411-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/11早晚两段嵌文，30分钟图到8/19含2284.6，后加；第二中枢反弹与之后背驰大级别反弹区别以文字独立支持。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0413-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/12、8/13早晚三段嵌文，30分钟图到8/19，后加；后续答案时间是图后期证据，不改变原文8/12三分支当时状态。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0415-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/15、8/18嵌文和光标，日图已到9月含1802.3，后加；2484上沿未站与后续第三中枢可能不提前定案。"
+      },
+      "reason": "主图右侧有文后行情，图中不同类别/修正疑问与作者文字分开，不以光标认截止。"
+    }
+  ],
+  "pending": []
+}

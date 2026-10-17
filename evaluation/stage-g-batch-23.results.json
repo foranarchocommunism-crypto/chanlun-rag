@@ -1,0 +1,407 @@
+{
+  "graph_version": "0.1.0-review-fc861cf23919",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b23-lip-wet-definition",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "唇吻指短期均线",
+              "limit": 20
+            }
+          },
+          "total": 136,
+          "truncated": true,
+          "elapsed_ms": 36.898700000000005
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "湿吻指短期均线",
+              "limit": 20
+            }
+          },
+          "total": 139,
+          "truncated": true,
+          "elapsed_ms": 35.87910000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-flying-strong-qualitative",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "飞吻指短期均线",
+              "limit": 20
+            }
+          },
+          "total": 136,
+          "truncated": true,
+          "elapsed_ms": 33.085999999999984
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "飞吻出现较少，一般在特别强",
+              "limit": 20
+            }
+          },
+          "total": 4,
+          "truncated": false,
+          "elapsed_ms": 19.525800000000004
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-position-relative-system",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "短线上、长线下称女上位",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.82729999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "同一走势可在5日线上而在10日线下",
+              "limit": 20
+            }
+          },
+          "total": 11,
+          "truncated": false,
+          "elapsed_ms": 20.73449999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-wet-first-exception-no-risk-free",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不适用于趋势形成的第一次湿吻",
+              "limit": 20
+            }
+          },
+          "total": 59,
+          "truncated": true,
+          "elapsed_ms": 31.225300000000004
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "任何位置介入都存在风险",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.647699999999986
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-average-points-not-strict-only",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该均线系统第一买点是男上位",
+              "limit": 20
+            }
+          },
+          "total": 193,
+          "truncated": true,
+          "elapsed_ms": 36.822
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "随后澄清并非其他点不能买",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.865000000000009
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-second-buy-first-sell",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "一般偏好在第二买点买",
+              "limit": 20
+            }
+          },
+          "total": 38,
+          "truncated": true,
+          "elapsed_ms": 29.065999999999974
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "该均线系统买入后等待卖点",
+              "limit": 20
+            }
+          },
+          "total": 170,
+          "truncated": true,
+          "elapsed_ms": 36.31279999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-first-continuation-last-reversal",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "初次前5日应强劲",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.298600000000022
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不能100%预知哪次是最后",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 25.652600000000007
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-early-entry-no-t0-exceptions",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "通常不主张早上买股",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.589400000000012
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "30天线有效跌破前可中线持有",
+              "limit": 20
+            }
+          },
+          "total": 20,
+          "truncated": false,
+          "elapsed_ms": 25.713900000000024
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-position-context-full-small",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若满仓可借短冲减仓",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.25490000000002
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "买入前须定理由、期限",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 10.076900000000023
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-news-and-personal-standard",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "市场对所有消息的综合反应",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.754800000000046
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "是否符合自己的介入标准",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.290200000000027
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-replay-source-identity",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 33
+            }
+          },
+          "total": 7,
+          "truncated": false,
+          "elapsed_ms": 1.870200000000068
+        },
+        {
+          "request": {
+            "command": "page",
+            "args": {
+              "documentId": "volume_1.pdf",
+              "page": 34
+            }
+          },
+          "total": 17,
+          "truncated": false,
+          "elapsed_ms": 1.244100000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b23-weekly-case-no-year-invention",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "答000958时作者用5/10周系统",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.856999999999971
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-e3146c7c1e66",
+  "lessons": [
+    10,
+    11,
+    12
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册10至12课同模型四轮复核",
+  "passages_read": 213,
+  "claims": 61,
+  "evidence": 102,
+  "importance_counts": {
+    "3": 7,
+    "1": 37,
+    "2": 17
+  },
+  "new_concepts": [
+    "唇吻",
+    "均线体位",
+    "均线系统第一买点",
+    "均线系统第一卖点",
+    "均线系统第二买点",
+    "均线系统第二卖点",
+    "湿吻",
+    "飞吻"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "unverified": 3,
+    "later_annotation": 3
+  },
+  "pending": [
+    "upper-l010-l012-c-stage-pending-average-points-vs-strict-classes",
+    "upper-l010-l012-c-stage-pending-probability-and-absolute-wording",
+    "upper-l010-l012-c-stage-pending-two-points-only-and-risk-clarification",
+    "upper-l010-l012-c-stage-pending-source-replay-and-unknown-old-name",
+    "upper-l010-l012-c-stage-pending-dates-in-previous-block-and-source-identity",
+    "upper-l010-l012-c-stage-pending-parameters-valid-break-and-volume-algorithm",
+    "upper-l010-l012-c-stage-pending-figures-originals-vs-reconstruction",
+    "upper-l010-l012-c-stage-pending-macro-rhetoric-and-reader-context"
+  ],
+  "source_passages_snapshot_sha256": "dc72ef39641b6cd93f98e666f00818d59ce0e2c3e05b71d2e6651fe75eb605cd",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "第10至12课213段17页6图同模型四轮；54源修正、均线两点与严格三类点、吻/体位/概率及原文/后加图分开，增量待预检。"
+}

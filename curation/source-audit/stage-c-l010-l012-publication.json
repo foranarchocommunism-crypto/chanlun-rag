@@ -1,0 +1,89 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-e3146c7c1e66",
+  "graph_version": "0.1.0-review-fc861cf23919",
+  "scope": "第10至12课213段，PDF27至43共17页6图；54段身份日期修正，均线系统点与严格三类点、三吻/体位/概率及未知旧文回放分开",
+  "new_claims": 61,
+  "new_evidence": 102,
+  "relation_supports_added": 11,
+  "reviewed_before": 1803,
+  "reviewed_after": 1864,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 221,
+    "claims": 4503,
+    "evidence": 5358,
+    "relations": 267,
+    "reviews": 1925
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l010_l012.reviewed.jsonl": "74f9ab835c4814a9118181bcb7dd272693e2299010d9c32de0f0c7b1d7147010"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T165507528663Z-curation-l010_l012",
+  "reviewer": "Codex 主代理 / 阶段C上册10至12课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l010-l012-c-stage-pending-average-points-vs-strict-classes",
+    "upper-l010-l012-c-stage-pending-probability-and-absolute-wording",
+    "upper-l010-l012-c-stage-pending-two-points-only-and-risk-clarification",
+    "upper-l010-l012-c-stage-pending-source-replay-and-unknown-old-name",
+    "upper-l010-l012-c-stage-pending-dates-in-previous-block-and-source-identity",
+    "upper-l010-l012-c-stage-pending-parameters-valid-break-and-volume-algorithm",
+    "upper-l010-l012-c-stage-pending-figures-originals-vs-reconstruction",
+    "upper-l010-l012-c-stage-pending-macro-rhetoric-and-reader-context"
+  ],
+  "source_structure_changes": "stage-c-l010-l012-source-applied.json",
+  "checks_run": [
+    "61条JSON Schema及引用/身份/映射/坐标预检",
+    "213段原文哈希与全段台账一致",
+    "9647源段528图及旧1803命题2617证据逐行备份比对",
+    "27项Node工程串行重跑通过",
+    "1864全量引用0错误",
+    "6组边界与7组CLI/公共/桌面模块一致",
+    "1864命题/221概念/267关系同版本导出",
+    "216/216开发题取证计划及身份通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测及生成回答/基线未完成",
+    "其余41课完整语义及全书跨课复核未完成",
+    "Windows真实离线及缩放旋转跨页未验收"
+  ],
+  "acceptance": "上册10至12课61条102证据与54段源修正已发布；1864引用/216开发题通过，8待核和全书/Windows目标未完成。",
+  "next_action": "接续上册13至16课，实际PDF43至75，从第13课标题开始；核对主动/被动被套、均线系统套法、无趋势无背驰的早期定义及中小资金方法，逐段保留作者/读者、日期及原图身份。",
+  "transient_check_failure": {
+    "check": "npm test / every reviewed quote",
+    "observed_error": "database is locked during initial parallel checks",
+    "serial_rerun": {
+      "tests": 27,
+      "passed": 27,
+      "failed": 0
+    },
+    "code_or_assertions_changed_to_pass": false
+  },
+  "exports": [
+    {
+      "name": "claims",
+      "count": 1864,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 221,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 267,
+      "all_rows_current_version": true
+    }
+  ],
+  "final_database_sha256": "edb190ee6350c908a2bec0c554759b54f2a00f533ad2062de2d7210b9ae695fb",
+  "final_manifest_sha256": "8586e202702f116af09823498f2b72662c5d58bd1e585c4cc2b7af4f01c4e53e"
+}

@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-fc861cf23919",
+  "schema_version": "1.1.0",
+  "checks": [
+    "61新增；飞吻/唇吻/湿吻及均线体位定义完整，甚至反复非必要，飞吻少见且通常特强的语序保留",
+    "强弱按评价系统、资金和时间分开；指标不保证路径，第一次湿吻例外和任何位置有风险共同保留",
+    "均线系统第一二买卖点独立于严格三类点，买二卖一偏好与其他点可买但风险更大/只是一招限定可查",
+    "无T+0早盘通常不买的两例外、30日线持有的放量加速例外和满仓/低仓分支完整，沪深背离不冒充严格背驰",
+    "裸时间仅管后文；自引昨日解盘非读者，11/27回放非11/24回复，2005旧名转载六段unknown未用作作者证据，课程10不造完整日期",
+    "3后加3未核图，000958正文不补2005年，茅台跨页当时未有卖点；三课仍with_pending，全书语义false"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "唇吻指短期均线"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "均线系统第一买点",
+        "limit": 30
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "湿吻",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-994634caa40ed5e8"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 33
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "喜欢数学的女孩",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "不是Windows成品真实离线、PDF缩放旋转或交互验收。",
+    "同模型边界检查不代表独立语义复核或吻/均线系统的收益、概率、风险最优性证明。"
+  ]
+}

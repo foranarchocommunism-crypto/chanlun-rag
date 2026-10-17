@@ -1,0 +1,383 @@
+{
+  "graph_version": "0.1.0-review-206b57a0a638",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b17-general-vs-same-level",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "无法明确的是一般划分",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.512099999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-recompose-two-cases",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "a+b+c+(d+e+f)",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.956799999999987
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "a+b+c+d+e+(f+g+h)",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 10.039699999999996
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-complete-before-larger",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "一个级别走势完成后",
+              "limit": 20
+            }
+          },
+          "total": 241,
+          "truncated": true,
+          "elapsed_ms": 26.65719999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-relative-danger",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "原下跌走势的中阴危险",
+              "limit": 20
+            }
+          },
+          "total": 37,
+          "truncated": true,
+          "elapsed_ms": 31.462000000000003
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "文中所称第二甚至更后中枢",
+              "limit": 20
+            }
+          },
+          "total": 257,
+          "truncated": true,
+          "elapsed_ms": 34.0547
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-return-scope-annotated",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "盘整背驰或真正背驰后",
+              "limit": 20
+            }
+          },
+          "total": 210,
+          "truncated": true,
+          "elapsed_ms": 28.557500000000005
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "盘整背驰不适用同一个最低回跌要求",
+              "limit": 20
+            }
+          },
+          "total": 210,
+          "truncated": true,
+          "elapsed_ms": 31.46860000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-three-current-states",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5分钟离首中枢向下移动",
+              "limit": 20
+            }
+          },
+          "total": 258,
+          "truncated": true,
+          "elapsed_ms": 25.455299999999994
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-five-to-thirty-chain",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若成原5分钟三卖",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.111699999999985
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "本身不改变30分钟状态",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 18.200800000000015
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-capacity-vs-quantity",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不存在某一分类完全不能执行",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.97629999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "处理不了可能三卖者不参加",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.710399999999993
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-fractal-not-stroke-levels",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "4331使底分型成立",
+              "limit": 20
+            }
+          },
+          "total": 132,
+          "truncated": true,
+          "elapsed_ms": 25.669399999999996
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "周底分型已现",
+              "limit": 20
+            }
+          },
+          "total": 132,
+          "truncated": true,
+          "elapsed_ms": 25.16489999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-macd-zero-scope",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "所有真正行情展开都需MACD",
+              "limit": 20
+            }
+          },
+          "total": 67,
+          "truncated": true,
+          "elapsed_ms": 32.1225
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "理解其理论后这些描述完全没必要",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.9178
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-branch-timeline",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当日新低已排除前述第三支",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.923399999999958
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "第一支仍不能完全排除",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 14.791299999999978
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b17-third-buy-still-absent",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "真正三买尚未出现",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 10.707400000000007
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当日已转向回中枢",
+              "limit": 20
+            }
+          },
+          "total": 257,
+          "truncated": true,
+          "elapsed_ms": 30.44459999999998
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

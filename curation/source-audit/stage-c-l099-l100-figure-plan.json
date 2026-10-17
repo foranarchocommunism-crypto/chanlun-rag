@@ -1,0 +1,104 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-31363ab15fab",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0339-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：2月18日课程旁整理图署CHYS20091010，明显2009后加，三式a+b+c+(d+e+f)、a+b+c+d+e+(f+g+h)与九段框来自整理，不独立证明作者图解；正文代数重组另有原句。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0340-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：2月19日正文旁日图光标08/02/19，右侧尚有后续日K及大阴线，后期；不能反填2/19已站稳4672或底分型已延伸为笔。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0344-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：2月22日正文旁日图光标2/22但行情到7月含2566.5，后期；不能用未来下跌证明当时MACD三分支已知结局或2500必达。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0347-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：2月26日嵌文和光标，五分图行情到2/27，后期；不将次日反弹倒填2/26底分型雏形已确认或5分钟三卖已定。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0349-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：2月27日文章旁日图光标2/27但行情到3月含3607.3，后期；4331/4391/4695等标记不能反填2/27笔已确认。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0351-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：3月3日嵌文和光标，五分图行情明确到3/4，后期；图5F框和后续回跌不能改3/3真正三买未出的原文状态。"
+      },
+      "reason": "原页有文后交易K线或2009署名日期，光标日期不等于全图截止。"
+    }
+  ],
+  "pending": []
+}

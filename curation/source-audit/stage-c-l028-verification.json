@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-e78ec8275af6",
+  "schema_version": "1.1.0",
+  "checks": [
+    "49新增；基金/传销/借贷/净值约束和崩溃为作者历史观点，非法律事实或当前申赎规则，赎回与资金期限条件分别保留",
+    "超长线/均线系统复权意见分范围，MACD替代不是共同必要；95%非本项目指标，宽泛吻交叉不改细分，读者3%浮盈不认证买点",
+    "三中枢原时间不按读者笔误说改；前类型/现类型与省写延伸分开，完结还需29课；最低1分内更低柱比较特例不抹普通回轴，三重定位需对应包含",
+    "连接段/纯跳空/中枢/完成走势类型分层；1分可经扩展导致5分上涨，最低三段非必成趋势，后续靠中枢演化，非原背驰无限推动",
+    "大级别对齐、二卖盘整类型、三买中枢指代和MAX低MIN高前提保留；2/7待定与2/8联合条件不改已确认，负成本/概率/涨幅未实证",
+    "9解盘日期和3深潜读者修正，嵌引作者标题/CCTV读者分开；2误归候选拒绝，10图6后加4未核，28有记录而全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "买在买卖点之间而非真正三类买点"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "复权",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "基金赎回",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-e14d53641bce22e3"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 198
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第二中枢大家都认为",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、账户/历史预测核验或Windows实际离线/PDF交互。",
+    "未验证基金法律性质/崩溃预言、95%准确、反弹收益、无限低实际可交易或所有级别算法。"
+  ]
+}

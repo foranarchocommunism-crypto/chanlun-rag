@@ -1,0 +1,68 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-fc235e588378",
+  "lessons": [
+    28
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册28课同模型四轮复核",
+  "passages_read": 187,
+  "claims": 49,
+  "evidence": 60,
+  "importance_counts": {
+    "4": 1,
+    "2": 7,
+    "1": 36,
+    "3": 5
+  },
+  "new_concepts": [
+    "基金",
+    "基金赎回",
+    "复权",
+    "开放式基金"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203
+  ],
+  "figure_objects_viewed": 10,
+  "figure_origin_counts": {
+    "later_annotation": 6,
+    "unverified": 4
+  },
+  "pending": [
+    "upper-l028-c-stage-pending-fund-capital-redemption-and-polemical-claims",
+    "upper-l028-c-stage-pending-adjustment-choice-and-private-force-versus-macd",
+    "upper-l028-c-stage-pending-homework-center-dates-reader-requote-and-type",
+    "upper-l028-c-stage-pending-subminute-triple-nesting-and-normal-macd-premise",
+    "upper-l028-c-stage-pending-post-divergence-minimum-and-expansion-to-larger",
+    "upper-l028-c-stage-pending-second-third-points-center-referents-and-daily-alignment",
+    "upper-l028-c-stage-pending-historical-probability-cost-percent-and-signals",
+    "upper-l028-c-stage-pending-embedded-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "0286b78d29623f20ebea235d5cc0389c6eaef178a2c2b830ab7224c477a5d644",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "28课187段17页10图同模型四轮；9解盘日期/3嵌引读者修正，基金观点/复权/最低图特例及中枢扩展层次保留，待预检。"
+}

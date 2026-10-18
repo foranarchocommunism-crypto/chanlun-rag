@@ -1,0 +1,350 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-031e34587250",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b000",
+      "before": {
+        "published_at": "2007-02-06 15:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-07 20:43:08"
+      },
+      "reason": "实际PDF190/191：2/7 20:43:08在前段末，只管其后“把今天对大盘评价重写”等至938评论，不改前段2/6解盘日期。",
+      "text_sha256": "f3d0d6d933fb1dfbd3596a59efa2cecd13384d1be037458ba78dbcb5b47a120c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b001",
+      "before": {
+        "published_at": "2007-02-06 15:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-07 20:43:08"
+      },
+      "reason": "实际PDF190/191：2/7 20:43:08在前段末，只管其后“把今天对大盘评价重写”等至938评论，不改前段2/6解盘日期。",
+      "text_sha256": "739dd1badb1c9a21ddf79a8fa5aea18f244c77e5ecf37cbf2523b17613277c06",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b002",
+      "before": {
+        "published_at": "2007-02-06 15:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-07 20:43:08"
+      },
+      "reason": "实际PDF190/191：2/7 20:43:08在前段末，只管其后“把今天对大盘评价重写”等至938评论，不改前段2/6解盘日期。",
+      "text_sha256": "ddec934842a50f47cab9bc6d20323ccb5ae7837d3d91c2f522399a5da640a4c0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b003",
+      "before": {
+        "published_at": "2007-02-06 15:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-07 20:43:08"
+      },
+      "reason": "实际PDF190/191：2/7 20:43:08在前段末，只管其后“把今天对大盘评价重写”等至938评论，不改前段2/6解盘日期。",
+      "text_sha256": "28048a3f2688266442c19a72f77a0f048266d3a4c92ec392a73e5211ecd8f2bb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b004",
+      "before": {
+        "published_at": "2007-02-0615:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-08 15:10:09"
+      },
+      "reason": "实际PDF191/192：新独立2/8 15:10:09头及其后5分盘背/30分扩展/777减半自述至星号，不能继承2/6时间。",
+      "text_sha256": "885ec334e94b60e1f0a2f4d287f64677cf7909be9c5a33a2361491e5a536a0d7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b005",
+      "before": {
+        "published_at": "2007-02-0615:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-08 15:10:09"
+      },
+      "reason": "实际PDF191/192：新独立2/8 15:10:09头及其后5分盘背/30分扩展/777减半自述至星号，不能继承2/6时间。",
+      "text_sha256": "0fd1b9c24fcaf209f4d5c816160baf3936a42cd49f05986aa15e5e76ec4a4d3d",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b006",
+      "before": {
+        "published_at": "2007-02-0615:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-08 15:10:09"
+      },
+      "reason": "实际PDF191/192：新独立2/8 15:10:09头及其后5分盘背/30分扩展/777减半自述至星号，不能继承2/6时间。",
+      "text_sha256": "a21361cfe54c38332c610db41b6ba32be64525386f896b0f919ee81b8281570e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0191-b007",
+      "before": {
+        "published_at": "2007-02-0615:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-08 15:10:09"
+      },
+      "reason": "实际PDF191/192：新独立2/8 15:10:09头及其后5分盘背/30分扩展/777减半自述至星号，不能继承2/6时间。",
+      "text_sha256": "4b26bf15d5d8c90c6e1c137d808cb59ab69a0b047ae89a4b6f5e68b2e69d5ab3",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0192-b000",
+      "before": {
+        "published_at": "2007-02-0615:12:35"
+      },
+      "after": {
+        "published_at": "2007-02-08 15:10:09"
+      },
+      "reason": "实际PDF191/192：新独立2/8 15:10:09头及其后5分盘背/30分扩展/777减半自述至星号，不能继承2/6时间。",
+      "text_sha256": "f5267fd232367b6ae1068e0a88556d2e86f2181dd150b6e7984371d808fd944c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0198-b004",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-02-0622:14:35"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "深潜",
+        "published_at": "2007-02-24 19:43:19"
+      },
+      "reason": "实际PDF198：深潜引2/6作者作业的引号已在前段“各位请参考…… ”闭合；“在此产生两个问题”及两问属于2/24读者，不能继承引文作者身份时间。",
+      "text_sha256": "f70e723ff9957a639159ecb9bfef086b3ff7d661caba17ce8db4e78bf120f1cd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0198-b005",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-02-0622:14:35"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "深潜",
+        "published_at": "2007-02-24 19:43:19"
+      },
+      "reason": "实际PDF198：深潜引2/6作者作业的引号已在前段“各位请参考…… ”闭合；“在此产生两个问题”及两问属于2/24读者，不能继承引文作者身份时间。",
+      "text_sha256": "1ea2f5b08ce982820cef61ec72b6ec8f2e4e98c9ed3aa49ab93d2b47b21d935f",
+      "affected_references": [
+        {
+          "id": "evidence-e1f5fa312e20a07e",
+          "claim_id": "candidate-693b784d46de28fc",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0198-b006",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-02-0622:14:35"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "深潜",
+        "published_at": "2007-02-24 19:43:19"
+      },
+      "reason": "实际PDF198：深潜引2/6作者作业的引号已在前段“各位请参考…… ”闭合；“在此产生两个问题”及两问属于2/24读者，不能继承引文作者身份时间。",
+      "text_sha256": "a4a9b9886c839bd0db58d8d3d97c3e04cba2a69876bb7847d50ae3aab2ad09ef",
+      "affected_references": [
+        {
+          "id": "evidence-1acae08403d25305",
+          "claim_id": "candidate-76aa7ad83b38644d",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0190-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证5分光标2/6，主图右端到2/7；晚于2/6 15:12解盘。2720上/下两支仍为当时展望，图中2741.15不改正文。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0190-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证30分光标2/6，右端至2/13，晚于2/6解盘；未来K与2720分支分开，不据后涨反证当日确定。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0191-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证5分光标2/7，主图右端至2/9，嵌2/7及2/8两次解盘；两次时间和形成中/确认条件分开，不把后图框线当作者严格中枢算法。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0193-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：工行5分光标2/5，右端至2/7，晚于2/6 15:49答复；两框及4.57后反弹不把作者当日波段判断变成已独立验证。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0194-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：600016五分光标2/6，右端至2/7；嵌读者10:30问题和作者跌得多/板块位置/强势股条件，后图不证明所有5分背驰同幅度。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0195-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：600331五分光标2/6，右端至2/7，晚于当日16:35；注明5号已背与今后两天待看三买，不由未来拉起改为已确认突破。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0197-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：上证5分光标2/6，右端仍2/6，标三个5分中枢和第二为30分以上三卖；原发制作者未核，读者后来第二中枢日期疑问未由图自动解决。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0198-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：上证1分顶部光标2/5，右端已2/6但不晚于2/6夜间作者答案；最低1分以下的柱高比较是该快速例，不能据图补正式秒级中枢原数据。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0199-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：上证1分行情栏2/6，右端亦2/6，标02051410—1436与次日9:51—10:08；制作者未核，“一分中枢第三段弱”不补数值阈值。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0201-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：600151五分行情栏2/6，右端亦2/6，嵌2/6 22:35答复；图日期不足判后加，原发身份未核；1分背驰导致5分上涨与扩展过程仍按文字。"
+      },
+      "reason": "实际查看整图、行情栏、主图右端和嵌框署名；明确文后行情才判后加，原发未核与语义认可分开。"
+    }
+  ],
+  "visual_pages": [
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203
+  ],
+  "pending": [
+    "2/24读者关于第二中枢笔误的主张和CCTV解读不当作者认可；2/26作者明确回复单独取证，保留0130/130等原时间字符串。"
+  ],
+  "reviewer": "Codex 主代理 / 第28课日期、嵌引读者与原图来源复核"
+}

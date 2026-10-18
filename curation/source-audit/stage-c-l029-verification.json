@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-c6ace0c23754",
+  "schema_version": "1.1.0",
+  "checks": [
+    "38条新增；三类定理保留趋势/最后/更大盘整/以上反趋势，DD非ZD，反趋势允许同级而两完成类型的盘整须更大",
+    "9段统一计量须另设a/b/c均1分；扩展仍一个未完成类型，30分下跌仅后续可能；末段小背驰与前后类型归属不能补成充分完结算法",
+    "首次回抽通论非绝对与个例完全排除并存；两处未署名备注原文保留但未作作者命题引文；V预判明确超本章，安全/效率/概率未实测",
+    "三K中枢仅自选最低1分口径，每笔成交非几何笔；大级别背驰段与初升/主升不同，小信号可盘中化解，读者600640点位未认证",
+    "小资金或熟练、最好突破站稳、弱股例外均保留；均线面积粗糙/MACD辅助不补测度论证明，操作级别与大背驰段限制独立",
+    "2解盘日期修正而前段不改，读者问题仍隔离；12图4后加8未核含4张大山习作，2008年7月后图不混2007作者原发，全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "预先判断V型反转不由本章定理解决"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅背驰-转折定理",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "超跌",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-2cf6012c1abd9b3b"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 206
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "精确的背驰定义",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、历史行情/测度论证明核验或Windows实际离线/PDF交互。",
+    "未验证实际收益保证、唯一中枢分段、未署名备注作者身份、完整测度论证明或所有级别算法。"
+  ]
+}

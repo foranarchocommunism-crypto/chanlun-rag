@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-77ca557fa0f5",
+  "schema_version": "1.1.0",
+  "checks": [
+    "47新增；先降成本后挣股分阶段，零现金成本非经济无风险；计划总量非时刻股数，回补卖出所得非重新投本金，翻倍/大卖点不改机械卖半",
+    "准备充分一次性与弱技术3千分批另存，机动1/10非全仓；不抛有除非条款且短语关系未形式化，日线中线买点与大资金多股例外保留，透支故事不凭图认证",
+    "容量0.5%流通盘与1分10天均量1%分母分开，非小量必不套/可成交实测；盘整含一相应中枢非中枢本身，趋势两个以上，吻只是参考",
+    "周线前两段粗说与作者同日明确不严谨的收窄联合存证，先日线后扩张/第一段第三小段未改已成周线；2869次日条件与第二中枢关注不改已完成",
+    "标准嵌套有突发破裂例外，分钟中枢三段同级/延伸/1413个例分开；三买可无盘背，A-C与C内部两重比较，反弹C真上行与5分主跌父段限制保留",
+    "嵌引作者原话/周线质疑仍读者，原作者明确限定独立；日期与全文不改，仅6图5后加1未核，31有记录而全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "成本为零前先降到零"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "零成本持仓",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "交易容量",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-514c3b748df45f62"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 231
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第三段不下来的话",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、历史行情/测度论证明核验或Windows实际离线/PDF交互。",
+    "未验证零成本策略利润或风险保证、历史账户和未具名故事身份、容量冲击成本或所有级别的唯一分段算法。"
+  ]
+}

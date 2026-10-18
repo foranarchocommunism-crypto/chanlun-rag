@@ -1,0 +1,99 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-1206b6efcc89",
+  "graph_version": "0.1.0-review-77ca557fa0f5",
+  "scope": "第31课183段，PDF219至232共14页6图；零成本两阶段/预定量与机动量/弱技术分批、交易容量分母、周线三段作者明确限定及盘整/中枢/区间套范围",
+  "new_claims": 47,
+  "new_evidence": 55,
+  "relation_supports_added": 13,
+  "reviewed_before": 2212,
+  "reviewed_after": 2259,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 262,
+    "claims": 4898,
+    "evidence": 5877,
+    "relations": 362,
+    "reviews": 2324
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l031.reviewed.jsonl": "97710084a9065edbbd295d5128aa6fb4670cd3f5b9fd00b38a26cbd12c1a9231"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261018T174231228037Z-curation-l031",
+  "reviewer": "Codex 主代理 / 阶段C上册31课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l031-c-stage-pending-cost-stages-cash-basis-versus-risk-guarantees",
+    "upper-l031-c-stage-pending-one-entry-vs-skill-staging-and-thesis-exit",
+    "upper-l031-c-stage-pending-historical-leverage-stock-identity-and-self-report",
+    "upper-l031-c-stage-pending-capacity-float-and-volume-denominators",
+    "upper-l031-c-stage-pending-weekly-third-leg-explicit-author-qualification",
+    "upper-l031-c-stage-pending-center-minute-times-reader-typo-and-c-direction",
+    "upper-l031-c-stage-pending-third-buy-consolidation-and-internal-c-nesting",
+    "upper-l031-c-stage-pending-parent-leg-main-rise-main-fall-and-event-exception",
+    "upper-l031-c-stage-pending-figure-provenance-and-historical-forecasts"
+  ],
+  "source_structure_changes": "stage-c-l031-source-applied.json",
+  "checks_run": [
+    "47条JSON Schema及引用/身份/映射/坐标预检",
+    "183段原文哈希及全段台账一致，实际PDF219至232共14页及6完整图视觉核对",
+    "原2212命题3183已复核证据未改，9647段528图逐行比较仅6图来源备注授权变更，原文/映射/几何全不改",
+    "33项当前工作区Node测试通过（原有27项及另行验收的检索评测6项）",
+    "2259条已复核命题全量引用校验0错误",
+    "6组来源/条件边界及7组CLI/公共/桌面模块一致，只读哈希不变",
+    "240/240冻结开发取证计划和已标注来源身份回归通过，无新题替换",
+    "2259命题/262概念/362关系JSONL及Markdown/coverage同版本导出",
+    "6条旧待核补充关联，原问题全部保持开放"
+  ],
+  "checks_not_run": [
+    "240题完整类别/自然问题基线/生成回答评分/消融对抗验收未完成；开发取证计划通过不能代替",
+    "32至61共30课完整语义及全书跨课/图文审查未完成",
+    "独立Agent打包后运行及Windows真实离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "31课47条55证据及6图来源已发布；2259引用/240冻结开发题回归通过；9待核及全书/产品目标未完成。",
+  "next_action": "接续上册32课，实际PDF233页标题；核对走势当下、思维方式及31所预告中枢扩张内容，逐段逐图核实身份/完成状态/条件。",
+  "updated_at": "2026-10-18T17:46:38.485659+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2259,
+      "graph_version": "0.1.0-review-77ca557fa0f5",
+      "sha256": "34fec334c0db4fa7274dc3d98f377d4d8e8eb933f219f7779b1531d06fe0b89a"
+    },
+    "concepts": {
+      "rows": 262,
+      "graph_version": "0.1.0-review-77ca557fa0f5",
+      "sha256": "615c60fcc026e25c299c8823030ef251c88efea078ca83292392bab44c52ca3a"
+    },
+    "relations": {
+      "rows": 362,
+      "graph_version": "0.1.0-review-77ca557fa0f5",
+      "sha256": "700e87a80f86b9c08717cbbc07af587c4e3f6a3d092399a69e26d46aa2659162"
+    }
+  },
+  "final_sha256": {
+    "database": "dc707256ef290af5984f8d0cbfd1eead776dbae69837fdadcf89f5cc2eb66042",
+    "manifest": "59bbbcbb7aaa0dee4a79f0520425bd32ba0c9b3657419e8014073503b3591016"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "冻结开发取证计划及本批边界检查通过，不证明完整G、独立金标准或实际桌面交互通过。"
+  },
+  "partial_pending_followups": 6,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-1206b6efcc89",
+  "lessons": [
+    31
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册31课同模型四轮复核",
+  "passages_read": 183,
+  "claims": 47,
+  "evidence": 55,
+  "importance_counts": {
+    "1": 30,
+    "2": 13,
+    "3": 4
+  },
+  "new_concepts": [
+    "交易容量",
+    "零成本持仓"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232
+  ],
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "unverified": 1,
+    "later_annotation": 5
+  },
+  "pending": [
+    "upper-l031-c-stage-pending-cost-stages-cash-basis-versus-risk-guarantees",
+    "upper-l031-c-stage-pending-one-entry-vs-skill-staging-and-thesis-exit",
+    "upper-l031-c-stage-pending-historical-leverage-stock-identity-and-self-report",
+    "upper-l031-c-stage-pending-capacity-float-and-volume-denominators",
+    "upper-l031-c-stage-pending-weekly-third-leg-explicit-author-qualification",
+    "upper-l031-c-stage-pending-center-minute-times-reader-typo-and-c-direction",
+    "upper-l031-c-stage-pending-third-buy-consolidation-and-internal-c-nesting",
+    "upper-l031-c-stage-pending-parent-leg-main-rise-main-fall-and-event-exception",
+    "upper-l031-c-stage-pending-figure-provenance-and-historical-forecasts"
+  ],
+  "source_passages_snapshot_sha256": "fd165c149345dae3105c167829481e35bb0fcdda2d2c16ddaeed86c067961ed2",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "31课183段14页6图同模型四轮；资金降成本前后阶段/机动仓与总量/交易容量分母、盘整中枢与周线更正、三买及区间套条件保留，待预检。"
+}

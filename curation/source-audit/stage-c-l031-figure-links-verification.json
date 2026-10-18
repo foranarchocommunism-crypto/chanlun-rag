@@ -1,0 +1,55 @@
+{
+  "graph_version": "0.1.0-review-df7b7562fbf3",
+  "checks": [
+    {
+      "claim_id": "upper-l031-c-stage-long-pressure-free-funds-and-leverage-story",
+      "evidence_id": "evidence-7b3c5bbb05e8a056",
+      "figure_ids": [
+        "volume_1-a53e99c37ca5-p0219-fig1"
+      ],
+      "origin": "unverified",
+      "cli_and_desktop_module_match": true
+    },
+    {
+      "claim_id": "upper-l031-c-stage-feb15-center-1048-1129-third-buy-1413",
+      "evidence_id": "evidence-be09620c2cbd9b4b",
+      "figure_ids": [
+        "volume_1-a53e99c37ca5-p0224-fig1"
+      ],
+      "origin": "later_annotation",
+      "cli_and_desktop_module_match": true
+    },
+    {
+      "claim_id": "upper-l031-c-stage-feb16-1405-divergence-and-later-selloff-case",
+      "evidence_id": "evidence-688e8864af55be2f",
+      "figure_ids": [
+        "volume_1-a53e99c37ca5-p0226-fig1"
+      ],
+      "origin": "later_annotation",
+      "cli_and_desktop_module_match": true
+    },
+    {
+      "claim_id": "upper-l031-c-stage-weekly-three-legs-original-explicitly-qualified",
+      "evidence_id": "evidence-514c3b748df45f62",
+      "figure_ids": [
+        "volume_1-a53e99c37ca5-p0230-fig1"
+      ],
+      "origin": "later_annotation",
+      "cli_and_desktop_module_match": true
+    },
+    {
+      "claim_id": "upper-l031-c-stage-weekly-center-first-daily-then-expand-case",
+      "evidence_id": "evidence-eec5bb7c110816cf",
+      "figure_ids": [
+        "volume_1-a53e99c37ca5-p0230-fig1"
+      ],
+      "origin": "later_annotation",
+      "cli_and_desktop_module_match": true
+    }
+  ],
+  "pass": true,
+  "database_and_manifest_unchanged": true,
+  "limits": [
+    "只证明五条证据配图关联与CLI/模块返回；不证明Windows实际图像显示或独立语义复核。"
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-18T17:46:38.581339+00:00",
+  "updated_at": "2026-10-18T18:10:33.688464+00:00",
   "stage": "C with scoped E/G checks",
   "run_mode": "authorized_execution",
   "authorization": "用户在当前目标中明确授权全部权限、持续推进；按两册目标顺序先知识图谱与Agent访问包再Windows应用，无额外中途批准关卡。",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-77ca557fa0f5",
+  "graph_version": "0.1.0-review-df7b7562fbf3",
   "source_boundary": "两册固定汇编PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
     "上册31课183段14页6图同模型四轮审读，47命题55证据13关系支撑发布，新增零成本持仓/交易容量2概念",
@@ -13,19 +13,20 @@
     "交易容量流通盘千分五与1分10天均量1%不同分母，盘整含中枢非中枢对象，前三段同级/延伸/三买1413均按个例",
     "周线第三段原说与作者明确不严谨自我限定联合取证，先日线再扩张且目前第一段第三小段；标准区间套突发破裂例外及主升主跌父段限制保留；9待核",
     "2259命题/262概念/362关系同版本导出；33工程/2259引用、6边界和7组CLI/公共/桌面模块一致通过",
-    "240冻结开发取证计划与已标注身份回归通过，不增题凑数；6条旧待核补充均开放，余30课"
+    "240冻结开发取证计划与已标注身份回归通过，不增题凑数；6条旧待核补充均开放，余30课",
+    "第31课五条证据漏图关联已显式迁移，旧命题/源数据/历史复核及原批SHA未改，新建5复核；5查询关联/33工程/2259引用/240开发取证回归及导出通过。"
   ],
   "counts": {
     "documents": 2,
-    "pages": 907,
     "units": 110,
+    "pages": 907,
     "passages": 9647,
     "figures": 528,
     "concepts": 262,
     "claims": 4898,
     "evidence": 5877,
     "relations": 362,
-    "reviews": 2324
+    "reviews": 2329
   },
   "claim_status_counts": [
     [
@@ -259,7 +260,11 @@
     "source-audit/stage-c-l031-source-invariants.json",
     "source-audit/stage-c-l031-publication.json",
     "source-audit/stage-c-l031-verification.json",
-    "upper/c_stage_l031.partial-resolutions.jsonl"
+    "upper/c_stage_l031.partial-resolutions.jsonl",
+    "source-audit/stage-c-l031-figure-links-amendment.json",
+    "source-audit/stage-c-l031-figure-links-verification.json",
+    "upper/c_stage_l031.figure-links-amended.jsonl",
+    "upper/c_stage_l031.figure-links-amended.figures.jsonl"
   ],
   "checks_run": [
     "47条JSON Schema及引用/身份/映射/坐标预检",
@@ -339,5 +344,5 @@
     "new_project_gold_cases_created_in_this_batch": 0,
     "note": "冻结开发取证计划及本批边界检查通过，不证明完整G、独立金标准或实际桌面交互通过。"
   },
-  "previous_turn_classification": "progress：31课183段14页6图和47条55证据发布；2259引用/240冻结开发题回归通过，余30课。"
+  "previous_turn_classification": "progress：显式修复31课五条漏图关联，保持原批与历史证据可追溯，继续32课。"
 }

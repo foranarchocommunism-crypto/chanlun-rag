@@ -48,7 +48,7 @@ def c(lesson, slug, shorts, text, labels, level, check, conditions=(), exception
         # the following paragraph; preserve source text, but don't cite that tail.
         quote = quote_overrides.get(short, re.sub(r'(?:\*+)?200[678]-\d{2}-\d{2}\d{2}:\d{2}:\d{2}$', '', p['text']).rstrip('*'))
         citations.append({'passage_id': p['id'], 'quote': quote, 'quote_start': p['text'].index(quote),
-                          'figure_ids': [f'{DOC}-p{n:04d}-fig{k}' for n, k in figs] if i == 6 else []})
+                          'figure_ids': [f'{DOC}-p{n:04d}-fig{k}' for n, k in figs] if i == 0 else []})
     cid = f'upper-l{lesson:03d}-c-stage-{slug}'
     assert cid not in old and cid not in {r['id'] for r in rows}, cid
     ps = [passages[e['passage_id']] for e in citations]
@@ -64,6 +64,7 @@ def c(lesson, slug, shorts, text, labels, level, check, conditions=(), exception
            'importance_level': level, 'importance_reason': reasons[level] + check,
            'reviewer': REVIEWER, 'evidence': citations, 'relations': []}
     if figs:
+        assert citations[0]['figure_ids'] == [f'{DOC}-p{n:04d}-fig{k}' for n, k in figs]
         row['figure_review_note'] = '主代理实际查看原页、整图和插图右端：' + '；'.join(f['note'] for f in figures if f['id'] in citations[0]['figure_ids']) + '。配图有后加整理版及来源未核图，制作者未核，不作为作者观点唯一证明，文字独立支持命题。'
     rows.append(row)
     return cid

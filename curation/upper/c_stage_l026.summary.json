@@ -1,0 +1,63 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-1c28aaa9fb99",
+  "lessons": [
+    26
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册26课同模型四轮复核",
+  "passages_read": 141,
+  "claims": 47,
+  "evidence": 67,
+  "importance_counts": {
+    "1": 24,
+    "3": 5,
+    "2": 18
+  },
+  "new_concepts": [
+    "交易延续",
+    "交易有效性",
+    "负成本",
+    "资金期限"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178
+  ],
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "later_annotation": 4,
+    "unverified": 2
+  },
+  "pending": [
+    "upper-l026-c-stage-pending-price-risk-information-and-absolute-control",
+    "upper-l026-c-stage-pending-continuation-cancellation-ordinary-suspension-and-deadline",
+    "upper-l026-c-stage-pending-negative-price-cost-size-and-warrant-identity",
+    "upper-l026-c-stage-pending-long-fundamental-selection-and-no-cut-vs-protection",
+    "upper-l026-c-stage-pending-level-quantity-signal-and-trend-regime",
+    "upper-l026-c-stage-pending-center-third-buy-context-and-heuristic",
+    "upper-l026-c-stage-pending-historical-earnings-percent-and-recovery-guarantees",
+    "upper-l026-c-stage-pending-embedded-date-typography-and-figure-origin"
+  ],
+  "source_passages_snapshot_sha256": "eb8dbdd15cfc0e639240d9db325d7e280147698433e1770fd8147e597f1f1d43",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "26课141段13页6图同模型四轮；6源段日期修正、交易延续/有效/资金期限、负成本强措辞和各操作范围保留，待预检。"
+}

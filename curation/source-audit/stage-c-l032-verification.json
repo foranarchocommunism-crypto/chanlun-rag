@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-68e03935d1ac",
+  "schema_version": "1.1.0",
+  "checks": [
+    "41新增；A已形成不保证B/c，b最多5分不固定恰5分；B可更大需a`+B重组并按新级别判断，作者明确认可a`+A`记号但不认可读者所有推测",
+    "2915原说与GG更正联合，ZG仅约2894而非2915.70；预测全分支允许与唯一预言分开，未来第二中枢/站稳未确认，CCTV表扬不改读者身份",
+    "延伸九次级及作者周线判断保留有波动前提和阈值待核，不按9根K/时间升格；严格5分须三1分类型，自选最低三K非等价且直上直下无重合不成中枢",
+    "三买回抽至少次级三段非任意三K；600888获利未认证三买，日线以上个例及指数单日大跌例外保留；盘口异动需套内，未答跨多个GG扩展条件不补答案",
+    "1分柱波辨1分以下与普通本级黄白线回轴分对象，600550低点非5分；背驰/上涨级别对应需区间套，次日三卖分支不等当日已确认",
+    "5收盘补充仅日粒度且角色正确，早课8:44不改、CCTV/其他读者不混；7命题8图关联逐项验证，5图2后加3未核，32有记录而全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "2915所指是围绕中枢波动的最高点GG"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "GG",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "GG",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-d0a5f8cdd06c2402"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 237
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "然后突破B直接上去",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、历史行情/测度论证明核验或Windows实际离线/PDF交互。",
+    "未验证收益/无风险主张、历史实盘、9段完整阈值和所有中枢扩展程序；32收盘补入具体时间未载。"
+  ]
+}

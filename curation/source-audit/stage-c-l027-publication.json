@@ -1,0 +1,98 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-73c097ad75a0",
+  "graph_version": "0.1.0-review-031e34587250",
+  "scope": "第27课93段，PDF178至187共10页7本课图；26段时间修正，盘整背驰/趋势背驰/背驰段、严格与类一二买、区间套有限精度和多级别条件",
+  "new_claims": 36,
+  "new_evidence": 50,
+  "relation_supports_added": 9,
+  "reviewed_before": 2062,
+  "reviewed_after": 2098,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 251,
+    "claims": 4737,
+    "evidence": 5687,
+    "relations": 320,
+    "reviews": 2161
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l027.reviewed.jsonl": "73213577e32a95937971848a7a0f6dc73d27ff87420fbcd031ccca93c894fd6a"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261018T140145036517Z-curation-l027",
+  "reviewer": "Codex 主代理 / 阶段C上册27课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l027-c-stage-pending-center-count-probabilities-and-completion",
+    "upper-l027-c-stage-pending-consolidation-return-types-and-analogous-buy-names",
+    "upper-l027-c-stage-pending-divergence-leg-naming-versus-confirmation",
+    "upper-l027-c-stage-pending-finite-nesting-trades-not-strokes-and-proof",
+    "upper-l027-c-stage-pending-quarter-numbers-week-unit-macd-and-historic-bottom",
+    "upper-l027-c-stage-pending-multilevel-regime-t1-and-abc-premises",
+    "upper-l027-c-stage-pending-case-forecasts-reader-codes-and-pronouns",
+    "upper-l027-c-stage-pending-embedded-timestamps-and-later-figures"
+  ],
+  "source_structure_changes": "stage-c-l027-source-applied.json",
+  "checks_run": [
+    "36条JSON Schema及引用/身份/映射/坐标预检",
+    "93段原文哈希及全段台账一致；10页7本课图与178前课边界实际视觉检查",
+    "原2062命题2998已复核证据未改，全部9647段528图仅26段时间与7图元数据授权变更",
+    "33项当前工作区Node测试通过（原有27项及另行验收的检索评测6项）",
+    "2098条已复核命题全量引用校验0错误",
+    "6组来源/条件边界及7组CLI/公共/桌面模块一致，只读哈希不变",
+    "240/240冻结开发取证计划和已标注来源身份回归通过，无新题替换",
+    "2098命题/251概念/320关系JSONL及Markdown/coverage同版本导出",
+    "5条旧待核补充关联，全部原问题仍开放"
+  ],
+  "checks_not_run": [
+    "240题完整类别/自然问题基线/生成回答评分/消融对抗验收未完成；开发取证计划通过不能代替",
+    "28至61共34课完整语义及全书跨课/图文审查未完成",
+    "独立Agent打包后运行及Windows真实离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "27课36条50证据、26段时间和7图来源已发布；2098引用/240冻结开发题回归通过；8待核及全书/产品目标未完成。",
+  "next_action": "接续上册28课，实际PDF187页标题；核对基金/资金与市场运行观点、作者技术答疑及跨日解盘，保留历史自述、条件、读者身份与原图。",
+  "updated_at": "2026-10-18T14:21:13.017723+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2098,
+      "graph_version": "0.1.0-review-031e34587250",
+      "sha256": "82b6af717dbb0bd54c68e0ca10f52b4a1a741bb67d9afea19737cb6556778bd2"
+    },
+    "concepts": {
+      "rows": 251,
+      "graph_version": "0.1.0-review-031e34587250",
+      "sha256": "68e95143951cae41759ad18efca2d6a4f4336b0b66b3a07feb0e5e5266fe426f"
+    },
+    "relations": {
+      "rows": 320,
+      "graph_version": "0.1.0-review-031e34587250",
+      "sha256": "ee66651af32392189681afc40a635a74254d4e3af304d2eef752053876c479f5"
+    }
+  },
+  "final_sha256": {
+    "database": "51719ff500c5fc94b923477c58b1b25debb37a8e166e3c4f50663bfd08237d58",
+    "manifest": "a1fbc3856d883cffea77609fad73bec2ecd8518853fce0bdb54bc327d5e065f1"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "冻结240题回归和本批边界检查通过，不表示完整G或桌面验收通过。"
+  },
+  "partial_pending_followups": 5,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

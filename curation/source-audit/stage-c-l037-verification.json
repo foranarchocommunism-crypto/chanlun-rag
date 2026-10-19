@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-fb1a6407424c",
+  "schema_version": "1.1.0",
+  "checks": [
+    "39新增；整体趋势/同级A-B、c次级含三买卖点与新极值联合前提，局部B观察不取消整体；b可更小但不能大c，无新极值仍用盘背方法",
+    "c内两个次级别中枢保留原词及相对层级歧义，内部成趋势是标准情形非强制；缺口频率未量化，盘背可仍同类型，趋势结束不必直接反向",
+    "所有点归一类是级别归结非本级改名或完整算法；三买后两支按当下应对、盘整延伸退出不保证无大中枢；90%以上无协议数据不当项目成绩",
+    "中枢重叠非外围偶然价，未答三K连续不造作者规则或删所有影线；外汇问/期货答分对象，读者杠杆银行及现行制度不认证",
+    "20年/上升3万点和三阶段是历史假设预测，市值/GDP非认证泡沫门槛；600195价区间/5倍未合，2倍必5/10倍未核，中线持股不取消本级退出",
+    "6段跨日改3/20、3/19段尾时间头原字符留存；5命题5配图逐项确认，2图1后加1原发未核；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "整体为趋势，A、B为同级别中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "全流通",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "全球成长性",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-49a18fe4f559901a"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 279
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "这3根是连续的",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 5,
+    "unique_figures": 2
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未解决c内部相对次级词或三K未答问题，未验证宏观/收益/90%预测或期货引入因果。"
+  ]
+}

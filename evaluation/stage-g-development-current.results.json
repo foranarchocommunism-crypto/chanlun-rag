@@ -1,5 +1,5 @@
 {
-  "graph_version": "0.1.0-review-2c7fb5f929d2",
+  "graph_version": "0.1.0-review-20e3aa53bf69",
   "executable_development_cases": 240,
   "final_target_cases": 240,
   "source_case_files": [
@@ -50,7 +50,7 @@
           },
           "total": 18,
           "truncated": false,
-          "elapsed_ms": 34.0739
+          "elapsed_ms": 48.309499999999986
         }
       ],
       "generated_answer_scored": false,
@@ -76,7 +76,7 @@
           },
           "total": 112,
           "truncated": true,
-          "elapsed_ms": 45.212699999999984
+          "elapsed_ms": 50.20150000000001
         }
       ],
       "generated_answer_scored": false,
@@ -102,7 +102,7 @@
           },
           "total": 29,
           "truncated": true,
-          "elapsed_ms": 38.5214
+          "elapsed_ms": 69.7398
         }
       ],
       "generated_answer_scored": false,
@@ -128,7 +128,7 @@
           },
           "total": 220,
           "truncated": true,
-          "elapsed_ms": 36.4632
+          "elapsed_ms": 38.2731
         }
       ],
       "generated_answer_scored": false,
@@ -152,9 +152,9 @@
               "limit": 20
             }
           },
-          "total": 391,
+          "total": 393,
           "truncated": true,
-          "elapsed_ms": 38.11790000000002
+          "elapsed_ms": 69.76780000000002
         },
         {
           "request": {
@@ -164,9 +164,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 45.27159999999998
+          "elapsed_ms": 95.51319999999998
         }
       ],
       "generated_answer_scored": false,
@@ -190,9 +190,9 @@
               "limit": 20
             }
           },
-          "total": 428,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 34.211400000000026
+          "elapsed_ms": 46.897200000000055
         }
       ],
       "generated_answer_scored": false,
@@ -218,7 +218,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.033300000000054
+          "elapsed_ms": 45.579200000000014
         }
       ],
       "generated_answer_scored": false,
@@ -244,7 +244,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 15.6875
+          "elapsed_ms": 30.226799999999912
         },
         {
           "request": {
@@ -254,9 +254,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 39.1189
+          "elapsed_ms": 40.20870000000002
         }
       ],
       "generated_answer_scored": false,
@@ -282,7 +282,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 16.505899999999997
+          "elapsed_ms": 31.4914
         }
       ],
       "generated_answer_scored": false,
@@ -306,9 +306,9 @@
               "limit": 20
             }
           },
-          "total": 344,
+          "total": 346,
           "truncated": true,
-          "elapsed_ms": 35.23489999999998
+          "elapsed_ms": 73.51199999999994
         }
       ],
       "generated_answer_scored": false,
@@ -334,7 +334,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.13979999999998
+          "elapsed_ms": 28.067000000000007
         }
       ],
       "generated_answer_scored": false,
@@ -360,7 +360,7 @@
           },
           "total": 18,
           "truncated": false,
-          "elapsed_ms": 2.2416999999999803
+          "elapsed_ms": 3.3704999999999927
         }
       ],
       "generated_answer_scored": false,
@@ -386,7 +386,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.09299999999996
+          "elapsed_ms": 29.64969999999994
         },
         {
           "request": {
@@ -398,7 +398,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.54970000000003
+          "elapsed_ms": 18.809600000000046
         }
       ],
       "generated_answer_scored": false,
@@ -424,7 +424,7 @@
           },
           "total": 11,
           "truncated": false,
-          "elapsed_ms": 27.33019999999999
+          "elapsed_ms": 22.115099999999984
         }
       ],
       "generated_answer_scored": false,
@@ -450,7 +450,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.861800000000017
+          "elapsed_ms": 17.97410000000002
         }
       ],
       "generated_answer_scored": false,
@@ -476,7 +476,7 @@
           },
           "total": 2,
           "truncated": false,
-          "elapsed_ms": 21.692199999999957
+          "elapsed_ms": 17.53699999999992
         }
       ],
       "generated_answer_scored": false,
@@ -502,7 +502,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 16.49860000000001
+          "elapsed_ms": 17.385200000000054
         }
       ],
       "generated_answer_scored": false,
@@ -528,7 +528,7 @@
           },
           "total": 272,
           "truncated": true,
-          "elapsed_ms": 32.635099999999966
+          "elapsed_ms": 31.11469999999997
         },
         {
           "request": {
@@ -540,7 +540,7 @@
           },
           "total": 66,
           "truncated": true,
-          "elapsed_ms": 40.83100000000002
+          "elapsed_ms": 33.083000000000084
         }
       ],
       "generated_answer_scored": false,
@@ -566,7 +566,7 @@
           },
           "total": 168,
           "truncated": true,
-          "elapsed_ms": 28.523799999999937
+          "elapsed_ms": 31.859699999999975
         }
       ],
       "generated_answer_scored": false,
@@ -592,7 +592,7 @@
           },
           "total": 23,
           "truncated": true,
-          "elapsed_ms": 38.8669000000001
+          "elapsed_ms": 37.141399999999976
         }
       ],
       "generated_answer_scored": false,
@@ -618,7 +618,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.966000000000008
+          "elapsed_ms": 16.549800000000005
         }
       ],
       "generated_answer_scored": false,
@@ -644,7 +644,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.264799999999923
+          "elapsed_ms": 18.577800000000025
         }
       ],
       "generated_answer_scored": false,
@@ -670,7 +670,7 @@
           },
           "total": 272,
           "truncated": true,
-          "elapsed_ms": 38.249000000000024
+          "elapsed_ms": 29.848999999999933
         }
       ],
       "generated_answer_scored": false,
@@ -696,7 +696,7 @@
           },
           "total": 21,
           "truncated": false,
-          "elapsed_ms": 3.0808999999999287
+          "elapsed_ms": 2.238600000000133
         }
       ],
       "generated_answer_scored": false,
@@ -720,9 +720,9 @@
               "limit": 20
             }
           },
-          "total": 356,
+          "total": 362,
           "truncated": true,
-          "elapsed_ms": 34.18290000000002
+          "elapsed_ms": 46.92990000000009
         },
         {
           "request": {
@@ -734,7 +734,7 @@
           },
           "total": 172,
           "truncated": true,
-          "elapsed_ms": 29.85590000000002
+          "elapsed_ms": 27.126399999999876
         }
       ],
       "generated_answer_scored": false,
@@ -760,7 +760,7 @@
           },
           "total": 49,
           "truncated": true,
-          "elapsed_ms": 32.87420000000009
+          "elapsed_ms": 27.735100000000102
         }
       ],
       "generated_answer_scored": false,
@@ -786,7 +786,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.055999999999926
+          "elapsed_ms": 16.056499999999915
         }
       ],
       "generated_answer_scored": false,
@@ -812,7 +812,7 @@
           },
           "total": 11,
           "truncated": false,
-          "elapsed_ms": 29.035799999999995
+          "elapsed_ms": 25.596699999999828
         }
       ],
       "generated_answer_scored": false,
@@ -838,7 +838,7 @@
           },
           "total": 169,
           "truncated": true,
-          "elapsed_ms": 30.72169999999994
+          "elapsed_ms": 27.678499999999985
         },
         {
           "request": {
@@ -850,7 +850,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.667799999999943
+          "elapsed_ms": 17.21659999999997
         }
       ],
       "generated_answer_scored": false,
@@ -876,7 +876,7 @@
           },
           "total": 8,
           "truncated": false,
-          "elapsed_ms": 28.29729999999995
+          "elapsed_ms": 23.685200000000123
         },
         {
           "request": {
@@ -886,9 +886,9 @@
               "limit": 20
             }
           },
-          "total": 306,
+          "total": 307,
           "truncated": true,
-          "elapsed_ms": 35.90859999999998
+          "elapsed_ms": 31.894700000000057
         }
       ],
       "generated_answer_scored": false,
@@ -914,7 +914,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.431100000000015
+          "elapsed_ms": 17.991700000000037
         }
       ],
       "generated_answer_scored": false,
@@ -940,7 +940,7 @@
           },
           "total": 293,
           "truncated": true,
-          "elapsed_ms": 31.184999999999945
+          "elapsed_ms": 30.74129999999991
         }
       ],
       "generated_answer_scored": false,
@@ -966,7 +966,7 @@
           },
           "total": 16,
           "truncated": false,
-          "elapsed_ms": 2.1736000000000786
+          "elapsed_ms": 2.176200000000108
         }
       ],
       "generated_answer_scored": false,
@@ -992,7 +992,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.536200000000008
+          "elapsed_ms": 17.49090000000001
         },
         {
           "request": {
@@ -1002,9 +1002,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 34.326499999999896
+          "elapsed_ms": 32.40700000000015
         }
       ],
       "generated_answer_scored": false,
@@ -1030,7 +1030,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.583200000000033
+          "elapsed_ms": 21.52520000000004
         }
       ],
       "generated_answer_scored": false,
@@ -1056,7 +1056,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.72739999999999
+          "elapsed_ms": 19.69659999999999
         }
       ],
       "generated_answer_scored": false,
@@ -1082,7 +1082,7 @@
           },
           "total": 79,
           "truncated": true,
-          "elapsed_ms": 34.64319999999998
+          "elapsed_ms": 39.356199999999944
         }
       ],
       "generated_answer_scored": false,
@@ -1108,7 +1108,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 16.945899999999938
+          "elapsed_ms": 42.24229999999989
         }
       ],
       "generated_answer_scored": false,
@@ -1132,9 +1132,9 @@
               "limit": 20
             }
           },
-          "total": 456,
+          "total": 462,
           "truncated": true,
-          "elapsed_ms": 35.83400000000006
+          "elapsed_ms": 76.63670000000002
         }
       ],
       "generated_answer_scored": false,
@@ -1160,7 +1160,7 @@
           },
           "total": 162,
           "truncated": true,
-          "elapsed_ms": 29.578899999999976
+          "elapsed_ms": 59.51119999999992
         }
       ],
       "generated_answer_scored": false,
@@ -1186,7 +1186,7 @@
           },
           "total": 168,
           "truncated": true,
-          "elapsed_ms": 30.796099999999797
+          "elapsed_ms": 46.9215999999999
         }
       ],
       "generated_answer_scored": false,
@@ -1212,7 +1212,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.832300000000032
+          "elapsed_ms": 45.785699999999906
         }
       ],
       "generated_answer_scored": false,
@@ -1238,7 +1238,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 25.021099999999933
+          "elapsed_ms": 23.93509999999992
         }
       ],
       "generated_answer_scored": false,
@@ -1264,7 +1264,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.83400000000006
+          "elapsed_ms": 16.220800000000054
         },
         {
           "request": {
@@ -1276,7 +1276,7 @@
           },
           "total": 221,
           "truncated": true,
-          "elapsed_ms": 36.49839999999995
+          "elapsed_ms": 28.933199999999943
         }
       ],
       "generated_answer_scored": false,
@@ -1302,7 +1302,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.931100000000015
+          "elapsed_ms": 17.458199999999806
         }
       ],
       "generated_answer_scored": false,
@@ -1328,7 +1328,7 @@
           },
           "total": 14,
           "truncated": false,
-          "elapsed_ms": 3.1896999999999025
+          "elapsed_ms": 2.2309999999999945
         },
         {
           "request": {
@@ -1340,7 +1340,7 @@
           },
           "total": 10,
           "truncated": false,
-          "elapsed_ms": 2.72199999999998
+          "elapsed_ms": 3.0451000000000477
         }
       ],
       "generated_answer_scored": false,
@@ -1366,7 +1366,7 @@
           },
           "total": 13,
           "truncated": false,
-          "elapsed_ms": 2.212199999999939
+          "elapsed_ms": 1.836799999999812
         },
         {
           "request": {
@@ -1378,7 +1378,7 @@
           },
           "total": 78,
           "truncated": true,
-          "elapsed_ms": 37.236700000000155
+          "elapsed_ms": 26.374000000000024
         }
       ],
       "generated_answer_scored": false,
@@ -1402,9 +1402,9 @@
               "limit": 20
             }
           },
-          "total": 511,
+          "total": 517,
           "truncated": true,
-          "elapsed_ms": 32.84440000000018
+          "elapsed_ms": 32.01249999999982
         }
       ],
       "generated_answer_scored": false,
@@ -1428,9 +1428,9 @@
               "limit": 20
             }
           },
-          "total": 587,
+          "total": 593,
           "truncated": true,
-          "elapsed_ms": 32.714300000000094
+          "elapsed_ms": 31.76550000000043
         }
       ],
       "generated_answer_scored": false,
@@ -1456,7 +1456,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.786499999999933
+          "elapsed_ms": 16.834699999999884
         }
       ],
       "generated_answer_scored": false,
@@ -1482,7 +1482,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.31569999999988
+          "elapsed_ms": 17.934900000000198
         },
         {
           "request": {
@@ -1494,7 +1494,7 @@
           },
           "total": 259,
           "truncated": true,
-          "elapsed_ms": 34.88089999999988
+          "elapsed_ms": 33.7509
         }
       ],
       "generated_answer_scored": false,
@@ -1520,7 +1520,7 @@
           },
           "total": 18,
           "truncated": false,
-          "elapsed_ms": 39.46180000000004
+          "elapsed_ms": 27.969499999999698
         }
       ],
       "generated_answer_scored": false,
@@ -1544,9 +1544,9 @@
               "limit": 20
             }
           },
-          "total": 731,
+          "total": 738,
           "truncated": true,
-          "elapsed_ms": 47.87290000000007
+          "elapsed_ms": 31.21369999999979
         },
         {
           "request": {
@@ -1558,7 +1558,7 @@
           },
           "total": 221,
           "truncated": true,
-          "elapsed_ms": 46.45659999999998
+          "elapsed_ms": 29.979100000000017
         }
       ],
       "generated_answer_scored": false,
@@ -1584,7 +1584,7 @@
           },
           "total": 13,
           "truncated": false,
-          "elapsed_ms": 1.986299999999801
+          "elapsed_ms": 2.8254000000001724
         }
       ],
       "generated_answer_scored": false,
@@ -1608,9 +1608,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 31.24720000000002
+          "elapsed_ms": 28.046900000000278
         },
         {
           "request": {
@@ -1622,7 +1622,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.100599999999986
+          "elapsed_ms": 18.21239999999989
         }
       ],
       "generated_answer_scored": false,
@@ -1648,7 +1648,7 @@
           },
           "total": 63,
           "truncated": true,
-          "elapsed_ms": 44.63009999999986
+          "elapsed_ms": 30.55079999999998
         }
       ],
       "generated_answer_scored": false,
@@ -1674,7 +1674,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 46.093900000000076
+          "elapsed_ms": 17.533000000000357
         },
         {
           "request": {
@@ -1686,7 +1686,7 @@
           },
           "total": 172,
           "truncated": true,
-          "elapsed_ms": 67.71450000000004
+          "elapsed_ms": 27.483600000000024
         }
       ],
       "generated_answer_scored": false,
@@ -1712,7 +1712,7 @@
           },
           "total": 95,
           "truncated": true,
-          "elapsed_ms": 51.75199999999995
+          "elapsed_ms": 28.58699999999999
         }
       ],
       "generated_answer_scored": false,
@@ -1738,7 +1738,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 41.32629999999972
+          "elapsed_ms": 18.697900000000118
         }
       ],
       "generated_answer_scored": false,
@@ -1764,7 +1764,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 26.86359999999968
+          "elapsed_ms": 16.833300000000236
         },
         {
           "request": {
@@ -1774,9 +1774,9 @@
               "limit": 20
             }
           },
-          "total": 67,
+          "total": 68,
           "truncated": true,
-          "elapsed_ms": 54.130499999999756
+          "elapsed_ms": 29.57439999999997
         }
       ],
       "generated_answer_scored": false,
@@ -1802,7 +1802,7 @@
           },
           "total": 125,
           "truncated": true,
-          "elapsed_ms": 37.46140000000014
+          "elapsed_ms": 28.320600000000013
         }
       ],
       "generated_answer_scored": false,
@@ -1828,7 +1828,7 @@
           },
           "total": 34,
           "truncated": true,
-          "elapsed_ms": 56.80340000000024
+          "elapsed_ms": 38.09720000000016
         }
       ],
       "generated_answer_scored": false,
@@ -1854,7 +1854,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 28.873199999999997
+          "elapsed_ms": 44.19979999999987
         }
       ],
       "generated_answer_scored": false,
@@ -1880,7 +1880,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 28.02039999999988
+          "elapsed_ms": 46.63619999999992
         },
         {
           "request": {
@@ -1892,7 +1892,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 48.8136999999997
+          "elapsed_ms": 65.1911
         }
       ],
       "generated_answer_scored": false,
@@ -1918,7 +1918,7 @@
           },
           "total": 172,
           "truncated": true,
-          "elapsed_ms": 35.32609999999977
+          "elapsed_ms": 55.76299999999992
         },
         {
           "request": {
@@ -1930,7 +1930,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 38.826100000000224
+          "elapsed_ms": 77.20839999999998
         }
       ],
       "generated_answer_scored": false,
@@ -1954,9 +1954,9 @@
               "limit": 20
             }
           },
-          "total": 428,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 48.307300000000396
+          "elapsed_ms": 47.30819999999994
         }
       ],
       "generated_answer_scored": false,
@@ -1982,7 +1982,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.36359999999968
+          "elapsed_ms": 19.339899999999943
         }
       ],
       "generated_answer_scored": false,
@@ -2008,7 +2008,7 @@
           },
           "total": 284,
           "truncated": true,
-          "elapsed_ms": 38.509900000000016
+          "elapsed_ms": 49.16190000000006
         }
       ],
       "generated_answer_scored": false,
@@ -2034,7 +2034,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 30.446199999999862
+          "elapsed_ms": 18.3425000000002
         }
       ],
       "generated_answer_scored": false,
@@ -2058,9 +2058,9 @@
               "limit": 20
             }
           },
-          "total": 499,
+          "total": 505,
           "truncated": true,
-          "elapsed_ms": 50.1896999999999
+          "elapsed_ms": 29.752700000000004
         },
         {
           "request": {
@@ -2072,7 +2072,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 34.76810000000023
+          "elapsed_ms": 36.47409999999991
         }
       ],
       "generated_answer_scored": false,
@@ -2098,7 +2098,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.90650000000005
+          "elapsed_ms": 19.101400000000012
         }
       ],
       "generated_answer_scored": false,
@@ -2124,7 +2124,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.07970000000023
+          "elapsed_ms": 34.4713999999999
         }
       ],
       "generated_answer_scored": false,
@@ -2150,7 +2150,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.036299999999756
+          "elapsed_ms": 19.276499999999942
         }
       ],
       "generated_answer_scored": false,
@@ -2176,7 +2176,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.91919999999982
+          "elapsed_ms": 34.86569999999983
         }
       ],
       "generated_answer_scored": false,
@@ -2202,7 +2202,7 @@
           },
           "total": 220,
           "truncated": true,
-          "elapsed_ms": 29.152399999999943
+          "elapsed_ms": 27.42380000000003
         }
       ],
       "generated_answer_scored": false,
@@ -2228,7 +2228,7 @@
           },
           "total": 15,
           "truncated": false,
-          "elapsed_ms": 28.635099999999966
+          "elapsed_ms": 29.283699999999953
         }
       ],
       "generated_answer_scored": false,
@@ -2252,9 +2252,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 34.597299999999905
+          "elapsed_ms": 52.672599999999875
         },
         {
           "request": {
@@ -2266,7 +2266,7 @@
           },
           "total": 221,
           "truncated": true,
-          "elapsed_ms": 36.375800000000254
+          "elapsed_ms": 28.24019999999973
         }
       ],
       "generated_answer_scored": false,
@@ -2292,7 +2292,7 @@
           },
           "total": 105,
           "truncated": true,
-          "elapsed_ms": 43.78830000000016
+          "elapsed_ms": 34.94699999999966
         },
         {
           "request": {
@@ -2304,7 +2304,7 @@
           },
           "total": 148,
           "truncated": true,
-          "elapsed_ms": 36.10960000000023
+          "elapsed_ms": 30.152700000000095
         }
       ],
       "generated_answer_scored": false,
@@ -2330,7 +2330,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.691899999999805
+          "elapsed_ms": 17.202899999999772
         }
       ],
       "generated_answer_scored": false,
@@ -2354,9 +2354,9 @@
               "limit": 20
             }
           },
-          "total": 428,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 30.705399999999827
+          "elapsed_ms": 29.496500000000196
         },
         {
           "request": {
@@ -2368,7 +2368,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.463500000000295
+          "elapsed_ms": 15.864000000000033
         }
       ],
       "generated_answer_scored": false,
@@ -2392,9 +2392,9 @@
               "limit": 20
             }
           },
-          "total": 552,
+          "total": 558,
           "truncated": true,
-          "elapsed_ms": 31.407600000000002
+          "elapsed_ms": 31.092099999999846
         },
         {
           "request": {
@@ -2404,9 +2404,9 @@
               "limit": 20
             }
           },
-          "total": 547,
+          "total": 553,
           "truncated": true,
-          "elapsed_ms": 34.79959999999983
+          "elapsed_ms": 28.316899999999805
         }
       ],
       "generated_answer_scored": false,
@@ -2432,7 +2432,7 @@
           },
           "total": 162,
           "truncated": true,
-          "elapsed_ms": 37.313500000000204
+          "elapsed_ms": 30.54970000000003
         },
         {
           "request": {
@@ -2444,7 +2444,7 @@
           },
           "total": 25,
           "truncated": true,
-          "elapsed_ms": 31.272899999999936
+          "elapsed_ms": 29.032900000000154
         }
       ],
       "generated_answer_scored": false,
@@ -2470,7 +2470,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 37.57109999999966
+          "elapsed_ms": 29.691600000000108
         },
         {
           "request": {
@@ -2482,7 +2482,7 @@
           },
           "total": 25,
           "truncated": true,
-          "elapsed_ms": 29.3449999999998
+          "elapsed_ms": 29.169200000000274
         }
       ],
       "generated_answer_scored": false,
@@ -2508,7 +2508,7 @@
           },
           "total": 7,
           "truncated": false,
-          "elapsed_ms": 3.1424999999999272
+          "elapsed_ms": 2.782799999999952
         }
       ],
       "generated_answer_scored": false,
@@ -2532,9 +2532,9 @@
               "limit": 20
             }
           },
-          "total": 582,
+          "total": 588,
           "truncated": true,
-          "elapsed_ms": 44.597899999999754
+          "elapsed_ms": 29.701100000000224
         },
         {
           "request": {
@@ -2544,9 +2544,9 @@
               "limit": 20
             }
           },
-          "total": 582,
+          "total": 588,
           "truncated": true,
-          "elapsed_ms": 63.30739999999969
+          "elapsed_ms": 29.787700000000314
         }
       ],
       "generated_answer_scored": false,
@@ -2572,7 +2572,7 @@
           },
           "total": 255,
           "truncated": true,
-          "elapsed_ms": 54.9690999999998
+          "elapsed_ms": 36.81910000000016
         }
       ],
       "generated_answer_scored": false,
@@ -2598,7 +2598,7 @@
           },
           "total": 193,
           "truncated": true,
-          "elapsed_ms": 79.53589999999986
+          "elapsed_ms": 27.909900000000107
         },
         {
           "request": {
@@ -2610,7 +2610,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 36.73749999999973
+          "elapsed_ms": 19.223799999999756
         }
       ],
       "generated_answer_scored": false,
@@ -2636,7 +2636,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.196300000000065
+          "elapsed_ms": 18.05009999999993
         }
       ],
       "generated_answer_scored": false,
@@ -2662,7 +2662,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.183200000000397
+          "elapsed_ms": 16.430500000000393
         },
         {
           "request": {
@@ -2674,7 +2674,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.353399999999965
+          "elapsed_ms": 19.74559999999974
         }
       ],
       "generated_answer_scored": false,
@@ -2700,7 +2700,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 25.427999999999884
+          "elapsed_ms": 15.20679999999993
         }
       ],
       "generated_answer_scored": false,
@@ -2726,7 +2726,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 23.895800000000236
+          "elapsed_ms": 18.200900000000274
         },
         {
           "request": {
@@ -2738,7 +2738,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.122100000000046
+          "elapsed_ms": 35.81060000000025
         }
       ],
       "generated_answer_scored": false,
@@ -2762,9 +2762,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 32.98180000000002
+          "elapsed_ms": 35.26260000000002
         },
         {
           "request": {
@@ -2776,7 +2776,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.508299999999963
+          "elapsed_ms": 19.434299999999894
         }
       ],
       "generated_answer_scored": false,
@@ -2802,7 +2802,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.23720000000003
+          "elapsed_ms": 16.243400000000292
         }
       ],
       "generated_answer_scored": false,
@@ -2828,7 +2828,7 @@
           },
           "total": 29,
           "truncated": true,
-          "elapsed_ms": 66.34140000000025
+          "elapsed_ms": 39.81829999999991
         },
         {
           "request": {
@@ -2840,7 +2840,7 @@
           },
           "total": 220,
           "truncated": true,
-          "elapsed_ms": 41.186699999999746
+          "elapsed_ms": 72.83320000000003
         }
       ],
       "generated_answer_scored": false,
@@ -2866,7 +2866,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 23.76170000000002
+          "elapsed_ms": 41.738900000000285
         },
         {
           "request": {
@@ -2876,9 +2876,9 @@
               "limit": 20
             }
           },
-          "total": 329,
+          "total": 330,
           "truncated": true,
-          "elapsed_ms": 31.209299999999985
+          "elapsed_ms": 58.745599999999286
         }
       ],
       "generated_answer_scored": false,
@@ -2904,7 +2904,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.098500000000058
+          "elapsed_ms": 25.027500000000146
         }
       ],
       "generated_answer_scored": false,
@@ -2930,7 +2930,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.43000000000029
+          "elapsed_ms": 25.45629999999983
         },
         {
           "request": {
@@ -2942,7 +2942,7 @@
           },
           "total": 24,
           "truncated": true,
-          "elapsed_ms": 46.54750000000058
+          "elapsed_ms": 47.03859999999986
         }
       ],
       "generated_answer_scored": false,
@@ -2968,7 +2968,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.715000000000146
+          "elapsed_ms": 34.89010000000053
         },
         {
           "request": {
@@ -2980,7 +2980,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 15.421699999999873
+          "elapsed_ms": 19.066100000000006
         }
       ],
       "generated_answer_scored": false,
@@ -3006,7 +3006,7 @@
           },
           "total": 118,
           "truncated": true,
-          "elapsed_ms": 69.40520000000015
+          "elapsed_ms": 37.145800000000236
         }
       ],
       "generated_answer_scored": false,
@@ -3032,7 +3032,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 25.48369999999977
+          "elapsed_ms": 17.186499999999796
         },
         {
           "request": {
@@ -3044,7 +3044,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 32.437699999999495
+          "elapsed_ms": 15.547600000000784
         }
       ],
       "generated_answer_scored": false,
@@ -3070,7 +3070,7 @@
           },
           "total": 65,
           "truncated": true,
-          "elapsed_ms": 60.90929999999935
+          "elapsed_ms": 30.26209999999992
         }
       ],
       "generated_answer_scored": false,
@@ -3094,9 +3094,9 @@
               "limit": 20
             }
           },
-          "total": 103,
+          "total": 104,
           "truncated": true,
-          "elapsed_ms": 55.391200000000026
+          "elapsed_ms": 34.203199999999924
         }
       ],
       "generated_answer_scored": false,
@@ -3122,7 +3122,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.577100000000428
+          "elapsed_ms": 16.28650000000016
         },
         {
           "request": {
@@ -3134,7 +3134,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 28.316100000000006
+          "elapsed_ms": 18.670200000000477
         }
       ],
       "generated_answer_scored": false,
@@ -3160,7 +3160,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 34.849999999999454
+          "elapsed_ms": 17.576900000000023
         }
       ],
       "generated_answer_scored": false,
@@ -3186,7 +3186,7 @@
           },
           "total": 220,
           "truncated": true,
-          "elapsed_ms": 60.08250000000044
+          "elapsed_ms": 39.40759999999955
         },
         {
           "request": {
@@ -3196,9 +3196,9 @@
               "limit": 20
             }
           },
-          "total": 653,
+          "total": 660,
           "truncated": true,
-          "elapsed_ms": 51.5029999999997
+          "elapsed_ms": 69.14980000000014
         }
       ],
       "generated_answer_scored": false,
@@ -3224,7 +3224,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 36.63599999999951
+          "elapsed_ms": 26.927200000000084
         },
         {
           "request": {
@@ -3236,7 +3236,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 36.86110000000008
+          "elapsed_ms": 17.914099999999962
         }
       ],
       "generated_answer_scored": false,
@@ -3262,7 +3262,7 @@
           },
           "total": 168,
           "truncated": true,
-          "elapsed_ms": 51.53449999999975
+          "elapsed_ms": 28.086199999999735
         },
         {
           "request": {
@@ -3272,9 +3272,9 @@
               "limit": 20
             }
           },
-          "total": 436,
+          "total": 442,
           "truncated": true,
-          "elapsed_ms": 35.09389999999985
+          "elapsed_ms": 29.90059999999994
         }
       ],
       "generated_answer_scored": false,
@@ -3300,7 +3300,7 @@
           },
           "total": 60,
           "truncated": true,
-          "elapsed_ms": 50.13410000000022
+          "elapsed_ms": 52.35009999999966
         }
       ],
       "generated_answer_scored": false,
@@ -3326,7 +3326,7 @@
           },
           "total": 24,
           "truncated": true,
-          "elapsed_ms": 61.77649999999994
+          "elapsed_ms": 43.168800000000374
         },
         {
           "request": {
@@ -3338,7 +3338,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.681500000000597
+          "elapsed_ms": 34.96030000000064
         }
       ],
       "generated_answer_scored": false,
@@ -3364,7 +3364,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 34.72559999999976
+          "elapsed_ms": 17.852099999999155
         }
       ],
       "generated_answer_scored": false,
@@ -3390,7 +3390,7 @@
           },
           "total": 97,
           "truncated": true,
-          "elapsed_ms": 55.72490000000016
+          "elapsed_ms": 30.613000000000284
         }
       ],
       "generated_answer_scored": false,
@@ -3414,9 +3414,9 @@
               "limit": 20
             }
           },
-          "total": 452,
+          "total": 458,
           "truncated": true,
-          "elapsed_ms": 36.41539999999986
+          "elapsed_ms": 56.851700000000164
         },
         {
           "request": {
@@ -3426,9 +3426,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 52.21439999999984
+          "elapsed_ms": 48.78480000000036
         }
       ],
       "generated_answer_scored": false,
@@ -3454,7 +3454,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 38.37910000000011
+          "elapsed_ms": 21.795599999999467
         },
         {
           "request": {
@@ -3464,9 +3464,9 @@
               "limit": 20
             }
           },
-          "total": 67,
+          "total": 68,
           "truncated": true,
-          "elapsed_ms": 65.17480000000069
+          "elapsed_ms": 27.986699999999473
         }
       ],
       "generated_answer_scored": false,
@@ -3492,7 +3492,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.45769999999993
+          "elapsed_ms": 17.36989999999969
         },
         {
           "request": {
@@ -3504,7 +3504,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 27.7512999999999
+          "elapsed_ms": 27.372299999999996
         }
       ],
       "generated_answer_scored": false,
@@ -3530,7 +3530,7 @@
           },
           "total": 83,
           "truncated": true,
-          "elapsed_ms": 48.82789999999932
+          "elapsed_ms": 33.31580000000031
         }
       ],
       "generated_answer_scored": false,
@@ -3554,9 +3554,9 @@
               "limit": 20
             }
           },
-          "total": 484,
+          "total": 490,
           "truncated": true,
-          "elapsed_ms": 33.582400000000234
+          "elapsed_ms": 29.84429999999975
         },
         {
           "request": {
@@ -3566,9 +3566,9 @@
               "limit": 20
             }
           },
-          "total": 430,
+          "total": 436,
           "truncated": true,
-          "elapsed_ms": 50.70170000000053
+          "elapsed_ms": 28.84180000000015
         }
       ],
       "generated_answer_scored": false,
@@ -3592,9 +3592,9 @@
               "limit": 20
             }
           },
-          "total": 103,
+          "total": 104,
           "truncated": true,
-          "elapsed_ms": 35.872299999999996
+          "elapsed_ms": 32.149899999999434
         }
       ],
       "generated_answer_scored": false,
@@ -3620,7 +3620,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.3117000000002
+          "elapsed_ms": 15.706599999999526
         },
         {
           "request": {
@@ -3632,7 +3632,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.6237000000001
+          "elapsed_ms": 18.326900000000023
         }
       ],
       "generated_answer_scored": false,
@@ -3656,9 +3656,9 @@
               "limit": 20
             }
           },
-          "total": 391,
+          "total": 393,
           "truncated": true,
-          "elapsed_ms": 35.3738000000003
+          "elapsed_ms": 32.65530000000035
         }
       ],
       "generated_answer_scored": false,
@@ -3684,7 +3684,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.65020000000004
+          "elapsed_ms": 19.47360000000026
         }
       ],
       "generated_answer_scored": false,
@@ -3710,7 +3710,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.603900000000067
+          "elapsed_ms": 17.889600000000428
         }
       ],
       "generated_answer_scored": false,
@@ -3736,7 +3736,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 25.4358000000002
+          "elapsed_ms": 18.49119999999948
         },
         {
           "request": {
@@ -3748,7 +3748,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 24.75879999999961
+          "elapsed_ms": 17.400300000000243
         }
       ],
       "generated_answer_scored": false,
@@ -3772,9 +3772,9 @@
               "limit": 20
             }
           },
-          "total": 572,
+          "total": 578,
           "truncated": true,
-          "elapsed_ms": 35.09230000000025
+          "elapsed_ms": 30.0625
         },
         {
           "request": {
@@ -3786,7 +3786,7 @@
           },
           "total": 105,
           "truncated": true,
-          "elapsed_ms": 34.91469999999936
+          "elapsed_ms": 31.1850000000004
         }
       ],
       "generated_answer_scored": false,
@@ -3812,7 +3812,7 @@
           },
           "total": 14,
           "truncated": false,
-          "elapsed_ms": 33.315700000000106
+          "elapsed_ms": 28.67489999999998
         },
         {
           "request": {
@@ -3824,7 +3824,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.993900000000394
+          "elapsed_ms": 16.670199999999568
         }
       ],
       "generated_answer_scored": false,
@@ -3850,7 +3850,7 @@
           },
           "total": 6,
           "truncated": false,
-          "elapsed_ms": 22.774200000000747
+          "elapsed_ms": 21.453099999999722
         },
         {
           "request": {
@@ -3862,7 +3862,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.86239999999998
+          "elapsed_ms": 18.007000000000517
         }
       ],
       "generated_answer_scored": false,
@@ -3888,7 +3888,7 @@
           },
           "total": 178,
           "truncated": true,
-          "elapsed_ms": 37.195300000000316
+          "elapsed_ms": 32.0614000000005
         },
         {
           "request": {
@@ -3900,7 +3900,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.301900000000387
+          "elapsed_ms": 16.33639999999923
         }
       ],
       "generated_answer_scored": false,
@@ -3926,7 +3926,7 @@
           },
           "total": 172,
           "truncated": true,
-          "elapsed_ms": 29.41699999999946
+          "elapsed_ms": 28.58730000000014
         }
       ],
       "generated_answer_scored": false,
@@ -3952,7 +3952,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.796000000000276
+          "elapsed_ms": 16.69709999999941
         },
         {
           "request": {
@@ -3964,7 +3964,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.434000000000196
+          "elapsed_ms": 19.371500000000196
         }
       ],
       "generated_answer_scored": false,
@@ -3990,7 +3990,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.158000000000357
+          "elapsed_ms": 16.608799999999974
         }
       ],
       "generated_answer_scored": false,
@@ -4016,7 +4016,7 @@
           },
           "total": 105,
           "truncated": true,
-          "elapsed_ms": 34.41349999999966
+          "elapsed_ms": 33.77230000000054
         },
         {
           "request": {
@@ -4028,7 +4028,7 @@
           },
           "total": 105,
           "truncated": true,
-          "elapsed_ms": 34.63259999999991
+          "elapsed_ms": 53.01040000000012
         }
       ],
       "generated_answer_scored": false,
@@ -4054,7 +4054,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.129500000000007
+          "elapsed_ms": 17.76510000000053
         },
         {
           "request": {
@@ -4066,7 +4066,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.638999999999214
+          "elapsed_ms": 17.6242000000002
         }
       ],
       "generated_answer_scored": false,
@@ -4090,9 +4090,9 @@
               "limit": 20
             }
           },
-          "total": 355,
+          "total": 361,
           "truncated": true,
-          "elapsed_ms": 36.05209999999988
+          "elapsed_ms": 32.0582000000004
         },
         {
           "request": {
@@ -4104,7 +4104,7 @@
           },
           "total": 225,
           "truncated": true,
-          "elapsed_ms": 33.17789999999968
+          "elapsed_ms": 30.387000000000626
         }
       ],
       "generated_answer_scored": false,
@@ -4130,7 +4130,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.573099999999613
+          "elapsed_ms": 16.29780000000028
         }
       ],
       "generated_answer_scored": false,
@@ -4156,7 +4156,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.510799999999108
+          "elapsed_ms": 16.998599999999897
         },
         {
           "request": {
@@ -4168,7 +4168,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.275800000000345
+          "elapsed_ms": 16.136600000000726
         }
       ],
       "generated_answer_scored": false,
@@ -4192,9 +4192,9 @@
               "limit": 20
             }
           },
-          "total": 326,
+          "total": 327,
           "truncated": true,
-          "elapsed_ms": 36.089200000000346
+          "elapsed_ms": 33.32979999999952
         }
       ],
       "generated_answer_scored": false,
@@ -4220,7 +4220,7 @@
           },
           "total": 75,
           "truncated": true,
-          "elapsed_ms": 36.560599999999795
+          "elapsed_ms": 30.55070000000069
         },
         {
           "request": {
@@ -4230,9 +4230,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 33.404199999999946
+          "elapsed_ms": 30.657500000000255
         }
       ],
       "generated_answer_scored": false,
@@ -4256,9 +4256,9 @@
               "limit": 20
             }
           },
-          "total": 433,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 37.57629999999972
+          "elapsed_ms": 49.405000000000655
         },
         {
           "request": {
@@ -4268,9 +4268,9 @@
               "limit": 20
             }
           },
-          "total": 433,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 35.23059999999987
+          "elapsed_ms": 32.99470000000019
         }
       ],
       "generated_answer_scored": false,
@@ -4294,9 +4294,9 @@
               "limit": 20
             }
           },
-          "total": 428,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 31.997199999999793
+          "elapsed_ms": 26.994000000000597
         }
       ],
       "generated_answer_scored": false,
@@ -4322,7 +4322,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 23.200200000000223
+          "elapsed_ms": 15.939499999999498
         },
         {
           "request": {
@@ -4334,7 +4334,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.77259999999933
+          "elapsed_ms": 18.101000000000568
         }
       ],
       "generated_answer_scored": false,
@@ -4360,7 +4360,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.573300000000017
+          "elapsed_ms": 15.658100000000559
         },
         {
           "request": {
@@ -4372,7 +4372,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.714500000000044
+          "elapsed_ms": 17.989700000000084
         }
       ],
       "generated_answer_scored": false,
@@ -4398,7 +4398,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 33.531300000000556
+          "elapsed_ms": 30.028199999999742
         },
         {
           "request": {
@@ -4410,7 +4410,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 33.33930000000055
+          "elapsed_ms": 31.504500000000007
         }
       ],
       "generated_answer_scored": false,
@@ -4434,9 +4434,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 38.47739999999976
+          "elapsed_ms": 38.522799999999734
         },
         {
           "request": {
@@ -4448,7 +4448,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.26589999999942
+          "elapsed_ms": 17.955199999999422
         }
       ],
       "generated_answer_scored": false,
@@ -4474,7 +4474,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.11740000000009
+          "elapsed_ms": 16.63929999999982
         },
         {
           "request": {
@@ -4486,7 +4486,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.306400000000394
+          "elapsed_ms": 18.501900000000205
         }
       ],
       "generated_answer_scored": false,
@@ -4512,7 +4512,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.70809999999983
+          "elapsed_ms": 18.308999999999287
         },
         {
           "request": {
@@ -4522,9 +4522,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 36.91830000000027
+          "elapsed_ms": 34.94509999999991
         }
       ],
       "generated_answer_scored": false,
@@ -4550,7 +4550,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.98909999999978
+          "elapsed_ms": 19.507399999999507
         },
         {
           "request": {
@@ -4562,7 +4562,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.30369999999948
+          "elapsed_ms": 39.17830000000049
         }
       ],
       "generated_answer_scored": false,
@@ -4588,7 +4588,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.41269999999986
+          "elapsed_ms": 42.038000000000466
         },
         {
           "request": {
@@ -4600,7 +4600,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.21429999999964
+          "elapsed_ms": 44.8792999999996
         }
       ],
       "generated_answer_scored": false,
@@ -4626,7 +4626,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.039200000000164
+          "elapsed_ms": 45.48459999999977
         },
         {
           "request": {
@@ -4638,7 +4638,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.08510000000024
+          "elapsed_ms": 27.94509999999991
         }
       ],
       "generated_answer_scored": false,
@@ -4664,7 +4664,7 @@
           },
           "total": 83,
           "truncated": true,
-          "elapsed_ms": 33.089100000000144
+          "elapsed_ms": 29.690699999999197
         },
         {
           "request": {
@@ -4676,7 +4676,7 @@
           },
           "total": 9,
           "truncated": false,
-          "elapsed_ms": 26.58050000000003
+          "elapsed_ms": 23.611699999999473
         }
       ],
       "generated_answer_scored": false,
@@ -4702,7 +4702,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.46439999999984
+          "elapsed_ms": 17.642399999999725
         },
         {
           "request": {
@@ -4714,7 +4714,7 @@
           },
           "total": 2,
           "truncated": false,
-          "elapsed_ms": 22.637899999999718
+          "elapsed_ms": 17.53979999999956
         }
       ],
       "generated_answer_scored": false,
@@ -4740,7 +4740,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 38.45460000000003
+          "elapsed_ms": 33.68109999999979
         }
       ],
       "generated_answer_scored": false,
@@ -4766,7 +4766,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.32629999999972
+          "elapsed_ms": 15.988099999999577
         }
       ],
       "generated_answer_scored": false,
@@ -4790,9 +4790,9 @@
               "limit": 20
             }
           },
-          "total": 427,
+          "total": 433,
           "truncated": true,
-          "elapsed_ms": 31.860500000000684
+          "elapsed_ms": 28.365200000000186
         },
         {
           "request": {
@@ -4804,7 +4804,7 @@
           },
           "total": 66,
           "truncated": true,
-          "elapsed_ms": 38.123600000000806
+          "elapsed_ms": 35.73710000000028
         }
       ],
       "generated_answer_scored": false,
@@ -4828,9 +4828,9 @@
               "limit": 20
             }
           },
-          "total": 306,
+          "total": 307,
           "truncated": true,
-          "elapsed_ms": 32.3107
+          "elapsed_ms": 33.77880000000005
         },
         {
           "request": {
@@ -4842,7 +4842,7 @@
           },
           "total": 59,
           "truncated": true,
-          "elapsed_ms": 35.745199999999386
+          "elapsed_ms": 79.97140000000036
         }
       ],
       "generated_answer_scored": false,
@@ -4868,7 +4868,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.22530000000006
+          "elapsed_ms": 27.553499999999985
         }
       ],
       "generated_answer_scored": false,
@@ -4894,7 +4894,7 @@
           },
           "total": 197,
           "truncated": true,
-          "elapsed_ms": 35.21779999999944
+          "elapsed_ms": 34.56909999999971
         },
         {
           "request": {
@@ -4906,7 +4906,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.063000000000102
+          "elapsed_ms": 16.73859999999968
         }
       ],
       "generated_answer_scored": false,
@@ -4932,7 +4932,7 @@
           },
           "total": 50,
           "truncated": true,
-          "elapsed_ms": 36.341199999999844
+          "elapsed_ms": 30.47939999999926
         },
         {
           "request": {
@@ -4944,7 +4944,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 23.449999999999818
+          "elapsed_ms": 15.943500000000313
         }
       ],
       "generated_answer_scored": false,
@@ -4970,7 +4970,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.00500000000011
+          "elapsed_ms": 17.90859999999975
         },
         {
           "request": {
@@ -4982,7 +4982,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.75749999999971
+          "elapsed_ms": 16.99330000000009
         }
       ],
       "generated_answer_scored": false,
@@ -5008,7 +5008,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.072300000000723
+          "elapsed_ms": 19.751400000000103
         }
       ],
       "generated_answer_scored": false,
@@ -5034,7 +5034,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.064699999999903
+          "elapsed_ms": 17.131199999999808
         }
       ],
       "generated_answer_scored": false,
@@ -5060,7 +5060,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.42540000000008
+          "elapsed_ms": 16.13169999999991
         }
       ],
       "generated_answer_scored": false,
@@ -5086,7 +5086,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.026199999999335
+          "elapsed_ms": 17.168499999999767
         }
       ],
       "generated_answer_scored": false,
@@ -5112,7 +5112,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 41.79019999999946
+          "elapsed_ms": 30.131200000000717
         }
       ],
       "generated_answer_scored": false,
@@ -5138,7 +5138,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.01090000000022
+          "elapsed_ms": 17.011500000000524
         },
         {
           "request": {
@@ -5148,9 +5148,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 42.35789999999997
+          "elapsed_ms": 36.476700000000164
         }
       ],
       "generated_answer_scored": false,
@@ -5176,7 +5176,7 @@
           },
           "total": 25,
           "truncated": true,
-          "elapsed_ms": 29.184799999999996
+          "elapsed_ms": 27.473799999999756
         },
         {
           "request": {
@@ -5188,7 +5188,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.994000000000597
+          "elapsed_ms": 19.32430000000022
         }
       ],
       "generated_answer_scored": false,
@@ -5214,7 +5214,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 33.31620000000021
+          "elapsed_ms": 28.526200000000244
         }
       ],
       "generated_answer_scored": false,
@@ -5240,7 +5240,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.380299999999806
+          "elapsed_ms": 16.761000000000422
         },
         {
           "request": {
@@ -5252,7 +5252,7 @@
           },
           "total": 217,
           "truncated": true,
-          "elapsed_ms": 31.29870000000028
+          "elapsed_ms": 30.993199999999888
         }
       ],
       "generated_answer_scored": false,
@@ -5278,7 +5278,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.475099999999657
+          "elapsed_ms": 16.513100000000122
         },
         {
           "request": {
@@ -5290,7 +5290,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 30.618500000000495
+          "elapsed_ms": 30.005599999999504
         }
       ],
       "generated_answer_scored": false,
@@ -5316,7 +5316,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.501899999999296
+          "elapsed_ms": 17.332300000000032
         },
         {
           "request": {
@@ -5328,7 +5328,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.325700000000325
+          "elapsed_ms": 17.309799999999996
         }
       ],
       "generated_answer_scored": false,
@@ -5354,7 +5354,7 @@
           },
           "total": 8,
           "truncated": false,
-          "elapsed_ms": 27.16609999999946
+          "elapsed_ms": 22.10149999999976
         }
       ],
       "generated_answer_scored": false,
@@ -5380,7 +5380,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.21219999999994
+          "elapsed_ms": 15.631400000000212
         },
         {
           "request": {
@@ -5392,7 +5392,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.378600000000006
+          "elapsed_ms": 15.540399999999863
         }
       ],
       "generated_answer_scored": false,
@@ -5418,7 +5418,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.203199999999924
+          "elapsed_ms": 17.74449999999979
         },
         {
           "request": {
@@ -5430,7 +5430,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.345900000000256
+          "elapsed_ms": 15.427099999999882
         }
       ],
       "generated_answer_scored": false,
@@ -5456,7 +5456,7 @@
           },
           "total": 220,
           "truncated": true,
-          "elapsed_ms": 29.65230000000065
+          "elapsed_ms": 28.352600000000166
         }
       ],
       "generated_answer_scored": false,
@@ -5480,9 +5480,9 @@
               "limit": 20
             }
           },
-          "total": 500,
+          "total": 506,
           "truncated": true,
-          "elapsed_ms": 32.90380000000005
+          "elapsed_ms": 31.819899999999507
         }
       ],
       "generated_answer_scored": false,
@@ -5508,7 +5508,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 29.68539999999939
+          "elapsed_ms": 30.240600000000086
         },
         {
           "request": {
@@ -5520,7 +5520,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 33.70430000000033
+          "elapsed_ms": 29.551399999999376
         }
       ],
       "generated_answer_scored": false,
@@ -5546,7 +5546,7 @@
           },
           "total": 50,
           "truncated": true,
-          "elapsed_ms": 33.802599999999984
+          "elapsed_ms": 34.80460000000039
         }
       ],
       "generated_answer_scored": false,
@@ -5572,7 +5572,7 @@
           },
           "total": 82,
           "truncated": true,
-          "elapsed_ms": 33.01389999999992
+          "elapsed_ms": 30.997400000000198
         },
         {
           "request": {
@@ -5584,7 +5584,7 @@
           },
           "total": 60,
           "truncated": true,
-          "elapsed_ms": 36.201499999999214
+          "elapsed_ms": 30.693099999999504
         }
       ],
       "generated_answer_scored": false,
@@ -5610,7 +5610,7 @@
           },
           "total": 6,
           "truncated": false,
-          "elapsed_ms": 29.054900000001
+          "elapsed_ms": 21.918499999999767
         },
         {
           "request": {
@@ -5622,7 +5622,7 @@
           },
           "total": 38,
           "truncated": true,
-          "elapsed_ms": 41.938100000001214
+          "elapsed_ms": 51.58259999999973
         }
       ],
       "generated_answer_scored": false,
@@ -5648,7 +5648,7 @@
           },
           "total": 106,
           "truncated": true,
-          "elapsed_ms": 36.479699999999866
+          "elapsed_ms": 31.22310000000016
         }
       ],
       "generated_answer_scored": false,
@@ -5674,7 +5674,7 @@
           },
           "total": 66,
           "truncated": true,
-          "elapsed_ms": 29.915600000000268
+          "elapsed_ms": 29.211600000000544
         },
         {
           "request": {
@@ -5686,7 +5686,7 @@
           },
           "total": 145,
           "truncated": true,
-          "elapsed_ms": 33.79609999999957
+          "elapsed_ms": 33.40059999999994
         }
       ],
       "generated_answer_scored": false,
@@ -5712,7 +5712,7 @@
           },
           "total": 293,
           "truncated": true,
-          "elapsed_ms": 38.88509999999951
+          "elapsed_ms": 32.89570000000003
         }
       ],
       "generated_answer_scored": false,
@@ -5738,7 +5738,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.354299999999057
+          "elapsed_ms": 15.485199999999168
         },
         {
           "request": {
@@ -5750,7 +5750,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 34.835399999999936
+          "elapsed_ms": 30.0591000000004
         }
       ],
       "generated_answer_scored": false,
@@ -5776,7 +5776,7 @@
           },
           "total": 141,
           "truncated": true,
-          "elapsed_ms": 36.66569999999956
+          "elapsed_ms": 50.035499999999956
         },
         {
           "request": {
@@ -5788,7 +5788,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.069799999999304
+          "elapsed_ms": 16.365499999999884
         }
       ],
       "generated_answer_scored": false,
@@ -5814,7 +5814,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.771500000000742
+          "elapsed_ms": 17.301100000000588
         },
         {
           "request": {
@@ -5826,7 +5826,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 36.35910000000149
+          "elapsed_ms": 29.435100000000602
         }
       ],
       "generated_answer_scored": false,
@@ -5852,7 +5852,7 @@
           },
           "total": 365,
           "truncated": true,
-          "elapsed_ms": 34.57250000000022
+          "elapsed_ms": 29.528000000000247
         },
         {
           "request": {
@@ -5864,7 +5864,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.24909999999909
+          "elapsed_ms": 16.193900000000212
         }
       ],
       "generated_answer_scored": false,
@@ -5890,7 +5890,7 @@
           },
           "total": 28,
           "truncated": true,
-          "elapsed_ms": 30.930200000000696
+          "elapsed_ms": 30.698700000000827
         },
         {
           "request": {
@@ -5902,7 +5902,7 @@
           },
           "total": 256,
           "truncated": true,
-          "elapsed_ms": 37.728399999999965
+          "elapsed_ms": 31.665499999999156
         }
       ],
       "generated_answer_scored": false,
@@ -5928,7 +5928,7 @@
           },
           "total": 78,
           "truncated": true,
-          "elapsed_ms": 38.545900000000984
+          "elapsed_ms": 30.82550000000083
         },
         {
           "request": {
@@ -5940,7 +5940,7 @@
           },
           "total": 5,
           "truncated": false,
-          "elapsed_ms": 22.39730000000054
+          "elapsed_ms": 19.95299999999952
         }
       ],
       "generated_answer_scored": false,
@@ -5966,7 +5966,7 @@
           },
           "total": 124,
           "truncated": true,
-          "elapsed_ms": 33.60820000000058
+          "elapsed_ms": 29.430899999999383
         },
         {
           "request": {
@@ -5978,7 +5978,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.23450000000048
+          "elapsed_ms": 17.200399999999718
         }
       ],
       "generated_answer_scored": false,
@@ -6004,7 +6004,7 @@
           },
           "total": 5,
           "truncated": false,
-          "elapsed_ms": 23.73529999999846
+          "elapsed_ms": 20.18239999999969
         },
         {
           "request": {
@@ -6016,7 +6016,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 16.066799999998693
+          "elapsed_ms": 17.874100000000908
         }
       ],
       "generated_answer_scored": false,
@@ -6042,7 +6042,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.31970000000001
+          "elapsed_ms": 17.341200000000754
         },
         {
           "request": {
@@ -6054,7 +6054,7 @@
           },
           "total": 82,
           "truncated": true,
-          "elapsed_ms": 33.66790000000037
+          "elapsed_ms": 32.082800000000134
         }
       ],
       "generated_answer_scored": false,
@@ -6080,7 +6080,7 @@
           },
           "total": 59,
           "truncated": true,
-          "elapsed_ms": 35.268200000000434
+          "elapsed_ms": 30.88680000000022
         }
       ],
       "generated_answer_scored": false,
@@ -6104,9 +6104,9 @@
               "limit": 20
             }
           },
-          "total": 723,
+          "total": 730,
           "truncated": true,
-          "elapsed_ms": 37.46990000000005
+          "elapsed_ms": 33.13009999999849
         }
       ],
       "generated_answer_scored": false,
@@ -6132,7 +6132,7 @@
           },
           "total": 25,
           "truncated": true,
-          "elapsed_ms": 30.361699999999473
+          "elapsed_ms": 27.743399999999383
         },
         {
           "request": {
@@ -6142,9 +6142,9 @@
               "limit": 20
             }
           },
-          "total": 428,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 31.536400000000867
+          "elapsed_ms": 30.265300000000934
         }
       ],
       "generated_answer_scored": false,
@@ -6170,7 +6170,7 @@
           },
           "total": 82,
           "truncated": true,
-          "elapsed_ms": 33.513200000001234
+          "elapsed_ms": 31.57300000000032
         },
         {
           "request": {
@@ -6182,7 +6182,7 @@
           },
           "total": 82,
           "truncated": true,
-          "elapsed_ms": 30.746799999998984
+          "elapsed_ms": 45.249299999999494
         }
       ],
       "generated_answer_scored": false,
@@ -6208,7 +6208,7 @@
           },
           "total": 23,
           "truncated": true,
-          "elapsed_ms": 36.17230000000018
+          "elapsed_ms": 75.83120000000054
         }
       ],
       "generated_answer_scored": false,
@@ -6234,7 +6234,7 @@
           },
           "total": 65,
           "truncated": true,
-          "elapsed_ms": 39.07170000000042
+          "elapsed_ms": 51.59510000000046
         },
         {
           "request": {
@@ -6246,7 +6246,7 @@
           },
           "total": 65,
           "truncated": true,
-          "elapsed_ms": 40.441499999998996
+          "elapsed_ms": 59.69340000000011
         }
       ],
       "generated_answer_scored": false,
@@ -6272,7 +6272,7 @@
           },
           "total": 126,
           "truncated": true,
-          "elapsed_ms": 31.527400000000853
+          "elapsed_ms": 66.49089999999887
         },
         {
           "request": {
@@ -6282,9 +6282,9 @@
               "limit": 20
             }
           },
-          "total": 490,
+          "total": 496,
           "truncated": true,
-          "elapsed_ms": 34.78679999999986
+          "elapsed_ms": 38.0525000000016
         }
       ],
       "generated_answer_scored": false,
@@ -6310,7 +6310,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.249700000000303
+          "elapsed_ms": 21.730499999999665
         }
       ],
       "generated_answer_scored": false,
@@ -6334,9 +6334,9 @@
               "limit": 20
             }
           },
-          "total": 525,
+          "total": 531,
           "truncated": true,
-          "elapsed_ms": 35.41690000000017
+          "elapsed_ms": 38.76920000000064
         },
         {
           "request": {
@@ -6348,7 +6348,7 @@
           },
           "total": 102,
           "truncated": true,
-          "elapsed_ms": 33.89230000000134
+          "elapsed_ms": 47.54069999999956
         }
       ],
       "generated_answer_scored": false,
@@ -6374,7 +6374,7 @@
           },
           "total": 189,
           "truncated": true,
-          "elapsed_ms": 36.346700000000055
+          "elapsed_ms": 30.226700000001074
         },
         {
           "request": {
@@ -6386,7 +6386,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.517700000000332
+          "elapsed_ms": 18.73320000000058
         }
       ],
       "generated_answer_scored": false,
@@ -6412,7 +6412,7 @@
           },
           "total": 28,
           "truncated": true,
-          "elapsed_ms": 35.908800000001065
+          "elapsed_ms": 28.15780000000086
         },
         {
           "request": {
@@ -6422,9 +6422,9 @@
               "limit": 20
             }
           },
-          "total": 355,
+          "total": 361,
           "truncated": true,
-          "elapsed_ms": 44.01380000000063
+          "elapsed_ms": 30.07639999999992
         }
       ],
       "generated_answer_scored": false,
@@ -6450,7 +6450,7 @@
           },
           "total": 53,
           "truncated": true,
-          "elapsed_ms": 33.29529999999977
+          "elapsed_ms": 52.90089999999873
         },
         {
           "request": {
@@ -6462,7 +6462,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.09009999999944
+          "elapsed_ms": 18.527900000000955
         }
       ],
       "generated_answer_scored": false,
@@ -6488,7 +6488,7 @@
           },
           "total": 139,
           "truncated": true,
-          "elapsed_ms": 35.7518
+          "elapsed_ms": 33.23389999999927
         }
       ],
       "generated_answer_scored": false,
@@ -6514,7 +6514,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.46270000000004
+          "elapsed_ms": 16.165399999999863
         },
         {
           "request": {
@@ -6524,9 +6524,9 @@
               "limit": 20
             }
           },
-          "total": 609,
+          "total": 615,
           "truncated": true,
-          "elapsed_ms": 39.41849999999977
+          "elapsed_ms": 31.376399999999194
         }
       ],
       "generated_answer_scored": false,
@@ -6552,7 +6552,7 @@
           },
           "total": 24,
           "truncated": true,
-          "elapsed_ms": 28.522000000000844
+          "elapsed_ms": 27.36290000000008
         },
         {
           "request": {
@@ -6562,9 +6562,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 36.90030000000115
+          "elapsed_ms": 35.646199999999226
         }
       ],
       "generated_answer_scored": false,
@@ -6590,7 +6590,7 @@
           },
           "total": 146,
           "truncated": true,
-          "elapsed_ms": 40.21529999999984
+          "elapsed_ms": 38.94180000000051
         },
         {
           "request": {
@@ -6602,7 +6602,7 @@
           },
           "total": 151,
           "truncated": true,
-          "elapsed_ms": 38.237600000000384
+          "elapsed_ms": 34.4320000000007
         }
       ],
       "generated_answer_scored": false,
@@ -6628,7 +6628,7 @@
           },
           "total": 146,
           "truncated": true,
-          "elapsed_ms": 40.11700000000019
+          "elapsed_ms": 33.3778999999995
         },
         {
           "request": {
@@ -6640,7 +6640,7 @@
           },
           "total": 6,
           "truncated": false,
-          "elapsed_ms": 25.052999999999884
+          "elapsed_ms": 24.469699999999648
         }
       ],
       "generated_answer_scored": false,
@@ -6666,7 +6666,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.07170000000042
+          "elapsed_ms": 18.422099999999773
         },
         {
           "request": {
@@ -6678,7 +6678,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 37.21050000000105
+          "elapsed_ms": 31.137300000000323
         }
       ],
       "generated_answer_scored": false,
@@ -6704,7 +6704,7 @@
           },
           "total": 76,
           "truncated": true,
-          "elapsed_ms": 38.47099999999955
+          "elapsed_ms": 85.10789999999906
         },
         {
           "request": {
@@ -6716,7 +6716,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.935699999999997
+          "elapsed_ms": 38.93450000000121
         }
       ],
       "generated_answer_scored": false,
@@ -6742,7 +6742,7 @@
           },
           "total": 252,
           "truncated": true,
-          "elapsed_ms": 43.81049999999959
+          "elapsed_ms": 41.76720000000023
         },
         {
           "request": {
@@ -6754,7 +6754,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 21.617400000001
+          "elapsed_ms": 18.140799999999217
         }
       ],
       "generated_answer_scored": false,
@@ -6780,7 +6780,7 @@
           },
           "total": 47,
           "truncated": true,
-          "elapsed_ms": 43.88010000000031
+          "elapsed_ms": 42.120999999999185
         },
         {
           "request": {
@@ -6792,7 +6792,7 @@
           },
           "total": 199,
           "truncated": true,
-          "elapsed_ms": 38.52559999999903
+          "elapsed_ms": 43.08810000000085
         }
       ],
       "generated_answer_scored": false,
@@ -6818,7 +6818,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.402600000001257
+          "elapsed_ms": 18.121900000000096
         },
         {
           "request": {
@@ -6830,7 +6830,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.85479999999916
+          "elapsed_ms": 17.429400000000896
         }
       ],
       "generated_answer_scored": false,
@@ -6856,7 +6856,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.21019999999953
+          "elapsed_ms": 16.64429999999993
         },
         {
           "request": {
@@ -6868,7 +6868,7 @@
           },
           "total": 21,
           "truncated": true,
-          "elapsed_ms": 36.14819999999963
+          "elapsed_ms": 31.087600000000748
         }
       ],
       "generated_answer_scored": false,
@@ -6894,7 +6894,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.644500000000335
+          "elapsed_ms": 16.01890000000094
         },
         {
           "request": {
@@ -6906,7 +6906,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.590500000000247
+          "elapsed_ms": 15.95429999999942
         }
       ],
       "generated_answer_scored": false,
@@ -6932,7 +6932,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 26.061399999998685
+          "elapsed_ms": 17.715100000001257
         },
         {
           "request": {
@@ -6944,7 +6944,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.366299999999683
+          "elapsed_ms": 18.639499999999316
         }
       ],
       "generated_answer_scored": false,
@@ -6970,7 +6970,7 @@
           },
           "total": 7,
           "truncated": false,
-          "elapsed_ms": 2.4896000000007916
+          "elapsed_ms": 3.1045000000012806
         },
         {
           "request": {
@@ -6982,7 +6982,7 @@
           },
           "total": 17,
           "truncated": false,
-          "elapsed_ms": 1.5368000000016764
+          "elapsed_ms": 3.091199999998935
         }
       ],
       "generated_answer_scored": false,
@@ -7008,7 +7008,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.665799999998853
+          "elapsed_ms": 15.24960000000101
         }
       ],
       "generated_answer_scored": false,
@@ -7034,7 +7034,7 @@
           },
           "total": 3,
           "truncated": false,
-          "elapsed_ms": 21.287599999999657
+          "elapsed_ms": 18.73199999999997
         },
         {
           "request": {
@@ -7046,7 +7046,7 @@
           },
           "total": 3,
           "truncated": false,
-          "elapsed_ms": 20.708599999999933
+          "elapsed_ms": 22.609800000000178
         }
       ],
       "generated_answer_scored": false,
@@ -7072,7 +7072,7 @@
           },
           "total": 55,
           "truncated": true,
-          "elapsed_ms": 39.92879999999968
+          "elapsed_ms": 33.32919999999831
         },
         {
           "request": {
@@ -7084,7 +7084,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.213400000000547
+          "elapsed_ms": 18.368399999999383
         }
       ],
       "generated_answer_scored": false,
@@ -7110,7 +7110,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.936499999999796
+          "elapsed_ms": 18.652900000000955
         },
         {
           "request": {
@@ -7122,7 +7122,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.8836999999985
+          "elapsed_ms": 17.80109999999877
         }
       ],
       "generated_answer_scored": false,
@@ -7148,7 +7148,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 22.115100000000893
+          "elapsed_ms": 17.621299999998882
         },
         {
           "request": {
@@ -7160,7 +7160,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.325300000000425
+          "elapsed_ms": 20.16700000000128
         }
       ],
       "generated_answer_scored": false,
@@ -7186,7 +7186,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.84729999999945
+          "elapsed_ms": 18.301699999999983
         },
         {
           "request": {
@@ -7198,7 +7198,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.26219999999921
+          "elapsed_ms": 18.797199999999066
         }
       ],
       "generated_answer_scored": false,
@@ -7224,7 +7224,7 @@
           },
           "total": 14,
           "truncated": false,
-          "elapsed_ms": 32.72780000000057
+          "elapsed_ms": 30.02560000000085
         },
         {
           "request": {
@@ -7236,7 +7236,7 @@
           },
           "total": 312,
           "truncated": true,
-          "elapsed_ms": 38.47240000000056
+          "elapsed_ms": 87.42479999999887
         }
       ],
       "generated_answer_scored": false,
@@ -7260,9 +7260,9 @@
               "limit": 20
             }
           },
-          "total": 375,
+          "total": 377,
           "truncated": true,
-          "elapsed_ms": 35.353799999998955
+          "elapsed_ms": 47.03570000000036
         },
         {
           "request": {
@@ -7272,9 +7272,9 @@
               "limit": 20
             }
           },
-          "total": 306,
+          "total": 307,
           "truncated": true,
-          "elapsed_ms": 34.120999999999185
+          "elapsed_ms": 30.549699999999575
         }
       ],
       "generated_answer_scored": false,
@@ -7298,9 +7298,9 @@
               "limit": 20
             }
           },
-          "total": 150,
+          "total": 151,
           "truncated": true,
-          "elapsed_ms": 42.63999999999942
+          "elapsed_ms": 33.009400000000824
         },
         {
           "request": {
@@ -7312,7 +7312,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.874100000000908
+          "elapsed_ms": 17.037200000000666
         }
       ],
       "generated_answer_scored": false,
@@ -7336,9 +7336,9 @@
               "limit": 20
             }
           },
-          "total": 306,
+          "total": 307,
           "truncated": true,
-          "elapsed_ms": 35.3130000000001
+          "elapsed_ms": 30.223400000000765
         },
         {
           "request": {
@@ -7350,7 +7350,7 @@
           },
           "total": 19,
           "truncated": false,
-          "elapsed_ms": 35.02480000000105
+          "elapsed_ms": 29.14799999999923
         }
       ],
       "generated_answer_scored": false,
@@ -7376,7 +7376,7 @@
           },
           "total": 73,
           "truncated": true,
-          "elapsed_ms": 32.618500000000495
+          "elapsed_ms": 48.690999999998894
         },
         {
           "request": {
@@ -7388,7 +7388,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.76089999999931
+          "elapsed_ms": 42.39760000000024
         }
       ],
       "generated_answer_scored": false,
@@ -7414,7 +7414,7 @@
           },
           "total": 15,
           "truncated": false,
-          "elapsed_ms": 2.6340000000000146
+          "elapsed_ms": 5.762800000000425
         }
       ],
       "generated_answer_scored": false,
@@ -7440,7 +7440,7 @@
           },
           "total": 100,
           "truncated": true,
-          "elapsed_ms": 39.240599999999176
+          "elapsed_ms": 88.07129999999961
         }
       ],
       "generated_answer_scored": false,
@@ -7466,7 +7466,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.542999999999665
+          "elapsed_ms": 38.74369999999908
         },
         {
           "request": {
@@ -7478,7 +7478,7 @@
           },
           "total": 148,
           "truncated": true,
-          "elapsed_ms": 35.7468000000008
+          "elapsed_ms": 52.865599999999176
         }
       ],
       "generated_answer_scored": false,
@@ -7504,7 +7504,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.11410000000069
+          "elapsed_ms": 28.59560000000056
         },
         {
           "request": {
@@ -7514,9 +7514,9 @@
               "limit": 20
             }
           },
-          "total": 229,
+          "total": 235,
           "truncated": true,
-          "elapsed_ms": 36.29709999999977
+          "elapsed_ms": 58.79519999999866
         }
       ],
       "generated_answer_scored": false,
@@ -7542,7 +7542,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 15.83730000000105
+          "elapsed_ms": 36.50420000000122
         },
         {
           "request": {
@@ -7554,7 +7554,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 20.52139999999963
+          "elapsed_ms": 24.517499999999927
         }
       ],
       "generated_answer_scored": false,
@@ -7578,9 +7578,9 @@
               "limit": 20
             }
           },
-          "total": 351,
+          "total": 352,
           "truncated": true,
-          "elapsed_ms": 36.67979999999989
+          "elapsed_ms": 59.20219999999972
         },
         {
           "request": {
@@ -7590,9 +7590,9 @@
               "limit": 20
             }
           },
-          "total": 433,
+          "total": 434,
           "truncated": true,
-          "elapsed_ms": 37.81080000000111
+          "elapsed_ms": 64.82620000000134
         }
       ],
       "generated_answer_scored": false,
@@ -7618,7 +7618,7 @@
           },
           "total": 89,
           "truncated": true,
-          "elapsed_ms": 34.632400000000416
+          "elapsed_ms": 35.983799999999974
         },
         {
           "request": {
@@ -7630,7 +7630,7 @@
           },
           "total": 100,
           "truncated": true,
-          "elapsed_ms": 34.720799999999144
+          "elapsed_ms": 88.6319999999996
         }
       ],
       "generated_answer_scored": false,
@@ -7656,7 +7656,7 @@
           },
           "total": 57,
           "truncated": true,
-          "elapsed_ms": 37.56290000000081
+          "elapsed_ms": 74.26989999999932
         },
         {
           "request": {
@@ -7668,7 +7668,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.41349999999875
+          "elapsed_ms": 27.21889999999985
         }
       ],
       "generated_answer_scored": false,
@@ -7694,7 +7694,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.128899999999703
+          "elapsed_ms": 33.50420000000122
         },
         {
           "request": {
@@ -7706,7 +7706,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 19.876899999999296
+          "elapsed_ms": 32.00540000000001
         }
       ],
       "generated_answer_scored": false,
@@ -7732,7 +7732,7 @@
           },
           "total": 105,
           "truncated": true,
-          "elapsed_ms": 33.285799999999654
+          "elapsed_ms": 74.6148000000012
         },
         {
           "request": {
@@ -7744,7 +7744,7 @@
           },
           "total": 151,
           "truncated": true,
-          "elapsed_ms": 34.18870000000061
+          "elapsed_ms": 59.075300000000425
         }
       ],
       "generated_answer_scored": false,
@@ -7770,7 +7770,7 @@
           },
           "total": 221,
           "truncated": true,
-          "elapsed_ms": 45.30260000000089
+          "elapsed_ms": 77.04169999999976
         },
         {
           "request": {
@@ -7782,7 +7782,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.254100000000108
+          "elapsed_ms": 25.751899999999296
         }
       ],
       "generated_answer_scored": false,
@@ -7808,7 +7808,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.622799999999188
+          "elapsed_ms": 16.4390999999996
         },
         {
           "request": {
@@ -7820,7 +7820,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 17.443299999999
+          "elapsed_ms": 17.379000000000815
         }
       ],
       "generated_answer_scored": false,
@@ -7846,7 +7846,7 @@
           },
           "total": 11,
           "truncated": false,
-          "elapsed_ms": 2.028599999999642
+          "elapsed_ms": 1.9895999999989726
         }
       ],
       "generated_answer_scored": false,
@@ -7870,9 +7870,9 @@
               "limit": 20
             }
           },
-          "total": 384,
+          "total": 385,
           "truncated": true,
-          "elapsed_ms": 43.266999999999825
+          "elapsed_ms": 34.47999999999956
         },
         {
           "request": {
@@ -7884,7 +7884,7 @@
           },
           "total": 1,
           "truncated": false,
-          "elapsed_ms": 18.761000000000422
+          "elapsed_ms": 17.10069999999905
         }
       ],
       "generated_answer_scored": false,

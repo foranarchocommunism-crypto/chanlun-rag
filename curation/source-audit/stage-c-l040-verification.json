@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-202e84864e97",
+  "schema_version": "1.1.0",
+  "checks": [
+    "34新增；盘背后奇偶保护位演化次高中心，A0至At可重分B1+B2才换档；非套牢改中线，N层各自筹码节奏非风险互不相关，收益预期不作保证",
+    "均线面积另一路未给完整周期积分算法，1分以下借1分MACD为具体双面积和/单面积例非柱高计数；先卖节奏有已识别顶背前提，指数图不挂000802股例，时间窗仅辅助",
+    "17/24/37引文是读者，作者标准两小趋势与震荡类似比较推广分开；未以无矛盾三字证明读者A>B标准或撤37同级A/B和相对层级待核",
+    "39总有被套与40被套非买点的未明范围张力并存，不以事后浮亏定义正确；零成本安全/负成本利润/无人能胜为未核强词，好垃圾绩优只是时点修辞",
+    "配置问中20%/金额不认证，基金安全概括未分类；技术5日减仓与真长线基本面分境，次日跌只是可能；7段货币评论和未名基金指控只作原文上下文，读者动员不进作者知识",
+    "11段日期分三夜/收盘组、午间和尾头字符保留；7命题12配图逐项确认，7图3后加4原发未核；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "多重赋格操作"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "多重赋格操作",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "时间之窗",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-36ac0dab396f25a1"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 296
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "17课",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 7,
+    "associations": 12,
+    "unique_figures": 7
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未补全换档/均线面积算法，未消除被套/安全强词张力或认证政治经济观点、基金指控、历史收益和时间窗概率。"
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-01407b1617c1",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0292-b002",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-27 21:29:47"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "bd784ddb897cd4e5fde5b9637d29e6f24c15510ddc5a74d9efd1885e813c201a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b000",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-27 21:29:47"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "cba4ffa77c2e4211b820966580b12f0e663083c08144178a37461422edd1e188",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b001",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-27 21:29:47"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "6e7873e9cb08511a7f5c3b6b32b8d46eb3da161cefa0b302d319858676edc088",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b002",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-27 21:29:47"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "5d08a65f2b81c26f763cc49152cc8fcd752f94a83a2ab48cd10743e4dc8910c6",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b003",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-28 15:24:11"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "af655078283f40b7e8fc2c97878216011b4f71cb6f1695f85919be878772c827",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b004",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-28 15:24:11"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "d4712b43609ca2535103a9b070935727de420bd6664905ef0d684fc5a3bb0e80",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0293-b005",
+      "before": {
+        "published_at": "2007-03-27 12:57:02"
+      },
+      "after": {
+        "published_at": "2007-03-28 15:24:11"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "8e9d5c3ea5108819d52725853bad681c3ee1484007ee432fae27686caa12e5fb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0298-b007",
+      "before": {
+        "published_at": "2007-03-29 12:41:24"
+      },
+      "after": {
+        "published_at": "2007-03-29 21:44:58"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "a004e0b83abc6f77d6ca6e7be72eede46694018e7b60ecebbb4e3df819ab2b71",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0298-b008",
+      "before": {
+        "published_at": "2007-03-29 12:41:24"
+      },
+      "after": {
+        "published_at": "2007-03-29 21:44:58"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "0b251f84c9d351408638f895a367afdc3232d926a2cc99c71bcf66cdb352c3cf",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0299-b000",
+      "before": {
+        "published_at": "2007-03-29 12:41:24"
+      },
+      "after": {
+        "published_at": "2007-03-29 21:44:58"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "827b67ca292e039677c843b2c00803e56e5ab5e0334fb5c854d5c3f1d0653c6c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0299-b001",
+      "before": {
+        "published_at": "2007-03-29 12:41:24"
+      },
+      "after": {
+        "published_at": "2007-03-29 21:44:58"
+      },
+      "reason": "原页前段尾有独立时间头，支配后续跨页段落；依3/27晚间、3/28收盘或3/29夜间分组，不继承午间日期，原文字及尾头字符不改。",
+      "text_sha256": "373ac619dd6760e0c71d63cc7ce3a6e9657b92914061499dd36e7b02d23907da",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0291-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "左侧Ai奇数回补/保护位示意与39课图同型，未见作者署名日期；仅作汇编解释图，不能补原式奇数支k范围或换档算法。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0291-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "右侧Ai偶数卖出/保护位示意，无原发作者证明；小段折线不是完整类型的独立证明，不认证机械收益。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0292-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "5分图头2007/03/30、右端晚于3/27 21:29，嵌时间窗及二线业绩评论；后K不证明当时三日确认或月季预测已知。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0292-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "日线选择栏3/27而主图右端至5月刻度附近、3964.71，明显晚于所选3/27；21(T)天标注/后涨非时间窗预测的验真。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0294-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "5分图头3/30、嵌读者3/27 13:38问及作者21:41答，右端晚于文字；原当日中枢震荡和两指数/级别问题不据后图改趋势背驰。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0295-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "5分图头3/27而主图到3/28，嵌3/28 21:13答；可为答前同日行情，未证原博客身份，图周期不把1分钟以下信号升成5分背驰。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0296-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分图头/主图3/28，嵌同日夜间作者和读者文字；两个绿柱面积之和对一个按文字范围，未核原发，也不把假突破案例泛作所有背驰算法。"
+      },
+      "reason": "逐一实际查看PDF291至301十一页和七幅完整图，比对选择栏与右端、正文/示意/读者答疑各来源。"
+    }
+  ],
+  "visual_pages": [
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301
+  ],
+  "pending": [
+    "多层换档依已成高层分解不是低买点套牢后任意改级；39总有被套与40被套非买点、零成本安全的强词分歧保留；7图3文后4原发未核。"
+  ],
+  "reviewer": "Codex 主代理 / 第40课跨日解盘、层级与原图来源复核"
+}

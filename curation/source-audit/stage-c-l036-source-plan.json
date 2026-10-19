@@ -1,0 +1,168 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-bee490a04fe7",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0271-b001",
+      "before": {
+        "published_at": "2007-03-14 08:58:13"
+      },
+      "after": {
+        "published_at": "2007-03-14"
+      },
+      "reason": "实际PDF271附录谈昨晚/今天已发生行情及早上已说内容，非3/14 08:58晨帖；同日盘后无独立时分秒，保留日级精度，不猜15时具体时间。",
+      "text_sha256": "c19b2c834393dcafcc5ad8620c2054455e8a272f4c363062f9370b5e06269f17",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0271-b002",
+      "before": {
+        "published_at": "2007-03-14 08:58:13"
+      },
+      "after": {
+        "published_at": "2007-03-14"
+      },
+      "reason": "实际PDF271附录谈昨晚/今天已发生行情及早上已说内容，非3/14 08:58晨帖；同日盘后无独立时分秒，保留日级精度，不猜15时具体时间。",
+      "text_sha256": "b6ff270adc879ef9bc38ecc2b317ac3a7379e991b8827faca0352acbc670da83",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0271-b003",
+      "before": {
+        "published_at": "2007-03-14 08:58:13"
+      },
+      "after": {
+        "published_at": "2007-03-14"
+      },
+      "reason": "实际PDF271附录谈昨晚/今天已发生行情及早上已说内容，非3/14 08:58晨帖；同日盘后无独立时分秒，保留日级精度，不猜15时具体时间。",
+      "text_sha256": "d04c4363b1ee011650403113f1ec85cd9650e269788cf850b785fd49b1014b50",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0271-b004",
+      "before": {
+        "published_at": "2007-03-14 08:58:13"
+      },
+      "after": {
+        "published_at": "2007-03-14"
+      },
+      "reason": "实际PDF271附录谈昨晚/今天已发生行情及早上已说内容，非3/14 08:58晨帖；同日盘后无独立时分秒，保留日级精度，不猜15时具体时间。",
+      "text_sha256": "52ee2949d402cda6841cae05a98f46ac834c86b09294f945ad1095751bf25d34",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0271-b005",
+      "before": {
+        "published_at": "2007-03-14 08:58:13"
+      },
+      "after": {
+        "published_at": "2007-03-14"
+      },
+      "reason": "实际PDF271附录谈昨晚/今天已发生行情及早上已说内容，非3/14 08:58晨帖；同日盘后无独立时分秒，保留日级精度，不猜15时具体时间。",
+      "text_sha256": "ff6426c22228585c48d63a32e42fc7b93e48adfcd9aef06fca34304149d8318d",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0266-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "黑白30分整图主轴右端3/16，晚于3/13 09:00正文；箭头03071330/03091030和原整数保留，不能以后图认证原先已确认突破。"
+      },
+      "reason": "逐一实际看PDF265至273九页和本课五张完整图，比较时点、图周期、文字/图标价和正文/读者归属。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0267-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际5分整图图头3/13，右端3/13含当天盘中行情，晚于3/13 09:00开盘前正文；图0309-10:05/0307-13:25与文03091030/03071330不同，保留差异不静改。"
+      },
+      "reason": "逐一实际看PDF265至273九页和本课五张完整图，比较时点、图周期、文字/图标价和正文/读者归属。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0267-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际5分整图图头与右端3/12，早于3/13正文但原博客身份未核；图0309-10:05、图价小数不替换正文03091030及整数；同段不同组合保留。"
+      },
+      "reason": "逐一实际看PDF265至273九页和本课五张完整图，比较时点、图周期、文字/图标价和正文/读者归属。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0270-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际5分整图图头3/13且右端有当日盘中行情，晚于3/13 09:00正文；位于CCTV/3G等读者讨论下，读者三买判断不变作者认可，图只作汇编上下文。"
+      },
+      "reason": "逐一实际看PDF265至273九页和本课五张完整图，比较时点、图周期、文字/图标价和正文/读者归属。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0272-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际5分整图右端3/16，嵌CCTV 3/14答及作者3/15 15:23解盘；右端晚于两者，读者预测/作者评论身份各自保留，后行情不证原预测。"
+      },
+      "reason": "逐一实际看PDF265至273九页和本课五张完整图，比较时点、图周期、文字/图标价和正文/读者归属。"
+    }
+  ],
+  "visual_pages": [
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273
+  ],
+  "pending": [
+    "附录只知3/14日级时间；五图四文后、一早于正文但原发未核，图10:05/文10:30及13:25/13:30不能静合，读者三买辩论不当作者结论。"
+  ],
+  "reviewer": "Codex 主代理 / 第36课附录时间和原图来源复核"
+}

@@ -1,0 +1,59 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-bd49063f36c4",
+  "lessons": [
+    36
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册36课同模型四轮复核",
+  "passages_read": 89,
+  "claims": 35,
+  "evidence": 48,
+  "importance_counts": {
+    "1": 19,
+    "2": 5,
+    "3": 5,
+    "4": 6
+  },
+  "new_concepts": [
+    "三线股",
+    "二线股",
+    "新股"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273
+  ],
+  "figure_objects_viewed": 5,
+  "figure_origin_counts": {
+    "later_annotation": 4,
+    "unverified": 1
+  },
+  "pending": [
+    "upper-l036-c-stage-pending-multiple-combinations-not-vague-and-completion-scope",
+    "upper-l036-c-stage-pending-regroup-center-range-and-text-figure-time-mismatch",
+    "upper-l036-c-stage-pending-daily-oscillation-thirty-completion-and-m-count",
+    "upper-l036-c-stage-pending-early-thirty-third-not-daily-and-relative-safety",
+    "upper-l036-c-stage-pending-third-buy-repeated-exit-first-retest-and-late-center-frequency",
+    "upper-l036-c-stage-pending-ipo-gap-short-answer-and-colloquial-stock-lines",
+    "upper-l036-c-stage-pending-historical-small-ipo-profit-policy-and-risk-opinions",
+    "upper-l036-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "32a0c6c35e43b1c4fe09156b1360ca14c7d524c9a698399ef465ac1dbbc8a3e4",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "36课89段9页5图及前后课边界同模型四轮；附录5段改日级时间，组合边界与三买标准一致、未完成/完成扩展、日/30分提前信号和读者身份分开，待预检。"
+}

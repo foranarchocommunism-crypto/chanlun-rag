@@ -1,0 +1,88 @@
+{
+  "graph_version": "0.1.0-review-ebd7062c0ca7",
+  "schema_version": "1.1.0",
+  "checks": [
+    "39新增；零成本绝对无风险记录作者强语与核算语境，不证剩余市值/机会/执行风险全无；10万10亿示例非阈值，资金容量通道和翻倍后资金利用率条件齐全，0后仍有特大卖点",
+    "有效跌破同三卖，读者三根5分收低不冒作者规则；一二卖主动和三卖较晚分开，两中枢可完非必结束，盘中例定级/背驰级别与43包含上界同时保留",
+    "30分操作可忍正常5分修正，第一修正中枢>5才至少30盘整及先出/二卖，精细后讲；无同级背驰仍有小转大分支，短答一般如此不逐项背书读者B方向/c撇/d比较",
+    "中枢区间等首段限该例，不把单段当完整中枢或只首第三包含当一般三交证明；可计算不冒物理逃逸公式，c>b不必新生不交中枢，真趋势同级中枢区间不交与外围波动分开",
+    "4段4/25收评日期纠正与55空格规范，130段含全部读者/非技术上下文；3692/3699原字不静合，机构阴谋和政治评语不升技术事实，恐慌半仓不回填其他课程且保好技术/心态例外",
+    "5命题5关联1整图逐项核；4/25图相对4/24文字为后加，当日可得仍未核原制图者，历史大顶/周7%/20年强语非预测实证，模块一致不冒Windows实际运行"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "第一中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "零成本持仓",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "有效跌破",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-25428a42de7f1261"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 354
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "3699",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 5,
+    "unique_figures": 1
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型范围检查/模块一致，非独立语义或生成回答及Windows运行验收。",
+    "零成本绝对风险、3692/3699及第二段交集、两中枢可完和力度可计算条件/公式仍待核。",
+    "冻结g-b05-coincidence前20召回回归未在此修改核心排序或金标准规避。"
+  ]
+}

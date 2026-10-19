@@ -1,0 +1,61 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-f0862875973e",
+  "lessons": [
+    46
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册46课同模型四轮复核",
+  "passages_read": 86,
+  "claims": 33,
+  "evidence": 44,
+  "importance_counts": {
+    "1": 26,
+    "2": 6,
+    "4": 1
+  },
+  "new_concepts": [
+    "单边区间",
+    "平衡市",
+    "弱平衡市",
+    "强平衡市",
+    "每天走势上的中枢",
+    "每日走势分类",
+    "转折平衡市"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339
+  ],
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "later_annotation": 4,
+    "unverified": 2
+  },
+  "pending": [
+    "upper-l046-c-stage-pending-daily-K-center-scope-session-model-not-recursive-center",
+    "upper-l046-c-stage-pending-balance-extremes-retrospective-overlap-labels-and-endpoint-equality",
+    "upper-l046-c-stage-pending-two-center-unilateral-bar-assignment-four-five-eight-and-no-center-context",
+    "upper-l046-c-stage-pending-oscillation-two-intervals-green-area-and-level-without-axis-return",
+    "upper-l046-c-stage-pending-completion-form-subsub-earlier-third-point-and-separation-acknowledgment",
+    "upper-l046-c-stage-pending-skill-cash-Tplus1-market-direction-stockpool-and-execution",
+    "upper-l046-c-stage-pending-historical-predictions-fund-allegations-profit-and-dates-figures"
+  ],
+  "source_passages_snapshot_sha256": "de1dcda524d496e2ac2b364e674e257aca4178b2c3ca5e0597f8a488b9caccc1",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "46课86段9页6图同模型四轮；4跨日及23空格规范，图4后加2未核；日内辅助分类/回看限定与两区间力度比较、完成及能力T+1范围保留，待预检。"
+}

@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-e7c4870b7d7e",
+  "schema_version": "1.1.0",
+  "checks": [
+    "33新增；4小时8K三相邻30分K重叠为日内辅助而非递归中枢，45未完分类仍未接；一中枢前三极值非绝对/先知，强弱转折各带标题证据，中枢可来自后K，双极值/等值不补规则",
+    "两中枢不重合/单边K归属、第4第5可同时及第8可能穿越限8K模型；原200070417不静改；无日内中枢指三K共同重叠而非任意两K，强日不保续，第三类点后也仅大概率观点",
+    "中枢震荡比两完整同向跨日区间绿面积，读者单柱放长误解不作公式；ABC可直接上非次日安全预测，5分看图无回轴不升5分信号，仅此例更低级且比较对象未补全",
+    "完成形态非幅度、较小第三类点较早不等B严格完成；转引提问排除作者引文；股票池每次1最多2、弱技术5日破持币带较大背驰例外，大盘/T+1/小资金/下午仍须点联合，不保本或答个人预测",
+    "4段4/19与23时间空格规范、前4/18及尾头不改；数据延后/基金指控仅上下文，14只100%涨幅非个人实盘或评测门槛；条件至少会延伸与破线可能不同强度，3520例非通用阈值",
+    "86段台账、13命题14关联6整图逐项核：3讲义2008署期和334后K为4后加，335/336同日原发未核；后图不证预测/作者原图，不补全全书/真实Windows验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "单边区间"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "每天走势上的中枢",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "每日走势分类",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-5ce077c7ab194e1d"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 332
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "GDP",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 13,
+    "associations": 14,
+    "unique_figures": 6
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型范围复核及模块一致性，非独立语义/回答质量或Windows实际离线/PDF交互。",
+    "日内辅助模型不替递归，双极值/等值/包含/多组三K归属未补全部算法；历史基金/收益/制度语境不作当前事实。"
+  ]
+}

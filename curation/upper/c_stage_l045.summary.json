@@ -1,0 +1,61 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-8586bd5ccadf",
+  "lessons": [
+    45
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册45课同模型四轮复核",
+  "passages_read": 134,
+  "claims": 41,
+  "evidence": 50,
+  "importance_counts": {
+    "1": 23,
+    "2": 7,
+    "3": 6,
+    "4": 5
+  },
+  "new_concepts": [
+    "持币",
+    "等待"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331
+  ],
+  "figure_objects_viewed": 4,
+  "figure_origin_counts": {
+    "later_annotation": 3,
+    "unverified": 1
+  },
+  "pending": [
+    "upper-l045-c-stage-pending-hold-cash-waiting-level-guarantee-and-intralevel-trades",
+    "upper-l045-c-stage-pending-first-center-weakest-three-five-types-and-unknown-path",
+    "upper-l045-c-stage-pending-force-measure-rectangular-proposal-MACD-area-zero-axis",
+    "upper-l045-c-stage-pending-five-day-unilateral-not-consolidation-and-cost-safety",
+    "upper-l045-c-stage-pending-subminute-index-three-legs-1345-identity-and-stock-cases",
+    "upper-l045-c-stage-pending-decomposition-from-divergence-scope-reader-unanswered-details",
+    "upper-l045-c-stage-pending-historical-bull-2225-policy-news-and-intentional-earnings",
+    "upper-l045-c-stage-pending-source-date-tail-later-charts-and-context-identity"
+  ],
+  "source_passages_snapshot_sha256": "a902009b55daf6e93689228ac42515bb6b73c4bdaa92f50a2c984fda3ce4f756",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "45课134段12页4图同模型四轮；6跨日及39空格规范，3图后加1未核；等待/分类、MACD和5日限定、子分钟案例及非技术附文/读者新闻分层，待预检。"
+}

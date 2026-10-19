@@ -1,0 +1,98 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-8586bd5ccadf",
+  "graph_version": "0.1.0-review-f348422e88c4",
+  "scope": "第45课134段，PDF320至331十二页四图；45来源日期/4图来源，等待与结构分类、力度及MACD、5日线限制、子分钟案例和读者/附文边界",
+  "new_claims": 41,
+  "new_evidence": 50,
+  "relation_supports_added": 12,
+  "reviewed_before": 2708,
+  "reviewed_after": 2749,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 283,
+    "claims": 5388,
+    "evidence": 6450,
+    "relations": 501,
+    "reviews": 2819
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l045.reviewed.jsonl": "8f1a20dfeb7dcb5cb6b7b0a077b3b4fb57739cec5dafc46f6564af898c90867e"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261019T172111798775Z-curation-l045",
+  "reviewer": "Codex 主代理 / 阶段C上册45课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l045-c-stage-pending-hold-cash-waiting-level-guarantee-and-intralevel-trades",
+    "upper-l045-c-stage-pending-first-center-weakest-three-five-types-and-unknown-path",
+    "upper-l045-c-stage-pending-force-measure-rectangular-proposal-MACD-area-zero-axis",
+    "upper-l045-c-stage-pending-five-day-unilateral-not-consolidation-and-cost-safety",
+    "upper-l045-c-stage-pending-subminute-index-three-legs-1345-identity-and-stock-cases",
+    "upper-l045-c-stage-pending-decomposition-from-divergence-scope-reader-unanswered-details",
+    "upper-l045-c-stage-pending-historical-bull-2225-policy-news-and-intentional-earnings",
+    "upper-l045-c-stage-pending-source-date-tail-later-charts-and-context-identity"
+  ],
+  "source_structure_changes": "stage-c-l045-source-applied.json",
+  "checks_run": [
+    "41条Schema/引用/身份/坐标预检，134段台账、12页及4整图视觉核对",
+    "原2708命题3761已复核证据未改；2文907页9647段528图逐行比对只45来源日期及4图备注授权变更",
+    "33项Node工程测试全部通过，串行运行",
+    "2749命题全量引用校验0错误",
+    "6组语义/身份/范围边界、7组CLI/公共/桌面模块一致且只读哈希不变；5命题6图关联逐项确认",
+    "八段博客/七段经济附文只作上下文，331媒体摘录全读者；2225不静改，四图3后加1原发未核",
+    "240冻结开发取证计划及已标注身份回归通过，无新题替换",
+    "2749命题/283概念/501关系及Markdown/coverage同版本导出",
+    "7条旧待核补充，原问题全部保持开放"
+  ],
+  "checks_not_run": [
+    "240题完整类别/自然问题基线/生成回答评分/消融对抗未完成，开发取证计划不替代完整G",
+    "46至61共16课完整语义及全书跨课/图文审查未完成，43课316混合夹注段身份细分仍待核",
+    "独立Agent打包后运行及Windows实际离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "45课41命题50证据发布；2749引用及240冻结开发题回归通过，8待核开放，全书及产品目标未完成。",
+  "next_action": "接续46课每日走势的分类，实际PDF331页标题，完整审读日内结构/周期分类及与45首中枢后可能分支的作用域，保留附带答疑身份和图源。",
+  "updated_at": "2026-10-19T17:33:38.269753+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2749,
+      "graph_version": "0.1.0-review-f348422e88c4",
+      "sha256": "7507dc5a2bb9842440c187ab71b37f6da5c83505bbb958154009877109edd8db"
+    },
+    "concepts": {
+      "rows": 283,
+      "graph_version": "0.1.0-review-f348422e88c4",
+      "sha256": "b9ff696fd2910c036d7c516ba6b8d34419d315250de683bf222cc5cc9e8bae5c"
+    },
+    "relations": {
+      "rows": 501,
+      "graph_version": "0.1.0-review-f348422e88c4",
+      "sha256": "7a2eb05f9ed333bb7aac1c5cbff7e32b3c1661ff1654a678d868f158ed29d6b5"
+    }
+  },
+  "final_sha256": {
+    "database": "d91c3e31793faf5308fa90d63a58400f57cbc4e908b199b54f01158fe8ab71db",
+    "manifest": "7831cfd3c6bdd0e78b53e8e8d9e8ea434c7e988ee30a9c861ae0cb8c1c561857"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "同模型开发取证计划/身份回归，非独立金标准、回答质量或实际桌面验收。"
+  },
+  "partial_pending_followups": 7,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

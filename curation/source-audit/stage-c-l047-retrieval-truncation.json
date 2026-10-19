@@ -1,0 +1,41 @@
+{
+  "graph_version": "0.1.0-review-a4f759f80fae",
+  "failure_query_id": "g-b05-coincidence",
+  "fixed_query": "重合",
+  "original_limit": 20,
+  "observations": [
+    {
+      "limit": 20,
+      "offset": 0,
+      "total": 25,
+      "truncated": true,
+      "target_returned": false,
+      "rank_in_page": null
+    },
+    {
+      "limit": 20,
+      "offset": 20,
+      "total": 25,
+      "truncated": false,
+      "target_returned": true,
+      "rank_in_page": 3
+    },
+    {
+      "limit": 30,
+      "offset": 0,
+      "total": 25,
+      "truncated": false,
+      "target_returned": true,
+      "rank_in_page": 23
+    }
+  ],
+  "root_cause": "The existing direct-substring then importance then stable-ID ordering places the old required claim at rank23 as corpus grows. It remains reviewed and retrievable using public pagination. Frozen plan preserved unchanged.",
+  "knowledge_or_source_loss": false,
+  "query_implementation_changed": false,
+  "frozen_cases_changed": false,
+  "engineering_repair_applied": false,
+  "development_cases_executed": 240,
+  "development_cases_passed": 239,
+  "source_identity_cases_passed": 240,
+  "release_limitation": "Top20 broad-query recall regression remains open for Stage G relevance and bounded-retrieval acceptance; paginated presence does not count as passing the frozen top20 plan."
+}

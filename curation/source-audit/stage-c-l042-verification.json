@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-25594b1ae8ac",
+  "schema_version": "1.1.0",
+  "checks": [
+    "29新增；十类各有结尾非永久限定证据和条件，非临床标签；10分钟操作/心理复盘为建议，匿名内地亏香港赚无技术收益认证",
+    "9200线/二线10元/万点和5或10日线均历史条件语境，突破且站稳联合；不以均线保无风险、成本强词证实盘或以后K认证预测/机构",
+    "特定首次日线回零一定买回强语未作通用充分点且不挂指数图；两点都背驰仍是读者，作者只让看1分MACD未指定差异公式，大级耗尽问获30分/5日建议而非定义",
+    "盘背一定跌破保留作者原字，破位非都盘背及a`+B原式并存；目标/方向/级别未重述列歧义，未扩成必破任意中枢下沿或删41转向/幅度边界",
+    "历史密集区概念可查，600649周线/多数被套换手为作者解释未核持仓账本；清华背景强安心非免风险，基础图足够有明白走势前提，反问不证全部付费工具无用",
+    "6跨日及18空格来源日期规范，前4/4段不改；5命题7关联4图逐项核验、3后加1原发未核，全64段台账、全书尚未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "历史密集区"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "历史密集区",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "市场心理",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-309c7644f38aed7d"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 310
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "level2",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 7,
+    "unique_figures": 4
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型范围检查与模块一致性，非独立语义复核或Windows真实离线/PDF交互。",
+    "未补完归零买点/跌破/能量耗尽算法，不认证心理疗效、历史持仓成本或后行情预测。"
+  ]
+}

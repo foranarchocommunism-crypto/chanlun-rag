@@ -1,0 +1,56 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-b08098763c8b",
+  "lessons": [
+    35
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册35课同模型四轮复核",
+  "passages_read": 56,
+  "claims": 42,
+  "evidence": 46,
+  "importance_counts": {
+    "1": 29,
+    "2": 8,
+    "3": 5
+  },
+  "new_concepts": [
+    "交易误差",
+    "缠中说禅买卖点级别定理",
+    "走势类型连接"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "figure_objects_viewed": 3,
+  "figure_origin_counts": {
+    "later_annotation": 2,
+    "unverified": 1
+  },
+  "pending": [
+    "upper-l035-c-stage-pending-strict-base-recursion-versus-minute-model",
+    "upper-l035-c-stage-pending-single-type-connections-regrouping-and-associative-scope",
+    "upper-l035-c-stage-pending-buy-sell-level-theorem-below-not-all-levels",
+    "upper-l035-c-stage-pending-operation-level-cost-regime-and-zero-risk-claim",
+    "upper-l035-c-stage-pending-third-buy-followed-by-expansion-dated-center-range",
+    "upper-l035-c-stage-pending-gap-treatment-running-type-and-reader-endorsement",
+    "upper-l035-c-stage-pending-self-review-opinions-not-universal-causation",
+    "upper-l035-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "d42802c2bc8fbdb84c004e7254fdbb5d0223ec8c8d753b722d513e915a95e75e",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "35课56段7页3图及前后课边界同模型四轮；6解盘来源日期补齐，严格递归/分钟模本、单类型/连接、结合非交换、次级别以下定理和三买后扩展范围分开，待预检。"
+}

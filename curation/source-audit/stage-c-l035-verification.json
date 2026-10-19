@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-bee490a04fe7",
+  "schema_version": "1.1.0",
+  "checks": [
+    "42新增；严格每笔成交三同价非后期笔或三K，连续三类型共同区间递归；分钟15或30为便利模本，最低依次位置及终结不偷换价格一跳",
+    "单类型延续与多类型连接分开，混合小级别可重组直接次级，结合不等交换；a+B+b整体类型非裸中枢，三种分类不等恰三段，四背驰限例境",
+    "历史T+1/除非T+0不当现行全市场规则或盈利充分条件；成本/误差相对波幅、整仓本级与低级部分操作分开，零净现金成本不证明无经济风险",
+    "大点必属次级以下某小点非必直接次级，逆命题不成立；端点完成矛盾为作者例证纲要，最规范全级同步非普遍必要要求，粗糙定理保留",
+    "三买后可新30或日线，2871事后明确与34当时未认可读者价点分时保留；2911附近非在上、2892至2911为具体范围；除权缺口和向上奔走有范围，自责为训练非因果定律",
+    "6解盘来源日期分3/9和3/12而正文/读者不改；8命题9配图关联逐项确认，3图2后加1原发未核；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "连续三笔相同价位"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅买卖点级别定理",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "走势类型连接",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-3727d5cf04996b21"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 265
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第二个30分钟中枢",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 8,
+    "associations": 9,
+    "unique_figures": 3
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未补完作者定理的形式证明，未验证历史实盘收益/当前交易制度或后图原博客身份。"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-0cc5c3d74a49",
+  "schema_version": "1.1.0",
+  "checks": [
+    "40新增；固定规则内唯一为作者未全证主张，本级不延伸可盘整+盘整、以下允许延伸禁该连接、以上只视角不考虑，六次级类型非六K",
+    "30分程序全支：下背起、首上出、二下不破/破低比此前下段或等新下背、三上高低与盘背、循环和反向；等高/成交细节不捏造，先卖后买非裸空授权",
+    "回中枢仍震荡不算有效回抽，首有效不回三买后再不回非同中心重复三买；内部两次次次级完成一次次级，延伸终结语境不套本级不定义延伸模式",
+    "盘整C不必新高与37趋势末c新极值分对象；MACD5分较清楚仍A/C及C内两层、刚上轴问未单答，读者旧引文非新答；日背可能非已确认",
+    "利润线性/永远不败为未核作者主张；区间套退出按容量分批非统一跌幅，首二卖纪律依级别；沪深背离非MACD背驰，读者大单故事未背书",
+    "3段改3/22且前段尾头原字符留存；3/20同文答复保留重复台账不重抽，10命题10配图逐项确认，4图全部后加；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "第一次有效回抽不到中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "同级别分解",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "同级别分解",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-7b146f1409d72b34"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 285
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "黄白线刚上0轴",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 10,
+    "associations": 10,
+    "unique_figures": 4
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未证明分解唯一或利润线性，未补全等高/成交算法，未回答原作者未答的0轴与全部边界。"
+  ]
+}

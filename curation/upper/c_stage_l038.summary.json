@@ -1,0 +1,55 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-235d99167d48",
+  "lessons": [
+    38
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册38课同模型四轮复核",
+  "passages_read": 75,
+  "claims": 40,
+  "evidence": 43,
+  "importance_counts": {
+    "2": 5,
+    "1": 26,
+    "3": 7,
+    "4": 2
+  },
+  "new_concepts": [
+    "同级别分解"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287
+  ],
+  "figure_objects_viewed": 4,
+  "figure_origin_counts": {
+    "later_annotation": 4
+  },
+  "pending": [
+    "upper-l038-c-stage-pending-same-level-unique-rule-not-global-unique-or-formal-proof",
+    "upper-l038-c-stage-pending-own-consolidation-plus-consolidation-and-six-sublevel-types",
+    "upper-l038-c-stage-pending-mechanical-branches-completion-equality-execution-and-profit",
+    "upper-l038-c-stage-pending-third-first-effective-retest-subsub-completion",
+    "upper-l038-c-stage-pending-consolidation-capital-c-versus-trend-c-and-unanswered-zero-axis",
+    "upper-l038-c-stage-pending-exit-internal-divergence-capacity-and-signal-vs-fall-threshold",
+    "upper-l038-c-stage-pending-historical-profit-self-report-and-futures-motives",
+    "upper-l038-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "98e2563f9b6e2d301048b40f40e8072aa15ffb996d8adc9d467fd3949ca739bf",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "38课75段8页4图及前后课边界同模型四轮；3跨日日期修正，同级别规则/机械流程、三买首有效回抽和盘整C范围分层，重复3/20答保留不重抽，待预检。"
+}

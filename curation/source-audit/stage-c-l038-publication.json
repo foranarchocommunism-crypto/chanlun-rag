@@ -1,0 +1,98 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-235d99167d48",
+  "graph_version": "0.1.0-review-0cc5c3d74a49",
+  "scope": "第38课75段，PDF280至287共8页4图；3跨日来源日期、同级别混合分解规则与机械流程、三买首有效回抽和次次级完成范围",
+  "new_claims": 40,
+  "new_evidence": 43,
+  "relation_supports_added": 13,
+  "reviewed_before": 2482,
+  "reviewed_after": 2522,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 275,
+    "claims": 5161,
+    "evidence": 6180,
+    "relations": 433,
+    "reviews": 2592
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l038.reviewed.jsonl": "a63b2c9e4c855b5912e727f92984ad9715333660f2360a8ae59531ed43729be7"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261019T055426643607Z-curation-l038",
+  "reviewer": "Codex 主代理 / 阶段C上册38课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l038-c-stage-pending-same-level-unique-rule-not-global-unique-or-formal-proof",
+    "upper-l038-c-stage-pending-own-consolidation-plus-consolidation-and-six-sublevel-types",
+    "upper-l038-c-stage-pending-mechanical-branches-completion-equality-execution-and-profit",
+    "upper-l038-c-stage-pending-third-first-effective-retest-subsub-completion",
+    "upper-l038-c-stage-pending-consolidation-capital-c-versus-trend-c-and-unanswered-zero-axis",
+    "upper-l038-c-stage-pending-exit-internal-divergence-capacity-and-signal-vs-fall-threshold",
+    "upper-l038-c-stage-pending-historical-profit-self-report-and-futures-motives",
+    "upper-l038-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_structure_changes": "stage-c-l038-source-applied.json",
+  "checks_run": [
+    "40条JSON Schema及引用/身份/映射/坐标预检",
+    "75段原文哈希及全段台账一致，实际PDF280至287共8页4完整图及后课边界视觉核对",
+    "原2482命题3498已复核证据未改，9647段528图逐行比较仅3跨日来源日期与4图来源备注授权变更",
+    "33项当前工作区Node测试通过（原有27项及另行验收的检索评测6项）",
+    "2522条已复核命题全量引用校验0错误",
+    "6组来源/条件边界及7组CLI/公共/桌面模块一致，10命题10配图关联逐项确认，只读哈希不变",
+    "240/240冻结开发取证计划和已标注来源身份回归通过，无新题替换",
+    "2522命题/275概念/433关系JSONL及Markdown/coverage同版本导出",
+    "7条旧待核补充关联，原问题全部保持开放"
+  ],
+  "checks_not_run": [
+    "240题完整类别/自然问题基线/生成回答评分/消融对抗验收未完成；开发取证计划通过不能代替",
+    "39至61共23课完整语义及全书跨课/图文审查未完成",
+    "独立Agent打包后运行及Windows真实离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "38课40条43证据、3日期与4图来源已发布；2522引用/240冻结开发题回归通过；8待核及全书/产品目标未完成。",
+  "next_action": "接续上册39课，实际PDF287页标题；完整阅读同级别分解再研究、机械节奏/递归及解盘答疑，核对类型完成、相等边界和原图。",
+  "updated_at": "2026-10-19T06:26:06.429477+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2522,
+      "graph_version": "0.1.0-review-0cc5c3d74a49",
+      "sha256": "6e2dce3a2b72ab98498f09388fb0714d52bffa49192e59d71e09d7c58d6271d0"
+    },
+    "concepts": {
+      "rows": 275,
+      "graph_version": "0.1.0-review-0cc5c3d74a49",
+      "sha256": "b59dc6f2372a8a0ee14d79df9abd4881cfa54accb0154ce6b555cf52b4bbe1ff"
+    },
+    "relations": {
+      "rows": 433,
+      "graph_version": "0.1.0-review-0cc5c3d74a49",
+      "sha256": "6a6ccbb57f9f5d3d93fe023cdcb0e97b0b967695a60468530fa4d8fc45d5b55b"
+    }
+  },
+  "final_sha256": {
+    "database": "47ac1331c981c442ba7d469f3de3ca57c17b468e72ddb5598ff424b62e3aa3bd",
+    "manifest": "0d4ecdf9230d6398d7ed0f82864b61fba0025d5c22f098812afd7e9f6da3099b"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "冻结开发取证计划及本批边界检查通过，不证明完整G、独立金标准或实际桌面交互通过。"
+  },
+  "partial_pending_followups": 7,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

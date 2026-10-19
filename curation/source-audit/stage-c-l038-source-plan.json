@@ -1,0 +1,130 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-fb1a6407424c",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0282-b006",
+      "before": {
+        "published_at": "2007-03-21 15:24:07"
+      },
+      "after": {
+        "published_at": "2007-03-22 15:29:02"
+      },
+      "reason": "实际PDF282段尾出现3/22 15:29:02头，支配后段周四尾盘、三日收高和0124/0227压力线及终止符；前3/21段和尾头字符不改。",
+      "text_sha256": "9dab26f60d87a2c72409c0b135c83a37fa455aa3756dca80ca2a71305c98c97a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0283-b000",
+      "before": {
+        "published_at": "2007-03-21 15:24:07"
+      },
+      "after": {
+        "published_at": "2007-03-22 15:29:02"
+      },
+      "reason": "实际PDF282段尾出现3/22 15:29:02头，支配后段周四尾盘、三日收高和0124/0227压力线及终止符；前3/21段和尾头字符不改。",
+      "text_sha256": "45bfaa969be00bcf7fea6ce5c6e3d3bbe32d936007400ef4c923b82f87c5311b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0283-b001",
+      "before": {
+        "published_at": "2007-03-21 15:24:07"
+      },
+      "after": {
+        "published_at": "2007-03-22 15:29:02"
+      },
+      "reason": "实际PDF282段尾出现3/22 15:29:02头，支配后段周四尾盘、三日收高和0124/0227压力线及终止符；前3/21段和尾头字符不改。",
+      "text_sha256": "0290334c450f60776a12c3bbc8484f06db65534ba68abde1e73f61b512775839",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0281-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际蓝字折线操作示意图署风清月明、09.10.15，晚于2007/3/21正文；仅作后加说明，不将简图缺少完成/级别约束当作者原定理或作者原配图。"
+      },
+      "reason": "逐一实际查看PDF280至287八页和本课四张完整图，核署名日期、选择栏与主图右端、混合文字发言者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0283-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际30分图头3/22而右端3/23，嵌3/22 15:29评论；0124/0227压力线和右侧后行情不证明原未来三日突破已经确定。"
+      },
+      "reason": "逐一实际查看PDF280至287八页和本课四张完整图，核署名日期、选择栏与主图右端、混合文字发言者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0284-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际日线选择栏为3/21，但右端在所选3/21后尚有上涨K线，主图至4月附近且标3326.92；晚于3/21答复，后图不抹日背驰可能或再延伸日中枢的条件。"
+      },
+      "reason": "逐一实际查看PDF280至287八页和本课四张完整图，核署名日期、选择栏与主图右端、混合文字发言者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0286-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际5分图头与右端3/26，嵌3/22 15:42作者答和读者提问；未来K晚于问答，沪深背离与盘背为当日作者判读，不据后图认证预测或混读者身份。"
+      },
+      "reason": "逐一实际查看PDF280至287八页和本课四张完整图，核署名日期、选择栏与主图右端、混合文字发言者。"
+    }
+  ],
+  "visual_pages": [
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287
+  ],
+  "pending": [
+    "同级别本级盘整+盘整和低级不允许分层；三买首有效回抽与次次级两次回抽区别，所有图后加，机械流程相等边界未擅补。"
+  ],
+  "reviewer": "Codex 主代理 / 第38课跨日解盘和原图来源复核"
+}

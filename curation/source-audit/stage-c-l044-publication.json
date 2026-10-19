@@ -1,0 +1,96 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-2f6edfc55eed",
+  "graph_version": "0.1.0-review-1cb86d91f463",
+  "scope": "第44课47段，PDF316至320五页两习作图；15日期与2图来源、小转大必要非充分、嵌套回试高点和容量分层、读者指标参数边界",
+  "new_claims": 33,
+  "new_evidence": 35,
+  "relation_supports_added": 10,
+  "reviewed_before": 2675,
+  "reviewed_after": 2708,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 281,
+    "claims": 5347,
+    "evidence": 6400,
+    "relations": 489,
+    "reviews": 2778
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l044.reviewed.jsonl": "e838af513f791a0b954ac4d92dbd20ebfaaf36edef11dffa6a6441acd1d81b3e"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261019T151413790871Z-curation-l044",
+  "reviewer": "Codex 主代理 / 阶段C上册44课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l044-c-stage-pending-small-large-theorem-necessary-only-and-generalized-examples",
+    "upper-l044-c-stage-pending-nested-retest-type-high-boundary-equality-and-full-position",
+    "upper-l044-c-stage-pending-capacity-layered-exit-rebuy-and-bottom-mirror-completeness",
+    "upper-l044-c-stage-pending-MACD-reader-parameters-skill-switch-and-result-vs-process",
+    "upper-l044-c-stage-pending-historical-switch-stability-policy-only-and-twenty-year-risk-claims",
+    "upper-l044-c-stage-pending-date-tail-and-student-drawings-not-author-GG-definition"
+  ],
+  "source_structure_changes": "stage-c-l044-source-applied.json",
+  "checks_run": [
+    "33条Schema/引用/身份/坐标预检，47段台账、5页及两幅完整习作图视觉核对",
+    "原2675命题3726已复核证据未改；2文907页9647段528图逐行比对只15来源日期和2图备注授权变更",
+    "33项Node工程测试全部通过，串行运行",
+    "2708命题全量引用校验0错误",
+    "6组语义/身份/范围边界、7组CLI/公共/桌面模块一致且只读哈希不变；4命题6配图关联逐项确认",
+    "两图署张大山习作，后加学习者图不变作者原图；GG/蓝线不代正文嵌套5分回试类型高点",
+    "240冻结开发取证计划及已标注身份回归通过，无新题替换",
+    "2708命题/281概念/489关系及Markdown/coverage同版本导出",
+    "7条旧待核补充，原问题全部保持开放"
+  ],
+  "checks_not_run": [
+    "240题完整类别/自然问题基线/生成回答评分/消融对抗未完成，开发取证计划不替代完整G",
+    "45至61共17课完整语义及全书跨课/图文审查未完成，43课316混合夹注段身份细分仍待核",
+    "独立Agent打包后运行及Windows实际离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "44课33命题35证据发布；2708引用及240冻结开发题回归通过，6待核开放，全书及产品目标未完成。",
+  "next_action": "接续45课持股与持币，两种最基本的操作，实际PDF320页标题，完整审读等待/买卖点、持有与持币的级别条件及附带答疑。",
+  "updated_at": "2026-10-19T16:51:32.780254+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2708,
+      "graph_version": "0.1.0-review-1cb86d91f463",
+      "sha256": "2323ac2b0c2fcee5a7fcc2c370f97602c78a58c6459efbe65e98bda102669b53"
+    },
+    "concepts": {
+      "rows": 281,
+      "graph_version": "0.1.0-review-1cb86d91f463",
+      "sha256": "e67b4b60c4cbaf60e84d391db63a0996c734c49ee836726fbd937520a1b11ccb"
+    },
+    "relations": {
+      "rows": 489,
+      "graph_version": "0.1.0-review-1cb86d91f463",
+      "sha256": "d062c8cd78aa2dd202f715f95798c7369562030b00b6070e8d08f61174bfdb50"
+    }
+  },
+  "final_sha256": {
+    "database": "125cc0c8eb5728dc17f73f6edf5d132efdb8af9210f8d347620f2c3245883c8c",
+    "manifest": "14cf517099b48f7fd97e640a36b185d33b0dd5b35fc8d03c95419001f8482c0f"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_and_source_identity_passed_on_current_graph": 240,
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "同模型开发取证计划/身份回归，非独立金标准、回答质量或实际桌面验收。"
+  },
+  "partial_pending_followups": 7,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

@@ -1,0 +1,89 @@
+{
+  "graph_version": "0.1.0-review-af327b82af12",
+  "schema_version": "1.1.0",
+  "checks": [
+    "37新增；5000人×2000股为1000万股是假设流量非荐股准确率或1000万元，会员/私募演化与收费批评非普遍法律分类，16股表/999洗盘/416涨幅不冒实绩，按级别买点不追对象",
+    "B三买后才结束/否则盘背震荡，不认可整套A/B或只MACD；C2所涉完整走势类型与读者两个中枢不混，未推广任何不新高均未完成，4000中枢后三买仍可三卖失败，午前公式/固定14点未背书",
+    "1429历史线五个原公式算术一致但历史近似不作数值相等或样本外证明，图1249不修1429；360角到年点速率是作者模型非因果必然，至少3月/7月强时间与最终破线只是历史主张、无伪造概率",
+    "日内强中弱与中期压力线三模式不混，扩张/扩展原词分开；原震荡三卖停止回补等够级底背，周缺口非周背驰，4040站稳只案例不替一般扩展定义，最终大级别形式仍形成、长期多也有季线卖点退出",
+    "四段5/10日期/12空格规范，前5/9不污染；129段全台账，5/17CCTV600832两段比较与其他读者保持身份无作者证据，政治/私德/收益强语未升实证",
+    "8命题8关联3作者语境图逐项核，四整图含未来K皆后加；第4图是CCTV读者且无reviewed作者图证，1249/后6124与1429模型分开，模块检查不冒实际Windows验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "短线荐股"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "1429点历史压力线",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "短线荐股",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-a451d2d63a538058"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 381
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "5160955",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 8,
+    "associations": 8,
+    "unique_figures": 3,
+    "reader_context_figures_not_author_evidence": 1
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同一模型来源/语义边界与模块一致性，非独立语义/回答质量或真实Windows运行。",
+    "荐股流量是作者假设，压力线/360/三个月及收益强语未外部实证，原图1249与正文1429不解决，完成与扩展具体案例全几何未证。",
+    "冻结重合前20召回回归仍开放，未改核心排序/金标准规避。"
+  ]
+}

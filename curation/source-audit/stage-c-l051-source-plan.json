@@ -1,0 +1,334 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-8edb32d94216",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0373-b004",
+      "before": {
+        "published_at": "2007-05-09 15:25:06"
+      },
+      "after": {
+        "published_at": "2007-05-10 15:36:28"
+      },
+      "reason": "原PDF373独立5/10 15:36:28时间起的解盘续至374前三段，不继续归5/9；只改时间元数据。",
+      "text_sha256": "92325ea92b36b0d0264b77def3e9dbb2919a47db5b6b372ce228d549e7f88ba7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b000",
+      "before": {
+        "published_at": "2007-05-09 15:25:06"
+      },
+      "after": {
+        "published_at": "2007-05-10 15:36:28"
+      },
+      "reason": "原PDF373独立5/10 15:36:28时间起的解盘续至374前三段，不继续归5/9；只改时间元数据。",
+      "text_sha256": "9f6abfc0b51342afd929cbee0ac09f2b24de5c142f3b941e85b3eae45a37d016",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b001",
+      "before": {
+        "published_at": "2007-05-09 15:25:06"
+      },
+      "after": {
+        "published_at": "2007-05-10 15:36:28"
+      },
+      "reason": "原PDF373独立5/10 15:36:28时间起的解盘续至374前三段，不继续归5/9；只改时间元数据。",
+      "text_sha256": "6c35304066dcfe29b4270a561fd87569469279aa44f463fd3359637c31917f31",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b002",
+      "before": {
+        "published_at": "2007-05-09 15:25:06"
+      },
+      "after": {
+        "published_at": "2007-05-10 15:36:28"
+      },
+      "reason": "原PDF373独立5/10 15:36:28时间起的解盘续至374前三段，不继续归5/9；只改时间元数据。",
+      "text_sha256": "3abc1912d83b2aadf3b2282600a2a961c0582924b76b95d12b3b87ed434682e3",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b005-s01",
+      "before": {
+        "published_at": "2007-05-0915:40:44"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:40:44"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "6e1aa29d4a0a0f1fdb33ce056d1ce9088d284adb0f7c52bffba1ac78fbdcaee6",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b006",
+      "before": {
+        "published_at": "2007-05-0915:40:44"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:40:44"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "3840e064c67cb40aaf8b6a4f38c095aae082832de71e7cea65ebd842355c1426",
+      "affected_references": [
+        {
+          "id": "evidence-0dbd385e60abebc2",
+          "claim_id": "candidate-d706353dea8d16b3",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b008-s01",
+      "before": {
+        "published_at": "2007-05-0915:43:38"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:43:38"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "14f69809ba34c7266a17602bbf4dfd50364ced4e8dd81ae74bcd7139a71505c9",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b009",
+      "before": {
+        "published_at": "2007-05-0915:43:38"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:43:38"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "7e97f776f12a12c0aa124485e7f33f148fb77248a618c62f970ddc4b2c2adecc",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b011-s01",
+      "before": {
+        "published_at": "2007-05-0915:58:13"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:58:13"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "aadfc4ca008be1d67b6f19c3db6f55aef7973785d44b6433930b3d9c7cbd2383",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0374-b012",
+      "before": {
+        "published_at": "2007-05-0915:58:13"
+      },
+      "after": {
+        "published_at": "2007-05-09 15:58:13"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "49392e63ca2ac34a3bd54d90dc8bfc2031e08f0d93be300dfa1dbe55129d49b1",
+      "affected_references": [
+        {
+          "id": "evidence-4d3e40b436ca0d1c",
+          "claim_id": "candidate-16d121085acf91a4",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b001-s01",
+      "before": {
+        "published_at": "2007-05-0916:28:32"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:28:32"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "afd702aa92928d869d24482cd673096671f35355dac97fe6f770c6ef173ee2eb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b002",
+      "before": {
+        "published_at": "2007-05-0916:28:32"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:28:32"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "62aac1a0bc5340ccd3d5983996f62452ef86a51d4c08bc21600b9baa1984d368",
+      "affected_references": [
+        {
+          "id": "evidence-d388c028e7e5159e",
+          "claim_id": "candidate-5858f34f76ee0785",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b004-s01",
+      "before": {
+        "published_at": "2007-05-0916:52:34"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:52:34"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "1efe9b76f88a3a12f485a8cb9a95aedd26c0a042767b3a7c02beba49d0f03056",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b005",
+      "before": {
+        "published_at": "2007-05-0916:52:34"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:52:34"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "9fda10920d2e6264a38cb35864575793d6042c52a5c376e419b705490f68435f",
+      "affected_references": [
+        {
+          "id": "evidence-fbb279ad12e2d871",
+          "claim_id": "candidate-791ac9ae3fc3b745",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b008-s01",
+      "before": {
+        "published_at": "2007-05-0916:34:58"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:34:58"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "5d72877c67293d0e64d9a6bc2e0407010bd586ec040084b107c87aecc801c203",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0375-b009",
+      "before": {
+        "published_at": "2007-05-0916:34:58"
+      },
+      "after": {
+        "published_at": "2007-05-09 16:34:58"
+      },
+      "reason": "作者署名与承接段核，仅补日期时刻空格，不改数字、原字、身份或坐标。",
+      "text_sha256": "5fc0e76bcad43d74bfc3c867e8a646a794f6f5d2a8aa4bc15de94cdbce57a3fe",
+      "affected_references": [
+        {
+          "id": "evidence-68b0c83e8c4dd00e",
+          "claim_id": "candidate-cf9cbda125ccea23",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0373-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证5分图头和右端5/11，混引5/9 15:25:06与5/10 15:36:28收评；晚于两段文字，不以未来K证4000三买或震荡预测，图中文字来源按各自日期分开。"
+      },
+      "reason": "实际查看371至382十二页及四整图，对图头/右端未来K、原文日期、1249/1429异字和读者身份逐项核对。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0376-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证月线选框为2007/05/31已晚于5/10正文，右端更有后续月K与6124标；首峰图标1249与正文1429不一致，原字分别留，不以此后图证明线性压力线、360度比例或提前预测。"
+      },
+      "reason": "实际查看371至382十二页及四整图，对图头/右端未来K、原文日期、1249/1429异字和读者身份逐项核对。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0380-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证5分混引5/14、5/15、5/16解盘，头选5/16但右端已有5/17K；相对三段均为后加，4040/10:46与5/16 10:17是各日案例不混时点，原发制作者未核。"
+      },
+      "reason": "实际查看371至382十二页及四整图，对图头/右端未来K、原文日期、1249/1429异字和读者身份逐项核对。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0381-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "东方明珠600832 5分图右端有5/18行情，嵌5/17新浪网友向CCTV提问及CCTV回答；均是读者非作者答复，即使画线不能证明作者认可1分背驰，不关联为新作者命题。"
+      },
+      "reason": "实际查看371至382十二页及四整图，对图头/右端未来K、原文日期、1249/1429异字和读者身份逐项核对。"
+    }
+  ],
+  "visual_pages": [
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382
+  ],
+  "pending": [
+    "压力线360比例是作者历史模型未外部验证，原1429和后图1249分别留；三个月/7月与三条分支不是实证预测。",
+    "四图后加，600832图为CCTV读者分析不可当作者背书；B和回试类型完成条件不只MACD。"
+  ],
+  "reviewer": "Codex 主代理 / 51课荐股假设模型、压力线历史口径、三买完成与跨日/读者图源复核"
+}

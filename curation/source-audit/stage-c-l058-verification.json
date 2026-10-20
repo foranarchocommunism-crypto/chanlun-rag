@@ -1,0 +1,80 @@
+{
+  "graph_version": "0.1.0-review-60afc026a0f3",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "14—15内部箭头五折非独立段而全段仍一段，原三折/缺口例外与后62/67精确说法分层；大力度无1分以上背驰与内最小面积/附近反抽分开。",
+    "15—16的1分三卖依据最近10—13和次级离返，点7另一范围不偷换；从16只是可能且加速可破坏，内部区间套确认后才条件回15。",
+    "旧5分4015与4000概略强语分开；新5分未成且最终不重合才条件下跌，7点好转仍需5分背驰反弹，6/7大枢形成中不冒完成。",
+    "25段身份/日期逐列核，误reader的5段作者解盘修复；6/6、6/7、6/8、6/13头尾时序/跨页承接正确，真实读者房价/5000传言/10:20操作不入作者证据。",
+    "图周期/精度与客观走势级别不同，费用/技能限制微小盘背操作；中线/PE策略不泛化定义，星号5%与房价/政策/可成交强语只保历史观点和读者身份。",
+    "72段台账与16命题16图文关联4图核对，2未核2后加；原24/52/9与12/26/9、图5分钟与正文走势、3404.25/3404及4016.30/4015分别保，后K不证前日预测。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "图的级别"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "私人股权投资",
+        "limit": 10
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "周期K线图",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-3da4effaa9974f1a"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 438
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "3858的技术意义在今天",
+        "scope": "source",
+        "limit": 5
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 16,
+    "associations": 16,
+    "unique_figures": 4
+  },
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同一代理的来源/条件/图文复核及现有CLI读取一致检查，不是独立或人类金标准。",
+    "58早期线段与后精确定义、4000预测强语和实际成交仍待核；43/57混合备注来源拆分、54长编号上下文及全书最终交付审计未完成。",
+    "不构建或验收软件产品；冻结检索回归与生成回答评价边界如实保留。"
+  ]
+}

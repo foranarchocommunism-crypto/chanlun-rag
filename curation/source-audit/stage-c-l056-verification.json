@@ -1,0 +1,88 @@
+{
+  "graph_version": "0.1.0-review-f3668c6fc5ca",
+  "schema_version": "1.1.0",
+  "checks": [
+    "28新增；9点48与55原09:47分开，指数二卖不等弱股二卖；5/29进入段未确认不回看造一卖可成交，突发低开后改二三卖仍非每账户执行证明；标题5/30与昨天530张力不修",
+    "统一最低观察下缺口/细层线段化非原始细级严格相等，B视觉三枢未完成/A二卖形成中不等已完成；一图标准统一，换视角声明范围，几十K为可统计估计而非所有走势最短时长定理",
+    "A跨色绝对大小/B含前三绿的面积/C柱高三量不混，不大过保原量词不补严格小于；1分以下与1分零轴辅助范围不同，外B盘背不强制内末段同级背，回第一箭头不等必回最后内反弹起点",
+    "T+0原字不修T+1，期指100点是如果场景非当年产品制度/实赚证明；1分4087-4122与原扩张5分4015-4122各保，C新分解首段不等读者4027-4077获认可，10:02是案例定位非买入成交保证",
+    "节奏差不追涨换股、轮动准点只是技术目标，读者短差/S-ST账户/另一枢界/最低时间问题没冒作者事实；S-ST比例是历史粗略比较非当前规则，1/2线影响期与月线确认期不同，预测/盈利强语不实证",
+    "16命题16关联4图逐项核，2未核2后加；原样24/52/9与重绘12/26/9、后日线头2011/轴2007/9不混，后K不证前日预测/数值；14时间空格4图元数据授权变化、48段全台账不等全书或Windows验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "不大过"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "最低级别",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "跌停",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-244f9c003b42c07c"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 423
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "但由于T+0",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 16,
+    "associations": 16,
+    "unique_figures": 4
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型语义边界/来源和模块一致检查，不是独立或人类金标准/真实Windows交付运行。",
+    "T+0/不大过/标题昨天/09:47-9点48原字、MACD参数/比较量及小转大/实时完成/执行保证范围仍待核。",
+    "后图非当时预测证明；跨页编号context未修，冻结召回回归/完整G及产品交付未完成。"
+  ]
+}

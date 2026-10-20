@@ -1,0 +1,88 @@
+{
+  "graph_version": "0.1.0-review-8edb32d94216",
+  "schema_version": "1.1.0",
+  "checks": [
+    "31新增；MACD先中枢走势选段再周期辅助，常对应非必同周期，线性为作者说明未冒跨采样无损等值；30图更清楚不把小级信号升级30分",
+    "先静态再动态模拟记录复盘再实操，足够把握未伪造数值门槛；逻辑反盲信与几何保证收益的作者强语分开，未以亏损全归人或已证明理论代替证据",
+    "特别长回拉可因制度/规则改变前提而不完全回拉，前提未变作者仍断言一定，未软成可能也未认证全市场保证；日线读者问题/年线例区分，全前提与时限未补",
+    "5日三天为通常不精确延迟法非最低/最高/收盘完整定义，和47缺口三天不同对象；100万以下超5只仅一般能力建议，997未认可具体卖点，部分练不背书天天满仓等整套读者计划",
+    "新5分枢将成与已完成分开，完整1分先下后上/背驰或不新高不可改AND；盘口细节只预告，28时间只空格，105段含两篇非技术附文，CCTV九段不冒作者证明，999盈利/基金指控被引文边界排除",
+    "5命题5关联2整图逐项核，4/30与5/9后K不认证早前文字或预测；原3720/3761不按图小数改，模块一致性不冒实际Windows或全书完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "理论成立前提"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "模拟操作",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "理论成立前提",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-3968ccd315b4a1ed"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 369
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "3天拉不回来",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 5,
+    "unique_figures": 2
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界/来源与模块一致检查，不代独立语义/回答质量或Windows实际运行。",
+    "理论全前提/回拉期限及保证未独立证明，MACD跨采样公式/均线三天完整判定与实时执行细节未补。",
+    "冻结重合前20召回回归未通过修改金标准/核心排序规避。"
+  ]
+}

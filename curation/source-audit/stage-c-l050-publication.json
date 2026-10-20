@@ -1,0 +1,120 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-bc0d8a6619c4",
+  "graph_version": "0.1.0-review-8edb32d94216",
+  "scope": "第50课105段，PDF362至371十页两图；28日期空格规范、2后图，MACD先结构选段再周期辅助、理论前提/长回拉与均线三天不精确、模拟节奏和新枢形成边界",
+  "new_claims": 31,
+  "new_evidence": 36,
+  "relation_supports_added": 12,
+  "reviewed_before": 2899,
+  "reviewed_after": 2930,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 297,
+    "claims": 5569,
+    "evidence": 6674,
+    "relations": 558,
+    "reviews": 3000
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l050.reviewed.jsonl": "f197474c516442e237ebfe0030efe16a31a90452153963847b43e2656852412a"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261020T021209398193Z-curation-l050",
+  "reviewer": "Codex 主代理 / 阶段C上册50课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l050-c-stage-pending-MACD-period-linearity-sensitivity-and-missing-formula",
+    "upper-l050-c-stage-pending-logic-confidence-geometric-guarantee-and-practice-criteria",
+    "upper-l050-c-stage-pending-historical-centers-later-charts-and-reader-nine-segments",
+    "upper-l050-c-stage-pending-very-long-pullback-premise-change-certain-return-and-full-list",
+    "upper-l050-c-stage-pending-five-day-usual-three-day-not-exact-low-high-close",
+    "upper-l050-c-stage-pending-rhythm-partial-practice-concentration-no-reader-plan-endorsement",
+    "upper-l050-c-stage-pending-new-five-center-first-one-down-up-confirmation-execution",
+    "upper-l050-c-stage-pending-macro-allegations-stock-claims-and-orderbook-not-yet-taught"
+  ],
+  "source_structure_changes": "stage-c-l050-source-applied.json",
+  "checks_run": [
+    "31条Schema/引用/身份/坐标预检，105段台账、10页2整图视觉审查",
+    "原2899命题3999证据未改；2文907页9647段528图逐行只28时间空格和2图来源授权变化",
+    "33项Node工程测试全部通过，串行运行",
+    "2930命题全量引用校验0错误",
+    "6组语义/身份/条件边界与7组CLI/共享/桌面模块一致，5命题5关联2图逐项核，查询只读哈希不变",
+    "240冻结题执行，239取证计划通过/240身份通过；重合前20召回失败保持开放，未改题或核心排序",
+    "2930命题/297概念/558关系及Markdown/coverage同版本导出",
+    "7旧待核补充来源仍开放；本批8待核"
+  ],
+  "checks_not_run": [
+    "冻结前20召回回归未修；完整G类别/自然查询基线/生成回答质量/消融对抗未完成",
+    "51至61共11课未完整语义审读；43混合夹注/全书图文与跨课未全复核",
+    "独立Agent打包真实执行与Windows离线/缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "50课31命题36证据发布；2930引用及33工程通过，冻结240题239计划/240身份通过，1条召回回归开放，语义及产品目标未完成。",
+  "next_action": "接续51课短线股评荐股者的传销把戏，实际PDF371页标题；完整审读短线推荐/资金循环与可识别技术答疑，分开作者模型、读者问题和未验证市场指控。",
+  "updated_at": "2026-10-20T02:25:47.038313+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2930,
+      "graph_version": "0.1.0-review-8edb32d94216",
+      "sha256": "7c747c5dbc4de50957fe3130a3fa729ea89af03fe6bde0f5a321192a508811c0"
+    },
+    "concepts": {
+      "rows": 297,
+      "graph_version": "0.1.0-review-8edb32d94216",
+      "sha256": "a7bbecd71620276bc725db15ca7f843ee58ad110cbd7fa695c8254b025036bcc"
+    },
+    "relations": {
+      "rows": 558,
+      "graph_version": "0.1.0-review-8edb32d94216",
+      "sha256": "79ff4136b3b2c919bfe36f462d7c534417ff12e3d3783f7a6bbc43e112a9d4ad"
+    }
+  },
+  "final_sha256": {
+    "database": "0a35a2230a3068d4a1621ad46491bbbe4677bae05c5f50b18c21fec630c3a0f7",
+    "manifest": "4b9dd606276d03e2b6c2919f9f18eda0d0c8ee455297206cd688444248d3fe4a"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_passed_on_current_graph": 239,
+    "source_identity_passed_on_current_graph": 240,
+    "open_retrieval_regressions": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 28,
+            "truncated": true,
+            "elapsed_ms": 31.113500000000002
+          }
+        ]
+      }
+    ],
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "固定题未改，全部身份通过；一条重合前20召回仍失败，分页找到不算原计划通过。"
+  },
+  "partial_pending_followups": 7,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

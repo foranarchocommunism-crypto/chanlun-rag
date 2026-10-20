@@ -1,0 +1,80 @@
+{
+  "graph_version": "0.1.0-review-dd5aebdeacd1",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "28新增；线段看形态非幅度、相邻必须异向，三折/一字涨停与早期背驰确认不静代后64/67特征序列；图三尾段仍未确认。",
+    "3994.57/3994.21原数、预设统一精度和明显三折倾向保留，未造舍入算法；7—8—9及58图17/59图19各保局部编号，不自动跨图同号实体合并。",
+    "1—19最终只盘整、新19—45未完和另一22—31枢分开；41三买限该分解，新5分最终非重叠才条件上涨趋势，33/37各有相应最近一分枢。",
+    "强支是无三卖或后扩张不触旧枢震荡区间，区间非中枢核心；9段是本例延伸总结构。先卖后买限已有低位筹码，可能三卖阶段即停补、再入仍须买点。",
+    "5段日期按6/15时间头及跨页纠正；6/18宏观文章/收评分时独立。CCTV9元三买和罗锅身份仅reader；6/15两股票组联合条件、6/18一分三卖有效破4224联合不降成触价。",
+    "46段全台账、14命题14图文关联7整图核；4未核3后加，原26/12/9顺序与后6/15/6/19未来K不静修、不证明当时预测；独立宏观观点非现行经济/监管事实。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "3994.57"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "价格精度",
+        "limit": 10
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "市场分力",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-bc5768ced23b66b4"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 446
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "CCTV",
+        "scope": "source",
+        "limit": 3
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 14,
+    "associations": 14,
+    "unique_figures": 7
+  },
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同一代理四轮，不是独立或人类金标准；原博客未逐字核对。",
+    "早期线段/精度/局部编号、强语与区间边界待核；43/57来源夹注、54跨页问题、余60至61及最终知识库交付审计未完成。",
+    "软件构建和产品交付已排除，现有检索回归仍需如实披露。"
+  ]
+}

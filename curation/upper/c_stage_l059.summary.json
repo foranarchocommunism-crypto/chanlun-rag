@@ -1,0 +1,53 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-84f307143cd5",
+  "lessons": [
+    59
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册59课同模型四轮复核",
+  "passages_read": 46,
+  "claims": 28,
+  "evidence": 32,
+  "importance_counts": {
+    "1": 21,
+    "2": 5,
+    "3": 2
+  },
+  "new_concepts": [],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450
+  ],
+  "figure_objects_viewed": 7,
+  "figure_origin_counts": {
+    "unverified": 4,
+    "later_annotation": 3
+  },
+  "pending": [
+    "upper-l059-c-stage-pending-early-segment-end-vs-later-feature-sequence-gap-flat-boundaries",
+    "upper-l059-c-stage-pending-precision3994-local-numbering-and-58-17-vs59-19",
+    "upper-l059-c-stage-pending-alternate-decomposition-unfinished-five-third41-trend-conditional",
+    "upper-l059-c-stage-pending-strong30-expansion-center-oscillation-range-and-nine-sections",
+    "upper-l059-c-stage-pending-sell-before-buy-scope-and-stop-rebuy-before-confirmation",
+    "upper-l059-c-stage-pending-dates-seven-figures-local-ids-MACD26-12-and-future-bars",
+    "upper-l059-c-stage-pending-macro-article-historical-stock-and-4224-joint-conditions"
+  ],
+  "source_passages_snapshot_sha256": "21100b48045efda3a27e50a7c5b9d64c4bbed73a43b3ebcd226b1e9d7a845ac8",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "delivery_scope": "shared_knowledge_base_only",
+  "acceptance": "59课46段8页7整图同模型四轮，5时间头修正和4未核3后加图；精度/局部编号、早期分段、两分解未完成/条件趋势、强弱扩张震荡区间和回补节奏/4224联合条件保，待预检。"
+}

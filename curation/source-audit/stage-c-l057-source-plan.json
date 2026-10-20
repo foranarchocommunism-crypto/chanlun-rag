@@ -1,0 +1,446 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-f3668c6fc5ca",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b001",
+      "before": {
+        "published_at": "2007-06-01 15:47:14"
+      },
+      "after": {
+        "published_at": "2007-06-01 15:47:30"
+      },
+      "reason": "PDF432前段结尾独立2007-06-01 15:47:30新时间头管辖其后两段，前段仍15:47:14；备注原文/身份边界保待核，不改字。",
+      "text_sha256": "d777105fa9387454b18b776edaf5a9844911c4773b271138b328021609555dd0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b002",
+      "before": {
+        "published_at": "2007-06-01 15:47:14"
+      },
+      "after": {
+        "published_at": "2007-06-01 15:47:30"
+      },
+      "reason": "PDF432前段结尾独立2007-06-01 15:47:30新时间头管辖其后两段，前段仍15:47:14；备注原文/身份边界保待核，不改字。",
+      "text_sha256": "f45f26f62392d76f0679bd3956deba4932a58ed13c040118f842eaf926080549",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b005-s01",
+      "before": {
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "published_at": "2007-06-01 16:16:24"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "acb0f828716c40999d7ac21aa84a859fa562a43f0b9f08c11dc973254b818e95",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b006",
+      "before": {
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "published_at": "2007-06-01 16:16:24"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "99b9d082e7d526c645b11e0c82d948837f7ddbc65b91123300fd0c341260b982",
+      "affected_references": [
+        {
+          "id": "evidence-c7d1b4e5dfa0e996",
+          "claim_id": "candidate-6a1891529795c3b6",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b007",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "2c8bb6c8c81d46f74eb70bf8ce5403d893ff8e2524f3c209aba750c1447b4aa7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b008",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "e5dab10c14ef436f4d3f4b6cc2a1260f038c6bc4963833e68023935d17a772e3",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b009",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "18ddb8236d9bce833d62614187f006c870bde9e30a188a9aa258fdecd9786d57",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0432-b010",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "94daf740bba17150327680530f5dd386c89930a48f8807dca7755c4d2cf89b78",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0433-b000",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "f72c482e4d7c617fda81feb07f418277ba312644550d92807f811a184952f6cd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0433-b001",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "03b2ecba86e2f6f636343042e569345a9dcb90915e214429530aaf63b5f93d96",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0433-b002",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "7e808d55a8b2f1d96d9c1d8491457a5d182b005d54768e9913e3ac627902d15c",
+      "affected_references": [
+        {
+          "id": "evidence-cade8a1386667d9a",
+          "claim_id": "candidate-945597c986c021c6",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0433-b003",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "2f68ffdd1ffcbbadbd1f5038a7116633f3f2f40907e79a826c7089c5c4ca1938",
+      "affected_references": [
+        {
+          "id": "evidence-40b2bcf20aa50ca5",
+          "claim_id": "candidate-cb6707ab60df3973",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0433-b004",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "ad1112de99412d7a538cc88c27d70a4cd5171ae42bc4c57f5f5a1e19bdb6afe5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0434-b000",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "4fe12f5349ad6bb898e9ef698c24c70c2724bb6edd0901c6079ab85ef72ec28a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0434-b001",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-06-0116:16:24"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-04"
+      },
+      "reason": "PDF432蓝色独立文章标题明确2007-06-04，直到434论语引文结束；非6/1相邻作者回复，无具体时分不补造。",
+      "text_sha256": "7d4af0107848caf2b2ade0585ddeeded55426175b1b0c4af7c6ee4d619d1c4f2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b005-s01",
+      "before": {
+        "published_at": "2007-06-0416:16:10"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:16:10"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "9f7b0d51c6369805bb52b8e5e657580c407385aa75298593e8fb8fd9840faa73",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b006",
+      "before": {
+        "published_at": "2007-06-0416:16:10"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:16:10"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "990d66546bf14b3a5d6daee54fc37b14c1a73907ec61daf23721a3ce6cc45b3e",
+      "affected_references": [
+        {
+          "id": "evidence-2e173b11f3d260cc",
+          "claim_id": "candidate-3c17ec89afb4292d",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b008-s01",
+      "before": {
+        "published_at": "2007-06-0416:25:36"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:25:36"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "a2abf6eefe253b0e9a04d709de506e8241cd69e731778e04eb7dd2c0fe8d836c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b009",
+      "before": {
+        "published_at": "2007-06-0416:25:36"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:25:36"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "1193461250253cd78a8f65f3c2d0605e7ba37955daf7cd421177e2ee275534fd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b011-s01",
+      "before": {
+        "published_at": "2007-06-0416:32:57"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:32:57"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "29bc8e77a0067841a62553a1ffb7c5ea4c0c461fb19ef69fcf91a9db46fae85a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0435-b012",
+      "before": {
+        "published_at": "2007-06-0416:32:57"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:32:57"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "0eccdb552e39904519a470d45c6a87a5523368be05e1d560f0d61e02a5f01130",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0436-b001-s01",
+      "before": {
+        "published_at": "2007-06-0416:34:16"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:34:16"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "5f455979a74164b98b82e61b5de7a464dbb75707f51d576776bc870693ecaf28",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0436-b002",
+      "before": {
+        "published_at": "2007-06-0416:34:16"
+      },
+      "after": {
+        "published_at": "2007-06-04 16:34:16"
+      },
+      "reason": "核原作者署名与承接，只补日期时刻空格，不改变原日和原文几何。",
+      "text_sha256": "91e2c4f541b70c3d3192c66c5be84db3a06297017b5124149f92a8ce327a37e5",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0428-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证原样1分图含5/30与5/31全日，0至10标记、01缺口/23和78弱段/89较明显，5/31 22:35正文前可得；原作者/原发未核，MACD12/26/9，视图线段不当后62/72严格特征序列定义。"
+      },
+      "reason": "主代理核427至436十整页与5幅整图/432完整页：3当时可得原发未核、2后加，后K不证前文预测；原旁注/正文差和混合备注不自动作者化。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0429-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分重绘头选5/30，但完整图含5/31的6与7、3858.19低点，正文5/31夜前可得；原制图未核。45/56具精确次级和粗视角全以下可线段分开，MACD面积/时间换空间为本例。"
+      },
+      "reason": "主代理核427至436十整页与5幅整图/432完整页：3当时可得原发未核、2后加，后K不证前文预测；原旁注/正文差和混合备注不自动作者化。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0430-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分重绘含5/31，示34-45-56另一中枢、23/67比较及7一买/9二买，5/31正文前可得；原发未核，另一中枢与旧4087-4122边界不可混，原if7一买的条件不删。"
+      },
+      "reason": "主代理核427至436十整页与5幅整图/432完整页：3当时可得原发未核、2后加，后K不证前文预测；原旁注/正文差和混合备注不自动作者化。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0431-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "日线头选6/1但右端到7月，晚于6/1收评；图示33.3%3739.273/50%3440.034而正文3734/3434，分别保原不据图改数，图不能证当时反弹/支持预测。"
+      },
+      "reason": "主代理核427至436十整页与5幅整图/432完整页：3当时可得原发未核、2后加，后K不证前文预测；原旁注/正文差和混合备注不自动作者化。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0434-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证30分头选6/4但右端至6/13附近，晚于6/4收评；后反弹不能证当时30分MACD拉0为最大压力或3540买入可成交，原制图未核。"
+      },
+      "reason": "主代理核427至436十整页与5幅整图/432完整页：3当时可得原发未核、2后加，后K不证前文预测；原旁注/正文差和混合备注不自动作者化。"
+    }
+  ],
+  "visual_pages": [
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436
+  ],
+  "pending": [
+    "432-b001末备注来源未核，作者引文止备注前，整段仍混合来源；与43夹注同需后续范围拆分，不能当作者月线3K理论。",
+    "11段6/4独立文章改author_commentary/日期仅日，2段按15:47:30；3734/3434与图3739/3440、原5月均线参数及反弹/补仓强语仍待核。"
+  ],
+  "reviewer": "Codex 主代理 / 57课统一视角和精确次级、另一分解、仓位T+1、6/4文章身份/混合备注与五图四轮复核"
+}

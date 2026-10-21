@@ -1,0 +1,48 @@
+{
+  "graph_version": "0.1.0-review-307029129712",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "106至107限预设取整且一路一致，64自选与61截整选择并存；108至109至少三笔和顺向缺口保，突发逆向缺口仍有67精确化待联读记录，不伪造统一例外。",
+    "110至111对104至105、105至110枢与105至107所指不同；110接近非三卖。价格图/指标两套红箭头、突发破坏例外及类中枢/类三卖边界保，奔走型原高低字不静改。",
+    "闲钱/不影响生活、散户不照搬个人干预、瞬间3919非有效、年线须新资金迹象、短线弱技能5周等待与中长线动态建仓各有对象，不能删前提。",
+    "三角/平台/大平台三支含必要条件、最强/一般/极限和最快/至少时限，后验实际走势不倒写前瞻；PEG/50倍/指数不跑输及长期赚钱为作者历史论证，未冒当前事实或保证。",
+    "1原发未核4后加图，原111的3724.19与重绘3724.35不静合；14的7月3日及22的8月行情晚于正文，CCTV回答为读者。两条旧图审未完成描述已更新，原命题/证据保持。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "104至105"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-6a9fbb61267671de"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 21
+      },
+      "cli_matches_shared": true
+    }
+  ],
+  "pass": true,
+  "new_claims": 42,
+  "new_evidence": 62,
+  "ledger_passages": 223,
+  "new_figure_associations": 15,
+  "new_unique_figures": 5,
+  "source_hashes_match": true,
+  "database_and_manifest_unchanged": true,
+  "limits": [
+    "同一主代理四轮不是独立/人类复核，未核原博客。",
+    "突发逆向缺口早期说法、类中枢/奔走型特殊原字及实际执行/外部绩效继续显式待核。",
+    "108课逐段台账齐备不等全部知识解释已确认；全书最终质量审计/归档及哈希尚未完成。"
+  ]
+}

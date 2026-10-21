@@ -1,0 +1,127 @@
+{
+  "stage": "H early pilot64 completion",
+  "base_graph_version": "0.1.0-review-2ac69fd77eec",
+  "graph_version": "0.1.0-review-307029129712",
+  "schema_version": "1.1.0",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261021T144445225510Z-curation-l064",
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l064.reviewed.jsonl": "7c3d18e5ff54ca28166b126883e6d4618bd457422852111808a989e82bdca482"
+  },
+  "new_claims": 42,
+  "new_evidence": 62,
+  "reviewed_claims": 3369,
+  "reviewed_evidence": 4584,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9650,
+    "figures": 528,
+    "concepts": 318,
+    "claims": 6008,
+    "evidence": 7225,
+    "relations": 692,
+    "reviews": 3459
+  },
+  "passages_read": 223,
+  "figure_objects_viewed": 5,
+  "figure_origin_counts": {
+    "unverified": 1,
+    "later_annotation": 4
+  },
+  "new_concepts": [
+    "利率",
+    "增长率",
+    "市盈率",
+    "成分股",
+    "指数基金",
+    "消息面",
+    "牛市三阶段",
+    "选股",
+    "风险承受能力"
+  ],
+  "original_reviewed_claim_semantics_unchanged": 3327,
+  "original_reviewed_evidence_unchanged": 4522,
+  "only_2_review_note_caveats_amended": true,
+  "all_source_text_geometry_mapping_unchanged": true,
+  "pending": [
+    "lower-l064-c-stage-pending-sudden-reverse-gap-early-analogy-not-universal-exception",
+    "lower-l064-c-stage-pending-micro-center-running-form-and-execution-boundaries",
+    "lower-l064-c-stage-pending-figure-provenance-future-bars-and-reader-overlay",
+    "lower-l064-c-stage-pending-historical-valuation-growth-fund-and-return-strong-claims",
+    "lower-l064-c-stage-pending-precision-old-stroke-and-cross-lesson-definitions"
+  ],
+  "formal_import": "passed",
+  "semantic_completion": false,
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks_run": [
+    "42条Schema和引用/身份/映射/坐标预检",
+    "223段全台账哈希、21实际页5整图核对",
+    "907页9650段逐行不变，528图仅5项元数据；旧3327命题语义和4522引文/定位保持，仅两旧图审待核描述更新",
+    "3369命题全引用检查0错误；33项现有测试通过",
+    "5组知识边界、3个现有读取一致、15处图文关联5图与223段当前哈希通过",
+    "108课逐段台账重新按当前源ID/旧新字段/夹注overlay核对，无未覆盖段、无已记录原文哈希错位",
+    "冻结240开发题239检索计划/240来源身份，原重合前20截断问题开放",
+    "3369命题318概念692关系及Markdown/coverage同版导出"
+  ],
+  "checks_not_run": [
+    "全书最终来源/图文/条件与关系质量审计、待核汇总尚未完结",
+    "最终知识库目录、归档/逐文件哈希和实际复制件核验尚未完成",
+    "原文字义/早期缺口说法、位图原发、微型结构特例及历史执行收益/估值强语继续显式待核",
+    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
+  ],
+  "exports": {
+    "claims": {
+      "rows": 3369,
+      "graph_version": "0.1.0-review-307029129712",
+      "sha256": "5c38fe01a627c3e6ed46a9ebfb4ad677de341b83c1e63ba5077144757bf05efd"
+    },
+    "concepts": {
+      "rows": 318,
+      "graph_version": "0.1.0-review-307029129712",
+      "sha256": "61b99642da89ca0b06dcd942b9cc2212435723dd482d2ca053e24cc2698ac363"
+    },
+    "relations": {
+      "rows": 692,
+      "graph_version": "0.1.0-review-307029129712",
+      "sha256": "4a441e6de36eb99af767842ad1b533114868cfbcaf9012c22c19a0bbad2a3c4f"
+    }
+  },
+  "final_sha256": {
+    "database": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+    "manifest": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac"
+  },
+  "development_evaluation": {
+    "cases": 240,
+    "retrieval_plan_pass": 239,
+    "source_identity_pass": 240,
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "known_retrieval_failures": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 36,
+            "truncated": true,
+            "elapsed_ms": 65.23939999999999
+          }
+        ]
+      }
+    ]
+  },
+  "next_action": "转最终知识库质量/待核和来源条件关系审计；处理实际缺陷或明确来源边界，再组装固定版本知识库目录、归档与校验清单。",
+  "acceptance": "64课223段42命题62引文5图完成补录；108课逐段台账闭合，同版导出；最终知识库质量/交付审计未完成。",
+  "updated_at": "2026-10-21T15:00:51.139147+00:00"
+}

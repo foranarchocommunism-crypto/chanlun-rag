@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T15:00:51.149999+00:00",
+  "updated_at": "2026-10-21T15:48:42.968958+00:00",
   "stage": "H all108 lesson ledgers complete; final knowledge-base quality and delivery audit remaining",
   "run_mode": "authorized_execution",
   "authorization": "用户授权持续构建固定两册知识库；最新明确仅交付知识库，不再构建独立Agent软件包或Windows应用，无额外中途批准关卡。",
@@ -14,7 +14,8 @@
     "5组知识边界、3个现有读取一致、15处图文关联5图与223段当前哈希通过",
     "108课逐段台账重新按当前源ID/旧新字段/夹注overlay核对，无未覆盖段、无已记录原文哈希错位",
     "冻结240开发题239检索计划/240来源身份，原重合前20截断问题开放",
-    "3369命题318概念692关系及Markdown/coverage同版导出"
+    "3369命题318概念692关系及Markdown/coverage同版导出",
+    "最终图文清单补10条漏记：528图均有实际查看记录，449被已复核证据引用图均可对账；23条旧记录无布尔字段但有明确已查看/复看说明。原发身份仍未核。"
   ],
   "counts": {
     "documents": 2,
@@ -464,7 +465,10 @@
     "source-audit/stage-h-l064-publication.json",
     "source-audit/stage-h-l064-verification.json",
     "source-audit/stage-h-l064-checkpoint.json",
-    "lower/c_stage_l064.partial-resolutions.jsonl"
+    "lower/c_stage_l064.partial-resolutions.jsonl",
+    "source-audit/stage-h-final-figure-log-completion.json",
+    "source-audit/stage-h-final-figure-log-completion.jsonl",
+    "source-audit/stage-h-final-quality-inventory.json"
   ],
   "checks_run": [
     "42条Schema和引用/身份/映射/坐标预检",
@@ -474,7 +478,8 @@
     "5组知识边界、3个现有读取一致、15处图文关联5图与223段当前哈希通过",
     "108课逐段台账重新按当前源ID/旧新字段/夹注overlay核对，无未覆盖段、无已记录原文哈希错位",
     "冻结240开发题239检索计划/240来源身份，原重合前20截断问题开放",
-    "3369命题318概念692关系及Markdown/coverage同版导出"
+    "3369命题318概念692关系及Markdown/coverage同版导出",
+    "3369已复核命题均有reviewed复核记录和非空语义说明；528图/449已引用图查看记录闭合，图谱及manifest哈希未变。"
   ],
   "checks_not_run": [
     "全书最终来源/图文/条件与关系质量审计、待核汇总尚未完结",
@@ -484,7 +489,7 @@
   ],
   "acceptance": "64课223段42命题62引文5图完成补录；108课逐段台账闭合，同版导出；最终知识库质量/交付审计未完成。",
   "next_resume_anchor": "book-final-quality-and-delivery / version307029129712 / all108 ledgers",
-  "next_action": "转最终知识库质量/待核和来源条件关系审计；处理实际缺陷或明确来源边界，再组装固定版本知识库目录、归档与校验清单。",
+  "next_action": "核最终知识库要求和未解决问题/评测边界，形成最终质量报告，再组装并校验知识库交付包。",
   "subagents": [],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。",
   "previous_checkpoint": {
@@ -577,7 +582,7 @@
       }
     ]
   },
-  "previous_turn_classification": "progress：62至64三课256段57新命题79引文11整图完成，3369引用0错误、33测试、同版导出；全108课逐段台账闭合，下一步最终质量审计和知识库归档。",
+  "previous_turn_classification": "progress：62至64三课256段57新命题79引文11图补录、全108课逐段台账闭合，最终528图日志/449引用图闭合；3369引用/33测试/同版导出通过，下一步最终质量报告和知识库归档。",
   "delivery_scope": "shared_knowledge_base_only",
   "delivery_scope_file": "curation/delivery-scope.json",
   "excluded_software_deliverables": [

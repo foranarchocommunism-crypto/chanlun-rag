@@ -1,0 +1,41 @@
+{
+  "stage": "H-source-attribution-correction",
+  "graph_version": "0.1.0-review-9e9b5c45a7a4",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-135f4fcad3e3",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261021T043401861411Z-annotation-split",
+  "lineage_file": "provenance/source-segmentation-001.json",
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9650,
+    "figures": 528,
+    "concepts": 309,
+    "claims": 5951,
+    "evidence": 7146,
+    "relations": 683,
+    "reviews": 3386
+  },
+  "split_parent_ids": [
+    "volume_1-a53e99c37ca5-p0316-b004",
+    "volume_1-a53e99c37ca5-p0432-b001"
+  ],
+  "new_passage_ids": [
+    "volume_1-a53e99c37ca5-p0316-b004-s01",
+    "volume_1-a53e99c37ca5-p0316-b004-s02",
+    "volume_1-a53e99c37ca5-p0432-b001-s01"
+  ],
+  "reviewed_claims_unchanged": 3312,
+  "reviewed_quotes_and_source_coordinates_unchanged": 4505,
+  "reviewed_evidence_relocated": [
+    "evidence-66e71b5de52ad2a9"
+  ],
+  "rejected_mixed_candidates": [
+    "candidate-ce7b8fbb2d590dfe"
+  ],
+  "all_other_source_rows_unchanged": true,
+  "pages_and_geometry_unchanged": true,
+  "reviewed_semantic_approval_not_repeated": true,
+  "pass": true
+}

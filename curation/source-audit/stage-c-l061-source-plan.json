@@ -1,0 +1,303 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-bb28763cfcd8",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0461-b004-s01",
+      "before": {
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "published_at": "2007-05-22 08:49:55"
+      },
+      "reason": "PDF461为6/22文章内引5/22旧回复，署名/风险段直至原中文闭引号，仍保旧答身份日期，只补日期时刻空格。",
+      "text_sha256": "b12a24e7712e75ced8d3bc510e5e764e47ee4c0f9bc9cb3e4a4f7d13e718eb57",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0461-b005",
+      "before": {
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "published_at": "2007-05-22 08:49:55"
+      },
+      "reason": "PDF461为6/22文章内引5/22旧回复，署名/风险段直至原中文闭引号，仍保旧答身份日期，只补日期时刻空格。",
+      "text_sha256": "df6655791222bcceed6140955bf83e39dd7cadc5885d7bee988f70c793f84220",
+      "affected_references": [
+        {
+          "id": "evidence-774f7c7ba26f03e8",
+          "claim_id": "candidate-c641ab04110fba87",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0461-b006",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "b1da3aa458dea1ff40daad93ccfde86a8259763b4be1b1c1d3b167052bbb1ba5",
+      "affected_references": [
+        {
+          "id": "evidence-7893260bd80ccb19",
+          "claim_id": "candidate-89265f3fd4b31daf",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0462-b000",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "d8c14658a5d623f8420f7b1b146eda7920692269a9b58d5d52fe7af3b18eddad",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0462-b001",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "92ee404ef28395365959a653895ad93ffa168bc7d8650abd2cdce2ce35a04e40",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0462-b002",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "d879f7a5ea3538399e207d358398ec83347243a6ff64fde4a4b4f28d9dc3c1e6",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0462-b003",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "e1dda5ef410f41f6ff067c3cc75187c18054fd4efac9af6e58e1db339dc0744b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0462-b004",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2007-05-2208:49:55"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2007-06-22 08:30:44"
+      },
+      "reason": "PDF461原5/22引用在前段末中文闭引号结束；还有一只是600569起恢复6/22独立文章，内述6/13复牌和600636建仓，至462出差结束。非5/22作者回复，原字/几何不动。",
+      "text_sha256": "ea312aa0bc6aefe6fcaef9ad0f035c2ec99d77f3868b638ddbbd6ee020c1afeb",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0458-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分原样图到6/20，55至74、四重背驰红箭头及MACD12/26/9；可在6/21课程前取得而原发未核，正文65/69/71/71内部四重与74对69—72枢，不借后K证明当下可成交。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0459-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "重绘头6/25、右端扩至89并叠6/21收评，晚于6/21；4244/4144与正文最低4147分开保，未来6/22至后续K不证前预测。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0463-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分原样到6/22，72至87、81—82/84/微枢箭头/87；原87低4024.92，86—87无背驰未确认结束，4131的85为条件，正文30分枢4067—4192为粗数不据图修正。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0463-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "重绘头选6/22但较上方原图额外出现88/89及3981.72低，叠6/22评论，后K延伸超过当时87；原图87=4024.92与该图后低3981.72不合并，不证明当时线段已完。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0464-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "6/23正文明确称随手画两图，图一若干上下形态均等价为一线段；汇编位图原发一致性未外核，文字关联强于泛无署名图，但不以此改后62/67严格定义。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0464-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "6/23图二含等号/不等号及小级别转大级别标记，区分易混形态；原发一致性未核，不从手绘无坐标图生成数值阈值或自动完备判段算法。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0465-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "重绘头6/26而右端已到6/27，叠6/26凌晨对前交易日解盘；原91低3818.85与后原图3819.03/3819.05分开，不能将未来图证当时3982/4025条件。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0466-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "重绘头6/27但右端含6/29及105低3779.81，晚于6/27解盘；4025、4131和新5分震荡是当时条件，后跌不证预测或精确成交。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0467-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分原样到6/28，100顶背驰/102二卖与103未完成、紫线MACD比较，原91低3819.03；正文要102走完与前103矛盾保原待核，不能据图静改字。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0468-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "6/29早重标前日1分图，含红绿箭头4022.69/4022.42精度讨论、104较细分编号，原91低3819.05；两位小数/直接取整/四舍五入三标准分别保，不倒写前日标号。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0469-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分原样到6/29，105最低3780.84及106—108，105无明确一分中枢故仅盘中意义；图低3779.81重绘/3780.84此原图分开，不擅改正文压力3919或最低级别范围。"
+      },
+      "reason": "主代理实际核457至470十四页和11整图；7原发未核/4后加，嵌套旧回复边界、原编号/小数差和未来K分别记录。"
+    }
+  ],
+  "visual_pages": [
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470
+  ],
+  "pending": [
+    "6/21课头仅日期，不补TOC里的时分；6/22文章内5/22旧答结束后角色/日期须恢复，原字与坐标保留。",
+    "69/70/71/72四重套与74二三卖结合律、5段子级完整条件不删；103未完/要102完、跌段后高低于前低原字、6/29直接取整有明确以后时效。"
+  ],
+  "reviewer": "Codex 主代理 / 61课十四页十一图同模型四轮，知识库范围"
+}

@@ -1,0 +1,49 @@
+{
+  "graph_version": "0.1.0-review-2ac69fd77eec",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "旧3312命题及4505引文/字符偏移/坐标逐行保存，8处图关联显式修订；62正文黑白图与两张后加彩色图分开。",
+    "一种分解/已完成走势上移标注前提和多分解例外均保；周期标记自由、理想可操作与实际便利、MACD参数上限没有混成图周期等于中枢级别。",
+    "110/111是线段内历史例，111绿柱比较未冒充全部逐K答案；107站稳只保至少震荡，原图3724.19/重绘3724.35各存，日期/原发未知与后加身份独立。",
+    "3919/5周压力与原5月支持区分，三角或平台限有效跌破条件；理论相对利润非实证，初学者观望/少量练习/卖早/避剧烈股及零成本自述边界保留。",
+    "15新增命题逐字段与审核批次一致；17引文及全部指定图关联可返回，33段台账原文哈希完整，未将来源未核图自动认作作者原发。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "最近一个未完成"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-018c32c2a1b0e11d"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 11
+      },
+      "cli_matches_shared": true
+    }
+  ],
+  "new_claims": 15,
+  "new_evidence": 17,
+  "new_figure_associations": 6,
+  "new_unique_figures": 3,
+  "old_figure_associations_amended": 8,
+  "ledger_passages": 33,
+  "source_hashes_match": true,
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同一主代理语义和原图复核，不称独立或人工金标准。",
+    "63留给读者的笔/底分型/中枢练习，需64后文来源继续联读，不能由后加图补作者原答。",
+    "64课223段、全书最终覆盖与交付审计尚未完成；历史执行/收益/原博客外部事实未核。"
+  ]
+}

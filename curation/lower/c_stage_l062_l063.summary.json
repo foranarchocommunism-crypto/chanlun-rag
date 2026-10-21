@@ -1,0 +1,44 @@
+{
+  "stage": "H early pilot completion",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-a837c6e53243",
+  "lessons": [
+    62,
+    63
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 早期试点62至63课逐段与原图复核",
+  "claims": 15,
+  "evidence": 17,
+  "passages_read": 33,
+  "existing_reviewed_claims_retained": 19,
+  "existing_evidence_figure_links_added": 8,
+  "source_passages_snapshot_sha256": "0fd8a9db456336b53373c192bbc640b9f53331232206eac73c18afef164d8b13",
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "later_annotation": 4,
+    "unverified": 2
+  },
+  "pending": [
+    "lower-l062-c-stage-pending-figure-origin-and-early-segment-definition",
+    "lower-l063-c-stage-pending-110-111-pen-fractal-and-center-homework-not-fully-given",
+    "lower-l063-c-stage-pending-historical-execution-precision-and-strong-profit-claims"
+  ],
+  "new_concepts": [],
+  "database_mode": "ro",
+  "formal_import": false,
+  "delivery_scope": "shared_knowledge_base_only"
+}

@@ -1,17 +1,20 @@
 {
-  "updated_at": "2026-10-21T06:35:31.420762+00:00",
-  "stage": "H final knowledge-base source and coverage audit in progress",
+  "updated_at": "2026-10-21T13:56:51.299578+00:00",
+  "stage": "H final knowledge-base audit; early pilot64 remaining",
   "run_mode": "authorized_execution",
   "authorization": "用户授权持续构建固定两册知识库；最新明确仅交付知识库，不再构建独立Agent软件包或Windows应用，无额外中途批准关卡。",
   "schema_version": "1.1.0",
-  "graph_version": "0.1.0-review-a837c6e53243",
+  "graph_version": "0.1.0-review-2ac69fd77eec",
   "source_boundary": "两册固定汇编PDF共907页，108课程和2汇编后记单元；未与原博客逐字校对",
   "completed": [
-    "60/61两课70命题83证据发布，全108课已有完整阅读记录",
-    "43/57混合夹注已正式分段为作者片段与unknown注释，原字符映射拼接一致；3312作者命题未变，4505已复核引文/源坐标未变，1尾句证据迁移，1混合候选拒绝",
-    "54当前接口完整包含编号问题，2过时工具限制备注修正，无查询/软件改动",
-    "逐课覆盖台账新旧字段和后分段覆盖归一，明确早期试点缺口而不冒全书技术全抽取",
-    "3312全引用/33测试通过，同版导出；冻结240开发题239计划/240身份通过，原1召回回归开放"
+    "15条Schema和引用/身份/映射/坐标预检",
+    "33段逐段台账全覆盖且哈希一致",
+    "6图来源记录与8旧证据图关联显式修订，原3312命题/4505引文定位保持",
+    "907页9650段逐行不变；528图仅6项来源注记变化",
+    "3327命题全引用检查0错误；33项现有测试通过",
+    "5组知识边界、3个现有CLI/共享读取一致，6处新图文关联及8处旧图关联核对通过",
+    "冻结240开发题239计划/240来源身份，原重合前20截断问题开放",
+    "3327命题309概念687关系及Markdown/coverage同版导出"
   ],
   "counts": {
     "documents": 2,
@@ -20,10 +23,10 @@
     "passages": 9650,
     "figures": 528,
     "concepts": 309,
-    "claims": 5951,
-    "evidence": 7146,
-    "relations": 683,
-    "reviews": 3388
+    "claims": 5966,
+    "evidence": 7163,
+    "relations": 687,
+    "reviews": 3415
   },
   "claim_status_counts": [
     [
@@ -36,25 +39,25 @@
     ],
     [
       "reviewed",
-      3312
+      3327
     ]
   ],
   "figure_origin_counts": [
     [
       "later_annotation",
-      257
+      259
     ],
     [
       "unverified",
-      271
+      269
     ]
   ],
   "semantic_completion": false,
   "pending": [
-    "62至64早期试点逐段台账/技术外围和配图待补项需专项处理，不以已读或已有少量命题代替完成",
-    "全书来源/图文/条件和关系最终质量审计、待核汇总及知识库目录/归档哈希交付未完成",
-    "现有检索原前20召回回归及完整G评价边界如实保留；同一代理复核非独立/人类金标准，未核原博客",
-    "原文强语、公式/编号等解释分歧仍显式待核，软件交付已排除"
+    "64课223段仍缺逐段台账，正文110/111图例和附带答疑/操作纪律须核",
+    "全书最终来源/图文/条件质量审计及最终知识库目录、归档/哈希未完成",
+    "63具体分型/笔/递归中枢练习原文未给完整答案，需64后文联读；来源未核与强收益/历史执行边界保留",
+    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
   ],
   "machine_outputs": [
     "source-audit/stage-b-applied.json",
@@ -450,48 +453,52 @@
     "source-audit/stage-h-annotation-split.coverage.jsonl",
     "source-audit/stage-h-l054-context-notes-amended.json",
     "source-audit/stage-h-source-resolutions.jsonl",
-    "source-audit/stage-h-kb-delivery-interim-audit.json"
+    "source-audit/stage-h-kb-delivery-interim-audit.json",
+    "source-audit/stage-h-l062-l063-amendment-plan.json",
+    "source-audit/stage-h-l062-l063-amendment-applied.json",
+    "source-audit/stage-h-l062-l063-publication.json",
+    "source-audit/stage-h-l062-l063-verification.json",
+    "source-audit/stage-h-l062-l063-checkpoint.json"
   ],
   "checks_run": [
-    "3312命题全引用检查0错误、33现有Node测试通过",
-    "两夹注源检索现返回unknown/null身份；作者尾句引文和坐标未改，仅一证据段ID/偏移迁移，原完整行/映射/依赖保provenance，1混合候选拒绝",
-    "54三短答接口包含全部所需跨页问题，2过时review_note已纠正，未改查询代码",
-    "108阅读记录逐课归一；新旧逐段ledger字段按实际passage所属单元匹配，分拆5片段overlay保全源字符映射",
-    "当前版本3312命题309概念683关系及Markdown/coverage导出一致；240冻结开发题239计划/240身份通过，原1召回回归开放"
+    "15条Schema和引用/身份/映射/坐标预检",
+    "33段逐段台账全覆盖且哈希一致",
+    "6图来源记录与8旧证据图关联显式修订，原3312命题/4505引文定位保持",
+    "907页9650段逐行不变；528图仅6项来源注记变化",
+    "3327命题全引用检查0错误；33项现有测试通过",
+    "5组知识边界、3个现有CLI/共享读取一致，6处新图文关联及8处旧图关联核对通过",
+    "冻结240开发题239计划/240来源身份，原重合前20截断问题开放",
+    "3327命题309概念687关系及Markdown/coverage同版导出"
   ],
   "checks_not_run": [
-    "62至64早期试点逐段台账/技术外围和配图待补项需专项处理，不以已读或已有少量命题代替完成",
-    "全书来源/图文/条件和关系最终质量审计、待核汇总及知识库目录/归档哈希交付未完成",
-    "现有检索原前20召回回归及完整G评价边界如实保留；同一代理复核非独立/人类金标准，未核原博客",
-    "原文强语、公式/编号等解释分歧仍显式待核，软件交付已排除"
+    "64课223段仍缺逐段台账，正文110/111图例和附带答疑/操作纪律须核",
+    "全书最终来源/图文/条件质量审计及最终知识库目录、归档/哈希未完成",
+    "63具体分型/笔/递归中枢练习原文未给完整答案，需64后文联读；来源未核与强收益/历史执行边界保留",
+    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
   ],
-  "acceptance": "来源归属修复与当前引用/测试/导出通过；108课阅读完成，早期试点技术/逐段图文覆盖及最终知识库交付仍未完成。",
-  "next_resume_anchor": "volume_2-5332cd1b6038 / lessons062-064 / PDF6-32",
-  "next_action": "优先重新核对62至64早期试点逐段覆盖与既有技术/图文待补项；保旧已复核命题并补真实遗漏。",
+  "acceptance": "62/63课33段15命题17引文6图完成补录，同版导出；64课及全书最终交付审计仍未完成。",
+  "next_resume_anchor": "early-pilot-lesson064 / volume2 PDF12-32 / 223 paragraphs",
+  "next_action": "继续64课223段PDF12至32正文、图例、答疑与附带操作纪律逐段核对。",
   "subagents": [],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。",
   "previous_checkpoint": {
-    "graph_version": "0.1.0-review-135f4fcad3e3",
+    "graph_version": "0.1.0-review-a837c6e53243",
     "completed": [
-      "61课83段14页11整图同代理四轮，44命题52证据14关系支撑、11新增关系",
-      "8来源日期规范：5/22旧答保旧身份并补空格，闭引后六段恢复6/22文章；11图7未核4后加，原3268命题4453证据及全源原字几何映射不动",
-      "65起假设/否定/递归、69未新高/70无盘背/71三买后上移必要不盘背、四重套本例定位72均保比较与当下条件",
-      "74二三卖对69—72非70—73，结合律至少五次级前三枢四离五点，不成任意五笔或同价触点三类；72卖量限级别和容量，100%/0成本强语非实证",
-      "30分枢已构成/第三段未确认、103未完/要102完、跌段后高低于前低原字张力保；4022小数/截整/四舍五入三算法及6/29以后选择分开，不倒改59或后64自选",
-      "3312引用/33测试/6边界/7现有读取一致及25命题26关联11图通过，同版导出；冻结240题239计划/240身份通过，原1回归开放",
-      "上下册台账归一确认108课均有完整阅读记录；尚需早期试点技术外围覆盖与全书来源/交付审计，不称技术全抽取或所有解释统一"
+      "60/61两课70命题83证据发布，全108课已有完整阅读记录",
+      "43/57混合夹注已正式分段为作者片段与unknown注释，原字符映射拼接一致；3312作者命题未变，4505已复核引文/源坐标未变，1尾句证据迁移，1混合候选拒绝",
+      "54当前接口完整包含编号问题，2过时工具限制备注修正，无查询/软件改动",
+      "逐课覆盖台账新旧字段和后分段覆盖归一，明确早期试点缺口而不冒全书技术全抽取",
+      "3312全引用/33测试通过，同版导出；冻结240开发题239计划/240身份通过，原1召回回归开放"
     ],
-    "next_action": "转全书最终知识库审计：核62至64早期试点剩余技术/图文覆盖，拆分43/57未核夹注且保原字符映射/旧证据，补54跨页编号答的完整问题来源；逐要求核覆盖、引用和同版导出，整理待核及工具限制，再组装知识库目录/哈希。",
+    "next_action": "优先重新核对62至64早期试点逐段覆盖与既有技术/图文待补项；保旧已复核命题并补真实遗漏。",
     "evaluation": {
-      "executable_development_cases": 240,
-      "target": 240,
-      "gold_review_status": "model_reviewed_development",
+      "cases": 240,
+      "retrieval_plan_pass": 239,
+      "source_identity_pass": 240,
       "human_gold_reviewed": false,
       "independent_test_set": false,
       "generated_answers_scored": false,
-      "retrieval_plan_passed_on_current_graph": 239,
-      "source_identity_passed_on_current_graph": 240,
-      "open_retrieval_regressions": [
+      "known_retrieval_failures": [
         {
           "query_id": "g-b05-coincidence",
           "missing": [
@@ -508,14 +515,11 @@
               },
               "total": 35,
               "truncated": true,
-              "elapsed_ms": 53.32130000000001
+              "elapsed_ms": 44.8096
             }
           ]
         }
-      ],
-      "full_stage_g_acceptance_complete": false,
-      "new_project_gold_cases_created_in_this_batch": 0,
-      "note": "固定题和gold未改，重合前20仍失败；现有评价不冒知识本体/生成回答质量证明，软件已排除。"
+      ]
     }
   },
   "unit_processing_status_counts": [
@@ -532,7 +536,7 @@
       104
     ]
   ],
-  "coverage_caveat": "阅读记录完整已逐课核实；缺少逐段台账不自动等于未读，现有早期63/64又明确登记技术/图文待补，必须专项核查。",
+  "coverage_caveat": "108课有完整阅读记录；107课逐段台账完整（前一全书审计105课+本批62/63），仅64课223段待补。逐段处理完整不等全部知识解释已确认。",
   "execution_note": "主代理完成，未使用子代理；固定两册汇编边界，未核原博客或转载原网页。",
   "evaluation": {
     "cases": 240,
@@ -558,13 +562,13 @@
             },
             "total": 35,
             "truncated": true,
-            "elapsed_ms": 44.8096
+            "elapsed_ms": 48.010999999999996
           }
         ]
       }
     ]
   },
-  "previous_turn_classification": "progress：60/61发布及两处P0夹注来源隔离、54旧备注纠正和当前覆盖审计完成；已识别下一处可行动的早期试点缺口。",
+  "previous_turn_classification": "progress：62/63课33段、15新命题17引文、6图及8旧图关联补录，3327引用0错误和33现有测试、同版导出；下一步64课。",
   "delivery_scope": "shared_knowledge_base_only",
   "delivery_scope_file": "curation/delivery-scope.json",
   "excluded_software_deliverables": [

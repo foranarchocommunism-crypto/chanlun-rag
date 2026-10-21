@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T15:48:42.968958+00:00",
-  "stage": "H all108 lesson ledgers complete; final knowledge-base quality and delivery audit remaining",
+  "updated_at": "2026-10-21T16:31:56.519696+00:00",
+  "stage": "H knowledge data quality passed; assemble and verify delivery",
   "run_mode": "authorized_execution",
   "authorization": "用户授权持续构建固定两册知识库；最新明确仅交付知识库，不再构建独立Agent软件包或Windows应用，无额外中途批准关卡。",
   "schema_version": "1.1.0",
@@ -15,7 +15,8 @@
     "108课逐段台账重新按当前源ID/旧新字段/夹注overlay核对，无未覆盖段、无已记录原文哈希错位",
     "冻结240开发题239检索计划/240来源身份，原重合前20截断问题开放",
     "3369命题318概念692关系及Markdown/coverage同版导出",
-    "最终图文清单补10条漏记：528图均有实际查看记录，449被已复核证据引用图均可对账；23条旧记录无布尔字段但有明确已查看/复看说明。原发身份仍未核。"
+    "最终图文清单补10条漏记：528图均有实际查看记录，449被已复核证据引用图均可对账；23条旧记录无布尔字段但有明确已查看/复看说明。原发身份仍未核。",
+    "最终知识库数据质量审计通过：108课9305段有处置，345段整理者附录排除作者证据；3369命题4584引文和692关系有来源/复核支撑；原发未核与473歧义明确保留。"
   ],
   "counts": {
     "documents": 2,
@@ -55,10 +56,7 @@
   ],
   "semantic_completion": false,
   "pending": [
-    "全书最终来源/图文/条件与关系质量审计、待核汇总尚未完结",
-    "最终知识库目录、归档/逐文件哈希和实际复制件核验尚未完成",
-    "原文字义/早期缺口说法、位图原发、微型结构特例及历史执行收益/估值强语继续显式待核",
-    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
+    "最终知识库目录复制件、压缩包逐文件SHA-256/CRC及交付回执尚未生成验证"
   ],
   "machine_outputs": [
     "source-audit/stage-b-applied.json",
@@ -468,7 +466,11 @@
     "lower/c_stage_l064.partial-resolutions.jsonl",
     "source-audit/stage-h-final-figure-log-completion.json",
     "source-audit/stage-h-final-figure-log-completion.jsonl",
-    "source-audit/stage-h-final-quality-inventory.json"
+    "source-audit/stage-h-final-quality-inventory.json",
+    "source-audit/stage-h-final-kb-quality.json",
+    "source-audit/stage-h-final-reviewed-ambiguities.jsonl",
+    "source-audit/stage-h-final-retrieval-snapshot.json",
+    "../evaluation/stage-h-final-baselines-307029129712.results.json"
   ],
   "checks_run": [
     "42条Schema和引用/身份/映射/坐标预检",
@@ -479,17 +481,16 @@
     "108课逐段台账重新按当前源ID/旧新字段/夹注overlay核对，无未覆盖段、无已记录原文哈希错位",
     "冻结240开发题239检索计划/240来源身份，原重合前20截断问题开放",
     "3369命题318概念692关系及Markdown/coverage同版导出",
-    "3369已复核命题均有reviewed复核记录和非空语义说明；528图/449已引用图查看记录闭合，图谱及manifest哈希未变。"
+    "3369已复核命题均有reviewed复核记录和非空语义说明；528图/449已引用图查看记录闭合，图谱及manifest哈希未变。",
+    "当前冻结库240条原始整句题的A/C/D及现有搜索实测完成；Recall@10依次43.35%/72.00%/67.38%/6.96%，金标准和正式库未写，向量未实现；239/240计划回归与自然题结果分开。"
   ],
   "checks_not_run": [
-    "全书最终来源/图文/条件与关系质量审计、待核汇总尚未完结",
-    "最终知识库目录、归档/逐文件哈希和实际复制件核验尚未完成",
-    "原文字义/早期缺口说法、位图原发、微型结构特例及历史执行收益/估值强语继续显式待核",
-    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
+    "实际交付复制件和压缩包验证待执行",
+    "纯向量/生成回答/人工金标准/独立测试/消融未运行，已在最终质量报告明确，不计通过"
   ],
   "acceptance": "64课223段42命题62引文5图完成补录；108课逐段台账闭合，同版导出；最终知识库质量/交付审计未完成。",
-  "next_resume_anchor": "book-final-quality-and-delivery / version307029129712 / all108 ledgers",
-  "next_action": "核最终知识库要求和未解决问题/评测边界，形成最终质量报告，再组装并校验知识库交付包。",
+  "next_resume_anchor": "package-final-kb / version307029129712",
+  "next_action": "运行已审阅的package_final_kb.py，验证实际复制件和压缩包，核回执后完成知识库交付。",
   "subagents": [],
   "history": "旧批003全部50条由004/005重新复核发布，保留旧文件，禁止整文件重复导入；历史批次与当前显式修订分开追溯。",
   "previous_checkpoint": {
@@ -591,5 +592,18 @@
     "软件实际双击/离线交互、PDF缩放旋转/跨页高亮等验收"
   ],
   "complete_reading_records": 108,
-  "remaining_never_read_lessons": 0
+  "remaining_never_read_lessons": 0,
+  "knowledge_construction_scope_processed": true,
+  "quality_ready_for_delivery": true,
+  "knowledge_delivery_complete": false,
+  "known_limits": [
+    "Full-sentence native search remains weak; data delivery is not a validated natural-language QA product. Use concepts/keywords and inspect conditions/source evidence.",
+    "Vector baseline not implemented; fusion is offline evaluation only, no software feature added.",
+    "240 model-reviewed development cases are not an independent/human gold test. Precision is a lower bound against annotated passages; unannotated results are not automatically irrelevant.",
+    "No generated-answer faithfulness, human semantic score, conflict detection rate, adversarial score, visual interaction, ablation or generalization claim.",
+    "265 figure origins remain unverified and 263 are later annotations; viewing does not establish author identity.",
+    "473 reviewed claims retain explicit ambiguity, 2611 candidates remain excluded from default knowledge. Unresolved interpretation is not silently fixed.",
+    "9138 historical lesson-row hashes match current text; 167 legacy rows lack historical text hashes but contain per-passage dispositions. No fabricated historical hashes.",
+    "Software deliverables and desktop UI/build/package acceptance are excluded by the direct user scope."
+  ]
 }

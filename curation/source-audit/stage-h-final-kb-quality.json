@@ -1,0 +1,567 @@
+{
+  "stage": "H-final-knowledge-base-quality",
+  "created_at": "2026-10-21T16:17:15.591620+00:00",
+  "graph_version": "0.1.0-review-307029129712",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9650,
+    "figures": 528,
+    "concepts": 318,
+    "claims": 6008,
+    "evidence": 7225,
+    "relations": 692,
+    "reviews": 3459
+  },
+  "claim_status_counts": {
+    "pending": 2611,
+    "rejected": 28,
+    "reviewed": 3369
+  },
+  "reviewed_evidence": 4584,
+  "reviewed_kind_counts": {
+    "explicit": 3366,
+    "inferred": 3
+  },
+  "reviewed_with_explicit_ambiguity": 473,
+  "figure_origin_counts": {
+    "later_annotation": 263,
+    "unverified": 265
+  },
+  "source_documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "source_boundary": "Only the two fixed compiled PDFs; no verbatim comparison with original blog, no external verification of historical trading/legal/performance assertions.",
+  "excluded_units": [
+    {
+      "id": "appendix-volume_1-a53e99c37ca5-learning-outline",
+      "title": "后记——缠中说禅教你炒股票108课学习大纲",
+      "kind": "compiler_appendix",
+      "lesson_number": null,
+      "published_at": null,
+      "document_id": "volume_1-a53e99c37ca5",
+      "start_page": 471,
+      "end_page": 475,
+      "processing_status": "excluded_from_author_knowledge",
+      "note": "汇编后记及课程学习大纲；非对应末课正文。具体整理者身份未核，不作为作者直接证据，保留原文与定位。"
+    },
+    {
+      "id": "appendix-volume_2-5332cd1b6038-learning-outline",
+      "title": "后记——缠中说禅教你炒股票108课学习大纲",
+      "kind": "compiler_appendix",
+      "lesson_number": null,
+      "published_at": null,
+      "document_id": "volume_2-5332cd1b6038",
+      "start_page": 428,
+      "end_page": 432,
+      "processing_status": "excluded_from_author_knowledge",
+      "note": "汇编后记及课程学习大纲；非对应末课正文。具体整理者身份未核，不作为作者直接证据，保留原文与定位。"
+    }
+  ],
+  "acceptance": [
+    {
+      "requirement": "固定两册PDF共907页及108课正文/可识别作者技术答疑完整处理，逐来源单元记录处理/待核/排除原因",
+      "status": "passed_with_explicit_pending",
+      "proof": "stage-h-l064-checkpoint.json",
+      "lessons_read": 108,
+      "lessons_with_complete_per_passage_ledger": 108,
+      "lesson_passages": 9305,
+      "uncovered": 0,
+      "recorded_source_hashes_checked": 9138,
+      "legacy_rows_without_historical_text_hash": 167
+    },
+    {
+      "requirement": "SQLite唯一事实源，完整条件/级别/例外、身份/日期/坐标/原文映射、明说与推论、复核与歧义状态分别保留",
+      "status": "passed_with_explicit_ambiguity",
+      "proof": "Current SQLite integrity/FK and source-role/evidence/review/support audit; full quote validation and 33 tests recorded in stage-h-l064-publication.json.",
+      "reviewed_claims": 3369,
+      "evidence": 4584,
+      "inferred_separate": 3
+    },
+    {
+      "requirement": "涉及配图实际查看并记录原发/后加/未核来源，混合旁注和读者不能冒作者证据",
+      "status": "passed_with_unverified_authorship_retained",
+      "proof": "stage-h-final-figure-log-completion.json",
+      "viewing_records": 528,
+      "reviewed_linked_figures": 449
+    },
+    {
+      "requirement": "最终同版本SQLite、原文资源、manifest、JSONL/Markdown及coverage导出",
+      "status": "passed",
+      "exports": {
+        "claims": {
+          "rows": 3369,
+          "sha256": "5c38fe01a627c3e6ed46a9ebfb4ad677de341b83c1e63ba5077144757bf05efd"
+        },
+        "concepts": {
+          "rows": 318,
+          "sha256": "61b99642da89ca0b06dcd942b9cc2212435723dd482d2ca053e24cc2698ac363"
+        },
+        "relations": {
+          "rows": 692,
+          "sha256": "4a441e6de36eb99af767842ad1b533114868cfbcaf9012c22c19a0bbad2a3c4f"
+        }
+      }
+    },
+    {
+      "requirement": "覆盖统计、来源与引文验证、未解决问题/已知检索工具限制及构建记录",
+      "status": "passed_with_documented_limits",
+      "proof": [
+        "stage-h-final-reviewed-ambiguities.jsonl",
+        "../upper/pending.jsonl",
+        "../lower/pending.jsonl",
+        "../../evaluation/stage-h-final-baselines-307029129712.results.json"
+      ]
+    },
+    {
+      "requirement": "知识库可交付目录或压缩包及校验信息",
+      "status": "await_delivery_copy_and_archive_verification",
+      "proof": "To be recorded in the external delivery receipt after actual copy/archive hashing."
+    }
+  ],
+  "pending_inventory": {
+    "candidate_claims_not_default": 2611,
+    "rejected": 28,
+    "reviewed_ambiguity": 473,
+    "pending_log_records": 508,
+    "distinct_historical_pending_ids": 501,
+    "pending_log_interpretation": "Append-only construction history, including partial resolutions; do not equate all old records with current unresolved source defects. Preserve master logs and partial/source-resolution records together."
+  },
+  "evaluation": {
+    "frozen_plan_cases": 240,
+    "frozen_plans_pass": 239,
+    "frozen_source_identity_pass": 240,
+    "known_frozen_failure": "g-b05-coincidence: original 重合 top20 misses required lesson21 claim; results truncate at 36.",
+    "natural_question_cases": 240,
+    "query_input": "Original query_text only",
+    "comparison_unit": "Unique source passage ID; claims expanded to evidence passages in passage-ID order, then deduplicated.",
+    "candidate_budget": {
+      "A": 100,
+      "C": 100,
+      "D": {
+        "source_passage_slots": 50,
+        "structured_passage_slots": 50,
+        "total": 100
+      },
+      "production_control": 100,
+      "note": "Equal returned candidate slots, not equal CPU cost. C examines at most 100 ranked claims before passage expansion. Fusion computes both channels; full channel timings are charged."
+    },
+    "baselines": {
+      "A_source_lexical": {
+        "status": "run",
+        "implementation": "Raw fixed-corpus paragraphs; Chinese 2/3-grams and ASCII terms; BM25 length/IDF weighting with binary term frequency. All source roles retained."
+      },
+      "B_vector": {
+        "status": "not_implemented",
+        "run": false,
+        "metrics": null,
+        "reason": "No embedding model, vector index, or vector infrastructure exists in this package. No fabricated comparison."
+      },
+      "C_structured_lexical": {
+        "status": "run",
+        "implementation": "Same tokenizer/scoring; reviewed claim text, conditions, exceptions, linked concept labels and verified aliases. No relation expansion or source text in scoring."
+      },
+      "D_lexical_fusion": {
+        "status": "run",
+        "implementation": "Evaluation-only reciprocal rank fusion (constant 60) of A and C; no vector component or production search change."
+      },
+      "production_search_control": {
+        "status": "run",
+        "implementation": "Current KnowledgeGraph.search on the complete question; native ranking, reviewed defaults, same snapshot."
+      }
+    },
+    "aggregates": {
+      "A_source_lexical": {
+        "evaluated_cases": 240,
+        "at_k": {
+          "5": {
+            "recall": 0.3393750000000001,
+            "annotated_precision_lower_bound": 0.12833333333333308,
+            "reciprocal_rank": 0.37513888888888897,
+            "ndcg_binary": 0.3006573264698312,
+            "hit": 0.5375,
+            "all_annotated_evidence_found": 0.19166666666666668
+          },
+          "10": {
+            "recall": 0.43347222222222215,
+            "annotated_precision_lower_bound": 0.08249999999999999,
+            "reciprocal_rank": 0.39240410052910074,
+            "ndcg_binary": 0.33665312960663857,
+            "hit": 0.6583333333333333,
+            "all_annotated_evidence_found": 0.25
+          },
+          "20": {
+            "recall": 0.5123015873015871,
+            "annotated_precision_lower_bound": 0.051250000000000046,
+            "reciprocal_rank": 0.39804461869041996,
+            "ndcg_binary": 0.36255380613747945,
+            "hit": 0.7416666666666667,
+            "all_annotated_evidence_found": 0.325
+          }
+        },
+        "elapsed_ms": {
+          "mean": 1.8361683333332062,
+          "p50": 1.5741000000016356,
+          "p95": 3.452700000000732
+        },
+        "per_query_candidate_budget": 100
+      },
+      "C_structured_lexical": {
+        "evaluated_cases": 240,
+        "at_k": {
+          "5": {
+            "recall": 0.6462202380952381,
+            "annotated_precision_lower_bound": 0.27250000000000035,
+            "reciprocal_rank": 0.677986111111111,
+            "ndcg_binary": 0.6137866497536245,
+            "hit": 0.8083333333333333,
+            "all_annotated_evidence_found": 0.48333333333333334
+          },
+          "10": {
+            "recall": 0.7200099206349208,
+            "annotated_precision_lower_bound": 0.16000000000000028,
+            "reciprocal_rank": 0.6844527116402115,
+            "ndcg_binary": 0.6446757904612437,
+            "hit": 0.8583333333333333,
+            "all_annotated_evidence_found": 0.5875
+          },
+          "20": {
+            "recall": 0.818888888888889,
+            "annotated_precision_lower_bound": 0.09291666666666683,
+            "reciprocal_rank": 0.688511050657432,
+            "ndcg_binary": 0.678118458839855,
+            "hit": 0.9166666666666666,
+            "all_annotated_evidence_found": 0.7208333333333333
+          }
+        },
+        "elapsed_ms": {
+          "mean": 1.0094879166665975,
+          "p50": 0.806800000000294,
+          "p95": 1.968300000000454
+        },
+        "per_query_candidate_budget": 100
+      },
+      "D_lexical_fusion": {
+        "evaluated_cases": 240,
+        "at_k": {
+          "5": {
+            "recall": 0.5650744047619047,
+            "annotated_precision_lower_bound": 0.2266666666666669,
+            "reciprocal_rank": 0.6443750000000001,
+            "ndcg_binary": 0.5324318221744525,
+            "hit": 0.8041666666666667,
+            "all_annotated_evidence_found": 0.37083333333333335
+          },
+          "10": {
+            "recall": 0.673794642857143,
+            "annotated_precision_lower_bound": 0.1400000000000002,
+            "reciprocal_rank": 0.6545866402116403,
+            "ndcg_binary": 0.574458461464903,
+            "hit": 0.8833333333333333,
+            "all_annotated_evidence_found": 0.48333333333333334
+          },
+          "20": {
+            "recall": 0.795952380952381,
+            "annotated_precision_lower_bound": 0.08812500000000015,
+            "reciprocal_rank": 0.6577368944372621,
+            "ndcg_binary": 0.6168025519283068,
+            "hit": 0.9291666666666667,
+            "all_annotated_evidence_found": 0.6625
+          }
+        },
+        "elapsed_ms": {
+          "mean": 2.9531183333330775,
+          "p50": 2.5108000000000175,
+          "p95": 5.363900000000285
+        },
+        "per_query_candidate_budget": 100
+      },
+      "production_search_control": {
+        "evaluated_cases": 240,
+        "at_k": {
+          "5": {
+            "recall": 0.04353174603174603,
+            "annotated_precision_lower_bound": 0.023333333333333338,
+            "reciprocal_rank": 0.03659722222222222,
+            "ndcg_binary": 0.03552126853629982,
+            "hit": 0.0625,
+            "all_annotated_evidence_found": 0.025
+          },
+          "10": {
+            "recall": 0.06964285714285713,
+            "annotated_precision_lower_bound": 0.01875,
+            "reciprocal_rank": 0.04078373015873016,
+            "ndcg_binary": 0.045888877215178224,
+            "hit": 0.09166666666666666,
+            "all_annotated_evidence_found": 0.041666666666666664
+          },
+          "20": {
+            "recall": 0.12534722222222222,
+            "annotated_precision_lower_bound": 0.01583333333333333,
+            "reciprocal_rank": 0.044643405753603115,
+            "ndcg_binary": 0.06344707880936057,
+            "hit": 0.15,
+            "all_annotated_evidence_found": 0.1
+          }
+        },
+        "elapsed_ms": {
+          "mean": 75.19261166666666,
+          "p50": 89.40080000000125,
+          "p95": 106.26530000000002
+        },
+        "per_query_candidate_budget": 100
+      }
+    },
+    "query_type_distribution": {
+      "含条件的规则查询": 9,
+      "定义及概念边界": 10,
+      "术语与近义消歧": 4,
+      "例外与条件不足": 4,
+      "跨命题前提查证": 2,
+      "引文与来源核验": 2,
+      "无答案与反幻觉": 2,
+      "状态及歧义": 1,
+      "图文关系与来源": 1,
+      "跨课规则": 1,
+      "状态及条件": 1,
+      "量词与条件": 2,
+      "身份隔离": 2,
+      "明确修订与证据": 3,
+      "跨课概念边界": 1,
+      "跨课前提查证": 1,
+      "无答案与原文疑点": 1,
+      "图文关系与状态": 1,
+      "跨级别前提": 1,
+      "例外与语境": 1,
+      "类别与量词": 1,
+      "联合条件": 2,
+      "比喻与严格定义": 1,
+      "原字疑点": 1,
+      "图文与完成状态": 1,
+      "概率与保证范围": 1,
+      "交易边界": 1,
+      "最低结构与类比": 1,
+      "数值与适用范围": 1,
+      "来源身份与绩效": 1,
+      "定义与完成边界": 1,
+      "截取形态与类型": 1,
+      "延续与转折": 1,
+      "案例与级别边界": 1,
+      "符号及完成条件": 1,
+      "区间指代": 1,
+      "操作级别条件": 1,
+      "证据不足与核验范围": 1,
+      "后文明确限制": 1,
+      "时间工具与级别": 1,
+      "修辞与预测": 1,
+      "可能与完成": 1,
+      "经验与保证范围": 1,
+      "联合形态与顺序": 1,
+      "或条件与层次": 1,
+      "级别与指标周期": 1,
+      "结构必经与操作级别": 1,
+      "定义和强弱": 1,
+      "跨级别状态": 1,
+      "时态与确认": 1,
+      "结构及前后比较": 1,
+      "构成与确立": 1,
+      "条件及失败分支": 1,
+      "原文疑点与无答案": 1,
+      "跨课语境分歧": 1,
+      "变量及定义": 1,
+      "状态转换限制": 1,
+      "必要条件与多数": 1,
+      "跨周期确认": 1,
+      "图源和语气": 1,
+      "计数和证明边界": 1,
+      "状态与价格精度": 1,
+      "例外和量词": 1,
+      "辅助和周期选择": 1,
+      "案例与形式定义": 1,
+      "自述与预测身份": 1,
+      "同符号多义": 1,
+      "必要非充分": 1,
+      "概率和例外": 1,
+      "近似和取样边界": 1,
+      "对象状态区别": 1,
+      "状态与人群前提": 1,
+      "操作退出例外": 1,
+      "周期与结构": 1,
+      "作者明确澄清": 1,
+      "配件与类对象范围": 1,
+      "图来源和条件": 1,
+      "准备和选择": 1,
+      "可执行性限制": 1,
+      "联合条件和人群": 1,
+      "预期和事实": 1,
+      "自述和明确补充": 1,
+      "再试条件": 1,
+      "心态和结构边界": 1,
+      "能力范围分歧": 1,
+      "跨日问答": 1,
+      "标的和参与身份": 1,
+      "指标辅助": 1,
+      "结构分类和执行": 1,
+      "能力和例外": 1,
+      "类比证据边界": 1,
+      "跨日期层次": 1,
+      "数量和符号范围": 1,
+      "明确修订和沉默": 1,
+      "保证边界和消息": 1,
+      "具体编号条件": 1,
+      "相对走势与联合前提": 1,
+      "仓位定义范围": 1,
+      "方向和类型": 1,
+      "案例估算及声明": 1,
+      "指标与结构状态": 1,
+      "划分范围": 1,
+      "结合律前提": 1,
+      "结构完成前提": 1,
+      "相对方向和未核编号": 1,
+      "跨课范围": 1,
+      "层级状态": 1,
+      "多层确认链": 1,
+      "一般说法与能力门槛": 1,
+      "分型笔及周期": 1,
+      "同篇及跨课范围": 1,
+      "分支随时间": 1,
+      "完成与后期图": 1,
+      "二买三种情况": 1,
+      "点类与宽称": 1,
+      "跨课条件": 1,
+      "递归入口范围": 1,
+      "作者主张与证明边界": 1,
+      "当下含义": 1,
+      "表达式未定义边界": 1,
+      "日期与完成状态": 1,
+      "级别与机会前提": 1,
+      "图参考框架": 1,
+      "明确纠正证据": 1,
+      "跨页与确认条件": 1,
+      "防守方法能力范围": 1,
+      "跨页周期条件": 1,
+      "作者纲领与科学证明": 1,
+      "原数和尺度": 1,
+      "目标惯例边界": 1,
+      "确认层次": 1,
+      "跨日原句": 1,
+      "资金阶段和隔夜约束": 1,
+      "来源身份与跨日答案": 1,
+      "周期与概率": 1,
+      "三周期边界": 1,
+      "历史风险与技术结构": 1,
+      "概念别名和方法前提": 1,
+      "身份和跨段日期": 1,
+      "仓位方法范围": 1,
+      "力度与原数范围": 1,
+      "确认条件": 1,
+      "跨日包含和分阶段": 1,
+      "入场与持有边界": 1,
+      "理论条件与经验参考": 1,
+      "作者断言与执行范围": 1,
+      "经验工具边界": 1,
+      "缺口对象及动作": 1,
+      "未给答案与未知图": 1,
+      "参数及适用范围": 1,
+      "分类进程和未答设问": 1,
+      "指标定义和个股条件": 1,
+      "级别与图文身份": 1,
+      "跨课计数范围": 1,
+      "轮动基础和制度限制": 1,
+      "明确解释与方法范围": 1,
+      "来源时间头范围": 1,
+      "层次与时间": 1,
+      "中枢数量和合法前提": 1,
+      "跨级别确认链": 1,
+      "条件和统计边界": 1,
+      "奔走型/费用和次级分段": 1,
+      "执行约束与替代条件": 1,
+      "形成与完成": 1,
+      "分解语境": 1,
+      "资金/能力与经验": 1,
+      "底部两入口": 1,
+      "确认与入场": 1,
+      "月候选/确认": 1,
+      "月周日层次": 1,
+      "身份与概率": 1,
+      "层次及日期": 1,
+      "经验周期非硬时钟": 1,
+      "吻定义": 1,
+      "定义与经验": 1,
+      "均线体位/相对评价": 1,
+      "例外与风险": 1,
+      "概念边界与后文限定": 1,
+      "买卖不对称": 1,
+      "联合条件与不确定性": 1,
+      "执行例外": 1,
+      "仓位与期限": 1,
+      "观察与介入标准": 1,
+      "回放身份": 1,
+      "图文日期及原话限定": 1,
+      "定义/防护": 1,
+      "失效条件": 1,
+      "参照范围": 1,
+      "案例与通则": 1,
+      "统计及纪律": 1,
+      "均线框架与相应走势": 1,
+      "程序/案例": 1,
+      "指标参数/上下文": 1,
+      "多周期确认": 1,
+      "定义边界": 1,
+      "来源身份": 2,
+      "原文/读者/图注": 1,
+      "定义与明确限定": 1,
+      "面积定义及确认": 1,
+      "柱波/完整背驰": 1,
+      "条件范围及跨课": 1,
+      "能力与定义": 1,
+      "原入场前提": 1,
+      "未完/多周期": 1,
+      "策略范围": 1,
+      "概率与收益边界": 1,
+      "排除与周期": 1,
+      "辅助条件与身份": 1
+    },
+    "ten_category_target_distribution_verified": false,
+    "ablation_run": false,
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "generated_model_token_cost": null,
+    "full_stage_g_acceptance_claimed": false
+  },
+  "known_limits": [
+    "Full-sentence native search remains weak; data delivery is not a validated natural-language QA product. Use concepts/keywords and inspect conditions/source evidence.",
+    "Vector baseline not implemented; fusion is offline evaluation only, no software feature added.",
+    "240 model-reviewed development cases are not an independent/human gold test. Precision is a lower bound against annotated passages; unannotated results are not automatically irrelevant.",
+    "No generated-answer faithfulness, human semantic score, conflict detection rate, adversarial score, visual interaction, ablation or generalization claim.",
+    "265 figure origins remain unverified and 263 are later annotations; viewing does not establish author identity.",
+    "473 reviewed claims retain explicit ambiguity, 2611 candidates remain excluded from default knowledge. Unresolved interpretation is not silently fixed.",
+    "9138 historical lesson-row hashes match current text; 167 legacy rows lack historical text hashes but contain per-passage dispositions. No fabricated historical hashes.",
+    "Software deliverables and desktop UI/build/package acceptance are excluded by the direct user scope."
+  ],
+  "all_source_and_knowledge_facts_unchanged": true,
+  "final_sha256": {
+    "database": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+    "manifest": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac"
+  },
+  "quality_ready_for_knowledge_delivery": true,
+  "actual_delivery_verified": false,
+  "semantic_completion_all_explanations_confirmed": false
+}

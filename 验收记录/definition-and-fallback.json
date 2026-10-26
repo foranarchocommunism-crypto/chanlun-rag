@@ -1,0 +1,201 @@
+{
+  "pass": true,
+  "canonical_unchanged": true,
+  "definition_query": "中枢是什么，成立需要什么条件？",
+  "definition_expected_id": "upper-l017-center-definition",
+  "scope": "Existing functional regression and controlled mechanism probe; not an independent representative semantic benchmark",
+  "definition_comparison": [
+    {
+      "name": "default",
+      "primary_ids": [
+        "upper-l017-center-definition",
+        "upper-l020-center-formula-reduced",
+        "lower-l089-c-stage-center-extension-or-third-point",
+        "upper-l020-center-central-two-expansion",
+        "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity"
+      ],
+      "expected_definition_rank": 1,
+      "graph_anchors": [
+        "upper-l017-center-definition"
+      ],
+      "graph_paths": [
+        {
+          "relation_id": "relation-0ed8e45a1ed5f0b0",
+          "relation_type": "requires",
+          "source": "concept-ca31d0f4fbdd0c07",
+          "target": "concept-3403e6e29ce58f3f",
+          "traversal_direction": "source_to_target",
+          "original_review_status": "reviewed",
+          "supporting_claim_ids": [
+            "upper-l017-center-definition"
+          ],
+          "support_claim_id": "upper-l017-center-definition",
+          "support_evidence_ids": [
+            "evidence-6d07bb0f0b247d01",
+            "evidence-f76973ddd057981e"
+          ],
+          "seed_claim_id": "upper-l017-center-definition",
+          "depth": 1,
+          "concept_path": [
+            "concept-ca31d0f4fbdd0c07",
+            "concept-3403e6e29ce58f3f"
+          ],
+          "relation_path": [
+            "relation-0ed8e45a1ed5f0b0"
+          ],
+          "semantics": "evidence_supported_association_not_transitive_inference",
+          "depends_on_interpretation": false,
+          "query_intent": "definition"
+        }
+      ],
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "graph_definition_anchor",
+        "cross_encoder_rerank"
+      ]
+    },
+    {
+      "name": "text40",
+      "primary_ids": [
+        "upper-l020-center-formula-reduced",
+        "lower-l089-c-stage-center-extension-or-third-point",
+        "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+        "lower-l083-c-stage-center-complexity-aftereffects",
+        "upper-l020-center-central-two-expansion"
+      ],
+      "expected_definition_rank": null,
+      "graph_anchors": [],
+      "graph_paths": [],
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ]
+    },
+    {
+      "name": "text48",
+      "primary_ids": [
+        "upper-l020-center-formula-reduced",
+        "lower-l089-c-stage-center-extension-or-third-point",
+        "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+        "lower-l083-c-stage-center-complexity-aftereffects",
+        "upper-l020-center-central-two-expansion"
+      ],
+      "expected_definition_rank": null,
+      "graph_anchors": [],
+      "graph_paths": [],
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ]
+    },
+    {
+      "name": "graph_admission",
+      "primary_ids": [
+        "upper-l017-center-definition",
+        "upper-l020-center-formula-reduced",
+        "lower-l089-c-stage-center-extension-or-third-point",
+        "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+        "lower-l083-c-stage-center-complexity-aftereffects"
+      ],
+      "expected_definition_rank": 1,
+      "graph_anchors": [
+        "upper-l017-center-definition"
+      ],
+      "graph_paths": [
+        {
+          "relation_id": "relation-0ed8e45a1ed5f0b0",
+          "relation_type": "requires",
+          "source": "concept-ca31d0f4fbdd0c07",
+          "target": "concept-3403e6e29ce58f3f",
+          "traversal_direction": "source_to_target",
+          "original_review_status": "reviewed",
+          "supporting_claim_ids": [
+            "upper-l017-center-definition"
+          ],
+          "support_claim_id": "upper-l017-center-definition",
+          "support_evidence_ids": [
+            "evidence-6d07bb0f0b247d01",
+            "evidence-f76973ddd057981e"
+          ],
+          "path_id": "anchor:relation-0ed8e45a1ed5f0b0:upper-l017-center-definition",
+          "steps": [
+            {
+              "relation_id": "relation-0ed8e45a1ed5f0b0",
+              "relation_type": "requires",
+              "source": "concept-ca31d0f4fbdd0c07",
+              "target": "concept-3403e6e29ce58f3f",
+              "traversal_direction": "source_to_target",
+              "original_review_status": "reviewed",
+              "supporting_claim_ids": [
+                "upper-l017-center-definition"
+              ],
+              "support_claim_id": "upper-l017-center-definition",
+              "support_evidence_ids": [
+                "evidence-6d07bb0f0b247d01",
+                "evidence-f76973ddd057981e"
+              ]
+            }
+          ],
+          "seed_claim_id": "upper-l017-center-definition",
+          "depth": 1,
+          "concept_path": [
+            "concept-ca31d0f4fbdd0c07",
+            "concept-3403e6e29ce58f3f"
+          ],
+          "relation_path": [
+            "relation-0ed8e45a1ed5f0b0"
+          ],
+          "semantics": "evidence_supported_association_not_transitive_inference",
+          "depends_on_interpretation": false,
+          "query_intent": "definition",
+          "auxiliary_claims": [],
+          "evidence_chain_complete": true
+        }
+      ],
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "graph_definition_anchor",
+        "cross_encoder_rerank"
+      ]
+    }
+  ],
+  "graph_failures": [
+    {
+      "profile": "hybrid-graph-rerank",
+      "strict_error": "GRAPH_EXECUTION_ERROR",
+      "fallback_data_equal": true,
+      "subsequent_request_recovered": true
+    },
+    {
+      "profile": "hybrid-graph-v2-rerank",
+      "strict_error": "GRAPH_EXECUTION_ERROR",
+      "fallback_data_equal": true,
+      "subsequent_request_recovered": true
+    }
+  ],
+  "unrelated_graph_skipped": true,
+  "unrelated_text_status": "found",
+  "source_code": {
+    "config.mjs": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+    "core.mjs": "ade732b7c130db9cdd1f62ee1de8953a2063c9a150dd3f418454eb83202e4786",
+    "corpus.mjs": "217f153dda7540b3ce4cc3b7cae1d343a172fb00e691ae120e2c53fe65e34d5b",
+    "definition-anchors.mjs": "d8fab603869226a72ba20978adc3204cd1c14a0866eace2c42e36cd32d79ccfb",
+    "dense.mjs": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+    "embedding.mjs": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+    "graph-admission.mjs": "219ab7eeb4cc933ddfb0694791234b7efb71c0b563ceada5186ede18c2e48611",
+    "graph-expansion.mjs": "0b7c16cfcc5fd0fcead1dd8b2da4b5d42bf3b379ddaa7ad0184d1813e957b75d",
+    "graph-stage.mjs": "4fecee6154192cec9b266d23da66ab7e481681edaf13c7e5b3ef48870b4d59be",
+    "index.mjs": "4017dc68f732dc3915863ce52fa8a51984c6e1a28c0a2b9f8d3d09cff0883a9f",
+    "lexical.mjs": "5a48f1a762362c7a7e2e3fd9265439ee55105672339a19b9d1e725617616589c",
+    "reranker.mjs": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+    "retrieval.mjs": "e3f959ed4a39e5d1b832c797c3b91c15d107851ab424864c9c4203dbb4f01972",
+    "snapshot.mjs": "6c3c31a9134eb93668ac34bb623c5050e4b6f1bad9f84ec1a0534f261f9ac7d9"
+  },
+  "default_profile": "hybrid-graph-rerank"
+}

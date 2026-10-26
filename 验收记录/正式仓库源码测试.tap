@@ -1,0 +1,712 @@
+TAP version 13
+# Subtest: 固定底本覆盖907个实际PDF页面与108课，语义进度独立
+ok 1 - 固定底本覆盖907个实际PDF页面与108课，语义进度独立
+  ---
+  duration_ms: 179.8327
+  type: 'test'
+  ...
+# Subtest: 两字词可查，并且默认命题均已复核
+ok 2 - 两字词可查，并且默认命题均已复核
+  ---
+  duration_ms: 639.7171
+  type: 'test'
+  ...
+# Subtest: 独立条件和例外中的完整短语可直接命中并排在概念泛匹配之前
+ok 3 - 独立条件和例外中的完整短语可直接命中并排在概念泛匹配之前
+  ---
+  duration_ms: 69.3424
+  type: 'test'
+  ...
+# Subtest: 核心中枢定义保留数量、连续、次级别及完成条件
+ok 4 - 核心中枢定义保留数量、连续、次级别及完成条件
+  ---
+  duration_ms: 3.2496
+  type: 'test'
+  ...
+# Subtest: 最低不可分解级别的定义入口独立保留
+ok 5 - 最低不可分解级别的定义入口独立保留
+  ---
+  duration_ms: 1.6201
+  type: 'test'
+  ...
+# Subtest: 盘整及趋势保留完成状态与趋势方向条件
+ok 6 - 盘整及趋势保留完成状态与趋势方向条件
+  ---
+  duration_ms: 3.1667
+  type: 'test'
+  ...
+# Subtest: 实际PDF75页提问、作者答复、下一课正确分开
+ok 7 - 实际PDF75页提问、作者答复、下一课正确分开
+  ---
+  duration_ms: 1.8396
+  type: 'test'
+  ...
+# Subtest: 无冒号嵌入作者时间头后的答复正确识别
+ok 8 - 无冒号嵌入作者时间头后的答复正确识别
+  ---
+  duration_ms: 1.2189
+  type: 'test'
+  ...
+# Subtest: 每个复核引用精确对应归一文本及实际PDF字符
+ok 9 - 每个复核引用精确对应归一文本及实际PDF字符
+  ---
+  duration_ms: 7114.7964
+  type: 'test'
+  ...
+# Subtest: 作者明说与推论有独立身份和可解析前提链
+ok 10 - 作者明说与推论有独立身份和可解析前提链
+  ---
+  duration_ms: 6.9539
+  type: 'test'
+  ...
+# Subtest: 重叠例子的算术答案独立标为整理推论，不补出中枢成立条件
+ok 11 - 重叠例子的算术答案独立标为整理推论，不补出中枢成立条件
+  ---
+  duration_ms: 4.2801
+  type: 'test'
+  ...
+# Subtest: 前段尾部的新时间头只修订其后内容日期
+ok 12 - 前段尾部的新时间头只修订其后内容日期
+  ---
+  duration_ms: 1.896
+  type: 'test'
+  ...
+# Subtest: 解盘技术补充保留作者身份、递归入口和成交分笔的区别
+ok 13 - 解盘技术补充保留作者身份、递归入口和成交分笔的区别
+  ---
+  duration_ms: 1.9745
+  type: 'test'
+  ...
+# Subtest: 简短组合回复保留问题范围，低级别卖点不冒充日线背驰定位
+ok 14 - 简短组合回复保留问题范围，低级别卖点不冒充日线背驰定位
+  ---
+  duration_ms: 3.0593
+  type: 'test'
+  ...
+# Subtest: 中枢的九段延伸不被当成所有中枢必要条件，笔破坏与线段破坏分开
+ok 15 - 中枢的九段延伸不被当成所有中枢必要条件，笔破坏与线段破坏分开
+  ---
+  duration_ms: 4.2008
+  type: 'test'
+  ...
+# Subtest: 作者错误图警示及后加图来源与文字命题分别保留
+ok 16 - 作者错误图警示及后加图来源与文字命题分别保留
+  ---
+  duration_ms: 3.3771
+  type: 'test'
+  ...
+# Subtest: 71课错误图的更正保留81课限定及作者认可读者答案的证据链
+ok 17 - 71课错误图的更正保留81课限定及作者认可读者答案的证据链
+  ---
+  duration_ms: 5.0115
+  type: 'test'
+  ...
+# Subtest: 新笔两个联合条件及新旧标准选择分别可查
+ok 18 - 新笔两个联合条件及新旧标准选择分别可查
+  ---
+  duration_ms: 3.4851
+  type: 'test'
+  ...
+# Subtest: 中枢简式的回升或回调是替代条件，来源时间头不污染跨页评论
+ok 19 - 中枢简式的回升或回调是替代条件，来源时间头不污染跨页评论
+  ---
+  duration_ms: 1.6938
+  type: 'test'
+  ...
+# Subtest: 候选必须显式开启，重要性与复核状态独立
+ok 20 - 候选必须显式开启，重要性与复核状态独立
+  ---
+  duration_ms: 162.6834
+  type: 'test'
+  ...
+# Subtest: 字符串false和隐式数值转换不能开启候选或改变查询规模
+ok 21 - 字符串false和隐式数值转换不能开启候选或改变查询规模
+  ---
+  duration_ms: 287.2016
+  type: 'test'
+  ...
+# Subtest: 汇编后记和006年读者头不会留作作者候选，后加图有独立来源状态
+ok 22 - 汇编后记和006年读者头不会留作作者候选，后加图有独立来源状态
+  ---
+  duration_ms: 236.4408
+  type: 'test'
+  ...
+# Subtest: 关系均由已复核命题支持，等级筛选沿同一依据
+ok 23 - 关系均由已复核命题支持，等级筛选沿同一依据
+  ---
+  duration_ms: 199.6853
+  type: 'test'
+  ...
+# Subtest: 分页与邻域截断明确，不返回无限图
+ok 24 - 分页与邻域截断明确，不返回无限图
+  ---
+  duration_ms: 173.6081
+  type: 'test'
+  ...
+# Subtest: Agent CLI独立运行并与公共查询模块结果一致
+ok 25 - Agent CLI独立运行并与公共查询模块结果一致
+  ---
+  duration_ms: 486.4079
+  type: 'test'
+  ...
+# Subtest: 固定底本哈希、数据库约束及只读行为可核验
+ok 26 - 固定底本哈希、数据库约束及只读行为可核验
+  ---
+  duration_ms: 199.675
+  type: 'test'
+  ...
+# Subtest: A01 Graph-only candidates reach the actual scoring call despite 100 text candidates
+ok 27 - A01 Graph-only candidates reach the actual scoring call despite 100 text candidates
+  ---
+  duration_ms: 67.6723
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=20
+ok 28 - A04 exact capacity R=20, C=20
+  ---
+  duration_ms: 23.1484
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=40
+ok 29 - A04 exact capacity R=20, C=40
+  ---
+  duration_ms: 25.9653
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=100
+ok 30 - A04 exact capacity R=20, C=100
+  ---
+  duration_ms: 27.0447
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=20
+ok 31 - A04 exact capacity R=40, C=20
+  ---
+  duration_ms: 19.4605
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=40
+ok 32 - A04 exact capacity R=40, C=40
+  ---
+  duration_ms: 28.8255
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=100
+ok 33 - A04 exact capacity R=40, C=100
+  ---
+  duration_ms: 27.7771
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=20
+ok 34 - A04 exact capacity R=44, C=20
+  ---
+  duration_ms: 20.5019
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=40
+ok 35 - A04 exact capacity R=44, C=40
+  ---
+  duration_ms: 23.3255
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=100
+ok 36 - A04 exact capacity R=44, C=100
+  ---
+  duration_ms: 30.0128
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=20
+ok 37 - A04 exact capacity R=48, C=20
+  ---
+  duration_ms: 27.691
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=40
+ok 38 - A04 exact capacity R=48, C=40
+  ---
+  duration_ms: 18.9697
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=100
+ok 39 - A04 exact capacity R=48, C=100
+  ---
+  duration_ms: 38.0126
+  type: 'test'
+  ...
+# Subtest: A03 duplicated paths and an already present anchor do not consume multiple seats
+ok 40 - A03 duplicated paths and an already present anchor do not consume multiple seats
+  ---
+  duration_ms: 4.3072
+  type: 'test'
+  ...
+# Subtest: A05 empty graph does not pad the scoring input
+ok 41 - A05 empty graph does not pad the scoring input
+  ---
+  duration_ms: 24.2875
+  type: 'test'
+  ...
+# Subtest: A06 a two-claim bundle cannot enter one remaining slot
+ok 42 - A06 a two-claim bundle cannot enter one remaining slot
+  ---
+  duration_ms: 1.344
+  type: 'test'
+  ...
+# Subtest: A07 source, zero graph budget, no query root and explicit concept root are observable
+ok 43 - A07 source, zero graph budget, no query root and explicit concept root are observable
+  ---
+  duration_ms: 118.5032
+  type: 'test'
+  ...
+# Subtest: N02 second hop has no reserved candidate seat and path depth does not change admission priority
+ok 44 - N02 second hop has no reserved candidate seat and path depth does not change admission priority
+  ---
+  duration_ms: 2.6402
+  type: 'test'
+  ...
+# Subtest: N03 every candidate is reranked on its own text, conditions and exceptions, without a two-hop prompt
+ok 45 - N03 every candidate is reranked on its own text, conditions and exceptions, without a two-hop prompt
+  ---
+  duration_ms: 23.8292
+  type: 'test'
+  ...
+# Subtest: C01-C05 prepare failure has atomic fallback, strict mode and next-request recovery
+ok 46 - C01-C05 prepare failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 144.0531
+  type: 'test'
+  ...
+# Subtest: C01-C05 expand failure has atomic fallback, strict mode and next-request recovery
+ok 47 - C01-C05 expand failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 92.3583
+  type: 'test'
+  ...
+# Subtest: C01-C05 anchors failure has atomic fallback, strict mode and next-request recovery
+ok 48 - C01-C05 anchors failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 83.4367
+  type: 'test'
+  ...
+# Subtest: C01-C05 validate failure has atomic fallback, strict mode and next-request recovery
+ok 49 - C01-C05 validate failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 79.7398
+  type: 'test'
+  ...
+# Subtest: C01-C05 packagePath failure has atomic fallback, strict mode and next-request recovery
+ok 50 - C01-C05 packagePath failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 108.3269
+  type: 'test'
+  ...
+# Subtest: C04 invalid computed graph evidence fails validation but canonical corrupt errors propagate
+ok 51 - C04 invalid computed graph evidence fails validation but canonical corrupt errors propagate
+  ---
+  duration_ms: 30.2039
+  type: 'test'
+  ...
+# Subtest: C06 deterministic monotonic deadline produces GRAPH_TIMEOUT
+ok 52 - C06 deterministic monotonic deadline produces GRAPH_TIMEOUT
+  ---
+  duration_ms: 22.4489
+  type: 'test'
+  ...
+# Subtest: C02 failure during actual traversal support lookup: bridge
+ok 53 - C02 failure during actual traversal support lookup: bridge
+  ---
+  duration_ms: 46.6967
+  type: 'test'
+  ...
+# Subtest: C02 failure during actual traversal support lookup: answer
+ok 54 - C02 failure during actual traversal support lookup: answer
+  ---
+  duration_ms: 42.7418
+  type: 'test'
+  ...
+# Subtest: C07 invalid request, version errors and cancellation cannot be swallowed
+ok 55 - C07 invalid request, version errors and cancellation cannot be swallowed
+  ---
+  duration_ms: 4.944
+  type: 'test'
+  ...
+# Subtest: C08 failed queued request does not poison the next request
+ok 56 - C08 failed queued request does not poison the next request
+  ---
+  duration_ms: 32.6434
+  type: 'test'
+  ...
+# Subtest: C09 independent dense and graph failures preserve lexical fallback and all reasons
+ok 57 - C09 independent dense and graph failures preserve lexical fallback and all reasons
+  ---
+  duration_ms: 16.0847
+  type: 'test'
+  ...
+# Subtest: C09 reranker failure cannot turn graph seats into forced final positions
+ok 58 - C09 reranker failure cannot turn graph seats into forced final positions
+  ---
+  duration_ms: 20.4526
+  type: 'test'
+  ...
+# Subtest: C10 normal budget exhaustion is visible without degradation
+ok 59 - C10 normal budget exhaustion is visible without degradation
+  ---
+  duration_ms: 25.6506
+  type: 'test'
+  ...
+# Subtest: legacy graph profile also gains the controlled failure boundary
+ok 60 - legacy graph profile also gains the controlled failure boundary
+  ---
+  duration_ms: 47.9627
+  type: 'test'
+  ...
+# Subtest: B01/B02 duplicate supports count once; a competitive two-hop path can enter the shared pool
+ok 61 - B01/B02 duplicate supports count once; a competitive two-hop path can enter the shared pool
+  ---
+  duration_ms: 26.7159
+  type: 'test'
+  ...
+# Subtest: N01 second hop has no minimum when stronger first-hop supports fill the common path budget
+ok 62 - N01 second hop has no minimum when stronger first-hop supports fill the common path budget
+  ---
+  duration_ms: 2.584
+  type: 'test'
+  ...
+# Subtest: B03 an absent or unreviewed bridge cannot propagate
+ok 63 - B03 an absent or unreviewed bridge cannot propagate
+  ---
+  duration_ms: 4.7962
+  type: 'test'
+  ...
+# Subtest: B03 all edge supports honor request eligibility, including document filtering
+ok 64 - B03 all edge supports honor request eligibility, including document filtering
+  ---
+  duration_ms: 1.337
+  type: 'test'
+  ...
+# Subtest: B03 research can traverse a pending bridge only with an explicit research pool
+ok 65 - B03 research can traverse a pending bridge only with an explicit research pool
+  ---
+  duration_ms: 1.5282
+  type: 'test'
+  ...
+# Subtest: B04 high fanout, rejected entries and large support lists respect counted hard limits
+ok 66 - B04 high fanout, rejected entries and large support lists respect counted hard limits
+  ---
+  duration_ms: 9.0004
+  type: 'test'
+  ...
+# Subtest: B05 cycles do not become paths, reverse direction and shared bridge are preserved
+ok 67 - B05 cycles do not become paths, reverse direction and shared bridge are preserved
+  ---
+  duration_ms: 1.7006
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=0
+ok 68 - B06 bounded depth=0 budget=0
+  ---
+  duration_ms: 1.2262
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=1
+ok 69 - B06 bounded depth=0 budget=1
+  ---
+  duration_ms: 1.0238
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=2
+ok 70 - B06 bounded depth=0 budget=2
+  ---
+  duration_ms: 1.1335
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=20
+ok 71 - B06 bounded depth=0 budget=20
+  ---
+  duration_ms: 0.8839
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=100
+ok 72 - B06 bounded depth=0 budget=100
+  ---
+  duration_ms: 0.7779
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=0
+ok 73 - B06 bounded depth=1 budget=0
+  ---
+  duration_ms: 2.4022
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=1
+ok 74 - B06 bounded depth=1 budget=1
+  ---
+  duration_ms: 0.9629
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=2
+ok 75 - B06 bounded depth=1 budget=2
+  ---
+  duration_ms: 0.9854
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=20
+ok 76 - B06 bounded depth=1 budget=20
+  ---
+  duration_ms: 1.2156
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=100
+ok 77 - B06 bounded depth=1 budget=100
+  ---
+  duration_ms: 1.2049
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=0
+ok 78 - B06 bounded depth=2 budget=0
+  ---
+  duration_ms: 1.0323
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=1
+ok 79 - B06 bounded depth=2 budget=1
+  ---
+  duration_ms: 0.9244
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=2
+ok 80 - B06 bounded depth=2 budget=2
+  ---
+  duration_ms: 1.1363
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=20
+ok 81 - B06 bounded depth=2 budget=20
+  ---
+  duration_ms: 0.8352
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=100
+ok 82 - B06 bounded depth=2 budget=100
+  ---
+  duration_ms: 1.1605
+  type: 'test'
+  ...
+# Subtest: B07 row ordering does not alter path identity and canonical supports
+ok 83 - B07 row ordering does not alter path identity and canonical supports
+  ---
+  duration_ms: 5.6654
+  type: 'test'
+  ...
+# Subtest: quality gate rejects missing, string, boundary and insufficient effect values
+ok 84 - quality gate rejects missing, string, boundary and insufficient effect values
+  ---
+  duration_ms: 2.9039
+  type: 'test'
+  ...
+# Subtest: ordinary and negative gates require all quantitative and human judgments
+ok 85 - ordinary and negative gates require all quantitative and human judgments
+  ---
+  duration_ms: 0.3957
+  type: 'test'
+  ...
+# Subtest: B08 two-hop packet contains every edge source and separately identified bridge evidence
+ok 86 - B08 two-hop packet contains every edge source and separately identified bridge evidence
+  ---
+  duration_ms: 53.5956
+  type: 'test'
+  ...
+# Subtest: B09 small context defers whole paths with all relation continuation commands
+ok 87 - B09 small context defers whole paths with all relation continuation commands
+  ---
+  duration_ms: 5.4096
+  type: 'test'
+  ...
+# Subtest: fixed-corpus default preserves precise cited definition, complete conditions and true channels
+ok 88 - fixed-corpus default preserves precise cited definition, complete conditions and true channels
+  ---
+  duration_ms: 5387.4678
+  type: 'test'
+  ...
+# Subtest: graph paths preserve direction, hops, real supports and a hard path budget
+ok 89 - graph paths preserve direction, hops, real supports and a hard path budget
+  ---
+  duration_ms: 11.2748
+  type: 'test'
+  ...
+# Subtest: 60k context leaves room for final budget metadata on the reproduced MACD query
+ok 90 - 60k context leaves room for final budget metadata on the reproduced MACD query
+  ---
+  duration_ms: 1926.4249
+  type: 'test'
+  ...
+# Subtest: semantic research still partitions pending and preserves cross-page sources
+ok 91 - semantic research still partitions pending and preserves cross-page sources
+  ---
+  duration_ms: 1258.7221
+  type: 'test'
+  ...
+# Subtest: concurrent API requests are serialized through one model session and failure does not poison the queue
+ok 92 - concurrent API requests are serialized through one model session and failure does not poison the queue
+  ---
+  duration_ms: 105.4704
+  type: 'test'
+  ...
+# Subtest: Chinese two-character concepts and ASCII parameters survive normalization
+ok 93 - Chinese two-character concepts and ASCII parameters survive normalization
+  ---
+  duration_ms: 4.0719
+  type: 'test'
+  ...
+# Subtest: rare terms can beat generic terms; ties remain deterministic; unknown query is empty
+ok 94 - rare terms can beat generic terms; ties remain deterministic; unknown query is empty
+  ---
+  duration_ms: 1.3866
+  type: 'test'
+  ...
+# Subtest: a repeated quote or duplicated evidence row cannot inflate the unique passage budget
+ok 95 - a repeated quote or duplicated evidence row cannot inflate the unique passage budget
+  ---
+  duration_ms: 1.5485
+  type: 'test'
+  ...
+# Subtest: fusion rewards independent channel agreement and ignores duplicate items within one channel
+ok 96 - fusion rewards independent channel agreement and ignores duplicate items within one channel
+  ---
+  duration_ms: 0.7042
+  type: 'test'
+  ...
+# Subtest: ranking metrics agree with hand calculated rank two and three relevance
+ok 97 - ranking metrics agree with hand calculated rank two and three relevance
+  ---
+  duration_ms: 0.7286
+  type: 'test'
+  ...
+# Subtest: duplicate ranks do not inflate metrics; no gold has no fabricated perfect score
+ok 98 - duplicate ranks do not inflate metrics; no gold has no fabricated perfect score
+  ---
+  duration_ms: 0.3639
+  type: 'test'
+  ...
+# Subtest: reviewed and candidate pools match the fixed graph; triage is character coverage, not semantic equivalence
+ok 99 - reviewed and candidate pools match the fixed graph; triage is character coverage, not semantic equivalence
+  ---
+  duration_ms: 9.7731
+  type: 'test'
+  ...
+# Subtest: all 473 ambiguous reviewed claims remain accessible with exact original conditions and notes
+ok 100 - all 473 ambiguous reviewed claims remain accessible with exact original conditions and notes
+  ---
+  duration_ms: 1812.8433
+  type: 'test'
+  ...
+# Subtest: pending content requires explicit research and cannot be enabled by string false
+ok 101 - pending content requires explicit research and cannot be enabled by string false
+  ---
+  duration_ms: 897.8943
+  type: 'test'
+  ...
+# Subtest: known scope tension brings both sides and preserves unresolved identity
+ok 102 - known scope tension brings both sides and preserves unresolved identity
+  ---
+  duration_ms: 504.4879
+  type: 'test'
+  ...
+# Subtest: qualitative guidance returns unknown thresholds and literal qualified wording
+ok 103 - qualitative guidance returns unknown thresholds and literal qualified wording
+  ---
+  duration_ms: 17.8982
+  type: 'test'
+  ...
+# Subtest: source mode preserves reader attribution and never marks paragraph context reviewed
+ok 104 - source mode preserves reader attribution and never marks paragraph context reviewed
+  ---
+  duration_ms: 1467.6554
+  type: 'test'
+  ...
+# Subtest: tiny budgets defer whole evidence/issue units and preserve a real continuation command
+ok 105 - tiny budgets defer whole evidence/issue units and preserve a real continuation command
+  ---
+  duration_ms: 19.2203
+  type: 'test'
+  ...
+# Subtest: unicode windows use codepoints and can join a supplementary character without corrupting source offsets
+ok 106 - unicode windows use codepoints and can join a supplementary character without corrupting source offsets
+  ---
+  duration_ms: 4.8759
+  type: 'test'
+  ...
+# Subtest: a deferred source passage gives executable page parameters and preserves source attribution
+ok 107 - a deferred source passage gives executable page parameters and preserves source attribution
+  ---
+  duration_ms: 39.1067
+  type: 'test'
+  ...
+# Subtest: missing/stale/corrupt index is explicit and fallback requires a boolean opt-in
+ok 108 - missing/stale/corrupt index is explicit and fallback requires a boolean opt-in
+  ---
+  duration_ms: 3227.1712
+  type: 'test'
+  ...
+# Subtest: WAL-mode canonical snapshots are rejected even when main-file hashes match
+ok 109 - WAL-mode canonical snapshots are rejected even when main-file hashes match
+  ---
+  duration_ms: 247.8093
+  type: 'test'
+  ...
+# Subtest: projection interruption leaves no published directory; retry publishes a valid immutable snapshot
+ok 110 - projection interruption leaves no published directory; retry publishes a valid immutable snapshot
+  ---
+  duration_ms: 3124.8519
+  type: 'test'
+  ...
+# Subtest: vector fsync/checkpoint interruption verifies prefix, truncates uncommitted tail and resumes identically
+ok 111 - vector fsync/checkpoint interruption verifies prefix, truncates uncommitted tail and resumes identically
+  ---
+  duration_ms: 7621.3761
+  type: 'test'
+  ...
+# Subtest: partial temporary manifest never replaces usable manifest, and retry completes
+ok 112 - partial temporary manifest never replaces usable manifest, and retry completes
+  ---
+  duration_ms: 2256.7435
+  type: 'test'
+  ...
+# Subtest: a damaged committed vector prefix is rejected, not silently resumed
+ok 113 - a damaged committed vector prefix is rejected, not silently resumed
+  ---
+  duration_ms: 2090.7536
+  type: 'test'
+  ...
+# Subtest: queue capacity and wait deadline reject excess work and skip expired tasks
+ok 114 - queue capacity and wait deadline reject excess work and skip expired tasks
+  ---
+  duration_ms: 46.3745
+  type: 'test'
+  ...
+# Subtest: Windows transient rename denial retries without deleting the last valid file
+ok 115 - Windows transient rename denial retries without deleting the last valid file
+  ---
+  duration_ms: 291.343
+  type: 'test'
+  ...
+# Subtest: trace binds effective request, full stage rankings, source reasons and current artifact hashes
+ok 116 - trace binds effective request, full stage rankings, source reasons and current artifact hashes
+  ---
+  duration_ms: 4813.6853
+  type: 'test'
+  ...
+# Subtest: 固定快照会话阻止并发提交，关闭后重新打开匹配版本；拒绝半发布清单
+ok 117 - 固定快照会话阻止并发提交，关闭后重新打开匹配版本；拒绝半发布清单
+  ---
+  duration_ms: 2560.6714
+  type: 'test'
+  ...
+1..117
+# tests 117
+# suites 0
+# pass 117
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 21828.9183

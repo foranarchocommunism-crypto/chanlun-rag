@@ -1,5 +1,9 @@
 {
-  "status": "preparing",
+  "status": "released",
   "version": "0.4.0",
-  "ready_to_use": false
+  "ready_to_use": true,
+  "source_commit": "71abe4ea32fdc3edf06a36d7cab4730ca26d3d31",
+  "release_tag": "v0.4.0",
+  "archive_sha256": "7780ab2e580ad5782e71a231e4e676b35c622ed86934045201cad2e61af793cf",
+  "receipt": "验收记录/正式交付回执.json"
 }

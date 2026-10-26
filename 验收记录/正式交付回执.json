@@ -1,0 +1,178 @@
+{
+  "client_release_date": "2026-10-26",
+  "generated_at_host_utc": "2026-10-26T06:14:30.839909+00:00",
+  "passed": true,
+  "product_version": "0.4.0",
+  "repository": "C:\\Users\\13240\\Desktop\\缠论知识检索正式版",
+  "source_commit": "71abe4ea32fdc3edf06a36d7cab4730ca26d3d31",
+  "release": "C:\\Users\\13240\\Desktop\\缠论知识检索正式版\\release\\chan-kg-agent-0.4.0-windows-x64",
+  "archive": {
+    "archive": "C:\\Users\\13240\\Desktop\\缠论知识检索正式版\\archives\\chan-kg-agent-0.4.0-windows-x64.zip",
+    "archive_sha256": "7780ab2e580ad5782e71a231e4e676b35c622ed86934045201cad2e61af793cf",
+    "archive_bytes": 522573430,
+    "files": 7793,
+    "fresh_extraction": true,
+    "crc_checked_while_extracting": true,
+    "extracted_path": "C:\\Users\\13240\\Desktop\\缠论知识检索正式版\\release\\chan-kg-agent-0.4.0-windows-x64",
+    "verification_still_required": false,
+    "verified_execution_receipt": "验收记录/全新解压运行验证.json"
+  },
+  "canonical_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+  "source_code_sha256": {
+    "config.mjs": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+    "core.mjs": "ade732b7c130db9cdd1f62ee1de8953a2063c9a150dd3f418454eb83202e4786",
+    "corpus.mjs": "217f153dda7540b3ce4cc3b7cae1d343a172fb00e691ae120e2c53fe65e34d5b",
+    "definition-anchors.mjs": "d8fab603869226a72ba20978adc3204cd1c14a0866eace2c42e36cd32d79ccfb",
+    "dense.mjs": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+    "embedding.mjs": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+    "graph-admission.mjs": "219ab7eeb4cc933ddfb0694791234b7efb71c0b563ceada5186ede18c2e48611",
+    "graph-expansion.mjs": "0b7c16cfcc5fd0fcead1dd8b2da4b5d42bf3b379ddaa7ad0184d1813e957b75d",
+    "graph-stage.mjs": "4fecee6154192cec9b266d23da66ab7e481681edaf13c7e5b3ef48870b4d59be",
+    "index.mjs": "4017dc68f732dc3915863ce52fa8a51984c6e1a28c0a2b9f8d3d09cff0883a9f",
+    "lexical.mjs": "5a48f1a762362c7a7e2e3fd9265439ee55105672339a19b9d1e725617616589c",
+    "reranker.mjs": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+    "retrieval.mjs": "e3f959ed4a39e5d1b832c797c3b91c15d107851ab424864c9c4203dbb4f01972",
+    "snapshot.mjs": "6c3c31a9134eb93668ac34bb623c5050e4b6f1bad9f84ec1a0534f261f9ac7d9"
+  },
+  "tests": {
+    "passed": 117,
+    "failed": 0,
+    "skipped": 0,
+    "rerun_from_standalone_repository": true
+  },
+  "engineering": {
+    "static_snapshot_admission": true,
+    "WAL_rejected": true,
+    "read_session_blocks_commit": true,
+    "checkpoint_recovery": true,
+    "partial_manifest_recovery": true,
+    "projection_recovery": true,
+    "transient_windows_rename_retry": true,
+    "graph_fallback": true,
+    "queue_capacity_and_deadline": true,
+    "effective_request_fingerprints_and_trace": true
+  },
+  "artifact": {
+    "staging_execution_passed": true,
+    "fresh_extraction_execution_passed": true,
+    "interface_equality": [
+      "CLI",
+      "JavaScript",
+      "MCP stdio"
+    ],
+    "uses_bundled_runtime": true,
+    "network_scope": "Node fetch/http/https/net/tls/dns disabled by verification preload; OS connection state is not changed or claimed disconnected",
+    "independent_clean_host": false
+  },
+  "knowledge": {
+    "fixed_corpus": true,
+    "updates_planned": false,
+    "content_unchanged": true,
+    "review_states": {
+      "reviewed": 3369,
+      "pending": 2611,
+      "rejected": 28
+    },
+    "independent_full_semantic_review_claimed": false
+  },
+  "graph": {
+    "value_metrics": {
+      "D": {
+        "recall": 0.9204166666666668,
+        "complete_fraction": 0.8583333333333333,
+        "graph_promoted_queries": 0,
+        "two_hop_queries": 0,
+        "complete_two_hop_queries": 0
+      },
+      "T40": {
+        "recall": 0.9214583333333335,
+        "complete_fraction": 0.8625,
+        "graph_promoted_queries": 0,
+        "two_hop_queries": 0,
+        "complete_two_hop_queries": 0
+      },
+      "T48": {
+        "recall": 0.922152777777778,
+        "complete_fraction": 0.8625,
+        "graph_promoted_queries": 0,
+        "two_hop_queries": 0,
+        "complete_two_hop_queries": 0
+      },
+      "G1": {
+        "recall": 0.9214583333333335,
+        "complete_fraction": 0.8625,
+        "graph_promoted_queries": 66,
+        "two_hop_queries": 0,
+        "complete_two_hop_queries": 0
+      },
+      "G2": {
+        "recall": 0.9214583333333335,
+        "complete_fraction": 0.8625,
+        "graph_promoted_queries": 64,
+        "two_hop_queries": 197,
+        "complete_two_hop_queries": 0
+      }
+    },
+    "comparisons": {
+      "D": {
+        "against": "T40",
+        "improved": [],
+        "regressed": [
+          "g-b25-first-kiss-only-trend-and-later-consolidation"
+        ],
+        "mean_delta": -0.0010416666666667185
+      },
+      "G1": {
+        "against": "T48",
+        "improved": [
+          "g-b20-mechanical-title-alias"
+        ],
+        "regressed": [
+          "g-b16-revision-not-silence"
+        ],
+        "mean_delta": -0.000694444444444553
+      },
+      "G2": {
+        "against": "T48",
+        "improved": [
+          "g-b20-mechanical-title-alias"
+        ],
+        "regressed": [
+          "g-b16-revision-not-silence"
+        ],
+        "mean_delta": -0.000694444444444553
+      }
+    },
+    "functional_definition_probe": [
+      {
+        "name": "default",
+        "expected_definition_rank": 1
+      },
+      {
+        "name": "text40",
+        "expected_definition_rank": null
+      },
+      {
+        "name": "text48",
+        "expected_definition_rank": null
+      },
+      {
+        "name": "graph_admission",
+        "expected_definition_rank": 1
+      }
+    ],
+    "independent_semantic_acceptance": false,
+    "overall_quality_gain_claimed": false,
+    "two_hop_special_channels_or_floors": false
+  },
+  "evidence": {
+    "验收记录\\gates.json": "08ba608eadb5b737dd013d11000933c85b2641ab92a2e60c098a96c404f9e070",
+    "验收记录\\knowledge-integrity.json": "fa661aa07e11a8663a5b3ad59c41edf5a03cba10403bfd1262dc15aedbee477a",
+    "验收记录\\tests-final.tap": "679a68fe4ce2a957a53bcb292d4309da760070c4e5af5047814ae2b4c3bf1bc7",
+    "验收记录\\正式仓库源码测试.tap": "5e36ba25818275aaa2d21ff95ec43806687b8bd8052e3cc5e68c4f4252ea9d94",
+    "验收记录\\打包目录运行验证.json": "6162cd11a04eff72ad9a9761b4ba38dbfdcc1a1ef14030fad2e11bf791a6098c",
+    "验收记录\\全新解压运行验证.json": "9448266b6d0834ecc5a50bbb30feb513b9450bfda0897d4c77cd67ef6f6a2a96",
+    "验收记录\\graph-value-final\\metrics.json": "940e903d58ba9db809fc452c7b3ac4562f7b4ab1f0df24c470e820746df2d1e7",
+    "验收记录\\definition-and-fallback.json": "2bfababcdc273dff5df12523d06117c33f60960bc9dc07626c110937397aeba6"
+  }
+}

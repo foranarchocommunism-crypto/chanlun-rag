@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "client_date": "2026-10-26",
+  "fixed_corpus": true,
+  "canonical_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+  "manifest_sha256": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac",
+  "integrity_check": "ok",
+  "foreign_key_errors": 0,
+  "all_claim_quote_offsets_checked": true,
+  "statuses": {
+    "reviewed": 3369,
+    "pending": 2611,
+    "rejected": 28
+  },
+  "concepts": 318,
+  "relations": 692,
+  "reviewed_evidence": 4584,
+  "sources": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "path": "sources/volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "path": "sources/volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0"
+    }
+  ],
+  "semantic_boundary": "Existing review states and ambiguity retained; this audit does not assert new independent semantic verification",
+  "canonical_unchanged": true
+}

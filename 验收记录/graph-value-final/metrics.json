@@ -1,0 +1,105 @@
+{
+  "scope": "fixed exposed development corpus; not independent semantic or answer-quality acceptance",
+  "cases": 240,
+  "real_local_models": true,
+  "inputs": {
+    "cases": "a2e2287be836784e023d9dfbe5f6de6645fee46df23114bcb652e068528f292f",
+    "canonical": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+    "index": "4dbd11e325dc0ed092af5c2df171a4eb91cf4a64ebaff9b9cdb561c37cd08b48",
+    "profile": "049700a74243dc3e9fa5b1cc22c3fbe202be47dad425ec0527ff6ccebd103bca",
+    "graph_profile": "1074c39196450eea718bb40083f59b3290c31b7ed91ef815524371c00c29c62b",
+    "evaluator": "4e799146b030a2cf8dd87c26777cff69be247c940ced41a137ed5fba6d6b2e4b",
+    "code": {
+      "config.mjs": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+      "core.mjs": "ade732b7c130db9cdd1f62ee1de8953a2063c9a150dd3f418454eb83202e4786",
+      "corpus.mjs": "217f153dda7540b3ce4cc3b7cae1d343a172fb00e691ae120e2c53fe65e34d5b",
+      "definition-anchors.mjs": "d8fab603869226a72ba20978adc3204cd1c14a0866eace2c42e36cd32d79ccfb",
+      "dense.mjs": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+      "embedding.mjs": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+      "graph-admission.mjs": "219ab7eeb4cc933ddfb0694791234b7efb71c0b563ceada5186ede18c2e48611",
+      "graph-expansion.mjs": "0b7c16cfcc5fd0fcead1dd8b2da4b5d42bf3b379ddaa7ad0184d1813e957b75d",
+      "graph-stage.mjs": "4fecee6154192cec9b266d23da66ab7e481681edaf13c7e5b3ef48870b4d59be",
+      "index.mjs": "4017dc68f732dc3915863ce52fa8a51984c6e1a28c0a2b9f8d3d09cff0883a9f",
+      "lexical.mjs": "5a48f1a762362c7a7e2e3fd9265439ee55105672339a19b9d1e725617616589c",
+      "reranker.mjs": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+      "retrieval.mjs": "e3f959ed4a39e5d1b832c797c3b91c15d107851ab424864c9c4203dbb4f01972",
+      "snapshot.mjs": "6c3c31a9134eb93668ac34bb623c5050e4b6f1bad9f84ec1a0534f261f9ac7d9"
+    }
+  },
+  "summary": {
+    "D": {
+      "recall": 0.9204166666666668,
+      "complete_fraction": 0.8583333333333333,
+      "graph_promoted_queries": 0,
+      "two_hop_queries": 0,
+      "complete_two_hop_queries": 0
+    },
+    "T40": {
+      "recall": 0.9214583333333335,
+      "complete_fraction": 0.8625,
+      "graph_promoted_queries": 0,
+      "two_hop_queries": 0,
+      "complete_two_hop_queries": 0
+    },
+    "T48": {
+      "recall": 0.922152777777778,
+      "complete_fraction": 0.8625,
+      "graph_promoted_queries": 0,
+      "two_hop_queries": 0,
+      "complete_two_hop_queries": 0
+    },
+    "G1": {
+      "recall": 0.9214583333333335,
+      "complete_fraction": 0.8625,
+      "graph_promoted_queries": 66,
+      "two_hop_queries": 0,
+      "complete_two_hop_queries": 0
+    },
+    "G2": {
+      "recall": 0.9214583333333335,
+      "complete_fraction": 0.8625,
+      "graph_promoted_queries": 64,
+      "two_hop_queries": 197,
+      "complete_two_hop_queries": 0
+    }
+  },
+  "comparisons": {
+    "D": {
+      "against": "T40",
+      "improved": [],
+      "regressed": [
+        "g-b25-first-kiss-only-trend-and-later-consolidation"
+      ],
+      "mean_delta": -0.0010416666666667185
+    },
+    "G1": {
+      "against": "T48",
+      "improved": [
+        "g-b20-mechanical-title-alias"
+      ],
+      "regressed": [
+        "g-b16-revision-not-silence"
+      ],
+      "mean_delta": -0.000694444444444553
+    },
+    "G2": {
+      "against": "T48",
+      "improved": [
+        "g-b20-mechanical-title-alias"
+      ],
+      "regressed": [
+        "g-b16-revision-not-silence"
+      ],
+      "mean_delta": -0.000694444444444553
+    }
+  },
+  "batch_reuse": {
+    "computed": 3410,
+    "reused": 8034,
+    "exact_ordered_batches_of_4": true,
+    "timings_not_performance_evidence": true
+  },
+  "default_decision": "Preserve established definition retrieval with bounded graph execution; new admission remains optional without a claim of overall quality gain",
+  "two_hop_policy": "natural competition only; no dedicated channel or floor",
+  "completed": true
+}

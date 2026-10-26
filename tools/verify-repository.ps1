@@ -1,4 +1,4 @@
-param()
+﻿param()
 $ErrorActionPreference = 'Stop'
 $repoRoot = [IO.Path]::GetFullPath((Split-Path -Parent $PSScriptRoot))
 $listPath = Join-Path $repoRoot '仓库文件清单.sha256'

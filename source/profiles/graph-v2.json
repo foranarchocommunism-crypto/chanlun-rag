@@ -1,0 +1,16 @@
+{
+  "profile_version": "2.1.0-experimental",
+  "request_profile": "hybrid-graph-v2-rerank",
+  "default_enabled": false,
+  "status": "optional_no_proven_quality_gain",
+  "defaults": {
+    "graphDepth": 1,
+    "graphBudget": 20,
+    "rerankBudget": 48
+  },
+  "protected_text_max": 40,
+  "graph_additions_max": 8,
+  "hop_selection_policy": "shared_pool_no_reservations_no_floors",
+  "rerank_input_policy": "same_claim_text_conditions_exceptions_for_all_candidates",
+  "semantics": "evidence_supported_association_not_transitive_inference"
+}

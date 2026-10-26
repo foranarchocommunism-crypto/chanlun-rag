@@ -1,0 +1,38 @@
+{
+  "profile_version": "2.0.0",
+  "status": "fixed_corpus_release",
+  "default_profile": "hybrid-graph-rerank",
+  "fusion": {
+    "lexical_weight": 1,
+    "dense_weight": 0.5,
+    "graph_weight": 0.1,
+    "rrf_constant": 60
+  },
+  "graph": {
+    "default_depth": 1,
+    "supported_path_budget": 20,
+    "semantics": "supported_association_only"
+  },
+  "reranker": {
+    "default_enabled": true,
+    "default_budget": 40,
+    "experimental_budgets": [
+      20,
+      40,
+      44,
+      48
+    ]
+  },
+  "selection_basis": "Fixed-corpus release preserves the established sourced-definition regression. All Graph execution is now entity-gated and bounded. Optional new candidate admission and depth2 have no assumed quality advantage.",
+  "prospective_acceptance_exposed": false,
+  "frozen_at": "2026-10-26",
+  "resources": {
+    "environment": "CPU i5-1038NG7 / Windows10 x64 / about16GiB",
+    "warm_query_p95_ms_max": 6000,
+    "cold_cli_ms_max": 12000,
+    "process_peak_rss_bytes_max": 2147483648,
+    "basis": "CPU development run 240 real API calls: warm p95 about2076ms and peakRSS about1.315GB; conservative limits frozen before held-out execution.",
+    "queue_capacity": 8,
+    "queue_wait_ms_max": 30000
+  }
+}

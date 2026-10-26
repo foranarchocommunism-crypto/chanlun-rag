@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "chan-kg": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/d",
+        "/s",
+        "/c",
+        "call",
+        "C:\\Users\\13240\\Desktop\\缠论知识检索正式版\\chan-kg-mcp.cmd"
+      ]
+    }
+  }
+}

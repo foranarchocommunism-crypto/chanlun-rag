@@ -1,0 +1,453 @@
+{
+  "policy_version": "1.0.0",
+  "graph_version": "0.1.0-review-307029129712",
+  "created_at": "2026-10-22T07:53:46.086Z",
+  "source": "Approved plan section 6 and text-grounded research",
+  "semantic_review_scope": "Research records, no canonical promotion",
+  "issues": [
+    {
+      "issue_id": "issue-construction-entry",
+      "title": "construction-entry",
+      "trigger_claim_ids": [
+        "lower-l075-c-stage-one-price-limit-two-constructions",
+        "upper-l017-minimum-level-center",
+        "lower-l080-c-stage-early-pure-center-not-overturned"
+      ],
+      "related_claim_ids": [
+        "lower-l075-c-stage-one-price-limit-two-constructions",
+        "upper-l017-minimum-level-center",
+        "lower-l080-c-stage-early-pure-center-not-overturned"
+      ],
+      "resolution_status": "source_explicit",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-construction-entry-v1",
+          "original_claim_ids": [
+            "lower-l075-c-stage-one-price-limit-two-constructions",
+            "upper-l017-minimum-level-center",
+            "lower-l080-c-stage-early-pure-center-not-overturned"
+          ],
+          "source_evidence_ids": [
+            "evidence-53e646bde5c83836",
+            "evidence-6ac9c06be7bdc831",
+            "evidence-e2f204b5ba5683d1"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "作者明确区分最初最低级别入口与分型构造入口。此项是防止误报矛盾的对照，不证明所有入口全域等价。",
+          "explicit_conditions": [
+            "开盘一字涨停且全天未打开",
+            "区分最初最低级别入口与分型构造入口",
+            "最低不可再分解级别",
+            "至少三个该级别单位K线"
+          ],
+          "context_supported_conditions": [],
+          "assumed_conditions": [],
+          "unknown_conditions": [
+            "两套入口对任意走势的映射或等价证明"
+          ],
+          "support_evidence_ids": [
+            "evidence-53e646bde5c83836",
+            "evidence-6ac9c06be7bdc831",
+            "evidence-e2f204b5ba5683d1"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "两套入口对任意走势的映射或等价证明"
+          ],
+          "status": "source_explicit",
+          "formalization_status": "rule_conditions_explicit",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-trend-completion",
+      "title": "trend-completion",
+      "trigger_claim_ids": [
+        "lower-l107-c-stage-uptrend-formation-wording-not-completed-type",
+        "upper-l017-trend-definition"
+      ],
+      "related_claim_ids": [
+        "lower-l107-c-stage-uptrend-formation-wording-not-completed-type",
+        "upper-l017-trend-definition"
+      ],
+      "resolution_status": "hypothesis",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-trend-completion-v1",
+          "original_claim_ids": [
+            "lower-l107-c-stage-uptrend-formation-wording-not-completed-type",
+            "upper-l017-trend-definition"
+          ],
+          "source_evidence_ids": [
+            "evidence-ac6f047f6b1deb41",
+            "evidence-764295e3224a9cbe",
+            "evidence-cf1f6e37ebdb1ee2"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "形成中的发展信号与已完成类型分类可能是两个观察状态；仍未证明两定义等价，也未见本段明确修订旧定义。",
+          "explicit_conditions": [
+            "第一中枢后三买并非背驰向上",
+            "未出现趋势扭转信号",
+            "某级别",
+            "完成的走势类型",
+            "至少两个",
+            "依次同向",
+            "中枢之间不存在重叠"
+          ],
+          "context_supported_conditions": [
+            "以形成过程和完成类型的对象差异解释两处表述"
+          ],
+          "assumed_conditions": [
+            "二者全域兼容尚未证明"
+          ],
+          "unknown_conditions": [
+            "从信号到完成类型的完整转换条件"
+          ],
+          "support_evidence_ids": [
+            "evidence-ac6f047f6b1deb41",
+            "evidence-764295e3224a9cbe",
+            "evidence-cf1f6e37ebdb1ee2"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "从信号到完成类型的完整转换条件"
+          ],
+          "status": "hypothesis",
+          "formalization_status": "qualitative_guidance",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-qualified-answer",
+      "title": "qualified-answer",
+      "trigger_claim_ids": [
+        "upper-l041-c-stage-completion-question-basically-yes-qualified-not-equivalence"
+      ],
+      "related_claim_ids": [
+        "upper-l041-c-stage-completion-question-basically-yes-qualified-not-equivalence"
+      ],
+      "resolution_status": "context_supported",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-qualified-answer-v1",
+          "original_claim_ids": [
+            "upper-l041-c-stage-completion-question-basically-yes-qualified-not-equivalence"
+          ],
+          "source_evidence_ids": [
+            "evidence-7e309d56de38e66b"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "复合问题后的基本认可须保留“基本上”和级别限制，不能改写成三个当且仅当规则。",
+          "explicit_conditions": [],
+          "context_supported_conditions": [],
+          "assumed_conditions": [],
+          "unknown_conditions": [
+            "各对象逐一成立的必要与充分条件"
+          ],
+          "support_evidence_ids": [
+            "evidence-7e309d56de38e66b"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "各对象逐一成立的必要与充分条件"
+          ],
+          "status": "context_supported",
+          "formalization_status": "qualitative_guidance",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-numbering-tension",
+      "title": "numbering-tension",
+      "trigger_claim_ids": [
+        "upper-l049-c-stage-near-new-buy-entry-but-completed-submove-top-divergence-wait-number-tension"
+      ],
+      "related_claim_ids": [
+        "upper-l049-c-stage-near-new-buy-entry-but-completed-submove-top-divergence-wait-number-tension"
+      ],
+      "resolution_status": "unresolved",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-numbering-tension-v1",
+          "original_claim_ids": [
+            "upper-l049-c-stage-near-new-buy-entry-but-completed-submove-top-divergence-wait-number-tension"
+          ],
+          "source_evidence_ids": [
+            "evidence-7a9753e07e743628",
+            "evidence-841a8c0097c66470"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "第49课分类编号与后续买点指代存在张力；可能的校号只是研究假说，需页面及来源核查。",
+          "explicit_conditions": [],
+          "context_supported_conditions": [],
+          "assumed_conditions": [
+            "可能把第三种写成第二种，尚未确认"
+          ],
+          "unknown_conditions": [
+            "错误产生环节和唯一正确编号"
+          ],
+          "support_evidence_ids": [
+            "evidence-7a9753e07e743628",
+            "evidence-841a8c0097c66470"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "错误产生环节和唯一正确编号"
+          ],
+          "status": "unresolved",
+          "formalization_status": "parameters_unspecified",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-connection-level-scope",
+      "title": "connection-level-scope",
+      "trigger_claim_ids": [
+        "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+        "upper-l018-center-theorem-one",
+        "upper-l018-c-stage-center-connection-not-necessarily-trend"
+      ],
+      "related_claim_ids": [
+        "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+        "upper-l018-center-theorem-one",
+        "upper-l018-c-stage-center-connection-not-necessarily-trend"
+      ],
+      "resolution_status": "unresolved",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-connection-level-scope-v1",
+          "original_claim_ids": [
+            "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+            "upper-l018-center-theorem-one",
+            "upper-l018-c-stage-center-connection-not-necessarily-trend"
+          ],
+          "source_evidence_ids": [
+            "evidence-527d15f078213aa5",
+            "evidence-8594b23d2e79c6e4",
+            "evidence-0314033a1e0d0b19",
+            "evidence-647bec72e30db87b"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "第54课分解语境与第18课一般连接规则的范围可能不同，尚不能证明统一，不按时间较晚自动覆盖。",
+          "explicit_conditions": [
+            "趋势中",
+            "两个同级别中枢",
+            "趋势内两个同级别中枢的连接"
+          ],
+          "context_supported_conditions": [
+            "特定分解与一般趋势连接可能适用不同范围"
+          ],
+          "assumed_conditions": [
+            "两范围完全分离尚未得到明确文字证明"
+          ],
+          "unknown_conditions": [
+            "必须次级与允许更低级之间的完整适用边界"
+          ],
+          "support_evidence_ids": [
+            "evidence-527d15f078213aa5",
+            "evidence-8594b23d2e79c6e4",
+            "evidence-0314033a1e0d0b19",
+            "evidence-647bec72e30db87b"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "必须次级与允许更低级之间的完整适用边界"
+          ],
+          "status": "unresolved",
+          "formalization_status": "qualitative_guidance",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-zn-cooperation",
+      "title": "zn-cooperation",
+      "trigger_claim_ids": [
+        "lower-l092-c-stage-secondary-trend-last-center-condition",
+        "lower-l092-c-stage-axis-and-secondary-midpoints",
+        "lower-l092-c-stage-boundary-cross-not-sufficient"
+      ],
+      "related_claim_ids": [
+        "lower-l092-c-stage-secondary-trend-last-center-condition",
+        "lower-l092-c-stage-axis-and-secondary-midpoints",
+        "lower-l092-c-stage-boundary-cross-not-sufficient"
+      ],
+      "resolution_status": "unresolved",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-zn-cooperation-v1",
+          "original_claim_ids": [
+            "lower-l092-c-stage-secondary-trend-last-center-condition",
+            "lower-l092-c-stage-axis-and-secondary-midpoints",
+            "lower-l092-c-stage-boundary-cross-not-sufficient"
+          ],
+          "source_evidence_ids": [
+            "evidence-0cdb778d0a898c46",
+            "evidence-7497c1f200766be3",
+            "evidence-43fafb8d9b822976"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "次级趋势、Zn配合、中枢位置和后续完成区间有结构信息；相应配合的唯一数值判据仍未给出。",
+          "explicit_conditions": [
+            "次级震荡为趋势类型且Zn相应配合",
+            "所述最后次级中枢在所监视中枢之外",
+            "下一个次级走势在该次级中枢区间完成",
+            "中枢已经确立",
+            "Zn超越该中枢A或B边界"
+          ],
+          "context_supported_conditions": [],
+          "assumed_conditions": [],
+          "unknown_conditions": [
+            "Zn配合的阈值、连续次数、容差和未完成区间采样规则"
+          ],
+          "support_evidence_ids": [
+            "evidence-0cdb778d0a898c46",
+            "evidence-7497c1f200766be3",
+            "evidence-43fafb8d9b822976"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "Zn配合的阈值、连续次数、容差和未完成区间采样规则"
+          ],
+          "status": "unresolved",
+          "formalization_status": "parameters_unspecified",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-candidate-overlap",
+      "title": "candidate-overlap",
+      "trigger_claim_ids": [
+        "candidate-06fee67b46cd9475",
+        "upper-l017-trend-definition"
+      ],
+      "related_claim_ids": [
+        "candidate-06fee67b46cd9475",
+        "upper-l017-trend-definition"
+      ],
+      "resolution_status": "source_explicit",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-candidate-overlap-v1",
+          "original_claim_ids": [
+            "candidate-06fee67b46cd9475",
+            "upper-l017-trend-definition"
+          ],
+          "source_evidence_ids": [
+            "evidence-43d2caf1523ffb90",
+            "evidence-764295e3224a9cbe",
+            "evidence-cf1f6e37ebdb1ee2"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "整段自动候选与细分reviewed命题共享出处，不等于两种相反理论；共享出处也不足以自动判定语义完全覆盖。",
+          "explicit_conditions": [
+            "某级别",
+            "完成的走势类型",
+            "至少两个",
+            "依次同向",
+            "中枢之间不存在重叠"
+          ],
+          "context_supported_conditions": [],
+          "assumed_conditions": [],
+          "unknown_conditions": [
+            "候选全部含义是否被细分命题覆盖仍需逐项判定"
+          ],
+          "support_evidence_ids": [
+            "evidence-43d2caf1523ffb90",
+            "evidence-764295e3224a9cbe",
+            "evidence-cf1f6e37ebdb1ee2"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "候选全部含义是否被细分命题覆盖仍需逐项判定"
+          ],
+          "status": "source_explicit",
+          "formalization_status": "not_an_independent_proposition",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue-cross-page-continuation",
+      "title": "cross-page-continuation",
+      "trigger_claim_ids": [
+        "candidate-09120e714f8fe0f3",
+        "candidate-a0ade5e49c0ea61b"
+      ],
+      "related_claim_ids": [
+        "candidate-09120e714f8fe0f3",
+        "candidate-a0ade5e49c0ea61b"
+      ],
+      "resolution_status": "context_supported",
+      "evidence_balance": "insufficient",
+      "evidence_balance_note": "Not a formal contradiction verdict; source differences and comparison conditions remain explicit.",
+      "interpretations": [
+        {
+          "interpretation_id": "interpretation-cross-page-continuation-v1",
+          "original_claim_ids": [
+            "candidate-09120e714f8fe0f3",
+            "candidate-a0ade5e49c0ea61b"
+          ],
+          "source_evidence_ids": [
+            "evidence-f8bb1d5c6af04c81",
+            "evidence-f849e6b2b817311f"
+          ],
+          "proposed_by": "Codex source-research synthesis, 2026-10-22; not author wording",
+          "interpretation_text": "第77课“当然线／段A”须跨页连读，并保留A、B、C只是确认前假设称呼的限制。此记录不证明图形和数学论证。",
+          "explicit_conditions": [],
+          "context_supported_conditions": [],
+          "assumed_conditions": [],
+          "unknown_conditions": [
+            "图80—83和第二种情况论证的独立核验"
+          ],
+          "support_evidence_ids": [
+            "evidence-f8bb1d5c6af04c81",
+            "evidence-f849e6b2b817311f"
+          ],
+          "opposing_evidence_ids": [],
+          "unresolved_questions": [
+            "图80—83和第二种情况论证的独立核验"
+          ],
+          "status": "context_supported",
+          "formalization_status": "not_an_independent_proposition",
+          "graph_version": "0.1.0-review-307029129712",
+          "visual_verification": "not_performed_in_this_research",
+          "resolution_basis": "Eight text-grounded cases; see docs/research/2026-10-22-ambiguity-source-cases.md"
+        }
+      ]
+    }
+  ]
+}

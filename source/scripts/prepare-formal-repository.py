@@ -17,7 +17,8 @@ for name in ['package.json', 'package-lock.json', 'README.md', 'AGENT_GUIDE.md',
 for name in ['docs', 'scripts', 'evaluation', 'indexes', 'models', 'node_modules', 'build/native-runtime']:
     (source / name).mkdir(parents=True, exist_ok=True)
 scripts = ['validate.mjs', 'package-portable.mjs', 'verify-portable.mjs', 'deny-network.mjs', 'doctor.ps1', 'build-index.mjs', 'build-vectors.mjs',
-           'audit-fixed-knowledge.mjs', 'build-fixed-release-gates.mjs', 'evaluate-fixed-corpus.mjs', 'prepare-formal-repository.py']
+           'audit-fixed-knowledge.mjs', 'build-fixed-release-gates.mjs', 'evaluate-fixed-corpus.mjs', 'prepare-formal-repository.py',
+           'verify-graph-v2-gates.mjs', 'verify-fixed-behavior.mjs', 'zip-fixed-release.py', 'finalize-fixed-release.py']
 for name in scripts: shutil.copyfile(app / 'scripts' / name, source / 'scripts' / name)
 shutil.copytree(app / 'scripts/lib', source / 'scripts/lib', dirs_exist_ok=True)
 for name in ['portable-readme.md', 'fixed-release.md', 'MAINTENANCE.md', 'COMPATIBILITY.md', 'graph-v2.md', 'retrieval-contract.md', 'agent-answer-examples.md']:

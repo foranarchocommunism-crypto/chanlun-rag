@@ -7,10 +7,13 @@ import { pathToFileURL } from 'node:url';
 const root = resolve(process.argv[2]), reportFile = resolve(process.argv[3]);
 const node = resolve(root, 'runtime/x64/node.exe'), helper = resolve(root, 'onboarding/connect.mjs');
 const call = (mode, input) => spawnSync(node, [helper, mode], { input, encoding: 'utf8', windowsHide: true, timeout: 300000, cwd: tmpdir() });
+const launch = label => spawnSync(resolve(process.env.SystemRoot, 'System32/cmd.exe'),
+  ['/d', '/s', '/c', `""${resolve(root, label + '.cmd')}" < nul"`],
+  { windowsVerbatimArguments: true, encoding: 'utf8', windowsHide: true, timeout: 300000, cwd: tmpdir() });
 const report = { root, passed: false, checks: [], independent_clean_windows_verified: false, gui_clients_verified: [] };
 let client;
 try {
-  const result = call('generate'); assert.equal(result.status, 0, result.stderr);
+  const result = launch('开始连接'); assert.equal(result.status, 0, result.stderr);
   const generated = JSON.parse(readFileSync(resolve(root, '连接资料/客户端配置.json'), 'utf8'));
   const server = generated.mcpServers['chanlun-rag'];
   assert.equal(server.command, node); assert.equal(server.args.length, 1); assert.ok(existsSync(server.args[0]));
@@ -39,7 +42,7 @@ try {
   assert.ok(!resultMCP.isError); assert.ok(resultMCP.structuredContent.data.reviewed.some(x => x.id === 'upper-l017-center-definition'));
   report.checks.push('generated_command_and_args_real_MCP_retrieve_with_network_denied');
   await client.close(); client = null;
-  const checked = call('check'); assert.equal(checked.status, 0, checked.stderr); assert.ok(checked.stdout.includes('检查通过'));
+  const checked = launch('检查是否正常'); assert.equal(checked.status, 0, checked.stderr); assert.ok(checked.stdout.includes('检查通过'));
   report.checks.push('plain_language_self_check_real_models_and_definition');
   report.passed = true;
 } catch (error) { report.error = error.stack; process.exitCode = 1; }

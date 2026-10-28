@@ -1,9 +1,13 @@
 {
-  "status": "released",
-  "version": "0.4.0",
-  "ready_to_use": true,
-  "source_commit": "71abe4ea32fdc3edf06a36d7cab4730ca26d3d31",
-  "release_tag": "v0.4.0",
-  "archive_sha256": "7780ab2e580ad5782e71a231e4e676b35c622ed86934045201cad2e61af793cf",
-  "receipt": "验收记录/正式交付回执.json"
+  "status": "artifact_verified_upload_pending",
+  "display_name": "缠论RAG",
+  "version": "0.4.1",
+  "source_commit": "da6db6cb78c92336f3f26691c9e0a6ed17de4a56",
+  "release_tag": "v0.4.1",
+  "archive_sha256": "957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1",
+  "repository": "https://github.com/foranarchocommunism-crypto/chanlun-rag",
+  "receipt": "验收记录/0.4.1-ZIP与全新解压.json",
+  "gui_clients_e2e_verified": false,
+  "independent_clean_windows_verified": false,
+  "knowledge_and_retrieval_core_changed": false
 }

@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "finished_at": "2026-10-24T11:17:29.5588132+08:00",
+  "actions": [
+    {
+      "action": "unregistered_and_deleted_validation_VM",
+      "uuid": "bd74f9ee-3207-49aa-8993-1acc26001d37"
+    },
+    {
+      "action": "uninstalled_VirtualBox",
+      "exit": 0
+    },
+    {
+      "action": "removed_owned_tree",
+      "path": "C:\\Users\\13240\\.VirtualBox",
+      "files": 9,
+      "bytes": 229914.0
+    },
+    {
+      "action": "removed_owned_tree",
+      "path": "C:\\Users\\13240\\.codex\\containers\\chan-kg",
+      "files": 3351,
+      "bytes": 18182795977.0
+    }
+  ],
+  "installed_temporary_software": [],
+  "remaining_VirtualBox_drivers": [],
+  "temporary_listeners": [],
+  "optional_features": [
+    {
+      "FeatureName": "Containers",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-All",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Tools-All",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Management-PowerShell",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Hypervisor",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Services",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Management-Clients",
+      "State": 0
+    }
+  ],
+  "Windows_servicing_restart_pending": true,
+  "host_restarted": false,
+  "restart_note": "Windows reports a servicing restart after optional-feature rollback; no host restart or manual deletion of servicing state was performed.",
+  "preserved": [
+    "Final x64 product and its runtime/models",
+    "Canonical graph and two source PDFs",
+    "Maintenance source and audit receipts"
+  ]
+}

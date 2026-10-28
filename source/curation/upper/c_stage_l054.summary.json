@@ -1,0 +1,59 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-fc629f40d84e",
+  "lessons": [
+    54
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册54课同模型四轮复核",
+  "passages_read": 101,
+  "claims": 41,
+  "evidence": 57,
+  "importance_counts": {
+    "2": 7,
+    "1": 33,
+    "3": 1
+  },
+  "new_concepts": [
+    "通道式上涨"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411
+  ],
+  "figure_objects_viewed": 7,
+  "figure_origin_counts": {
+    "unverified": 6,
+    "later_annotation": 1
+  },
+  "pending": [
+    "upper-l054-c-stage-pending-original-equation-endpoint-and-g0-price-not-silently-corrected",
+    "upper-l054-c-stage-pending-two-decompositions-whole-submove-extrema-and-g7-labels",
+    "upper-l054-c-stage-pending-same-level-center-connector-direction-vs-l018-lower-level",
+    "upper-l054-c-stage-pending-third-point-followthrough-vs-trend-possibility-fast-break-and-extreme-range",
+    "upper-l054-c-stage-pending-numbered-replies-rare-inverted-second-and-no-larger-level",
+    "upper-l054-c-stage-pending-seven-figure-origins-later-may25-and-cross-period-labels",
+    "upper-l054-c-stage-pending-channel-rails-indicator-aids-and-five-day-reference",
+    "upper-l054-c-stage-pending-historical-4129-month-close-and-author-absolute-teaching-claims"
+  ],
+  "source_passages_snapshot_sha256": "32738dce3906062fc3b3fcc0a34077d0b583ecf46bf8f0e406ccee968db5e398",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "54课101段12页7整图同模型四轮；19时间空格和7图6未核1后加；原式端点/设价、两分解g5/g6中心不同，连接同向/级别范围、三类强语与趋势可能性、三编号跨页短答和执行条件分层，待预检。"
+}

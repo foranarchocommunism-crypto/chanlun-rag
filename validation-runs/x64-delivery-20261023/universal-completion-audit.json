@@ -1,0 +1,281 @@
+{
+  "audited_at": "2026-10-24T03:22:31.798Z",
+  "product_version": "0.3.0",
+  "verification_complete": true,
+  "requirements": [
+    {
+      "id": "canonical-and-freeze",
+      "description": "Unchanged canonical inputs, retrieval sources, held-out cases and selected profile/index",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/baseline.json",
+          "sha256": "be5ee4c468e453122da4b4cee9a7e63749433d38c6b34fca187444e7b9097ce5"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m6-profile-freeze.json",
+          "sha256": "0341bf3c91efcffcb85073906f1265cbbd56233e4a6e2925da5bec83613391a2"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/frozen-retrieval-preserved.json",
+          "sha256": "4566bb96649bce5cd570722b746de2ec4145a66cf07a1a821871b83df616e899"
+        }
+      ]
+    },
+    {
+      "id": "M0",
+      "description": "Baseline, backups, scope, source-disjoint split and contracts",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/baseline.json",
+          "sha256": "be5ee4c468e453122da4b4cee9a7e63749433d38c6b34fca187444e7b9097ce5"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m6-profile-freeze.json",
+          "sha256": "0341bf3c91efcffcb85073906f1265cbbd56233e4a6e2925da5bec83613391a2"
+        }
+      ]
+    },
+    {
+      "id": "M1",
+      "description": "473 reviewed ambiguities, 2611 pending, 3084-item triage, sourced alternatives and whole conditions",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/retrieval-contract-current.log",
+          "sha256": "370a2713f58a98bf03532547a0f3bc1b8a5529c8157813a1b48a7092e5a9de5b"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "description": "240 lexical baseline matches and original-command compatibility",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/m2-lexical-parity.json",
+          "sha256": "953b9143a3c9dc3b4228cdbffdc5050e06796b280232010435d56eab46031645"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "description": "Author encoder weights, offline FP32/q8 agreement, vector and fusion experiments",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/m3-author-weights.json",
+          "sha256": "5c611d4424be4abe5a0ac336dadc07efc9f08f9b158b31cbd86df0ec6eaa5c42"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m3-embedding-consistency.json",
+          "sha256": "33b89f11d2a715f0ce8cd006b61bb8fa96b4def5dc00576e43e33041ac00ad06"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m3-hybrid-development.json",
+          "sha256": "1d4faaab8b8d10ed0391852068daa6b4d21049fcebbb1780dff8e8e66ea6a9e9"
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "description": "Supported graph paths, declared depth/weight/rerank ablations, alternatives and budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/m4-graph-development.json",
+          "sha256": "5c764c1783dea6979745d22aee4b0ffc8bb908857b62cb9d062905edad001794"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m4-rerank-development.json",
+          "sha256": "07306c2b5db6c887381b09639c187bb1094cf835a69f39394c1367c5113c7850"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m4-production-development.json",
+          "sha256": "cf5847d935df88e4e3655f4bec7e681599e32d51fdf50ebea6de0abcc489ef4a"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        }
+      ]
+    },
+    {
+      "id": "M5",
+      "description": "Actual SDK MCP/CLI/JS equality, follow-up evidence and caller-agent examples",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/m5-default-mcp-roundtrip.json",
+          "sha256": "5d3e01e59a3473130994fd1da628f1e6484ba22418c87e2ba5629c09203d1101"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/m5-agent-example-inputs.json",
+          "sha256": "6a08077623d5bc88b67650df96588e3d75c338c2c9d283c6cacc4006aae6322c"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/release-gates.json",
+          "sha256": "4da9565a5a2c93d836c0b8179ba3380c1b1ac0706e1e920852f4b85bd046494a"
+        }
+      ]
+    },
+    {
+      "id": "M6",
+      "description": "Frozen quality, resources and source/condition/path gates, truthful annotation limits",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/agent-implementation-20261022/m6-prospective-acceptance.json",
+          "sha256": "7fb132d4697630913d269bc68cdc93461f1ac3f43ac75c99ac075e8a8b313264"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/canonical-validation-direct.json",
+          "sha256": "891e53bff9389c3bddc96d975fd0ac8cdc56d383dd7732d2f00f55400dd68beb"
+        },
+        {
+          "file": "validation-runs/agent-implementation-20261022/release-gates.json",
+          "sha256": "4da9565a5a2c93d836c0b8179ba3380c1b1ac0706e1e920852f4b85bd046494a"
+        }
+      ]
+    },
+    {
+      "id": "M7-artifact",
+      "description": "Current ZIP and directory, complete checksums, both runtimes, source checks, no desktop/development tree",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/zip-build.json",
+          "sha256": "130dafbe85308f7a170b2147bcb36aee92064ef2b8a1815eedc7dcdd9a290fb4"
+        },
+        {
+          "file": "deliveries/chan-kg-agent-0.3.0-windows-x64-307029129712/release-manifest.json",
+          "sha256": "8bb032dc1a8c634aa678f1d9eccd87631a086975920df265245c8d6eab125a49"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/local-portable-verification.json",
+          "sha256": "3faa65e4aa528a26a5a13f880ee5fcef30e28508fe14569f96db6a5621d5db53"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/universal-source-tests.log",
+          "sha256": "d3d5fb5c315719bc5759047d2043291713762c98d3e46fd0a30ee46a58dc9057"
+        }
+      ]
+    },
+    {
+      "id": "M7-x64-clean-Windows",
+      "description": "Current ZIP: offline standard user, no global runtimes, Unicode/spaces, x64 models/MCP",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/native-guest-receipt.json",
+          "sha256": "5cba033ed3f582da9af07f7b6552376d322fceb6472a99a5ee6d8ead41dc6454"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/native-portable-verification.json",
+          "sha256": "8fb479ad2f38e0c475f505c4875a79887973153afbc0eb03914150aa0cf767ed"
+        }
+      ]
+    },
+    {
+      "id": "current-scope",
+      "description": "User explicitly cancelled ARM64 and container validation and requested x64 delivery plus complete temporary-environment cleanup",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/scope-change.json",
+          "sha256": "07a97711747a5fc1e600d5f6beacaddc16f9d1259068cf97687de2557ae89c7b"
+        }
+      ]
+    },
+    {
+      "id": "environment-cleanup",
+      "description": "Task-installed tools, VM, containers, downloads and host optional-feature additions removed",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/environment-cleanup.json",
+          "sha256": "ee6ffdd78777560fc6a683d66b0b0a8780366a1ca5582ac3f84da0051a0dfeb6"
+        }
+      ]
+    },
+    {
+      "id": "redundant-artifact-cleanup",
+      "description": "Duplicate extractions and cancelled staging removed, unique sources/audits and a usable rollback archive retained",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/backup-cleanup.json",
+          "sha256": "0ac23b4588736f3f8877e3f5e525f1b42cca36376b098b8f49897e60eba7e8d2"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/verified-duplicate-artifacts.json",
+          "sha256": "80c2775f85d95762d2826330718370269fb498161572479f26bf627bf17e4a9a"
+        }
+      ]
+    },
+    {
+      "id": "delivered-copy-after-cleanup",
+      "description": "The delivered x64 copy still executes a real retrieval after temporary infrastructure removal",
+      "passed": true,
+      "evidence": [
+        {
+          "file": "validation-runs/x64-delivery-20261023/post-cleanup-smoke.json",
+          "sha256": "6380401ad72b3178bba7d7e64443174fc72a2105f6e68d82a92d055246b1f7a3"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/post-cleanup-query.json",
+          "sha256": "987265a49e98b5f2ba322e95cf2e02c4a41c1fe0b22456280cba8c9fd046bd75"
+        },
+        {
+          "file": "validation-runs/x64-delivery-20261023/post-cleanup-live-check.json",
+          "sha256": "80ad1ddb262ee5c820abc3ff48e513d85104475a25db28a08c5483acddcd088b"
+        }
+      ]
+    }
+  ],
+  "artifact": {
+    "directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-windows-x64-307029129712",
+    "archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-windows-x64-307029129712.zip",
+    "sha256": "9f4554c74da8d92d0cac74f19fd72e04aea009501092e6d668dcba31493d0028",
+    "bytes": 522757897,
+    "files": 7786
+  },
+  "quality": {
+    "development_recall20": 0.9214583333333335,
+    "heldout_recall20": 1,
+    "cases": 24,
+    "uncertainty": {
+      "mean": 0.041666666666666664,
+      "bootstrap_percentile95": [
+        0,
+        0.125
+      ],
+      "seed": 20261022,
+      "resamples": 5000,
+      "note": "Small source-disjoint model-annotated set; interval expresses sampling uncertainty, not independent human correctness."
+    },
+    "independent_human_annotation": false,
+    "answer_accuracy_claimed": false
+  },
+  "scope_change": {
+    "decided_at": "2026-10-23T23:16:25.4067317+08:00",
+    "user_instruction": "别下了，直接交付x64，清除虚拟机容器等等本次安装下载的环境，全部清除。",
+    "required_architectures": [
+      "x64"
+    ],
+    "ARM64_validation": "cancelled_by_user",
+    "windows_container_validation": "cancelled_by_user",
+    "cleanup": "Remove all task-installed/downloaded temporary infrastructure; preserve the usable product, canonical data, source, models and audit evidence."
+  },
+  "cleanup_complete": true,
+  "remaining": []
+}

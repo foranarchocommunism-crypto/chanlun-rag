@@ -1,0 +1,61 @@
+{
+  "stage": "D-source-checked-aliases",
+  "base_graph_version": "0.1.0-review-b30e6980504f",
+  "graph_version": "0.1.0-review-85e5816782c5",
+  "aliases": [
+    {
+      "concept_id": "concept-07e912302bd6851e",
+      "label": "机械化操作",
+      "before": [],
+      "after": [
+        "机械操作"
+      ],
+      "supporting_claim_id": "lower-l105-c-stage-mechanical-follow-structural-joints",
+      "source_evidence": [
+        {
+          "passage_id": "volume_2-5332cd1b6038-p0382-b003",
+          "evidence_id": "evidence-459a2b3be730e7ba",
+          "quote": "市场就如同一头牛，只有目无全牛，才可能随心解之而合其关节。在本ID的理论中，机械化操作的本质就是目无全牛而合其关节，因为，根据本ID的理论，市场的结构已经被彻底分解，站在本ID理论的角度，哪里有什么市场，不过是一堆的关节。而机械化操作，就是逐步合于其关节的节奏，而不被全牛的繁复所影响。",
+          "pdf_page": 382,
+          "source_text_sha256": "b4978f364108416d56af09e4727b10bcb31f92b4819a4b7fe0856e04345984e6"
+        },
+        {
+          "passage_id": "volume_2-5332cd1b6038-p0382-b001",
+          "evidence_id": null,
+          "source_type": "course_title_context",
+          "quote": "教你炒股票105：远离聪明、机械操作(2008-04-1321:51:14)",
+          "pdf_page": 382,
+          "role": "author_body",
+          "speaker": "缠中说禅",
+          "published_at": "2008-04-13 21:51:14",
+          "source_text_sha256": "1c103ea56cf13d1d18eb03f1777e0e1c606d238a2855fce8ddac29d721811b5f"
+        }
+      ],
+      "reason": "第105课标题远离聪明、机械操作，紧接正文定义机械化操作的本质；名称映射限本课股票操作概念，不把104机械化思维批评或国家机械工程合并。"
+    }
+  ],
+  "observed_before": {
+    "query": "机械操作",
+    "search_results": [],
+    "concept_status": "unknown_concept"
+  },
+  "claims_evidence_passages_relations_unchanged": true,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 210,
+    "claims": 4333,
+    "evidence": 5118,
+    "relations": 242,
+    "reviews": 1755
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T104821094470Z-alias-l105-mechanical",
+  "independent_review_claimed": false,
+  "limits": [
+    "仅为第105课标题与正文的同一操作概念增名称映射；标题是来源上下文，没有新造命题证据ID。",
+    "不引入交易程序或合并104物理思维/国家安全的机械化语境。"
+  ]
+}

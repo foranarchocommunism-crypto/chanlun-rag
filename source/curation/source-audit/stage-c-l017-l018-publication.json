@@ -1,0 +1,106 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-ed2514eb5a74",
+  "input_scope": [
+    "第17课75段",
+    "第18课24段",
+    "正文、全部作者附文和答疑"
+  ],
+  "new_claims": 33,
+  "annotation_updates": {
+    "upper-l017-second-point-law": [
+      "ambiguity_status",
+      "review_note"
+    ]
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261014T000705560021Z-curation-l017-l018",
+  "reviewed_before": 260,
+  "checks_run": [
+    "JSON Schema：34条通过",
+    "只读预检34条通过，正式数据库和manifest哈希未变",
+    "本批发布后的26项Node工程检查通过",
+    "validate.mjs：当前533条默认知识无错误"
+  ],
+  "pending": [
+    {
+      "id": "upper-l017-second-point-law-wording",
+      "lesson_number": 17,
+      "claim_id": "upper-l017-second-point-law",
+      "passage_id": "volume_1-a53e99c37ca5-p0077-b007",
+      "status": "pending",
+      "issue": "第二类买卖点与第一类买点的原文措辞在卖点情形有歧义；原页已核，19/20课暂未找到明确作者更正，保留原句并单独标注。"
+    },
+    {
+      "id": "upper-l017-case-center-independent-reconstruction",
+      "lesson_number": 17,
+      "status": "pending",
+      "issue": "p78/79日线图及作者归类解释已查看；580991的完整30分钟图和11月8日至28日中枢的独立逐段重建未完成。只发布作者文字判断，不称重算通过。"
+    },
+    {
+      "id": "upper-l017-macd-question-full-answer",
+      "lesson_number": 17,
+      "passage_id": "volume_1-a53e99c37ca5-p0079-b005",
+      "status": "pending",
+      "issue": "背驰比较的条件和指标辅助说明已收录；该题关于MACD图级别与是否必然对应趋势背驰的完整逐问答案需跨课核对。"
+    },
+    {
+      "id": "upper-l017-figure-origin",
+      "lesson_number": 17,
+      "status": "pending",
+      "issue": "p78两图及p79一图已实际查看，原始绘制者均未核，不能当作者原图证明。"
+    },
+    {
+      "id": "upper-l018-figure-formula-origin",
+      "lesson_number": 18,
+      "figure_id": "volume_1-a53e99c37ca5-p0082-fig1",
+      "status": "pending",
+      "issue": "p82彩色图把正文三段重叠公式简化并含黄色说明；署名/日期未核，图注不作作者正文命题。原正文max(a2,b2,c2)、min(a1,b1,c1)已核。"
+    },
+    {
+      "id": "upper-l018-extension-infinite-wording",
+      "lesson_number": 18,
+      "passage_id": "volume_1-a53e99c37ca5-p0083-b001",
+      "status": "pending",
+      "issue": "作者同时陈述走势终要完成与盘整可延伸直到无穷；本批保留随时可完成但不必立即结束的边界，关于无穷的严格逻辑解释不自行补造。"
+    }
+  ],
+  "acceptance": "33条新增与1条歧义注记已发布；两课仍有6项待核",
+  "next_action": "继续阶段C新批完整审读与发布",
+  "graph_version": "0.1.0-review-b0a2500b0bcd",
+  "formal_import": "passed",
+  "approved_existing_changes": {
+    "upper-l017-second-point-law": [
+      "ambiguity_status",
+      "review_note"
+    ]
+  },
+  "all_existing_evidence_unchanged": true,
+  "counts": {
+    "concepts": 147,
+    "claims": 2932,
+    "evidence": 3007,
+    "relations": 151,
+    "reviews": 346
+  },
+  "claim_status_counts": [
+    [
+      "pending",
+      2618
+    ],
+    [
+      "rejected",
+      21
+    ],
+    [
+      "reviewed",
+      293
+    ]
+  ],
+  "checks_not_run": [
+    "240条真实检索评测尚未完成",
+    "本次未执行Electron界面、旋转或打包后离线验收"
+  ],
+  "verification_graph_version": "0.1.0-review-b8840ae38391"
+}

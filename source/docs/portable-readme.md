@@ -1,75 +1,103 @@
-# 缠论 Agent 检索包
+<div align="center">
 
-此包为 **0.4.0 固定知识库正式版**。知识库不再新增内容，程序、模型和索引成套提供。已修复快照一致性、构建中断恢复、Graph 受控降级和运行追踪。请阅读 [本版使用边界](docs/fixed-release.md) 与发布仓库中的验收记录；正式软件发布不表示所有待核知识已经完成语义复核。
+# 缠论RAG
 
-本目录提供本地知识图谱增强检索，回答由调用它的 Agent 生成。运行时、中文向量模型、可选重排模型、知识库和索引随包提供，日常查询无需安装 Node、Python 或开发工具。
+**问缠论，也能回到原文核对。**
 
-## 开始使用
+为 Codex、Claude Desktop、WorkBuddy 连接本地缠论资料库。  
+查定义、找条件、核对不同课次的说法，保留出处和未解决的分歧。
 
-在 PowerShell 中进入解压目录，执行：
+[![Windows x64](https://img.shields.io/badge/Windows-10%20%2F%2011-2563eb)](#开始之前)
+[![本地检索](https://img.shields.io/badge/知识检索-本地运行-0f766e)](#它能帮你做什么)
+[![版本](https://img.shields.io/badge/版本-0.4.1-475569)](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.1)
 
-```powershell
-.\doctor.cmd -Full
-.\chan-kg.cmd status
-.\chan-kg.cmd retrieve "中枢成立需要哪些条件，最低不可分解级别又有什么不同？"
-.\chan-kg.cmd retrieve "第54课与第18课关于中枢连接级别为何不同？" --limit 10
-.\chan-kg.cmd issue issue-connection-level-scope
-.\chan-kg.cmd claim upper-l017-center-definition
-.\chan-kg.cmd evidence evidence-6ac9c06be7bdc831
-```
+**[下载可直接使用的 Windows 压缩包](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/download/v0.4.1/chanlun-rag-0.4.1-windows-x64.zip)** · **[从第一步开始操作](开始使用.md)**
 
-任意工作目录也可使用启动器的绝对路径。目录可以移动，支持中文与空格。先用少量结果定位，再按稳定 ID 读取 claim、issue、evidence 或 page。文件名和页码以实际 PDF 页为准。
+</div>
 
-本原生包面向 Windows 10 1809 及以后版本、Windows 11 的 x64 设备，使用包内 `runtime/x64`。日常运行不需要 Docker 或管理员权限。兼容目标和实际测试环境见 [Windows 兼容说明](docs/COMPATIBILITY.md) 及 ZIP 旁的交付回执。Windows 7/8、32 位及 ARM64 系统不在本次交付范围内。
+> **第一次使用：下载上面的运行包。** GitHub绿色 `Code` 按钮里的 `Download ZIP` 是开发资料，缺少直接运行所需的模型和运行环境。
 
-## 三种用途
+**导航：** [用途](#它能帮你做什么) · [准备](#开始之前) · [安装与连接](#三步开始) · [正常结果](#怎样确认真的用上了) · [常见问题](#常见问题) · [代码和审校资料](#代码和审校资料)
 
-默认 knowledge 只使用 reviewed 命题，包括已有显式歧义。结果保留条件、例外、kind、review_status、ambiguity_status、review_note、精确引文、角色、页码及图路径。
+## 它能帮你做什么
 
-```powershell
-.\chan-kg.cmd retrieve "走势完成的定义与形成过程有什么区别？" --mode knowledge
-.\chan-kg.cmd retrieve "第77课跨页的线段A是假设称呼还是已确认？" --mode research
-.\chan-kg.cmd claim candidate-06fee67b46cd9475 --mode research
-.\chan-kg.cmd retrieve "基本上可以这样理解" --mode source
-```
+你照常在AI客户端里提问。客户端先从本项目中找资料，再根据找到的资料回答。
 
-research 的 pending 单列为 research_leads，不能当作已复核知识。source 包含读者、作者、附录等真实角色，原文语境不会因命中自动获得复核身份。歧义解释列出提出者、来源、假设和未知条件；没有数值阈值的定性信息仍可利用，但不能把工程选择改称作者明说。
+| 你想做的事 | 可以这样问 |
+| --- | --- |
+| 学一个概念 | “中枢是什么，成立需要什么条件？请查缠论RAG并给出处。” |
+| 检查是否漏了条件 | “这里的三个次级别走势类型需要已经完成吗？请回到原文。” |
+| 对照不同课次 | “第18课和第54课关于中枢连接级别的表述有什么不同？请保留分歧。” |
+| 核对AI的说法 | “请给出支持这个解释的原文、PDF文件名和PDF页码。” |
 
-## MCP stdio
+例如，查询中枢成立条件时，本地检索能找到“至少三个连续次级别走势类型所重叠的部分”的定义，并可继续核对相关条件。原文位置包括上册 `volume_1.pdf` 的 **PDF第76页、第82页**。这里指阅读器显示的PDF页序号，可能与书内印刷页码不同。
 
-把下面模板中的绝对路径替换为本解压目录，加入目标 Agent 的 MCP 配置。不同客户端的外层配置位置可能不同；启动器支持中文和空格路径。
+资料来自随包提供的两册固定PDF。默认采用本项目已经复核的条目；有争议的解释保留争议。知识库现已固定，后续不安排新增资料。
 
-```json
-{
-  "mcpServers": {
-    "chan-kg": {
-      "command": "C:\\Windows\\System32\\cmd.exe",
-      "args": ["/d", "/s", "/c", "call", "C:\\你的解压目录\\chan-kg-mcp.cmd"]
-    }
-  }
-}
-```
+**使用边界：** 本项目提供查证材料，最终回答由AI客户端组织。它不能保证AI每句话都正确，也不提供行情、自动交易或收益承诺。图谱在部分定义定位上有具体作用；现有对照没有证明二跳检索带来普遍改善，因此二跳没有专用名额或最低保留数量。
 
-工具包括 retrieve、status、claim、issue、relation、concept、neighbors、evidence、coverage、sources、page。先 retrieve，再按 ID 追加取证；同一核心也可由 JavaScript API `RetrievalService` 调用。MCP stdout 仅输出协议，诊断日志走 stderr。
+## 开始之前
 
-客户端也可直接运行 `runtime/x64/node.exe`，参数为 `app/bin/chan-kg-mcp.mjs` 的绝对路径。
+| 需要准备 | 说明 |
+| --- | --- |
+| Windows电脑 | Windows 10 1809及以后版本或Windows 11，**x64**；本包不支持Mac、32位或Windows ARM64 |
+| 磁盘空间 | 下载约500MB，解压约1GB；建议至少留出3GB用于下载和解压 |
+| 一个AI桌面客户端 | Codex、Claude Desktop、WorkBuddy **任选一个**，先安装并登录自己的账号 |
+| 网络 | 下载、客户端登录和在线回答通常需要网络；本项目的知识检索在电脑本地完成 |
 
-## 预算、模式与故障
+**运行包已经带好所需组件。无需另装Node.js、Python、Docker或虚拟机，也不需要为本项目申请API密钥。** AI客户端自己的使用条件和费用以其官方说明为准。客户端可能把取到的引文发给其模型，因此“本地检索”不代表整段对话离线。
 
-```powershell
-.\chan-kg.cmd retrieve "什么是背驰？" --limit 10 --context-budget 60000
-.\chan-kg.cmd retrieve "第三类买点如何确认？" --profile lexical
-.\chan-kg.cmd retrieve "第三类买点如何确认？" --profile hybrid-graph-rerank --rerank-budget 20
-```
+## 三步开始
 
-字符预算统计证据数据对象 JSON 的 Unicode 码点，运行元数据另列。放不下的完整命题或解释组放入 deferred，按给出的命令续取。相关性分数不是正确性概率，`answer_support` 表示检索尚未判断最终答案是否充分。
+1. **下载并完整解压。** 下载顶部的Windows压缩包，右键选择“全部解压”。打开解压后的文件夹，应看到 `开始连接.cmd`、`检查是否正常.cmd`、`runtime`、`models`、`knowledge`。
+2. **检查本地资料库。** 双击 `检查是否正常.cmd`。等到出现“检查通过”，再进行下一步。第一次加载本地模型可能需要几分钟。
+3. **连接你的客户端。** 双击 `开始连接.cmd`，打开新生成的 `连接资料` 文件夹。然后按下面与你所用软件对应的教程操作。
 
-索引、模型和知识版本不符时明确报错，不能拼用不同版本的文件。仅在明确接受降级时加 `--allow-degraded`，并查看 runtime 中的实际通道和原因。模型全部从本地加载，运行时关闭远程模型下载。
+| 你用的软件 | 逐步教程 |
+| --- | --- |
+| Codex桌面端 | [打开Codex教程](开始使用.md#codex桌面端) |
+| Claude Desktop | [打开Claude教程](开始使用.md#claude-desktop) |
+| WorkBuddy | [打开WorkBuddy教程](开始使用.md#workbuddy) |
 
-## 知识与验证边界
+`MCP` 是客户端里连接本地工具的功能名称。本教程会告诉你在哪里选择它，不需要先学习编程。
 
-两册 PDF 是固定汇编底本，没有声明与原博客逐字一致。reviewed 表示本工程的来源、转述及条件复核，不证明收益、数学定理或全部解释已经统一。候选计数不等于独立知识缺口，来源重复不构成独立确认。
+## 怎样确认真的用上了
 
-`release-manifest.json` 记录产品、数据、模型、策略、配置及 x64 运行时。ZIP 旁的交付回执记录实际完成的环境验证，构建清单本身不代表验收通过。
+连接后，**新开一段对话**，复制下面这段话发送：
 
-运行 `verify.cmd` 可生成当前解压件的校验与调用报告；不修改知识库。首次运行可能需要等待本地模型加载。维护重建步骤和版本回滚方法见 docs；更新应更换一整套匹配的知识、索引、模型和策略，并保留上一可用目录。
+> 请使用chanlun-rag的retrieve工具，查询“中枢是什么，成立需要什么条件？”。请根据检索结果回答，列出原文、PDF文件名、PDF页码；不要只凭记忆回答。如果没有调用成功，请直接说明失败原因。
+
+正常时，应能看到 `chanlun-rag` 的 `retrieve` 调用记录，回答能给出原文出处。必要时再让AI调用 `evidence` 或 `page` 核对。客户端列表中仅仅出现连接名称，还不足以说明检索已经成功。
+
+**验收透明度：** 本版区分“本地运行包与实际连接配置已验证”和“三个客户端的登录后界面已人工走通”。本项目未声称完成一台全新Windows电脑的验收。具体范围见[本版验证记录](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/验收记录/入门发布验证.md)。
+
+## 常见问题
+
+| 遇到的情况 | 先这样处理 |
+| --- | --- |
+| 解压后没有“开始连接” | 多半下载了源码ZIP。回到顶部，下载Windows运行包 |
+| 双击后闪一下就没了 | 先确认已经“全部解压”，再运行 `检查是否正常.cmd`；中文提示窗口会停留 |
+| 客户端说找不到文件 | 文件夹位置可能变了。重新运行 `开始连接.cmd`，更新客户端命令和参数 |
+| JSON、括号或引号报错 | 不要手敲路径。空白配置复制生成文件；已有配置按教程使用合并入口 |
+| 已连接，AI却没有查资料 | 新开对话，明确要求调用 `chanlun-rag` 的 `retrieve`，查看工具记录 |
+| 缺少文件或版本不符 | 重新完整解压到新文件夹并连接新目录；不要混用两个版本的文件 |
+| 查询比较慢 | 首次需要加载模型。关闭不用的软件，先等查询结束；不要连续重复提交 |
+| 只有HTTP、SSE或网址输入框 | 当前是远程连接入口。切换到“本地 / STDIO”；本包没有可粘贴的网址 |
+
+更详细的处理步骤见[开始使用](开始使用.md#常见问题与恢复)。
+
+## 代码和审校资料
+
+普通用户只需下载运行包。此公开代码仓库还保留源码、两册PDF、知识底本、审校材料、研究记录及发布验收证据，供追溯与维护使用。它们不会全部塞进用户运行压缩包。
+
+| 目录 | 内容 |
+| --- | --- |
+| `source/` | 当前源码、测试、构建脚本，以及 `curation/` 审校材料 |
+| `shared-knowledge/v0.1.0/` | 固定知识底本、PDF与来源记录 |
+| `docs/development-history/` | 历史计划与审查报告；历史目标不代表当前承诺 |
+| `research-artifacts/`、`validation-runs/` | 研究材料与实际运行证据 |
+| `验收记录/` | 发布验证、保留资料核对与当前验证边界 |
+
+开发历史另保存在 `archive/development-main` 分支。模型、依赖目录和运行时通过Release运行包提供，不重复写入Git历史。工程维护参见[固定版本说明](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/source/docs/fixed-release.md)和[资料保留说明](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/docs/资料保留说明.md)。
+
+界面说明依据 [OpenAI官方MCP文档](https://learn.chatgpt.com/docs/extend/mcp)、[Claude本地连接教程](https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-local-servers)、[WorkBuddy官方MCP文档](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide)。第三方界面会调整；本教程核对日期为 **2026年10月28日**。

@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-25T14:06:52.8558278+08:00",
+  "status": "research_and_plan_complete_implementation_not_started",
+  "skill": "nature-academic-search/multi-source-search",
+  "verified_primary_papers": 5,
+  "inspected_github_projects": 5,
+  "all_projects_over_500_stars": true,
+  "planned_acceptance_cases": 30,
+  "all_new_cases_planned_not_executed": true,
+  "research_counterfactual_cases": 240,
+  "counterfactual_is_not_quality_acceptance": true,
+  "production_modifications": false,
+  "protected_file_count": 93,
+  "protected_files_unchanged": true,
+  "proposed_default_rerank_cap": 48,
+  "new_tests_or_quality_gates_passed": false,
+  "source_discovery_failure": "OpenAlex HTTP429; verified primary publication sources used instead",
+  "future_implementation_targets": [
+    "scripts/evaluate-graph-v2.mjs",
+    "test/graph-admission.test.mjs",
+    "test/graph-degradation.test.mjs",
+    "test/graph-expansion-v2.test.mjs",
+    "test/graph-path-packet.test.mjs"
+  ],
+  "files": [
+    {
+      "name": "研究依据与取舍.md",
+      "bytes": 10280,
+      "sha256": "6DCE8F0E9639B61CF74971AB0D8994D73A79AFFCE6832729C4480BA2443847E7"
+    },
+    {
+      "name": "academic-preflight.log",
+      "bytes": 152,
+      "sha256": "A32E83B63ADC90A2CE2974CE9F2B32C12B3689C15F0E39299C02B4C096D15C32"
+    },
+    {
+      "name": "acceptance-plan.json",
+      "bytes": 17910,
+      "sha256": "E294EEF8D704481850548C78B6B26FCC445D8406850DDCF8541775BF9918E9B7"
+    },
+    {
+      "name": "admission-counterfactual.json",
+      "bytes": 429079,
+      "sha256": "DD2C3644B252293462341D1923F8DAF989D71382AA018BD74B8A48A9B10A9A9F"
+    },
+    {
+      "name": "admission-counterfactual.mjs",
+      "bytes": 5758,
+      "sha256": "928BA15081E7BF556E3B4B473985233EB919B53FCFDC37878E4FDBFC13B68B66"
+    },
+    {
+      "name": "Graph检索改进与受控降级实施计划.md",
+      "bytes": 26152,
+      "sha256": "CCEDB7204691B8EB70971789B0C1986A988319DCD54F1D061BA81F04FBE458DF"
+    },
+    {
+      "name": "openalex-discovery.json",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "name": "openalex-discovery.stderr.log",
+      "bytes": 105,
+      "sha256": "ECF988E38F6AE344FCF6614E637914BF782E538BAEF3AFC7CA0D1F9218730936"
+    },
+    {
+      "name": "protected-files-verification.json",
+      "bytes": 27761,
+      "sha256": "DBDF3788E521D2E2191D95BD91313EC960FD2ACD743349FFDC4226E08ADAA3FD"
+    },
+    {
+      "name": "sources.json",
+      "bytes": 13976,
+      "sha256": "594FECAC63FDDB0DC07EFB3639ABF0E119935AE26E11958A40C9DDE70D535ACF"
+    }
+  ]
+}

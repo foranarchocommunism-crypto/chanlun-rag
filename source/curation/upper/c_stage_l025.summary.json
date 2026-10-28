@@ -1,0 +1,74 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-11d901d9404f",
+  "lessons": [
+    25
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册25课同模型四轮复核",
+  "passages_read": 272,
+  "claims": 50,
+  "evidence": 75,
+  "importance_counts": {
+    "1": 23,
+    "2": 18,
+    "3": 9
+  },
+  "new_concepts": [
+    "T+0",
+    "乖离极限",
+    "停牌风险",
+    "双次拉回",
+    "机动资金"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ],
+  "figure_objects_viewed": 13,
+  "figure_origin_counts": {
+    "unverified": 5,
+    "later_annotation": 8
+  },
+  "pending": [
+    "upper-l025-c-stage-pending-auxiliary-system-vs-center-and-force",
+    "upper-l025-c-stage-pending-rapid-bars-and-limit-up-exceptions",
+    "upper-l025-c-stage-pending-center-level-recursion-retest-and-practical-heuristic",
+    "upper-l025-c-stage-pending-price-order-vs-l101-and-lowest-third-points",
+    "upper-l025-c-stage-pending-confirmation-word-and-double-retest",
+    "upper-l025-c-stage-pending-mixed-attribution-headers-and-time",
+    "upper-l025-c-stage-pending-case-time-prices-forecast-and-guarantees",
+    "upper-l025-c-stage-pending-figure-origin-and-extra-annotations"
+  ],
+  "source_passages_snapshot_sha256": "696e6b0665dae1227e6fe4f2695240ff025915e22b374230865412e5ae65cefb",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "25课272段23页13本课图同模型四轮；19源段身份/时间修正，辅助指标/急速行情/中枢递归/机动资金与确认范围保留，待预检。"
+}

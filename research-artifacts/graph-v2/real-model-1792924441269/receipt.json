@@ -1,0 +1,4738 @@
+{
+  "created_at": "2026-10-25T10:34:39.682Z",
+  "fixture": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\real-model-1792924441269",
+  "synthetic": true,
+  "semantic_quality_claim": false,
+  "real_index_build": true,
+  "real_embedding_model": true,
+  "real_reranker": true,
+  "network_policy": "child index builders deny Node network APIs; current model classes enforce local_files_only",
+  "graph_only": false,
+  "lexical_answer_rank": 2,
+  "dense_answer_rank": 0,
+  "actual_reranker_input": [
+    "n012",
+    "n013",
+    "n009",
+    "n016",
+    "n015",
+    "n024",
+    "n001",
+    "n000",
+    "n023",
+    "n017",
+    "n011",
+    "n014",
+    "n019",
+    "n005",
+    "n006",
+    "n018",
+    "n022",
+    "n010",
+    "n030",
+    "n020",
+    "n007",
+    "n034",
+    "n021",
+    "n033",
+    "bridge",
+    "answer",
+    "n041",
+    "n032",
+    "n029",
+    "n061",
+    "n039",
+    "n058",
+    "n002",
+    "n028",
+    "n025",
+    "n068",
+    "n046",
+    "n063",
+    "n003",
+    "n048"
+  ],
+  "baseline_primary": [
+    "n028",
+    "n000",
+    "n020",
+    "n058",
+    "n003",
+    "n013",
+    "n046",
+    "n048",
+    "n010",
+    "n032",
+    "n030",
+    "n001",
+    "n016",
+    "n017",
+    "n029",
+    "n063",
+    "n023",
+    "n022",
+    "n009",
+    "n014"
+  ],
+  "graph_primary": [
+    "n028",
+    "n000",
+    "n020",
+    "n058",
+    "n003",
+    "n013",
+    "n046",
+    "n048",
+    "n010",
+    "n032",
+    "n030",
+    "n001",
+    "n016",
+    "n017",
+    "n029",
+    "n063",
+    "n023",
+    "n022",
+    "n009",
+    "n014"
+  ],
+  "complete_two_hop": false,
+  "fallback_primary_equal": true,
+  "fallback_reranker_calls": 1,
+  "fallback_max_score_difference": 0,
+  "graph": {
+    "contract_version": "1.0.0",
+    "request_id": "3d145a45-74bc-4f7f-8c74-70afe43e5dd6",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲经过桥接后最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.015299355816597197,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 56,
+                "score": 0.7056103037140542
+              }
+            ],
+            "rerank_score": 6.361660480499268,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n000",
+          "text": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n000",
+              "claim_id": "n000",
+              "passage_id": "p-n000",
+              "quote": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 3,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n000"
+            }
+          ],
+          "retrieval": {
+            "id": "n000",
+            "score": 0.019017669961066186,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 3,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.7011128012535517
+              }
+            ],
+            "rerank_score": 6.3545026779174805,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.017730010952902518,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 28,
+                "score": 0.7096417507090884
+              }
+            ],
+            "rerank_score": 6.297971248626709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n058",
+          "text": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n058",
+              "claim_id": "n058",
+              "passage_id": "p-n058",
+              "quote": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 61,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n058"
+            }
+          ],
+          "retrieval": {
+            "id": "n058",
+            "score": 0.015407319952774497,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 61,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.713104121942528
+              }
+            ],
+            "rerank_score": 6.265973091125488,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015151515151515152,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 6,
+                "score": 0.18592521533407175
+              }
+            ],
+            "rerank_score": 6.2580132484436035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.021222410865874362,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7189397901473278
+              }
+            ],
+            "rerank_score": 6.250505447387695,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n046",
+          "text": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n046",
+              "claim_id": "n046",
+              "passage_id": "p-n046",
+              "quote": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 49,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n046"
+            }
+          ],
+          "retrieval": {
+            "id": "n046",
+            "score": 0.015198408312147674,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 49,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 23,
+                "score": 0.7099629672214364
+              }
+            ],
+            "rerank_score": 6.231889247894287,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n048",
+          "text": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n048",
+              "claim_id": "n048",
+              "passage_id": "p-n048",
+              "quote": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 51,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n048"
+            }
+          ],
+          "retrieval": {
+            "id": "n048",
+            "score": 0.014961389961389961,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 51,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.7098521550069129
+              }
+            ],
+            "rerank_score": 6.208069324493408,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.017796990792724007,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 62,
+                "score": 0.705039800361093
+              }
+            ],
+            "rerank_score": 6.185478687286377,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.015845464725643896,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 34,
+                "score": 0.7086179179893577
+              }
+            ],
+            "rerank_score": 6.1463165283203125,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n030",
+          "text": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n030",
+              "claim_id": "n030",
+              "passage_id": "p-n030",
+              "quote": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 33,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n030"
+            }
+          ],
+          "retrieval": {
+            "id": "n030",
+            "score": 0.017794941693169773,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7129554537440398
+              }
+            ],
+            "rerank_score": 6.060874938964844,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n001",
+          "text": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n001",
+              "claim_id": "n001",
+              "passage_id": "p-n001",
+              "quote": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 4,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n001"
+            }
+          ],
+          "retrieval": {
+            "id": "n001",
+            "score": 0.019073275862068965,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7024905884817544
+              }
+            ],
+            "rerank_score": 5.995762348175049,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020470727848101264,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 19,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 4,
+                "score": 0.7171279493429171
+              }
+            ],
+            "rerank_score": 5.994021892547607,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.01867283950617284,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 21,
+                "score": 0.7101454373171324
+              }
+            ],
+            "rerank_score": 5.983869552612305,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015820060266896255,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 41,
+                "score": 0.7077216210695029
+              }
+            ],
+            "rerank_score": 5.941718578338623,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n063",
+          "text": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n063",
+              "claim_id": "n063",
+              "passage_id": "p-n063",
+              "quote": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 66,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n063"
+            }
+          ],
+          "retrieval": {
+            "id": "n063",
+            "score": 0.01518288474810214,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 66,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.7139825142235364
+              }
+            ],
+            "rerank_score": 5.907883644104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.018980848153214776,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.7147411135461449
+              }
+            ],
+            "rerank_score": 5.903932571411133,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.017862266857962696,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 22,
+                "score": 0.710072118792578
+              }
+            ],
+            "rerank_score": 5.889420986175537,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.020645645645645645,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.7120192073952268
+              }
+            ],
+            "rerank_score": 5.874746322631836,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.018481518481518484,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.7091724929552845
+              }
+            ],
+            "rerank_score": 5.866561412811279,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29730,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 628.8018000000011,
+      "queue_wait_ms": 0.008900000000721775,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.0208999999958905
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 6.133200000003853,
+          "query_tokens": 39,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "promoted": [],
+            "graph_only": 0,
+            "graph_rescued": 0,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "n012",
+              "n013",
+              "n009",
+              "n016",
+              "n015",
+              "n024",
+              "n001",
+              "n000",
+              "n023",
+              "n017",
+              "n011",
+              "n014",
+              "n019",
+              "n005",
+              "n006",
+              "n018",
+              "n022",
+              "n010",
+              "n030",
+              "n020",
+              "n007",
+              "n034",
+              "n021",
+              "n033",
+              "bridge",
+              "answer",
+              "n041",
+              "n032",
+              "n029",
+              "n061",
+              "n039",
+              "n058",
+              "n002",
+              "n028",
+              "n025",
+              "n068",
+              "n046",
+              "n063",
+              "n003",
+              "n048"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": []
+          },
+          "elapsed_ms": 31.529900000001362
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "n012",
+            "n013",
+            "n009",
+            "n016",
+            "n015",
+            "n024",
+            "n001",
+            "n000",
+            "n023",
+            "n017",
+            "n011",
+            "n014",
+            "n019",
+            "n005",
+            "n006",
+            "n018",
+            "n022",
+            "n010",
+            "n030",
+            "n020",
+            "n007",
+            "n034",
+            "n021",
+            "n033",
+            "bridge",
+            "answer",
+            "n041",
+            "n032",
+            "n029",
+            "n061",
+            "n039",
+            "n058",
+            "n002",
+            "n028",
+            "n025",
+            "n068",
+            "n046",
+            "n063",
+            "n003",
+            "n048"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 577.8980999999985
+        }
+      },
+      "primary_result_ids": [
+        "n028",
+        "n000",
+        "n020",
+        "n058",
+        "n003",
+        "n013",
+        "n046",
+        "n048",
+        "n010",
+        "n032",
+        "n030",
+        "n001",
+        "n016",
+        "n017",
+        "n029",
+        "n063",
+        "n023",
+        "n022",
+        "n009",
+        "n014"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 628.8107000000018
+    }
+  },
+  "baseline": {
+    "contract_version": "1.0.0",
+    "request_id": "54b51d96-c69e-40ba-845a-31883f9b1ad0",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲经过桥接后最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.015299355816597197,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 56,
+                "score": 0.7056103037140542
+              }
+            ],
+            "rerank_score": 6.361660480499268,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n000",
+          "text": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n000",
+              "claim_id": "n000",
+              "passage_id": "p-n000",
+              "quote": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 3,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n000"
+            }
+          ],
+          "retrieval": {
+            "id": "n000",
+            "score": 0.019017669961066186,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 3,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.7011128012535517
+              }
+            ],
+            "rerank_score": 6.3545026779174805,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.017730010952902518,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 28,
+                "score": 0.7096417507090884
+              }
+            ],
+            "rerank_score": 6.297971248626709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n058",
+          "text": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n058",
+              "claim_id": "n058",
+              "passage_id": "p-n058",
+              "quote": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 61,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n058"
+            }
+          ],
+          "retrieval": {
+            "id": "n058",
+            "score": 0.015407319952774497,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 61,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.713104121942528
+              }
+            ],
+            "rerank_score": 6.265973091125488,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015151515151515152,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 6,
+                "score": 0.18592521533407175
+              }
+            ],
+            "rerank_score": 6.2580132484436035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.021222410865874362,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7189397901473278
+              }
+            ],
+            "rerank_score": 6.250505447387695,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n046",
+          "text": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n046",
+              "claim_id": "n046",
+              "passage_id": "p-n046",
+              "quote": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 49,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n046"
+            }
+          ],
+          "retrieval": {
+            "id": "n046",
+            "score": 0.015198408312147674,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 49,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 23,
+                "score": 0.7099629672214364
+              }
+            ],
+            "rerank_score": 6.231889247894287,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n048",
+          "text": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n048",
+              "claim_id": "n048",
+              "passage_id": "p-n048",
+              "quote": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 51,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n048"
+            }
+          ],
+          "retrieval": {
+            "id": "n048",
+            "score": 0.014961389961389961,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 51,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.7098521550069129
+              }
+            ],
+            "rerank_score": 6.208069324493408,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.017796990792724007,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 62,
+                "score": 0.705039800361093
+              }
+            ],
+            "rerank_score": 6.185478687286377,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.015845464725643896,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 34,
+                "score": 0.7086179179893577
+              }
+            ],
+            "rerank_score": 6.1463165283203125,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n030",
+          "text": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n030",
+              "claim_id": "n030",
+              "passage_id": "p-n030",
+              "quote": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 33,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n030"
+            }
+          ],
+          "retrieval": {
+            "id": "n030",
+            "score": 0.017794941693169773,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7129554537440398
+              }
+            ],
+            "rerank_score": 6.060874938964844,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n001",
+          "text": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n001",
+              "claim_id": "n001",
+              "passage_id": "p-n001",
+              "quote": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 4,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n001"
+            }
+          ],
+          "retrieval": {
+            "id": "n001",
+            "score": 0.019073275862068965,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7024905884817544
+              }
+            ],
+            "rerank_score": 5.995762348175049,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020470727848101264,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 19,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 4,
+                "score": 0.7171279493429171
+              }
+            ],
+            "rerank_score": 5.994021892547607,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.01867283950617284,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 21,
+                "score": 0.7101454373171324
+              }
+            ],
+            "rerank_score": 5.983869552612305,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015820060266896255,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 41,
+                "score": 0.7077216210695029
+              }
+            ],
+            "rerank_score": 5.941718578338623,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n063",
+          "text": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n063",
+              "claim_id": "n063",
+              "passage_id": "p-n063",
+              "quote": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 66,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n063"
+            }
+          ],
+          "retrieval": {
+            "id": "n063",
+            "score": 0.01518288474810214,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 66,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.7139825142235364
+              }
+            ],
+            "rerank_score": 5.907883644104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.018980848153214776,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.7147411135461449
+              }
+            ],
+            "rerank_score": 5.903932571411133,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.017862266857962696,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 22,
+                "score": 0.710072118792578
+              }
+            ],
+            "rerank_score": 5.889420986175537,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.020645645645645645,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.7120192073952268
+              }
+            ],
+            "rerank_score": 5.874746322631836,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.018481518481518484,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.7091724929552845
+              }
+            ],
+            "rerank_score": 5.866561412811279,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29730,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 2355.9925999999978,
+      "queue_wait_ms": 0.4813999999969383,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.0159000000057858
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 6.980199999998149,
+          "query_tokens": 39,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "skipped",
+          "reason": "graph_disabled",
+          "committed_paths": 0,
+          "elapsed_ms": 0.3504000000029919
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "n012",
+            "n013",
+            "n009",
+            "n016",
+            "n015",
+            "n024",
+            "n001",
+            "n000",
+            "n023",
+            "n017",
+            "n011",
+            "n014",
+            "n019",
+            "n005",
+            "n006",
+            "n018",
+            "n022",
+            "n010",
+            "n030",
+            "n020",
+            "n007",
+            "n034",
+            "n021",
+            "n033",
+            "bridge",
+            "answer",
+            "n041",
+            "n032",
+            "n029",
+            "n061",
+            "n039",
+            "n058",
+            "n002",
+            "n028",
+            "n025",
+            "n068",
+            "n046",
+            "n063",
+            "n003",
+            "n048"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 2332.2479999999996
+        }
+      },
+      "primary_result_ids": [
+        "n028",
+        "n000",
+        "n020",
+        "n058",
+        "n003",
+        "n013",
+        "n046",
+        "n048",
+        "n010",
+        "n032",
+        "n030",
+        "n001",
+        "n016",
+        "n017",
+        "n029",
+        "n063",
+        "n023",
+        "n022",
+        "n009",
+        "n014"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 2356.4739999999947
+    }
+  },
+  "fallback": {
+    "contract_version": "1.0.0",
+    "request_id": "8e2bd985-d77c-4028-aae5-84c6e1d38645",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲经过桥接后最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令查询记录n028：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.015299355816597197,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 56,
+                "score": 0.7056103037140542
+              }
+            ],
+            "rerank_score": 6.361660480499268,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n000",
+          "text": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n000",
+              "claim_id": "n000",
+              "passage_id": "p-n000",
+              "quote": "起点甲的最终校验口令查询记录n000：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 3,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n000"
+            }
+          ],
+          "retrieval": {
+            "id": "n000",
+            "score": 0.019017669961066186,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 3,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.7011128012535517
+              }
+            ],
+            "rerank_score": 6.3545026779174805,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "起点甲的最终校验口令查询记录n020：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.017730010952902518,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 28,
+                "score": 0.7096417507090884
+              }
+            ],
+            "rerank_score": 6.297971248626709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n058",
+          "text": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n058",
+              "claim_id": "n058",
+              "passage_id": "p-n058",
+              "quote": "起点甲的最终校验口令查询记录n058：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 61,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n058"
+            }
+          ],
+          "retrieval": {
+            "id": "n058",
+            "score": 0.015407319952774497,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 61,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.713104121942528
+              }
+            ],
+            "rerank_score": 6.265973091125488,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令查询记录n003：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015151515151515152,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 6,
+                "score": 0.18592521533407175
+              }
+            ],
+            "rerank_score": 6.2580132484436035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令查询记录n013：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.021222410865874362,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7189397901473278
+              }
+            ],
+            "rerank_score": 6.250505447387695,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n046",
+          "text": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n046",
+              "claim_id": "n046",
+              "passage_id": "p-n046",
+              "quote": "起点甲的最终校验口令查询记录n046：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 49,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n046"
+            }
+          ],
+          "retrieval": {
+            "id": "n046",
+            "score": 0.015198408312147674,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 49,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 23,
+                "score": 0.7099629672214364
+              }
+            ],
+            "rerank_score": 6.231889247894287,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n048",
+          "text": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n048",
+              "claim_id": "n048",
+              "passage_id": "p-n048",
+              "quote": "起点甲的最终校验口令查询记录n048：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 51,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n048"
+            }
+          ],
+          "retrieval": {
+            "id": "n048",
+            "score": 0.014961389961389961,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 51,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.7098521550069129
+              }
+            ],
+            "rerank_score": 6.208069324493408,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令查询记录n010：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.017796990792724007,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 62,
+                "score": 0.705039800361093
+              }
+            ],
+            "rerank_score": 6.185478687286377,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令查询记录n032：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.015845464725643896,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 34,
+                "score": 0.7086179179893577
+              }
+            ],
+            "rerank_score": 6.1463165283203125,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n030",
+          "text": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n030",
+              "claim_id": "n030",
+              "passage_id": "p-n030",
+              "quote": "起点甲的最终校验口令查询记录n030：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 33,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n030"
+            }
+          ],
+          "retrieval": {
+            "id": "n030",
+            "score": 0.017794941693169773,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7129554537440398
+              }
+            ],
+            "rerank_score": 6.060874938964844,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n001",
+          "text": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n001",
+              "claim_id": "n001",
+              "passage_id": "p-n001",
+              "quote": "起点甲的最终校验口令查询记录n001：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 4,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n001"
+            }
+          ],
+          "retrieval": {
+            "id": "n001",
+            "score": 0.019073275862068965,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7024905884817544
+              }
+            ],
+            "rerank_score": 5.995762348175049,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令查询记录n016：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020470727848101264,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 19,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 4,
+                "score": 0.7171279493429171
+              }
+            ],
+            "rerank_score": 5.994021892547607,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令查询记录n017：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.01867283950617284,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 21,
+                "score": 0.7101454373171324
+              }
+            ],
+            "rerank_score": 5.983869552612305,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令查询记录n029：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015820060266896255,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 41,
+                "score": 0.7077216210695029
+              }
+            ],
+            "rerank_score": 5.941718578338623,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n063",
+          "text": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n063",
+              "claim_id": "n063",
+              "passage_id": "p-n063",
+              "quote": "起点甲的最终校验口令查询记录n063：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 66,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n063"
+            }
+          ],
+          "retrieval": {
+            "id": "n063",
+            "score": 0.01518288474810214,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 66,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.7139825142235364
+              }
+            ],
+            "rerank_score": 5.907883644104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令查询记录n023：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.018980848153214776,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.7147411135461449
+              }
+            ],
+            "rerank_score": 5.903932571411133,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令查询记录n022：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.017862266857962696,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 22,
+                "score": 0.710072118792578
+              }
+            ],
+            "rerank_score": 5.889420986175537,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令查询记录n009：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.020645645645645645,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.7120192073952268
+              }
+            ],
+            "rerank_score": 5.874746322631836,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令查询记录n014：本记录没有口令值，必须沿桥接登记查询。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.018481518481518484,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.18592521533407175
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.7091724929552845
+              }
+            ],
+            "rerank_score": 5.866561412811279,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29730,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 586.3945999999996,
+      "queue_wait_ms": 0.006099999998696148,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 0.461699999999837
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 14.553500000001804,
+          "query_tokens": 39,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "promoted": [],
+            "graph_only": 0,
+            "graph_rescued": 0,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "n012",
+              "n013",
+              "n009",
+              "n016",
+              "n015",
+              "n024",
+              "n001",
+              "n000",
+              "n023",
+              "n017",
+              "n011",
+              "n014",
+              "n019",
+              "n005",
+              "n006",
+              "n018",
+              "n022",
+              "n010",
+              "n030",
+              "n020",
+              "n007",
+              "n034",
+              "n021",
+              "n033",
+              "bridge",
+              "answer",
+              "n041",
+              "n032",
+              "n029",
+              "n061",
+              "n039",
+              "n058",
+              "n002",
+              "n028",
+              "n025",
+              "n068",
+              "n046",
+              "n063",
+              "n003",
+              "n048"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": []
+          },
+          "elapsed_ms": 0.5927000000010594
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "n012",
+            "n013",
+            "n009",
+            "n016",
+            "n015",
+            "n024",
+            "n001",
+            "n000",
+            "n023",
+            "n017",
+            "n011",
+            "n014",
+            "n019",
+            "n005",
+            "n006",
+            "n018",
+            "n022",
+            "n010",
+            "n030",
+            "n020",
+            "n007",
+            "n034",
+            "n021",
+            "n033",
+            "bridge",
+            "answer",
+            "n041",
+            "n032",
+            "n029",
+            "n061",
+            "n039",
+            "n058",
+            "n002",
+            "n028",
+            "n025",
+            "n068",
+            "n046",
+            "n063",
+            "n003",
+            "n048"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 558.191700000003
+        }
+      },
+      "primary_result_ids": [
+        "n028",
+        "n000",
+        "n020",
+        "n058",
+        "n003",
+        "n013",
+        "n046",
+        "n048",
+        "n010",
+        "n032",
+        "n030",
+        "n001",
+        "n016",
+        "n017",
+        "n029",
+        "n063",
+        "n023",
+        "n022",
+        "n009",
+        "n014"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 586.4006999999983
+    }
+  },
+  "fixture_db_sha256": "99aa91b8c2e4aaf3f54b9e082b7f4a1d632b41512b42ba32b8df9650c6d27d0b",
+  "passed": false
+}

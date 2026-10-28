@@ -1,0 +1,22 @@
+﻿{
+    "passed":  true,
+    "checked_at":  "2026-10-23T05:14:11.1762755-07:00",
+    "product_root":  "C:\\validation\\universal-0.3.0\\work\\移位验收 空格路径\\chan-kg-agent-0.3.0-307029129712",
+    "checks":  [
+                   "windows_native_architecture_and_minimum_build",
+                   "bundled_runtime_sha256",
+                   "real_embedding_and_reranker_query"
+               ],
+    "full_model_query":  true,
+    "environment":  {
+                        "windows":  "Microsoft Windows Server 2022 Standard Evaluation",
+                        "build":  20348,
+                        "architecture":  "AMD64",
+                        "physical_memory_bytes":  4294496256,
+                        "powershell":  "5.1.20348.558",
+                        "administrator_required":  false,
+                        "selected_node_arch":  "x64"
+                    },
+    "graph_version":  "0.1.0-review-307029129712",
+    "diagnostics":  ""
+}

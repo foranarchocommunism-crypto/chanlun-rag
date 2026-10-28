@@ -1,0 +1,111 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_isolated_curation_no_import",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-7f715744fc41",
+  "input_scope": [
+    "lesson-072",
+    "lesson-073",
+    "lesson-074"
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "source_filename": "volume_2.pdf",
+  "source_sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+  "source_page_count": 432,
+  "pdf_pages_read": [
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+  ],
+  "passages_read": 171,
+  "coverage_counts": {
+    "lesson-072": 66,
+    "lesson-073": 56,
+    "lesson-074": 49
+  },
+  "claims": 85,
+  "claims_by_lesson": {
+    "lower-l072": 31,
+    "lower-l073": 28,
+    "lower-l074": 26
+  },
+  "evidence": 135,
+  "importance_counts": {
+    "3": 39,
+    "1": 10,
+    "2": 31,
+    "4": 5
+  },
+  "existing_reviewed_in_scope": [
+    "lower-l072-center-makes-types-strict",
+    "lower-l072-dynamics-energy-and-divergence",
+    "lower-l072-dynamics-premises",
+    "lower-l072-feature-sequence-removes-small-to-large",
+    "lower-l072-l067-explicit-refinement",
+    "lower-l072-morphology-dynamics",
+    "lower-l072-morphology-geometric-scope",
+    "lower-l072-morphology-learning-chain",
+    "lower-l072-morphology-operation-segment",
+    "lower-l072-morphology-second-not-first"
+  ],
+  "existing_reviewed_preserved": true,
+  "figure_objects_visually_reviewed": 8,
+  "figure_original_origins_verified": false,
+  "pending": 5,
+  "new_concepts": [
+    "中枢上移",
+    "乘法原则",
+    "基本面",
+    "对冲",
+    "比价关系",
+    "硬调控",
+    "行业龙头",
+    "软调控"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": true,
+  "all_four_rounds_complete": true,
+  "independent_review_claimed": false,
+  "author_commentary_reviewed_with_context": true,
+  "checks_run": [
+    "curation_contract.validate_records(db mode=ro) exact quote/codepoint/source mapping/geometry/role/figure/reference validation",
+    "171 of 171 passages individually covered",
+    "all eight figure objects rendered and viewed",
+    "fixed PDF SHA256 verified"
+  ],
+  "checks_not_run": [
+    "formal import",
+    "database or manifest mutation",
+    "desktop interaction or retrieval acceptance",
+    "original blog provenance investigation",
+    "independent human review"
+  ],
+  "acceptance": "部分通过：三课171段全部四轮审读，所列新增命题和8图视觉对应已完成；图源及未展示理论证明保留待核，政策时间尺度不自行统一，未正式导入。",
+  "next_resume_anchor": "c_stage_l072_l074_sol61.pending.jsonl",
+  "next_action": "主代理按最新图谱版本复核本隔离批并统一只读预检、授权发布。",
+  "relations_added": 0,
+  "relation_note": "阶段C以有条件命题和概念归属承载；未为凑图边添加缺少独立语义的关系。",
+  "resolved_exercise": {
+    "question_passage_id": "volume_2-5332cd1b6038-p0114-b006",
+    "author_answer_passage_id": "volume_2-5332cd1b6038-p0119-b002",
+    "answer_claim_id": "lower-l074-c-stage-case-one-minute-trend-end-divergence",
+    "note": "作者后附明确给背驰，不由模型补答。"
+  }
+}

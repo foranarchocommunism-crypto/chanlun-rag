@@ -1,0 +1,298 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-1faa97315b10",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b003-s01",
+      "before": {
+        "published_at": "2007-05-3116:00:35"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:00:35"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "8c2542522d92745e68bd21a676a4a5b5ad6a8cab126cf06b477bf0f0346b3bec",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b004",
+      "before": {
+        "published_at": "2007-05-3116:00:35"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:00:35"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "cdbc193b387bee554d1dcd1d52f9fc3513725de2b2372e5ec0ec4c184e72ad6c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b008-s01",
+      "before": {
+        "published_at": "2007-05-3116:14:00"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:14:00"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "fdbb7f9fac4f73d4af4bdb0f87893cad9b54471c662f2fc402e7228a7cff2eb5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b009",
+      "before": {
+        "published_at": "2007-05-3116:14:00"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:14:00"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "cd197d7cebeb9092f745475652ac5c773f8e07cc8d6f26d039f3344d1c1a2df0",
+      "affected_references": [
+        {
+          "id": "evidence-d76b1047313e2b62",
+          "claim_id": "candidate-1b32476714008c27",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b010",
+      "before": {
+        "published_at": "2007-05-3116:14:00"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:14:00"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "a559f1ae7d8e11bf74a1cf6de76acd95978cd30e9f10310c536c3fd0874bf57a",
+      "affected_references": [
+        {
+          "id": "evidence-7c52a2589cab5c30",
+          "claim_id": "candidate-deb5fb6dabe023e0",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b012-s01",
+      "before": {
+        "published_at": "2007-05-3116:17:53"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:17:53"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "f5d492ece7acac41afea8fc43937972df4693972fd646fa0b4b06009853b831f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0426-b013",
+      "before": {
+        "published_at": "2007-05-3116:17:53"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:17:53"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "0db61a9e8484101d64bce68ac49376d474331fdfaf013d674ceca7c334a88942",
+      "affected_references": [
+        {
+          "id": "evidence-85105fdcf0f91f3c",
+          "claim_id": "candidate-2cf33885c73ef975",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b000-s01",
+      "before": {
+        "published_at": "2007-05-3116:22:13"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:22:13"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "e71e97406c79abeb4b5070efd7e516a49c66d6ec3bec7291230e1e6c6f9aadf8",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b001",
+      "before": {
+        "published_at": "2007-05-3116:22:13"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:22:13"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "83d63e17498ae4f2c991f5d037d99ae0ed448f1df51dd0c0092bbd30ee04eb83",
+      "affected_references": [
+        {
+          "id": "evidence-8c6bbfa7201ff5e9",
+          "claim_id": "candidate-189811f288c0ce79",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b002",
+      "before": {
+        "published_at": "2007-05-3116:22:13"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:22:13"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "b3f3ea29daa7f47ae7cc3baa2f76af41a067c5a0a72a2fc80ca47d35f4e49239",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b004-s01",
+      "before": {
+        "published_at": "2007-05-3116:35:14"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:35:14"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "9f915cddc012e8b3b9bfaba3092049db9fe69918ffd01a981f0a664e9e2aa95f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b005",
+      "before": {
+        "published_at": "2007-05-3116:35:14"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:35:14"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "2dcc47bd91055edd83a22c13915d35d811f85cae2dee82a74fb09ff5a18abfce",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b007-s01",
+      "before": {
+        "published_at": "2007-05-3116:32:58"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:32:58"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "52f07569f96fb1fc3a0bacffc1d5dccbad13d190584748271de9afe61a7235d5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0427-b008",
+      "before": {
+        "published_at": "2007-05-3116:32:58"
+      },
+      "after": {
+        "published_at": "2007-05-31 16:32:58"
+      },
+      "reason": "实际核对PDF422至427作者署名/跨页承接，仅补答复日期时刻空格；标题5/30与正文昨天这530张力保留，不改成5/31，原字T+0/不大过/几何映射均不改。",
+      "text_sha256": "53e5ee7b41ba402a77fd5e0f9490025ca6e94beae210d0b00af6f8bd40532770",
+      "affected_references": [
+        {
+          "id": "evidence-4556846b204bc43b",
+          "claim_id": "candidate-920a43ccbd5346a4",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0423-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分原样截图右侧记2007/5/30，完整当日行情在5/30 22:49标题前可得；原作者/原发未核。MACD标(24,52,9)，绿箭头划1分以下、红箭头比柱，不能把截图参数静换成重绘图(12,26,9)或伪造柱面积数值。"
+      },
+      "reason": "主代理查看422至427六整页与4幅整图，核1分原样图参数/重绘晚于正文、5/31收评图当时可得和日线头2011/08/18/轴2007/9；2未核2后加，原T+0/不大过/昨天与标题日期不改。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0424-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证1分重绘图头5/31、含5/31早段三卖，晚于正文5/30 22:49；MJ_MACD(12,26,9)与423原图(24,52,9)不同，ABC框/旁注供定位，不能证同参数原始面积或当时预测。"
+      },
+      "reason": "主代理查看422至427六整页与4幅整图，核1分原样图参数/重绘晚于正文、5/31收评图当时可得和日线头2011/08/18/轴2007/9；2未核2后加，原T+0/不大过/昨天与标题日期不改。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0425-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分至5/31收盘，10:02及4015-4122高一级框在当日15:43收评前可得；原制图/原发未核。图边4087.40/4122.41等精值不静改正文整数4087/4122，C为新枢首段按作者答限定。"
+      },
+      "reason": "主代理查看422至427六整页与4幅整图，核1分原样图参数/重绘晚于正文、5/31收评图当时可得和日线头2011/08/18/轴2007/9；2未核2后加，原T+0/不大过/昨天与标题日期不改。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0425-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "日线右端横轴已到2007/9附近，软件头选却为2011/08/18，明显是后加再加工而非5/31当时原图；图标1992-05-26 1249上深1/2线，原模型1429保独立，不据后行情证明作者1/2线预测。"
+      },
+      "reason": "主代理查看422至427六整页与4幅整图，核1分原样图参数/重绘晚于正文、5/31收评图当时可得和日线头2011/08/18/轴2007/9；2未核2后加，原T+0/不大过/昨天与标题日期不改。"
+    }
+  ],
+  "visual_pages": [
+    422,
+    423,
+    424,
+    425,
+    426,
+    427
+  ],
+  "pending": [
+    "标题5/30 22:49与正文昨天这530、55 09:47/56 9点48、回补段T+0、不大过等原字保留，不静修或补规则。",
+    "4图2未核2后加，MACD(24,52,9)/(12,26,9)参数不合并；A/B/C完成与小转大、C为新中枢首段及4015-4122/读者4027-4077分解范围分别保留。"
+  ],
+  "reviewer": "Codex 主代理 / 56课突发二三卖、最低观察级/完成段、MACD对比与大小转折和四图原字四轮复核"
+}

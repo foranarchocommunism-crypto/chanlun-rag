@@ -1,0 +1,38 @@
+{
+  "delivery_verified_at": "2026-10-21T16:32:58.878349+00:00",
+  "graph_version": "0.1.0-review-307029129712",
+  "delivery_scope": "shared_knowledge_base_only",
+  "directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-knowledge-20261022-307029129712",
+  "archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-knowledge-20261022-307029129712.zip",
+  "archive_sha256": "80d13cfacca2c09cebf318579c27168771575c3a5213a50b319da033ae68d6dc",
+  "archive_bytes": 78525106,
+  "checksum_manifest_sha256": "8da6327ced06626a95619b86e6b32eab0c99552fcc29d7995aadc592c3ce17cc",
+  "files_including_checksum": 2164,
+  "uncompressed_file_bytes": 222481067,
+  "all_directory_file_hashes_checked": true,
+  "all_archive_file_hashes_and_crc_checked": true,
+  "actual_delivery_copy_validation": {
+    "graph_version": "0.1.0-review-307029129712",
+    "reviewed_claims": 3369,
+    "errors": [],
+    "coverage": {
+      "documents": 2,
+      "pages": 907,
+      "units": 110,
+      "passages": 9650,
+      "figures": 528,
+      "concepts": 318,
+      "claims": 6008,
+      "relations": 692
+    },
+    "pass": true
+  },
+  "canonical_kb_unchanged": true,
+  "canonical_kb_sha256": {
+    "database": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+    "manifest": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac"
+  },
+  "construction_records_git_revision": "8248c0882b953b50f88e6f2381ee2e5c343a1fe6",
+  "knowledge_delivery_complete": true,
+  "all_explanations_confirmed": false
+}

@@ -1,0 +1,73 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-2ba521070153",
+  "lessons": [
+    105
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册105课同模型四轮复核",
+  "passages_read": 181,
+  "claims": 66,
+  "evidence": 98,
+  "importance_counts": {
+    "1": 31,
+    "2": 34,
+    "3": 1
+  },
+  "new_concepts": [
+    "主动买套",
+    "倒T型K线",
+    "机械化操作"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401
+  ],
+  "figure_objects_viewed": 11,
+  "adjacent_figure_viewed": {
+    "id": "volume_2-5332cd1b6038-p0382-fig1",
+    "unit": "lesson-104",
+    "counted_in_batch": false
+  },
+  "figure_origin_counts": {
+    "unverified": 2,
+    "later_annotation": 9
+  },
+  "pending": [
+    "lower-l105-c-stage-pending-mechanical-classification-and-unknown-flowcharts",
+    "lower-l105-c-stage-pending-half-position-vs-active-accumulation-execution",
+    "lower-l105-c-stage-pending-fractal-stroke-reference-and-completed-extension",
+    "lower-l105-c-stage-pending-theory-2990-vs-empirical-3700-confidence",
+    "lower-l105-c-stage-pending-multiple-gap-objects-and-price-rounding",
+    "lower-l105-c-stage-pending-active-accumulation-filter-examples-and-historical-claims",
+    "lower-l105-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_passages_snapshot_sha256": "0f4be61026cd0a42a0d56c3c328da5fdf4448525c41a1020f08c82aa2cfb28be",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "181段四轮审读、20页11本课图+1邻课边界；48来源身份日期及11图校核，机械化/半仓/主动买套和理论/经验/预测范围分开，增量待预检发布。"
+}

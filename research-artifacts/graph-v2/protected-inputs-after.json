@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0\\graph.sqlite",
+      "sha256": "3463D772E607C6E89104C17C02C6B3656CCA766F444D226C011FB9D8A9017271",
+      "current_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0\\manifest.json",
+      "sha256": "4EAFC2500D74089D2B8A113598AFB83470C4553D53748A5CA6207F614C238AAC",
+      "current_sha256": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\manifest.json",
+      "sha256": "5FFE4715E3B8D7A6FA3CFF9AA2DCAF04BD68BF56D036E8167C19AA1DC25C255B",
+      "current_sha256": "5ffe4715e3b8d7a6fa3cff9aa2dcaf04bd68bf56d036e8167c19aa1dc25c255b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\projection.sqlite",
+      "sha256": "0686B13E61C145AFF2B638BD29A2FED27A8D56EFC6A2FD68061E656D8A66585E",
+      "current_sha256": "0686b13e61c145aff2b638bd29a2fed27a8d56efc6a2fd68061e656d8a66585e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\vectors.f32",
+      "sha256": "9B98764FDA2F6DBB9A61417291A171A2B18E53F8C73CE1A7368A5CF9AB9516A8",
+      "current_sha256": "9b98764fda2f6dbb9a61417291a171a2b18e53f8c73ce1a7368a5cf9ab9516a8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\vector-rows.json",
+      "sha256": "2A55299D410092160326E8A3ECE9A5A7770F9816338C44885CB6FB915DF1E5E7",
+      "current_sha256": "2a55299d410092160326e8a3ece9a5a7770f9816338c44885cb6fb915df1e5e7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\profiles\\default.json",
+      "sha256": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40",
+      "current_sha256": "fff766759d96c758d5b391e6e024ec9fe74665523aded4268ea52b288ecdba40",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\policies\\ambiguity-issues.json",
+      "sha256": "AD3F55351BA2AFB7A5FD2679DF60E12C51F31299A51BD4AF3427C27F69CBBE93",
+      "current_sha256": "ad3f55351ba2afb7a5fd2679df60e12c51f31299a51bd4af3427c27f69cbbe93",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\download-models.py",
+      "sha256": "559D1E9451D4D172DE674490F2D637471404977A28F7F35B25EA308875D9002D",
+      "current_sha256": "559d1e9451d4d172de674490f2d637471404977a28f7f35b25ea308875d9002d",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-53f025e063a2",
+  "graph_version": "0.1.0-review-fb98ec817dcb",
+  "scope": "第88课124段，PDF239至250共12页与4图；两图后期，中阴、新类型及操作级别边界分别保留",
+  "new_claims": 36,
+  "new_evidence": 57,
+  "relation_supports_added": 8,
+  "reviewed_before": 1148,
+  "reviewed_after": 1184,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 196,
+    "claims": 3823,
+    "evidence": 4284,
+    "relations": 190,
+    "reviews": 1241
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l088.reviewed.jsonl": "0a9cfb5c671333c21a3503781205e8be739eea906bc9e8b628fc1f1c3a18fcc4"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T031932275069Z-curation-l088",
+  "reviewer": "Codex 主代理 / 阶段C下册88课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l088-c-stage-pending-line-class-and-stage-end",
+    "lower-l088-c-stage-pending-stage-length-and-v",
+    "lower-l088-c-stage-pending-214-internal-nesting",
+    "lower-l088-c-stage-pending-figure-origin-price",
+    "lower-l088-c-stage-pending-historical-claims-and-skill"
+  ],
+  "source_structure_changes": "stage-c-l088-figure-applied.json",
+  "checks_run": [
+    "36条JSON Schema及引用/身份/映射/坐标预检",
+    "124段原文哈希及全段台账一致",
+    "原1148条已复核命题及其全部证据未改",
+    "26项Node工程检查通过；1184条全量引用校验0错误",
+    "8组中阴/案例/级别边界及8组CLI/共享/桌面vendor查询一致性通过；查询未改数据库或清单",
+    "1184命题/196概念/190关系同版本导出",
+    "新增12条开发题，累计72/72当前图谱取证计划和来源身份检查通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答与检索基线评分未完成",
+    "Windows成品离线及PDF缩放旋转跨页实际交互未验收",
+    "其余64课完整语义及全书图文核查未完成",
+    "214内部笔区间套独立重算尚未完成"
+  ],
+  "acceptance": "36条增量已发布，5项待核与两张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第89至90课276段，实际PDF250至277，从p0250-b003开始；先完整顺读正文及问答，再逐图核对结束时间辅助判断的适用范围。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-fb98ec817dcb",
+    "engineering_tests_passed": 26,
+    "reviewed_claims_validated": 1184,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 72,
+    "development_cases_total": 72,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

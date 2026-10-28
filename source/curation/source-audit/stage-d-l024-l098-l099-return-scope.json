@@ -1,0 +1,122 @@
+{
+  "stage": "D-cross-lesson-ambiguity",
+  "base_graph_version": "0.1.0-review-d536de7be067",
+  "graph_version": "0.1.0-review-206b57a0a638",
+  "changes": [
+    {
+      "review_type": "source_checked_cross_lesson_ambiguity",
+      "base_graph_version": "0.1.0-review-d536de7be067",
+      "claim_id": "lower-l098-c-stage-divergence-return-then-classify",
+      "before": {
+        "ambiguity_status": "none",
+        "review_note": "语境：第98课；角色author_body；时间2008-02-04 19:51:49。适用条件：本条列出的对象、级别及上下文。四轮：通读全部正文及问答；拆分结论和联合条件；对照既有命题与标准概念；逆向核对原句、原页及涉及的图。回拉为所述保证边界，不代表只到必停或必立即反向；不删既有特定趋势背驰高一级结构结论。。同模型四轮不代表独立审查者；仅据固定汇编，未核原博客。"
+      },
+      "after": {
+        "ambiguity_status": "return_guarantee_cross_lesson_scope",
+        "review_note": "语境：第98课；角色author_body；时间2008-02-04 19:51:49。适用条件：本条列出的对象、级别及上下文。四轮：通读全部正文及问答；拆分结论和联合条件；对照既有命题与标准概念；逆向核对原句、原页及涉及的图。回拉为所述保证边界，不代表只到必停或必立即反向；不删既有特定趋势背驰高一级结构结论。。同模型四轮不代表独立审查者；仅据固定汇编，未核原博客。。跨课范围复核：第24课明确区分趋势背驰回B中枢与盘整背驰可能形成三买、未必同等回跌；第98课此段无论盘整背驰或真正背驰都回原中枢的概括，与此前说明存在对象范围差异；第99课另以走势类型完成为前提说后续至少高一级中枢。仅固定汇编尚不足以统一这些范围，保留原句及各课证据，不因日期自动撤回；不把盘整背驰一律必回原中枢作为已无歧义规则。"
+      },
+      "sources": [
+        {
+          "claim_id": "lower-l098-c-stage-divergence-return-then-classify",
+          "text": "作者说盘整背驰或真正背驰后，理论只能保证回拉原中枢；回拉后应将可能情况完全分类，再按各支后果定对策。",
+          "evidence": [
+            {
+              "evidence_id": "evidence-2d909d1ac7ab08cf",
+              "passage_id": "volume_2-5332cd1b6038-p0332-b007",
+              "pdf_page": 332,
+              "role": "author_body",
+              "speaker": "缠中说禅",
+              "quote": "一个背驰后，无论是盘整背驰还是真正的背驰，理论只能保证其回拉原来的中枢，这是正确的思维方式，那么，回拉之后如何，这涉及预测。正确的思维是，把回拉后出现的情况进行完全的分类，根据每种分类对应的后果，决定你自己的对策。",
+              "source_text_sha256": "30d258084dc39d48a53a973cdd2b3f9c531527646a04bb17b8d9ca1b1cee1412"
+            }
+          ]
+        },
+        {
+          "claim_id": "upper-l024-c-stage-standard-divergence-retrace-b-center",
+          "text": "本课标准趋势背驰发生后的回跌至少重新进入B段中枢；盘整背驰不适用同一个最低回跌要求，需另看是否回到原中枢。",
+          "evidence": [
+            {
+              "evidence_id": "evidence-5d008a561dc530e6",
+              "passage_id": "volume_1-a53e99c37ca5-p0135-b000",
+              "pdf_page": 135,
+              "role": "author_body",
+              "speaker": "缠中说禅",
+              "quote": "背驰与盘整背驰的两种情况中，背驰是最重要的，一旦出现背驰，其回跌，一定至少重新回到B段的中枢里，看看601628人寿昨天的回跌，就一目了然了。而盘整背驰，一般会在盘整中弄短差时用到，如果其间突破中枢，其回跌必须分清楚上面的两种情况。",
+              "source_text_sha256": "f21d8e9e22b7eb57e1297aba4ba9e1e464ac9fc90bdfdbb07e0340a2720708c9"
+            },
+            {
+              "evidence_id": "evidence-aaeef13741133803",
+              "passage_id": "volume_1-a53e99c37ca5-p0139-b004",
+              "pdf_page": 139,
+              "role": "author_reply",
+              "speaker": "缠中说禅",
+              "quote": "各位：一定要先分清楚趋势和盘整，然后再搞清楚背驰与盘整背驰。盘整背驰里的三种情况，特别是形成第三类买点的情况，一定要搞清楚。注意，盘整背驰出来，并不一定都要大幅下跌，否则怎么会有第三类买点构成的情况。而趋势中产生的背驰，一定至少回跌到B段中，这就可以预先知道至少的跌幅。",
+              "source_text_sha256": "4bf26e4a18efe2c284d90167f8516c004044def98e620bc20b912891c143a830"
+            }
+          ]
+        },
+        {
+          "claim_id": "lower-l099-c-stage-completed-type-next-at-least-larger-center",
+          "text": "作者称连接中枢的走势级别必小于中枢；一个级别走势完成后必面对至少大一级中枢震荡，举5分钟上涨结束后至少30分钟中枢震荡。",
+          "evidence": [
+            {
+              "evidence_id": "evidence-d7323b578dea3636",
+              "passage_id": "volume_2-5332cd1b6038-p0339-b004",
+              "pdf_page": 339,
+              "role": "author_body",
+              "speaker": "缠中说禅",
+              "quote": "由此可见，因为划分中的这种情况，我们就很明确地知道，走势的最大特点就是，连接中枢的走势级别一定小于中枢，换言之，一个走势级别完成后必然面临至少大一级别的中枢震荡。例如，一个5分钟的上涨结束后，必然至少要有一个30分钟的中枢震荡，这就是任何走势的必然结论，没有任何走势可以逃脱。",
+              "source_text_sha256": "cdecdaefcf07fb61df23712a892114046a051741c81797e1f8e45f49c2efb4e5"
+            }
+          ]
+        },
+        {
+          "claim_id": "lower-l099-c-stage-healthy-intermediate-in-last-center",
+          "text": "作者称后续较大级别中枢震荡至少落在前走势最后中枢范围，落在最后范围内为正常、健康的中阴。",
+          "evidence": [
+            {
+              "evidence_id": "evidence-b568596335db863a",
+              "passage_id": "volume_2-5332cd1b6038-p0340-b001",
+              "pdf_page": 340,
+              "role": "author_body",
+              "speaker": "缠中说禅",
+              "quote": "正常的，也就是说，这种中阴状态是健康的。",
+              "source_text_sha256": "e1436d4c5287b9e47f8bb1ccb78a62c31f7efe3c61098bd33e6055bf926c3242"
+            },
+            {
+              "evidence_id": "evidence-f8a70e0952d7e2b8",
+              "passage_id": "volume_2-5332cd1b6038-p0340-b000",
+              "pdf_page": 340,
+              "role": "author_body",
+              "speaker": "缠中说禅",
+              "quote": "首先，任何一个后续的更大级别中枢震荡，必然至少要落在前一走势类型的最后一个中枢范围里，这是一个必然结论。换言之，只要这中枢震荡落在最后一个范围里，就是正常行为，就是",
+              "source_text_sha256": "f9fef68187d42f859c9179630e7fdc3339619bc218c80beb18797980a2365ac8"
+            }
+          ]
+        }
+      ],
+      "claim_text_conditions_evidence_unchanged": true,
+      "independent_review_claimed": false
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4155,
+    "evidence": 4858,
+    "relations": 229,
+    "reviews": 1576
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T082707098623Z-return-scope-l024-l098-l099",
+  "all_other_claims_unchanged": true,
+  "source_evidence_concepts_relations_unchanged": true,
+  "pending_not_closed": true,
+  "limits": [
+    "只补一个已复核命题的歧义标记及说明。",
+    "未声称三课范围已统一或任何一课已被明确撤回。"
+  ]
+}

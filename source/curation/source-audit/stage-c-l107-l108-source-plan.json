@@ -1,0 +1,281 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-d0d53f2f3dc0",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0425-b004",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-03 15:14:03"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "5cb0ba93598338666fd35d9d8f9d33e2f6cea5c39ec0ecfa01538a88627f2430",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0425-b005",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-03 15:14:03"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "93b9d6c0fe83cb7a097ca2ac5e05777b284888f3f1ad6cbec09d34b80eaf07a2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0425-b006",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-05 15:08:42"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "af58c9791498f113f8ec3d8968929bf2dd68898c91ccb1cd8566d872510807df",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0425-b007",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-05 15:08:42"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "46fc7e4ce537fd77f325db05548b87a6e9e10b0c0b53c08db5d8cd61ca782254",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0426-b000",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-05 15:08:42"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "931ece844398071a7bc979ce89bc9f6f9fbb8844301d0a868fa205ea496e8634",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0426-b001",
+      "before": {
+        "published_at": "2008-09-02 15:15:15"
+      },
+      "after": {
+        "published_at": "2008-09-05 15:08:42"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "b28f986bca53182fdfaf999c364b94b9d9998904776612981a5996574b6b1deb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0427-b009",
+      "before": {
+        "published_at": "2008-09-23 15:40:14"
+      },
+      "after": {
+        "published_at": "2008-09-24 14:38:08"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "4ea7211a065eee5224cb70246e8d9952894fbc318b2bbe2d9a3e0436d7c055e5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0427-b010",
+      "before": {
+        "published_at": "2008-09-23 15:40:14"
+      },
+      "after": {
+        "published_at": "2008-09-25 20:14:17"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "12eae11041c7987d4a001b3aa58042095c1fafa65987bd852c87d8c0477a1906",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0427-b011",
+      "before": {
+        "published_at": "2008-09-23 15:40:14"
+      },
+      "after": {
+        "published_at": "2008-09-26 10:32:38"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "5e963d1d7441848a0f3553c19c9ee4121cb543f68d0dd6ef0780d1a0a87db7cc",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0427-b012",
+      "before": {
+        "published_at": "2008-09-23 15:40:14"
+      },
+      "after": {
+        "published_at": "2008-09-26 10:32:38"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "efb351f76f74b92ce1006ef21e7aed0e735c8bb36abec228678fc4bbad932796",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0427-b013",
+      "before": {
+        "published_at": "2008-09-23 15:40:14"
+      },
+      "after": {
+        "published_at": "2008-09-26 10:32:38"
+      },
+      "reason": "主代理实际查看PDF425至427：原段末尾裸时间头仅支配后文，原段原日期保留；不修改text/ID/字符映射/坐标。",
+      "text_sha256": "41534937161808793b004eb576db7ff4d81c36d1c3ca3c337557331adccd7208",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0426-b009",
+      "before": {
+        "role": "reader",
+        "speaker": "还是那句话，无欲无求，按图作业。",
+        "published_at": "2008-09-12 12:59:29"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-09-11 16:14:14"
+      },
+      "reason": "PDF426实际页面显示“还是那句话，无欲无求，按图作业。”是9/11作者解盘结束语，并非读者署名；其后的9/12裸日期只支配下一段。",
+      "text_sha256": "4c2072305dda015732780d55e0f618ecc72c58383c990c4f29d329c891b9477b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0426-b010",
+      "before": {
+        "role": "reader",
+        "speaker": "还是那句话，无欲无求，按图作业。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "PDF426的9/12 12:59:29后为同栏目作者解盘“收盘马上有事，先说两句”，没有读者署名；原先把前文结束语误作speaker。保留作者90%估计非独立统计身份。",
+      "text_sha256": "4bc854cc007655349c34999900bb94e111eae9975bc8f5fcb27a44c9d5a2cd43",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0417-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：嵌8/20与8/21两日解盘、光标8/20，主日线右侧到9月并显示1802.3；为文后图，不能按光标认截止或反填2455/2656分支。"
+      },
+      "reason": "已实际查看整图及插图右端，显示正文发表后行情；制作人/原网页来源未核，不作作者原始配图认证。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0420-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：嵌8/25和8/26，主日线延至9月含1802.3，月线插图到2009年且有1664.9；后加图，正文可能扩展更大中枢未成为已确认事实。"
+      },
+      "reason": "已实际查看整图及插图右端，显示正文发表后行情；制作人/原网页来源未核，不作作者原始配图认证。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0422-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/29文字及光标，但月线主图已到2009年，含后续低点/反弹；后加图；图嵌09:15:01不是课程正文已核时间，正文仅记8/29。"
+      },
+      "reason": "已实际查看整图及插图右端，显示正文发表后行情；制作人/原网页来源未核，不作作者原始配图认证。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0423-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：8/29文字/光标，主日线含9月1802.3，周线插图至12月含1664.9；后加图；正文2601/2284/2455不按图2601.5/2284.6/2455.5替换。"
+      },
+      "reason": "已实际查看整图及插图右端，显示正文发表后行情；制作人/原网页来源未核，不作作者原始配图认证。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0425-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：嵌9/1和9/3文字、光标9/4；主日线到11月并有1664.9，月线插图到2009年；后加图；图中2329/2203.3不替代9/3正文2329或倒填当时结果。"
+      },
+      "reason": "已实际查看整图及插图右端，显示正文发表后行情；制作人/原网页来源未核，不作作者原始配图认证。"
+    }
+  ],
+  "pending": [],
+  "visual_pages": [
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427
+  ],
+  "reviewer": "Codex 主代理 / 107至108课来源核对"
+}

@@ -90,6 +90,14 @@ try {
   for (const file of ['retrieval-contract.md', 'MAINTENANCE.md', 'agent-answer-examples.md', 'COMPATIBILITY.md', 'graph-v2.md', 'fixed-release.md']) copyFileSync(resolve(source, 'docs', file), resolve(output, 'docs', file));
   if (!candidate) copyFileSync(resolve(source, 'build/formal-release/gates.json'), resolve(output, 'docs/fixed-release-gates.json'));
   copyFileSync(resolve(source, 'docs/portable-readme.md'), resolve(output, 'README.md'));
+  // Tutorial assets are included in new builds as well as the verified-base patch build.
+  if (existsSync(resolve(source, 'onboarding'))) {
+    cpSync(resolve(source, 'onboarding'), resolve(output, 'onboarding'), { recursive: true });
+    copyFileSync(resolve(workspace, '开始使用.md'), resolve(output, '开始使用.md'));
+    for (const [label, mode] of [['开始连接', 'generate'], ['检查是否正常', 'check'], ['合并已有配置', 'merge']]) {
+      writeFileSync(resolve(output, `${label}.cmd`), `@echo off\r\nsetlocal\r\nchcp 65001 >nul\r\n"%~dp0runtime\\x64\\node.exe" "%~dp0onboarding\\connect.mjs" ${mode}\r\nset "CHANLUN_RESULT=%errorlevel%"\r\npause\r\nexit /b %CHANLUN_RESULT%\r\n`);
+    }
+  }
   const launcher = entry => `@echo off\r\nsetlocal\r\nset "CHAN_KG_NATIVE_ARCH=%PROCESSOR_ARCHITECTURE%"\r\nif defined PROCESSOR_ARCHITEW6432 set "CHAN_KG_NATIVE_ARCH=%PROCESSOR_ARCHITEW6432%"\r\nset "CHAN_KG_NODE_ARCH="\r\nif /I "%CHAN_KG_NATIVE_ARCH%"=="AMD64" set "CHAN_KG_NODE_ARCH=x64"\r\n${architectures.includes('arm64') ? 'if /I "%CHAN_KG_NATIVE_ARCH%"=="ARM64" set "CHAN_KG_NODE_ARCH=arm64"\r\n' : ''}if not defined CHAN_KG_NODE_ARCH (echo Unsupported Windows architecture: %CHAN_KG_NATIVE_ARCH% 1>&2 & exit /b 1)\r\n"%~dp0runtime\\%CHAN_KG_NODE_ARCH%\\node.exe" "%~dp0app\\${entry.replaceAll('/', '\\')}" %*\r\nexit /b %errorlevel%\r\n`;
   writeFileSync(resolve(output, 'chan-kg.cmd'), launcher('bin/chan-kg.mjs'));
   writeFileSync(resolve(output, 'chan-kg-mcp.cmd'), launcher('bin/chan-kg-mcp.mjs'));

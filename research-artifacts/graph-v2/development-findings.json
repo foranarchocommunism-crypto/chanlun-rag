@@ -1,0 +1,81 @@
+{
+  "source": "development-natural/progress.json",
+  "independent_semantic_acceptance": false,
+  "counts": {
+    "G1": {
+      "queries_with_graph_only_primary": 39,
+      "graph_only_primary_occurrences": 55,
+      "rescued_primary_occurrences": 44,
+      "anchor_primary_occurrences": 0,
+      "query_no_anchor": 37,
+      "queries_with_any_graph_promotion_in_primary": 66,
+      "queries_with_two_hop_traversal": 0,
+      "queries_with_complete_two_hop_packet": 0
+    },
+    "G2": {
+      "queries_with_graph_only_primary": 38,
+      "graph_only_primary_occurrences": 51,
+      "rescued_primary_occurrences": 41,
+      "anchor_primary_occurrences": 0,
+      "query_no_anchor": 37,
+      "queries_with_any_graph_promotion_in_primary": 64,
+      "queries_with_two_hop_traversal": 197,
+      "queries_with_complete_two_hop_packet": 0
+    }
+  },
+  "regressions_vs_T48": [
+    {
+      "id": "g-b16-revision-not-silence",
+      "query": "97课如何支持中石油判断修改？只要后来不提就可全图谱自动确认吗？",
+      "T48": 1,
+      "G2": 0.3333333333333333,
+      "T48_evidence_absent_from_G2_not_necessarily_gold": [
+        "volume_2-5332cd1b6038-p0330-b000",
+        "volume_2-5332cd1b6038-p0329-b011"
+      ]
+    }
+  ],
+  "legacy_failures": [
+    {
+      "id": "g-b05-zero-axis",
+      "query": "MACD回抽零轴必须穿到零轴以下才算吗？",
+      "error": {
+        "code": "INVALID_REQUEST",
+        "message": "contextBudget cannot fit request metadata; increase it"
+      }
+    },
+    {
+      "id": "g-b07-proof-wording",
+      "query": "第77课唯一性证明第二个底分支原文是不低于还是不高于？项目证明已经通过了吗？",
+      "error": {
+        "code": "INVALID_REQUEST",
+        "message": "contextBudget cannot fit request metadata; increase it"
+      }
+    },
+    {
+      "id": "g-b10-analogy-first-second",
+      "query": "大中枢震荡次级别点有大操作意义，便是真正大级别一买二买吗？",
+      "error": {
+        "code": "INVALID_REQUEST",
+        "message": "contextBudget cannot fit request metadata; increase it"
+      }
+    },
+    {
+      "id": "g-b11-hypothetical-10000",
+      "query": "作者说日线笔延伸到10000不反对，是预测必须涨到10000吗？",
+      "error": {
+        "code": "INVALID_REQUEST",
+        "message": "contextBudget cannot fit request metadata; increase it"
+      }
+    },
+    {
+      "id": "g-b12-consolidation-amplitude",
+      "query": "盘整只能窄幅横着走，而且一定比多中枢趋势弱吗？",
+      "error": {
+        "code": "INVALID_REQUEST",
+        "message": "contextBudget cannot fit request metadata; increase it"
+      }
+    }
+  ],
+  "interpretation": "Candidate admission and two-hop traversal are active; this exposed set does not demonstrate quality gain. Full path packaging remains budget-limited under60000 codepoints; no complete path count is inferred from traversal counts."
+}

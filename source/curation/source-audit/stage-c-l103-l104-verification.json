@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-f1e255f24bc8",
+  "schema_version": "1.1.0",
+  "checks": [
+    "53新增；零轴防守有最低周期/能力条件及高手背驰例外，跨366/367续句齐全",
+    "几何/物理纲领归作者，未声称物理方程、量纲、市场映射或实证已提供",
+    "原600/1345价差近似未私改，3600为幅度；3%价格目标惯例不替结构容差，3424未最终确认",
+    "3/25预期5带30与3/26实际只带15按日留存；权证0.6/0.7/0.8对象和一般人远离限制保留",
+    "大小资金及最近才沉淀范围保留，前日尾盘提前量不取消T+1或保证隔夜退出",
+    "4/3作业与4/7作者3396答案跨页/日期齐全，图上下降趋势线括注不冒充作者解释",
+    "4/7六十分钟笔已成、周底极可能及再破底例外，与4/11周底已成/周笔两支分开；三价三图不互借",
+    "13图12后加1未核，主图及插图右端均检查；全书语义仍未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "最低时间周期"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "MACD",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "几何结构",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "底分型",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-baa8fb9fc28b8474"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 381
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "3396",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明全书歧义已解决、物理几何映射已证明、价格目标预测/交易收益已实测或3%可作结构容差。"
+  ]
+}

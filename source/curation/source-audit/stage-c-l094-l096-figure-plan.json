@@ -1,0 +1,65 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-24665e3d905d",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0311-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：1月21日课程旁一分图光标1/16，实际行情到1/25含4511.08，后期；不能用完整反弹补成1/21机会已经出现。"
+      },
+      "reason": "光标日期非截图行情截止，原页可见文章之后交易日或后期嵌图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0313-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：1月22日嵌文和光标，但行情到1/23及4511.1，后期；预期第二1分钟中枢不可由次日框线倒填已形成。"
+      },
+      "reason": "光标日期非截图行情截止，原页可见文章之后交易日或后期嵌图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0318-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页及单图：1月24日嵌文和光标，主图行情到1/25且左侧日线嵌图延至2月4195.8，后期；13:40非1分钟三买与日底确认依正文，不用未来分型定位反填。"
+      },
+      "reason": "光标日期非截图行情截止，原页可见文章之后交易日或后期嵌图。"
+    }
+  ],
+  "pending": []
+}

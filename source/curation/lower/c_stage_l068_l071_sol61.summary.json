@@ -1,0 +1,154 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_curation_files_only",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-b0a2500b0bcd",
+  "input_scope": [
+    68,
+    69,
+    70,
+    71
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "GPT-6.1 Sol xhigh / 阶段C下册68至71课四轮复核",
+  "independent_review_claimed": false,
+  "database_connection": "mode=ro",
+  "formal_database_writes": false,
+  "imports_run": false,
+  "main_logs_modified": false,
+  "claims": 122,
+  "evidence": 167,
+  "relations": 0,
+  "all_kind_explicit": true,
+  "new_concepts": 13,
+  "four_round_review": true,
+  "lessons": [
+    {
+      "lesson_number": 68,
+      "passage_count": 126,
+      "actual_pdf_page_range": [
+        59,
+        72
+      ],
+      "new_claims": 33,
+      "whole_lesson_semantic_read_complete": true,
+      "technical_extraction_complete": false,
+      "pending": [
+        "lower-l068-c-stage-pending-class-divergence-macd-homework",
+        "lower-l068-c-stage-pending-original-89-version",
+        "lower-l068-c-stage-pending-figure-origin"
+      ]
+    },
+    {
+      "lesson_number": 69,
+      "passage_count": 121,
+      "actual_pdf_page_range": [
+        72,
+        84
+      ],
+      "new_claims": 28,
+      "whole_lesson_semantic_read_complete": true,
+      "technical_extraction_complete": false,
+      "pending": [
+        "lower-l069-c-stage-pending-monthly-homework",
+        "lower-l069-c-stage-pending-daily-vs-one-minute-center",
+        "lower-l069-c-stage-pending-monthly-figure-version",
+        "lower-l069-c-stage-pending-figure-origin"
+      ]
+    },
+    {
+      "lesson_number": 70,
+      "passage_count": 84,
+      "actual_pdf_page_range": [
+        85,
+        92
+      ],
+      "new_claims": 28,
+      "whole_lesson_semantic_read_complete": true,
+      "technical_extraction_complete": false,
+      "pending": [
+        "lower-l070-c-stage-pending-special-a-boundary",
+        "lower-l070-c-stage-pending-figure-origin"
+      ]
+    },
+    {
+      "lesson_number": 71,
+      "passage_count": 97,
+      "actual_pdf_page_range": [
+        92,
+        102
+      ],
+      "new_claims": 33,
+      "whole_lesson_semantic_read_complete": true,
+      "technical_extraction_complete": false,
+      "pending": [
+        "lower-l071-c-stage-pending-lesson81-correction",
+        "lower-l071-c-stage-pending-one-two-three-rhythm",
+        "lower-l071-c-stage-pending-figure-origin"
+      ]
+    }
+  ],
+  "coverage_ledger_rows": 428,
+  "figure_objects_viewed": 27,
+  "visual_pdf_pages": [
+    62,
+    64,
+    65,
+    67,
+    68,
+    70,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    80,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    91,
+    94,
+    95,
+    98,
+    99
+  ],
+  "machine_contract_check": {
+    "passed": true,
+    "writes": false,
+    "records_checked": 122,
+    "semantic_entailment_automatically_proven": false,
+    "visual_interpretation_automatically_proven": false
+  },
+  "machine_outputs": [
+    "c_stage_l068_l071_sol61.jsonl",
+    "c_stage_l068_l071_sol61.coverage.jsonl",
+    "c_stage_l068_l071_sol61.pending.jsonl",
+    "c_stage_l068_l071_sol61.concepts.jsonl",
+    "c_stage_l068_l071_sol61.anchors.jsonl",
+    "c_stage_l068_l071_sol61.figures.jsonl",
+    "c_stage_l068_l071_sol61.rejected.jsonl"
+  ],
+  "checks_not_run": [
+    "正式导入及发布后的检索/桌面展示",
+    "第81课完整更正核对",
+    "原博客逐字与原图溯源"
+  ],
+  "acceptance": "部分通过：428段逐段四轮已完成，所列新增命题通过只读契约核验；整课技术抽取仍有明确pending，不能声明全部抽取完成。",
+  "next_resume_anchor": "c_stage_l068_l071_sol61.pending.jsonl",
+  "next_action": "主任务先复核本批及pending边界，再统一只读预检和发布。",
+  "existing_candidate_claims_in_scope": 147,
+  "rejected_extractions": 8,
+  "new_ids_checked_against_all_existing_claims": true,
+  "source_document": {
+    "id": "volume_2-5332cd1b6038",
+    "filename": "volume_2.pdf",
+    "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+    "page_count": 432,
+    "resource_path": "sources/volume_2.pdf",
+    "fixed_compilation_only": true
+  }
+}

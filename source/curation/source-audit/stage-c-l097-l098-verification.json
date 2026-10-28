@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-31363ab15fab",
+  "schema_version": "1.1.0",
+  "checks": [
+    "56默认增量；医学比例仅作者修辞，理论不等应用，偏移买卖点有熟练范围",
+    "日中枢形成层次跨日期待核，3600为幅度尺度非中轴价，5228未合并5224/5209",
+    "有原话才留具体修订，24酒话/愿望与后来中枢区间分开，沉默不是全局有效算法",
+    "回中枢后继续分类非只到即停，利好不替代成立但可加强力度，旧趋势背驰条件未删",
+    "361至364是编号且条件保留，关注类背驰非已确认，微型卖出依操作级别",
+    "稍先非完全逆势，新股三个条件，控仓不等空仓，强股建议不消T+1限制",
+    "向上方向非必上涨，小板凳为人群假设；600795估算/三买构造非买入指令，红柱非反转确认",
+    "五后期图一未核图，未来日K不反填中枢/分型/背驰完成，整体语义未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "不一定空仓"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "盘整背驰",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "操作熟练程度",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "仓位",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-0775ec35fe0e45cb"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 333
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "背驰成立只保证",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明医学类比、预测完备性/收益保证或未参数化的熟练偏移、强股/仓位阈值。"
+  ]
+}

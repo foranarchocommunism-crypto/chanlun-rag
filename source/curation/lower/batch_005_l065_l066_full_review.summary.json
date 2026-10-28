@@ -1,0 +1,96 @@
+[
+  {
+    "lesson_number": 65,
+    "document_id": "volume_2-5332cd1b6038",
+    "whole_lesson_semantic_read_complete": true,
+    "technical_extraction_complete": false,
+    "four_round_review": true,
+    "reviewer": "主代理 / 阶段C第65、66课四轮原文复核",
+    "batch": "batch_005_l065_l066_full_review",
+    "base_graph_version": "0.1.0-review-cc9f41ec8f6c",
+    "actual_read_scope": "全部112段，PDF32-b006至45-b002",
+    "records": 65,
+    "legacy_unimported_records_re_reviewed": 21,
+    "supersedes_unimported_records": {
+      "file": "batch_003_l065_l067.jsonl",
+      "id_prefix": "lower-l065-"
+    },
+    "coverage_ledger": "batch_005_l065_l066_full_review.coverage.jsonl",
+    "pending": [
+      {
+        "id": "lower-l065-twelve-exercise-answers",
+        "lesson": 65,
+        "passage_id": "volume_2-5332cd1b6038-p0037-b002",
+        "status": "pending",
+        "issue": "已查看12种笔走势题图；本单元未列出逐图作者完整答案，不能由模型或读者代答后标作原文明说。"
+      },
+      {
+        "id": "lower-l065-two-drawings-full-answers",
+        "lesson": 65,
+        "passage_id": "volume_2-5332cd1b6038-p0039-b000",
+        "status": "pending",
+        "issue": "作者只明确图中笔与线段解释的本质区别，没有逐一确认插班生给出的划分答案；完整逐图答案待另找明确作者说明。"
+      },
+      {
+        "id": "lower-l065-figure-origin",
+        "lesson": 65,
+        "status": "pending",
+        "issue": "9个图对象已实际查看。p35两图FHSL 20080729/20080730明确后加；p34图内有张太山署名但日期及原始归属未核，其余图来源未核，不能当作者原图证言。"
+      }
+    ],
+    "visual_pdf_pages": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      42,
+      44
+    ],
+    "figure_objects_viewed": 9,
+    "logged_at": "2026-10-13T13:42:19.394643+00:00"
+  },
+  {
+    "lesson_number": 66,
+    "document_id": "volume_2-5332cd1b6038",
+    "whole_lesson_semantic_read_complete": true,
+    "technical_extraction_complete": false,
+    "four_round_review": true,
+    "reviewer": "主代理 / 阶段C第65、66课四轮原文复核",
+    "batch": "batch_005_l065_l066_full_review",
+    "base_graph_version": "0.1.0-review-cc9f41ec8f6c",
+    "actual_read_scope": "全部59段，PDF45-b003至50-b000",
+    "records": 36,
+    "legacy_unimported_records_re_reviewed": 14,
+    "supersedes_unimported_records": {
+      "file": "batch_003_l065_l067.jsonl",
+      "id_prefix": "lower-l066-"
+    },
+    "coverage_ledger": "batch_005_l065_l066_full_review.coverage.jsonl",
+    "pending": [
+      {
+        "id": "lower-l066-intraday-nesting-figure",
+        "lesson": 66,
+        "passage_id": "volume_2-5332cd1b6038-p0050-b000",
+        "status": "pending",
+        "issue": "作者15分钟背驰/区间套与60分钟、日线的文字边界已收录；p49仅日线图，未找到本段完整15分钟区间套图示，具体图示结论未核。"
+      },
+      {
+        "id": "lower-l066-figure-origin",
+        "lesson": 66,
+        "status": "pending",
+        "issue": "已查看本单元p49唯一图对象及相邻p50（同页67课定义图另属67课）；p49图原始作者未核。"
+      }
+    ],
+    "visual_pdf_pages": [
+      47,
+      48,
+      49,
+      50
+    ],
+    "figure_objects_viewed": 1,
+    "logged_at": "2026-10-13T13:42:19.394643+00:00"
+  }
+]

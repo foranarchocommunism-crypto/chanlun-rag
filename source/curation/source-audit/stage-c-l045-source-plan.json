@@ -1,0 +1,763 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-1cb86d91f463",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0322-b007-s01",
+      "before": {
+        "published_at": "2007-04-1215:51:03"
+      },
+      "after": {
+        "published_at": "2007-04-12 15:51:03"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "88ede296d24291bad0fb85494dc3cc346ffae2e577b223de079235c1144ab1ab",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0322-b008",
+      "before": {
+        "published_at": "2007-04-1215:51:03"
+      },
+      "after": {
+        "published_at": "2007-04-12 15:51:03"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "06e7c2f796a5297ce1c3825e821387f76b7bff1dc882d1f0fa2d5f4a004a32d8",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0322-b010-s01",
+      "before": {
+        "published_at": "2007-04-1216:06:38"
+      },
+      "after": {
+        "published_at": "2007-04-12 16:06:38"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "944e9ca0c354c5e7a440c029aa94c4bc9c81b1f7d48d19397aec9f482e2c1680",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0322-b011",
+      "before": {
+        "published_at": "2007-04-1216:06:38"
+      },
+      "after": {
+        "published_at": "2007-04-12 16:06:38"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "fa418aded36c8594178066b0e2eb6832dec2dc291d9413c8be3cce65dc368682",
+      "affected_references": [
+        {
+          "id": "evidence-c32e63c88b45b206",
+          "claim_id": "candidate-8854a6d63ebb5358",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0323-b000-s01",
+      "before": {
+        "published_at": "2007-04-1216:10:47"
+      },
+      "after": {
+        "published_at": "2007-04-12 16:10:47"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "da13a44e5248ed82f2810649906e7fe6dfadb799b637aab2a29dd21f1e7ccd8a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0323-b001",
+      "before": {
+        "published_at": "2007-04-1216:10:47"
+      },
+      "after": {
+        "published_at": "2007-04-12 16:10:47"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "9ac2fac3d3de96e06f62988c06ca7746506a6580b03c41c93c3aae5f01568536",
+      "affected_references": [
+        {
+          "id": "evidence-b8db7d7256f3b293",
+          "claim_id": "candidate-1ae693fec8f148d9",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b005-s01",
+      "before": {
+        "published_at": "2007-04-1315:46:17"
+      },
+      "after": {
+        "published_at": "2007-04-13 15:46:17"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "181f87065d9cd5b5e0918b3b0179f5e6458887fba4bf86d680a7adef0d814917",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b006",
+      "before": {
+        "published_at": "2007-04-1315:46:17"
+      },
+      "after": {
+        "published_at": "2007-04-13 15:46:17"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "8b78b51b3155c9a693b20d85579ed2c0b231ba67decd4ceada2ae2367c4b7e56",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b008-s01",
+      "before": {
+        "published_at": "2007-04-1316:02:23"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:02:23"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "bfad2b0caaa2c1ebd485d610c8794cc555a5e409dced8956d2bf481c85a4d71e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b009",
+      "before": {
+        "published_at": "2007-04-1316:02:23"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:02:23"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "db5808afd4c8cfd76c7f0fc73e07d71949a6bd85e4fca44a0ebc33c77f368530",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b011-s01",
+      "before": {
+        "published_at": "2007-04-1316:13:55"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:13:55"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "ae42ddfa76d4d21e29d1d028c4914fe506101953e462ac1e92a94abe0c415a22",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b012",
+      "before": {
+        "published_at": "2007-04-1316:13:55"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:13:55"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "be70e359eb4c0abce8f96a1aa2828b600fe5cbe7d1e4b364ed17f4b808e1fc7b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b012-s01",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "cadab3c204729b4624aeafda219e908e7241fd403ac2dcaf2d0d923a39d99095",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b013",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "3b89ceec7023fd4c4e0873df2df272f1ded3d2f69882f3388e52ef213ad45b6a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b014",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "c558946dcc03eb3d30a8502ff9f7bf7cb255abac3c20665d5aedec3caa028b27",
+      "affected_references": [
+        {
+          "id": "evidence-4581214479ea900b",
+          "claim_id": "candidate-cb79ed12b250a773",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b015",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "9bf2f539b21842315694351cb907ba616d6b0b26cc644c6734065989086403a1",
+      "affected_references": [
+        {
+          "id": "evidence-e68ef89ef0842282",
+          "claim_id": "candidate-a91f2efa8fc353d9",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b016",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "414bf9c2c884aabdcf36626cb240200c3aae68924beb2493e8a9eb943ea97682",
+      "affected_references": [
+        {
+          "id": "evidence-ce9e7cc6f71397dc",
+          "claim_id": "candidate-f9de266940fe0813",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0324-b017",
+      "before": {
+        "published_at": "2007-04-1316:19:51"
+      },
+      "after": {
+        "published_at": "2007-04-13 16:19:51"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "c33790db2a80cb548ba200e02148617997074d6e93e883c99131899be28caced",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0326-b005",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "957d7bf03bf22b3f8b5f1cf052d295ac6dd157ab35e7f4fac0a0ea901bb5345f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0326-b006",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "3b0894438ac01dc5bbbf7dac0f836d00740d3f5bac25e2020f974069a5475f41",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0326-b007",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "8556979b6303b383d35c965af8e8c00bd731db2e7b937f6d57b9a54169d8e829",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0327-b000",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "85f4c187d1f042acd0bb09bded58ae3d4a60165e632f0d3130850a72b2039a95",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0327-b001",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "53e45c1d7204988be68e430b3ddf63a143a71352784af6eb8ea435bff0769ee4",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0327-b002",
+      "before": {
+        "published_at": "2007-04-16 15:25:25"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:38:56"
+      },
+      "reason": "326-b004尾4/17时间头支配后续六段，前段仍4/16；原始尾头/字符映射和身份不改。",
+      "text_sha256": "7f82529589c82bf7345771747ae773a6d23f97a4db6d89dd38d902b45bd16d08",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0327-b005-s01",
+      "before": {
+        "published_at": "2007-04-1621:09:28"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:09:28"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "3b83228752483ff00a85095f821d3bad302ca8d3e9b60b68a07843ca794e2bd3",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0327-b006",
+      "before": {
+        "published_at": "2007-04-1621:09:28"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:09:28"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "3c2d392a9932202dd43817ecea9d564bb6ed29f5cf2cf8d13376dca05ec5fa6b",
+      "affected_references": [
+        {
+          "id": "evidence-7c9ed9517abd8c6d",
+          "claim_id": "candidate-bed3d5f35c75ed4f",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b000-s01",
+      "before": {
+        "published_at": "2007-04-1621:17:11"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:17:11"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "d3f2c353977db03f74ac65ae180c15a84d6a03932ad977fdb8561c7642820f8e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b001",
+      "before": {
+        "published_at": "2007-04-1621:17:11"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:17:11"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "15aa3ff296c14525fbdb130f4bb47c4715b3b23e030a847b20a43a7363925fd9",
+      "affected_references": [
+        {
+          "id": "evidence-b8d834bafef48528",
+          "claim_id": "candidate-27d74163afa7d1b9",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b003-s01",
+      "before": {
+        "published_at": "2007-04-1621:47:44"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:47:44"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "0a28eb39ee0affaf3bfa65bb7ead94b9effff76cc31e048d17aaf3e6c9ab1e22",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b004",
+      "before": {
+        "published_at": "2007-04-1621:47:44"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:47:44"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "42ec8a429ee7efa3e9fe946687d9956bf24da260acaead0cce2cf19ea133686d",
+      "affected_references": [
+        {
+          "id": "evidence-503826ce687ea7cf",
+          "claim_id": "candidate-6490cba4a3c007bc",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b006-s01",
+      "before": {
+        "published_at": "2007-04-1621:55:18"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:55:18"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "a0cdc86ff47a30c0544b4ff0a243945c3c7007f3af4e5dafc1621fd80dc64e68",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b007",
+      "before": {
+        "published_at": "2007-04-1621:55:18"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:55:18"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "36d3a8e0db2844608b99a45b482514f256924df6afc3d894ef2c9df02481c9b1",
+      "affected_references": [
+        {
+          "id": "evidence-69b1b0ee16e77140",
+          "claim_id": "candidate-33f85d9f915e0294",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b008",
+      "before": {
+        "published_at": "2007-04-1621:55:18"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:55:18"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "a7befddd6c10d38bb76589ce7f9687e897d136ed88b6094a90da103f849f9ab1",
+      "affected_references": [
+        {
+          "id": "evidence-39c24ea52f188d95",
+          "claim_id": "candidate-0ee1c7b2e8549364",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b009",
+      "before": {
+        "published_at": "2007-04-1621:55:18"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:55:18"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "68a4ea33812c2bd21d98f9ea9a638c6b8818f00d830737f7e51f44ac264da669",
+      "affected_references": [
+        {
+          "id": "evidence-39991190c4cb82bf",
+          "claim_id": "candidate-4d835d33326f72e7",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b011-s01",
+      "before": {
+        "published_at": "2007-04-1621:57:31"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:57:31"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "ac91375d614aaa8866817e5c3db0a256b90bda2a748e1c39522a12a6d86e6f2f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0328-b012",
+      "before": {
+        "published_at": "2007-04-1621:57:31"
+      },
+      "after": {
+        "published_at": "2007-04-16 21:57:31"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "2457601e207c93679ac9c9d283348f8a2f5bcb7c9d94acf9e4999fae46be0150",
+      "affected_references": [
+        {
+          "id": "evidence-3277b63d50c85079",
+          "claim_id": "candidate-453eecc20b383209",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0329-b001-s01",
+      "before": {
+        "published_at": "2007-04-1622:13:53"
+      },
+      "after": {
+        "published_at": "2007-04-16 22:13:53"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "3b4f3db56b5a79c8dbd3b116d5f5397b2d0a6d2e90dbdd687a8feaa6ad578d0c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0329-b002",
+      "before": {
+        "published_at": "2007-04-1622:13:53"
+      },
+      "after": {
+        "published_at": "2007-04-16 22:13:53"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "edf8f63ed3d017ee48aaedf1038fc05af9a8d09ded64ffb6b98d6e938085a165",
+      "affected_references": [
+        {
+          "id": "evidence-db07609c63cf458c",
+          "claim_id": "candidate-2fdc673333ea8431",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b000",
+      "before": {
+        "published_at": "2007-04-1622:13:53"
+      },
+      "after": {
+        "published_at": "2007-04-16 22:13:53"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "2ed61116afdce817f400030836eb42b943169aba5a15e95f694fbf54009e42d1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b001",
+      "before": {
+        "published_at": "2007-04-1622:19:10"
+      },
+      "after": {
+        "published_at": "2007-04-16 22:19:10"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "089d81be654146e308dd874625f69ea927674d692d7a1663984404aeab3c90c0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b002",
+      "before": {
+        "published_at": "2007-04-1622:19:10"
+      },
+      "after": {
+        "published_at": "2007-04-16 22:19:10"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "e028a6c4b7163cbebdee99c919214569be82df887836dabfe24a640d4e0c41c0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b004-s01",
+      "before": {
+        "published_at": "2007-04-1715:46:14"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:46:14"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "04dcfd35c4fa16c4cd95665e5e950288e30f635983c64d3ef6f468ce3345845b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b005",
+      "before": {
+        "published_at": "2007-04-1715:46:14"
+      },
+      "after": {
+        "published_at": "2007-04-17 15:46:14"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "2c18014ea70fadc0fe824843fb914ea9d56f587285109828aaea370efc90111b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b009-s01",
+      "before": {
+        "published_at": "2007-04-1716:03:35"
+      },
+      "after": {
+        "published_at": "2007-04-17 16:03:35"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "6f3c3879783320e2a4fbeafaf417c8da2ce20c505c801059dc7635bdfc7e7c6b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0330-b010",
+      "before": {
+        "published_at": "2007-04-1716:03:35"
+      },
+      "after": {
+        "published_at": "2007-04-17 16:03:35"
+      },
+      "reason": "作者署名时刻可核，规范日期与时刻缺空格，不改数值、原字、身份和几何。",
+      "text_sha256": "fead908a5f2ea4faedfeb6e574049ca6b6a8f50a72fe71c4d57e7c52ba29c575",
+      "affected_references": [
+        {
+          "id": "evidence-a4efc1c756a2a410",
+          "claim_id": "candidate-b21c26acb950b487",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0327-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证1分图头4/18，嵌4/17 15:38解盘和4/16读者/21:17答，右端为文后行情；1055/1346与1030/1340分属不同日期语境，图不统一升格信号或验真收益。"
+      },
+      "reason": "逐一实际查看PDF320至331十二页与四完整图，核选择栏、右端行情、证券、周期和文字身份。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0329-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证5分图选择4/16而右端至4/17，嵌读者三分钟买点字样及作者可以这样看；后K不证明当时已知后续，也不把读者模糊级别词静改作者严格定义。"
+      },
+      "reason": "逐一实际查看PDF320至331十二页与四完整图，核选择栏、右端行情、证券、周期和文字身份。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0329-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "600855五分图头选择4/16但主图右端至4/17并见14.50，嵌4/16 22:13答；不以后行情证明背驰精度或作者答应再买，分笔例739不是本图证券。"
+      },
+      "reason": "逐一实际查看PDF320至331十二页与四完整图，核选择栏、右端行情、证券、周期和文字身份。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0330-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "600855一分图为4/16同日可见行情，嵌当晚读者问和作者答，原发身份/制作者未核；1345作者反问未文字命名具体买点，不由标箭头补成作者明确分类。"
+      },
+      "reason": "逐一实际查看PDF320至331十二页与四完整图，核选择栏、右端行情、证券、周期和文字身份。"
+    }
+  ],
+  "visual_pages": [
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331
+  ],
+  "pending": [
+    "持股持币等待依相应级别和当下结构，5日线盘整用处不大；2225原字与20年剧本不一致，不静改。",
+    "图3后加1原发未核，三分钟买点为读者模糊词/作者有限认可；331媒体摘录保持读者转引，非作者解盘或当前新闻。"
+  ],
+  "reviewer": "Codex 主代理 / 45课等待与结构、限定5日线及跨时段图源复核"
+}

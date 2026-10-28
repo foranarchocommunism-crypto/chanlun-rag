@@ -1,0 +1,193 @@
+{
+  "audited_at": "2026-10-23T03:01:12.611Z",
+  "plan": "../完整实施计划.md",
+  "local_delivery_complete": true,
+  "full_original_environment_acceptance_complete": false,
+  "independent_windows_deferred_by_user": true,
+  "user_instruction": "暂时没有，先完成本机与交付件验证",
+  "requirements": [
+    {
+      "id": "M0",
+      "requirement": "Current scope, baseline backup, frozen source-disjoint tests and interface/index contracts",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "baseline.json",
+          "sha256": "be5ee4c468e453122da4b4cee9a7e63749433d38c6b34fca187444e7b9097ce5"
+        },
+        {
+          "file": "m6-profile-freeze.json",
+          "sha256": "0341bf3c91efcffcb85073906f1265cbbd56233e4a6e2925da5bec83613391a2"
+        }
+      ]
+    },
+    {
+      "id": "M1",
+      "requirement": "473 ambiguous reviewed records preserved; 2611 pending separated; 2116/61/434 source-coverage triage; eight sourced issues and Unicode/provenance",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        },
+        {
+          "file": "retrieval-contract-current.log",
+          "sha256": "370a2713f58a98bf03532547a0f3bc1b8a5529c8157813a1b48a7092e5a9de5b"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "requirement": "Complete-query production lexical matches strong baseline on all 240 cases and old eight commands remain compatible",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "m2-lexical-parity.json",
+          "sha256": "953b9143a3c9dc3b4228cdbffdc5050e06796b280232010435d56eab46031645"
+        },
+        {
+          "file": "pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "requirement": "Pinned offline embedding, original encoder parameter match, FP32/q8 check, exact vector scan and fusion experiments",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "m3-author-weights.json",
+          "sha256": "5c611d4424be4abe5a0ac336dadc07efc9f08f9b158b31cbd86df0ec6eaa5c42"
+        },
+        {
+          "file": "m3-embedding-consistency.json",
+          "sha256": "33b89f11d2a715f0ce8cd006b61bb8fa96b4def5dc00576e43e33041ac00ad06"
+        },
+        {
+          "file": "m3-hybrid-development.json",
+          "sha256": "1d4faaab8b8d10ed0391852068daa6b4d21049fcebbb1780dff8e8e66ea6a9e9"
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "requirement": "Bounded typed/directed supported graph, one/two-hop and weights ablations, issue alternatives, 20/40 rerank comparison and whole-unit budgets",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "m4-graph-development.json",
+          "sha256": "5c764c1783dea6979745d22aee4b0ffc8bb908857b62cb9d062905edad001794"
+        },
+        {
+          "file": "m4-rerank-development.json",
+          "sha256": "07306c2b5db6c887381b09639c187bb1094cf835a69f39394c1367c5113c7850"
+        },
+        {
+          "file": "m4-production-development.json",
+          "sha256": "cf5847d935df88e4e3655f4bec7e681599e32d51fdf50ebea6de0abcc489ef4a"
+        },
+        {
+          "file": "pre-release-tests.log",
+          "sha256": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc"
+        }
+      ]
+    },
+    {
+      "id": "M5",
+      "requirement": "Shared CLI/JS/MCP, actual stdio client/default-profile roundtrip, schema errors, follow-up evidence and caller-agent answer examples",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "m5-default-mcp-roundtrip.json",
+          "sha256": "5d3e01e59a3473130994fd1da628f1e6484ba22418c87e2ba5629c09203d1101"
+        },
+        {
+          "file": "m5-agent-example-inputs.json",
+          "sha256": "6a08077623d5bc88b67650df96588e3d75c338c2c9d283c6cacc4006aae6322c"
+        },
+        {
+          "file": "release-gates.json",
+          "sha256": "4da9565a5a2c93d836c0b8179ba3380c1b1ac0706e1e920852f4b85bd046494a"
+        }
+      ]
+    },
+    {
+      "id": "M6",
+      "requirement": "Prospective quality comparison after configuration freeze, all source/condition/path gates, CPU resources, source hashes and truthful annotation limits",
+      "status": "implemented_verified",
+      "evidence": [
+        {
+          "file": "m6-profile-freeze.json",
+          "sha256": "0341bf3c91efcffcb85073906f1265cbbd56233e4a6e2925da5bec83613391a2"
+        },
+        {
+          "file": "m6-prospective-acceptance.json",
+          "sha256": "7fb132d4697630913d269bc68cdc93461f1ac3f43ac75c99ac075e8a8b313264"
+        },
+        {
+          "file": "canonical-validation-direct.json",
+          "sha256": "891e53bff9389c3bddc96d975fd0ac8cdc56d383dd7732d2f00f55400dd68beb"
+        },
+        {
+          "file": "release-gates.json",
+          "sha256": "4da9565a5a2c93d836c0b8179ba3380c1b1ac0706e1e920852f4b85bd046494a"
+        }
+      ]
+    },
+    {
+      "id": "M7",
+      "requirement": "Actual portable directory and ZIP, bundled runtimes/models/knowledge/licenses, Unicode/space relocation, denied Node network APIs, isolated PATH, loaded native DLL proof and equal CLI/JS/MCP",
+      "status": "local_delivery_verified",
+      "evidence": [
+        {
+          "file": "m7-directory-verification.json",
+          "sha256": "c37fe8a6438f0a585d2c78a4ac3b8bf52afc4cdeb57c630e82183b289c10ccea"
+        },
+        {
+          "file": "m7-zip-extraction.json",
+          "sha256": "b04e964d4aabe5ff980ede80eff2b31b2fa271b4e35be727d19e67b9f743290c"
+        },
+        {
+          "file": "m7-extracted-verification.json",
+          "sha256": "472472d045c43fda6f3d3ad9aa40520bcac73a10c696a4388b9bb838737472ef"
+        }
+      ]
+    },
+    {
+      "id": "M7-independent-Windows",
+      "requirement": "Execute on a separate clean Windows installation without global runtimes",
+      "status": "deferred_by_explicit_user_instruction",
+      "evidence": []
+    }
+  ],
+  "primary_artifacts": {
+    "directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712",
+    "archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712.zip",
+    "zip_sha256": "39e0fc6038f88fd6ebeb4145f80465ef0ddb394f4901c6a14ad6a62b90d9542b",
+    "archive_bytes": 522565336,
+    "product_manifest_sha256": "403de7ecd821e0911088ae1b8d96ce293c5a9133246ce04755536a47c1890d5c"
+  },
+  "canonical_inputs_unchanged": true,
+  "frozen_source_and_cases_unchanged": true,
+  "no_formal_semantic_promotions": true,
+  "human_gold_claimed": false,
+  "quality": {
+    "development_recall20": 0.9214583333333335,
+    "heldout_recall20": 1,
+    "heldout_cases": 24,
+    "sampling_uncertainty": {
+      "mean": 0.041666666666666664,
+      "bootstrap_percentile95": [
+        0,
+        0.125
+      ],
+      "seed": 20261022,
+      "resamples": 5000,
+      "note": "Small source-disjoint model-annotated set; interval expresses sampling uncertainty, not independent human correctness."
+    }
+  },
+  "remaining_required_external_verification": [
+    "Independent clean Windows execution, deferred while no environment is available"
+  ]
+}

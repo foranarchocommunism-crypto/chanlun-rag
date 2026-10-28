@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-958d0b42fad7",
+  "schema_version": "1.1.0",
+  "checks": [
+    "27条新增；作者价格充分有效为交易时间/轨迹定义，不等全部信息反映，交易随意抹除是定义外情形而非普通停牌",
+    "两前提/绝对性保留作者归属与未证状态，72动力学范围另存；极端1股非安全阈值，不动点及零向量比喻不补公理/数值模型",
+    "进入背驰段仍可破裂需重估，不等成功背驰或无损成交；周线控制/资金功力只作者经验，同法不同结果及理解/实践分开",
+    "较低第二中枢不计成同级趋势第二，延伸仍一中枢；600607非买在30分买点，三买定位类一买不改本级定义，000581需次级走出且回抽不入",
+    "早期自选最低三K须连续且有方向，从高位下来才是下上下例；新手三条件/熟练例外与原不元字形保留，10:45更正为1分",
+    "1跨页解盘改2/14，前段2/13不改；CCTV及大盘仍读者，实际六页无配图；30有记录而全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "进入背驰段后遇绝对突发事件"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "交易时间不可逆",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "交易延异性",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-4ade023994a45b25"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 218
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第三类买点好象一定是次级别的",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、历史行情/测度论证明核验或Windows实际离线/PDF交互。",
+    "未验证作者绝对有效主张、公理化/不动点形式证明、周线控制界限或实测操作效率。"
+  ]
+}

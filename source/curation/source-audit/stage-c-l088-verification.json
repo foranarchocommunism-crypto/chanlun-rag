@@ -1,0 +1,91 @@
+{
+  "graph_version": "0.1.0-review-fb98ec817dcb",
+  "schema_version": "1.1.0",
+  "checks": [
+    "36条默认知识，中阴定义保留背驰/盘整背驰与新类型尚未确立的两端",
+    "截取盘整不冒充完整新类型，结束可同向延续或反向",
+    "195为案例类线段分界，旧结构在大级别仍有用，严格最低级别边界保留",
+    "分级标号增记依完成而非固定时长，Yn只可能有，级别长度无自行换算",
+    "回抽波动区间与中枢区间有别，214回补需1分钟操作级别，内部笔未重算状态可见",
+    "反抽不必触颈线，重回/站稳分开，1000及10000不变最大跌幅或预测目标",
+    "月顶与5月线、日底与5日线分层；中石油两中枢扩展仍是概率预期",
+    "两图后期与两图来源未核分开，后期图不充原发时证言，全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "中阴"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "中阴身"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "中阴阶段",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "中阴阶段",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-4b544d2cc38d0de6"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 240
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "这是只从截取这一阶段的形态说",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "共享/CLI/桌面vendor模块检查，不是Electron界面、成品离线或PDF交互验收。",
+    "同模型开发场景，未独立重算214的内部笔，也非人工金标准。"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "model_manifest_sha256": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+    "projection_sha256": "fd770050aa786b3179dc63078f36337472d5ef49452e8ef383ac9b126a9163ed",
+    "dimensions": 512,
+    "dtype": "q8",
+    "pooling": "cls",
+    "normalize": true,
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "input_normalization": "NFKC",
+    "text_rows": 459,
+    "unique_vectors": 306,
+    "unique_text_hash": "8de4e033f0ae23ae2a1b28d4c26a4b02ed17c4d13f735d289344cbd7faca9ac2"
+  },
+  "next": 306,
+  "total": 306,
+  "updated_at": "2026-10-25T11:32:52.722Z",
+  "elapsed_ms_this_run": 1802.2568
+}

@@ -1,0 +1,106 @@
+{
+  "stage": "C-explicit-figure-links-amendment",
+  "base_graph_version": "0.1.0-review-77ca557fa0f5",
+  "graph_version": "0.1.0-review-df7b7562fbf3",
+  "reason": "复制模板时把证据索引i==0误替换为i==6，导致5条有视觉记录的命题漏配图；只补关联，原批字节和历史复核保留。",
+  "changes": [
+    {
+      "claim_id": "upper-l031-c-stage-long-pressure-free-funds-and-leverage-story",
+      "evidence_id": "evidence-7b3c5bbb05e8a056",
+      "figure_ids_before": [],
+      "figure_ids_after": [
+        "volume_1-a53e99c37ca5-p0219-fig1"
+      ],
+      "figure_origin": "unverified",
+      "figure_review_note": "原批实际已查看整页及完整图；本次修复丢失的关联，不改文字语义：实际整图标深天地A日线，光标1996/12/02，右端到1997年5月，嵌1996透支故事；正文股票未具名，不能凭后配图把身份、价格与账户故事认证为作者已核事实，制作者日期未核。。图来源状态保持，文字独立支持命题，配图不作唯一证明。"
+    },
+    {
+      "claim_id": "upper-l031-c-stage-feb15-center-1048-1129-third-buy-1413",
+      "evidence_id": "evidence-be09620c2cbd9b4b",
+      "figure_ids_before": [],
+      "figure_ids_after": [
+        "volume_1-a53e99c37ca5-p0224-fig1"
+      ],
+      "figure_origin": "later_annotation",
+      "figure_review_note": "原批实际已查看整页及完整图；本次修复丢失的关联，不改文字语义：实际整图1分光标2/15，右端至2/26，嵌2/15小鸟/兰兰及两作者答复；1048/1114/1129/1413标注依本例，1329笔误备注在读者段不另当作者更正文。。图来源状态保持，文字独立支持命题，配图不作唯一证明。"
+    },
+    {
+      "claim_id": "upper-l031-c-stage-feb16-1405-divergence-and-later-selloff-case",
+      "evidence_id": "evidence-688e8864af55be2f",
+      "figure_ids_before": [],
+      "figure_ids_after": [
+        "volume_1-a53e99c37ca5-p0226-fig1"
+      ],
+      "figure_origin": "later_annotation",
+      "figure_review_note": "原批实际已查看整页及完整图；本次修复丢失的关联，不改文字语义：实际整图指数5分光标2/16，右端到2/26，嵌2/16 14:05问答；文后行情与当天背驰判断分开，图箭头与MACD不补所有级别数值算法。。图来源状态保持，文字独立支持命题，配图不作唯一证明。"
+    },
+    {
+      "claim_id": "upper-l031-c-stage-weekly-three-legs-original-explicitly-qualified",
+      "evidence_id": "evidence-514c3b748df45f62",
+      "figure_ids_before": [],
+      "figure_ids_after": [
+        "volume_1-a53e99c37ca5-p0230-fig1"
+      ],
+      "figure_origin": "later_annotation",
+      "figure_review_note": "原批实际已查看整页及完整图；本次修复丢失的关联，不改文字语义：实际整图日线光标2007/02/27，右边多根K到2007年3月，嵌2/27原解释和17:18不严谨自我收窄；须读更正：先日线中枢再扩张，当前第一段里的第三小段，非已成周线前三段。。图来源状态保持，文字独立支持命题，配图不作唯一证明。"
+    },
+    {
+      "claim_id": "upper-l031-c-stage-weekly-center-first-daily-then-expand-case",
+      "evidence_id": "evidence-eec5bb7c110816cf",
+      "figure_ids_before": [],
+      "figure_ids_after": [
+        "volume_1-a53e99c37ca5-p0230-fig1"
+      ],
+      "figure_origin": "later_annotation",
+      "figure_review_note": "原批实际已查看整页及完整图；本次修复丢失的关联，不改文字语义：实际整图日线光标2007/02/27，右边多根K到2007年3月，嵌2/27原解释和17:18不严谨自我收窄；须读更正：先日线中枢再扩张，当前第一段里的第三小段，非已成周线前三段。。图来源状态保持，文字独立支持命题，配图不作唯一证明。"
+    }
+  ],
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261018T180601134684Z-l031-figure-links",
+  "counts": {
+    "documents": 2,
+    "units": 110,
+    "pages": 907,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 262,
+    "claims": 4898,
+    "evidence": 5877,
+    "relations": 362,
+    "reviews": 2329
+  },
+  "original_batch_sha256_unchanged": "97710084a9065edbbd295d5128aa6fb4670cd3f5b9fd00b38a26cbd12c1a9231",
+  "amended_records_sha256": "3a4d1ef4c29f9eea0db2b509dab8dc78d5735c6991cf020170c586109d274fe8",
+  "original_claim_rows_and_review_rows_unchanged": true,
+  "source_text_mapping_geometry_unchanged": true,
+  "only_listed_five_evidence_figure_ids_changed": true,
+  "new_review_rows": 5,
+  "full_contract_preflight_against_private_snapshot": "passed",
+  "post_checks": "passed",
+  "checks_run": [
+    "五条配图关联CLI/公共/桌面模块逐项一致",
+    "33工程测试通过",
+    "2259引用全量检查零错误",
+    "240冻结开发取证计划/身份回归通过",
+    "同版本JSONL/Markdown/coverage重新导出"
+  ],
+  "exports": {
+    "claims": {
+      "rows": 2259,
+      "sha256": "1d3f2a743c2b76390eab8b4216ebad7016765e7d6954a140f3d2110e0c3ff5b5"
+    },
+    "concepts": {
+      "rows": 262,
+      "sha256": "687f7666591419f99ba19398905f2b351ec34069f8e619b7f8275cd55a6c173d"
+    },
+    "relations": {
+      "rows": 362,
+      "sha256": "34be68239f9a2d448da407395108a04fa46d2af97b5627ba302108a7635f3782"
+    }
+  },
+  "final_sha256": {
+    "database": "e1d3467663198c2597405b623be6effab48a5a767d1862fd7637d31ce7bd3df3",
+    "manifest": "e9231bac394dbeec7d80b018fda6ea9830afa0a20ea99b7ec469f1bfea7d1732"
+  },
+  "finalized_at": "2026-10-18T18:10:33.687467+00:00",
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

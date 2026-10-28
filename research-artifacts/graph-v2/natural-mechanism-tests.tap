@@ -1,0 +1,346 @@
+TAP version 13
+# Subtest: A01 Graph-only candidates reach the actual scoring call despite 100 text candidates
+ok 1 - A01 Graph-only candidates reach the actual scoring call despite 100 text candidates
+  ---
+  duration_ms: 54.9008
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=20
+ok 2 - A04 exact capacity R=20, C=20
+  ---
+  duration_ms: 21.9772
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=40
+ok 3 - A04 exact capacity R=20, C=40
+  ---
+  duration_ms: 18.4304
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=20, C=100
+ok 4 - A04 exact capacity R=20, C=100
+  ---
+  duration_ms: 21.2633
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=20
+ok 5 - A04 exact capacity R=40, C=20
+  ---
+  duration_ms: 20.3454
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=40
+ok 6 - A04 exact capacity R=40, C=40
+  ---
+  duration_ms: 17.7597
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=40, C=100
+ok 7 - A04 exact capacity R=40, C=100
+  ---
+  duration_ms: 17.9525
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=20
+ok 8 - A04 exact capacity R=44, C=20
+  ---
+  duration_ms: 16.6768
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=40
+ok 9 - A04 exact capacity R=44, C=40
+  ---
+  duration_ms: 16.4539
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=44, C=100
+ok 10 - A04 exact capacity R=44, C=100
+  ---
+  duration_ms: 21.2699
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=20
+ok 11 - A04 exact capacity R=48, C=20
+  ---
+  duration_ms: 14.558
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=40
+ok 12 - A04 exact capacity R=48, C=40
+  ---
+  duration_ms: 12.599
+  type: 'test'
+  ...
+# Subtest: A04 exact capacity R=48, C=100
+ok 13 - A04 exact capacity R=48, C=100
+  ---
+  duration_ms: 19.5401
+  type: 'test'
+  ...
+# Subtest: A03 duplicated paths and an already present anchor do not consume multiple seats
+ok 14 - A03 duplicated paths and an already present anchor do not consume multiple seats
+  ---
+  duration_ms: 1.4094
+  type: 'test'
+  ...
+# Subtest: A05 empty graph does not pad the scoring input
+ok 15 - A05 empty graph does not pad the scoring input
+  ---
+  duration_ms: 15.574
+  type: 'test'
+  ...
+# Subtest: A06 a two-claim bundle cannot enter one remaining slot
+ok 16 - A06 a two-claim bundle cannot enter one remaining slot
+  ---
+  duration_ms: 1.1341
+  type: 'test'
+  ...
+# Subtest: A07 source, zero graph budget, no query root and explicit concept root are observable
+ok 17 - A07 source, zero graph budget, no query root and explicit concept root are observable
+  ---
+  duration_ms: 70.9302
+  type: 'test'
+  ...
+# Subtest: C01-C05 prepare failure has atomic fallback, strict mode and next-request recovery
+ok 18 - C01-C05 prepare failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 98.9554
+  type: 'test'
+  ...
+# Subtest: C01-C05 expand failure has atomic fallback, strict mode and next-request recovery
+ok 19 - C01-C05 expand failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 68.231
+  type: 'test'
+  ...
+# Subtest: C01-C05 anchors failure has atomic fallback, strict mode and next-request recovery
+ok 20 - C01-C05 anchors failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 54.4479
+  type: 'test'
+  ...
+# Subtest: C01-C05 validate failure has atomic fallback, strict mode and next-request recovery
+ok 21 - C01-C05 validate failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 45.7444
+  type: 'test'
+  ...
+# Subtest: C01-C05 packagePath failure has atomic fallback, strict mode and next-request recovery
+ok 22 - C01-C05 packagePath failure has atomic fallback, strict mode and next-request recovery
+  ---
+  duration_ms: 63.0141
+  type: 'test'
+  ...
+# Subtest: C04 invalid computed graph evidence fails validation but canonical corrupt errors propagate
+ok 23 - C04 invalid computed graph evidence fails validation but canonical corrupt errors propagate
+  ---
+  duration_ms: 14.3329
+  type: 'test'
+  ...
+# Subtest: C06 deterministic monotonic deadline produces GRAPH_TIMEOUT
+ok 24 - C06 deterministic monotonic deadline produces GRAPH_TIMEOUT
+  ---
+  duration_ms: 13.2763
+  type: 'test'
+  ...
+# Subtest: C02 failure during actual traversal support lookup: bridge
+ok 25 - C02 failure during actual traversal support lookup: bridge
+  ---
+  duration_ms: 29.1039
+  type: 'test'
+  ...
+# Subtest: C02 failure during actual traversal support lookup: answer
+ok 26 - C02 failure during actual traversal support lookup: answer
+  ---
+  duration_ms: 27.121
+  type: 'test'
+  ...
+# Subtest: C07 invalid request, version errors and cancellation cannot be swallowed
+ok 27 - C07 invalid request, version errors and cancellation cannot be swallowed
+  ---
+  duration_ms: 1.4441
+  type: 'test'
+  ...
+# Subtest: C08 failed queued request does not poison the next request
+ok 28 - C08 failed queued request does not poison the next request
+  ---
+  duration_ms: 17.1608
+  type: 'test'
+  ...
+# Subtest: C09 independent dense and graph failures preserve lexical fallback and all reasons
+ok 29 - C09 independent dense and graph failures preserve lexical fallback and all reasons
+  ---
+  duration_ms: 10.7995
+  type: 'test'
+  ...
+# Subtest: C09 reranker failure cannot turn graph seats into forced final positions
+ok 30 - C09 reranker failure cannot turn graph seats into forced final positions
+  ---
+  duration_ms: 12.1079
+  type: 'test'
+  ...
+# Subtest: C10 normal budget exhaustion is visible without degradation
+ok 31 - C10 normal budget exhaustion is visible without degradation
+  ---
+  duration_ms: 14.223
+  type: 'test'
+  ...
+# Subtest: legacy graph profile also gains the controlled failure boundary
+ok 32 - legacy graph profile also gains the controlled failure boundary
+  ---
+  duration_ms: 28.9092
+  type: 'test'
+  ...
+# Subtest: B01/B02 duplicate edge supports and a busy first hop cannot starve the second hop
+ok 33 - B01/B02 duplicate edge supports and a busy first hop cannot starve the second hop
+  ---
+  duration_ms: 24.3104
+  type: 'test'
+  ...
+# Subtest: B03 an absent or unreviewed bridge cannot propagate
+ok 34 - B03 an absent or unreviewed bridge cannot propagate
+  ---
+  duration_ms: 2.891
+  type: 'test'
+  ...
+# Subtest: B03 all edge supports honor request eligibility, including document filtering
+ok 35 - B03 all edge supports honor request eligibility, including document filtering
+  ---
+  duration_ms: 2.0312
+  type: 'test'
+  ...
+# Subtest: B03 research can traverse a pending bridge only with an explicit research pool
+ok 36 - B03 research can traverse a pending bridge only with an explicit research pool
+  ---
+  duration_ms: 1.4296
+  type: 'test'
+  ...
+# Subtest: B04 high fanout, rejected entries and large support lists respect counted hard limits
+ok 37 - B04 high fanout, rejected entries and large support lists respect counted hard limits
+  ---
+  duration_ms: 7.0757
+  type: 'test'
+  ...
+# Subtest: B05 cycles do not become paths, reverse direction and shared bridge are preserved
+ok 38 - B05 cycles do not become paths, reverse direction and shared bridge are preserved
+  ---
+  duration_ms: 1.5505
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=0
+ok 39 - B06 bounded depth=0 budget=0
+  ---
+  duration_ms: 1.0314
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=1
+ok 40 - B06 bounded depth=0 budget=1
+  ---
+  duration_ms: 1.2532
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=2
+ok 41 - B06 bounded depth=0 budget=2
+  ---
+  duration_ms: 0.7521
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=20
+ok 42 - B06 bounded depth=0 budget=20
+  ---
+  duration_ms: 0.7865
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=0 budget=100
+ok 43 - B06 bounded depth=0 budget=100
+  ---
+  duration_ms: 0.7945
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=0
+ok 44 - B06 bounded depth=1 budget=0
+  ---
+  duration_ms: 0.5385
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=1
+ok 45 - B06 bounded depth=1 budget=1
+  ---
+  duration_ms: 1.878
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=2
+ok 46 - B06 bounded depth=1 budget=2
+  ---
+  duration_ms: 0.8686
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=20
+ok 47 - B06 bounded depth=1 budget=20
+  ---
+  duration_ms: 0.8446
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=1 budget=100
+ok 48 - B06 bounded depth=1 budget=100
+  ---
+  duration_ms: 0.917
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=0
+ok 49 - B06 bounded depth=2 budget=0
+  ---
+  duration_ms: 0.5548
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=1
+ok 50 - B06 bounded depth=2 budget=1
+  ---
+  duration_ms: 0.7604
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=2
+ok 51 - B06 bounded depth=2 budget=2
+  ---
+  duration_ms: 0.9623
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=20
+ok 52 - B06 bounded depth=2 budget=20
+  ---
+  duration_ms: 0.9132
+  type: 'test'
+  ...
+# Subtest: B06 bounded depth=2 budget=100
+ok 53 - B06 bounded depth=2 budget=100
+  ---
+  duration_ms: 0.9232
+  type: 'test'
+  ...
+# Subtest: B07 row ordering does not alter path identity and canonical supports
+ok 54 - B07 row ordering does not alter path identity and canonical supports
+  ---
+  duration_ms: 1.797
+  type: 'test'
+  ...
+# Subtest: B08 two-hop packet contains every edge source and separately identified bridge evidence
+ok 55 - B08 two-hop packet contains every edge source and separately identified bridge evidence
+  ---
+  duration_ms: 32.9612
+  type: 'test'
+  ...
+# Subtest: B09 small context defers whole paths with all relation continuation commands
+ok 56 - B09 small context defers whole paths with all relation continuation commands
+  ---
+  duration_ms: 4.7088
+  type: 'test'
+  ...
+1..56
+# tests 56
+# suites 0
+# pass 56
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 664.0004

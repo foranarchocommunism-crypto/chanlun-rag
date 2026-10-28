@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-f348422e88c4",
+  "schema_version": "1.1.0",
+  "checks": [
+    "41新增；持股/币是固定级别等待且观察当下分类，理论保证非收益/成交保证；三完整5分重叠A1+A2+A3仅最弱可能，首中枢形成可结束非即刻必完，后分支留46",
+    "时间乘价格范围是读者未获认可，作者测度未给公式；MACD面积/回轴不单柱高；5日线两答明确单边非盘整、牛市不丢筹码不等死拿，降本未证明免经济风险",
+    "4/16子分钟盘背不升1分、三段识别/技能前提保留；4/17两点未文字命名，95%非评测指标；分笔两股不混600855图，读者三分钟原字与有限认可/作者1345反问不补正式分类或回买建议",
+    "八段博客动机/付费观点和七段经济附文只作上下文，331媒体摘录全部读者非作者；2225不静改2025、20年矛盾保留，10亿美元消息/亏损预谋/收益仅历史转述和未核意见",
+    "六段4/17日期纠正、39时间仅规范空格，前4/16段和尾头原字不改；容量限制不证明读者月翻倍，背驰点分解仍须43/44完成和重合前提，16课读者细问未获逐项答",
+    "5命题6关联4整图逐项确认：327含4/18、329两图含4/17后行情，330同日原发未核；图像不替作者点名、未来K不证预测；全书/真实桌面尚未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "持币"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "等待",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "持币",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-00e3bdd8b817f75a"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 331
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "GDP",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 6,
+    "unique_figures": 4
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查及模块一致性，非独立语义/生成回答质量或Windows实际离线/PDF交互。",
+    "未给全分类/力度/子分钟交易算法，历史消息/2225/强收益未外核；来源限定固定两册。"
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-31581ef72e83",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0178-b006",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "9dea074cbb91a75f7fd7d3f39f3fff7b7a4dfff60ebeaa13ac4ff0a491955035",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0178-b007",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "ddf619ed9bdcdd33faa3f1276b8ad7f505d55683f39150a53ca884748fdf241e",
+      "affected_references": [
+        {
+          "id": "evidence-46976d239b83f5ba",
+          "claim_id": "candidate-52d848e75378d190",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0179-b000",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "445dd7b07e84ce16da0a37ed2910b9eea8cb384edb9a52e384736de57beb9980",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0179-b001",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "5286eb28e31dbc8e27eeb03e87210d221c8cd388b3cfc5d53da10dfa009ce2e8",
+      "affected_references": [
+        {
+          "id": "evidence-e909a2a2d1f8b6e8",
+          "claim_id": "candidate-66288821d8615be0",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0179-b002",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "42b081b3771ef5c0469e71d0418408c9222a83cb5f8293b30388f26456996a00",
+      "affected_references": [
+        {
+          "id": "evidence-078a0ddf79fc5cb5",
+          "claim_id": "candidate-39c32e53412025df",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0180-b000",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "5d9fe55677d776311880e4de91cbed1fd1c53a8e12ffe7b91394fc7de690b01a",
+      "affected_references": [
+        {
+          "id": "evidence-d1ebea143efd93d5",
+          "claim_id": "candidate-55f171460acc90a8",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0180-b001",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "241e9cd57b1256be1e3067f2ee9326e7708630a742f99b957b3acdbdf49adac8",
+      "affected_references": [
+        {
+          "id": "evidence-3f4fcd1cc3d5c84b",
+          "claim_id": "candidate-c054faf09fc99cfd",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0180-b002",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "eebc1ed2f9155aab4b5566becca37300da16d46aeb711cbfc7ca4ea120c7f5bc",
+      "affected_references": [
+        {
+          "id": "evidence-4f898d2d0513d33d",
+          "claim_id": "candidate-98292a0de37047b4",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0180-b003",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "9ddb73f773075b135a7d5374d1081c33f1d853acafd449ecb7ddc65f531c5377",
+      "affected_references": [
+        {
+          "id": "evidence-dcf26dbfd6202b2c",
+          "claim_id": "candidate-f621ed265f30781b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0180-b004",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "45f4b3f195dab767de0606bfcf1ff7ab0b861dbe9d3a193f6a38d52d27115152",
+      "affected_references": [
+        {
+          "id": "evidence-02f5e0d6e73a9b58",
+          "claim_id": "candidate-6e98d0630c9fa26f",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0181-b000",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "9a16f4c474dd108c932622ddcfbff4377851376f431574a587fc17a4728026f9",
+      "affected_references": [
+        {
+          "id": "evidence-4d030669b30ac0ad",
+          "claim_id": "candidate-ea57a84bd731560b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0181-b001",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "99320f0cc453b3ea5de6050b343b7a7ac6ae8e5705a55df806fbcb4965518fb6",
+      "affected_references": [
+        {
+          "id": "evidence-99ed112eb6002ef2",
+          "claim_id": "candidate-ac5c618c0025c3bf",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b000",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "e0fc43e2946d33ec39349ac6b788a6a31cfbdfeaf084f3ce4955a31bc0078bc0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b001",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "79f9427f2d1d1b5cd019b0304911496a1801c2fbf7e5b8a48b7e07d6908edc22",
+      "affected_references": [
+        {
+          "id": "evidence-ad3c83e9165d3760",
+          "claim_id": "candidate-29be369aa840b2da",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b002",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "7e15974ced9f9d6b163fae68bdaeaf7ca6f2247ec05021799c32ff19351782cb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b003",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "a0e732fc70ddda5e10fad1082e5fc3a278be9c51987e9a4a45d04c4b7ccddace",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b004",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "0523f55fdd201967da3f1792ad698b89661ef32eefcf797333006343f94e474c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b005",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "cce7032e93e2d7806abcb97076cdb89b51c7889d0b4334d08c84c66b105a16bc",
+      "affected_references": [
+        {
+          "id": "evidence-dbae223c52b35dc4",
+          "claim_id": "candidate-8747be2f32098987",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b006",
+      "before": {
+        "published_at": "2007-02-02"
+      },
+      "after": {
+        "published_at": "2007-02-02 15:11:27"
+      },
+      "reason": "实际PDF178第27课标题明确2007-02-02 15:11:27，19正文段属于此标题直至182作者解盘；补来源原记时间，不改原文字符。",
+      "text_sha256": "c24a44b766606a2f0d1322ac8223785c2640394763ff0ae214997a1c474d4694",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b010",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:18:33"
+      },
+      "reason": "实际PDF182：2/5 15:18:33在前段尾，只管其后周线第一段探底至000938评论，不能继承2/2解盘时间。",
+      "text_sha256": "2f249b846ad478f3ed58cf7d3ba0d735a94824aebafb642ac965d93f2db5df6e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b011",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:18:33"
+      },
+      "reason": "实际PDF182：2/5 15:18:33在前段尾，只管其后周线第一段探底至000938评论，不能继承2/2解盘时间。",
+      "text_sha256": "07873e4be1e5070b0e082e47a5db930e5453f3d27056b1ab634765da4613093f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b012",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:18:33"
+      },
+      "reason": "实际PDF182：2/5 15:18:33在前段尾，只管其后周线第一段探底至000938评论，不能继承2/2解盘时间。",
+      "text_sha256": "96d2c259c33f6d5939f9e0f1df9d3ca632275ae69c885d6020c9cc01b8a10861",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b013",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:18:33"
+      },
+      "reason": "实际PDF182：2/5 15:18:33在前段尾，只管其后周线第一段探底至000938评论，不能继承2/2解盘时间。",
+      "text_sha256": "e35225bfa4239aa298d4bb8022e1f4cb6aa05b0c6f0152e29a3f1262f94f4b3c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0182-b014",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:25:03"
+      },
+      "reason": "实际PDF182/183：2/5 15:25:03头在前段末，只管其后不追高/999中枢第三段至星号；不改前段000938的15:18。",
+      "text_sha256": "415e958e93ea4e2eae794ed3b7616bca1245a087b4d45316e00408eb04aca002",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0183-b000",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:25:03"
+      },
+      "reason": "实际PDF182/183：2/5 15:25:03头在前段末，只管其后不追高/999中枢第三段至星号；不改前段000938的15:18。",
+      "text_sha256": "3562f06979289039f1b3d99a0a9c3cbf3dabc4181cc217d368b21a535ba0b32d",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0183-b001",
+      "before": {
+        "published_at": "2007-02-02 15:19:09"
+      },
+      "after": {
+        "published_at": "2007-02-05 15:25:03"
+      },
+      "reason": "实际PDF182/183：2/5 15:25:03头在前段末，只管其后不追高/999中枢第三段至星号；不改前段000938的15:18。",
+      "text_sha256": "0290334c450f60776a12c3bbc8484f06db65534ba68abde1e73f61b512775839",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0179-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：000002季线，顶部光标2006/12/29，右端2007季度K无法确定晚于2/2；标36.70/3.20/15.99/3.12可对正文。13/23/17数字与正文17周单位分开，不以图注补原文。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0181-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：600663月线，行情栏2011/08/12，晚于2007/2/2多年；后加重绘图，均线/MJ_MACD及除权标志未核，不以未来K认证作者历史性底部推断。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0181-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：600685季线，顶部光标2005/06/30，右端仅见至2006/2007交界季K，未明确证明晚于2/2；2.21标注与2005第三季度原文分开，光标不能改买点日期，原发身份未核。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0183-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证30分光标2007/02/05，主图右端至2/8，晚于2/5 15:18；周线探底/5分背驰段尚待定位原话不被后续行情回填确认。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0183-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证5分光标2/5，主图右端已见2/6之后走势；晚于2/5解盘，柱高/面积数字与作者文字条件分开，不以涨后K验证“明天很可能”。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0185-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：600331五分钟顶部2/2，右端已到2/5，晚于2/2问答；010935/011410标注为2/1时点，作者只认可两侧段可比较，不据此认同读者只有13:15—14:00中枢。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0185-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：601628十五分钟顶部2/5，主图右端至2/7，晚于2/2 16:43；回轴只是一个条件、须看后续新低及低级别结束，不把后图反弹预设当时已确认背驰。"
+      },
+      "reason": "实际查看原页、整图、行情栏和主图右端；明确文后时间才标后加，原发未核与语义认可分开。"
+    }
+  ],
+  "visual_pages": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187
+  ],
+  "pending": [
+    "179原文“17周”与季度跨度、185股价新低后是否创新低的代词、184读者中信证券600640代码名组合均保留不静改。"
+  ],
+  "reviewer": "Codex 主代理 / 第27课原页、日期和配图来源复核"
+}

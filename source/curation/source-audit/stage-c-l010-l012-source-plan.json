@@ -1,0 +1,980 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-8622f2f9c79f",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0029-b002",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2006-11-24 12:15:10"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "f643de0eebb30f55968649004ba5398ad2ef6c90dce4fcefe3d9988f4cb7eda0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0029-b003",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2006-11-24 12:15:10"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "fecfef5ba04661a83ba8407cb553ba189ef38a3f5bff115aab79bb659076d3eb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b000",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2006-11-24 12:15:10"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "50fbcc10c789122d22c10160385cf4719bd303f49c3574228e131ec4651f9478",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b001",
+      "before": {
+        "published_at": null
+      },
+      "after": {
+        "published_at": "2006-11-24 12:17:20"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "e13dc639997b9ebb34aa2209331d7852da87cee4987c50d3cd9249da0f3c098d",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b001-s01",
+      "before": {
+        "role": "reader",
+        "speaker": "“"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "f613ce0e50386317d5eb815d67bea862f20e09165a2221975b1221f0e5b80ef7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "“"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "365ccf437c1f30f32d740bdc4a03272fedaf9571e12e26f5c7ae14c5dfea03fc",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2006-11-23 13:42:46"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-23 15:11:58"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "daa55b25e41fd7a63da4fc18b9b2098e4920d0ef728d044fb76f252e400eed1c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2006-11-23 13:42:46"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-23 15:11:58"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "6b543b7f9b8b1d94554484b8df1e9a38e8291ac31fe9c25038d26ba034591ee0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "五日线压力不少，站稳前应多观察，密切注意不随大盘而动的股票。",
+        "published_at": "2006-11-24 13:50:35"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-24 13:34:49"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "8ebbc140fcfb679ac5db383c979ef158a67da521a95993d79f4f157f9d23a26e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "重新突破5 日线，14 点的回试确定站稳，大盘将展开反攻。",
+        "published_at": "2006-11-24 14:14:17"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-24 13:50:35"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "929789000a2109c0f629ade875f56defc3275951d1d48a78fbbc26b95013ee95",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b007",
+      "before": {
+        "role": "reader",
+        "speaker": "重新突破5 日线，14 点的回试确定站稳，大盘将展开反攻。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "af34b4cf56f445472b25c578fd96679a58986211eb17b62197e402177328b599",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0030-b008",
+      "before": {
+        "role": "reader",
+        "speaker": "重新突破5 日线，14 点的回试确定站稳，大盘将展开反攻。",
+        "published_at": "2006-11-24 14:14:17"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-24 15:00:18"
+      },
+      "reason": "主代理实际查看PDF29至30解盘栏目：连续即时提示及作者明确自引昨日提示；前段末新时间仅管后文，结束引号不是读者署名。原文/ID/映射/坐标保持。",
+      "text_sha256": "38def38ab0e58f8365f85c897ce5ca7eb9681e75b90895e770639e079ed3a0c1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0032-b013",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "c5ebb70d6007ebb3d62c0910e374c618ef84ef83148f6121d25c875e325d008d",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0032-b014",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "c3d21d3e49e2e76676690294ca312b9568b2c4390e28f9cdd457ffc535a832c2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0032-b015",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "b6ccb0dc7a21caa91cc1c7f1b8a1e56f8fbfd2bc26e0fa06dfc6f6ae33cf9175",
+      "affected_references": [
+        {
+          "id": "evidence-ea5e5c56add5966b",
+          "claim_id": "candidate-721cbd143b2ed880",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b000",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "52d54e36b607e2eef865abcea5f7235c78ecec591946559b439d52ca4c2dae2a",
+      "affected_references": [
+        {
+          "id": "evidence-c1c8f3cb96e43e91",
+          "claim_id": "candidate-291b16141a61acd6",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b001",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "a772fa94bc62d2d9eb89b4c4dc39aff9321aa81dfb4f20388d332941b7c2898c",
+      "affected_references": [
+        {
+          "id": "evidence-f7ca2b617efefdaa",
+          "claim_id": "candidate-43702d556a27022b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b002",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "d94c031691e629f810b6585136b0311fb25e47a3880a20a6bddbe843f5045d20",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b003",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2421:57:10"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-27"
+      },
+      "reason": "PDF32新蓝色标题“经典回放”开始独立11/27文章，不是11/24答复续文；仅保留标题提供日期，不造时分秒。",
+      "text_sha256": "a2ea910bcd46a782636080b8ae19401c38c01267706c5afaa3d90f7bcd5d0d68",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "9850fc719dd5fc8896a5786602134a6d87d7ac587f673642f39537c4be4f91d0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "33a6eeec3980cfc2d6bc8a13f8d0bf7c4e6651d813b931494f9dd911966f910c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0033-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "8d321312ac35b494ee29dd7d124149a92744049054e3440973c62692a85f31cf",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "5ec41dfe69a5f622aa8af30c6b05c6c30eac63e01f8cad3567d73c2b90110ff9",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "08488853ca4c61167b4dbbe01dcaf951bf772465c557388d16bd2a3f159ee9d0",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "作者：喜欢数学的女孩 提交日期",
+        "published_at": "2005-8-5 12:15:00"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "喜欢数学的女孩（正文自称旧名，原站身份未核）",
+        "published_at": "2005-08-05 12:15:00"
+      },
+      "reason": "PDF33原署名为喜欢数学的女孩，外层作者自称这是自己的旧名转载，非读者评论；原站身份/最早7月说法未取证，按自称转载待核，保留原署名正文，不进入直接作者证据。",
+      "text_sha256": "114e8002489b4efbcee9194a4a6f18e9981bcb78e7c7d34fbe1c98bb01c8b823",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-27 12:18:55"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "f171b320c6a0374dbefbba7156cbe6d7a957436fdcb4b2d8394d02e7535b442f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "f5d6ff65ccda7e9bfecb2829afce50745a0d95b2772ec5cd22a6154135839e61",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-27 15:10:23"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "57a31590cc3a672f5b6eb9db3b01f78928a40b7051a2891c71b6202b0055fd88",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-27 15:10:23"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "fe51b895a565854c08d4ef802dbcbbe43ad3634462daee370de7c0c7928f65d4",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b007",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 12:15:13"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "da6baf88cd6759c08f654f5a42e3a6a1199d32531cb2f6682dea6e8359672ebc",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b008",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "aa1424bf22422c28e4302f5a283b36540937e245b8779da4d4a4fa424fc8a45c",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b009",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "96781459b13a94b7d201b9384b314b5b0543374250e09604b128a83d72f3da0e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b010",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "6ef202bd6c985a1ea00bc5d9c36c3b0eea02c324d2f822bae91cc68600307978",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b011",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "dd9c67b82db80f1ece34568be7459247c3c4fa33505820836bae6ecbcb589044",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b012",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "3ad6f8c5312b91650317b32194fc8faef8d5cead080527ca3b022bd0cf40320e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b013",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "b0741e7a06651fc5093c04ee28c82813c8c364b44024fc1050a00c97ccdf9ef9",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b014",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "7cbb03a3dd62104671ee4aae133cba77c4493ac5d58ea53431f8e5f45b49ebcd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0034-b015",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "5f6d6e76b8d124a77d46f87401d2c826ad7acba284f6229660eebf7008892e30",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0035-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "今天的反复折腾在上周已经明确指出",
+        "published_at": "2006-11-27 12:19:44"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-11-28 14:56:17"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "80484a160eb5c0381b10515cd89ef67698fffd93644ccc7c88a1ef26d73cae84",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b005",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "62e079755707a25abc3ab4870e0322379cd8d3e2de8d8b3a050f1acb65672d22",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b006",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "3c05bc86667c2d92b9fd6f30193c3b37ad7068f4b00f38e9e0e02249239fed53",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b007",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "25f2651aa4e6151a1f157783fb6c1abaf21e61bd3cc7b2467f51726c7b9b189b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b008",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "c185563dc673986c892e86badb0c12ca2d15922a98525bf100bc5d5cecdab9aa",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b009",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "f3b79a193823a1d6a52484e43b9c28cb5c33caec95f38355042515bf53731879",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0038-b010",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "a8a309df848e995dd8c49261b0f66ab987aac78adc3c0d477f7b49606f3c3a89",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0039-b000",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-30 15:13:57"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "e66dca36790c143c0009ad2a21f8d9952fbeeebed36e02e0efb7ca8b220f80b1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0039-b001",
+      "before": {
+        "published_at": "2006-11-29 09:36:47"
+      },
+      "after": {
+        "published_at": "2006-11-30 15:13:57"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "1119611c8e574d0ed37eb380ef466b3b58ba89c13cec374adf5f04bafa6ad13f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0039-b001-s01",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "e4615ade6103767e23a943713be5cfacc6d6e75ba103dc4038df5745962e5995",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0039-b002",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "1ff2670fe40d413d6aa9498d11e1db70d4df0e6bdd9c265354fdeae51d7c0a70",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0042-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "今早走势和开盘时所说一致，下午，震荡依旧，但个股基本不要太考虑大盘。",
+        "published_at": "2006-12-01 12:16:49"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-01 11:37:58"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "d6ef3db7f890d17c05fe8c51ed8b3a6e71ba3f8b387098cb407536403bf2dc20",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0042-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "今早走势和开盘时所说一致，下午，震荡依旧，但个股基本不要太考虑大盘。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "309072030a277c75e3c3e2683b201f2344bd634aaeb3d5355c2e220c063b06fa",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0042-b007",
+      "before": {
+        "role": "reader",
+        "speaker": "今早走势和开盘时所说一致，下午，震荡依旧，但个股基本不要太考虑大盘。",
+        "published_at": "2006-12-01 12:16:49"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "f01384290e920c9d043704d4bda53731913bf6c9f555ed2e71fe2badc5464984",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0043-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "今早走势和开盘时所说一致，下午，震荡依旧，但个股基本不要太考虑大盘。",
+        "published_at": "2006-12-01 12:16:49"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "3410a7a8c4a988d440f0e19b33a1df4a406f71460250b3dc7519392c8e3570f7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0043-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "今早走势和开盘时所说一致，下午，震荡依旧，但个股基本不要太考虑大盘。",
+        "published_at": "2006-12-01 12:16:49"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际查看PDF34至43同栏解盘及明示附录自引；解析误把正文当署名，恢复作者评论身份，裸日期只支配后文，引用11/29建议不变成11/30新回复。",
+      "text_sha256": "6a9a26b08bce291418f9773d5673759c93960e2abd85dc398650898f1dc02412",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0029-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看PDF29整页及单图：上证5分钟图到11/24，箭头标11/23 13:20及13:45；与所引提示有时间关系，但无制作署名或原站取证，未确认原作者，不能由箭头独立证明背驰/统计准确率。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0029-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看PDF29整页及单图：深成指5分钟图到11/24，与上证图并列，13:20/13:45箭头和走势差异可见；制作人/原发时间未核，图形语义与作者一般命题分开。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0035-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF35及单图：光标2006/11/27、嵌当日问答，主图右侧越过11/27到12月标记，含后续行情，为后加整理图；不按光标认截止，文字独立支持缩量确认再放量。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0041-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看PDF41及单图：茅台复权日线黑白图、5/10/30，标男上位第二次缠绕/空头陷阱第一买点和第二买点，光标20060807，横轴至9月以后；未见足够后发时间证据，原作者/制作时间仍未核；不等严格一二类点证据。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0042-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF42及单图：茅台历史日线重绘图带2011/08/09行情栏、黄框作者文字和8/7、9/14箭头，属后加整理版；图嵌12:41:24与正文12:03:48分开，不能反填课程时刻。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0043-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF43及单图：ST东热周线重绘图带2011/08/09行情栏与2005-07-22/2005-11-03标注、黄框12/1答复，为后加整理版；原答复只写月日，不据未知图注补年份或改原价2.2/2.6。"
+      },
+      "reason": "实际检查整图及右端、行情栏和插图，区分后加整理版与尚未核实的原图；并非同页即作者观点证明。"
+    }
+  ],
+  "pending": [
+    "2005旧文自称署名尚未原站取证，不支持直接作者一般命题；课程10标题仅11-24不补时分秒。"
+  ],
+  "reviewer": "Codex 主代理 / 第10至12课源身份与图文核对",
+  "visual_pages": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ]
+}

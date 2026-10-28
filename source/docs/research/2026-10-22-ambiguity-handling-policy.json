@@ -1,0 +1,105 @@
+{
+  "policy_version": "research-1",
+  "graph_version": "0.1.0-review-307029129712",
+  "status": "research_design_not_loaded_by_runtime",
+  "canonical_data_mutated": false,
+  "evidence_basis": "Current inventory, eight text-grounded cases, primary ambiguity/conflict research",
+  "dimensions": {
+    "review_status": "Existing claim review status; never overwritten by retrieval score",
+    "ambiguity_status": "Existing free-form issue note; not a contradiction verdict",
+    "interpretation_status": [
+      "source_explicit",
+      "context_supported",
+      "hypothesis",
+      "unresolved"
+    ],
+    "formalization_status": [
+      "rule_conditions_explicit",
+      "qualitative_guidance",
+      "parameters_unspecified",
+      "not_an_independent_proposition"
+    ],
+    "evidence_balance": [
+      "support_found",
+      "opposition_found",
+      "both_found",
+      "insufficient"
+    ]
+  },
+  "retrieval_modes": {
+    "knowledge": {
+      "claim_statuses": [
+        "reviewed"
+      ],
+      "include_reviewed_with_ambiguity": true,
+      "return_original_ambiguity_note": true,
+      "include_condition_and_exception_fields": true,
+      "candidate_claims_as_facts": false
+    },
+    "research": {
+      "allow_pending_as_leads": true,
+      "separate_from_reviewed_results": true,
+      "require_original_status_and_source_identity": true,
+      "allow_interpretation_hypotheses": true,
+      "hypotheses_require_support_ids_and_missing_assumptions": true
+    },
+    "source": {
+      "preserve_speaker_and_role": true,
+      "context_is_not_evidence_by_association": true,
+      "source_hit_is_not_reviewed_claim": true
+    }
+  },
+  "interpretation_required_fields": [
+    "interpretation_id",
+    "original_claim_ids",
+    "source_evidence_ids",
+    "proposed_by",
+    "interpretation_text",
+    "explicit_conditions",
+    "assumed_conditions",
+    "unknown_conditions",
+    "support_evidence_ids",
+    "opposing_evidence_ids",
+    "unresolved_questions",
+    "status",
+    "graph_version"
+  ],
+  "candidate_triage": {
+    "exact_source_or_quote_overlap": "Prioritize mapping to reviewed claims; do not automatically equate propositions",
+    "partial_overlap": "Check whether uncovered text adds a distinct condition, exception or claim",
+    "no_reviewed_quote_on_passage": "Read latest passage ledger and source context; not proof of missing knowledge",
+    "extracted_fragment": "Join semantic continuation with full source spans before assessing",
+    "technically_informative": "Review complete proposition, attribution and applicability before publication",
+    "context_or_rhetoric": "Preserve searchable original as context without forcing a universal rule",
+    "unsupported_or_unknown_source": "Keep evidence limitation and existing status"
+  },
+  "resolution_requirements": {
+    "context_separation": "Conditions and meanings need actual source evidence; mere invented conditions cannot resolve a tension",
+    "logical_conflict_candidate": "Align object, term sense, level, completion state, time, polarity, quantifier and applicability before recording opposing propositions",
+    "revision": "Explicit textual evidence required; later date alone is insufficient",
+    "inference_publication": "Use a separate inferred claim with reviewed premises and curation checks; do not replace original explicit wording",
+    "source_repair": "Verify page image and mapping before correcting source wording or attribution",
+    "duplication": "Source-span overlap is a prioritization signal, not semantic identity"
+  },
+  "generation_contract": [
+    "Return useful source information even if a unique formal rule cannot be established",
+    "State supported interpretations and their conditions separately",
+    "Distinguish author wording, research interpretation and engineering assumption",
+    "Retrieve alternative evidence when a known issue would otherwise be represented by one branch only",
+    "Report missing evidence and context budgets; absence of a retrieved counterexample is not proof of no counterexample",
+    "Do not resolve by source repetition, model agreement, similarity score or recency alone"
+  ],
+  "release_gates": [
+    "No silent pending-to-reviewed promotion",
+    "No ambiguity-to-unconditional-rule conversion",
+    "Every interpretation links to real stable source IDs",
+    "Conditions, exceptions and qualifier words survive evidence packaging",
+    "Opposition detection and opposition resolution are evaluated separately",
+    "New semantic publications preserve canonical history and existing evidence"
+  ],
+  "references": [
+    "2026-10-22-ambiguity-pending-inventory.md",
+    "2026-10-22-ambiguity-source-cases.md",
+    "2026-10-22-ambiguity-methods.md"
+  ]
+}

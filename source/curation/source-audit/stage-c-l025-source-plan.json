@@ -1,0 +1,511 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-a38ea0d31c7c",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0149-b009",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-2315:56:11"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "赚到了",
+        "published_at": null
+      },
+      "reason": "实际PDF149：前段末“赚到了：”引出读者对两次回试的追问，本段在“大盘”读者头之前，未记时间，不能继承15:56作者身份。",
+      "text_sha256": "0fe91208a8704fbe1166d7346a7626125e62bdca73a51b33fcf5c527d997de93",
+      "affected_references": [
+        {
+          "id": "evidence-e11483c984e77b49",
+          "claim_id": "candidate-a99741755b8a7b42",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0150-b005",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-2321:27:51"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "天山飞狐",
+        "published_at": null
+      },
+      "reason": "实际PDF150：“天山飞狐”署名与中枢级别提问在下一黄色作者21:51:23头之前，未记读者时间。",
+      "text_sha256": "29baaa5f36c9d1aa9ec593bea90bd52ab193c8a7e26dfa3d7f9868ac348a8f09",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0150-b006",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-2321:27:51"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "天山飞狐",
+        "published_at": null
+      },
+      "reason": "实际PDF150：“天山飞狐”署名与中枢级别提问在下一黄色作者21:51:23头之前，未记读者时间。",
+      "text_sha256": "b85b857a6224bde0e3a912e3acc7e9081aac1df4b088043c248016a45d4c8f38",
+      "affected_references": [
+        {
+          "id": "evidence-cc8e711f0033997f",
+          "claim_id": "candidate-989aab17c194d6fb",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b007-s01",
+      "before": {
+        "speaker": "“"
+      },
+      "after": {
+        "speaker": null
+      },
+      "reason": "实际PDF151：作者引用两条未署名读者言论，左引号不是读者姓名；首条时间14:12:16仍保留。",
+      "text_sha256": "21ed3aaeefaf151cf3872054143b48d9adea2179f439ab19f0c560472549bb0e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b008",
+      "before": {
+        "speaker": "“"
+      },
+      "after": {
+        "speaker": null
+      },
+      "reason": "实际PDF151：作者引用两条未署名读者言论，左引号不是读者姓名；首条时间14:12:16仍保留。",
+      "text_sha256": "29da749b484e1cd9e7ba179135caa812daa319fcd1a381832a6a750a3834e718",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b009",
+      "before": {
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "speaker": null,
+        "published_at": "2007-01-24 14:59:52"
+      },
+      "reason": "实际PDF151：第二条未署名读者话在前段末14:59:52头之后，闭引号止于本段；不继承首条14:12:16。",
+      "text_sha256": "d8d1487d85786c77cdf754c817173f2f34afa9a7b9c5abec7eb20c0b94513895",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b010",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "23be8da867503e65034e9cd4f6ad49f89c7e4e56f5785f746f36f3aea2ea48b5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b011",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "ac7f35f1d38810b3404f473278fae348f3d5d6b302e08ab3349ae8a322615578",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b012",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "7a055140eee44fd0e9081f316596f943ce42078ea35af2618f02e5d37072f647",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b013",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "fd94151ca3dc3c2eefc1ece8a7bc310b8b221b64e1afe8e77575e94e72fb7077",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b014",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "77d24fb36c72fd2e64388cbf08297e4630c00eec8e03d4a63b0f9a2d63752bb7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0151-b015",
+      "before": {
+        "role": "reader",
+        "speaker": "“",
+        "published_at": "2007-01-24 14:12:16"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-01-24 15:40:48"
+      },
+      "reason": "实际PDF151：两条斜体引述在上一段闭引号结束，“看来各位”以下恢复本篇作者解盘，直至星号结束；不把作者段误记引号读者。",
+      "text_sha256": "72211ff3e5e39ca728b2f25b58d54387c6ec4071799799ebbc7a0dac36335396",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0156-b004",
+      "before": {
+        "published_at": "2007-01-2515:27:08"
+      },
+      "after": {
+        "published_at": "2007-01-25 21:16:36"
+      },
+      "reason": "实际PDF156：图后独立21:16:36时间头支配本头及随后重复的作者展望，不继承15:27:08；星号后才进入回复栏目。",
+      "text_sha256": "69ddc456ef1c693768404b2e9418b47e89be91e0c6db5f420b0e8f539e7b6c16",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0156-b005",
+      "before": {
+        "published_at": "2007-01-2515:27:08"
+      },
+      "after": {
+        "published_at": "2007-01-25 21:16:36"
+      },
+      "reason": "实际PDF156：图后独立21:16:36时间头支配本头及随后重复的作者展望，不继承15:27:08；星号后才进入回复栏目。",
+      "text_sha256": "b93845ef9755106604430a107c47a2d2af8f41310eb582b72a332d282a1e23b2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0156-b006",
+      "before": {
+        "published_at": "2007-01-2515:27:08"
+      },
+      "after": {
+        "published_at": "2007-01-25 21:16:36"
+      },
+      "reason": "实际PDF156：图后独立21:16:36时间头支配本头及随后重复的作者展望，不继承15:27:08；星号后才进入回复栏目。",
+      "text_sha256": "9f2ef272b78afd3567e60939e868f5c0073715b9efceb3a455d01a0baa766a4a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0161-b003",
+      "before": {
+        "published_at": "2007-01-26 15:39:30"
+      },
+      "after": {
+        "published_at": "2007-01-29 15:22:17"
+      },
+      "reason": "实际PDF161：1/29 15:22:17头在前段尾，管辖其后“本ID说到做到”等至星号段；不覆盖前段1/26原文日期。",
+      "text_sha256": "71fdcee664049ce6bc5ba428eaf77b8683d58305c3f6af749aac8c961479bbee",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0161-b004",
+      "before": {
+        "published_at": "2007-01-26 15:39:30"
+      },
+      "after": {
+        "published_at": "2007-01-29 15:22:17"
+      },
+      "reason": "实际PDF161：1/29 15:22:17头在前段尾，管辖其后“本ID说到做到”等至星号段；不覆盖前段1/26原文日期。",
+      "text_sha256": "7996fe1d695ed35285e8874e7aa90827a83e823f8f8d4aeb07b70f2d55c6c499",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0161-b005",
+      "before": {
+        "published_at": "2007-01-26 15:39:30"
+      },
+      "after": {
+        "published_at": "2007-01-29 15:22:17"
+      },
+      "reason": "实际PDF161：1/29 15:22:17头在前段尾，管辖其后“本ID说到做到”等至星号段；不覆盖前段1/26原文日期。",
+      "text_sha256": "5642e1075255d912fcfc19c5f81587e7b14aeecb978ee4b390d18c0ca6ce2444",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0161-b006",
+      "before": {
+        "published_at": "2007-01-26 15:39:30"
+      },
+      "after": {
+        "published_at": "2007-01-29 15:22:17"
+      },
+      "reason": "实际PDF161：1/29 15:22:17头在前段尾，管辖其后“本ID说到做到”等至星号段；不覆盖前段1/26原文日期。",
+      "text_sha256": "b9974b6913124acc8a30432f158aa5dd3563dff24feaeab4155c18133e5a7f3f",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0145-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：600779一分钟，行情栏2007/01/22，右端未明确晚于1/23文章；17.5/18.5/19与柱高箭头可对正文，但叠字和制作者未核，不能仅凭彩色判后加。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0146-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：600385三十分钟，行情栏2007/02/06且横轴已到2/5，晚于1/23；文字点2.92/3.28/3.22与后K分开，不用未来走势证明当时警告。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0147-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：海马股份000572复权周线黑白图，标20061117二买及中枢三段；左光标日期不等制图日，未见明确晚于文章行情，未核原发作者和标注人。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0147-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：海马股份000572复权日线黑白图，标20061113/20061206/20070104，右端未核明确晚于1/23；标注可对正文，未据此认证原作者图或未来预测。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0148-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证三十分钟顶部光标1/23，主图右端已到1/26，晚于1/23解盘；2870.12线和三角形为未核制图注，不按未来结果改“仍存在”判断。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0152-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证六十分钟光标1/24，主图右端至2/5，晚于1/24回复；60分钟“可能”背驰和5分钟刚上零轴否定均按文字，不由后K变为预先确定。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0154-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证十五分钟光标1/24，右端至1/26，晚于1/24 21:12答复；括号“从图上看个人认为”在正文和图注均有，署名归属未核，不按确定作者观点引用，证据排除此尾注。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0156-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证三十分钟光标1/25，右端至2/6，晚于当天15:27；三角后最后一段及2700上下为当时作者判断，不作独立实证。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0158-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：601628三十分钟光标1/25，右端至2/1，晚于当天22:04回复；49/45/38与强弱分支按作者原话，不按后续行情认证必然。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0160-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：工行三十分钟光标1/26，右端至2/6，晚于当天解盘；蓝线和后K不证明作者当时“第三段是否完”已有确认。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0163-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图：上证五分钟光标1/26，右端已到1/29；低点标2720.83而文用2720，不改原文，5分钟否定与1分钟肯定分别保留。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0164-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：上证一分钟行情栏1/26，标1/25 13:40、1/26 9:30/9:50/10:17/10:57/13:30；未见晚于1/26的主图日期，制作者未核；10:56/10:57差异按不同答复保留。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0164-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图：000915五分钟行情栏1/26，右端亦1/26；无明确晚于回复的行情证据，叠字不等原作者图，柱缩不能取代零轴回拉及趋势比较条件。"
+      },
+      "reason": "实际阅读原页、整图、行情栏与主图右端；明确文后行情才标后加，制作身份未核；不以图注替代作者文字。"
+    }
+  ],
+  "visual_pages": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ],
+  "pending": [
+    "153-b012作者答复末“从图上看个人认为”括注身份未核，不进入确定作者证据；保留全文并待进一步来源核查，不直接断定其为作者或整理者。",
+    "149-b008末读者署名与161-b002末日期头仍保留原文本位置，只修正后段元数据，不重切或改字符坐标。"
+  ],
+  "reviewer": "Codex 主代理 / 第25课源身份与原图核对"
+}

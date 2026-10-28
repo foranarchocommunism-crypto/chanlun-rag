@@ -1,0 +1,4222 @@
+{
+  "created_at": "2026-10-24T16:11:19.169Z",
+  "runtime": "v24.15.0",
+  "queries": [
+    {
+      "query": "中枢是什么，成立需要什么条件？",
+      "hybrid": {
+        "ids": [
+          "lower-l083-c-stage-center-complexity-aftereffects",
+          "upper-l017-c-stage-center-more-basic-learning",
+          "upper-l020-center-central-two-expansion",
+          "upper-l045-c-stage-600855-five-divergence-not-endless-fall-1345-question-refuse-rebuy",
+          "upper-l060-c-stage-new-one-expand-five-and46-touch-key-no46-superstrong-five-up-continues",
+          "upper-l017-center-definition",
+          "upper-l035-c-stage-mar7-thirty-center-running-type-less-common",
+          "upper-l020-extension-adjacent-waves",
+          "upper-l031-c-stage-feb27-first-minute-center-1306-1338-affirmed",
+          "upper-l020-center-formula-reduced"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 599.8768000000001,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 193.82140000000004
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 378.38300000000004,
+              "query_tokens": 36,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 34616,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "upper-l017-center-definition",
+          "lower-l083-c-stage-center-complexity-aftereffects",
+          "upper-l017-c-stage-center-more-basic-learning",
+          "upper-l020-center-central-two-expansion",
+          "upper-l045-c-stage-600855-five-divergence-not-endless-fall-1345-question-refuse-rebuy",
+          "upper-l060-c-stage-new-one-expand-five-and46-touch-key-no46-superstrong-five-up-continues",
+          "upper-l035-c-stage-mar7-thirty-center-running-type-less-common",
+          "upper-l020-extension-adjacent-waves",
+          "upper-l031-c-stage-feb27-first-minute-center-1306-1338-affirmed",
+          "upper-l020-center-formula-reduced"
+        ],
+        "status": "found",
+        "paths": 2,
+        "depth2": 0,
+        "anchors": [
+          {
+            "id": "upper-l017-center-definition"
+          }
+        ],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "graph_definition_anchor"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 60.34539999999993,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.3327999999999065
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 27.812800000000152,
+              "query_tokens": 36,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 17.08470000000011
+            },
+            "definition_anchors": {
+              "claims": [
+                "upper-l017-center-definition"
+              ],
+              "source": "concept aliases, exact subject predicate and reviewed structural relations"
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 36191,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l020-center-formula-reduced",
+          "lower-l089-c-stage-center-extension-or-third-point",
+          "upper-l020-center-central-two-expansion",
+          "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+          "lower-l083-c-stage-center-complexity-aftereffects",
+          "upper-l058-c-stage-if-divergence-return-at-least15-form-one-center-from15",
+          "upper-l020-c-stage-limit-up-second-day-one-minute-trend",
+          "upper-l032-c-stage-objective-long-condition-ends-at-second-leg-divergence",
+          "upper-l020-c-stage-index-day-week-center-prerequisite-case"
+        ],
+        "status": "found",
+        "paths": 2,
+        "depth2": 0,
+        "anchors": [
+          {
+            "id": "upper-l017-center-definition",
+            "score": -0.37638184428215027
+          }
+        ],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "graph_definition_anchor",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 2542.5941000000003,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 1.620300000000043
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 35.10259999999994,
+              "query_tokens": 36,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 12.263900000000149
+            },
+            "definition_anchors": {
+              "claims": [
+                "upper-l017-center-definition"
+              ],
+              "source": "concept aliases, exact subject predicate and reviewed structural relations"
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 2479.4061
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 39563,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "upper-l020-center-formula-reduced",
+          "lower-l089-c-stage-center-extension-or-third-point",
+          "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+          "lower-l083-c-stage-center-complexity-aftereffects",
+          "upper-l020-center-central-two-expansion",
+          "upper-l058-c-stage-if-divergence-return-at-least15-form-one-center-from15",
+          "upper-l020-c-stage-limit-up-second-day-one-minute-trend",
+          "upper-l032-c-stage-objective-long-condition-ends-at-second-leg-divergence",
+          "upper-l017-center-definition",
+          "upper-l020-c-stage-index-day-week-center-prerequisite-case"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1295.0106999999998,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.4355000000000473
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 157.4014000000002,
+              "query_tokens": 36,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.12950000000000728
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1125.2249000000002
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 37987,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "中枢与次级别有哪些关系？",
+      "hybrid": {
+        "ids": [
+          "upper-l028-c-stage-connections-sublevel-or-lower-not-exact",
+          "upper-l035-c-stage-level-recursion-breaks-center-type-circular-definition",
+          "upper-l017-overlap-within-sublevels",
+          "upper-l020-z-segment-definition",
+          "upper-l018-center-theorem-one",
+          "lower-l086-c-stage-decomposition-key-program",
+          "upper-l033-c-stage-larger-divergence-usually-more-but-small-can-accumulate",
+          "upper-l054-c-stage-third-point-sublevel-leave-return-no-center-reentry-item-three",
+          "upper-l020-three-level-confirmation",
+          "upper-l023-c-stage-point-frequency-level-year-estimate",
+          "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+          "upper-l018-c-stage-center-connection-not-necessarily-trend"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 40.43130000000019,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 3.2743000000000393
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 24.555699999999888,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 42242,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "upper-l028-c-stage-connections-sublevel-or-lower-not-exact",
+          "upper-l035-c-stage-level-recursion-breaks-center-type-circular-definition",
+          "upper-l020-z-segment-definition",
+          "upper-l017-overlap-within-sublevels",
+          "upper-l018-center-theorem-one",
+          "upper-l017-center-definition",
+          "lower-l072-dynamics-energy-and-divergence",
+          "lower-l086-c-stage-decomposition-key-program",
+          "upper-l033-c-stage-larger-divergence-usually-more-but-small-can-accumulate",
+          "upper-l054-c-stage-third-point-sublevel-leave-return-no-center-reentry-item-three",
+          "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+          "upper-l018-c-stage-center-connection-not-necessarily-trend"
+        ],
+        "status": "found",
+        "paths": 6,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 63.230499999999665,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.7836999999999534
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 23.032500000000255,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 15.7496000000001
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 51191,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "upper-l020-three-level-confirmation",
+          "upper-l020-z-segment-definition",
+          "upper-l020-center-followup-options",
+          "upper-l018-destruction-pairs",
+          "upper-l017-center-definition",
+          "upper-l031-c-stage-a-c-consolidation-and-internal-c-divergence-nesting",
+          "upper-l020-extension-adjacent-waves",
+          "upper-l018-center-first-three",
+          "upper-l028-c-stage-connections-sublevel-or-lower-not-exact",
+          "upper-l017-overlap-within-sublevels"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 984.2455,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.0517999999992753
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 21.8132999999998,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 11.045900000000074
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 932.4025999999994
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 40531,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "upper-l020-center-followup-options",
+          "upper-l020-three-level-confirmation",
+          "upper-l020-z-segment-definition",
+          "upper-l018-destruction-pairs",
+          "upper-l018-center-first-three",
+          "upper-l028-c-stage-connections-sublevel-or-lower-not-exact",
+          "upper-l017-center-definition",
+          "upper-l031-c-stage-a-c-consolidation-and-internal-c-divergence-nesting",
+          "upper-l018-center-theorem-two",
+          "upper-l017-overlap-within-sublevels"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 985.7909,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 3.077400000000125
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 23.86920000000009,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.1679999999996653
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 946.0038999999997
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 36647,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "线段与笔、走势类型之间有什么联系？",
+      "hybrid": {
+        "ids": [
+          "lower-l065-line-not-minimum-sublevel",
+          "lower-l064-sublevel-as-segment-metaphor",
+          "lower-l072-morphology-learning-chain",
+          "lower-l064-strokes-segments-only-base",
+          "lower-l072-dynamics-energy-and-divergence",
+          "lower-l101-c-stage-recursive-unique-decomposition-author-claim",
+          "upper-l017-trend-definition",
+          "lower-l065-formed-bars-analysis-chain",
+          "lower-l091-c-stage-parts-center-capability",
+          "lower-l063-base-chart-recursion",
+          "lower-l107-c-stage-uptrend-formation-wording-not-completed-type"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 37.65769999999975,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 1.838699999999335
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 23.312799999999697,
+              "query_tokens": 38,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 39163,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 1,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "lower-l065-line-not-minimum-sublevel",
+          "lower-l064-sublevel-as-segment-metaphor",
+          "lower-l072-morphology-learning-chain",
+          "lower-l064-strokes-segments-only-base",
+          "lower-l072-dynamics-energy-and-divergence",
+          "lower-l091-c-stage-parts-center-capability",
+          "lower-l101-c-stage-recursive-unique-decomposition-author-claim",
+          "upper-l017-trend-definition",
+          "lower-l065-formed-bars-analysis-chain",
+          "lower-l063-base-chart-recursion",
+          "lower-l107-c-stage-uptrend-formation-wording-not-completed-type"
+        ],
+        "status": "found",
+        "paths": 11,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 52.89969999999994,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.4558999999999287
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 23.26140000000032,
+              "query_tokens": 38,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 9,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 4.04490000000078
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 47502,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 1,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "lower-l067-segment-unique-recursive-base",
+          "lower-l064-strokes-segments-only-base",
+          "lower-l065-strokes-segments-no-real-center-divergence",
+          "lower-l091-c-stage-parts-center-capability",
+          "lower-l081-c-stage-higher-types-operation-key",
+          "lower-l101-c-stage-recursive-unique-decomposition-author-claim",
+          "lower-l063-base-chart-recursion",
+          "lower-l078-c-stage-standardized-connected-polyline",
+          "lower-l072-dynamics-energy-and-divergence",
+          "upper-l019-position-over-limit-up"
+        ],
+        "status": "found",
+        "paths": 6,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1209.4047999999993,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 1.7714000000005399
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 29.04829999999947,
+              "query_tokens": 38,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 9,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 3.3783000000003085
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1160.2241999999997
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 38330,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "lower-l067-segment-unique-recursive-base",
+          "lower-l064-strokes-segments-only-base",
+          "lower-l065-strokes-segments-no-real-center-divergence",
+          "lower-l091-c-stage-parts-center-capability",
+          "lower-l081-c-stage-higher-types-operation-key",
+          "lower-l101-c-stage-recursive-unique-decomposition-author-claim",
+          "lower-l063-base-chart-recursion",
+          "lower-l078-c-stage-standardized-connected-polyline",
+          "lower-l072-dynamics-energy-and-divergence",
+          "upper-l019-position-over-limit-up"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1168.2597999999998,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 1.882900000000518
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 25.430099999999584,
+              "query_tokens": 38,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.0841999999993277
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1129.6406000000006
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 33963,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "价格来回重叠的部分应该怎样确认？",
+      "hybrid": {
+        "ids": [
+          "upper-l047-c-stage-overlap-common-part-three-intervals-strict-or-ignored-small-range-reference",
+          "upper-l018-extrema-lowest-level",
+          "upper-l017-overlap-example",
+          "upper-l017-c-stage-example-overlap-arithmetic",
+          "lower-l104-c-stage-mar27-low-price-range-moves-with-market",
+          "upper-l037-c-stage-center-overlap-not-occasional-wick-movement",
+          "upper-l029-c-stage-one-minute-lowest-three-k-only-if-chosen",
+          "upper-l017-center-definition",
+          "lower-l065-first-three-overlap",
+          "upper-l049-c-stage-two-child-centers-connector-third-buy-is-third-child"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 37.85519999999997,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 0.8870999999999185
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 26.02930000000015,
+              "query_tokens": 37,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 34989,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "upper-l047-c-stage-overlap-common-part-three-intervals-strict-or-ignored-small-range-reference",
+          "upper-l018-extrema-lowest-level",
+          "upper-l017-overlap-example",
+          "upper-l037-c-stage-center-overlap-not-occasional-wick-movement",
+          "upper-l017-c-stage-example-overlap-arithmetic",
+          "lower-l104-c-stage-mar27-low-price-range-moves-with-market",
+          "upper-l029-c-stage-one-minute-lowest-three-k-only-if-chosen",
+          "upper-l017-center-definition",
+          "lower-l065-first-three-overlap",
+          "upper-l049-c-stage-two-child-centers-connector-third-buy-is-third-child"
+        ],
+        "status": "found",
+        "paths": 3,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 42.38940000000002,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 1.0421000000005733
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 26.0617000000002,
+              "query_tokens": 37,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 3.1143000000010943
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 37487,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "upper-l047-c-stage-overlap-common-part-three-intervals-strict-or-ignored-small-range-reference",
+          "upper-l017-overlap-example",
+          "upper-l029-c-stage-one-minute-lowest-three-k-only-if-chosen",
+          "upper-l018-extrema-lowest-level",
+          "lower-l069-c-stage-center-overlap-key",
+          "upper-l035-c-stage-minute-levels-practical-not-strict-trade-recursion",
+          "upper-l037-c-stage-center-overlap-not-occasional-wick-movement",
+          "upper-l046-c-stage-four-hour-eight-thirty-bars-three-adjacent-overlap-day-center",
+          "lower-l075-c-stage-one-minute-types-before-five-center",
+          "upper-l023-c-stage-600196-overlap-not-precise-third-monthly-second-case"
+        ],
+        "status": "found",
+        "paths": 3,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1145.8730999999989,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 0.8333000000002357
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 19.256900000000314,
+              "query_tokens": 37,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 3.0204999999987194
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1109.5511999999999
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 34025,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "upper-l017-overlap-example",
+          "upper-l047-c-stage-overlap-common-part-three-intervals-strict-or-ignored-small-range-reference",
+          "upper-l029-c-stage-one-minute-lowest-three-k-only-if-chosen",
+          "upper-l035-c-stage-minute-levels-practical-not-strict-trade-recursion",
+          "upper-l037-c-stage-center-overlap-not-occasional-wick-movement",
+          "upper-l023-c-stage-600196-overlap-not-precise-third-monthly-second-case",
+          "upper-l046-c-stage-four-hour-eight-thirty-bars-three-adjacent-overlap-day-center",
+          "lower-l069-c-stage-center-overlap-key",
+          "lower-l075-c-stage-one-minute-types-before-five-center",
+          "upper-l018-extrema-lowest-level"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1150.4580999999998,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 0.9225000000005821
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 24.330699999998615,
+              "query_tokens": 37,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.05580000000009022
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1117.0059
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 31523,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "最低级别的中枢和普通中枢定义哪里不同？",
+      "hybrid": {
+        "ids": [
+          "upper-l017-c-stage-recursion-bottom-boundary",
+          "upper-l018-center-theorem-one",
+          "upper-l017-overlap-within-sublevels",
+          "lower-l064-strokes-segments-only-base",
+          "upper-l035-c-stage-lowest-up-ends-only-next-center-not-higher",
+          "upper-l035-c-stage-three-consecutive-lowest-types-price-intersection-upward-recursion",
+          "upper-l035-c-stage-strict-trade-base-three-same-price-transactions",
+          "upper-l035-c-stage-lowest-n-centers-successive-higher-or-lower-continues",
+          "lower-l080-c-stage-early-pure-center-not-overturned",
+          "lower-l084-c-stage-base-and-higher-use-different-rules",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "upper-l017-minimum-level-center",
+          "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+          "upper-l018-c-stage-center-connection-not-necessarily-trend"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 43.84310000000005,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.2226000000009662
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 26.052099999998973,
+              "query_tokens": 40,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 55637,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 4,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l017-c-stage-recursion-bottom-boundary",
+          "upper-l018-center-theorem-one",
+          "upper-l017-overlap-within-sublevels",
+          "upper-l035-c-stage-three-consecutive-lowest-types-price-intersection-upward-recursion",
+          "lower-l080-c-stage-early-pure-center-not-overturned",
+          "lower-l064-strokes-segments-only-base",
+          "upper-l035-c-stage-lowest-up-ends-only-next-center-not-higher",
+          "upper-l035-c-stage-strict-trade-base-three-same-price-transactions",
+          "upper-l035-c-stage-lowest-n-centers-successive-higher-or-lower-continues",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "upper-l017-minimum-level-center",
+          "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+          "upper-l018-c-stage-center-connection-not-necessarily-trend"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [
+          {
+            "id": "upper-l017-center-definition"
+          }
+        ],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "graph_definition_anchor"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 67.59499999999935,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.1331000000009226
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 37.97350000000006,
+              "query_tokens": 40,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 14,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 3.9393999999992957
+            },
+            "definition_anchors": {
+              "claims": [
+                "upper-l017-center-definition"
+              ],
+              "source": "concept aliases, exact subject predicate and reviewed structural relations"
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 62518,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 4,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l035-c-stage-lowest-n-centers-successive-higher-or-lower-continues",
+          "upper-l054-c-stage-fast-forceful-weekly-break-smaller-third-needs-volume-strength",
+          "upper-l017-minimum-level-center",
+          "upper-l035-c-stage-lowest-one-center-consolidation-two-centers-trend",
+          "upper-l035-c-stage-lowest-up-ends-only-next-center-not-higher",
+          "upper-l053-c-stage-three-one-minute-bars-overlap-not-center-unless-lowest-assumption",
+          "upper-l019-c-stage-gap-not-center-lowest-connection",
+          "lower-l084-c-stage-base-and-higher-use-different-rules",
+          "upper-l035-c-stage-three-consecutive-lowest-types-price-intersection-upward-recursion",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "lower-l080-c-stage-early-pure-center-not-overturned"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [
+          {
+            "id": "upper-l017-center-definition",
+            "score": -0.8738799095153809
+          }
+        ],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "graph_definition_anchor",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1073.1684999999998,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.226300000000265
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 20.924799999998868,
+              "query_tokens": 40,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 14,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 2.353399999999965
+            },
+            "definition_anchors": {
+              "claims": [
+                "upper-l017-center-definition"
+              ],
+              "source": "concept aliases, exact subject predicate and reviewed structural relations"
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1026.174500000001
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 55215,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "upper-l035-c-stage-lowest-n-centers-successive-higher-or-lower-continues",
+          "upper-l054-c-stage-fast-forceful-weekly-break-smaller-third-needs-volume-strength",
+          "upper-l017-minimum-level-center",
+          "upper-l035-c-stage-lowest-one-center-consolidation-two-centers-trend",
+          "upper-l035-c-stage-lowest-up-ends-only-next-center-not-higher",
+          "upper-l039-c-stage-mar23-1325-minimum-divergence-not-five-return-center",
+          "upper-l053-c-stage-three-one-minute-bars-overlap-not-center-unless-lowest-assumption",
+          "upper-l019-c-stage-gap-not-center-lowest-connection",
+          "lower-l084-c-stage-base-and-higher-use-different-rules",
+          "synthesis-center-prerequisites",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "lower-l080-c-stage-early-pure-center-not-overturned"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 1049.5247999999992,
+          "stages": {
+            "lexical": {
+              "candidates": 100,
+              "elapsed_ms": 2.2793000000001484
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 28.77939999999944,
+              "query_tokens": 40,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.06610000000000582
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 1005.4026999999987
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 48025,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "如何烤披萨？",
+      "hybrid": {
+        "ids": [
+          "lower-l064-c-stage-july6-five-minute-bottom-divergence-teaching-case",
+          "upper-l028-c-stage-completion-not-short-average-standing",
+          "upper-l036-c-stage-ipo-open-gap-short-answer-original-wording-unclear",
+          "upper-l040-c-stage-non-MACD-moving-average-area-alternative",
+          "upper-l059-c-stage-alternate22-31-five-center29-below24-unfinished-invariant",
+          "lower-l081-c-stage-declared-open-questions",
+          "upper-l043-c-stage-C-not-necessarily-complete-expanded-division-normal",
+          "lower-l069-c-stage-upward-stroke-top-needed",
+          "upper-l004-c-stage-participation-pattern-failure",
+          "upper-l032-c-stage-price-framework-can-combine-other-factors"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 33.4974000000002,
+          "stages": {
+            "lexical": {
+              "candidates": 19,
+              "elapsed_ms": 0.1407999999992171
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 24.651499999999942,
+              "query_tokens": 27,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 29097,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "lower-l064-c-stage-july6-five-minute-bottom-divergence-teaching-case",
+          "upper-l040-c-stage-non-MACD-moving-average-area-alternative",
+          "upper-l059-c-stage-alternate22-31-five-center29-below24-unfinished-invariant",
+          "upper-l043-c-stage-C-not-necessarily-complete-expanded-division-normal",
+          "upper-l028-c-stage-completion-not-short-average-standing",
+          "upper-l036-c-stage-ipo-open-gap-short-answer-original-wording-unclear",
+          "lower-l081-c-stage-declared-open-questions",
+          "upper-l058-c-stage-chart-period-not-move-level-one-chart-can-find-daily-center",
+          "lower-l069-c-stage-upward-stroke-top-needed",
+          "upper-l004-c-stage-participation-pattern-failure"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 37.23689999999988,
+          "stages": {
+            "lexical": {
+              "candidates": 19,
+              "elapsed_ms": 0.16629999999895517
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 22.387800000000425,
+              "query_tokens": 27,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 2.4915000000000873
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 30749,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "lower-l100-c-stage-capacity-gate-and-tiny-practice",
+          "upper-l032-c-stage-praise-cctv-does-not-change-reader-identity",
+          "upper-l058-c-stage-chart-period-not-move-level-one-chart-can-find-daily-center",
+          "upper-l031-c-stage-analysis-serves-capital-and-holding-level-transition",
+          "lower-l106-c-stage-program-possible-not-supplied",
+          "upper-l044-c-stage-twenty-year-bull-three-months-twenty-PE-author-strong-reassurance",
+          "upper-l038-c-stage-segmentation-and-third-end-confirmation-internal-divergence",
+          "upper-l043-c-stage-C-not-necessarily-complete-expanded-division-normal",
+          "upper-l016-c-stage-first-buy-then-reduce-consolidation-general",
+          "upper-l028-c-stage-after-thirty-top-two-five-types-second-sell"
+        ],
+        "status": "found",
+        "paths": 2,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 814.5231000000003,
+          "stages": {
+            "lexical": {
+              "candidates": 19,
+              "elapsed_ms": 0.1124999999992724
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 21.499400000000605,
+              "query_tokens": 27,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 16,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 1.6168000000016036
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 777.5357999999997
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 39323,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "lower-l100-c-stage-capacity-gate-and-tiny-practice",
+          "upper-l016-c-stage-first-buy-then-reduce-consolidation-general",
+          "upper-l032-c-stage-praise-cctv-does-not-change-reader-identity",
+          "upper-l024-c-stage-technical-standard-vs-operator-accuracy",
+          "upper-l019-c-stage-macd-initial-not-most-precise",
+          "upper-l036-c-stage-ipo-open-gap-short-answer-original-wording-unclear",
+          "upper-l043-c-stage-C-not-necessarily-complete-expanded-division-normal",
+          "upper-l031-c-stage-analysis-serves-capital-and-holding-level-transition",
+          "upper-l044-c-stage-twenty-year-bull-three-months-twenty-PE-author-strong-reassurance",
+          "upper-l058-c-stage-chart-period-not-move-level-one-chart-can-find-daily-center"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 783.7217999999993,
+          "stages": {
+            "lexical": {
+              "candidates": 19,
+              "elapsed_ms": 0.10250000000087311
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 22.196200000000317,
+              "query_tokens": 27,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.03980000000046857
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 749.7936000000009
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 36544,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    },
+    {
+      "query": "upper-l017-center-definition",
+      "hybrid": {
+        "ids": [
+          "upper-l017-center-definition",
+          "lower-l100-c-stage-macd-zero-necessary-wording-scope",
+          "upper-l051-c-stage-may17-4040-key-extension-versus-expansion-conditional",
+          "upper-l052-c-stage-may18-balance-4040-rough-reference-not-most-precise",
+          "upper-l043-c-stage-associativity-direction-not-most-important-author-tail",
+          "lower-l072-l067-explicit-refinement",
+          "lower-l090-c-stage-dec5-5032-fact-threshold",
+          "lower-l090-c-stage-dec14-5149-rebound-still-oscillation",
+          "lower-l090-c-stage-dec5-5010-potential",
+          "upper-l020-z-four-metrics"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 38.75920000000042,
+          "stages": {
+            "lexical": {
+              "candidates": 1,
+              "elapsed_ms": 0.3249000000014348
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 26.971700000000055,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 36553,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "graph": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l051-c-stage-may17-4040-key-extension-versus-expansion-conditional",
+          "lower-l100-c-stage-macd-zero-necessary-wording-scope",
+          "upper-l052-c-stage-may18-balance-4040-rough-reference-not-most-precise",
+          "upper-l043-c-stage-associativity-direction-not-most-important-author-tail",
+          "lower-l072-l067-explicit-refinement",
+          "upper-l054-c-stage-first-decomposition-g5-five-center-d2-g5-whole-submoves",
+          "lower-l090-c-stage-dec5-5032-fact-threshold",
+          "lower-l090-c-stage-dec14-5149-rebound-still-oscillation",
+          "lower-l090-c-stage-dec5-5010-potential"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 45.35579999999936,
+          "stages": {
+            "lexical": {
+              "candidates": 1,
+              "elapsed_ms": 0.06099999999969441
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 22.40900000000147,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 17,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 5.863299999999072
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 43217,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 0,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "default": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l031-c-stage-weekly-three-legs-original-explicitly-qualified",
+          "upper-l049-c-stage-3745-center-upper-edge-not-reader-last-minute-price",
+          "lower-l065-n-inclusion-up",
+          "lower-l100-c-stage-feb27-half-exit-or-hold-or-skilled-swap",
+          "upper-l020-center-central-one",
+          "lower-l080-c-stage-early-pure-center-not-overturned",
+          "upper-l054-c-stage-case-equalities-d1-g2-d2-g4-and-g0-set-18-5",
+          "upper-l056-c-stage-ABC-overlap-one-center-4087-4122-current-reference",
+          "upper-l032-c-stage-2915-is-gg-not-center-top-2894-correction",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "upper-l017-minimum-level-center"
+        ],
+        "status": "found",
+        "paths": 4,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 963.0192000000006,
+          "stages": {
+            "lexical": {
+              "candidates": 1,
+              "elapsed_ms": 0.04719999999906577
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 22.390800000001036,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 17,
+              "supported_paths": 20,
+              "truncated": true,
+              "elapsed_ms": 2.232900000000882
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 919.4895000000015
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 20,
+          "issue_limit": 20,
+          "used_codepoints": 51506,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      },
+      "rerank_graph_disabled": {
+        "ids": [
+          "upper-l017-center-definition",
+          "upper-l031-c-stage-weekly-three-legs-original-explicitly-qualified",
+          "upper-l020-center-central-one",
+          "upper-l054-c-stage-case-equalities-d1-g2-d2-g4-and-g0-set-18-5",
+          "lower-l065-n-inclusion-up",
+          "upper-l049-c-stage-3745-center-upper-edge-not-reader-last-minute-price",
+          "lower-l080-c-stage-early-pure-center-not-overturned",
+          "lower-l092-c-stage-relative-strength-and-monitor-curve",
+          "upper-l032-c-stage-2915-is-gg-not-center-top-2894-correction",
+          "upper-l056-c-stage-ABC-overlap-one-center-4087-4122-current-reference",
+          "lower-l075-c-stage-one-price-limit-two-constructions",
+          "upper-l017-minimum-level-center"
+        ],
+        "status": "found",
+        "paths": 0,
+        "depth2": 0,
+        "anchors": [],
+        "runtime": {
+          "requested_profile": "hybrid-graph-rerank",
+          "actual_channels": [
+            "structured_lexical",
+            "semantic_vector",
+            "supported_graph_expansion",
+            "cross_encoder_rerank"
+          ],
+          "degraded": false,
+          "degradation_reasons": [],
+          "elapsed_ms": 963.7837999999974,
+          "stages": {
+            "lexical": {
+              "candidates": 1,
+              "elapsed_ms": 0.048199999997450504
+            },
+            "dense": {
+              "candidates": 100,
+              "elapsed_ms": 22.93029999999999,
+              "query_tokens": 33,
+              "query_truncated": false,
+              "query_instruction_enabled": true
+            },
+            "graph": {
+              "additional_candidates": 0,
+              "supported_paths": 0,
+              "truncated": false,
+              "elapsed_ms": 0.030400000003282912
+            },
+            "rerank": {
+              "candidates": 40,
+              "truncated_inputs": 0,
+              "elapsed_ms": 928.107799999998
+            }
+          }
+        },
+        "budget": {
+          "unit": "unicode_codepoints_in_JSON_data_object",
+          "context_limit": 120000,
+          "requested_results": 10,
+          "candidate_limit": 100,
+          "graph_limit": 0,
+          "issue_limit": 20,
+          "used_codepoints": 44629,
+          "truncated": true,
+          "returned_primary": 10,
+          "returned_issue_claims": 2,
+          "deferred_count": 0,
+          "deferred_list_truncated": false
+        }
+      }
+    }
+  ],
+  "faults": [
+    {
+      "profile": "hybrid-graph",
+      "status": "threw",
+      "code": "AUDIT_GRAPH_FAILURE",
+      "message": "audit injected graph iterator failure"
+    },
+    {
+      "profile": "hybrid",
+      "status": "returned",
+      "runtime": {
+        "requested_profile": "hybrid",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 23.679000000000087,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 1.5215000000025611
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 18.906800000000658,
+            "query_tokens": 27,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          }
+        }
+      }
+    }
+  ],
+  "cached_graph_diagnostics": {
+    "scope": "Fresh execution of current graph code on previously recorded lexical/vector rankings; not a fresh embedding benchmark.",
+    "counters": {
+      "cases": 240,
+      "first_hop_budget_full": 240,
+      "depth2_with_budget20": 0,
+      "depth2_with_budget100": 22,
+      "cyclic_paths_budget100": 0,
+      "graph_changes_top20": 203,
+      "graph_only_candidates_enter_top20": 0,
+      "zero_added_candidates": 0
+    },
+    "observations": [
+      {
+        "id": "g-b05-coincidence",
+        "query": "二买和三买在什么条件下重合，重合后能保证形成大级别上涨吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-same-level",
+        "query": "上涨趋势确定后，第21课排除一买二买的说法能推广到更低级别吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-platform",
+        "query": "第三买点是否就是任意平台突破后的回档确认？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-three-levels",
+        "query": "定位日线第三买点时，30分钟和5分钟分别起什么作用？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-standard-structure",
+        "query": "标准MACD背驰只比较两波红柱面积就足够吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-consolidation",
+        "query": "盘整背驰上破中枢后，回跌进入原中枢和未进入时如何分别处理？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-b-center",
+        "query": "本课标准趋势背驰发生后，回跌至少到哪里，盘整背驰能照搬吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-estimate",
+        "query": "柱面积乘二的盘中估计能否当作C已经完成或百分之百准确的信号？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-zero-axis",
+        "query": "MACD回抽零轴必须穿到零轴以下才算吗？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-end-low",
+        "query": "第三买点的结束位置必然是整个次级别回拉最低价吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-source-code",
+        "query": "第24课所问600217的回复为何写6000217，工具是否静默改过原引文？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b05-unanswered",
+        "query": "第24课PDF143读者问一个单位价格重叠是否中枢，紧接的作者回复明确认可了吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-equal-boundaries",
+        "query": "相邻K线只有一个对应端点相同，或两端都相同，算不算包含？可以加EPS吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-one-price-limit",
+        "query": "一字涨停合成一根K线后，作者是否说任何定义下都没有最小级别中枢？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-uncompleted",
+        "query": "三买后的上涨只稍回落又上涨，能拿中途段与已完成离开段比较盘整背驰吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-return-force",
+        "query": "第三类买卖点只要回拉力度比离开小，就必然成立吗？回拉没出现能提前判定吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-gap-complete",
+        "query": "缺口区间触及任意一点就算全部回补吗？缺口是否必须三天回补？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-gap-level",
+        "query": "日K线上的衰竭缺口必然对应日线走势及周线调整吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-old-stroke",
+        "query": "第77课旧笔标准只要求相邻顶底吗？还缺什么联合条件？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 24
+      },
+      {
+        "id": "g-b07-proof-wording",
+        "query": "第77课唯一性证明第二个底分支原文是不低于还是不高于？项目证明已经通过了吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-first-second",
+        "query": "所有线段破坏都必须找第二特征序列吗？第二种找不到又怎样？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 6
+      },
+      {
+        "id": "g-b07-provisional-abc",
+        "query": "第77课A、B、C在破坏关系确认前都已经是完成线段吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-later-annotation",
+        "query": "第77课81—82图中蓝字新笔是否就是作者9月5日原定义？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b07-pair-unanswered",
+        "query": "第76课79—80该与77—78还是75—76比较，作者这次回复明选了哪对？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-prior-confirmation",
+        "query": "B出现笔破坏后回落可以直接判B延续吗？B与前段的关系及首段例外是什么？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-second-inclusion",
+        "query": "第二种情况的第二特征序列可以照用第一种跨分界点禁包含的要求吗？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 46
+      },
+      {
+        "id": "g-b08-normalize",
+        "query": "线段高低点不在真实端点时，标准化是否意味着改掉原分段和证据坐标？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-trend-outside-legs",
+        "query": "1分钟上涨必须在两中枢前后各有一段走势吗？第78课怎样答A+b+B？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-right-unfinished",
+        "query": "第79课右图10—11一笔是否已经确认第三段？9跌破7、10不变时又如何？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-method-capacity",
+        "query": "第79课散户第三买点法适合谁？上移背驰能否人人全出？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-first-center-preference",
+        "query": "第79课只做第一个中枢三买，是绝对禁止第二中枢，还是方法偏好？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-fractal-one-way",
+        "query": "有小级别一二买卖点就必然有大级别分型吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-quote-boundary",
+        "query": "下册PDF162表扬网友后，哪些段属于网友，作者的这就如同下棋仍是网友吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-corrected-level",
+        "query": "9月13日为何改96—99分段？更正后93起回抽已是1分钟走势吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-pure-center",
+        "query": "后期笔线段定义推翻了前55课的纯理论中枢吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b08-later-explicit-completion",
+        "query": "第80课都一段的简答是否完整？第81课如何按5与7补全两图？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 12
+      },
+      {
+        "id": "g-b09-fractal-word",
+        "query": "分型就是数学分形在股票上的应用吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-inclusion-psychology",
+        "query": "所有包含关系都代表犹豫吗？阴吞阳是否有例外？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-third-no-expansion",
+        "query": "第82课小级别三卖后就必然成日线笔吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-break-top-third-buy",
+        "query": "日顶不成笔并有效破顶，某级别三买是必要还是充分条件？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-stroke-base",
+        "query": "作者说绝对不允许用笔构最小中枢，还是可设计但较不稳定？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-rename",
+        "query": "第84课为何把自相似性结构改称自同构性结构，是否改掉了早课原引文？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-different-functions",
+        "query": "递归的起始f1和后续f2必须是相同函数，且f1前还得递归吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-replace-unique",
+        "query": "能随便换成收盘价或成交量入口吗？更高级别还必须数笔吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-level-duration",
+        "query": "走势生长足够多年后必然升级吗？级别与K线时间怎样区分？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-reprint-identity",
+        "query": "下册PDF211证券法10%与华生访谈，是否都是缠中说禅亲自发言？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b09-three-phrase",
+        "query": "第83课写三个特征序列分型，能据此把破坏规则改成必须三个分型吗？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 13
+      },
+      {
+        "id": "g-b09-late-confirmation",
+        "query": "10月8日139段已经确认完了吗？配图有140/141能否反填确认？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-upshift-small-sell",
+        "query": "大级别中枢上移中见小三卖，就必须当成大级别上涨结束吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-downshift-shorting",
+        "query": "第86课大级别下移中的小三卖没有操作价值，连卖空也算吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-nesting-not-second-type",
+        "query": "大买点后第二次小买点介入就是正式二买吗，而且必然最精确吗？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 14
+      },
+      {
+        "id": "g-b10-intermediate-large-sell",
+        "query": "大买点后小卖点，能跳过中间是否有大卖点的检查吗？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 14
+      },
+      {
+        "id": "g-b10-analogy-first-second",
+        "query": "大中枢震荡次级别点有大操作意义，便是真正大级别一买二买吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-small-level-wording",
+        "query": "下册PDF226到底写不具有小级别还是大级别操作意义，能否默改？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-unformed-center",
+        "query": "10月30日预期上方新中枢，后期图有后续行情，就能说当时已成吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-late-sell-probability",
+        "query": "195以后卖出仍可能继续跌，是否还能理论百分百保证？",
+        "seed_concepts": 21,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-t1-not-safe-floor",
+        "query": "高开低走新股首下降线段结束后，41.7就绝对安全、T+1必赚吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-class-third",
+        "query": "中石油41.2的类第三类卖点，是严格1分钟中枢三卖吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b10-three-days-buffer",
+        "query": "5555争夺战至少3天和上下3%，可作为所有有效跌破的统一算法吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 17
+      },
+      {
+        "id": "g-b10-dream-zero-cost",
+        "query": "第87课零负成本最安全能当作独立验证的零风险事实吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-intermediate-definition",
+        "query": "中阴阶段从何时开始、何时结束，可以直接把第一次反向波动当新类型吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-stage-shape",
+        "query": "中阴截出来看像盘整，所以后面的新走势类型一定是盘整吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-stage-direction",
+        "query": "中阴结束就必定反转原方向，上涨后只能下跌吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-195-old-context",
+        "query": "195后分析重心移到191之后，是全级别都可以删除之前的走势吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-marks-completion",
+        "query": "Xn、Yn等如何标？每加一段线段是否就能加一个1分钟标号？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-return-region",
+        "query": "第88课底背驰反弹最低幅度，是回最后中枢自身区间还是其波动区间？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-214-level-gate",
+        "query": "195退出到214考虑回补，5分钟以上操作者也必须同样买回吗？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-internal-nesting",
+        "query": "214三重区间套的内部笔已经由图谱独立重算了吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-retest-no-touch",
+        "query": "对5462—5555颈线的反抽确认，价格至少必须碰到5462吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 57
+      },
+      {
+        "id": "g-b11-month-versus-day",
+        "query": "月顶分型5月均线，与日底分型5日线，可以当同一个条件吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-hypothetical-10000",
+        "query": "作者说日线笔延伸到10000不反对，是预测必须涨到10000吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b11-petro-near-centers",
+        "query": "中石油两个1分钟中枢太近，就已经确认升成更大中枢了吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-boll-auxiliary",
+        "query": "第90课说BOLL近100%，便是绝对判据或项目实测准确率吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-first-point-sequence",
+        "query": "碰到或越过一根BOLL轨道就能确认一类买卖点吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-contraction-two-results",
+        "query": "BOLL一收口，就一定是同级中阴已经结束且三类点已确认吗？",
+        "seed_concepts": 19,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-period-not-six-times",
+        "query": "5分钟中阴看30分钟BOLL，是所有级别固定六倍的公式吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-must-center-not-direction",
+        "query": "第89课必经5分钟中枢能提前预定方向吗？5分钟以上操作者也都必须管它吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-consolidation-amplitude",
+        "query": "盘整只能窄幅横着走，而且一定比多中枢趋势弱吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-small-large-third",
+        "query": "11月22日小1分钟三卖已有，是否等于大5分钟三卖确认？",
+        "seed_concepts": 18,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-future-fact-5032",
+        "query": "11月29日将形成30分钟中枢的展望，可以直接当成已完成事实吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-trap-and-force",
+        "query": "跌破一个价位但随后涨回去，就能不看中枢与力度认定陷阱吗？",
+        "seed_concepts": 20,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-formed-versus-confirmed",
+        "query": "12月12日日顶形成就确认下笔了吗？12月14日周底构成就已确立了吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-monday-not-fulfilled",
+        "query": "12月14日预计下周一先构成日底，12月17日就一定完成了吗？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b12-red-market-shortcut",
+        "query": "第90课12月17日不红盘就不能成日底，可以直接编成通用算法吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-stroke-center-scope",
+        "query": "91课说笔不能构中枢，是否可以删除83课可设计笔构最小中枢程序的话？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-zero-not-reversal",
+        "query": "笔状态(1,0)代表已经在向下笔延伸，还是上笔中的顶分型构造？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-no-direct-jump",
+        "query": "(1,1)能跳过零态直接到(-1,1)或(-1,0)吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-small-warning-or-usual",
+        "query": "5分钟上延要改变，小图必须无例外先转为下笔延伸吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-one-bar-versus-confirmation",
+        "query": "一个5分钟K内的一分钟警告，就足以确认5分钟向下笔了吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-fourth-not-automatic-entry",
+        "query": "周日均(-1,0)是第四种情况，图写值得参与就能说作者无条件建议买入吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 2
+      },
+      {
+        "id": "g-b13-matrix-not-profit-proof",
+        "query": "8行四态有4^8候选，是否证明所有组合可达且能自动永动赚钱？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-second-center-timeline",
+        "query": "12月24日已经有第二个1分钟中枢吗？5210与5209可以按误差当同点吗？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-strong-exception",
+        "query": "12月25日三支以后是否全部无例外都必形成更大中枢？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-boll-structure-choice",
+        "query": "BOLL收口是否必突破单一方向，且任何周期收口都有效？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-nine-and-divergence-scope",
+        "query": "本课九线段回5240与三买后顶背驰，能推广成任何九段必升级、所有盘整背驰须三买吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b13-wine-not-target",
+        "query": "中石油24元和14元，在第91课分别是必达目标和确定买点吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-zn-scope",
+        "query": "第92课的Zn是20课Z走势段，还是88课周线编号？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-cross-not-third",
+        "query": "Zn越过A或B是否已经确认第三类买卖点？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-extension-not-certain",
+        "query": "Zn越界但没有三类点，就必然100%扩展中枢吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-smooth-not-exact",
+        "query": "可按Zn平滑变动精确算出下一高低点吗？九点就是九根K线吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-secondary-trend-conjunction",
+        "query": "次级走势为趋势，就单独足以断言该中枢立刻变盘吗？",
+        "seed_concepts": 20,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-unfinished-300",
+        "query": "12月28日新5分钟中枢已经形成，是否图300也已完成且完整5分钟上涨确定？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-zero-cost-conditions",
+        "query": "(1,0)一出现，任何人都能不管盈亏先取本留利润吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-skilled-no-rebuy",
+        "query": "按93课先卖后买做短差，市场选择(-1,1)还须最后回补吗？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-weekly-not-fixed-level",
+        "query": "周线(1,1)到(1,0)必然对应30分钟上涨吗？用最后中枢判断的前提是什么？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-not-must-5675",
+        "query": "剧本说5462—5675间看政策，是否大盘必须先到5675才允许改变？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-stroke-not-segment",
+        "query": "1月17日早盘急拉有向上笔，是否下跌线段已经破坏？类背驰是否都在两类中枢间？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b14-channel-future-not-confirmation",
+        "query": "1月19日通道图画了四支点，能说明作者当时第四点已确认且通道必成功吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-prepare-and-skip",
+        "query": "当机立断是否见任何机会都必须无准备参与？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-t1-no-same-day-exit",
+        "query": "第94课线段机会存在，就保证T+1能获利退出吗？下午是否绝对安全？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-beginner-ma-conjunction",
+        "query": "初学者均线约束是任意跌破5日线都走吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-jan22-versus-23",
+        "query": "1月22日第二1分钟中枢已经确定，且没有回5100例外吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-zero-not-no-initial-money",
+        "query": "0投入是否等于从没用初始资金、任何后来投入都绝对不准？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 12
+      },
+      {
+        "id": "g-b15-retry-not-unlimited",
+        "query": "第96课允许输光后无限补资金再试吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-gambler-target",
+        "query": "亏了便规定必须反弹到我的成本才走，按第96课是什么问题？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-wait-versus-early",
+        "query": "94课等底确认与96课说确认后太晚，能删掉前者并要求所有人提前买吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-third-unfinished",
+        "query": "1月24日数线段题，答案三个都是已经完成吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-put-not-call-not-recommendation",
+        "query": "580989教学例是认购权证推荐一般人追涨吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 6
+      },
+      {
+        "id": "g-b15-macd-not-divergence",
+        "query": "只会MACD信号，就等于已经看出背驰了吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b15-three-steps-not-price-predictor",
+        "query": "96课操作三步是否只要预测明天的精确点位时间就完成？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-expert-deviation",
+        "query": "97课允许偏离买卖点，是所有初学者也可随意忽略规则吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-theory-not-application",
+        "query": "97课说诊断1/10开方9/10，是否医学统计且懂分类就保证获利？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-daily-forming-dates",
+        "query": "1/31日中枢形成中与2/14盘整条件再成日中枢，能直接认为全都已完成？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-grid-not-axis",
+        "query": "1/31的3600就是日中枢中轴价吗？第二压力能改成5224吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-revision-not-silence",
+        "query": "97课如何支持中石油判断修改？只要后来不提就可全图谱自动确认吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-return-not-stop-or-news",
+        "query": "背驰回原中枢是否必停并反向？没有利好则该次背驰不能成立吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-numbered-361-exception",
+        "query": "2/4编号364后破坏线段是否无条件卖出？361是指数价格吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-slightly-leading-vs-inverse",
+        "query": "比大盘稍先的股票等同完全逆势吗？新股只要有新资金就都稳吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-position-not-empty",
+        "query": "不确定时控制仓位就是必须全部空仓，并有统一百分比吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 14
+      },
+      {
+        "id": "g-b16-direction-not-uptrend",
+        "query": "2/14后向上30分钟类型一定是上涨，且日下跌第一中枢已经完成吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-stock-method-not-chase",
+        "query": "600795估算9元、风险10%—15%是否当前现价和保证最大亏损，拉起后仍推荐买？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b16-red-not-confirmed",
+        "query": "2/18有MACD红柱就无忧且结构上涨已成吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-general-vs-same-level",
+        "query": "中阴不能明确划分，是说同级别划分也不能做，且第一个1分钟中枢锁定最终类型？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-recompose-two-cases",
+        "query": "d+e+f与f+g+h两种中阴重组，可以不管是否成中枢直接互换吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-complete-before-larger",
+        "query": "每个5分钟K收盘就必产生30分钟中枢震荡吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-relative-danger",
+        "query": "原下跌的中阴危险，对多头也一定坏吗？第二中枢能自动改倒数第二吗？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-return-scope-annotated",
+        "query": "98课无论盘整背驰均回原中枢，是否与24课三买支完全无歧义？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-three-current-states",
+        "query": "2/25已有1分钟下跌，是否5分钟和30分钟都已确认下跌新状态？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-five-to-thirty-chain",
+        "query": "1分钟回拉成5分钟三卖，就立即确认30分钟三卖吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-capacity-vs-quantity",
+        "query": "100课只需减少数量就能让任何人安全参与所有机会吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-fractal-not-stroke-levels",
+        "query": "2/27过4331底分型成立，是否日笔已确，3/3突破4391就等周笔已确？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 1
+      },
+      {
+        "id": "g-b17-macd-zero-scope",
+        "query": "100课所有真正行情需MACD回0轴，是否明确撤回17课指标非必要？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-branch-timeline",
+        "query": "2/22第二第三都可，2/25就三支全排除并确定最终底了吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b17-third-buy-still-absent",
+        "query": "3/3已突破4391且图有5F框，是否真三买已出、不可能回4331？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-second-buy-three-forms",
+        "query": "二买是否必须高于一买，二三买又能否在同一点？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-second-third-not-adjacent",
+        "query": "二三买之间还能震荡吗？中间每个震荡买点都是严格新二买吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-strong-coincidence-not-guarantee",
+        "query": "101说二三合一最强，是否保证大级别上涨、不能只扩张中枢？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-a0-not-any-algorithm",
+        "query": "101说分型a0可随意设计，是否证明任意有歧义入口也合格？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-unique-author-claim-not-proof",
+        "query": "101、102的唯一分解和完美结构是否已经由项目形式证明？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-control-current-not-intervention",
+        "query": "102说走势可控，是说能预测或干预价格？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-three-layer-not-weighted-model",
+        "query": "a1A1+a5A5+a30A30能直接编成已定义的加权收益模型吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-timeline-third-sell-not-full-down",
+        "query": "3/10三卖出现，是否当时1分钟下跌完整确认，3/11周线缺口也已补完？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-one-minute-not-thirty-bottom",
+        "query": "3/11有1分钟下跌、3/13盼30分钟反弹，是否真正30分钟背驰已完成？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-sixty-chart-reference-frame",
+        "query": "102说60分钟图连1分钟中枢都没形成，是否否定同篇之前的1分钟中枢？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-explicit-stroke-correction",
+        "query": "3/17反抽笔未出，3/19足够一笔，是否只因晚日期就覆盖旧判断？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b18-divergence-leg-fractal-stroke",
+        "query": "3/19见60分钟底分型及背驰段，就能确认笔和完整底背驰都结束吗？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-macd-skilled-exception",
+        "query": "103零轴下回避是否禁止任何高手在背驰时介入？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-lowest-period-chosen",
+        "query": "103是否规定所有人统一用1分钟或60分钟作最低周期？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-physics-program-not-model",
+        "query": "104是否已经提供可复现的现代物理能量方程证明市场预测？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-price-rhythm-rounding",
+        "query": "600、1345与6124至5522、4778是精确价差恒等式吗，3600是中轴价吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-three-percent-not-epsilon",
+        "query": "104上下3%能直接加进笔极值、中枢交集和EPS比较吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-3424-bottom-not-final",
+        "query": "3/28说3424初显威力，就等日底分型和最终底部都确认吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-five-thirty-vs-fifteen",
+        "query": "3/25的5分钟带30预期与3/26只带15记录，是否应校成相同周期？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-fund-stage-t1-tail",
+        "query": "大资金沉淀筹码是否从5522开始一直要求，前日尾盘是否取消T+1风险？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-homework-author-vs-annotation",
+        "query": "4/3作业答案是图括注下降趋势线还是作者后来3396底分型解释？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-apr7-sixty-not-week-complete",
+        "query": "4/7已有60分钟向上笔，是否日笔周底周笔都已完全确认？",
+        "seed_concepts": 6,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-apr11-three-chart-boundaries",
+        "query": "4/11周底已成是否等周笔已成，3533、3613、3840能合为同一位置？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b19-warrant-risk-not-profit-license",
+        "query": "580989有所谓高收益案例，是否一般人就应在0.8附近追入？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-mechanical-title-alias",
+        "query": "105课机械操作是什么意思，是否任意分类规则或电脑自动交易都等价？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-corrected-author-date",
+        "query": "3840前提那段和5月5日补涨趋弱，是读者说的且都在4月29日吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-half-vs-partial",
+        "query": "4/16必然半仓是否意味着7/2主动买套也必须所有人固定半仓？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-strength-grade-not-structural-time",
+        "query": "4/18第一级别与第二级别反弹可直接标为5分钟、1分钟吗？5524能改5522.8吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-apr22-fractal-not-stroke",
+        "query": "4/22突破3085确认小底，就等向上笔也已确认、不用看回试吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-jul3-jul4-containing-bars",
+        "query": "7/3和7/4底分型状态一样吗？2753、2945、3483可直接跳到最后一关？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-entry-nesting-not-2917",
+        "query": "6/19应等2917站稳再进，还是区间套成立进、2917观察是否退出？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-theory-2990-empirical-3700",
+        "query": "7/1反弹3700是100%理论保证吗？到2990后就不许再跌了吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-active-no-risk-author-claim",
+        "query": "主动买套实际无风险和最后一跌99%，是否项目统计和所有人安全执行的证明？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-inverted-t-not-theory",
+        "query": "倒T型K线70%和7/1的经验90%能当理论买点100%吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b20-different-gaps-and-buyback",
+        "query": "3300缺口不回补才买筹码，与6/10新缺口能补才继续，是否作者自相矛盾的同一缺口？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 21
+      },
+      {
+        "id": "g-b20-moving-average-homework-deferred",
+        "query": "7/9均线分类是否本课已经给了具体公式，可直接把383/384流程当其答案？",
+        "seed_concepts": 7,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 39
+      },
+      {
+        "id": "g-b21-eight-parameters-history-system",
+        "query": "106的均线系统是否包含8日线、且无条件适合未来所有行情？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-history-classification-not-current-count",
+        "query": "八线九类是否只数当前股价站上几根线？最强一定当前高于全部线吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 12
+      },
+      {
+        "id": "g-b21-sector-average-not-weighted-return",
+        "query": "缠中说禅板块强弱指标取什么平均，是否市值加权收益越大越好就能单独买入？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-averages-level-and-unverified-corrections",
+        "query": "均线周期可直接当走势级别吗？图疑144和600578类6是否作者撤回233、类7？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-six-bars-vs-new-stroke",
+        "query": "106六根K线可成笔是否明确撤回81新笔的两个联合条件？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-rotation-t1-and-buy-sell-points",
+        "query": "有板块类别均值就能忽略个股买卖点，T+1也不限制理论最精确短线吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-boundary-not-best-entry",
+        "query": "8/14说分型边沿站稳是最好买点吗？不同级分型区间套等于单看边沿吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-dates-next-header-not-previous-paragraph",
+        "query": "7/14解盘末抽出7/16时间头，是否应把7/14的T+1说明整段改标7/16？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-first-leg-not-whole-type",
+        "query": "8/6第一段结束和8/13第二级别反弹是否都等2924整个下跌结束？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-a-b-without-c-still-down",
+        "query": "a+A+b+B+c没有c，就只能盘整、不能下跌吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-major-center-not-just-price-break",
+        "query": "指数跌价就能确认7月3日大中枢三卖、彻底破坏吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b21-probability-conditioning-not-eighties",
+        "query": "两个不超10%能直接推出标准情形80%，四次探底95%是项目回测概率吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-running-fees-and-decomposition",
+        "query": "30分钟反弹都等上下上完再卖，首上低点买入能保证收益吗？",
+        "seed_concepts": 18,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-t1-second-sell-alternatives",
+        "query": "107分段安全是否消除T+1？低开后第二类卖点的两个条件是且吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-formation-versus-completed",
+        "query": "首中枢后三买并非背驰是不是已经完成两中枢上涨？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-partition-directions",
+        "query": "107反弹上下上是否否定64课标准上涨中枢下上下？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-rotation-capacity-not-half",
+        "query": "平均效率更高是否要求所有人一半底仓、另一半全仓轮动？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-bottom-precise-failure-and-coarse",
+        "query": "第一类买点出现就底部成功吗？分型底部是否等于精确走势类型？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-fractal-confirmation-versus-entry",
+        "query": "分型上沿有效站住就是最佳买点和严格走势类型完成吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-month-candidate-and-confirmation",
+        "query": "8/29给2284/2952是不是保证9月已确认月线行情？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-week-day-exception",
+        "query": "周2284/2601与日2284/2455是否一个区间，2523有何例外？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-sep12-role-and-ninety",
+        "query": "9/12是读者声称90%还是作者解盘？90%是库内回测概率吗？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-new-level-day-week-confirmation",
+        "query": "9/25日笔无问题能否视周笔已成？9/11下一买点为何换视角？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b22-aesthetic-period-and-macd-open",
+        "query": "一年最美、17/18月与月MACD回零轴能保证某月见底吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-lip-wet-definition",
+        "query": "唇吻与湿吻是否都要求短线已穿长线、而湿吻一定反复多次？",
+        "seed_concepts": 6,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 72
+      },
+      {
+        "id": "g-b23-flying-strong-qualitative",
+        "query": "飞吻怎样定义，是否在强趋势里反而不常有，概率有实测吗？",
+        "seed_concepts": 5,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 79
+      },
+      {
+        "id": "g-b23-position-relative-system",
+        "query": "女上位和男上位何指？5日强10日弱矛盾吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 15
+      },
+      {
+        "id": "g-b23-wet-first-exception-no-risk-free",
+        "query": "长期男上位后湿吻下跌就必能抄底获利吗？第一次有没有例外？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 17
+      },
+      {
+        "id": "g-b23-average-points-not-strict-only",
+        "query": "第12课两个买点等严格一二类买点吗？其他点都绝对禁止吗？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-second-buy-first-sell",
+        "query": "均线系统买二卖一何指？第一第二卖点怎么分？",
+        "seed_concepts": 10,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-first-continuation-last-reversal",
+        "query": "首次女上缠绕只看次数就100%中继吗？男上最后一次事前能确定吗？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-early-entry-no-t0-exceptions",
+        "query": "没有T+0是否所有人任何早盘都不能买？30天持有无例外吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-position-context-full-small",
+        "query": "600028/600019追高后作者要求全部卖吗？原介入期限重要吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-news-and-personal-standard",
+        "query": "问美元大跌影响或股票调整到位，作者怎样重构问题？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-replay-source-identity",
+        "query": "2005喜欢数学的女孩转载能标成普通读者，或直接当已外证的作者原博客吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b23-weekly-case-no-year-invention",
+        "query": "000958例子原文给2005年吗？最好点已过是绝对不能买吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-active-passive-two-meanings",
+        "query": "主动带套是不是只指容忍亏损，大资金一直补就行？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-invalid-entry-two-branches",
+        "query": "均线系统第一和第二买点分别在何种情况程序失效？盈利就可以不走吗？",
+        "seed_concepts": 8,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 31
+      },
+      {
+        "id": "g-b24-half-and-maotai-prior-low",
+        "query": "一半的位置可以直接写成50%公式吗？茅台8/7是破二买前低吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-tcl-case-lot-and-topup",
+        "query": "TCL答复是否要求所有股票一次全补、原仓永不卖？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-ninety-and-no-speculative-switch",
+        "query": "强市90%以上是已验证胜率吗？没卖点换后更好是否证明该换？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-law-kiss-and-corresponding-next",
+        "query": "第14课缠绕只湿吻吗？大级别二买能随意跳到任意小级一买吗？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-short-program-order-and-specific-level",
+        "query": "短差是先回补再减仓吗？000503的30分卖与5分买怎么记录？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-macd-doubled-not-fixed-priority",
+        "query": "MACD长一倍是否已给24/52/18，柱和线冲突时固定优先哪个？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-week-day-thirty-not-same-confirmation",
+        "query": "12/6茅台30分钟有卖点是否周日都已背驰？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-divergence-amplitude-and-equal-low",
+        "query": "背驰承诺调整多长多大吗？600050等低2.43是失败的标准一买吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-reader-identity",
+        "query": "600058自称按程序选股那句话是谁说的？作者是否确认图里个人理解所有细节？",
+        "seed_concepts": 11,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b24-000063-correction",
+        "query": "000063读者一二三点计数与作者纠正、图上标日一致吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-early-category-platform-exception",
+        "query": "第15课高低点三分类是后来最严格定义吗？等高等低和顺势平台怎么办？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-ma-area-versus-average-and-macd",
+        "query": "趋势力度和平均力度是什么，等MACD柱面积吗，平均变弱是已确认背驰？",
+        "seed_concepts": 12,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-histogram-peak-not-price-turn",
+        "query": "今天红柱短于昨天就背驰了吗？三天条件和前波比较区别何在？",
+        "seed_concepts": 6,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-first-kiss-only-trend-and-later-consolidation",
+        "query": "首次缠绕非最后是否禁止盘整一次出现买点，也否定后来的盘整背驰？",
+        "seed_concepts": 16,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-skill-first-second-and-female-definition",
+        "query": "买二一律比买一更好吗？女上位每次回调都叫第二类买点吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-box-entry-no-retroactive-horizon",
+        "query": "000932的15分钟箱型买入可改等日周一卖吗？小周期是否应全仓进出？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-unfinished-patch-multilevel-confirmation",
+        "query": "600900日线与30分钟同样已背了吗？正在变长的一片能直接判背驰？",
+        "seed_concepts": 9,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-down-up-specific-rule-versus-general-reduce",
+        "query": "第16课先减仓和一见盘整全部退矛盾吗？专门方法入场三步是什么？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-half-probability-profit-300-not-proof",
+        "query": "盘整后两种结果就各50%，本法肯定赚并能保证年300%吗？",
+        "seed_concepts": 14,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-strategy-exclusion-not-no-profit",
+        "query": "上涨+下跌后的涨完全不能盈利吗？驰宏日图与30分跌盘跌一样吗？",
+        "seed_concepts": 17,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-reader-identity",
+        "query": "64页舞者引述追问与无时间作者答复能都当19:59作者观点吗？",
+        "seed_concepts": 13,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      },
+      {
+        "id": "g-b25-macd-law-and-put-warning",
+        "query": "MACD零轴定律是否过轴就能买，038004作业是邀请买入认购权证吗？",
+        "seed_concepts": 15,
+        "one_paths": 20,
+        "two_paths": 0,
+        "wide_two_paths": 0
+      }
+    ]
+  },
+  "source_delivery_comparison": [
+    {
+      "file": "src/retrieval.mjs",
+      "source_sha256": "5090c0e46b81ef4107f0fb79d5ead282d206e9f81c868b6d27cd02c18b2dd674",
+      "delivery_sha256": "5090c0e46b81ef4107f0fb79d5ead282d206e9f81c868b6d27cd02c18b2dd674",
+      "equal": true
+    },
+    {
+      "file": "src/graph-expansion.mjs",
+      "source_sha256": "a91dfc36dd2e564dc6bb924decf8da0005ebcaf0bb469541dfd1b1f13cbd4d11",
+      "delivery_sha256": "a91dfc36dd2e564dc6bb924decf8da0005ebcaf0bb469541dfd1b1f13cbd4d11",
+      "equal": true
+    },
+    {
+      "file": "src/definition-anchors.mjs",
+      "source_sha256": "1871f1ef6110370363c983fcdc15e7177fb4dffa72107dd2082e5f90b477594f",
+      "delivery_sha256": "1871f1ef6110370363c983fcdc15e7177fb4dffa72107dd2082e5f90b477594f",
+      "equal": true
+    },
+    {
+      "file": "src/corpus.mjs",
+      "source_sha256": "6d9df0a42918a44b075de180cc624ca82958e05aad9a5174ed3a94081255a244",
+      "delivery_sha256": "6d9df0a42918a44b075de180cc624ca82958e05aad9a5174ed3a94081255a244",
+      "equal": true
+    },
+    {
+      "file": "src/dense.mjs",
+      "source_sha256": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+      "delivery_sha256": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+      "equal": true
+    },
+    {
+      "file": "src/embedding.mjs",
+      "source_sha256": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+      "delivery_sha256": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+      "equal": true
+    },
+    {
+      "file": "src/lexical.mjs",
+      "source_sha256": "50bf2716a95675d215217bb08c1556298b7f716dee21e17b45a26bc71ecec7ce",
+      "delivery_sha256": "50bf2716a95675d215217bb08c1556298b7f716dee21e17b45a26bc71ecec7ce",
+      "equal": true
+    },
+    {
+      "file": "src/reranker.mjs",
+      "source_sha256": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+      "delivery_sha256": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+      "equal": true
+    },
+    {
+      "file": "src/core.mjs",
+      "source_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+      "delivery_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+      "equal": true
+    },
+    {
+      "file": "src/config.mjs",
+      "source_sha256": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+      "delivery_sha256": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+      "equal": true
+    }
+  ],
+  "service_construct_ms": 772.0943,
+  "source_mode": {
+    "ids": [],
+    "status": "found",
+    "paths": 0,
+    "depth2": 0,
+    "anchors": [],
+    "runtime": {
+      "requested_profile": "hybrid-graph",
+      "actual_channels": [
+        "source_lexical",
+        "semantic_vector",
+        "supported_graph_expansion"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 631.2364000000016,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 588.0396999999975
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 40.85699999999997,
+          "query_tokens": 30,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "additional_candidates": 0,
+          "supported_paths": 0,
+          "truncated": false,
+          "elapsed_ms": 0.05800000000090222
+        }
+      }
+    },
+    "budget": {
+      "unit": "unicode_codepoints_in_JSON_data_object",
+      "context_limit": 60000,
+      "requested_results": 3,
+      "candidate_limit": 100,
+      "graph_limit": 20,
+      "issue_limit": 20,
+      "used_codepoints": 3072,
+      "truncated": true,
+      "returned_primary": 3,
+      "returned_issue_claims": 0,
+      "deferred_count": 0,
+      "deferred_list_truncated": false
+    }
+  },
+  "warm_measurements": {
+    "n": 6,
+    "observations": [
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 1120.2956000000013,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 0.9651999999987311
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 23.224200000000565,
+            "query_tokens": 36,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 16,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.219199999999546
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 1080.7801
+          }
+        }
+      },
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 985.1028000000006,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 1.7255000000004657
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 22.66990000000078,
+            "query_tokens": 33,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 16,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.3722000000016124
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 941.1725000000006
+          }
+        }
+      },
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 1198.643500000002,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 1.8919000000023516
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 23.11460000000079,
+            "query_tokens": 38,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 9,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.1683000000011816
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 1153.8520000000026
+          }
+        }
+      },
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 1183.0584999999992,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 1.127199999998993
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 26.432400000001508,
+            "query_tokens": 37,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 16,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.58009999999922
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 1138.9634000000005
+          }
+        }
+      },
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 1079.0631999999969,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 2.589799999997922
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 23.37159999999858,
+            "query_tokens": 40,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 14,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.401900000000751
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 1030.7945
+          }
+        }
+      },
+      {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 1191.1726999999992,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 1.1401000000005297
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 20.292999999997846,
+            "query_tokens": 36,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 16,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 3.2245999999977357
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 1152.9874999999993
+          }
+        }
+      }
+    ],
+    "p50_ms": 1183.0584999999992,
+    "max_ms": 1198.643500000002
+  },
+  "concurrent_measurements": [
+    {
+      "query": "中枢是什么，成立需要什么条件？",
+      "wall_ms": 1179.0910999999978,
+      "reported_elapsed_ms": 1179.0371999999988,
+      "queue_wait_estimate_ms": 0.07140000000072177
+    },
+    {
+      "query": "中枢与次级别有哪些关系？",
+      "wall_ms": 2142.215500000002,
+      "reported_elapsed_ms": 963.0761999999995,
+      "queue_wait_estimate_ms": 1179.1412000000018
+    },
+    {
+      "query": "线段与笔、走势类型之间有什么联系？",
+      "wall_ms": 3439.535500000002,
+      "reported_elapsed_ms": 1297.2942999999977,
+      "queue_wait_estimate_ms": 2142.243000000002
+    },
+    {
+      "query": "价格来回重叠的部分应该怎样确认？",
+      "wall_ms": 4673.2477,
+      "reported_elapsed_ms": 1233.6761000000006,
+      "queue_wait_estimate_ms": 3439.573699999997
+    }
+  ],
+  "concurrent_wall_ms": 4673.337900000002,
+  "peak_rss_bytes": 1329246208
+}

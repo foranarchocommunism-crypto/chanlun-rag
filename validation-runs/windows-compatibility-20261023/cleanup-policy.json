@@ -1,0 +1,20 @@
+{
+  "Time": "2026-10-23T11:19:21.3599906+08:00",
+  "UserInstruction": "容器用完了自动删除卸载清除。",
+  "Scope": [
+    "test containers and images",
+    "created Windows VM and disks",
+    "new VirtualBox install",
+    "downloaded Docker and Windows evaluation installer",
+    "host optional features enabled in this run"
+  ],
+  "Retain": [
+    "source project",
+    "final verified release",
+    "compact validation receipts"
+  ],
+  "Trigger": "only after the entire project has been delivered and final delivery receipt exists",
+  "Clarification": "不是，我是说项目交付后在删除，不是说不用了。",
+  "NoEarlyCleanup": true,
+  "UpdatedAt": "2026-10-23T03:41:09.536282+00:00"
+}

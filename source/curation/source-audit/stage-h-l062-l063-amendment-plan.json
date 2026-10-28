@@ -1,0 +1,162 @@
+{
+  "base_graph_version": "0.1.0-review-a837c6e53243",
+  "source_pdf_sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+  "reviewer": "Codex 主代理 / 早期试点62至63课逐段与原图复核",
+  "figure_operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0006-fig1",
+      "before": {
+        "origin_status": "later_annotation",
+        "note": "后加彩色解释图；图内署名 FHSL 20080727，晚于第62课。已视觉核对，不作为作者原始配图证言。"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "后加彩色解释图；图内署名FHSL 20080727，晚于62课2007-06-30；新添a至g及完整笔标注属于第三方解释，不能替代正文图3至5与结合律条件。实际整图查看。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0006-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "unverified",
+        "note": "实际查看黑白图1至9：1顶/2底，3共用K，4顶底间无独立K，5有独立K，6包含，7四类非包含三K，8基本线段，9线段破坏基本形式。正文逐号援引，但汇编位图与原博客一致性/原始绘制者未核；图8/9不是完整线段算法。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0007-fig1",
+      "before": {
+        "origin_status": "later_annotation",
+        "note": "后加彩色分型/包含解释图；原始图像裁切可见陈仁制作、2009-10-12 0:31:56水印，晚于第62课。旧日志将日期记为2009-09-10，本轮实际图像复核纠正。"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图查看：陈仁制作，水印2009-10-12 0:31:56及同日另时分，晚于62课；分型/方向/多K包含公式为后加说明，不能据图新增作者原文未写的算法。延续上一来源复核纠正的日期。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0009-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图查看，红题署名alon、含密集文字与多色分解/中枢；编号延伸至120，超出63课7月2日110/111讨论。第三方后加整理图，具体制作日期未核，不作当时作者预知路径或对所有图注认可的证据。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0011-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "unverified",
+        "note": "实际整图查看：1分钟上证图编号97至111，110为小顶、111低点标3724.19；MACD(12,26,9)下有两红箭头比较绿柱面积。左上光标06271000不等全图截止时间；右端横轴已至7月2日。与7月2日解盘文字对应，位图原发及绘制者未核。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0011-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图查看：1分钟上证重绘图，110/111、111低点标3724.35，内嵌7月2日15:32:58引文框及另一MACD指标；是后加整理版，制作者/日期未核。不能将3724.35静合原图3724.19，亦不能把红框注释自动当作者原图证言。"
+      },
+      "reason": "本次主代理实际原页/整图查看；来源状态与图意分开"
+    }
+  ],
+  "evidence_figure_amendments": [
+    {
+      "evidence_id": "evidence-9ac21d736543c58e",
+      "claim_id": "lower-l062-all-chart-periods",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-f147eb64c14d5632",
+      "claim_id": "lower-l062-top-bottom-terms",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-0630627f2f4b4d25",
+      "claim_id": "lower-l062-stroke-adjacent-top-bottom",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-8d1404a48d26573e",
+      "claim_id": "lower-l062-inclusion-upward",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-26583088e6cdac5f",
+      "claim_id": "lower-l062-inclusion-downward",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-9c3b15eb0b36a9b8",
+      "claim_id": "lower-l062-directional-stroke-composition",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-ac3ec830e2e1b1cd",
+      "claim_id": "lower-l062-directional-stroke-composition",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    },
+    {
+      "evidence_id": "evidence-5b255be118494faa",
+      "claim_id": "lower-l062-segment-at-least-three-strokes",
+      "before_figure_ids": [],
+      "after_figure_ids": [
+        "volume_2-5332cd1b6038-p0006-fig2"
+      ],
+      "reason": "正文所引黑白图1至9已实际复核；旧证据ID/原引文/偏移/源坐标不变"
+    }
+  ],
+  "passage_texts_roles_maps_geometry_changes": [],
+  "existing_claim_semantic_changes": [],
+  "source_passages_snapshot_sha256": "0fd8a9db456336b53373c192bbc640b9f53331232206eac73c18afef164d8b13"
+}

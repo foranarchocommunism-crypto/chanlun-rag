@@ -1,0 +1,77 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-379f3424ef77",
+  "lessons": [
+    89,
+    90
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册89至90课同模型四轮复核",
+  "passages_read": 276,
+  "claims": 66,
+  "evidence": 102,
+  "importance_counts": {
+    "1": 38,
+    "3": 8,
+    "4": 5,
+    "2": 15
+  },
+  "new_concepts": [
+    "市场陷阱",
+    "布林通道"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277
+  ],
+  "figure_objects_viewed": 18,
+  "figure_origin_counts": {
+    "later_annotation": 11,
+    "unverified": 7
+  },
+  "pending": [
+    "lower-l089-l090-c-stage-pending-boll-parameters-and-period-choice",
+    "lower-l089-l090-c-stage-pending-auxiliary-near-100",
+    "lower-l089-l090-c-stage-pending-extend-upgrade-wording",
+    "lower-l089-l090-c-stage-pending-red-market-shortcut",
+    "lower-l089-l090-c-stage-pending-figure-makers-and-late",
+    "lower-l089-l090-c-stage-pending-three-day-two-confirmations",
+    "lower-l089-l090-c-stage-pending-macro-law-stock-claims"
+  ],
+  "source_passages_snapshot_sha256": "621e64023e151913b8df5e86661a68eb0af9dadf32c4ed749bdea3f98caeda6e",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "276段四轮审读、28页及18图检查；中阴结构条件与BOLL辅助、跨周期选择与当时确认状态分开，增量待预检发布。"
+}

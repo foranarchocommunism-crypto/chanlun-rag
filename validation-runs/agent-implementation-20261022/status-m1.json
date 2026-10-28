@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-307029129712",
+  "data": {
+    "product": "chan-kg-agent",
+    "contract_version": "1.0.0",
+    "index": {
+      "index_version": "lexical-1",
+      "index_schema_version": "1.0.0",
+      "graph_version": "0.1.0-review-307029129712",
+      "schema_version": "1.1.0",
+      "canonical_source_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+      "canonical_manifest_sha256": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac",
+      "indexed_snapshot_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+      "policy_version": "1.0.0",
+      "policy_sha256": "ad3f55351ba2afb7a5fd2679df60e12c51f31299a51bd4af3427c27f69cbbe93",
+      "projection_sha256": "0686b13e61c145aff2b638bd29a2fed27a8d56efc6a2fd68061e656d8a66585e",
+      "created_at": "2026-10-22T07:54:08.954Z",
+      "text_processing": {
+        "normalization": "NFKC-lowercase-v1",
+        "tokenizer": "Han-2/3gram-ascii-binary-tf-v1",
+        "windows": {
+          "codepoints": 400,
+          "overlap": 80
+        },
+        "offset_unit": "unicode_codepoint"
+      },
+      "counts": {
+        "claims": 5980,
+        "reviewed": 3369,
+        "pending": 2611,
+        "evidence_windows": 7302,
+        "source_windows": 9711,
+        "triage": {
+          "full_quote_coverage": 2116,
+          "partial_quote_coverage": 61,
+          "no_reviewed_quote": 434
+        }
+      },
+      "models": {},
+      "build_status": "validated",
+      "semantic_review_changed": false
+    },
+    "index_problem": null,
+    "policy_version": "1.0.0",
+    "issue_groups": 8,
+    "capabilities": {
+      "lexical": true,
+      "dense": false,
+      "graph_expansion": false,
+      "rerank": false,
+      "research_mode": true,
+      "source_mode": true
+    },
+    "counts": {
+      "reviewed": 3369,
+      "reviewed_ambiguity": 473,
+      "pending": 2611
+    },
+    "semantic_review_complete": false,
+    "release_verification_complete": false
+  }
+}

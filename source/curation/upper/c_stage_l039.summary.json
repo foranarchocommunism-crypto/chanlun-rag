@@ -1,0 +1,52 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-fe66bc45c8eb",
+  "lessons": [
+    39
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册39课同模型四轮复核",
+  "passages_read": 40,
+  "claims": 28,
+  "evidence": 31,
+  "importance_counts": {
+    "3": 6,
+    "2": 4,
+    "1": 16,
+    "4": 2
+  },
+  "new_concepts": [
+    "监管风险"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    287,
+    288,
+    289,
+    290
+  ],
+  "figure_objects_viewed": 3,
+  "figure_origin_counts": {
+    "unverified": 2,
+    "later_annotation": 1
+  },
+  "pending": [
+    "upper-l039-c-stage-pending-rhythm-training-physiology-and-profitable-sale-norms",
+    "upper-l039-c-stage-pending-a-A-normalform-absorb-and-thirty-center-equality",
+    "upper-l039-c-stage-pending-Ai-pair-parity-protection-delay-k-and-unique-history",
+    "upper-l039-c-stage-pending-entry-batches-direction-Tplus1-and-sell-all-buy-source",
+    "upper-l039-c-stage-pending-minimum-level-1325-not-five-and-return-center",
+    "upper-l039-c-stage-pending-futures-certificate-variable-and-overseas-reader-rules",
+    "upper-l039-c-stage-pending-historical-sector-regulatory-risk-and-pressure-confirmation",
+    "upper-l039-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "f2bf5014883543db7cea16e52d180f94e31352acdc45645b267a9f36d7ee6720",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "39课40段4页3图及前后课边界同模型四轮；3跨日日期修正，a+A正规化、Ai奇偶/保护边界/延后买卖与源字歧义、历史小级信号分开，待预检。"
+}

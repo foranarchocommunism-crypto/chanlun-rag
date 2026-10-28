@@ -1,0 +1,275 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-25594b1ae8ac",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0314-b002",
+      "before": {
+        "published_at": "2007-04-0615:32:12"
+      },
+      "after": {
+        "published_at": "2007-04-09 15:33:39"
+      },
+      "reason": "PDF314独立4/9头支配后续解盘，之前4/6段不改；跨时段分组保留全部原字和身份。",
+      "text_sha256": "2cca8830fc1687dd7df40ce76feb3705c90ce78963807717ce8f9e84548f6bb5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0314-b003",
+      "before": {
+        "published_at": "2007-04-0615:32:12"
+      },
+      "after": {
+        "published_at": "2007-04-09 15:33:39"
+      },
+      "reason": "PDF314独立4/9头支配后续解盘，之前4/6段不改；跨时段分组保留全部原字和身份。",
+      "text_sha256": "f67c139918d5e793130bbefe6ba592145da202b24cb40be4c06802a43846f1f1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0314-b004",
+      "before": {
+        "published_at": "2007-04-0615:32:12"
+      },
+      "after": {
+        "published_at": "2007-04-09 15:33:39"
+      },
+      "reason": "PDF314独立4/9头支配后续解盘，之前4/6段不改；跨时段分组保留全部原字和身份。",
+      "text_sha256": "d957d949988d4dbea26fc7687be936a26950765be94bedb62ddde19615c68047",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0314-b005",
+      "before": {
+        "published_at": "2007-04-0615:32:12"
+      },
+      "after": {
+        "published_at": "2007-04-09 15:33:39"
+      },
+      "reason": "PDF314独立4/9头支配后续解盘，之前4/6段不改；跨时段分组保留全部原字和身份。",
+      "text_sha256": "9abab6a5c13339c506ad93121bbf71a5be50b3a569ad40eeefee4f15e93cd7f7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0314-b008-s01",
+      "before": {
+        "published_at": "2007-04-0616:04:23"
+      },
+      "after": {
+        "published_at": "2007-04-06 16:04:23"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "c49411f65041572b6d516860abaf1ae634a92d19157a194c80adb7891963ad40",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b000",
+      "before": {
+        "published_at": "2007-04-0616:04:23"
+      },
+      "after": {
+        "published_at": "2007-04-06 16:04:23"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "dbc268a42ef6b7596ed5d79feca2eec687f010c6fc6413ec730cfc4a40eb88b8",
+      "affected_references": [
+        {
+          "id": "evidence-2f65e972c31c51bc",
+          "claim_id": "candidate-0aa35ea7d9e01b5a",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b003-s01",
+      "before": {
+        "published_at": "2007-04-0916:03:54"
+      },
+      "after": {
+        "published_at": "2007-04-09 16:03:54"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "9c69272adcf033312dbd517e8a29f81ad9afd4f11538ac12416f6410be67a98b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b004",
+      "before": {
+        "published_at": "2007-04-0916:03:54"
+      },
+      "after": {
+        "published_at": "2007-04-09 16:03:54"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "324a42c13d3ec2cd3f0127080ed34f6a3808887d84b3bdebcef7e00b3430826d",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b009-s01",
+      "before": {
+        "published_at": "2007-04-0916:10:19"
+      },
+      "after": {
+        "published_at": "2007-04-09 16:10:19"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "1bcc46457072061f5cc7023db6268d9953f75923d6c65c3cbd3f886e9233c025",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b010",
+      "before": {
+        "published_at": "2007-04-0916:10:19"
+      },
+      "after": {
+        "published_at": "2007-04-09 16:10:19"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "1d759c67ee5c45377c09f87c7db6d02c1adb85bd95eed7d4347caebb5b2cfc52",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b012-s01",
+      "before": {
+        "published_at": "2007-04-0921:35:50"
+      },
+      "after": {
+        "published_at": "2007-04-09 21:35:50"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "f83e2be23a8c289562e55e12642badc5cbab04e4f1cccd54260d36b8659ab6fa",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0315-b013",
+      "before": {
+        "published_at": "2007-04-0921:35:50"
+      },
+      "after": {
+        "published_at": "2007-04-09 21:35:50"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "4532ff4ac61e5f160d51bed36c554ac738df9a83af8be789ea7b8667ee9440ff",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0316-b003-s01",
+      "before": {
+        "published_at": "2007-04-0921:51:46"
+      },
+      "after": {
+        "published_at": "2007-04-09 21:51:46"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "534791c06091bed08ebedc47105214cf6776a499ac23b980e14a1d08e0e18432",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0316-b004",
+      "before": {
+        "published_at": "2007-04-0921:51:46"
+      },
+      "after": {
+        "published_at": "2007-04-09 21:51:46"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "9fa38d2e01c3199c8eb9c116a225eb44df1e03cace3cf86ac51a0fd3f1002bd7",
+      "affected_references": [
+        {
+          "id": "evidence-0554d3814411cde4",
+          "claim_id": "candidate-ce7b8fbb2d590dfe",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0316-b005",
+      "before": {
+        "published_at": "2007-04-0921:51:46"
+      },
+      "after": {
+        "published_at": "2007-04-09 21:51:46"
+      },
+      "reason": "原页作者署名时刻及承接段可核，仅规范日期与时刻间空格，数值/原字符不变。",
+      "text_sha256": "a3830f8a8e63af474e6d744a3f3564b92bf6cec534a3018ebb5c2e7300971532",
+      "affected_references": [
+        {
+          "id": "evidence-c4e019d9cc1dc710",
+          "claim_id": "candidate-4783829118484caa",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0312-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "红框/蓝色走势/绿色后续及A/B/C为汇编示意，无作者原发证明；内嵌1分钟顶背后盘整再上涨文字，不把色线几何补成完整递归定义或必然大级反转。"
+      },
+      "reason": "实际查看PDF311至316六页和两幅整图，核示意/市场图日期与文后来源。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0314-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "深成5分图头选择4/9而右端含4/10行情，嵌4/6和4/9评论；后行情不证明当时已知万点突破或管理层行动，缺口有效性仍是原文待确认。"
+      },
+      "reason": "实际查看PDF311至316六页和两幅整图，核示意/市场图日期与文后来源。"
+    }
+  ],
+  "visual_pages": [
+    311,
+    312,
+    313,
+    314,
+    315,
+    316
+  ],
+  "pending": [
+    "316-b004夹注禅师的意思为进行式非完成式，整理者未核；作者证据只引注前/注后可分离原句，整段混合身份待核不将注作作者断言。",
+    "本课区分同级背驰与小级转大、进入背驰段非最终背驰，B/C重合演化不等日线中枢已成；图1后加1原发未核。"
+  ],
+  "reviewer": "Codex 主代理 / 43课跨日时间、混合夹注及原图来源复核"
+}

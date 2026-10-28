@@ -1,0 +1,89 @@
+{
+  "graph_version": "0.1.0-review-b19951bdb3de",
+  "schema_version": "1.1.0",
+  "checks": [
+    "39段转载与作者引言、下一篇边界隔离；GDP引述保留第三方身份，原错误候选已拒绝",
+    "分型/分形、圆顶/圆底不同概念；作者明确改称可查，不把数学近词无条件合并",
+    "三卖不扩张联合条件、破顶所需三买的必要性及中继确认后回补保留",
+    "笔构中枢是可能但作者认为较不稳；骨牌条件及非包含/时间级别原文歧义不被隐藏",
+    "递归入口可替代但须唯一，f1/f2分层与级别不由时长保证可查",
+    "后期140/141图不倒填139已完，顶部自评不抹去未确认条件；转载及全书未完成状态可见"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "自同构性结构"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "递归定义",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "分型",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-dfcc2d7e322a37d2"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 211
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "上市公司市值已经是GDP",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "共享核心、桌面vendor和CLI的数据检查，不代替Electron界面或Windows打包离线验收。",
+    "同模型开发场景，非人工独立语义金标准。"
+  ]
+}

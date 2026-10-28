@@ -1,0 +1,89 @@
+{
+  "graph_version": "0.1.0-review-9e9b5c45a7a4",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "unknown_source_queries": [
+    {
+      "query": "（注：禅师的意思为进行式非完成式）",
+      "results": [
+        {
+          "id": "volume_1-a53e99c37ca5-p0316-b004-s01",
+          "role": "unknown",
+          "speaker": null,
+          "published_at": null
+        }
+      ]
+    },
+    {
+      "query": "（备注：从0206的2541开始算，一般30分中枢大致相当于日线笔中枢、月线3k重合中枢，对应的是月线的5均线）",
+      "results": [
+        {
+          "id": "volume_1-a53e99c37ca5-p0432-b001-s01",
+          "role": "unknown",
+          "speaker": null,
+          "published_at": null
+        }
+      ]
+    }
+  ],
+  "all_split_characters_and_mapping_preserved": true,
+  "reviewed_tail_quote_and_pdf_coordinates_preserved": true,
+  "rejected_candidate_default_and_unreviewed_hidden": true,
+  "existing_cli_source_role_parity": true,
+  "short_answer_context_live_audit": [
+    {
+      "evidence_id": "evidence-9be60cb14e850afb",
+      "returned_context_pages": [
+        408,
+        409,
+        410
+      ],
+      "required_question_passages": [
+        "0408-b008",
+        "0408-b009",
+        "0408-b010",
+        "0409-b000",
+        "0409-b002"
+      ],
+      "missing": []
+    },
+    {
+      "evidence_id": "evidence-a4a4e9f37c497344",
+      "returned_context_pages": [
+        408,
+        409,
+        410
+      ],
+      "required_question_passages": [
+        "0408-b008",
+        "0408-b009",
+        "0408-b010",
+        "0409-b000",
+        "0409-b002"
+      ],
+      "missing": []
+    },
+    {
+      "evidence_id": "evidence-6f9ef383f21d0504",
+      "returned_context_pages": [
+        408,
+        409,
+        410
+      ],
+      "required_question_passages": [
+        "0408-b008",
+        "0408-b009",
+        "0408-b010",
+        "0409-b000",
+        "0409-b002"
+      ],
+      "missing": []
+    }
+  ],
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "只验证两处已知夹注及三个短答上下文，不冒全书语义审计。",
+    "未知夹注仍保全文和页内定位，未知不等已证汇编者姓名；历史批次原始段落身份以provenance迁移映射解释。"
+  ]
+}

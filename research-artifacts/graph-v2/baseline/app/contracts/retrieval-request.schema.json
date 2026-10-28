@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chan-kg/retrieval-request/1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["query"],
+  "properties": {
+    "query": { "type": "string", "minLength": 1, "maxLength": 4000 },
+    "mode": { "enum": ["knowledge", "research", "source"], "default": "knowledge" },
+    "limit": { "type": "integer", "minimum": 1, "maximum": 100, "default": 10 },
+    "contextBudget": { "type": "integer", "minimum": 1000, "maximum": 1000000, "default": 60000 },
+    "candidateBudget": { "type": "integer", "minimum": 20, "maximum": 1000, "default": 100 },
+    "graphDepth": { "type": "integer", "minimum": 0, "maximum": 2, "default": 1 },
+    "graphBudget": { "type": "integer", "minimum": 0, "maximum": 100, "default": 20 },
+    "issueBudget": { "type": "integer", "minimum": 0, "maximum": 100, "default": 20 },
+    "rerankBudget": { "enum": [20, 40], "default": 40 },
+    "profile": { "enum": ["lexical", "dense", "hybrid", "hybrid-graph", "hybrid-graph-rerank"], "default": "hybrid-graph-rerank" },
+    "allowDegraded": { "type": "boolean", "default": false },
+    "documentId": { "type": "string", "minLength": 1 },
+    "conceptId": { "type": "string", "minLength": 1 }
+  }
+}

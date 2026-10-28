@@ -1,0 +1,89 @@
+{
+  "graph_version": "0.1.0-review-6c88a992da52",
+  "schema_version": "1.1.0",
+  "checks": [
+    "41新增；d1=g2/d2=g4本图条件、g0正文18.5/图18.59与g0g3原式右端d3张力不修；除最后一段保留，分笔二卖非1分二卖，单价位重叠不能任意忽略/亦非孤立价重复就有枢",
+    "首式g5/[d2,g5]与二式g6/[d3,g5]区间、完成点、g7标签各保，整体次级走势端点非子枢交集；本例K形不作递归充分公式；两枢无连接禁式与三次级成高枢不同，连接同向/无重叠并列，18次级或更低范围不覆盖",
+    "快速大幅周破用30/5三类须迅猛量力配合且分普通震荡，新手买等本级/卖宁早与一二卖提示不对称；极端价差为理论例不验真实制度，三类后方向强语不等必成完整趋势/永不回/实盘保证",
+    "编号1少见倒置二类许可、2绝对保证/没有什么更大级别与3重申次级离返分别对号；作者原引仅短答，408/409跨页问保持reader并在条件/备注指定稳定段ID，默认邻段不涵盖全问的限制明确，不冒读者因果或宣称53已全解决",
+    "5/24日内两卖1分级与1分以下背驰、读者11:16/作者11:15分别保；联通通道按技能/下轨条件非当前或布林定义，MACD仅辅；CCTV/Joyce及读者操作/解答没升作者，收费/财富/宏观30-50%/文化学历语境没作技术实证",
+    "17命题17关联7图逐项核，6原发未核/408图含5/25为后加且不证5/24预测；19时间空格/7图备注授权变化、101段全台账，条件/身份/坐标完整不等全书或实际Windows验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "通道式上涨"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "分解多样性",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "通道式上涨",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-a4a4e9f37c497344"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 408
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第二类买点比第一买点低",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 17,
+    "associations": 17,
+    "unique_figures": 7
+  },
+  "numbered_reply_context_scope": "原短答作者身份/编号与原跨页reader问题分别核，条件与备注给稳定ID；默认邻段context不涵盖全组，需page408/409联读，此限制未宣称修复。",
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型语义边界/指代/来源和模块一致检查，不是独立或人类金标准/真实Windows运行。",
+    "原公式端点/设价、子枢用语/走势高低点、18与54连接级别、三类方向强语/快速突破、编号2更大级别等范围仍待核。",
+    "跨页编号问题未自动全部纳入近邻context，已在条件/备注标明联读源ID；完整G/召回回归及产品交付未完成。"
+  ]
+}

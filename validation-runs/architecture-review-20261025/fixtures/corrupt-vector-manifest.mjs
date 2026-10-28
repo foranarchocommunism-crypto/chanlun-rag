@@ -1,0 +1,1 @@
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const write=fs.writeFileSync;fs.writeFileSync=function(path,...args){if(String(path).endsWith('manifest.json')){write.call(this,path,'{"interrupted":');throw new Error('AUDIT_INTERRUPTED_MANIFEST_OVERWRITE');}return write.call(this,path,...args);};syncBuiltinESMExports();

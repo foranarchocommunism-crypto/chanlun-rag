@@ -1,0 +1,68 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-1b5c9b3a81d2",
+  "lessons": [
+    85,
+    86,
+    87
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册85至87课同模型四轮复核",
+  "passages_read": 219,
+  "claims": 51,
+  "evidence": 94,
+  "importance_counts": {
+    "3": 8,
+    "2": 14,
+    "4": 7,
+    "1": 22
+  },
+  "new_concepts": [
+    "颈线"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "figure_objects_viewed": 4,
+  "figure_origin_counts": {
+    "later_annotation": 3,
+    "unverified": 1
+  },
+  "pending": [
+    "lower-l085-l087-c-stage-pending-small-level-wording",
+    "lower-l085-l087-c-stage-pending-next-sublevel-time",
+    "lower-l085-l087-c-stage-pending-three-segments-minimum",
+    "lower-l085-l087-c-stage-pending-stories-and-performance",
+    "lower-l085-l087-c-stage-pending-figure-makers-and-late",
+    "lower-l085-l087-c-stage-pending-hedge-safety",
+    "lower-l085-l087-c-stage-pending-neckline-confirmation-scope"
+  ],
+  "source_passages_snapshot_sha256": "9ee16cb55ff17aef3ff0dc0934ce9c335534c00459a4753ab8e9f4e7cba01400",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "219段四轮审读、19页及4图检查；跨级别操作条件和概率范围保留，三图后期，增量待预检发布。"
+}

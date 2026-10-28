@@ -1,0 +1,314 @@
+{
+  "arch": "arm64",
+  "node": {
+    "file": "node.exe",
+    "version": "v24.15.0",
+    "sha256": "49a54c103f4919ce64199a043ef5cd309507de491d718085edee089cd8e87543",
+    "url": "https://nodejs.org/dist/v24.15.0/node-v24.15.0-win-arm64.zip",
+    "archive_sha256": "c9eb7402eda26e2ba7e44b6727fc85a8de56c5095b1f71ebd3062892211aa116"
+  },
+  "sharp": {
+    "version": "0.35.5",
+    "url": "https://registry.npmjs.org/@img/sharp-win32-arm64/-/sharp-win32-arm64-0.35.5.tgz",
+    "integrity": "sha512-X4t7g+7ZA5DKblCBEXGjUqqemj4vczING/5viFwAL8h4N3qYeyjwdCvRLHi4EdOUI+2Z7UFlp1VM+p/AuEtm6Q=="
+  },
+  "native_dependencies": [
+    {
+      "file": "msvcp140.dll",
+      "sha256": "167ceac85c2d726c4cd9e39b8881fafdc6de1520c0e67c4f6b271235f9d2a6c5",
+      "machine": "aa64",
+      "version": "14.51.36247.0",
+      "source_payload": "msvcp140.dll_arm64"
+    },
+    {
+      "file": "msvcp140_1.dll",
+      "sha256": "c7713c2061b29d24de4874923522ada0815cfca80d09265c181e81d16c7c42d6",
+      "machine": "aa64",
+      "version": "14.51.36247.0",
+      "source_payload": "msvcp140_1.dll_arm64"
+    },
+    {
+      "file": "msvcp140_atomic_wait.dll",
+      "sha256": "8e3b63333bbe2deecfd31c5c86608b5bdb7b23dbae13e3d356d2d7f78d7b67d5",
+      "machine": "aa64",
+      "version": "14.51.36247.0",
+      "source_payload": "msvcp140_atomic_wait.dll_arm64"
+    },
+    {
+      "file": "vcruntime140.dll",
+      "sha256": "3c56f4167e2b3d8e6338497731e6aae8cd7ec46bd6789f9423a8d9cf9a630310",
+      "machine": "aa64",
+      "version": "14.51.36247.0",
+      "source_payload": "vcruntime140.dll_arm64"
+    }
+  ],
+  "pe_import_audit": {
+    "node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\arm64\\onnxruntime_binding.node": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "node.exe",
+        "onnxruntime.dll",
+        "vcruntime140.dll"
+      ]
+    },
+    "vcruntime140.dll_arm64": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    "msvcp140.dll_arm64": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll"
+      ]
+    },
+    "node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\arm64\\onnxruntime.dll": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-core-console-l1-1-0.dll",
+        "api-ms-win-core-console-l2-1-0.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-file-l1-2-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-heap-l1-1-0.dll",
+        "api-ms-win-core-heap-l2-1-0.dll",
+        "api-ms-win-core-io-l1-1-0.dll",
+        "api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+        "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+        "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+        "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-path-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-1.dll",
+        "api-ms-win-core-processtopology-l1-1-0.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-registry-l1-1-0.dll",
+        "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-core-synch-l1-2-1.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-eventing-provider-l1-1-0.dll",
+        "api-ms-win-service-core-l1-1-1.dll",
+        "api-ms-win-service-management-l1-1-0.dll",
+        "d3d12.dll",
+        "dbghelp.dll",
+        "directml.dll",
+        "dxgi.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "msvcp140_1.dll",
+        "msvcp140_atomic_wait.dll",
+        "setupapi.dll",
+        "shell32.dll",
+        "user32.dll",
+        "vcruntime140.dll"
+      ]
+    },
+    "msvcp140_atomic_wait.dll_arm64": {
+      "machine": "aa64",
+      "imports": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll"
+      ]
+    },
+    "msvcp140_1.dll_arm64": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll"
+      ]
+    },
+    "node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\arm64\\dxil.dll": {
+      "machine": "aa64",
+      "imports": [
+        "advapi32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "kernel32.dll",
+        "ole32.dll"
+      ]
+    },
+    "node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\arm64\\dxcompiler.dll": {
+      "machine": "aa64",
+      "imports": [
+        "advapi32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "kernel32.dll",
+        "ole32.dll",
+        "oleaut32.dll"
+      ]
+    },
+    "node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\arm64\\DirectML.dll": {
+      "machine": "aa64",
+      "imports": [
+        "api-ms-win-appmodel-runtime-l1-1-0.dll",
+        "api-ms-win-core-console-l1-1-0.dll",
+        "api-ms-win-core-datetime-l1-1-0.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "api-ms-win-core-fibers-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-heap-l1-1-0.dll",
+        "api-ms-win-core-interlocked-l1-1-0.dll",
+        "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "api-ms-win-core-timezone-l1-1-0.dll",
+        "api-ms-win-core-util-l1-1-0.dll",
+        "api-ms-win-eventing-provider-l1-1-0.dll",
+        "d3d12.dll"
+      ]
+    },
+    "build\\portable-platforms\\arm64\\sharp-win32-arm64\\lib\\sharp-win32-arm64-0.35.5.node": {
+      "machine": "aa64",
+      "imports": [
+        "kernel32.dll",
+        "libvips-42.dll",
+        "libvips-cpp-8.18.7.dll",
+        "node.exe"
+      ]
+    },
+    "build\\portable-platforms\\arm64\\sharp-win32-arm64\\lib\\libvips-cpp-8.18.7.dll": {
+      "machine": "aa64",
+      "imports": [
+        "kernel32.dll",
+        "libvips-42.dll"
+      ]
+    },
+    "build\\portable-platforms\\arm64\\sharp-win32-arm64\\lib\\libvips-42.dll": {
+      "machine": "aa64",
+      "imports": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-process-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "bcrypt.dll",
+        "bcryptprimitives.dll",
+        "dnsapi.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ntdll.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "shlwapi.dll",
+        "user32.dll",
+        "ws2_32.dll"
+      ]
+    },
+    "build\\portable-platforms\\arm64\\node.exe": {
+      "machine": "aa64",
+      "imports": [
+        "advapi32.dll",
+        "crypt32.dll",
+        "dbghelp.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "userenv.dll",
+        "winmm.dll",
+        "ws2_32.dll"
+      ]
+    }
+  },
+  "crt_source": {
+    "url": "https://aka.ms/vc14/vc_redist.arm64.exe",
+    "sha256": "b70ef586669a620a0a30a1156969c05c6a3831dc8f8bc992da75779d2a92f944",
+    "version": "14.51.36247.0",
+    "authenticode": "See arm64-asset-signatures.json for actual verification"
+  },
+  "excluded_mixed_arch_payload": {
+    "file": "vcruntime140_1.dll_arm64",
+    "actual_machine": "8664",
+    "reason": "Not imported by the ARM64 dependency closure; x64 compatibility payload"
+  }
+}

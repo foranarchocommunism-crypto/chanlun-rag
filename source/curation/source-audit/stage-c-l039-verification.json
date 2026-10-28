@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-01407b1617c1",
+  "schema_version": "1.1.0",
+  "checks": [
+    "28新增；a正规化5分、A含30分中心非等于纯中心；向上A0起奇下偶上和A1条件，A2突破且A3不回才吸收，A3破高三段成中心保留前提及等值未详",
+    "比较Ai/i+2，先盘背奇偶买卖，未盘背才用保护位及后续弱势段联合；偶支k偶明写，奇支沿记号无重写，不把破位压成立即同价成交",
+    "未来段不回写已完唯一是作者主张，高层可升级不取消38低层规则；两类总结非已证穷尽，90%读者头晕非准确率，生理反应只是类比，失步暂停不许诺盈利",
+    "高未卖后买是加仓，分两笔非50%；卖就全买原页原字歧义不修成全卖，大方向没问题非风险保证；欧美制度属读者、期货凭证即时可变变量未定义",
+    "13:25最小级不等5分、未命名确为1分或线段，图周期不改结构；3/23未破和3/26突破待确认分时，历史10/15元和监管观点非今推荐，读者动员未认证",
+    "3段改3/26且前段尾头字符留存；7命题9配图逐项确认，2公式示意原发未核1行情后加；原字及全书待核不伪称完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "Ai与Ai+2盘背时"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "监管风险",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "同级别分解",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-237f9674b7aad392"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 288
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "卖就全买",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 7,
+    "associations": 9,
+    "unique_figures": 3
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未补全k/等值/完成/成交算法，未修源字歧义或定义期货凭证变量，未认证历史风险收益与现行制度。"
+  ]
+}

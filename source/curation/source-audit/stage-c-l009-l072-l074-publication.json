@@ -1,0 +1,50 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-7f715744fc41",
+  "input_scope": [
+    "上册第9课全部59段和PDF22至27",
+    "下册72至74课全部171段和8图对象"
+  ],
+  "new_claims": 113,
+  "reviewed_before": 533,
+  "batch_sha256": {
+    "curation\\upper\\07-l009-complete.reviewed.jsonl": "8e1858f92476489421a1a6d720df83218423769a0359776969e727e242942204",
+    "curation\\lower\\c_stage_l072_l074_sol61.jsonl": "4bd15a82c5cfd64bc485d76690f78752997e7a15ccc99bd4c57e5a596d612cc9"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T080759870438Z-curation-l009-l072-l074",
+  "root_review_scope": "第9课由主代理完整四轮审读和实际六页核看；下册由GPT-6.1 Sol xhigh完成全171段四轮及8图视觉记录，主代理读取全部85条陈述/条件、抽核关键原文，并实际复看PDF107/110/114/121。不同检查视角不声称独立或人工审查。",
+  "checks_run": [
+    "JSON Schema：113条通过",
+    "当前版本联合只读预检113条通过，DB和manifest哈希不变",
+    "26项Node工程检查通过",
+    "validate.mjs：646条默认知识0错误"
+  ],
+  "pending_summary": [
+    "第9课4项待核：程序失效率次数边界/真实独立性/权证底线证明/图源",
+    "72至74课5项待核：图源、未展示证明及政策作用时标的语境差异"
+  ],
+  "acceptance": "本批113条满足发布门槛；指定课程整段读完，待核项目保留，整个工程未验收",
+  "formal_import": "passed",
+  "graph_version": "0.1.0-review-5b278dccfccb",
+  "original_533_claims_and_evidence_unchanged": true,
+  "reviewed_after": 646,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 178,
+    "claims": 3285,
+    "evidence": 3493,
+    "relations": 151,
+    "reviews": 701
+  },
+  "checks_not_run": [
+    "240条真实检索评测未完成",
+    "本次未执行Electron界面或打包后离线验收"
+  ],
+  "next_action": "继续阶段C其余课程整理"
+}

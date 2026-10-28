@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-324a7257a56f",
+  "schema_version": "1.1.0",
+  "checks": [
+    "59条新增；二买三式保留，低于一买可行，合一不保证大级别上涨",
+    "中间震荡点宽称与严格二买分开；回升中阴对象保留，20以上口号有明确机会限制",
+    "唯一性/最优性归作者；随意a0并列84唯一性前提，未报形式证明或最优实验通过",
+    "可控为当下显示，名称可换而非结构任意；三层表达未补系数或加权算法",
+    "跨日极可能/已成分别记录；缺口尚差1点，30分钟未背驰/5分钟未成，极端例外保留",
+    "60分钟图上1分钟参考框架保留；3/17旧判断与3/19明确纠正各有独立日期原句",
+    "背驰段未确/底分型/笔分层，跨页续句齐全；底仓及其他资金、40%偏好非充分买点",
+    "六本课图三后加三未核，366下一课图未修改，整体语义仍未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "二买最弱情况"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "第二类买点",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "走势终完美",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "完全分类",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-4ce387132dafb788"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 353
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "必须有一个纠正",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明全书歧义已解决、唯一分解/最优性已形式证明、精确定位/收益已实测。"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "output": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\real-model-1792925127873\\index",
+  "index_version": "lexical-1",
+  "index_schema_version": "1.0.0",
+  "graph_version": "graph-v2-isolated-model-fixture",
+  "schema_version": "1.1.0",
+  "canonical_source_sha256": "bcf47b6992605a9e9bad20be4c0f1f98c8505f5d6de07cb2c2aac6d5d5c696de",
+  "canonical_manifest_sha256": "1633746ab42b093a398f105c2ad9c13edbdade78b93afbe5dbd618285944fb80",
+  "indexed_snapshot_sha256": "bcf47b6992605a9e9bad20be4c0f1f98c8505f5d6de07cb2c2aac6d5d5c696de",
+  "policy_version": "synthetic-v2",
+  "policy_sha256": "c84759babd0d52deb0b4e4cf1055e85beef40c0ad8e7a20008b8979877624d0f",
+  "projection_sha256": "fd770050aa786b3179dc63078f36337472d5ef49452e8ef383ac9b126a9163ed",
+  "created_at": "2026-10-25T10:45:59.240Z",
+  "text_processing": {
+    "normalization": "NFKC-lowercase-v1",
+    "tokenizer": "Han-2/3gram-ascii-binary-tf-v1",
+    "windows": {
+      "codepoints": 400,
+      "overlap": 80
+    },
+    "offset_unit": "unicode_codepoint"
+  },
+  "counts": {
+    "claims": 153,
+    "reviewed": 153,
+    "pending": 0,
+    "evidence_windows": 153,
+    "source_windows": 153,
+    "triage": {
+      "full_quote_coverage": 0,
+      "partial_quote_coverage": 0,
+      "no_reviewed_quote": 0
+    }
+  },
+  "models": {},
+  "build_status": "validated",
+  "semantic_review_changed": false
+}
+

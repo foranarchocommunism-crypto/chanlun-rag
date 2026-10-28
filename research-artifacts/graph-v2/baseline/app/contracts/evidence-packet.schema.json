@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chan-kg/evidence-packet/1",
+  "type": "object",
+  "required": ["contract_version", "request_id", "schema_version", "graph_version", "index_version", "policy_version", "data", "runtime"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "request_id": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "graph_version": { "type": "string" },
+    "index_version": { "type": ["string", "null"] },
+    "policy_version": { "type": "string" },
+    "data": {
+      "type": "object",
+      "required": ["query", "mode", "status", "reviewed", "research_leads", "source_context", "issues", "relation_paths", "deferred", "budget"],
+      "properties": {
+        "mode": { "enum": ["knowledge", "research", "source"] },
+        "reviewed": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+        "research_leads": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+        "source_context": { "type": "array" },
+        "issues": { "type": "array" },
+        "relation_paths": { "type": "array" },
+        "deferred": { "type": "array" },
+        "budget": { "type": "object" }
+      }
+    },
+    "runtime": { "type": "object", "required": ["requested_profile", "actual_channels", "degraded", "elapsed_ms", "stages"] }
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": ["id", "text", "conditions", "exceptions", "kind", "review_status", "ambiguity_status", "review_note", "evidence", "retrieval"],
+      "properties": {
+        "id": { "type": "string" },
+        "conditions": { "type": "array" },
+        "exceptions": { "type": "array" },
+        "review_status": { "enum": ["reviewed", "pending"] },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["id", "claim_id", "passage_id", "quote", "quote_start", "quote_end", "source_spans", "role", "speaker", "filename", "pdf_page", "review_status", "context_semantic_review"],
+      "properties": { "context_semantic_review": { "const": "not_asserted" } }
+    }
+  }
+}

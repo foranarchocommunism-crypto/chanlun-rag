@@ -1,0 +1,10 @@
+{
+  "profile_version": "1.0.0-development",
+  "status": "development_candidate_not_release_frozen",
+  "default_profile": "hybrid-graph-rerank",
+  "fusion": { "lexical_weight": 1, "dense_weight": 0.5, "graph_weight": 0.1, "rrf_constant": 60 },
+  "graph": { "default_depth": 1, "supported_path_budget": 20, "semantics": "supported_association_only" },
+  "reranker": { "default_enabled": true, "default_budget": 40, "experimental_budgets": [20, 40] },
+  "selection_basis": "240-case development: dense weight 0.5 and graph weight 0.1; graph improves one complete evidence group without Recall@20 regressions. Rerank40 improves Recall@20 from 88.44% to 92.15% and complete groups from 80.83% to 86.25%; measured rerank40 p95 is 2.845s on the CPU baseline.",
+  "prospective_acceptance_exposed": false
+}

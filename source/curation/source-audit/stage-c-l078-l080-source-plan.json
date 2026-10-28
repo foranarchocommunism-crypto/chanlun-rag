@@ -1,0 +1,470 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-a80a4a9bf9cd",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "02045ac6a9c7795d938522b6378735c51b59d419451fca6c48f29844577a3139",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "97a035c7bedb8278beb6c64cce8a1f036d351b8cc6394f617c713fbf5a74f5be",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b007",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "67d3d8bb29cf481f8290b5566cf64dc40b0cc06acaac276f99cbf6cc49b58f28",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b008",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "b926ee0cdfe288378288a890c4fcbab00822fe5d0e2d07e7551580551580cd6d",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b009",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "23366f0e7eddfed97da6910f1cdc20c84121b1cc243572508743807e1b2c86f2",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b010",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "935ae2ecb7267a850899d7c790c833a0b80cf0f4d4f69ae4596c77aed7c4d7d6",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b011",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "f2b7860d845a4a9ce514a8f18cbcb18146c09263bc210d0f696ee150e59cf3aa",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b012",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "cc886686e0a3a9a8df0b68a6b40cbf81d8167d1e5fae3962402fc3d6f15b6fd5",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b013",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "6eadc639b4461d1b131898838032f9bff4910caf39d583ae5667a976d73db904",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b014",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "946d35f52d39becfd44919073633a6d4e265a951618b74d5ded7692c8684e184",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0162-b015",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "9fb0f5b40bd73613094677cff1c5dbd2fed1b90f4374771aa3dae06bb6c9318c",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "5daea518c9736e27b69cb4a2206ffd034995e0317517e7855dd76d04d074d9a3",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "25c9c1eabc467a2d395a72de62487b3b80c3b51e0ef70b4514788a88616b6b9c",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "316cda32c2b4f60674bfa26d8d567c0d180fcf2b540361ead124efc3acf194c1",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "0613383351443417109074388d16be8725a1f8b7b33cef43553ae1ab5992f2ec",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "e102906925013d1b12d78b4098882afe712494e448cebe9c54959db68b04e554",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0163-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 11:25:01"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 16:00:16"
+      },
+      "text_sha256": "c3c04cfdb1d6cbf363c340c63b9f8c251ca282e03afc8feb1c604cc80ba97e28",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0165-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 16:27:34"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 20:55:15"
+      },
+      "text_sha256": "fef990dd4a448908d13526d25765088d7dcee5581b97d055086ec17f80d66c78",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0165-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 16:27:34"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 20:55:15"
+      },
+      "text_sha256": "d4278dd6f0325dbd5d3de04baf2f137911560b200ed981d1c0c64f0e299ce966",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0165-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 16:27:34"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 20:55:15"
+      },
+      "text_sha256": "ddbb6bb98124b074ee9c1cca3a085ee43889b434a78c2416ea1b9aa3467c1d69",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0165-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "新浪网友",
+        "published_at": "2007-09-13 16:27:34"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-09-13 20:55:15"
+      },
+      "text_sha256": "9ebcdb946eb48111ace7f027c3b898f06d9730f87af977ebfb85c7de92c1a3bf",
+      "reason": "主代理逐段核对PDF162/163/165原页；嵌入网友引文结束后已恢复作者行文。只恢复21段作者解盘身份和其所属文章时间；网友署名、原话及分隔不变。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0143-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "图内以“缠78课有这样一句话怎么学长们怎么理解的”提问并引用本课后段，以A/B/C红色箭头解释；这是引课后的解释图，未核绘者，不当作者原始配图。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0145-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "图内写“我总结的处理原则”“这是两个处理方法，我选了第二种”，并带www.chzhshch.net水印；绘者附加选择不归为作者原文。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0145-fig3",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "图内独立解释与红字“如果按...原则”，并带www.chzhshch.net水印；与正文引用分开，作为后附解释标注，制作人未核。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0154-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "600737日线数据横轴延至2007年10月，晚于第79课2007-09-10；光标2007/08/27不代表整图日期。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0155-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "000938日线数据横轴延至2007年11月，晚于2007-09-10正文；顶部2007/09/10是光标日期。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0156-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "600008日线数据延至2007年10月，晚于2007-09-10正文；顶部2007/09/10是光标日期。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0157-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证日线/周线合成图含6124.04及2007年10月行情，晚于2007-09-11附文；嵌图不同周期的光标日期不代替全图时点。 已实际查看原页与单图；文字命题独立取证，制图人/标注者未核。"
+      },
+      "reason": "原图内有明确引课后的解释口吻、独立处理选择，或晚于对应文字的行情；未把未知制图人改成作者。"
+    }
+  ],
+  "pending": [
+    {
+      "id": "source-quoted-reader-scope-upper151-remains",
+      "status": "pending",
+      "scope": [
+        "volume_1 PDF151"
+      ],
+      "reason": "本批仅解决下册162至165作者叙述恢复；上册151待原页核对，不能整项宣称解除。"
+    }
+  ],
+  "checks_run": [
+    "392段顺序审读、32页与21张当课图检查",
+    "21段仅身份/时间改变，原文、坐标、字符映射及IDs不变",
+    "七图未被旧reviewed证据引用；页173的两张81课图排除本批"
+  ],
+  "checks_not_run": [
+    "未核原博客与图像制作人"
+  ]
+}

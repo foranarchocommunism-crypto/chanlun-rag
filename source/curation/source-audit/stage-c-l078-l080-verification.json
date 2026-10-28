@@ -1,0 +1,91 @@
+{
+  "graph_version": "0.1.0-review-3e11d6872cf2",
+  "schema_version": "1.1.0",
+  "checks": [
+    "引用网友后作者身份及文章时间恢复；网友原话、署名与后续答疑身份保留",
+    "第二序列包含处理、B对前段已确认及新股首段例外保留",
+    "标准化限于高层部件用途；右图缺后续确认与假设变体条件分开",
+    "第三买点法的时间、通道、反应级别、或触发及能力替代条件保留",
+    "辅助分型与强语气论述分别保留；原错图/明确更正、未来96分支及传闻不确定性可查",
+    "80课不完整答复显式关联81课作者补全；原纯理论中枢未被时间排序覆盖",
+    "三个元素才可能形成分型只建立关联；过强的特征序列必须有分型连接已显式修正"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "中枢"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "包含",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "分型",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "特征序列",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-49a1a99f35f08ed0"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 162
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "这就如同下棋",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "共享核心、桌面vendor和CLI的数据检查，不代替Electron界面或Windows打包离线验收。",
+    "同模型开发场景，非人工独立语义金标准。"
+  ]
+}

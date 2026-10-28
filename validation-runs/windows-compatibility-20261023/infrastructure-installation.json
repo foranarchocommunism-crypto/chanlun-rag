@@ -1,0 +1,19 @@
+{
+  "Time": "2026-10-23T11:21:05.4974848+08:00",
+  "VirtualBox": {
+    "InstallerSHA256": "afd0ff1656cbe04ed88ce619594ae021419d97cce89fa9bdc443e9a963f1713f",
+    "Features": "VBoxApplication only; no USB, host-only or bridge drivers",
+    "HeadlessVMStartPassed": true,
+    "Signature": "Valid",
+    "InstallExit": 0,
+    "Version": "7.2.22r175245"
+  },
+  "Docker": {
+    "ArchiveSHA256": "c790bfcc9e8b227173b20f04f4ddaae6e997eac6d4aeaf7a850e2874d9222944",
+    "Source": "https://download.docker.com/win/static/stable/x86_64/docker-29.6.2.zip",
+    "HostRuntimeStart": "requires host restart; use process containers in created Windows Server guest",
+    "Version": "Docker version 29.6.2, build dfc4efb"
+  },
+  "CleanupAfterUse": true,
+  "HostRestarted": false
+}

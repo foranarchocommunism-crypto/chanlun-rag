@@ -1,0 +1,169 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-fb98ec817dcb",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0253-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF253及单图：内嵌11月20日原文，日线横轴已至2008年2月，晚于该文；后期截图，制作人与数据源未核，不能认证当时MACD反弹预测。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0259-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF259及单图：光标11/29但行情延至2008年2月并含4195.75，晚于文章；后期截图，不以未来走势倒填30分钟中枢当时已形成。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0261-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF261第二图：12月3日文章旁30分钟图光标12/03但横轴已至12/05；后期截图，制作人未核。第一图15分钟截止12/03另留unverified，不能合并身份。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0264-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF264第一图：万科周线光标2007/11/02，但横轴含次年1至6月行情，晚于12月3日课程；后期图不证明作者当时知晓未来跌幅，40.78为正文原数。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0265-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF265及单图：5分钟/30分钟上下图光标2007/12/06、行情亦越过12/04，晚于12月3日课程；后期示例图，不倒填当时收口已完成或突破已经确认。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0266-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF266及单图：嵌12月5日原文、光标12/05但横轴行情至12/11，后期截图；不可用后续确认代替当时5010待站稳条件。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0267-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF267及单图：嵌12月5日原文、光标12/05，横轴行情已至2008年1月，后期图；正文5032重回才是事实的时态保持。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0268-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF268及单图：嵌12月6日陷阱说明，图头已是12/07，晚于所配文章；后期截图，不能用次日回升替代当日力度比较与中枢震荡的条件。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0269-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF269及单图：光标12/10、内嵌周线选择12/07，但主日线已至2008年2月，晚于12月7日文章；后期截图，不倒填当周底分型已成立。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0272-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF272及单图：嵌12月12日原文，图头与行情12/13，标有之后的1分钟三卖；后期截图，不反填12月12日已确立三卖或混同5分钟三卖。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0276-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看PDF276及单图：日线光标12/14、周线光标12/07，但日线行情已至2008年2月；晚于12月17日文章。后期图，不倒填当日周底确认或未来跌幅。"
+      },
+      "reason": "原页及单图可见晚于文章的行情；光标日期并非整张图行情的截止时间。"
+    }
+  ],
+  "pending": []
+}

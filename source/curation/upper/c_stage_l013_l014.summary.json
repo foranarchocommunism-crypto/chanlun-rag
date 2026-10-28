@@ -1,0 +1,72 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-7263ee305f89",
+  "lessons": [
+    13,
+    14
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册13至14课同模型四轮复核",
+  "passages_read": 120,
+  "claims": 41,
+  "evidence": 54,
+  "importance_counts": {
+    "1": 33,
+    "3": 2,
+    "2": 6
+  },
+  "new_concepts": [
+    "主动带套",
+    "缠中说禅买点定律",
+    "缠中说禅短差程序",
+    "被动带套"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "figure_objects_viewed": 18,
+  "adjacent_figure_viewed": {
+    "id": "volume_1-a53e99c37ca5-p0043-fig1",
+    "unit": "lesson-012",
+    "counted_in_batch": false
+  },
+  "figure_origin_counts": {
+    "later_annotation": 9,
+    "unverified": 9
+  },
+  "pending": [
+    "upper-l013-l014-c-stage-pending-early-class-names-and-level-law",
+    "upper-l013-l014-c-stage-pending-active-protection-vs-old-lot-and-lump-topup",
+    "upper-l013-l014-c-stage-pending-half-warning-and-retest",
+    "upper-l013-l014-c-stage-pending-macd-double-period-and-example-comparison",
+    "upper-l013-l014-c-stage-pending-figure-origin-adjustment-and-dates",
+    "upper-l013-l014-c-stage-pending-nested-quotations-and-reader-mislabel",
+    "upper-l013-l014-c-stage-pending-success-profits-and-efficiency-claims",
+    "upper-l013-l014-c-stage-pending-patent-and-copyright-self-description"
+  ],
+  "source_passages_snapshot_sha256": "f47aab4e87969428c7bfb56b6430032c353d74b7e12a9d5fa7d3e3f2ac1a02d6",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "13至14课120段16页18图同模型四轮；14段源修正、均线失效退出/多周期短差与倍周期MACD范围、9后加9未核图分别保留，增量待预检。"
+}

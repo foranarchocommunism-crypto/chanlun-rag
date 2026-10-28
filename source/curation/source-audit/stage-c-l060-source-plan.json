@@ -1,0 +1,138 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-dd5aebdeacd1",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0456-b006-s01",
+      "before": {
+        "published_at": "2007-06-2015:49:31"
+      },
+      "after": {
+        "published_at": "2007-06-20 15:49:31"
+      },
+      "reason": "核PDF456作者6/20 15:49:31署名至457跨页回答；只补日期时刻空格，不改原日时/角色/原字和坐标。",
+      "text_sha256": "38423659df24638a601a65b25ee104edbe760a855018a3f38e8bdbeab7d08d12",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0456-b007",
+      "before": {
+        "published_at": "2007-06-2015:49:31"
+      },
+      "after": {
+        "published_at": "2007-06-20 15:49:31"
+      },
+      "reason": "核PDF456作者6/20 15:49:31署名至457跨页回答；只补日期时刻空格，不改原日时/角色/原字和坐标。",
+      "text_sha256": "e7ca9b9e4f694a94c7fb01d15027cbc0c861c07c102de9c63d3637bd166d0579",
+      "affected_references": [
+        {
+          "id": "evidence-d2094449c13c8458",
+          "claim_id": "candidate-918854ab40f50494",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0457-b000",
+      "before": {
+        "published_at": "2007-06-2015:49:31"
+      },
+      "after": {
+        "published_at": "2007-06-20 15:49:31"
+      },
+      "reason": "核PDF456作者6/20 15:49:31署名至457跨页回答；只补日期时刻空格，不改原日时/角色/原字和坐标。",
+      "text_sha256": "fe2b65cd51117f892b407e0b508a398335d8e421ad8978c173cd19c9bfa84b95",
+      "affected_references": [
+        {
+          "id": "evidence-db6de4844c4be583",
+          "claim_id": "candidate-9a9ee87aefe8f62a",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0451-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "B0-A1-B1-A2-B2同级图式，两支分别B2低于/不低于A1，右图只画高于而等号归属由文字给出；下方黄框复述课程，原制作来源未核，非独立实证。"
+      },
+      "reason": "实际查看PDF451至457七整页与4整图，2原发未核2后加；原图/重绘价差、含未来K及图周期分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0452-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "1分原样图头选6/13而完整含6/18、42至61，6/19早正文前数据可得但原发未核；45/46绿红箭头、55假一买类比与57、59/60/61和MACD12/26/9；图低4067.85与后重绘4068.20不静合。"
+      },
+      "reason": "实际查看PDF451至457七整页与4整图，2原发未核2后加；原图/重绘价差、含未来K及图周期分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0454-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "5分框重绘头6/21且右端含6/21急跌，叠6/19 15:48评论，含未来K；60起[4224,4254]、4224下三卖与4254上三买须结构条件，后价不证当日判断。"
+      },
+      "reason": "实际查看PDF451至457七整页与4整图，2原发未核2后加；原图/重绘价差、含未来K及图周期分别记录。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0456-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "5分框重绘头6/21并含次日急跌，叠6/20 15:36评论与13:30示意；晚于当时评论，4192附近46/4224的61和走势级别不由图周期替代，后K不证预测/成交。"
+      },
+      "reason": "实际查看PDF451至457七整页与4整图，2原发未核2后加；原图/重绘价差、含未来K及图周期分别记录。"
+    }
+  ],
+  "visual_pages": [
+    451,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457
+  ],
+  "pending": [
+    "58—61一分枢与收评从60起[4224,4254]段落描述分别保存；原55假一买为类比，不改盘背无所谓一买的严格限定。",
+    "突发消息影响0/二卖足够与快行情5分50%空间为作者条件例，不能作所有账户成交保证或取消原定级别的一般规则。"
+  ],
+  "reviewer": "Codex 主代理 / 60课七页四图同模型四轮，知识库范围"
+}

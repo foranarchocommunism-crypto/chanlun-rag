@@ -1,0 +1,13 @@
+{
+  "hypotheses": [
+    "Guest DNS differs from host: excluded by equal A records",
+    "Guest MTU causes TLS failure: 1500 to 1280 still timed out; restored",
+    "Guest NAT TLS egress path differs: loopback host CONNECT relay succeeds with normal TLS verification"
+  ],
+  "guest_curl_direct_exit": 28,
+  "guest_curl_CONNECT_exit": 0,
+  "relay": "127.0.0.1:26149, reached as 10.0.2.2 from NAT guest",
+  "host_network_settings_changed": false,
+  "tls_verification_disabled": false,
+  "proxy_removed_after_complete_project_delivery": true
+}

@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-2b771977d4aa",
+  "schema_version": "1.1.0",
+  "checks": [
+    "观察与想象的否定方向正确",
+    "双权证及行情例外保留；正文0.43和数值冲突身份可查",
+    "年线突破回调顺序、牛市限定与退出的替代条件完整",
+    "分类均线替换联合前提、年线定义和双页码一致",
+    "已看图仍保留未核来源；后加月线图与读者身份分别显示"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "年线",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "年线"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "行权价差"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第二波"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-876001e7141f2a0d"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 21
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "中枢",
+        "depth": 1,
+        "limit": 40
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "这里只验证共享模块、桌面实际vendor模块及独立CLI；未运行Electron界面。",
+    "语义场景为同模型审读后的开发验收，未计为240题独立金标准。"
+  ]
+}

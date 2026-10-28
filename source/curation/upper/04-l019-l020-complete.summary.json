@@ -1,0 +1,136 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_batch_files_only_no_import",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-b0a2500b0bcd",
+  "document_id": "volume_1-a53e99c37ca5",
+  "filename": "volume_1.pdf",
+  "input_scope": [
+    "lesson-019 PDF84—97 全部130个passages",
+    "lesson-020 PDF97—104 全部37个passages"
+  ],
+  "reviewer": "GPT-6.1 Sol xhigh / 阶段C上册19至20课四轮复核",
+  "independent_review_claimed": false,
+  "four_rounds": [
+    "完整阅读与语义拆解",
+    "手工原子化并保留问答、级别、条件、数量及完成状态",
+    "与当前293条reviewed命题及concept标准标签比较，增量不覆写旧ID",
+    "逐条逆向核验文字，并实际核看PDF84—104"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "passages_read": 167,
+  "passages_by_lesson": {
+    "lesson-019": 130,
+    "lesson-020": 37
+  },
+  "new_reviewed_candidate_count": 67,
+  "claim_counts_by_lesson": {
+    "l019": 52,
+    "l020": 15
+  },
+  "claim_counts_by_importance": {
+    "3": 30,
+    "4": 25,
+    "1": 1,
+    "2": 11
+  },
+  "all_new_claims_kind": "explicit",
+  "new_concepts": [
+    "指数期货",
+    "牛市阶段",
+    "资金管理"
+  ],
+  "technical_extraction_complete": false,
+  "visual_pages_checked": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "figures_visually_reviewed": 19,
+  "figure_original_source_identity_complete": false,
+  "pending": [
+    "upper-l019-l020-c-stage-pending-macd-parenthetical-origin",
+    "upper-l019-l020-c-stage-pending-wave-exercise-unanswered",
+    "upper-l019-l020-c-stage-pending-macd-expansion-figure-unlocated",
+    "upper-l019-l020-c-stage-pending-third-point-exercises-unanswered",
+    "upper-l019-l020-c-stage-pending-000803-date-and-figure",
+    "upper-l019-l020-c-stage-pending-lesson20-date-null",
+    "upper-l019-l020-c-stage-pending-formula-alternative-conditions",
+    "upper-l019-l020-c-stage-pending-all-figure-origins",
+    "全部19个图的作者原图身份仍unverified"
+  ],
+  "source_repairs_reverified": [
+    {
+      "report": "curation/source-audit/stage-c-upper86-applied.json",
+      "performed_by": "root",
+      "passage_ids": [
+        "volume_1-a53e99c37ca5-p0086-b003",
+        "volume_1-a53e99c37ca5-p0086-b004",
+        "volume_1-a53e99c37ca5-p0086-b005",
+        "volume_1-a53e99c37ca5-p0086-b006"
+      ],
+      "reverified": "已重新读取当前published_at，核看PDF86；新命题引文不含尾部下一时间头"
+    }
+  ],
+  "completed": [
+    "167个现有passages四轮审读与覆盖原因",
+    "作者正文、回复及解盘技术内容逐一比较；时间头修正后的4段重新读取并按历史语境收录",
+    "19个配图实际视觉核对，拒绝把后加文字、精确图注日期或9段图当作者原文明说",
+    "新ID查询无碰撞；旧命题未修改"
+  ],
+  "machine_outputs": [
+    "04-l019-l020-complete.reviewed.jsonl",
+    "04-l019-l020-complete.coverage.jsonl",
+    "04-l019-l020-complete.pending.jsonl",
+    "04-l019-l020-complete.figures.jsonl",
+    "04-l019-l020-complete.concepts.json",
+    "04-l019-l020-complete.summary.json",
+    "04-l019-l020-complete.check.json"
+  ],
+  "checks_run": [
+    "所有SQLite读取mode=ro",
+    "手工引文连续子串与Python Unicode码点偏移断言",
+    "167段覆盖完整性断言",
+    "19图日志完整性断言",
+    "import_curation.py --check：67条全部通过；semantic_entailment_proven=false、visual_interpretation_proven=false，写入为false"
+  ],
+  "checks_not_run": [
+    "正式导入",
+    "修改graph.sqlite、manifest、源文本或旧命题",
+    "原博客比对",
+    "桌面展示与检索回归"
+  ],
+  "acceptance": "部分通过：全文阅读、可定位的文字增量与图页核看已完成，PDF86时间修订已重新核验；补注/图源身份及若干案例图与年月仍待核。",
+  "next_resume_anchor": "volume_1-a53e99c37ca5-p0090-b002；本批pending括号注身份条目",
+  "next_action": "根代理审核67条新批与8项pending，决定统一发布；须以当前正式图谱再做一次预检。",
+  "readonly_preflight": {
+    "run_mode": "readonly",
+    "graph_version": "0.1.0-review-b0a2500b0bcd",
+    "records_checked": 67,
+    "batch_sha256": {
+      "chan-kg-agent\\curation\\upper\\04-l019-l020-complete.reviewed.jsonl": "27b7169ac170c7c6825a6e8c5c0584e989340394add207027e8ce9d259a48e37"
+    },
+    "machine_checks_pass": true,
+    "semantic_entailment_proven": false,
+    "visual_interpretation_proven": false,
+    "writes": false
+  }
+}

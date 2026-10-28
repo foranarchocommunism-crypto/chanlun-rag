@@ -1,0 +1,440 @@
+{
+  "m4-graph-development": {
+    "created_at": "2026-10-22T08:11:57.447Z",
+    "development_cases": 240,
+    "prospective_acceptance_run": false,
+    "scope": "Small declared graph-depth/weight grid on cached development rankings; unique source evidence metrics, no test tuning.",
+    "aggregates": {
+      "hybrid": {
+        "recall10": 0.8132142857142858,
+        "recall20": 0.8823611111111113,
+        "groups20": 0.8041666666666667,
+        "improved20": 0,
+        "regressed20": 0,
+        "changed_cases": []
+      },
+      "depth1_weight0.05": {
+        "recall10": 0.8137698412698414,
+        "recall20": 0.8823611111111113,
+        "groups20": 0.8041666666666667,
+        "improved20": 0,
+        "regressed20": 0,
+        "changed_cases": []
+      },
+      "depth1_weight0.1": {
+        "recall10": 0.8162003968253969,
+        "recall20": 0.8844444444444446,
+        "groups20": 0.8083333333333333,
+        "improved20": 1,
+        "regressed20": 0,
+        "changed_cases": [
+          {
+            "id": "g-b10-class-third",
+            "before": 0.5,
+            "after": 1
+          }
+        ]
+      },
+      "depth1_weight0.25": {
+        "recall10": 0.8101587301587301,
+        "recall20": 0.8870833333333336,
+        "groups20": 0.8041666666666667,
+        "improved20": 4,
+        "regressed20": 3,
+        "changed_cases": [
+          {
+            "id": "g-b10-class-third",
+            "before": 0.5,
+            "after": 1
+          },
+          {
+            "id": "g-b17-capacity-vs-quantity",
+            "before": 0,
+            "after": 0.8
+          },
+          {
+            "id": "g-b17-macd-zero-scope",
+            "before": 1,
+            "after": 0.5
+          },
+          {
+            "id": "g-b19-fund-stage-t1-tail",
+            "before": 1,
+            "after": 0.8333333333333334
+          },
+          {
+            "id": "g-b20-mechanical-title-alias",
+            "before": 0.5,
+            "after": 1
+          },
+          {
+            "id": "g-b23-position-relative-system",
+            "before": 1,
+            "after": 0.5
+          },
+          {
+            "id": "g-b24-short-program-order-and-specific-level",
+            "before": 0.5,
+            "after": 1
+          }
+        ]
+      },
+      "depth2_weight0.05": {
+        "recall10": 0.8137698412698414,
+        "recall20": 0.8823611111111113,
+        "groups20": 0.8041666666666667,
+        "improved20": 0,
+        "regressed20": 0,
+        "changed_cases": []
+      },
+      "depth2_weight0.1": {
+        "recall10": 0.8162003968253969,
+        "recall20": 0.8844444444444446,
+        "groups20": 0.8083333333333333,
+        "improved20": 1,
+        "regressed20": 0,
+        "changed_cases": [
+          {
+            "id": "g-b10-class-third",
+            "before": 0.5,
+            "after": 1
+          }
+        ]
+      },
+      "depth2_weight0.25": {
+        "recall10": 0.8101587301587301,
+        "recall20": 0.8870833333333336,
+        "groups20": 0.8041666666666667,
+        "improved20": 4,
+        "regressed20": 3,
+        "changed_cases": [
+          {
+            "id": "g-b10-class-third",
+            "before": 0.5,
+            "after": 1
+          },
+          {
+            "id": "g-b17-capacity-vs-quantity",
+            "before": 0,
+            "after": 0.8
+          },
+          {
+            "id": "g-b17-macd-zero-scope",
+            "before": 1,
+            "after": 0.5
+          },
+          {
+            "id": "g-b19-fund-stage-t1-tail",
+            "before": 1,
+            "after": 0.8333333333333334
+          },
+          {
+            "id": "g-b20-mechanical-title-alias",
+            "before": 0.5,
+            "after": 1
+          },
+          {
+            "id": "g-b23-position-relative-system",
+            "before": 1,
+            "after": 0.5
+          },
+          {
+            "id": "g-b24-short-program-order-and-specific-level",
+            "before": 0.5,
+            "after": 1
+          }
+        ]
+      }
+    }
+  },
+  "m3-hybrid-development": {
+    "created_at": "2026-10-22T08:10:41.288Z",
+    "graph_version": "0.1.0-review-307029129712",
+    "development_cases": 240,
+    "prospective_acceptance_run": false,
+    "canonical_unchanged": true,
+    "comparison": "Same source corpus, unique passage IDs, final K10/20 and at most 100 intermediate candidates. No packet/issue supplementation in these candidate ranking metrics.",
+    "model": {
+      "model_manifest_sha256": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+      "projection_sha256": "0686b13e61c145aff2b638bd29a2fed27a8d56efc6a2fd68061e656d8a66585e",
+      "dimensions": 512,
+      "dtype": "q8",
+      "pooling": "cls",
+      "normalize": true,
+      "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+      "input_normalization": "NFKC",
+      "text_rows": 23088,
+      "unique_vectors": 15520,
+      "unique_text_hash": "cf5534f4f2075097bdc152589f62ad45f954d6858cde7f9e7a477127f64881b6",
+      "repo": "Xenova/bge-small-zh-v1.5",
+      "revision": "75c43b069aac4d136ba6bc1122f995fedcfd2781",
+      "vectors_sha256": "9b98764fda2f6dbb9a61417291a171a2b18e53f8c73ce1a7368a5cf9ab9516a8",
+      "rows_sha256": "2a55299d410092160326e8a3ece9a5a7770f9816338c44885cb6fb915df1e5e7",
+      "byte_order": "little_endian",
+      "query_instruction_enabled": true
+    },
+    "aggregates": {
+      "lexical": {
+        "at10": {
+          "recall": 0.7200099206349208,
+          "ndcg_binary": 0.6446757904612437,
+          "all_annotated_evidence_found": 0.5875
+        },
+        "at20": {
+          "recall": 0.818888888888889,
+          "ndcg_binary": 0.678118458839855,
+          "all_annotated_evidence_found": 0.7208333333333333
+        }
+      },
+      "dense": {
+        "at10": {
+          "recall": 0.6675595238095241,
+          "ndcg_binary": 0.5976461918021175,
+          "all_annotated_evidence_found": 0.5291666666666667
+        },
+        "at20": {
+          "recall": 0.7394444444444448,
+          "ndcg_binary": 0.6213598456142562,
+          "all_annotated_evidence_found": 0.625
+        }
+      },
+      "hybrid_w0.1": {
+        "at10": {
+          "recall": 0.7779265873015874,
+          "ndcg_binary": 0.7157641426113753,
+          "all_annotated_evidence_found": 0.6583333333333333
+        },
+        "at20": {
+          "recall": 0.84125,
+          "ndcg_binary": 0.7360774689024456,
+          "all_annotated_evidence_found": 0.7458333333333333
+        }
+      },
+      "hybrid_w0.25": {
+        "at10": {
+          "recall": 0.8029265873015875,
+          "ndcg_binary": 0.7373332656086412,
+          "all_annotated_evidence_found": 0.6833333333333333
+        },
+        "at20": {
+          "recall": 0.8667361111111113,
+          "ndcg_binary": 0.7579248780204078,
+          "all_annotated_evidence_found": 0.7791666666666667
+        }
+      },
+      "hybrid_w0.5": {
+        "at10": {
+          "recall": 0.8132142857142858,
+          "ndcg_binary": 0.7426730673799989,
+          "all_annotated_evidence_found": 0.7041666666666667
+        },
+        "at20": {
+          "recall": 0.8823611111111113,
+          "ndcg_binary": 0.7666854654756649,
+          "all_annotated_evidence_found": 0.8041666666666667
+        }
+      },
+      "hybrid_w1": {
+        "at10": {
+          "recall": 0.8146825396825398,
+          "ndcg_binary": 0.7448757681503742,
+          "all_annotated_evidence_found": 0.7041666666666667
+        },
+        "at20": {
+          "recall": 0.8769444444444446,
+          "ndcg_binary": 0.7663073801765897,
+          "all_annotated_evidence_found": 0.8
+        }
+      },
+      "hybrid_w2": {
+        "at10": {
+          "recall": 0.809265873015873,
+          "ndcg_binary": 0.7416265024386317,
+          "all_annotated_evidence_found": 0.6916666666666667
+        },
+        "at20": {
+          "recall": 0.8455555555555557,
+          "ndcg_binary": 0.754165232329893,
+          "all_annotated_evidence_found": 0.7583333333333333
+        }
+      },
+      "hybrid_w1_graph": {
+        "at10": {
+          "recall": 0.7768353174603175,
+          "ndcg_binary": 0.729545747576003,
+          "all_annotated_evidence_found": 0.6541666666666667
+        },
+        "at20": {
+          "recall": 0.8490277777777778,
+          "ndcg_binary": 0.7537089152121815,
+          "all_annotated_evidence_found": 0.7625
+        }
+      }
+    }
+  },
+  "m4-rerank-development": {
+    "created_at": "2026-10-22T08:21:14.354Z",
+    "development_cases": 240,
+    "model_manifest_sha256": "bd44acbb2d09bf23065ac917feefd10565e8b300c1294e452615c957cfafe392",
+    "prospective_acceptance_run": false,
+    "elapsed_ms_rerank40": {
+      "p50": 2012.6361000000034,
+      "p95": 2844.6299
+    },
+    "peak_rss_bytes": 945881088,
+    "aggregates": {
+      "graph_no_rerank": {
+        "at10": {
+          "recall": 0.8162003968253969,
+          "ndcg_binary": 0.7359523136076884,
+          "all_annotated_evidence_found": 0.7125
+        },
+        "at20": {
+          "recall": 0.8844444444444446,
+          "ndcg_binary": 0.7590095241605833,
+          "all_annotated_evidence_found": 0.8083333333333333
+        }
+      },
+      "rerank20": {
+        "at10": {
+          "recall": 0.868263888888889,
+          "ndcg_binary": 0.8184057168275665,
+          "all_annotated_evidence_found": 0.7708333333333334
+        },
+        "at20": {
+          "recall": 0.9023611111111113,
+          "ndcg_binary": 0.8310957086425345,
+          "all_annotated_evidence_found": 0.8291666666666667
+        }
+      },
+      "rerank40": {
+        "at10": {
+          "recall": 0.8711111111111112,
+          "ndcg_binary": 0.8147038416373118,
+          "all_annotated_evidence_found": 0.775
+        },
+        "at20": {
+          "recall": 0.9214583333333335,
+          "ndcg_binary": 0.8326334595122965,
+          "all_annotated_evidence_found": 0.8625
+        }
+      }
+    }
+  },
+  "m4-production-development": {
+    "created_at": "2026-10-22T08:33:25.521Z",
+    "inputs": {
+      "database": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+      "profile": "95816ea5a8fc92aa6a0c0c57dc7aa626775a89b027b9e02c878da50de24e0bc8",
+      "source": {
+        "retrieval": "8ba688b072098edeeab1a257764166dfa2ae543dde39519f5b7ccd844b60012e",
+        "corpus": "6d9df0a42918a44b075de180cc624ca82958e05aad9a5174ed3a94081255a244",
+        "embedding": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+        "dense": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+        "lexical": "50bf2716a95675d215217bb08c1556298b7f716dee21e17b45a26bc71ecec7ce",
+        "graph-expansion": "a91dfc36dd2e564dc6bb924decf8da0005ebcaf0bb469541dfd1b1f13cbd4d11",
+        "definition-anchors": "1871f1ef6110370363c983fcdc15e7177fb4dffa72107dd2082e5f90b477594f",
+        "reranker": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9"
+      }
+    },
+    "graph_version": "0.1.0-review-307029129712",
+    "real_api_evaluated": true,
+    "development_cases": 240,
+    "prospective_acceptance_run": false,
+    "comparison": "Same real packet API, mode knowledge, limit20 and one-million-codepoint budget; unique passage IDs in claim rank order, sorted passage IDs inside each claim; metrics cut at K10/20. Whole issue groups beyond primary limit reported separately.",
+    "aggregates": {
+      "at10": {
+        "recall": 0.8711111111111112,
+        "ndcg_binary": 0.8147038416373118,
+        "all_annotated_evidence_found": 0.775
+      },
+      "at20": {
+        "recall": 0.9214583333333335,
+        "ndcg_binary": 0.8326334595122965,
+        "all_annotated_evidence_found": 0.8625
+      },
+      "lexical_at10": {
+        "recall": 0.7200099206349208,
+        "ndcg_binary": 0.6446757904612437,
+        "all_annotated_evidence_found": 0.5875
+      },
+      "lexical_at20": {
+        "recall": 0.818888888888889,
+        "ndcg_binary": 0.678118458839855,
+        "all_annotated_evidence_found": 0.7208333333333333
+      }
+    },
+    "elapsed_ms": {
+      "p50": 1423.6192000000156,
+      "p95": 2075.607799999998
+    },
+    "peak_rss_bytes": 1314553856,
+    "improved20": 39,
+    "regressed20": 1,
+    "integrity_errors": 0
+  },
+  "m6-prospective-acceptance": {
+    "created_at": "2026-10-23T02:42:54.678Z",
+    "frozen_profile_sha256": "fff766759d96c758d5b391e6e024ec9fe74665523aded4268ea52b288ecdba40",
+    "independently_heldout_source_split": true,
+    "independent_human_annotation": false,
+    "generated_answers_scored": false,
+    "aggregates": {
+      "actual": {
+        "at10": {
+          "recall": 1,
+          "ndcg_binary": 0.9554448565863914,
+          "all_annotated_evidence_found": 1
+        },
+        "at20": {
+          "recall": 1,
+          "ndcg_binary": 0.9554448565863914,
+          "all_annotated_evidence_found": 1
+        }
+      },
+      "lexical": {
+        "at10": {
+          "recall": 0.9583333333333334,
+          "ndcg_binary": 0.9039455099566315,
+          "all_annotated_evidence_found": 0.9583333333333334
+        },
+        "at20": {
+          "recall": 0.9583333333333334,
+          "ndcg_binary": 0.9039455099566315,
+          "all_annotated_evidence_found": 0.9583333333333334
+        }
+      }
+    },
+    "paired_difference_recall20": {
+      "mean": 0.041666666666666664,
+      "bootstrap_percentile95": [
+        0,
+        0.125
+      ],
+      "seed": 20261022,
+      "resamples": 5000,
+      "note": "Small source-disjoint model-annotated set; interval expresses sampling uncertainty, not independent human correctness."
+    },
+    "improved20": 1,
+    "regressed20": 0,
+    "integrity_errors": 0,
+    "resource_limits_frozen_before_test": {
+      "environment": "CPU i5-1038NG7 / Windows10 x64 / about16GiB",
+      "warm_query_p95_ms_max": 6000,
+      "cold_cli_ms_max": 12000,
+      "process_peak_rss_bytes_max": 2147483648,
+      "basis": "CPU development run 240 real API calls: warm p95 about2076ms and peakRSS about1.315GB; conservative limits frozen before held-out execution."
+    },
+    "resources": {
+      "warm_query_p50_ms": 1634.6484999999993,
+      "warm_query_p95_ms": 2280.286400000001,
+      "cold_cli_ms": 7059.3606,
+      "process_peak_rss_bytes": 995618816
+    },
+    "resource_passed": true,
+    "quality_comparison_passed": true,
+    "inputs_unchanged": true,
+    "independent_windows_verified": false,
+    "independent_windows_status": "deferred_by_user"
+  }
+}

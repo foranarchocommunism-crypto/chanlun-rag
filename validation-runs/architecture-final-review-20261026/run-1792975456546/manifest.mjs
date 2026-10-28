@@ -1,0 +1,1 @@
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const w=fs.writeFileSync;fs.writeFileSync=function(p,...a){if(String(p).endsWith('manifest.json')){w.call(this,p,'{"interrupted":');throw Error('AUDIT_PARTIAL_MANIFEST');}return w.call(this,p,...a);};syncBuiltinESMExports();

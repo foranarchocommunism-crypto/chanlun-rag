@@ -1,0 +1,18 @@
+[
+  {
+    "DisplayName": "QEMU",
+    "DisplayVersion": "11.1.0",
+    "PSChildName": "QEMU",
+    "InstallLocation": null,
+    "UninstallString": "\"C:\\Users\\13240\\.codex\\containers\\chan-kg\\qemu\\qemu-uninstall.exe\"",
+    "QuietUninstallString": null
+  },
+  {
+    "DisplayName": "Oracle VirtualBox 7.2.22",
+    "DisplayVersion": "7.2.22",
+    "PSChildName": "{4852102F-57E8-46C0-9424-3F0DBC5467E2}",
+    "InstallLocation": "",
+    "UninstallString": "MsiExec.exe /I{4852102F-57E8-46C0-9424-3F0DBC5467E2}",
+    "QuietUninstallString": null
+  }
+]

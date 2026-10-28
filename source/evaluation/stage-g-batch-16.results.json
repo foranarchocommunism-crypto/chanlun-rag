@@ -1,0 +1,383 @@
+{
+  "graph_version": "0.1.0-review-31363ab15fab",
+  "executable_cases": 12,
+  "final_target_cases": 240,
+  "gold_review_status": "model_reviewed_development",
+  "independent_test_set": false,
+  "human_gold_reviewed": false,
+  "retrieval_plan_contract_passed": 12,
+  "observations": [
+    {
+      "query_id": "g-b16-expert-deviation",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "初学者先严格守规则",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.265500000000003
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-theory-not-application",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者将识别与操作分别类比",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.903199999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不等于应用能力",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 16.04220000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-daily-forming-dates",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "一个日线级别中枢正在形成",
+              "limit": 20
+            }
+          },
+          "total": 344,
+          "truncated": true,
+          "elapsed_ms": 25.5317
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若向上30分钟类型为盘整",
+              "limit": 20
+            }
+          },
+          "total": 54,
+          "truncated": true,
+          "elapsed_ms": 22.975499999999997
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-grid-not-axis",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "以3600点为幅度基础",
+              "limit": 20
+            }
+          },
+          "total": 8,
+          "truncated": false,
+          "elapsed_ms": 19.281300000000016
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "5228第二压力",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 13.335300000000018
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-revision-not-silence",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "因期货相关重要分力改变",
+              "limit": 20
+            }
+          },
+          "total": 3,
+          "truncated": false,
+          "elapsed_ms": 10.733100000000007
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "作者又自述有些未再提",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.6618
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-return-not-stop-or-news",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "回拉后应将可能情况完全分类",
+              "limit": 20
+            }
+          },
+          "total": 63,
+          "truncated": true,
+          "elapsed_ms": 32.85989999999998
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "利好只是加强力度",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 12.518900000000002
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-numbered-361-exception",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "除非363起线段跌破361位置",
+              "limit": 20
+            }
+          },
+          "total": 162,
+          "truncated": true,
+          "elapsed_ms": 24.352600000000024
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-slightly-leading-vs-inverse",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "稍先于大盘而非完全逆势",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.787500000000023
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "新股作为另一选择",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.613200000000006
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-position-not-empty",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "不一定空仓",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 11.61590000000001
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-direction-not-uptrend",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "向上类型最坏可仅盘整",
+              "limit": 20
+            }
+          },
+          "total": 54,
+          "truncated": true,
+          "elapsed_ms": 25.034899999999993
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "若向上30分钟类型为盘整",
+              "limit": 20
+            }
+          },
+          "total": 54,
+          "truncated": true,
+          "elapsed_ms": 25.86009999999999
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-stock-method-not-chase",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "送股后的9元是估算",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 9.537099999999953
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "已经拉起后再买没意义",
+              "limit": 20
+            }
+          },
+          "total": 1,
+          "truncated": false,
+          "elapsed_ms": 10.9683
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    },
+    {
+      "query_id": "g-b16-red-not-confirmed",
+      "automatic_retrieval_contract_pass": true,
+      "missing": [],
+      "queries": [
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "仍需确认",
+              "limit": 20
+            }
+          },
+          "total": 112,
+          "truncated": true,
+          "elapsed_ms": 24.611199999999997
+        },
+        {
+          "request": {
+            "command": "search",
+            "args": {
+              "query": "当天未构成线段类上涨",
+              "limit": 20
+            }
+          },
+          "total": 198,
+          "truncated": true,
+          "elapsed_ms": 23.8039
+        }
+      ],
+      "generated_answer_scored": false,
+      "semantic_answer_faithfulness_automatically_proven": false
+    }
+  ],
+  "baselines": {
+    "source_keyword": "not_run_in_this_batch",
+    "vector": "not_implemented",
+    "structured": "query_plans_executed",
+    "hybrid": "not_run_in_this_batch"
+  },
+  "generated_answers_evaluated": false,
+  "limits": [
+    "不是240题完整验收。",
+    "只执行取证计划，不将命中等同回答忠实度。",
+    "开发题整理时建立，非独立留出集。"
+  ]
+}

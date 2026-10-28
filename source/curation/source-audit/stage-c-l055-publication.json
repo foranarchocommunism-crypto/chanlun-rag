@@ -1,0 +1,122 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-93e5d361db72",
+  "graph_version": "0.1.0-review-1faa97315b10",
+  "scope": "第55课107段，PDF412至422十一页3图；21时间空格/3后加图，买卖名义现金非同构、资金股性/完成次级与两解力度、技术允许回补/提本金非清仓、级别与09:47/9点48及0成本强语",
+  "new_claims": 39,
+  "new_evidence": 43,
+  "relation_supports_added": 15,
+  "reviewed_before": 3077,
+  "reviewed_after": 3116,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 304,
+    "claims": 5755,
+    "evidence": 6915,
+    "relations": 619,
+    "reviews": 3186
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l055.reviewed.jsonl": "e588efef94e1a5512fe94d9369552ea39e1635f3f8bd9acf5159dd6d0151c896"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261020T085540710934Z-curation-l055",
+  "reviewer": "Codex 主代理 / 阶段C上册55课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l055-c-stage-pending-timing-metaphor-nominal-cash-and-stock-character-not-science-proof",
+    "upper-l055-c-stage-pending-building-cost-ideal-and-retail-vs-scale-entry",
+    "upper-l055-c-stage-pending-A-center-B-complete-subtype-two-comparisons-minimum-returns",
+    "upper-l055-c-stage-pending-style-skill-technical-rebuy-principal-withdrawal-not-clearance",
+    "upper-l055-c-stage-pending-absolute-zero-cost-safety-second-sell-and-daily-third-execution",
+    "upper-l055-c-stage-pending-source-0947-vs-next-0948-three-later-figures-and-date-fields",
+    "upper-l055-c-stage-pending-historical-half-line-month-confirmation-vs-influence-and-gap-days",
+    "upper-l055-c-stage-pending-historical-policy-macro-portfolio-and-wave-script-claims"
+  ],
+  "source_structure_changes": "stage-c-l055-source-applied.json",
+  "checks_run": [
+    "39条Schema/引用/身份/映射/坐标预检，107段台账、PDF412至422十一页及3幅整图实际视觉核对，419原页长上阴保原字",
+    "原3077命题4233证据未改；2文907页9647段528图逐行仅21时间空格和3图来源备注授权变化，原字/几何/映射不动",
+    "33项Node工程测试全部通过，测试终止后运行全量引用检查",
+    "3116命题全量引用校验0错误",
+    "6组语义/来源/条件/作者对的短答指代与7组CLI/共享/桌面模块一致，5命题5图文关联3图逐项核且全后加，查询只读哈希不变",
+    "冻结240题执行239取证计划/240来源身份通过，重合前20召回仍失败，原题/核心排序未改",
+    "3116命题/304概念/619关系及Markdown/coverage同版本导出",
+    "6旧待核补来源仍开放，本批8待核；09:47/下课9点48原时点、长上阴原字和图1249/1429/5月8日起点差均保留"
+  ],
+  "checks_not_run": [
+    "冻结前20召回回归未修，完整G类别/自然查询基线/生成回答/消融对抗未完成",
+    "56至61共6课未完整语义审读；09:47/9点48、54公式/连接/短答与53/52原字、43混合夹注和全书跨课/图文尚待核",
+    "54编号短答完整跨页问题未自动全部纳入邻段context；当前条件/备注给联读源ID和原页，不宣称该接口限制已修",
+    "0成本/二卖不会错过/日线没问题和作者宏观/法律/自述未外证，固定两册不宣称原博客或当前金融法律核实",
+    "独立Agent打包真实执行及Windows离线/PDF缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "55课39命题43证据发布；3116引用/33工程/6边界/7模块和5图文关联检查通过，冻结240题239计划/240身份通过，1召回回归开放；完整语义及产品目标未完成。",
+  "next_action": "接续56课530印花税当日行情图解，实际PDF422页标题；完整审读突发事件二三卖、个股/指数与缺口最低级、完成段/未成中枢，核本课所有原页/整图并对照55三后加图范围及09:47/56 9点48，保真实执行和跨课边界。",
+  "updated_at": "2026-10-20T09:32:44.553989+00:00",
+  "exports": {
+    "claims": {
+      "rows": 3116,
+      "graph_version": "0.1.0-review-1faa97315b10",
+      "sha256": "7a6432fdcaa7ce02a184f112bca6188a493262b53f2e1047a88c570dbcfb16bf"
+    },
+    "concepts": {
+      "rows": 304,
+      "graph_version": "0.1.0-review-1faa97315b10",
+      "sha256": "9cd98ab06909b7723459fdfc18dc29920c6adbda025be036e920c8e9d496f918"
+    },
+    "relations": {
+      "rows": 619,
+      "graph_version": "0.1.0-review-1faa97315b10",
+      "sha256": "292c9d222a6b8893bb1393276d8c92cd595d966fe0c4a003f769d06d0cbd75f0"
+    }
+  },
+  "final_sha256": {
+    "database": "e14a52f951ee43cd2b7bbb87ec97f5ac3710f266f64214e59c62f4b038069b73",
+    "manifest": "56b4df441a259e3bab07ee33a36d02805512fd8b8a7c84020a2346a88e4330a8"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_passed_on_current_graph": 239,
+    "source_identity_passed_on_current_graph": 240,
+    "open_retrieval_regressions": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 29,
+            "truncated": true,
+            "elapsed_ms": 37.3446
+          }
+        ]
+      }
+    ],
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "固定题未改，全部身份通过；一条重合前20召回仍失败，分页找到不算原计划通过。"
+  },
+  "partial_pending_followups": 6,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

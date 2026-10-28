@@ -1,0 +1,9 @@
+file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-review-20261025/fixtures/corrupt-vector-manifest.mjs:1
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const write=fs.writeFileSync;fs.writeFileSync=function(path,...args){if(String(path).endsWith('manifest.json')){write.call(this,path,'{"interrupted":');throw new Error('AUDIT_INTERRUPTED_MANIFEST_OVERWRITE');}return write.call(this,path,...args);};syncBuiltinESMExports();
+                                                                                                                                                                                                                                         ^
+
+Error: AUDIT_INTERRUPTED_MANIFEST_OVERWRITE
+    at fs.writeFileSync (file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-review-20261025/fixtures/corrupt-vector-manifest.mjs:1:234)
+    at file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/scripts/build-vectors.mjs:68:3
+
+Node.js v24.15.0

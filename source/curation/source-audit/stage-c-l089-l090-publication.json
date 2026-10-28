@@ -1,0 +1,87 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-379f3424ef77",
+  "graph_version": "0.1.0-review-6116140b24d9",
+  "scope": "第89至90课276段，PDF250至277共28页与18图；11图后期，结构必经与BOLL辅助及构成/确立分别保留",
+  "new_claims": 66,
+  "new_evidence": 102,
+  "relation_supports_added": 11,
+  "reviewed_before": 1184,
+  "reviewed_after": 1250,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 198,
+    "claims": 3889,
+    "evidence": 4386,
+    "relations": 199,
+    "reviews": 1307
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l089_l090.reviewed.jsonl": "3bd4dd5f4eda3136b0f099eecd873b62e2a3039ba3a8cf13fa7a2d1a3217a35d"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T054958149063Z-curation-l089-l090",
+  "reviewer": "Codex 主代理 / 阶段C下册89至90课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l089-l090-c-stage-pending-boll-parameters-and-period-choice",
+    "lower-l089-l090-c-stage-pending-auxiliary-near-100",
+    "lower-l089-l090-c-stage-pending-extend-upgrade-wording",
+    "lower-l089-l090-c-stage-pending-red-market-shortcut",
+    "lower-l089-l090-c-stage-pending-figure-makers-and-late",
+    "lower-l089-l090-c-stage-pending-three-day-two-confirmations",
+    "lower-l089-l090-c-stage-pending-macro-law-stock-claims"
+  ],
+  "source_structure_changes": "stage-c-l089-l090-figure-applied.json",
+  "checks_run": [
+    "66条JSON Schema及引用/身份/映射/坐标预检",
+    "276段原文哈希及全段台账一致",
+    "原1184条已复核命题及其全部证据未改",
+    "两项别名经过独立来源记录：BOLL/布林通道、中阴身阶段/中阴阶段；所有命题证据段落关系未改",
+    "条件/例外检索漏项由失败用例复现并修复；原取证问法与目标ID未改",
+    "27项Node工程检查、1250条全量引用0错误、8组边界与8组CLI/共享/桌面vendor一致性通过",
+    "1250命题、198概念、199关系同版本导出；84/84开发取证计划及来源身份检查通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线对比未完成",
+    "Windows成品实际离线、PDF缩放旋转跨页及真实交互未验收",
+    "其余62课完整语义及全书图文核查未完成",
+    "BOLL近100%及作者账户成绩未独立验证；BOLL完整量化算法未给出"
+  ],
+  "acceptance": "66条增量已发布，7项待核与11张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第91课119段、实际PDF277至290，从p0277-b001开始；随后92课138段、93课91段，顺序审读及核图。",
+  "final_graph_version": "0.1.0-review-089fa1fbf63b",
+  "final_counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 198,
+    "claims": 3889,
+    "evidence": 4386,
+    "relations": 199,
+    "reviews": 1309
+  },
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-089fa1fbf63b",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1250,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 84,
+    "development_cases_total": 84,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false,
+    "original_failed_case_query_and_required_ids_preserved": true,
+    "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6"
+  }
+}

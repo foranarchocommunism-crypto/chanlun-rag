@@ -1,0 +1,4766 @@
+{
+  "created_at": "2026-10-25T10:38:37.361Z",
+  "fixture": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\real-model-1792924679527",
+  "synthetic": true,
+  "semantic_quality_claim": false,
+  "real_index_build": true,
+  "real_embedding_model": true,
+  "real_reranker": true,
+  "network_policy": "child index builders deny Node network APIs; current model classes enforce local_files_only",
+  "graph_only": true,
+  "lexical_answer_rank": 0,
+  "dense_answer_rank": 0,
+  "actual_reranker_input": [
+    "n007",
+    "n012",
+    "n016",
+    "n013",
+    "n017",
+    "n015",
+    "n011",
+    "n001",
+    "n000",
+    "n014",
+    "n002",
+    "n004",
+    "n010",
+    "n006",
+    "n009",
+    "n031",
+    "n022",
+    "n034",
+    "n026",
+    "n021",
+    "n003",
+    "n030",
+    "n036",
+    "n025",
+    "n029",
+    "n024",
+    "n005",
+    "n039",
+    "n043",
+    "n042",
+    "n008",
+    "n032",
+    "n054",
+    "n079",
+    "n033",
+    "n045",
+    "n035",
+    "n072",
+    "n038",
+    "n041",
+    "bridge",
+    "answer"
+  ],
+  "baseline_primary": [
+    "n014",
+    "n017",
+    "n043",
+    "n031",
+    "n011",
+    "n041",
+    "n021",
+    "n029",
+    "n010",
+    "n024",
+    "n033",
+    "n039",
+    "n042",
+    "n007",
+    "n022",
+    "n072",
+    "n016",
+    "n013",
+    "n003",
+    "n032"
+  ],
+  "graph_primary": [
+    "n014",
+    "n017",
+    "n043",
+    "n031",
+    "n011",
+    "n041",
+    "n021",
+    "n029",
+    "n010",
+    "n024",
+    "n033",
+    "n039",
+    "n042",
+    "n007",
+    "n022",
+    "n072",
+    "n016",
+    "n013",
+    "n003",
+    "n032"
+  ],
+  "complete_two_hop": false,
+  "fallback_primary_equal": true,
+  "fallback_reranker_calls": 1,
+  "fallback_max_score_difference": 0,
+  "graph": {
+    "contract_version": "1.0.0",
+    "request_id": "4a4f931f-719c-455c-bda8-f5bac1cb93c1",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.020182648401826486,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.7857073063458131
+              }
+            ],
+            "rerank_score": 7.086918830871582,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020885028949545078,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7934558009178898
+              }
+            ],
+            "rerank_score": 6.997128486633301,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.014717425431711145,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 38,
+                "score": 0.782136494018326
+              }
+            ],
+            "rerank_score": 6.83147668838501,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n031",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n031",
+              "claim_id": "n031",
+              "passage_id": "p-n031",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 34,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n031"
+            }
+          ],
+          "retrieval": {
+            "id": "n031",
+            "score": 0.017911818738518066,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7863774797571554
+              }
+            ],
+            "rerank_score": 6.813185691833496,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.020833333333333332,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 12,
+                "score": 0.7862696565761724
+              }
+            ],
+            "rerank_score": 6.771759510040283,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n041",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n041",
+              "claim_id": "n041",
+              "passage_id": "p-n041",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 44,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n041"
+            }
+          ],
+          "retrieval": {
+            "id": "n041",
+            "score": 0.013507625272331155,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 42,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 75,
+                "score": 0.7792317821390264
+              }
+            ],
+            "rerank_score": 6.731020450592041,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.015643397813288478,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7783443286063962
+              }
+            ],
+            "rerank_score": 6.7089409828186035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015277777777777779,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 30,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.7802939854824238
+              }
+            ],
+            "rerank_score": 6.695438385009766,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.01951928965094917,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 32,
+                "score": 0.7829975708500052
+              }
+            ],
+            "rerank_score": 6.683507919311523,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.015261209378856437,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.7784738442722262
+              }
+            ],
+            "rerank_score": 6.667994022369385,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01378295196039074,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 34,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.777346872036944
+              }
+            ],
+            "rerank_score": 6.577881336212158,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n039",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n039",
+              "claim_id": "n039",
+              "passage_id": "p-n039",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 42,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n039"
+            }
+          ],
+          "retrieval": {
+            "id": "n039",
+            "score": 0.014901960784313726,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 40,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.7814203036618761
+              }
+            ],
+            "rerank_score": 6.543455123901367,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n042",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n042",
+              "claim_id": "n042",
+              "passage_id": "p-n042",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 45,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n042"
+            }
+          ],
+          "retrieval": {
+            "id": "n042",
+            "score": 0.014563106796116504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 43,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 43,
+                "score": 0.7813828269342087
+              }
+            ],
+            "rerank_score": 6.536352157592773,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.022281639928698752,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.7894545861335619
+              }
+            ],
+            "rerank_score": 6.516334533691406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01643415768336504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 54,
+                "score": 0.7804440792217472
+              }
+            ],
+            "rerank_score": 6.4655609130859375,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n072",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n072",
+              "claim_id": "n072",
+              "passage_id": "p-n072",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 75,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n072"
+            }
+          ],
+          "retrieval": {
+            "id": "n072",
+            "score": 0.013768796992481203,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 73,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 20,
+                "score": 0.784155308497976
+              }
+            ],
+            "rerank_score": 6.450098037719727,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.021183734298488396,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7948106688549853
+              }
+            ],
+            "rerank_score": 6.432311534881592,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.020976200080677694,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.7892640721760594
+              }
+            ],
+            "rerank_score": 6.360329627990723,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.4877823853837166
+              }
+            ],
+            "rerank_score": 6.307338237762451,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.014375876577840114,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.7790017032647457
+              }
+            ],
+            "rerank_score": 6.211104393005371,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29694,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 663.1206999999995,
+      "queue_wait_ms": 0.00909999999566935,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 2.6129000000000815
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 10.650000000001455,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "promoted": [
+              {
+                "id": "bridge",
+                "origin": "graph_only"
+              },
+              {
+                "id": "answer",
+                "origin": "graph_only"
+              }
+            ],
+            "graph_only": 2,
+            "graph_rescued": 0,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "n007",
+              "n012",
+              "n016",
+              "n013",
+              "n017",
+              "n015",
+              "n011",
+              "n001",
+              "n000",
+              "n014",
+              "n002",
+              "n004",
+              "n010",
+              "n006",
+              "n009",
+              "n031",
+              "n022",
+              "n034",
+              "n026",
+              "n021",
+              "n003",
+              "n030",
+              "n036",
+              "n025",
+              "n029",
+              "n024",
+              "n005",
+              "n039",
+              "n043",
+              "n042",
+              "n008",
+              "n032",
+              "n054",
+              "n079",
+              "n033",
+              "n045",
+              "n035",
+              "n072",
+              "n038",
+              "n041",
+              "bridge",
+              "answer"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": []
+          },
+          "elapsed_ms": 5.341400000004796
+        },
+        "rerank": {
+          "candidates": 42,
+          "calls": 1,
+          "input_ids": [
+            "n007",
+            "n012",
+            "n016",
+            "n013",
+            "n017",
+            "n015",
+            "n011",
+            "n001",
+            "n000",
+            "n014",
+            "n002",
+            "n004",
+            "n010",
+            "n006",
+            "n009",
+            "n031",
+            "n022",
+            "n034",
+            "n026",
+            "n021",
+            "n003",
+            "n030",
+            "n036",
+            "n025",
+            "n029",
+            "n024",
+            "n005",
+            "n039",
+            "n043",
+            "n042",
+            "n008",
+            "n032",
+            "n054",
+            "n079",
+            "n033",
+            "n045",
+            "n035",
+            "n072",
+            "n038",
+            "n041",
+            "bridge",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 629.4891000000061
+        }
+      },
+      "primary_result_ids": [
+        "n014",
+        "n017",
+        "n043",
+        "n031",
+        "n011",
+        "n041",
+        "n021",
+        "n029",
+        "n010",
+        "n024",
+        "n033",
+        "n039",
+        "n042",
+        "n007",
+        "n022",
+        "n072",
+        "n016",
+        "n013",
+        "n003",
+        "n032"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 663.1297999999952
+    }
+  },
+  "baseline": {
+    "contract_version": "1.0.0",
+    "request_id": "6a2277b3-b7b1-4d61-b9d9-d686f0e16f79",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.020182648401826486,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.7857073063458131
+              }
+            ],
+            "rerank_score": 7.086918830871582,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020885028949545078,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7934558009178898
+              }
+            ],
+            "rerank_score": 6.997128486633301,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.014717425431711145,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 38,
+                "score": 0.782136494018326
+              }
+            ],
+            "rerank_score": 6.83147668838501,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n031",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n031",
+              "claim_id": "n031",
+              "passage_id": "p-n031",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 34,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n031"
+            }
+          ],
+          "retrieval": {
+            "id": "n031",
+            "score": 0.017911818738518066,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7863774797571554
+              }
+            ],
+            "rerank_score": 6.813185691833496,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.020833333333333332,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 12,
+                "score": 0.7862696565761724
+              }
+            ],
+            "rerank_score": 6.771759510040283,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n041",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n041",
+              "claim_id": "n041",
+              "passage_id": "p-n041",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 44,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n041"
+            }
+          ],
+          "retrieval": {
+            "id": "n041",
+            "score": 0.013507625272331155,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 42,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 75,
+                "score": 0.7792317821390264
+              }
+            ],
+            "rerank_score": 6.731020450592041,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.015643397813288478,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7783443286063962
+              }
+            ],
+            "rerank_score": 6.7089409828186035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015277777777777779,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 30,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.7802939854824238
+              }
+            ],
+            "rerank_score": 6.695438385009766,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.01951928965094917,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 32,
+                "score": 0.7829975708500052
+              }
+            ],
+            "rerank_score": 6.683507919311523,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.015261209378856437,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.7784738442722262
+              }
+            ],
+            "rerank_score": 6.667994022369385,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01378295196039074,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 34,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.777346872036944
+              }
+            ],
+            "rerank_score": 6.577881336212158,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n039",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n039",
+              "claim_id": "n039",
+              "passage_id": "p-n039",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 42,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n039"
+            }
+          ],
+          "retrieval": {
+            "id": "n039",
+            "score": 0.014901960784313726,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 40,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.7814203036618761
+              }
+            ],
+            "rerank_score": 6.543455123901367,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n042",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n042",
+              "claim_id": "n042",
+              "passage_id": "p-n042",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 45,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n042"
+            }
+          ],
+          "retrieval": {
+            "id": "n042",
+            "score": 0.014563106796116504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 43,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 43,
+                "score": 0.7813828269342087
+              }
+            ],
+            "rerank_score": 6.536352157592773,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.022281639928698752,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.7894545861335619
+              }
+            ],
+            "rerank_score": 6.516334533691406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01643415768336504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 54,
+                "score": 0.7804440792217472
+              }
+            ],
+            "rerank_score": 6.4655609130859375,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n072",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n072",
+              "claim_id": "n072",
+              "passage_id": "p-n072",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 75,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n072"
+            }
+          ],
+          "retrieval": {
+            "id": "n072",
+            "score": 0.013768796992481203,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 73,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 20,
+                "score": 0.784155308497976
+              }
+            ],
+            "rerank_score": 6.450098037719727,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.021183734298488396,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7948106688549853
+              }
+            ],
+            "rerank_score": 6.432311534881592,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.020976200080677694,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.7892640721760594
+              }
+            ],
+            "rerank_score": 6.360329627990723,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.4877823853837166
+              }
+            ],
+            "rerank_score": 6.307338237762451,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.014375876577840114,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.7790017032647457
+              }
+            ],
+            "rerank_score": 6.211104393005371,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29694,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 2100.296699999999,
+      "queue_wait_ms": 0.4922000000005937,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 2.2010000000009313
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 7.158400000000256,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "skipped",
+          "reason": "graph_disabled",
+          "committed_paths": 0,
+          "elapsed_ms": 0.40570000000298023
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "n007",
+            "n012",
+            "n016",
+            "n013",
+            "n017",
+            "n015",
+            "n011",
+            "n001",
+            "n000",
+            "n014",
+            "n002",
+            "n004",
+            "n010",
+            "n006",
+            "n009",
+            "n031",
+            "n022",
+            "n034",
+            "n026",
+            "n021",
+            "n003",
+            "n030",
+            "n036",
+            "n025",
+            "n029",
+            "n024",
+            "n005",
+            "n039",
+            "n043",
+            "n042",
+            "n008",
+            "n032",
+            "n054",
+            "n079",
+            "n033",
+            "n045",
+            "n035",
+            "n072",
+            "n038",
+            "n041"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 2056.3975999999966
+        }
+      },
+      "primary_result_ids": [
+        "n014",
+        "n017",
+        "n043",
+        "n031",
+        "n011",
+        "n041",
+        "n021",
+        "n029",
+        "n010",
+        "n024",
+        "n033",
+        "n039",
+        "n042",
+        "n007",
+        "n022",
+        "n072",
+        "n016",
+        "n013",
+        "n003",
+        "n032"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 2100.7888999999996
+    }
+  },
+  "fallback": {
+    "contract_version": "1.0.0",
+    "request_id": "9cdcacae-e042-4704-9558-ecde922ab1a0",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n014。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.020182648401826486,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.7857073063458131
+              }
+            ],
+            "rerank_score": 7.086918830871582,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n017。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020885028949545078,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 2,
+                "score": 0.7934558009178898
+              }
+            ],
+            "rerank_score": 6.997128486633301,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n043。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.014717425431711145,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 38,
+                "score": 0.782136494018326
+              }
+            ],
+            "rerank_score": 6.83147668838501,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n031",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n031",
+              "claim_id": "n031",
+              "passage_id": "p-n031",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n031。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 34,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n031"
+            }
+          ],
+          "retrieval": {
+            "id": "n031",
+            "score": 0.017911818738518066,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 32,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 11,
+                "score": 0.7863774797571554
+              }
+            ],
+            "rerank_score": 6.813185691833496,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n011。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.020833333333333332,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 12,
+                "score": 0.7862696565761724
+              }
+            ],
+            "rerank_score": 6.771759510040283,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n041",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n041",
+              "claim_id": "n041",
+              "passage_id": "p-n041",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n041。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 44,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n041"
+            }
+          ],
+          "retrieval": {
+            "id": "n041",
+            "score": 0.013507625272331155,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 42,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 75,
+                "score": 0.7792317821390264
+              }
+            ],
+            "rerank_score": 6.731020450592041,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n021。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.015643397813288478,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.7783443286063962
+              }
+            ],
+            "rerank_score": 6.7089409828186035,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n029。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015277777777777779,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 30,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.7802939854824238
+              }
+            ],
+            "rerank_score": 6.695438385009766,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n010。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.01951928965094917,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 32,
+                "score": 0.7829975708500052
+              }
+            ],
+            "rerank_score": 6.683507919311523,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n024。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.015261209378856437,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.7784738442722262
+              }
+            ],
+            "rerank_score": 6.667994022369385,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n033。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01378295196039074,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 34,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 99,
+                "score": 0.777346872036944
+              }
+            ],
+            "rerank_score": 6.577881336212158,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n039",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n039",
+              "claim_id": "n039",
+              "passage_id": "p-n039",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n039。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 42,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n039"
+            }
+          ],
+          "retrieval": {
+            "id": "n039",
+            "score": 0.014901960784313726,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 40,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.7814203036618761
+              }
+            ],
+            "rerank_score": 6.543455123901367,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n042",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n042",
+              "claim_id": "n042",
+              "passage_id": "p-n042",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n042。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 45,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n042"
+            }
+          ],
+          "retrieval": {
+            "id": "n042",
+            "score": 0.014563106796116504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 43,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 43,
+                "score": 0.7813828269342087
+              }
+            ],
+            "rerank_score": 6.536352157592773,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n007。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.022281639928698752,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.7894545861335619
+              }
+            ],
+            "rerank_score": 6.516334533691406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n022。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01643415768336504,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 23,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 54,
+                "score": 0.7804440792217472
+              }
+            ],
+            "rerank_score": 6.4655609130859375,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n072",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n072",
+              "claim_id": "n072",
+              "passage_id": "p-n072",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n072。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 75,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n072"
+            }
+          ],
+          "retrieval": {
+            "id": "n072",
+            "score": 0.013768796992481203,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 73,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 20,
+                "score": 0.784155308497976
+              }
+            ],
+            "rerank_score": 6.450098037719727,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n016。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.021183734298488396,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7948106688549853
+              }
+            ],
+            "rerank_score": 6.432311534881592,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n013。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.020976200080677694,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.7892640721760594
+              }
+            ],
+            "rerank_score": 6.360329627990723,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n003。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.4877823853837166
+              }
+            ],
+            "rerank_score": 6.307338237762451,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n032",
+          "text": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n032",
+              "claim_id": "n032",
+              "passage_id": "p-n032",
+              "quote": "起点甲的最终校验口令是什么？待回答问题编号n032。本条只有提问，没有答案。",
+              "quote_start": 0,
+              "quote_end": 38,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 35,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n032"
+            }
+          ],
+          "retrieval": {
+            "id": "n032",
+            "score": 0.014375876577840114,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 33,
+                "score": 0.4877823853837166
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.7790017032647457
+              }
+            ],
+            "rerank_score": 6.211104393005371,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29694,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 633.0845999999947,
+      "queue_wait_ms": 0.009400000002642628,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 0.9719000000040978
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 5.907200000001467,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "promoted": [
+              {
+                "id": "bridge",
+                "origin": "graph_only"
+              },
+              {
+                "id": "answer",
+                "origin": "graph_only"
+              }
+            ],
+            "graph_only": 2,
+            "graph_rescued": 0,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "n007",
+              "n012",
+              "n016",
+              "n013",
+              "n017",
+              "n015",
+              "n011",
+              "n001",
+              "n000",
+              "n014",
+              "n002",
+              "n004",
+              "n010",
+              "n006",
+              "n009",
+              "n031",
+              "n022",
+              "n034",
+              "n026",
+              "n021",
+              "n003",
+              "n030",
+              "n036",
+              "n025",
+              "n029",
+              "n024",
+              "n005",
+              "n039",
+              "n043",
+              "n042",
+              "n008",
+              "n032",
+              "n054",
+              "n079",
+              "n033",
+              "n045",
+              "n035",
+              "n072",
+              "n038",
+              "n041",
+              "bridge",
+              "answer"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": []
+          },
+          "elapsed_ms": 0.7256000000052154
+        },
+        "rerank": {
+          "candidates": 42,
+          "calls": 1,
+          "input_ids": [
+            "n007",
+            "n012",
+            "n016",
+            "n013",
+            "n017",
+            "n015",
+            "n011",
+            "n001",
+            "n000",
+            "n014",
+            "n002",
+            "n004",
+            "n010",
+            "n006",
+            "n009",
+            "n031",
+            "n022",
+            "n034",
+            "n026",
+            "n021",
+            "n003",
+            "n030",
+            "n036",
+            "n025",
+            "n029",
+            "n024",
+            "n005",
+            "n039",
+            "n043",
+            "n042",
+            "n008",
+            "n032",
+            "n054",
+            "n079",
+            "n033",
+            "n045",
+            "n035",
+            "n072",
+            "n038",
+            "n041",
+            "bridge",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 610.9544000000024
+        }
+      },
+      "primary_result_ids": [
+        "n014",
+        "n017",
+        "n043",
+        "n031",
+        "n011",
+        "n041",
+        "n021",
+        "n029",
+        "n010",
+        "n024",
+        "n033",
+        "n039",
+        "n042",
+        "n007",
+        "n022",
+        "n072",
+        "n016",
+        "n013",
+        "n003",
+        "n032"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 633.0939999999973
+    }
+  },
+  "fixture_db_sha256": "0cc9e393205546d13d0816da818033e2e952b558fe3073fde2cbfcb1a8d4e3b1",
+  "passed": false
+}

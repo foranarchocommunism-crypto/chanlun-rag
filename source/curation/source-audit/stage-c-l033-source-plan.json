@@ -1,0 +1,262 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-68e03935d1ac",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0247-b002",
+      "before": {
+        "published_at": "2007-03-02 15:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 11:56:42"
+      },
+      "reason": "实际PDF247：前段末3/5 11:56:42为新解盘时间，支配提前发帖/1017背驰及其后两段；前段999/343自述仍3/2。",
+      "text_sha256": "12d8eb5d60da21138a340809fef59e3823891d45cc1a833fda2e1562b5b31f00",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0247-b003",
+      "before": {
+        "published_at": "2007-03-02 15:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 11:56:42"
+      },
+      "reason": "实际PDF247：前段末3/5 11:56:42为新解盘时间，支配提前发帖/1017背驰及其后两段；前段999/343自述仍3/2。",
+      "text_sha256": "c772987ae6a5820f5459869a28cec2e3664c0dfb4ea786daf652e266ad8669c1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0247-b004",
+      "before": {
+        "published_at": "2007-03-02 15:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 11:56:42"
+      },
+      "reason": "实际PDF247：前段末3/5 11:56:42为新解盘时间，支配提前发帖/1017背驰及其后两段；前段999/343自述仍3/2。",
+      "text_sha256": "9eab32f5abe84d4d595a5d8b103e782d0f1f3c8736a5f1e5cd7a08b256fab5a4",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0247-b005",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 21:14:20"
+      },
+      "reason": "实际PDF247/248：独立3/5 21:14:20头与随后刚回来、130点/30%降本、盘整技能及三卖破位段同属夜间补评，末3/6头不回改本段。",
+      "text_sha256": "d82bcd2fe5ec7e69cea814dcc1eb8a850da91d5155a174868626f3813d566980",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0247-b006",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 21:14:20"
+      },
+      "reason": "实际PDF247/248：独立3/5 21:14:20头与随后刚回来、130点/30%降本、盘整技能及三卖破位段同属夜间补评，末3/6头不回改本段。",
+      "text_sha256": "57c31f3ff12f308a89e839c39ff62cff89d94c26f7a02c48d4359dd2aae1400f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0248-b000",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 21:14:20"
+      },
+      "reason": "实际PDF247/248：独立3/5 21:14:20头与随后刚回来、130点/30%降本、盘整技能及三卖破位段同属夜间补评，末3/6头不回改本段。",
+      "text_sha256": "2570060e07f2fa1fba3864cbf7006e41d30626eb0d7ff29f8b24afec7a35b5bd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0248-b001",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 21:14:20"
+      },
+      "reason": "实际PDF247/248：独立3/5 21:14:20头与随后刚回来、130点/30%降本、盘整技能及三卖破位段同属夜间补评，末3/6头不回改本段。",
+      "text_sha256": "8d9057bd3ef0cf73f74099d217d809cdf43bff417cdef8085de2232710c30a1e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0248-b002",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-05 21:14:20"
+      },
+      "reason": "实际PDF247/248：独立3/5 21:14:20头与随后刚回来、130点/30%降本、盘整技能及三卖破位段同属夜间补评，末3/6头不回改本段。",
+      "text_sha256": "1abd088397c84b3695158d3e21acde074281a1543e4960d8879075ba36e80e26",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0248-b003",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-06 15:22:36"
+      },
+      "reason": "实际PDF248/249：3/6 15:22:36新头管次日压力/15分120及个股轮动，不能继承3/2或3/5日期；3/2作者问答仍按各自署名时间。",
+      "text_sha256": "5ac542a01ce500b21045420dde168b01d7af84124999bd9e2eaefb2222e03897",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0249-b000",
+      "before": {
+        "published_at": "2007-03-0215:21:15"
+      },
+      "after": {
+        "published_at": "2007-03-06 15:22:36"
+      },
+      "reason": "实际PDF248/249：3/6 15:22:36新头管次日压力/15分120及个股轮动，不能继承3/2或3/5日期；3/2作者问答仍按各自署名时间。",
+      "text_sha256": "39b9e0f8ff99ddb82362311a521783f6b0a6eaa9a3c0bf392e545e31da380939",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0245-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际整图上证1分光标3/1，右端亦3/1，嵌3/2课程对2/28 c及2915的解释；没有晚于课程行情，原发制作者未核。A标13:37、正文13:37与此前13:38不静合，图周期不补15分严格级别。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0247-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图1分光标3/7，主图到3/7，嵌3/5午/夜两个解盘；晚于3/5，1017点与2888—2858连线保留当时例，后上行不证明所有盘整可降本30%。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0248-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图5分主图右端至3/7，嵌3/6 15:22解盘；晚于该文，5分中枢框/突破连线不替原文三波、级别修复与次日不回区间条件。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0249-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图15分光标2007/03/09，右端3/9，晚于3/6；120均线/2888.90/2915.70/2858.37为图上参照，不能以15分图直接认走势类型15分或校改原文数字。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0252-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图5分光标3/8，右端亦3/8，嵌3/6新年好问题及16:07作者答；晚于答复，初上零轴非本级背驰与小级别信号区别按文字，柱高不替完整结构。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0253-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图日线光标3/6，右端已至4月且高点3532.86，嵌3/5与3/6两答；明显文后，紫框周中枢不能把原条件“若盘至4月/也可直接上破”改成当时已成。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0254-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际整图600598五分光标3/6，右端3/7，嵌3/6读者柱/面积/黄白线问题和作者16:39答；晚于答复，作者未直接认证全部读者9.24点背驰，只给指标相对重要性及多级配套范围。"
+      },
+      "reason": "实际核对12页与7完整图，比较光标、右端和嵌文日期，来源未核与后配未来行情分开。"
+    }
+  ],
+  "visual_pages": [
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254
+  ],
+  "pending": [
+    "延伸新增6加初始3共9的口径与32粗说分别保留；3/6作者仍列仅日线延伸直接突破的可能，后配4月图不改变当时条件。"
+  ],
+  "reviewer": "Codex 主代理 / 第33课跨日解盘与原图来源复核"
+}

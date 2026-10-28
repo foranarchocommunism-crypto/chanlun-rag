@@ -1,0 +1,94 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-2ba521070153",
+  "graph_version": "0.1.0-review-b30e6980504f",
+  "scope": "第105课181段，PDF382至401共20页11本课图+1邻课边界；48段身份日期及11图来源修正，机械化/半仓/主动买套、理论/经验/预测范围分开",
+  "new_claims": 66,
+  "new_evidence": 98,
+  "relation_supports_added": 6,
+  "reviewed_before": 1628,
+  "reviewed_after": 1694,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 210,
+    "claims": 4333,
+    "evidence": 5118,
+    "relations": 242,
+    "reviews": 1754
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l105.reviewed.jsonl": "025f1a51ead269ebdf7b1d81eecaefaf778f823c1a4cefa0242b94a5c8c3dd90"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T104149280063Z-curation-l105",
+  "reviewer": "Codex 主代理 / 阶段C下册105课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l105-c-stage-pending-mechanical-classification-and-unknown-flowcharts",
+    "lower-l105-c-stage-pending-half-position-vs-active-accumulation-execution",
+    "lower-l105-c-stage-pending-fractal-stroke-reference-and-completed-extension",
+    "lower-l105-c-stage-pending-theory-2990-vs-empirical-3700-confidence",
+    "lower-l105-c-stage-pending-multiple-gap-objects-and-price-rounding",
+    "lower-l105-c-stage-pending-active-accumulation-filter-examples-and-historical-claims",
+    "lower-l105-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l105-source-applied.json",
+  "checks_run": [
+    "66条JSON Schema及引用/身份/映射/坐标预检",
+    "181段原文哈希及全段台账一致",
+    "原1628条已复核命题及其全部证据未改",
+    "48段源身份/日期修正及9647段528图逐行备份比对通过，原文本/坐标/未授权字段和原1628命题2381证据均未改",
+    "机械操作标题别名补全；只增加1个已核名称映射，所有命题/证据/源层/关系未改",
+    "27项Node工程通过；1694条全量引用0错误",
+    "8组边界及8组CLI/公共查询/桌面vendor一致性通过，查询数据库清单只读",
+    "1694命题/210概念/242关系全部同版本导出",
+    "180/180开发取证计划及来源身份通过，旧题及证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及基线评分未完成",
+    "其余47课完整语义及跨课/图文审查未完成",
+    "Windows成品真实离线与缩放/旋转/跨页高亮未验收"
+  ],
+  "acceptance": "66条增量已发布，7项待核与九后加/两未核流程图分别保留；全书和Windows交付未完成",
+  "next_action": "继续第106课125段与实际PDF401至416原页图核查",
+  "final_graph_version": "0.1.0-review-85e5816782c5",
+  "final_counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 210,
+    "claims": 4333,
+    "evidence": 5118,
+    "relations": 242,
+    "reviews": 1755
+  },
+  "post_import_alias_review": "stage-d-l105-mechanical-alias.json",
+  "export_checks": [
+    {
+      "name": "claims",
+      "count": 1694,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "concepts",
+      "count": 210,
+      "all_rows_current_version": true
+    },
+    {
+      "name": "relations",
+      "count": 242,
+      "all_rows_current_version": true
+    }
+  ],
+  "source_reader_misclassifications_corrected": 18,
+  "final_database_sha256": "53cc342b3917cca21a121082387ee590a6a3d49e11a89732a8647a658f7972e8",
+  "final_manifest_sha256": "1479ef6d9b08d5b097618ffaa6c5bc96bb72c5f69195f26cf71f3cfebd5a196f"
+}

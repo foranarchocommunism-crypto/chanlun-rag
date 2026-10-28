@@ -1,0 +1,28 @@
+﻿{
+    "passed":  true,
+    "started_at":  "2026-10-23T05:11:20.8061212-07:00",
+    "archive":  "C:\\validation\\universal-0.3.0\\agent.zip",
+    "tests":  [
+                  "standard_user_no_global_runtimes_and_disconnected_guest_network",
+                  "actual_zip_extraction_to_unicode_space_path",
+                  "portable_doctor_full_real_model_query",
+                  "all_checksums_offline_models_CLI_JS_MCP_and_app_local_native_DLLs"
+              ],
+    "environment":  {
+                        "hostname":  "CHAN-KG-CLEAN-W",
+                        "os":  "Microsoft Windows Server 2022 Standard Evaluation",
+                        "version":  "10.0.20348",
+                        "build":  "20348",
+                        "architecture":  "AMD64",
+                        "administrator":  false,
+                        "node_on_PATH":  false,
+                        "python_on_PATH":  false,
+                        "active_network_adapters":  [
+
+                                                    ]
+                    },
+    "zip_sha256":  "1d827fbfc168b16ef8de99ac689df2f8b737f3b7e9237eed4737a7e897ece4af",
+    "extracted_directory":  "C:\\validation\\universal-0.3.0\\work\\移位验收 空格路径\\chan-kg-agent-0.3.0-307029129712",
+    "verification_report_sha256":  "93049eb003a17a7462420a2b4164e3167f30ba39a8faf8726ce554d60ab371e1",
+    "finished_at":  "2026-10-23T05:16:51.2866584-07:00"
+}

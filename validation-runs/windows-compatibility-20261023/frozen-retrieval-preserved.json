@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-23T12:31:52.667932+00:00",
+  "retrieval_core_and_models_unchanged": true,
+  "canonical_inputs_unchanged": true,
+  "heldout_retest_or_retuning": false,
+  "transport_metadata_change": [
+    {
+      "path": "bin/chan-kg-mcp.mjs",
+      "frozen_sha256": "1bd20a9c72920c46ea87655e00ff2ff4c28f909791a8475f32f9e97902badeab",
+      "current_sha256": "203d606df620ef0e0430aac69eb1d4b9d9f7a49207b206747b1142c24d68b51b"
+    }
+  ],
+  "change_reason": "MCP server identity now reads package.json version; retrieval service, instructions, tool definitions and schemas unchanged",
+  "portability_changes": "Native x64/ARM64 packaging, launchers, doctor, full checksum and SDK protocol verification; retrieval ranking/models/profile/canonical data remain frozen"
+}

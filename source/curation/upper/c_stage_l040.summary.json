@@ -1,0 +1,60 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-f1e28c5829e8",
+  "lessons": [
+    40
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册40课同模型四轮复核",
+  "passages_read": 125,
+  "claims": 34,
+  "evidence": 39,
+  "importance_counts": {
+    "1": 18,
+    "2": 4,
+    "4": 3,
+    "3": 9
+  },
+  "new_concepts": [
+    "多重赋格操作",
+    "时间之窗"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301
+  ],
+  "figure_objects_viewed": 7,
+  "figure_origin_counts": {
+    "unverified": 4,
+    "later_annotation": 3
+  },
+  "pending": [
+    "upper-l040-c-stage-pending-upgrade-multilayer-decomposition-and-allocation",
+    "upper-l040-c-stage-pending-indicator-area-alternatives-and-subminute-scope",
+    "upper-l040-c-stage-pending-standard-divergence-and-generalization-reader-conflict",
+    "upper-l040-c-stage-pending-time-window-day-count-and-confirmation-history",
+    "upper-l040-c-stage-pending-underwater-buy-point-zero-cost-and-rhythm-safety-tensions",
+    "upper-l040-c-stage-pending-historical-fund-market-parties-and-self-report-context",
+    "upper-l040-c-stage-pending-rhythm-price-stock-vs-long-term-fundamentals",
+    "upper-l040-c-stage-pending-commentary-dates-and-figure-provenance"
+  ],
+  "source_passages_snapshot_sha256": "9a314fcecb5d53ca877e23f0a70277886945357e5552214800545b7938b822d9",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "40课125段11页7图及前后课边界同模型四轮；11跨时段来源日期修正，多层换档、MACD/均线辅助、标准与推广、被套/零成本强词和非技术附文分开，待预检。"
+}

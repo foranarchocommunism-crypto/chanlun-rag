@@ -1,0 +1,34 @@
+{
+  "profile_version": "1.0.0",
+  "status": "release_candidate_frozen_before_prospective_acceptance",
+  "default_profile": "hybrid-graph-rerank",
+  "fusion": {
+    "lexical_weight": 1,
+    "dense_weight": 0.5,
+    "graph_weight": 0.1,
+    "rrf_constant": 60
+  },
+  "graph": {
+    "default_depth": 1,
+    "supported_path_budget": 20,
+    "semantics": "supported_association_only"
+  },
+  "reranker": {
+    "default_enabled": true,
+    "default_budget": 40,
+    "experimental_budgets": [
+      20,
+      40
+    ]
+  },
+  "selection_basis": "240-case development: dense weight 0.5 and graph weight 0.1; graph improves one complete evidence group without Recall@20 regressions. Rerank40 improves Recall@20 from 88.44% to 92.15% and complete groups from 80.83% to 86.25%; measured rerank40 p95 is 2.845s on the CPU baseline.",
+  "prospective_acceptance_exposed": false,
+  "frozen_at": "2026-10-23T02:38:17.019Z",
+  "resources": {
+    "environment": "CPU i5-1038NG7 / Windows10 x64 / about16GiB",
+    "warm_query_p95_ms_max": 6000,
+    "cold_cli_ms_max": 12000,
+    "process_peak_rss_bytes_max": 2147483648,
+    "basis": "CPU development run 240 real API calls: warm p95 about2076ms and peakRSS about1.315GB; conservative limits frozen before held-out execution."
+  }
+}

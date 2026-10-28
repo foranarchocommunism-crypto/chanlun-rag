@@ -1,0 +1,6254 @@
+{
+  "created_at": "2026-10-22T08:01:10.617Z",
+  "graph_version": "0.1.0-review-307029129712",
+  "cases": 240,
+  "exact_baseline_rank_score_matches": 240,
+  "canonical_unchanged": true,
+  "recall_at10": 0.7200099206349208,
+  "recall_at20": 0.818888888888889,
+  "complete_group_at20": 0.7208333333333333,
+  "prospective_acceptance_run": false,
+  "scope": "Production candidate scoring against frozen strong structured lexical baseline; packaging and generated answers not scored",
+  "observed": [
+    {
+      "id": "g-b05-coincidence",
+      "elapsed_ms": 298.5854999999999,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-same-level",
+      "elapsed_ms": 6.383600000000115,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-platform",
+      "elapsed_ms": 5.477000000000089,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-three-levels",
+      "elapsed_ms": 3.767900000000054,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-standard-structure",
+      "elapsed_ms": 2.0967000000000553,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.09090909090909091,
+        "ndcg_binary": 0.1309019901681972,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b05-consolidation",
+      "elapsed_ms": 5.711399999999912,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-b-center",
+      "elapsed_ms": 4.7934999999999945,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b05-estimate",
+      "elapsed_ms": 1.9564000000000306,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7550160946314525,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b05-zero-axis",
+      "elapsed_ms": 0.8206000000000131,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-end-low",
+      "elapsed_ms": 4.663099999999986,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b05-source-code",
+      "elapsed_ms": 1.383199999999988,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b05-unanswered",
+      "elapsed_ms": 13.18360000000007,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b07-equal-boundaries",
+      "elapsed_ms": 2.476599999999962,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7737459235132744,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7737459235132744,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b07-one-price-limit",
+      "elapsed_ms": 12.633899999999812,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-uncompleted",
+      "elapsed_ms": 3.7532999999998538,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-return-force",
+      "elapsed_ms": 7.686900000000151,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-gap-complete",
+      "elapsed_ms": 2.0398999999999887,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-gap-level",
+      "elapsed_ms": 3.6632999999999356,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b07-old-stroke",
+      "elapsed_ms": 1.9254000000000815,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-proof-wording",
+      "elapsed_ms": 3.495800000000145,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.6,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7982650576674577,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 6,
+        "returned": 10,
+        "annotated_gold_count": 6
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7982650576674577,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 6,
+        "returned": 20,
+        "annotated_gold_count": 6
+      }
+    },
+    {
+      "id": "g-b07-first-second",
+      "elapsed_ms": 2.6493000000000393,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b07-provisional-abc",
+      "elapsed_ms": 8.547399999999925,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b07-later-annotation",
+      "elapsed_ms": 7.834699999999884,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.0625,
+        "ndcg_binary": 0.29704713377474795,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b07-pair-unanswered",
+      "elapsed_ms": 5.279099999999971,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b08-prior-confirmation",
+      "elapsed_ms": 1.759999999999991,
+      "at10": {
+        "recall": 0.75,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5143371794949736,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 0.75,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5143371794949736,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b08-second-inclusion",
+      "elapsed_ms": 1.6218999999998687,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-normalize",
+      "elapsed_ms": 2.0722999999998137,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-trend-outside-legs",
+      "elapsed_ms": 6.882699999999886,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-right-unfinished",
+      "elapsed_ms": 3.7409000000000106,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-method-capacity",
+      "elapsed_ms": 2.478900000000067,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9047172294870751,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9047172294870751,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b08-first-center-preference",
+      "elapsed_ms": 2.962299999999914,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-fractal-one-way",
+      "elapsed_ms": 5.7228999999999814,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-quote-boundary",
+      "elapsed_ms": 5.263099999999895,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b08-corrected-level",
+      "elapsed_ms": 2.554800000000114,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7928654229965442,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7928654229965442,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b08-pure-center",
+      "elapsed_ms": 1.764599999999973,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b08-later-explicit-completion",
+      "elapsed_ms": 1.2300000000000182,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7328286204777911,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7328286204777911,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b09-fractal-word",
+      "elapsed_ms": 0.6808999999998377,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.5012658353418871,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.5012658353418871,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-inclusion-psychology",
+      "elapsed_ms": 1.1225000000001728,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.05555555555555555,
+        "ndcg_binary": 0.23540891336663824,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b09-third-no-expansion",
+      "elapsed_ms": 3.74129999999991,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.09090909090909091,
+        "ndcg_binary": 0.27894294565112987,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b09-break-top-third-buy",
+      "elapsed_ms": 2.66170000000011,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b09-stroke-base",
+      "elapsed_ms": 4.140599999999949,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-rename",
+      "elapsed_ms": 0.7044000000000779,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b09-different-functions",
+      "elapsed_ms": 1.2087999999998829,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-replace-unique",
+      "elapsed_ms": 1.5907999999999447,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-level-duration",
+      "elapsed_ms": 4.1814999999999145,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.08333333333333333,
+        "ndcg_binary": 0.27023815442731974,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b09-reprint-identity",
+      "elapsed_ms": 2.429499999999962,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-three-phrase",
+      "elapsed_ms": 1.253500000000031,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.05263157894736842,
+        "ndcg_binary": 0.14186890186599416,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b09-late-confirmation",
+      "elapsed_ms": 1.6747000000000298,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.43067655807339306,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.43067655807339306,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b10-upshift-small-sell",
+      "elapsed_ms": 2.7884999999998854,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b10-downshift-shorting",
+      "elapsed_ms": 2.9091000000000804,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b10-nesting-not-second-type",
+      "elapsed_ms": 1.2671000000000276,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9493885684853097,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9493885684853097,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b10-intermediate-large-sell",
+      "elapsed_ms": 1.3197999999999865,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.48247555939075504,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.48247555939075504,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b10-analogy-first-second",
+      "elapsed_ms": 6.975400000000036,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b10-small-level-wording",
+      "elapsed_ms": 3.099999999999909,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b10-unformed-center",
+      "elapsed_ms": 2.193899999999985,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b10-late-sell-probability",
+      "elapsed_ms": 1.2022999999999229,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b10-t1-not-safe-floor",
+      "elapsed_ms": 1.2920999999998912,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b10-class-third",
+      "elapsed_ms": 4.486300000000028,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8503449055347546,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8503449055347546,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b10-three-days-buffer",
+      "elapsed_ms": 1.8187000000000353,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b10-dream-zero-cost",
+      "elapsed_ms": 1.1353999999998905,
+      "at10": {
+        "recall": 0.16666666666666666,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.0874717141014082,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 6
+      },
+      "at20": {
+        "recall": 0.8333333333333334,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.4105871397015157,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 6
+      }
+    },
+    {
+      "id": "g-b11-intermediate-definition",
+      "elapsed_ms": 2.455699999999979,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.07142857142857142,
+        "ndcg_binary": 0.3102267425692945,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b11-stage-shape",
+      "elapsed_ms": 2.097300000000132,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b11-stage-direction",
+      "elapsed_ms": 1.037499999999909,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b11-195-old-context",
+      "elapsed_ms": 4.09660000000008,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b11-marks-completion",
+      "elapsed_ms": 3.188699999999926,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.778842958530688,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b11-return-region",
+      "elapsed_ms": 3.491999999999962,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b11-214-level-gate",
+      "elapsed_ms": 4.707200000000057,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b11-internal-nesting",
+      "elapsed_ms": 0.6083000000000993,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b11-retest-no-touch",
+      "elapsed_ms": 1.2001999999999953,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b11-month-versus-day",
+      "elapsed_ms": 1.8921000000000276,
+      "at10": {
+        "recall": 0.4,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.5531464700081437,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 0.6,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6303631582908975,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b11-hypothetical-10000",
+      "elapsed_ms": 5.386099999999942,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b11-petro-near-centers",
+      "elapsed_ms": 3.611099999999851,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b12-boll-auxiliary",
+      "elapsed_ms": 0.5220000000001619,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b12-first-point-sequence",
+      "elapsed_ms": 2.0341000000000804,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b12-contraction-two-results",
+      "elapsed_ms": 1.6210000000000946,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b12-period-not-six-times",
+      "elapsed_ms": 2.2475999999999203,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b12-must-center-not-direction",
+      "elapsed_ms": 6.078200000000152,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.6,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9705437052559006,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 6,
+        "returned": 10,
+        "annotated_gold_count": 6
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9705437052559006,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 6,
+        "returned": 20,
+        "annotated_gold_count": 6
+      }
+    },
+    {
+      "id": "g-b12-consolidation-amplitude",
+      "elapsed_ms": 2.3905999999999494,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b12-small-large-third",
+      "elapsed_ms": 2.925799999999981,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b12-future-fact-5032",
+      "elapsed_ms": 2.685600000000022,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b12-trap-and-force",
+      "elapsed_ms": 1.7818999999999505,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b12-formed-versus-confirmed",
+      "elapsed_ms": 1.5748999999998432,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b12-monday-not-fulfilled",
+      "elapsed_ms": 1.340599999999995,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7841802768331765,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b12-red-market-shortcut",
+      "elapsed_ms": 1.6053999999999178,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.06666666666666667,
+        "ndcg_binary": 0.1532867981913646,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b13-stroke-center-scope",
+      "elapsed_ms": 3.6721999999999753,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b13-zero-not-reversal",
+      "elapsed_ms": 2.1654000000000906,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b13-no-direct-jump",
+      "elapsed_ms": 1.2887000000000626,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.5012658353418871,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.5012658353418871,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b13-small-warning-or-usual",
+      "elapsed_ms": 1.473700000000008,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b13-one-bar-versus-confirmation",
+      "elapsed_ms": 1.9364000000000487,
+      "at10": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7653606369886217,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7653606369886217,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b13-fourth-not-automatic-entry",
+      "elapsed_ms": 3.763300000000072,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b13-matrix-not-profit-proof",
+      "elapsed_ms": 1.0049000000001342,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b13-second-center-timeline",
+      "elapsed_ms": 6.500599999999849,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b13-strong-exception",
+      "elapsed_ms": 3.5680999999999585,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b13-boll-structure-choice",
+      "elapsed_ms": 1.664199999999937,
+      "at10": {
+        "recall": 0.6,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7227265726449519,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8943274001992823,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b13-nine-and-divergence-scope",
+      "elapsed_ms": 2.2583000000001903,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.23719771276929622,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.23719771276929622,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b13-wine-not-target",
+      "elapsed_ms": 1.155599999999822,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6309297535714575,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b14-zn-scope",
+      "elapsed_ms": 2.629699999999957,
+      "at10": {
+        "recall": 0.75,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.75369761125927,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8625913723275022,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b14-cross-not-third",
+      "elapsed_ms": 5.270099999999957,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5706417189553201,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5706417189553201,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b14-extension-not-certain",
+      "elapsed_ms": 2.279499999999871,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b14-smooth-not-exact",
+      "elapsed_ms": 0.9379999999998745,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b14-secondary-trend-conjunction",
+      "elapsed_ms": 2.597500000000082,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b14-unfinished-300",
+      "elapsed_ms": 2.835900000000038,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b14-zero-cost-conditions",
+      "elapsed_ms": 1.4850999999998749,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.20438239758848611,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.20438239758848611,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b14-skilled-no-rebuy",
+      "elapsed_ms": 4.64409999999998,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b14-weekly-not-fixed-level",
+      "elapsed_ms": 3.70029999999997,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b14-not-must-5675",
+      "elapsed_ms": 0.856899999999996,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b14-stroke-not-segment",
+      "elapsed_ms": 4.026800000000094,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9674679834891693,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9674679834891693,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b14-channel-future-not-confirmation",
+      "elapsed_ms": 6.514799999999923,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b15-prepare-and-skip",
+      "elapsed_ms": 1.501700000000028,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b15-t1-no-same-day-exit",
+      "elapsed_ms": 2.997100000000046,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b15-beginner-ma-conjunction",
+      "elapsed_ms": 1.7186999999998989,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b15-jan22-versus-23",
+      "elapsed_ms": 3.129699999999957,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.3191471544989227,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.512248857859656,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b15-zero-not-no-initial-money",
+      "elapsed_ms": 1.8143999999999778,
+      "at10": {
+        "recall": 0.25,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.11284514134893527,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.4297676252704997,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b15-retry-not-unlimited",
+      "elapsed_ms": 1.0573000000001684,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.29007579773858083,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.29007579773858083,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b15-gambler-target",
+      "elapsed_ms": 1.732200000000148,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.5741603094598835,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.5741603094598835,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b15-wait-versus-early",
+      "elapsed_ms": 2.3383000000001175,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b15-third-unfinished",
+      "elapsed_ms": 2.1330999999997857,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.07692307692307693,
+        "ndcg_binary": 0.31798276946713805,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b15-put-not-call-not-recommendation",
+      "elapsed_ms": 0.511299999999892,
+      "at10": {
+        "recall": 0.2857142857142857,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.20424960638019762,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 7
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.35,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.5570523506466035,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 7,
+        "returned": 20,
+        "annotated_gold_count": 7
+      }
+    },
+    {
+      "id": "g-b15-macd-not-divergence",
+      "elapsed_ms": 1.4828999999999724,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b15-three-steps-not-price-predictor",
+      "elapsed_ms": 2.369799999999941,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 10,
+        "returned": 10,
+        "annotated_gold_count": 10
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 10,
+        "returned": 20,
+        "annotated_gold_count": 10
+      }
+    },
+    {
+      "id": "g-b16-expert-deviation",
+      "elapsed_ms": 1.1771000000001095,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.5051284895111403,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.5051284895111403,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b16-theory-not-application",
+      "elapsed_ms": 1.4166999999999916,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.647939623894138,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 8
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.647939623894138,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 8
+      }
+    },
+    {
+      "id": "g-b16-daily-forming-dates",
+      "elapsed_ms": 4.229599999999891,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.5437927516124715,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b16-grid-not-axis",
+      "elapsed_ms": 3.643000000000029,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8529278650606567,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8529278650606567,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b16-revision-not-silence",
+      "elapsed_ms": 1.4946999999999662,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b16-return-not-stop-or-news",
+      "elapsed_ms": 3.2605000000000928,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b16-numbered-361-exception",
+      "elapsed_ms": 1.7368000000001302,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b16-slightly-leading-vs-inverse",
+      "elapsed_ms": 1.1639999999999873,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7977228895450266,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7977228895450266,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b16-position-not-empty",
+      "elapsed_ms": 0.7157999999999447,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b16-direction-not-uptrend",
+      "elapsed_ms": 6.135100000000193,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.43067655807339306,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.43067655807339306,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b16-stock-method-not-chase",
+      "elapsed_ms": 2.8607999999999265,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b16-red-not-confirmed",
+      "elapsed_ms": 2.069200000000137,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b17-general-vs-same-level",
+      "elapsed_ms": 6.796999999999798,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b17-recompose-two-cases",
+      "elapsed_ms": 3.391800000000103,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.2640681225725909,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.435101206640309,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b17-complete-before-larger",
+      "elapsed_ms": 5.823499999999967,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.05263157894736842,
+        "ndcg_binary": 0.23137821315975915,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b17-relative-danger",
+      "elapsed_ms": 2.448699999999917,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b17-return-scope-annotated",
+      "elapsed_ms": 2.780300000000125,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9469024295259745,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9469024295259745,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b17-three-current-states",
+      "elapsed_ms": 2.9576999999999316,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b17-five-to-thirty-chain",
+      "elapsed_ms": 4.23259999999982,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.6182885020492784,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.6182885020492784,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b17-capacity-vs-quantity",
+      "elapsed_ms": 0.9654000000000451,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b17-fractal-not-stroke-levels",
+      "elapsed_ms": 1.906500000000051,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9134015924715543,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9134015924715543,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b17-macd-zero-scope",
+      "elapsed_ms": 1.7984999999998763,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7841802768331765,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b17-branch-timeline",
+      "elapsed_ms": 1.5844999999999345,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7816510974258781,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7816510974258781,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b17-third-buy-still-absent",
+      "elapsed_ms": 1.8518000000001393,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.23719771276929622,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.23719771276929622,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b18-second-buy-three-forms",
+      "elapsed_ms": 0.8906999999999243,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.07692307692307693,
+        "ndcg_binary": 0.20245404513935725,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b18-second-third-not-adjacent",
+      "elapsed_ms": 1.3397999999999683,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b18-strong-coincidence-not-guarantee",
+      "elapsed_ms": 3.4250999999999294,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.23463936301137822,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.23463936301137822,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b18-a0-not-any-algorithm",
+      "elapsed_ms": 1.9907000000000608,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8065735963827293,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8065735963827293,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b18-unique-author-claim-not-proof",
+      "elapsed_ms": 1.6841999999999189,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.5,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7496812513391778,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.25,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7496812513391778,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 5,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b18-control-current-not-intervention",
+      "elapsed_ms": 2.350300000000061,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b18-three-layer-not-weighted-model",
+      "elapsed_ms": 2.358399999999847,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b18-timeline-third-sell-not-full-down",
+      "elapsed_ms": 3.332300000000032,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b18-one-minute-not-thirty-bottom",
+      "elapsed_ms": 2.9430999999999585,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.3065735963827292,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.4676164214719373,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b18-sixty-chart-reference-frame",
+      "elapsed_ms": 4.614800000000059,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b18-explicit-stroke-correction",
+      "elapsed_ms": 1.7116000000000895,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b18-divergence-leg-fractal-stroke",
+      "elapsed_ms": 3.6847999999999956,
+      "at10": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7653606369886217,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.872201441250412,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b19-macd-skilled-exception",
+      "elapsed_ms": 1.2716999999997824,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b19-lowest-period-chosen",
+      "elapsed_ms": 1.5599999999999454,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-physics-program-not-model",
+      "elapsed_ms": 1.3234000000002197,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-price-rhythm-rounding",
+      "elapsed_ms": 0.3037000000001626,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b19-three-percent-not-epsilon",
+      "elapsed_ms": 1.6743999999998778,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.1111111111111111,
+        "ndcg_binary": 0.36181498356361597,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.1111111111111111,
+        "ndcg_binary": 0.36181498356361597,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-3424-bottom-not-final",
+      "elapsed_ms": 1.4458999999999378,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b19-five-thirty-vs-fifteen",
+      "elapsed_ms": 3.5471999999999753,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8772153153380493,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8772153153380493,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-fund-stage-t1-tail",
+      "elapsed_ms": 2.7869000000000597,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.644824486427155,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 6
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.644824486427155,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 6
+      }
+    },
+    {
+      "id": "g-b19-homework-author-vs-annotation",
+      "elapsed_ms": 5.061400000000049,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-apr7-sixty-not-week-complete",
+      "elapsed_ms": 2.233799999999974,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5249810332008933,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5249810332008933,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b19-apr11-three-chart-boundaries",
+      "elapsed_ms": 1.137599999999793,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9217868789962071,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9217868789962071,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b19-warrant-risk-not-profit-license",
+      "elapsed_ms": 0.8433999999999742,
+      "at10": {
+        "recall": 0.25,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.11284514134893527,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.1,
+        "ndcg_binary": 0.4072558484734184,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b20-mechanical-title-alias",
+      "elapsed_ms": 4.417599999999993,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.125,
+        "ndcg_binary": 0.19342640361727081,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.125,
+        "ndcg_binary": 0.19342640361727081,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-corrected-author-date",
+      "elapsed_ms": 2.335399999999936,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-half-vs-partial",
+      "elapsed_ms": 1.7048999999999523,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-strength-grade-not-structural-time",
+      "elapsed_ms": 3.574999999999818,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b20-apr22-fractal-not-stroke",
+      "elapsed_ms": 1.4730999999999312,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-jul3-jul4-containing-bars",
+      "elapsed_ms": 1.3344999999999345,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8503449055347546,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8503449055347546,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-entry-nesting-not-2917",
+      "elapsed_ms": 1.3460000000000036,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-theory-2990-empirical-3700",
+      "elapsed_ms": 2.435699999999997,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7841802768331765,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-active-no-risk-author-claim",
+      "elapsed_ms": 2.0173999999999523,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b20-inverted-t-not-theory",
+      "elapsed_ms": 2.7262000000000626,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6934264036172708,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-different-gaps-and-buyback",
+      "elapsed_ms": 4.218699999999899,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b20-moving-average-homework-deferred",
+      "elapsed_ms": 1.4652000000000953,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b21-eight-parameters-history-system",
+      "elapsed_ms": 1.4330999999999676,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.3065735963827292,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.3065735963827292,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-history-classification-not-current-count",
+      "elapsed_ms": 0.5650000000000546,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7550160946314525,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-sector-average-not-weighted-return",
+      "elapsed_ms": 1.6977999999999156,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-averages-level-and-unverified-corrections",
+      "elapsed_ms": 8.323100000000068,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7585866543655181,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7585866543655181,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b21-six-bars-vs-new-stroke",
+      "elapsed_ms": 1.2671999999997752,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.06666666666666667,
+        "ndcg_binary": 0.11731968150568911,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b21-rotation-t1-and-buy-sell-points",
+      "elapsed_ms": 2.228900000000067,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-boundary-not-best-entry",
+      "elapsed_ms": 1.9567000000001826,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-dates-next-header-not-previous-paragraph",
+      "elapsed_ms": 1.5354999999999563,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b21-first-leg-not-whole-type",
+      "elapsed_ms": 3.9185999999999694,
+      "at10": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.34870224750355494,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.34870224750355494,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b21-a-b-without-c-still-down",
+      "elapsed_ms": 2.250500000000102,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b21-major-center-not-just-price-break",
+      "elapsed_ms": 3.2708999999999833,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b21-probability-conditioning-not-eighties",
+      "elapsed_ms": 1.1829000000002452,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7841802768331765,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-running-fees-and-decomposition",
+      "elapsed_ms": 1.5041000000001077,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-t1-second-sell-alternatives",
+      "elapsed_ms": 2.105399999999918,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-formation-versus-completed",
+      "elapsed_ms": 2.6228000000000975,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b22-partition-directions",
+      "elapsed_ms": 4.472600000000057,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7122630665145961,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.7122630665145961,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b22-rotation-capacity-not-half",
+      "elapsed_ms": 2.089100000000144,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b22-bottom-precise-failure-and-coarse",
+      "elapsed_ms": 11.912000000000262,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-fractal-confirmation-versus-entry",
+      "elapsed_ms": 28.03740000000016,
+      "at10": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.38364913903790027,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.38364913903790027,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b22-month-candidate-and-confirmation",
+      "elapsed_ms": 2.3807999999999083,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-week-day-exception",
+      "elapsed_ms": 1.2618999999999687,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6509209298071326,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6509209298071326,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b22-sep12-role-and-ninety",
+      "elapsed_ms": 10.371099999999842,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b22-new-level-day-week-confirmation",
+      "elapsed_ms": 15.216899999999896,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b22-aesthetic-period-and-macd-open",
+      "elapsed_ms": 1.4774999999999636,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9060254355346823,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9060254355346823,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b23-lip-wet-definition",
+      "elapsed_ms": 2.6165000000000873,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.05,
+        "ndcg_binary": 0.1395953738647505,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-flying-strong-qualitative",
+      "elapsed_ms": 1.25649999999996,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.5802792108518124,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.5802792108518124,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-position-relative-system",
+      "elapsed_ms": 1.5698999999999614,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.20438239758848611,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.20438239758848611,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-wet-first-exception-no-risk-free",
+      "elapsed_ms": 3.9904999999998836,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.2960819109658652,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.2960819109658652,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b23-average-points-not-strict-only",
+      "elapsed_ms": 3.830699999999979,
+      "at10": {
+        "recall": 0.6,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7227265726449519,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 5
+      },
+      "at20": {
+        "recall": 0.6,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7227265726449519,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 5
+      }
+    },
+    {
+      "id": "g-b23-second-buy-first-sell",
+      "elapsed_ms": 3.3593000000000757,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8315546295836225,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8315546295836225,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-first-continuation-last-reversal",
+      "elapsed_ms": 1.2188999999998487,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7977228895450266,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7977228895450266,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-early-entry-no-t0-exceptions",
+      "elapsed_ms": 2.7851000000000568,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-position-context-full-small",
+      "elapsed_ms": 12.272999999999683,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b23-news-and-personal-standard",
+      "elapsed_ms": 7.839999999999691,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6366824387328317,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8510717840361742,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b23-replay-source-identity",
+      "elapsed_ms": 20.58060000000023,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 6
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 6
+      }
+    },
+    {
+      "id": "g-b23-weekly-case-no-year-invention",
+      "elapsed_ms": 1.8211999999998625,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.2,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b24-active-passive-two-meanings",
+      "elapsed_ms": 1.7466999999996915,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9060254355346823,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9060254355346823,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b24-invalid-entry-two-branches",
+      "elapsed_ms": 3.400000000000091,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b24-half-and-maotai-prior-low",
+      "elapsed_ms": 2.2164999999999964,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b24-tcl-case-lot-and-topup",
+      "elapsed_ms": 3.493999999999687,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.16666666666666666,
+        "ndcg_binary": 0.16716045496620227,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.16666666666666666,
+        "ndcg_binary": 0.39928943119790916,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b24-ninety-and-no-speculative-switch",
+      "elapsed_ms": 3.0450000000000728,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5833416105149332,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.5833416105149332,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b24-law-kiss-and-corresponding-next",
+      "elapsed_ms": 8.40059999999994,
+      "at10": {
+        "recall": 0,
+        "annotated_precision_lower_bound": 0,
+        "reciprocal_rank": 0,
+        "ndcg_binary": 0,
+        "hit": 0,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 0,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.07692307692307693,
+        "ndcg_binary": 0.12325583919272352,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b24-short-program-order-and-specific-level",
+      "elapsed_ms": 2.374499999999898,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.44149241373678083,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.6495211365901131,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b24-macd-doubled-not-fixed-priority",
+      "elapsed_ms": 2.1619000000000597,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8315546295836225,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8315546295836225,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b24-week-day-thirty-not-same-confirmation",
+      "elapsed_ms": 6.214999999999691,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.16666666666666666,
+        "ndcg_binary": 0.21840743681816419,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.16666666666666666,
+        "ndcg_binary": 0.37169423500952875,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b24-divergence-amplitude-and-equal-low",
+      "elapsed_ms": 2.973199999999906,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.9197207891481876,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b24-reader-identity",
+      "elapsed_ms": 8.610099999999875,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.1111111111111111,
+        "ndcg_binary": 0.14126697285982898,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.1111111111111111,
+        "ndcg_binary": 0.14126697285982898,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b24-000063-correction",
+      "elapsed_ms": 8.121399999999994,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 1
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 1,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 1
+      }
+    },
+    {
+      "id": "g-b25-early-category-platform-exception",
+      "elapsed_ms": 8.764299999999821,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.6131471927654584,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.7841802768331765,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-ma-area-versus-average-and-macd",
+      "elapsed_ms": 9.315899999999601,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8175295903539445,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8175295903539445,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-histogram-peak-not-price-turn",
+      "elapsed_ms": 1.9380000000001019,
+      "at10": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.4,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.810582531061383,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.810582531061383,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 4,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b25-first-kiss-only-trend-and-later-consolidation",
+      "elapsed_ms": 6.410499999999956,
+      "at10": {
+        "recall": 0.75,
+        "annotated_precision_lower_bound": 0.3,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8318724637288826,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 0.75,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.8318724637288826,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b25-skill-first-second-and-female-definition",
+      "elapsed_ms": 2.7849999999998545,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-box-entry-no-retroactive-horizon",
+      "elapsed_ms": 2.258600000000115,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.2960819109658652,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.5282108871975723,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b25-unfinished-patch-multilevel-confirmation",
+      "elapsed_ms": 3.6842000000001462,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.2532778777010656,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 4
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.2532778777010656,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 4
+      }
+    },
+    {
+      "id": "g-b25-down-up-specific-rule-versus-general-reduce",
+      "elapsed_ms": 1.2577000000001135,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.2640681225725909,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.25,
+        "ndcg_binary": 0.2640681225725909,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-half-probability-profit-300-not-proof",
+      "elapsed_ms": 1.0371000000000095,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.3065735963827292,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 0.3333333333333333,
+        "ndcg_binary": 0.3065735963827292,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-strategy-exclusion-not-no-profit",
+      "elapsed_ms": 9.541400000000067,
+      "at10": {
+        "recall": 0.5,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.38685280723454163,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 2
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 0.5,
+        "ndcg_binary": 0.5578858913022597,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 2,
+        "returned": 20,
+        "annotated_gold_count": 2
+      }
+    },
+    {
+      "id": "g-b25-reader-identity",
+      "elapsed_ms": 14.841499999999996,
+      "at10": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.1,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 0.3333333333333333,
+        "annotated_precision_lower_bound": 0.05,
+        "reciprocal_rank": 1,
+        "ndcg_binary": 0.46927872602275644,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 1,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    },
+    {
+      "id": "g-b25-macd-law-and-put-warning",
+      "elapsed_ms": 2.051100000000133,
+      "at10": {
+        "recall": 0.6666666666666666,
+        "annotated_precision_lower_bound": 0.2,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.3044671974905181,
+        "hit": 1,
+        "all_annotated_evidence_found": 0,
+        "annotated_hits": 2,
+        "returned": 10,
+        "annotated_gold_count": 3
+      },
+      "at20": {
+        "recall": 1,
+        "annotated_precision_lower_bound": 0.15,
+        "reciprocal_rank": 0.14285714285714285,
+        "ndcg_binary": 0.4312842143229117,
+        "hit": 1,
+        "all_annotated_evidence_found": 1,
+        "annotated_hits": 3,
+        "returned": 20,
+        "annotated_gold_count": 3
+      }
+    }
+  ]
+}

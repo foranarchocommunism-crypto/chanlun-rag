@@ -1,0 +1,54 @@
+{
+  "lesson_number": 67,
+  "document_id": "volume_2-5332cd1b6038",
+  "actual_read_scope": "全部78个passages，PDF50-b001至59-b004；正文定义及后附两篇市场文章和答疑",
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "reviewer": "主代理 / 阶段C第67课四轮原文复核",
+  "batch": "batch_004_l067_full_review",
+  "base_graph_version": "0.1.0-review-91dfeb3c452e",
+  "records": 45,
+  "legacy_unimported_records_re_reviewed": 15,
+  "coverage_ledger": "batch_004_l067_full_review.coverage.jsonl",
+  "pending": [
+    {
+      "id": "lower-l067-chart-seven-unanswered",
+      "lesson": 67,
+      "passage_id": "volume_2-5332cd1b6038-p0059-b004",
+      "status": "pending",
+      "issue": "作者问图中7与1分钟中枢的关系，当前单元未给答案；不能把问题当定理，已查看p58图，仍须其他明确作者讲解才能作原文明说结论。"
+    },
+    {
+      "id": "lower-l067-figure-origin",
+      "lesson": 67,
+      "status": "pending",
+      "issue": "已查看本课14个图对象所在页，但p50/51/52前两图/55/58原图身份仍未核；p52-fig3、p53两图及p54图已确认陈仁后加。不将未核图或后加图当作者原始证言。"
+    },
+    {
+      "id": "lower-l067-equality-boundary-detail",
+      "lesson": 67,
+      "passage_id": "volume_2-5332cd1b6038-p0056-b005",
+      "status": "pending",
+      "issue": "作者只明确回复包含才合并的一般边界；对提问的单边等值、双边等值、麻点未逐项给算法，保留相等边界细节待跨课核对，不补造EPS或等号规则。"
+    }
+  ],
+  "visual_pdf_pages": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    58,
+    59
+  ],
+  "figure_objects_viewed": 14,
+  "logged_at": "2026-10-13T13:18:35.421871+00:00",
+  "supersedes_unimported_records": {
+    "file": "batch_003_l065_l067.jsonl",
+    "id_prefix": "lower-l067-",
+    "count": 15,
+    "reason": "本批重新复核；旧批的65/66课尚未发布，不应整文件重新导入"
+  }
+}

@@ -1,0 +1,11 @@
+{"embedded":72,"total":72,"elapsed_seconds":0.8115806999999999,"rss_bytes":190042112}
+
+file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/manifest.mjs:1
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const w=fs.writeFileSync;fs.writeFileSync=function(p,...a){if(String(p).endsWith('manifest.json')){w.call(this,p,'{"interrupted":');throw Error('AUDIT_PARTIAL_MANIFEST');}return w.call(this,p,...a);};syncBuiltinESMExports();
+                                                                                                                                                                                                                     ^
+
+Error: AUDIT_PARTIAL_MANIFEST
+    at fs.writeFileSync (file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/manifest.mjs:1:214)
+    at file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/scripts/build-vectors.mjs:68:3
+
+Node.js v24.15.0

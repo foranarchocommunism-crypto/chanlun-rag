@@ -1,0 +1,71 @@
+{
+  "stage": "D-source-checked-aliases",
+  "base_graph_version": "0.1.0-review-6116140b24d9",
+  "graph_version": "0.1.0-review-089fa1fbf63b",
+  "aliases": [
+    {
+      "concept_id": "concept-d600fad774881797",
+      "label": "布林通道",
+      "before": [],
+      "after": [
+        "BOLL"
+      ],
+      "supporting_claim_id": "lower-l090-c-stage-boll-three-bands-strong-zones",
+      "source_evidence": [
+        {
+          "passage_id": "volume_2-5332cd1b6038-p0262-b006",
+          "evidence_id": "evidence-e0eefb11073c8457",
+          "quote": "这个辅助判断，可以利用所有软件都有的一个指标：布林通道。一般在软件上都用BOLL表示。该指标一般都三条线，上、中、下三个轨道。一般性地，在上轨以上和下轨以下运行是超强状态，一般中枢移动时肯定会出现，唯一区别是前者是上涨超强，后者是下跌超强。",
+          "pdf_page": 262,
+          "source_text_sha256": "cdf1cece2fe6101d61d11476e206bfe3becaa7b2cb0f509c0db5d9dc05a7b07a"
+        }
+      ],
+      "reason": "作者明确给布林通道的指标缩写BOLL；只作同一市场指标的名称映射，不新增指标参数。"
+    },
+    {
+      "concept_id": "concept-f2e3ebfe5c895943",
+      "label": "中阴阶段",
+      "before": [],
+      "after": [
+        "中阴身阶段"
+      ],
+      "supporting_claim_id": "lower-l088-c-stage-intermediate-stage-definition",
+      "source_evidence": [
+        {
+          "passage_id": "volume_2-5332cd1b6038-p0239-b007",
+          "evidence_id": "evidence-4b544d2cc38d0de6",
+          "quote": "如同众生的轮回生死，在死与生之间，有一段被称为中阴身的阶段，股票的走势，同样存在着这个阶段。如果说前一个走势类型的背驰或盘整背驰宣告了前一个走势类型的死亡，那么到新的走势类型确立，这里有一个模糊的如同中阴般的阶段。",
+          "pdf_page": 239,
+          "source_text_sha256": "496e2ce96d31bde7f931c0cb8dc47027ea3e354c4fff57cf14a3161092824b2e"
+        },
+        {
+          "passage_id": "volume_2-5332cd1b6038-p0241-b005",
+          "evidence_id": "evidence-751ca74d85f8142f",
+          "quote": "中阴阶段，无一例外，都表现为不同级别的盘整（注意，这是只从截取这一阶段的形态说，并不是说新的走势类型一定是盘整）。也就是围绕前一走势的某一部分所构成的中枢震荡，即使是所谓的V型反转，也一样，只是震荡的区域回得更深而已。",
+          "pdf_page": 241,
+          "source_text_sha256": "423ceba76d8288c7eb183a55bcb62adec2c4ad0b794bcf1a01bb151e804eb34d"
+        }
+      ],
+      "reason": "同课先借中阴身的阶段作比、后称中阴阶段，映射仅限市场阶段全称；不把宗教中阴身裸词作为全领域同义词。"
+    }
+  ],
+  "claims_evidence_passages_relations_unchanged": true,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 198,
+    "claims": 3889,
+    "evidence": 4386,
+    "relations": 199,
+    "reviews": 1309
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T055803982033Z-aliases-l088-l090",
+  "independent_review_claimed": false,
+  "limits": [
+    "只新增BOLL与中阴身阶段两项名称映射。",
+    "不新增指标参数，不把宗教裸词无条件合并。"
+  ]
+}

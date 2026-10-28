@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-3f0839731b9a",
+  "schema_version": "1.1.0",
+  "checks": [
+    "32新增；背驰/所在类型级别与后续转折级别分开，1分顶背后先同级盘整可续涨，逐步扩张非即时年线预测；重引29定理保留旧记录，未推禁38同级盘整+盘整",
+    "同级已成背驰才套回最后中枢分支；入段可被小级延伸取消，30分无背驰而c内1分背驰另一支，若回B先较大中枢/下破但可上破续延，MACD回轴再上只先视候选",
+    "B/C无重合继续原30分待完，有重合演化日线不等已成，固定30分取小背驰为界且C不一定完成；316夹注一字不入作者引文，注后结合律单独定位，混合来源待核未冒称已拆",
+    "读者破位反弹粗法获认可不等立即杀跌，精法可先走未给算法；超级回报无实证，新股前三K/1/3为读者、仅辅助K形态，不认证通用充分点或整体PE安全",
+    "4/9四段日期纠正且前4/6不改，11时间仅补空格；冲击/缺口不等确认，万点/二线/政策唯一风险仅历史条件判断和未核强词",
+    "57全段台账及旧29线索保留，4命题4关联2整图逐项核验：示意原发未核、行情4/10为后加；不补全全书/夹注来源或桌面运行验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "背驰段"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅走势类型分解原则",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "小级别转大级别",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-05b5c4e5f83d831b"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 316
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "1/3",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 4,
+    "associations": 4,
+    "unique_figures": 2
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，非独立语义或Windows真实运行/PDF交互。",
+    "316夹注在整来源段仍混存，作者证据已排除，身份细分待核；未给完整转折/提前退出/收益验证或原博客校对。"
+  ]
+}

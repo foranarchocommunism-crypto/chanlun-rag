@@ -1,0 +1,13 @@
+
+file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/projection.mjs:1
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const w=fs.writeFileSync;fs.writeFileSync=function(p,...a){if(String(p).endsWith('manifest.json'))throw Error('AUDIT_INDEX_MANIFEST');return w.call(this,p,...a);};syncBuiltinESMExports();
+                                                                                                                                                                                   ^
+
+Error: AUDIT_INDEX_MANIFEST
+    at fs.writeFileSync (file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/projection.mjs:1:180)
+    at file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/scripts/build-index.mjs:72:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+    at async node:internal/modules/esm/loader:639:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.15.0

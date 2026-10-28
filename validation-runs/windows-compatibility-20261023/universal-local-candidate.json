@@ -1,0 +1,112 @@
+{
+  "started_at": "2026-10-23T09:49:54.096Z",
+  "product_root": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712",
+  "passed": false,
+  "checks": [
+    {
+      "name": "all_file_checksums",
+      "passed": true,
+      "verified_files": 7814
+    },
+    {
+      "name": "status_from_bundled_runtime_isolated_PATH",
+      "passed": true,
+      "graph_version": "0.1.0-review-307029129712"
+    },
+    {
+      "name": "architecture_aware_CLI_launcher",
+      "passed": true,
+      "native_arch": "AMD64",
+      "node_arch": "x64"
+    },
+    {
+      "name": "offline_default_retrieval",
+      "passed": true,
+      "elapsed_ms_cli": 6726.455099999992,
+      "runtime": {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 4746.893899999999,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 348.9071000000001
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 601.6009000000001,
+            "query_tokens": 36,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 17,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 26.965899999999692
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 3738.4299
+          }
+        }
+      }
+    },
+    {
+      "name": "ambiguity_research_source_modes",
+      "passed": true
+    },
+    {
+      "name": "native_dependencies_loaded_from_portable_runtime",
+      "passed": true,
+      "modules": [
+        "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140.dll",
+        "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140.dll",
+        "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140_1.dll",
+        "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_ATOMIC_WAIT.dll",
+        "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_1.dll"
+      ]
+    }
+  ],
+  "environment": {
+    "hostname": "DESKTOP-8QKC5VN",
+    "os_release": "10.0.19045",
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v24.15.0",
+    "executable": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\runtime\\x64\\node.exe",
+    "cpu": "Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz",
+    "current_directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712",
+    "independent_clean_windows_verified": false,
+    "context": "Actual portable artifact; independent environment identity requires separate review"
+  },
+  "network_policy": "Node fetch/http/https/net/tls/dns disabled by verification preload; OS connection state is not changed or claimed disconnected",
+  "operation_timeout_ms": 120000,
+  "native_runtime_modules": [
+    "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140.dll",
+    "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140.dll",
+    "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140_1.dll",
+    "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_ATOMIC_WAIT.dll",
+    "\\\\?\\C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_1.dll"
+  ],
+  "error": {
+    "message": "MCP error -32000: Connection closed",
+    "stack": "McpError: MCP error -32000: Connection closed\n    at McpError.fromError (file:///C:/Users/13240/Desktop/RAG/deliveries/chan-kg-agent-0.3.0-307029129712/app/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js:2048:16)\n    at Client._onclose (file:///C:/Users/13240/Desktop/RAG/deliveries/chan-kg-agent-0.3.0-307029129712/app/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js:267:32)\n    at _transport.onclose (file:///C:/Users/13240/Desktop/RAG/deliveries/chan-kg-agent-0.3.0-307029129712/app/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js:227:18)\n    at ChildProcess.<anonymous> (file:///C:/Users/13240/Desktop/RAG/deliveries/chan-kg-agent-0.3.0-307029129712/app/node_modules/@modelcontextprotocol/sdk/dist/esm/client/stdio.js:85:31)\n    at ChildProcess.emit (node:events:509:28)\n    at cp.emit (C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712\\app\\node_modules\\cross-spawn\\lib\\enoent.js:34:29)\n    at maybeClose (node:internal/child_process:1124:16)\n    at Socket.<anonymous> (node:internal/child_process:481:11)\n    at Socket.emit (node:events:509:28)\n    at Pipe.<anonymous> (node:net:350:12)"
+  },
+  "finished_at": "2026-10-23T09:51:38.344Z"
+}

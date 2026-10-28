@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-8622f2f9c79f",
+  "schema_version": "1.1.0",
+  "checks": [
+    "54新增；奔走型末上/手续费风险、30按5分段与T+1首卖无法执行同时可查，二卖原句或不误为且",
+    "趋势形成信号与两中枢完成趋势并列；反弹上下上与标准上涨中枢下上下未因日期覆盖",
+    "底部精确类型/较粗分型两入口独立，第一/首次/所属中枢与三卖失败保留，跨页和下探失败买入可查",
+    "月2284/2952、周2284/2601及2523例外、日2284/2455分层；未把图嵌09:15:01反填课程时间",
+    "13段日期身份修正逐项核对；426结束语非读者、9/12独立解盘；427被引9/4标题未污染9/18",
+    "9/25日笔已成与周笔待定、9/11新级别数中枢、9/12非首中枢和90%作者估计及美学周期边界保留",
+    "5图均后加且制作者未核；两课semantic_read_with_pending，全书语义完成仍false"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "上下上反弹的末上不保证"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "底",
+        "limit": 50
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "底",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-0cf2a79ef07212d3"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 426
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "收盘马上有事",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "CLI及公共/桌面查询模块一致不是Windows成品真实交互/离线验收。",
+    "同模型边界检查不是独立语义审查、收益/概率回测或所有跨课歧义解决。"
+  ]
+}

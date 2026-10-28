@@ -1,0 +1,230 @@
+{
+  "scope": "Read-only actual canonical graph; structural checks are not semantic entailment accuracy.",
+  "database_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+  "counts": {
+    "documents": 2,
+    "passages": 9650,
+    "concepts": 318,
+    "claims": 6008,
+    "evidence": 7225,
+    "relations": 692,
+    "reviews": 3459
+  },
+  "claim_status": {
+    "pending": 2611,
+    "rejected": 28,
+    "reviewed": 3369
+  },
+  "reviewed_kinds": {
+    "explicit": 3366,
+    "inferred": 3
+  },
+  "reviewed_ambiguity": 473,
+  "reviewed_evidence": 4584,
+  "relation_types": {
+    "composed_of": 20,
+    "requires": 111,
+    "defines": 20,
+    "qualifies": 380,
+    "distinguishes": 31,
+    "related": 128,
+    "illustrates": 2
+  },
+  "concepts_with_aliases": 6,
+  "alias_count": 7,
+  "normalized_alias_conflicts": {},
+  "empty_concept_descriptions": 318,
+  "concept_id_label_hash_match": 318,
+  "self_loops": [],
+  "duplicate_triples": [],
+  "reverse_same_type_pair_count": 19,
+  "nontrivial_scc_sizes": [
+    97,
+    2
+  ],
+  "same_type_cycle_components": {
+    "composed_of": [],
+    "defines": [],
+    "distinguishes": [],
+    "illustrates": [],
+    "qualifies": [
+      [
+        "递归定义",
+        "线段",
+        "趋势",
+        "区间套",
+        "分解多样性",
+        "交易规则",
+        "理论成立前提",
+        "中枢回拉作用",
+        "中枢新生",
+        "有效跌破",
+        "同级别分解",
+        "小级别转大级别",
+        "指标对比",
+        "动力学",
+        "通道式上涨",
+        "动态建仓",
+        "操作策略",
+        "买卖点",
+        "分型",
+        "市场分力",
+        "市场合力",
+        "走势预测",
+        "当下",
+        "市场心理",
+        "操作熟练程度",
+        "第三类卖点",
+        "笔",
+        "缺口",
+        "中枢震荡",
+        "操作节奏",
+        "板块轮动",
+        "仓位",
+        "交易容量",
+        "T+1",
+        "买点",
+        "MACD",
+        "价格精度",
+        "周期K线图",
+        "最低级别",
+        "MACD柱波",
+        "盘整背驰",
+        "第一类买点",
+        "第三类买点",
+        "走势分解",
+        "完成",
+        "走势多义性",
+        "结合律",
+        "走势类型连接",
+        "走势类型",
+        "背驰",
+        "操作级别",
+        "第三类买卖点",
+        "次级别",
+        "中枢延伸",
+        "中枢扩展",
+        "盘整",
+        "均线系统",
+        "走势中枢"
+      ]
+    ],
+    "related": [
+      [
+        "唇吻",
+        "湿吻",
+        "飞吻",
+        "均线系统"
+      ]
+    ],
+    "requires": [
+      [
+        "背驰段",
+        "区间套",
+        "确认"
+      ],
+      [
+        "走势类型",
+        "走势中枢"
+      ]
+    ]
+  },
+  "highest_degree": [
+    {
+      "id": "concept-ca31d0f4fbdd0c07",
+      "label": "走势中枢",
+      "incident_edges": 51,
+      "reviewed_claim_links": 578
+    },
+    {
+      "id": "concept-1797a9de24c10e3f",
+      "label": "操作级别",
+      "incident_edges": 47,
+      "reviewed_claim_links": 515
+    },
+    {
+      "id": "concept-0b50cc9d63864652",
+      "label": "背驰",
+      "incident_edges": 39,
+      "reviewed_claim_links": 444
+    },
+    {
+      "id": "concept-12bfb6169db1ef08",
+      "label": "第三类买点",
+      "incident_edges": 27,
+      "reviewed_claim_links": 228
+    },
+    {
+      "id": "concept-6849acc5179cc00d",
+      "label": "线段",
+      "incident_edges": 27,
+      "reviewed_claim_links": 196
+    },
+    {
+      "id": "concept-3403e6e29ce58f3f",
+      "label": "次级别",
+      "incident_edges": 24,
+      "reviewed_claim_links": 213
+    },
+    {
+      "id": "concept-1fa200c542ecf079",
+      "label": "盘整背驰",
+      "incident_edges": 24,
+      "reviewed_claim_links": 132
+    },
+    {
+      "id": "concept-3afda9c1bd324f75",
+      "label": "笔",
+      "incident_edges": 23,
+      "reviewed_claim_links": 172
+    },
+    {
+      "id": "concept-52a9eab5f7eee9ff",
+      "label": "走势类型",
+      "incident_edges": 21,
+      "reviewed_claim_links": 150
+    },
+    {
+      "id": "concept-c0b3fbff51ccc40b",
+      "label": "完成",
+      "incident_edges": 20,
+      "reviewed_claim_links": 175
+    },
+    {
+      "id": "concept-02e499b556b0d4c8",
+      "label": "均线系统",
+      "incident_edges": 20,
+      "reviewed_claim_links": 111
+    },
+    {
+      "id": "concept-5e9baa6e76072d57",
+      "label": "周期K线图",
+      "incident_edges": 19,
+      "reviewed_claim_links": 161
+    },
+    {
+      "id": "concept-5210ff85f7fa7ee2",
+      "label": "MACD",
+      "incident_edges": 18,
+      "reviewed_claim_links": 194
+    },
+    {
+      "id": "concept-b25e1511731c6d20",
+      "label": "中枢震荡",
+      "incident_edges": 18,
+      "reviewed_claim_links": 258
+    },
+    {
+      "id": "concept-6912d5c0e563f45b",
+      "label": "区间套",
+      "incident_edges": 18,
+      "reviewed_claim_links": 67
+    }
+  ],
+  "relation_support_reference_errors": [],
+  "quote_mismatches": [],
+  "reviewed_evidence_wrong_speaker": [],
+  "missing_claim_concept_refs": [],
+  "fk_check": [],
+  "integrity_check": "ok"
+}

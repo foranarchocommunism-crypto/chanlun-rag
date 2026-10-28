@@ -5,3 +5,6 @@ release/
 archives/
 *.tmp
 __pycache__/
+**/node_modules/
+validation-runs/**/chan-kg-agent-*/
+docs/user-guide/.downloads/

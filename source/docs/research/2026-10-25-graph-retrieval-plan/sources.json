@@ -1,0 +1,314 @@
+{
+  "retrieved_on": "2026-10-25",
+  "workflow": "nature-academic-search/multi-source-search",
+  "sources": [
+    "arXiv",
+    "Crossref preflight",
+    "ACL Anthology",
+    "PMLR",
+    "author-hosted RRF paper",
+    "GitHub official connector",
+    "SciSpace discovery",
+    "Qdrant official documentation"
+  ],
+  "failures": [
+    {
+      "source": "OpenAlex discovery script",
+      "error": "HTTP 429 Too Many Requests",
+      "fallback": "arXiv, formal proceedings, SciSpace discovery; no impact on verification of included papers"
+    }
+  ],
+  "deduplication": "DOI; otherwise normalized title plus first author. Formal proceedings retained over matching arXiv records.",
+  "papers": [
+    {
+      "id": "P1",
+      "title": "Reciprocal rank fusion outperforms condorcet and individual rank learning methods",
+      "authors": [
+        "Gordon V. Cormack",
+        "Charles L. A. Clarke",
+        "Stefan Büttcher"
+      ],
+      "year": 2009,
+      "venue": "SIGIR 2009",
+      "pages": "758–759",
+      "doi": "10.1145/1571941.1572114",
+      "url": "https://doi.org/10.1145/1571941.1572114",
+      "full_text_url": "https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf",
+      "abstract_summary_zh": "以排名倒数融合多个检索器；本文用于理解融合分数，不能推出某通道必有候选进入截断后的集合。",
+      "transfer": "Separate candidate admission from score fusion",
+      "verification": [
+        "publisher DOI",
+        "author PDF",
+        "Google Research publication page"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "authors": [
+        "Zirui Guo",
+        "Lianghao Xia",
+        "Yanhua Yu",
+        "Tu Ao",
+        "Chao Huang"
+      ],
+      "year": 2025,
+      "venue": "Findings of EMNLP 2025",
+      "pages": "10746–10761",
+      "doi": "10.18653/v1/2025.findings-emnlp.568",
+      "url": "https://aclanthology.org/2025.findings-emnlp.568/",
+      "preprint": "2410.05779",
+      "abstract_summary_zh": "将实体和关系层次的检索结合向量表示，用于恢复不同粒度的知识。工程实现额外核查了多来源文本块的交错合并。",
+      "transfer": "Multi-source candidate admission before final reranking",
+      "verification": [
+        "ACL Anthology",
+        "arXiv discovery",
+        "pinned project source"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+      "authors": [
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Weijian Qi",
+        "Sizhe Zhou",
+        "Yu Su"
+      ],
+      "year": 2025,
+      "venue": "ICML 2025 / PMLR 267",
+      "pages": "21497–21515",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+      "preprint": "2502.14802",
+      "abstract_summary_zh": "HippoRAG 2 将篇章信息、个性化 PageRank 和在线 LLM 结合，兼顾关联与基本事实检索；本项目需独立检验普通查询是否退步。",
+      "transfer": "Test associative gains and factual non-regression separately; retain dense retrieval baseline",
+      "verification": [
+        "PMLR proceedings",
+        "arXiv discovery",
+        "pinned project source"
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "GeAR: Graph-enhanced Agent for Retrieval-augmented Generation",
+      "authors": [
+        "Zhili Shen",
+        "Chenxin Diao",
+        "Pavlos Vougiouklis",
+        "Pascual Merita",
+        "Shriram Piramanayagam",
+        "Enting Chen",
+        "Damien Graux",
+        "Andre Melo",
+        "Ruofei Lai",
+        "Zeren Jiang",
+        "Zhongyang Li",
+        "Ye Qi",
+        "Yang Ren",
+        "Dandan Tu",
+        "Jeff Z. Pan"
+      ],
+      "year": 2025,
+      "venue": "Findings of ACL 2025",
+      "pages": "12049–12072",
+      "doi": "10.18653/v1/2025.findings-acl.624",
+      "url": "https://aclanthology.org/2025.findings-acl.624/",
+      "preprint": "2412.18431",
+      "abstract_summary_zh": "在常规检索器上增加图扩展，再结合多步检索框架；说明可以先改造现有检索链路而非更换整套系统。",
+      "transfer": "Bounded graph expansion over existing base retrieval",
+      "verification": [
+        "ACL Anthology formal metadata and PDF",
+        "arXiv discovery"
+      ]
+    },
+    {
+      "id": "P5",
+      "title": "GRAG: Graph Retrieval-Augmented Generation",
+      "authors": [
+        "Yuntong Hu",
+        "Zhihan Lei",
+        "Zheng Zhang",
+        "Bo Pan",
+        "Chen Ling",
+        "Liang Zhao"
+      ],
+      "year": 2025,
+      "venue": "Findings of NAACL 2025",
+      "pages": "4145–4157",
+      "doi": "10.18653/v1/2025.findings-naacl.232",
+      "url": "https://aclanthology.org/2025.findings-naacl.232/",
+      "preprint": "2405.16506",
+      "abstract_summary_zh": "检索文本子图并结合文本与拓扑信息，以支持多跳图推理。这里只借鉴保存路径结构的原则，不采用其训练或生成组件。",
+      "transfer": "Retain complete path and edge evidence rather than isolated terminal node",
+      "verification": [
+        "ACL Anthology formal metadata",
+        "arXiv discovery"
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "stars": 40314,
+      "archived": false,
+      "pushed_at": "2026-10-22T18:04:29Z",
+      "default_branch": "main",
+      "pinned_commit": "aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a",
+      "commit_date": "2026-10-14T14:55:37Z",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/LICENSE",
+      "license_header": "MIT License\n\nCopyright (c) 2025 LightRAG Team\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software",
+      "dependency_manifest_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/pyproject.toml",
+      "issue_evidence": [
+        {
+          "url": "https://github.com/HKUDS/LightRAG/issues/3346#issuecomment-4900016891",
+          "kind": "maintainer_response",
+          "note": "mix contexts may rely on entity/relation descriptions; a stale closure is not a verified fix"
+        }
+      ],
+      "inspected_sources": [
+        {
+          "path": "lightrag/operate.py",
+          "url": "https://raw.githubusercontent.com/HKUDS/LightRAG/aaebfe1bb8d55deb6a4304d357a3bf4c92fcd40a/lightrag/operate.py"
+        }
+      ],
+      "adoption": "Design reference only; no dependency installed and no external source copied into production"
+    },
+    {
+      "repository": "OSU-NLP-Group/HippoRAG",
+      "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+      "stars": 4077,
+      "archived": false,
+      "pushed_at": "2026-10-06T21:03:49Z",
+      "default_branch": "main",
+      "pinned_commit": "d5c8329422e0a0b834a15874545cb6a74b4f9b26",
+      "commit_date": "2026-10-06T21:03:48Z",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/LICENSE",
+      "license_header": "MIT License\n\nCopyright (c) 2025 OSU Natural Language Processing\n\nPermission is hereby granted, free of charge, to any person obtaining a cop",
+      "dependency_manifest_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/pyproject.toml",
+      "issue_evidence": [
+        {
+          "url": "https://github.com/OSU-NLP-Group/HippoRAG/issues/148#issuecomment-4774514749",
+          "kind": "maintainer_response",
+          "note": "member responded to reproduction question; reproduction is not independently established"
+        }
+      ],
+      "inspected_sources": [
+        {
+          "path": "src/hipporag/HippoRAG.py",
+          "url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/d5c8329422e0a0b834a15874545cb6a74b4f9b26/src/hipporag/HippoRAG.py"
+        }
+      ],
+      "adoption": "Design reference only; no dependency installed and no external source copied into production"
+    },
+    {
+      "repository": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "stars": 35232,
+      "archived": false,
+      "pushed_at": "2026-10-23T20:34:01Z",
+      "default_branch": "master",
+      "pinned_commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "commit_date": "2026-10-21T17:45:09Z",
+      "license": "Apache-2.0",
+      "license_url": "https://raw.githubusercontent.com/qdrant/qdrant/222b2e44ab1c3f17e8246396ead6558e45041df7/LICENSE",
+      "license_header": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apac",
+      "dependency_manifest_url": "https://raw.githubusercontent.com/qdrant/qdrant/222b2e44ab1c3f17e8246396ead6558e45041df7/Cargo.toml",
+      "issue_evidence": [
+        {
+          "url": "https://github.com/qdrant/qdrant/issues/10186#issuecomment-6360457001",
+          "kind": "maintainer_response",
+          "note": "member confirms acosh feature release"
+        },
+        {
+          "url": "https://github.com/qdrant/qdrant/issues/11002",
+          "kind": "community_bug_report",
+          "note": "leaf prefetch MMR ignored; read as report, not independently reproduced"
+        }
+      ],
+      "inspected_sources": [],
+      "adoption": "Design reference only; no dependency installed and no external source copied into production"
+    },
+    {
+      "repository": "run-llama/llama_index",
+      "url": "https://github.com/run-llama/llama_index",
+      "stars": 52648,
+      "archived": false,
+      "pushed_at": "2026-10-23T13:51:39Z",
+      "default_branch": "main",
+      "pinned_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "commit_date": "2026-10-14T15:29:28Z",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+      "license_header": "The MIT License\n\nCopyright (c) Jerry Liu\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and ",
+      "dependency_manifest_url": "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/pyproject.toml",
+      "issue_evidence": [
+        {
+          "url": "https://github.com/run-llama/llama_index/issues/17494#issuecomment-2585966264",
+          "kind": "maintainer_response",
+          "note": "collaborator asks about APOC setup"
+        },
+        {
+          "url": "https://github.com/run-llama/llama_index/issues/15511",
+          "kind": "community_bug_report",
+          "note": "external vector store selection; branch order also inspected in pinned code"
+        }
+      ],
+      "inspected_sources": [
+        {
+          "path": "llama-index-core/llama_index/core/indices/property_graph/sub_retrievers/vector.py",
+          "url": "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/indices/property_graph/sub_retrievers/vector.py"
+        },
+        {
+          "path": "llama-index-core/llama_index/core/indices/property_graph/retriever.py",
+          "url": "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/indices/property_graph/retriever.py"
+        }
+      ],
+      "adoption": "Design reference only; no dependency installed and no external source copied into production"
+    },
+    {
+      "repository": "langchain-ai/langchainjs",
+      "url": "https://github.com/langchain-ai/langchainjs",
+      "stars": 18293,
+      "archived": false,
+      "pushed_at": "2026-10-23T19:05:24Z",
+      "default_branch": "main",
+      "pinned_commit": "38eb4d8f08b13a36b7d79c976bbdc56e250d87de",
+      "commit_date": "2026-10-22T17:54:39Z",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/langchain-ai/langchainjs/38eb4d8f08b13a36b7d79c976bbdc56e250d87de/LICENSE",
+      "license_header": "MIT License\n\nCopyright (c) LangChain, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software an",
+      "dependency_manifest_url": "https://raw.githubusercontent.com/langchain-ai/langchainjs/38eb4d8f08b13a36b7d79c976bbdc56e250d87de/libs/langchain-core/package.json",
+      "issue_evidence": [
+        {
+          "url": "https://github.com/langchain-ai/langchainjs/issues/11944",
+          "kind": "community_response",
+          "note": "human community replies observed; no maintainer reply established in sampled thread"
+        },
+        {
+          "url": "https://github.com/langchain-ai/langchainjs/issues/11963",
+          "kind": "unanswered_community_bug_report",
+          "note": "middleware swallowing nonretryable/control-flow errors; no comments at retrieval, not verified as RunnableWithFallbacks defect"
+        }
+      ],
+      "inspected_sources": [
+        {
+          "path": "libs/langchain-core/src/runnables/base.ts",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langchainjs/38eb4d8f08b13a36b7d79c976bbdc56e250d87de/libs/langchain-core/src/runnables/base.ts"
+        }
+      ],
+      "adoption": "Design reference only; no dependency installed and no external source copied into production"
+    }
+  ],
+  "official_docs": [
+    {
+      "url": "https://qdrant.tech/documentation/search/hybrid-queries/",
+      "use": "prefetch candidate generation and main-query fusion/rerank are separate stages"
+    }
+  ],
+  "evidence_boundary": "Paper results, GitHub stars, issue reports and source inspection do not prove target-system quality or robustness. Proposed parameters and acceptance gates are engineering decisions requiring local validation."
+}

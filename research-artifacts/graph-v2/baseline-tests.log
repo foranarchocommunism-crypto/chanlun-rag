@@ -1,0 +1,64 @@
+
+> @chan-kg/agent@0.3.0 test
+> node --test test/*.test.mjs
+
+✔ 固定底本覆盖907个实际PDF页面与108课，语义进度独立 (85.5294ms)
+✔ 两字词可查，并且默认命题均已复核 (403.2862ms)
+✔ 独立条件和例外中的完整短语可直接命中并排在概念泛匹配之前 (53.2452ms)
+✔ 核心中枢定义保留数量、连续、次级别及完成条件 (2.6126ms)
+✔ 最低不可分解级别的定义入口独立保留 (1.6589ms)
+✔ 盘整及趋势保留完成状态与趋势方向条件 (8.9586ms)
+✔ 实际PDF75页提问、作者答复、下一课正确分开 (2.3201ms)
+✔ 无冒号嵌入作者时间头后的答复正确识别 (1.5844ms)
+✔ 每个复核引用精确对应归一文本及实际PDF字符 (7390.5362ms)
+✔ 作者明说与推论有独立身份和可解析前提链 (7.1092ms)
+✔ 重叠例子的算术答案独立标为整理推论，不补出中枢成立条件 (5.0137ms)
+✔ 前段尾部的新时间头只修订其后内容日期 (2.5488ms)
+✔ 解盘技术补充保留作者身份、递归入口和成交分笔的区别 (1.7883ms)
+✔ 简短组合回复保留问题范围，低级别卖点不冒充日线背驰定位 (3.0919ms)
+✔ 中枢的九段延伸不被当成所有中枢必要条件，笔破坏与线段破坏分开 (3.6983ms)
+✔ 作者错误图警示及后加图来源与文字命题分别保留 (2.2691ms)
+✔ 71课错误图的更正保留81课限定及作者认可读者答案的证据链 (3.3463ms)
+✔ 新笔两个联合条件及新旧标准选择分别可查 (2.7376ms)
+✔ 中枢简式的回升或回调是替代条件，来源时间头不污染跨页评论 (1.3705ms)
+✔ 候选必须显式开启，重要性与复核状态独立 (154.9262ms)
+✔ 字符串false和隐式数值转换不能开启候选或改变查询规模 (165.5733ms)
+✔ 汇编后记和006年读者头不会留作作者候选，后加图有独立来源状态 (121.8266ms)
+✔ 关系均由已复核命题支持，等级筛选沿同一依据 (142.2293ms)
+✔ 分页与邻域截断明确，不返回无限图 (132.869ms)
+✔ Agent CLI独立运行并与公共查询模块结果一致 (249.5734ms)
+✔ 固定底本哈希、数据库约束及只读行为可核验 (142.0996ms)
+✔ default hybrid graph reranker returns precise cited definition, complete conditions and true channels (6453.9837ms)
+✔ graph paths preserve direction, hops, real supports and a hard path budget (6.0101ms)
+✔ semantic research still partitions pending and preserves cross-page sources (583.2377ms)
+✔ concurrent API requests are serialized through one model session and failure does not poison the queue (62.8477ms)
+✔ Chinese two-character concepts and ASCII parameters survive normalization (5.4703ms)
+✔ rare terms can beat generic terms; ties remain deterministic; unknown query is empty (1.3091ms)
+✔ a repeated quote or duplicated evidence row cannot inflate the unique passage budget (1.1799ms)
+✔ fusion rewards independent channel agreement and ignores duplicate items within one channel (0.4438ms)
+✔ ranking metrics agree with hand calculated rank two and three relevance (0.4311ms)
+✔ duplicate ranks do not inflate metrics; no gold has no fabricated perfect score (0.2151ms)
+✔ reviewed and candidate pools match the fixed graph; triage is character coverage, not semantic equivalence (17.1526ms)
+✔ all 473 ambiguous reviewed claims remain accessible with exact original conditions and notes (634.9773ms)
+✔ pending content requires explicit research and cannot be enabled by string false (648.8195ms)
+✔ known scope tension brings both sides and preserves unresolved identity (268.7682ms)
+✔ qualitative guidance returns unknown thresholds and literal qualified wording (5.2426ms)
+✔ source mode preserves reader attribution and never marks paragraph context reviewed (883.7152ms)
+✔ tiny budgets defer whole evidence/issue units and preserve a real continuation command (2.7667ms)
+✔ unicode windows use codepoints and can join a supplementary character without corrupting source offsets (0.3939ms)
+✔ a deferred source passage gives executable page parameters and preserves source attribution (7.1348ms)
+✔ missing/stale/corrupt index is explicit and fallback requires a boolean opt-in (1528.5075ms)
+✔ 长期开启的会话读取当前版本，拒绝半发布数据并释放读事务 (1402.9675ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11871.4169
+npm notice
+npm notice New major version of npm available! 11.12.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

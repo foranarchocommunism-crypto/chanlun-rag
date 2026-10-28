@@ -1,0 +1,90 @@
+{
+  "graph_version": "0.1.0-review-00cb21ad34ab",
+  "schema_version": "1.1.0",
+  "checks": [
+    "二三买重合的联合条件、扩大中枢可能及同级别限制保留",
+    "大资金阻击的联合例外与自有资金期限限制保留",
+    "奔走型A高点、平走替代与三层定位保留；参照歧义未隐藏",
+    "标准MACD的完成与面积条件、近似估计限制及盘整两分支可查",
+    "缺失问题的两次回拉未进入默认库；单价重叠问题和实际答复身份分开",
+    "原文代码异常原样保存；后加601333图不能把未确认摆脱改为成功"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "重合",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "标准MACD"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "盘整背驰",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "背驰",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-f2ff687c6e5ac289"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 143
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "6000217",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "desktop_core_sha256": "7764b20fd7abf70888e5f1f489ff5db061ac57686afb0c460f4a39b763f960fe",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "验证共享模块、桌面vendor及独立CLI，未执行Electron界面。",
+    "以上来源语义场景属于同模型开发验收，不宣称独立或人工金标准。"
+  ]
+}

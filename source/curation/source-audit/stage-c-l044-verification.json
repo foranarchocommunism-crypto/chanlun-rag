@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-1cb86d91f463",
+  "schema_version": "1.1.0",
+  "checks": [
+    "33新增；小背驰-大转折末个次级中枢三卖/三买为必要非充分，回c`非必回B，正常震荡不转大、破坏后仍不能据此断定大转折",
+    "本例5分回试类型高点保完整嵌套，不换GG或30分中枢上沿；先破再向上回抽退出，相等/完成未补，强势嵌套原词保留；本例5分下行与43一般1分盘整作用域区分",
+    "同级实际背驰且本级操作先给可全仓情境，容量较大末小中枢三卖/更小顶背可分批而非任意小点全抛；部分比例/成交未定义，底反向为作者概述非完整代码算法",
+    "MACD5.10.10是读者未获认可，改操作级别有熟练/容量精度前提；过程正确与结果更好分层，1分仅例可推广5分或以下而不抹同级与小级两支",
+    "换股站稳对象未明、跌不必空方不等必多头、政策唯一风险/半仓/二线必启/20年牛市为历史意见，未静配000912至20倍；3跨日和12空格规范、前段及尾头不改",
+    "47全段台账、4命题6配图关联逐项核，两图署张大山习作按后加学习者图保存；GG/蓝线非作者新增定义，未补全全书/真实桌面验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "小背驰 大转折"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅小背驰-大转折定理",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "交易容量",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-f28976ee551ad8c1"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 317
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "5.10.10",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 4,
+    "associations": 6,
+    "unique_figures": 2
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查及模块一致性，非独立语义审查或Windows实际运行/PDF交互。",
+    "未补全嵌套阈值所有相等/确认/比例/底部镜像/成交；学习者图不作作者定义，历史强收益和20年牛市未实证。"
+  ]
+}

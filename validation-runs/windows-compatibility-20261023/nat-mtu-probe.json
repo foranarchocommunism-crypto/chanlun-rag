@@ -1,0 +1,14 @@
+﻿{
+    "before":  [
+                   {
+                       "InterfaceIndex":  4,
+                       "InterfaceAlias":  "Ethernet",
+                       "NlMtu":  1500
+                   }
+               ],
+    "test_mtu":  1280,
+    "curl_exit":  28,
+    "headers":  null,
+    "body":  null,
+    "restored":  true
+}

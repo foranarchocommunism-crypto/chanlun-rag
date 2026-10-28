@@ -1,0 +1,94 @@
+{
+  "started_at": "2026-10-23T02:50:27.697Z",
+  "product_root": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712",
+  "passed": false,
+  "checks": [
+    {
+      "name": "all_file_checksums",
+      "passed": true,
+      "verified_files": 7772
+    },
+    {
+      "name": "status_from_bundled_runtime_isolated_PATH",
+      "passed": true,
+      "graph_version": "0.1.0-review-307029129712"
+    },
+    {
+      "name": "offline_default_retrieval",
+      "passed": true,
+      "elapsed_ms_cli": 6171.975500000008,
+      "runtime": {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 4113.5773,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 290.10590000000013
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 488.07140000000004,
+            "query_tokens": 36,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 17,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 24.57899999999995
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 3278.5044000000003
+          }
+        }
+      }
+    },
+    {
+      "name": "ambiguity_research_source_modes",
+      "passed": true
+    }
+  ],
+  "environment": {
+    "hostname": "DESKTOP-8QKC5VN",
+    "os_release": "10.0.19045",
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v24.15.0",
+    "executable": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712\\runtime\\node.exe",
+    "cpu": "Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz",
+    "current_directory": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent",
+    "independent_clean_windows_verified": false,
+    "context": "Actual portable artifact; independent environment identity requires separate review"
+  },
+  "network_policy": "Node fetch/http/https/net/tls/dns disabled by verification preload; OS connection state is not changed or claimed disconnected",
+  "native_runtime_modules": [
+    "C:\\Windows\\SYSTEM32\\MSVCP140.dll",
+    "C:\\Windows\\SYSTEM32\\VCRUNTIME140.dll",
+    "C:\\Windows\\SYSTEM32\\VCRUNTIME140_1.dll",
+    "C:\\Windows\\SYSTEM32\\MSVCP140_ATOMIC_WAIT.dll",
+    "C:\\Windows\\SYSTEM32\\MSVCP140_1.dll"
+  ],
+  "error": {
+    "message": "Runtime loaded outside bundle: C:\\Windows\\SYSTEM32\\MSVCP140.dll",
+    "stack": "AssertionError [ERR_ASSERTION]: Runtime loaded outside bundle: C:\\Windows\\SYSTEM32\\MSVCP140.dll\n    at file:///C:/Users/13240/Desktop/RAG/deliveries/chan-kg-agent-0.2.0-307029129712/app/scripts/verify-portable.mjs:71:44"
+  },
+  "finished_at": "2026-10-23T02:51:47.648Z"
+}

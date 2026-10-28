@@ -1,0 +1,52 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-39acce842c80",
+  "lessons": [
+    60
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册60课同模型四轮复核",
+  "passages_read": 38,
+  "claims": 26,
+  "evidence": 31,
+  "importance_counts": {
+    "1": 22,
+    "2": 4
+  },
+  "new_concepts": [
+    "走势破坏"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    451,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457
+  ],
+  "figure_objects_viewed": 4,
+  "figure_origin_counts": {
+    "unverified": 2,
+    "later_annotation": 2
+  },
+  "pending": [
+    "upper-l060-c-stage-pending-expectations-model-samelevel-overlap-not-predict-fear",
+    "upper-l060-c-stage-pending-lowest-operable-precision-and-45-46-small-to-large",
+    "upper-l060-c-stage-pending-55-first-only-analogy-58-61-vs-from60-center-and46",
+    "upper-l060-c-stage-pending-news-zero-effect-second-sell-level-and-fast-space-exceptions",
+    "upper-l060-c-stage-pending-4224-4254-one-vs-five-third-points-and-four-stock-shapes",
+    "upper-l060-c-stage-pending-three-date-spaces-four-figures-and-historical-PE-law"
+  ],
+  "source_passages_snapshot_sha256": "50420ef133369d290e61862ac1334ba32920947a1ecc2afff4ee4d668c787bde",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "delivery_scope": "shared_knowledge_base_only",
+  "acceptance": "60课38段7页4整图同模型四轮，3时间空格及2未核2后加图；预期模型/实际最低级别/55假一买/中枢锚点/消息级别与快空间例外/1和5分三类点分存，待预检。"
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-22T08:03:46.372Z",
+  "models_offline_only": true,
+  "dimensions": 512,
+  "pooling": "cls",
+  "normalize": true,
+  "original_metadata_checked": true,
+  "original_pytorch_output_compared": false,
+  "scope": "Fixed original pooling/config and converted ONNX fp32 versus q8 outputs; not an independent PyTorch or semantic correctness proof.",
+  "model_manifest_sha256": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+  "samples": [
+    {
+      "text": "相邻K线有包含关系，向下合并时取较低的高点和较低的低点。",
+      "cosine_fp32_q8": 0.9926121373803652,
+      "q8_norm": 1.0000000783429477,
+      "tokens": 30
+    },
+    {
+      "text": "走势类型完成后才能按两个同向中枢定义趋势。",
+      "cosine_fp32_q8": 0.9909920499159847,
+      "q8_norm": 0.9999998607371888,
+      "tokens": 23
+    },
+    {
+      "text": "第三类买点的回抽不能回到原中枢区间。",
+      "cosine_fp32_q8": 0.9925599697797701,
+      "q8_norm": 0.9999998737671758,
+      "tokens": 20
+    },
+    {
+      "text": "为这个句子生成表示以用于检索相关文章：同级别中枢之间的连接一定是次级别吗？",
+      "cosine_fp32_q8": 0.9888639520092715,
+      "q8_norm": 0.9999998527704174,
+      "tokens": 39
+    },
+    {
+      "text": "Zn相应配合未提供唯一数值阈值。",
+      "cosine_fp32_q8": 0.9920628379252874,
+      "q8_norm": 1.0000000185568834,
+      "tokens": 17
+    },
+    {
+      "text": "读者提问不能作为作者明确结论。",
+      "cosine_fp32_q8": 0.9936163200166945,
+      "q8_norm": 0.999999911081898,
+      "tokens": 17
+    },
+    {
+      "text": "中枢是什么？",
+      "cosine_fp32_q8": 0.9909674333296598,
+      "q8_norm": 1.0000001127101472,
+      "tokens": 8
+    },
+    {
+      "text": "股票收益经验不是经过本项目独立验证的成功率。",
+      "cosine_fp32_q8": 0.9919053943254247,
+      "q8_norm": 1.0000000083034932,
+      "tokens": 24
+    }
+  ],
+  "min_cosine": 0.9888639520092715,
+  "mean_cosine": 0.9916975118353072,
+  "fp32_ms": 805.0195,
+  "q8_ms": 217.40959999999995,
+  "process_peak_rss_bytes": 257220608,
+  "memory": {
+    "rss": 251736064,
+    "heapTotal": 37019648,
+    "heapUsed": 18203752,
+    "external": 9287288,
+    "arrayBuffers": 2082331
+  },
+  "passed": true
+}

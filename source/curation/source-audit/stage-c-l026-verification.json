@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-31581ef72e83",
+  "schema_version": "1.1.0",
+  "checks": [
+    "47新增；可交易期限/交易有效前提与突然终止/取消例外、普通停牌不同，319自述明确非看图，降级只尽量控制期限风险",
+    "负成本/负报价、目标原数量/逐刻数量不混；未具名认购不猜认沽；手续费示例和战无不胜为作者自述而非收益实证",
+    "级别/数量视角仍受强弱、日线方向、指数个股一致、小资金与连绵跌势限制；1/3或1/4及新手日线买点条件保留",
+    "纯技术与中长线基本面分工、不轻斩仓与重仓减半/退市/旧买点失效防护并存；5.9和TCL后评是条件化历史判断",
+    "中枢无关均线、三买反问和600836时间按原文保存，不造邻接价序定律；业绩1元/降成本10%未实证，读者预言不当作者认可",
+    "6段日期修正只管嵌头后文，记者转载仍读者，原词周线中线/顺便不改；6图4后加2未核，26有阅读记录而全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "资金有限期等于自行设置交易停止时限"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "交易有效性",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "资金期限",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-aad95318c10d5eff"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 173
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "如无意外",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型来源边界检查与模块一致性，不是独立语义审查、财务回测或Windows实际离线/PDF交互。",
+    "作者无风险/战无不胜强主张、负成本交易自述和业绩预测均未由本检查证实。"
+  ]
+}

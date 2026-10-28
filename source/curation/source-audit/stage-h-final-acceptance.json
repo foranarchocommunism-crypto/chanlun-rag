@@ -1,0 +1,69 @@
+{
+  "graph_version": "0.1.0-review-307029129712",
+  "delivery_scope": "shared_knowledge_base_only",
+  "user_scope_instruction": "知识库最终构建完成即可交付，不需要继续构建软件。",
+  "knowledge_construction_scope_processed": true,
+  "knowledge_delivery_complete": true,
+  "all_explanations_confirmed": false,
+  "semantic_completion": false,
+  "source_boundary": "Only the two fixed compiled PDFs; no verbatim comparison with original blog, no external verification of historical trading/legal/performance assertions.",
+  "requirement_results": [
+    {
+      "requirement": "固定两册PDF共907页及108课正文/可识别作者技术答疑完整处理，逐来源单元记录处理/待核/排除原因",
+      "status": "passed_with_explicit_pending",
+      "proof": "stage-h-l064-checkpoint.json"
+    },
+    {
+      "requirement": "SQLite唯一事实源，完整条件/级别/例外、身份/日期/坐标/原文映射、明说与推论、复核与歧义状态分别保留",
+      "status": "passed_with_explicit_ambiguity",
+      "proof": "Current SQLite integrity/FK and source-role/evidence/review/support audit; full quote validation and 33 tests recorded in stage-h-l064-publication.json."
+    },
+    {
+      "requirement": "涉及配图实际查看并记录原发/后加/未核来源，混合旁注和读者不能冒作者证据",
+      "status": "passed_with_unverified_authorship_retained",
+      "proof": "stage-h-final-figure-log-completion.json"
+    },
+    {
+      "requirement": "最终同版本SQLite、原文资源、manifest、JSONL/Markdown及coverage导出",
+      "status": "passed",
+      "proof": null
+    },
+    {
+      "requirement": "覆盖统计、来源与引文验证、未解决问题/已知检索工具限制及构建记录",
+      "status": "passed_with_documented_limits",
+      "proof": [
+        "stage-h-final-reviewed-ambiguities.jsonl",
+        "../upper/pending.jsonl",
+        "../lower/pending.jsonl",
+        "../../evaluation/stage-h-final-baselines-307029129712.results.json"
+      ]
+    },
+    {
+      "requirement": "知识库可交付目录或压缩包及校验信息",
+      "status": "passed_actual_directory_and_archive_verified",
+      "proof": "stage-h-final-kb-delivery-receipt.json"
+    }
+  ],
+  "delivery_receipt": "stage-h-final-kb-delivery-receipt.json",
+  "archive_sha256": "80d13cfacca2c09cebf318579c27168771575c3a5213a50b319da033ae68d6dc",
+  "remaining_delivery_requirements": [],
+  "unresolved_knowledge": {
+    "reviewed_ambiguity": 473,
+    "pending_candidates_not_default": 2611,
+    "unverified_figure_origins": 265,
+    "later_annotation_figures": 263,
+    "details": "stage-h-final-kb-quality.json and packaged README/audit"
+  },
+  "known_limits": [
+    "Full-sentence native search remains weak; data delivery is not a validated natural-language QA product. Use concepts/keywords and inspect conditions/source evidence.",
+    "Vector baseline not implemented; fusion is offline evaluation only, no software feature added.",
+    "240 model-reviewed development cases are not an independent/human gold test. Precision is a lower bound against annotated passages; unannotated results are not automatically irrelevant.",
+    "No generated-answer faithfulness, human semantic score, conflict detection rate, adversarial score, visual interaction, ablation or generalization claim.",
+    "265 figure origins remain unverified and 263 are later annotations; viewing does not establish author identity.",
+    "473 reviewed claims retain explicit ambiguity, 2611 candidates remain excluded from default knowledge. Unresolved interpretation is not silently fixed.",
+    "9138 historical lesson-row hashes match current text; 167 legacy rows lack historical text hashes but contain per-passage dispositions. No fabricated historical hashes.",
+    "Software deliverables and desktop UI/build/package acceptance are excluded by the direct user scope."
+  ],
+  "software_deliverables_excluded": true,
+  "completed_at": "2026-10-21T16:42:04.618582+00:00"
+}

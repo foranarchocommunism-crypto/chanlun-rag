@@ -1,0 +1,486 @@
+{
+  "plan_version": "1.0.0",
+  "created_on": "2026-10-25",
+  "status": "design_only",
+  "implementation_complete": false,
+  "new_acceptance_passed": false,
+  "parameters": {
+    "default_total_rerank_budget": 48,
+    "protected_text_max": 40,
+    "graph_additions_max": 8,
+    "cost_alternative_total": 44,
+    "legacy_budget_support": [
+      20,
+      40
+    ],
+    "default_graph_depth": 2,
+    "path_budget": 20,
+    "hop1_default": 12,
+    "hop2_default": 8,
+    "seed_nodes_max": 8,
+    "fanout_per_node_layer": 4,
+    "adjacency_reads_per_node": 32,
+    "node_visits_max": 64,
+    "edge_reads_max": 512,
+    "support_checks_max": 1024,
+    "graph_deadline_ms": 100,
+    "auxiliary_bridge_claims_max": 8,
+    "context_budget_codepoints": 60000,
+    "query_root_required": true
+  },
+  "baseline_arms": [
+    "L_current_default",
+    "T40_graph_disabled",
+    "T48_equal_compute_text",
+    "G1_new_admission_one_hop",
+    "G2_new_admission_two_hop",
+    "G2_F_graph_fault",
+    "optional_T44_Graph40plus4"
+  ],
+  "data": {
+    "legacy_development_cases": 240,
+    "legacy_exposed_acceptance_cases": 24,
+    "new_development_target": 60,
+    "new_holdout_target": 120,
+    "new_holdout_strata": {
+      "two_hop": 60,
+      "ordinary": 30,
+      "conditions_ambiguity_negation": 15,
+      "out_of_domain": 15
+    },
+    "minimum_distinct_two_hop_chains": 30,
+    "requires_independent_source_annotation": true,
+    "split_unit": "source group or evidence chain",
+    "shortfall_policy": "report insufficient evidence; do not claim new default accepted"
+  },
+  "metrics": {
+    "recall20": "Fraction of gold passage IDs found among evidence attached to the first20 primary claims, with passage IDs deduplicated. Auxiliary bridge claims are excluded. Compute all arms afresh; do not directly reuse old passage-ranking metrics.",
+    "chain_primary_complete": "All annotated required evidence present in primary top20 claims; method does not need graph metadata to receive credit.",
+    "chain_context_complete": "All annotated evidence within shared context budget including separately counted auxiliary support; secondary metric only.",
+    "statistics": "paired bootstrap by independent chain/source group,95% interval; no optional stopping or post-holdout retuning"
+  },
+  "gates": [
+    {
+      "id": "mechanism",
+      "required": true,
+      "rule": "All deterministic cases pass; intended budget-fitting promotions actually appear in reranker input; no resource limit breached"
+    },
+    {
+      "id": "fallback",
+      "required": true,
+      "rule": "All recoverable graph failures match T40 under permissive policy; strict mode errors; fatal integrity/cancellation never swallowed"
+    },
+    {
+      "id": "two_hop_quality",
+      "required": true,
+      "rule": "On new two-hop stratum, G2 primary EvidenceRecall@20 >= T48+0.05 and G1+0.05; both paired95% interval lower bounds>0"
+    },
+    {
+      "id": "ordinary_quality",
+      "required": true,
+      "rule": "On ordinary stratum G2-L and G2-T48 point differences>=-0.01, paired95% lower bounds>=-0.02; zero critical definition/condition/negation regressions"
+    },
+    {
+      "id": "trace",
+      "required": true,
+      "rule": "Every claimed complete path has all valid edge sources, no reviewed/pending leakage, no transitive inference represented as author fact"
+    },
+    {
+      "id": "negative_cases",
+      "required": true,
+      "rule": "No anchor => graph skipped; no new irrelevant primary graph evidence or unsupported path conclusion on independently annotated hard/ambiguous/out-of-domain negatives"
+    },
+    {
+      "id": "resources",
+      "required": true,
+      "rule": "Warm end-to-end p95<=1.25*L and6000ms; graph p95<=50ms; RSS<=2GiB;cold<=12s;reranker input<=48"
+    },
+    {
+      "id": "delivery",
+      "required": true,
+      "rule": "Fresh offline extracted package passes actual JS/CLI/MCP queries and follow-up with matched hashes"
+    }
+  ],
+  "cases": [
+    {
+      "id": "A01",
+      "status": "planned_not_executed",
+      "kind": "admission",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "100 lexical and 100 dense distractors; supported graph-only claim G outside their union; total budget48",
+      "assertions": [
+        "G is in actual reranker input",
+        "base top40 remain present",
+        "input IDs unique and count<=48"
+      ]
+    },
+    {
+      "id": "A02",
+      "status": "planned_not_executed",
+      "kind": "real_model",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "Fresh isolated synthetic source with G as unique correct evidence; real local embedding and reranker",
+      "assertions": [
+        "G in primary top20",
+        "source follow-up resolves",
+        "not a mocked-score quality claim"
+      ]
+    },
+    {
+      "id": "A03",
+      "status": "planned_not_executed",
+      "kind": "admission",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "Duplicates across L/D/G, repeated paths and definition anchors",
+      "assertions": [
+        "same claim occupies one slot",
+        "graph_only,rescued,already_in_base,anchor counts distinct",
+        "at most two anchors; extra anchors consume graph allowance"
+      ]
+    },
+    {
+      "id": "A04",
+      "status": "planned_not_executed",
+      "kind": "budgets",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "Requested rerankBudget20/40/44/48 crossed with candidateBudget20/40/100",
+      "assertions": [
+        "effective R=min(requested,candidateBudget)",
+        "textProtected=min(40,R)",
+        "graphAllowance=min(8,R-textProtected)",
+        "no hidden overflow"
+      ]
+    },
+    {
+      "id": "A05",
+      "status": "planned_not_executed",
+      "kind": "admission",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "Empty graph; one graph candidate; new candidate already in base40",
+      "assertions": [
+        "no synthetic fill",
+        "base preserved",
+        "empty/skipped distinguishable from failed"
+      ]
+    },
+    {
+      "id": "A06",
+      "status": "planned_not_executed",
+      "kind": "admission",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "Two-hop path requires two new support claims; only one slot left",
+      "assertions": [
+        "whole promotion bundle deferred",
+        "no terminal-only admission represented as complete chain",
+        "subsequent smaller valid bundle may fit"
+      ]
+    },
+    {
+      "id": "B01",
+      "status": "planned_not_executed",
+      "kind": "two_hop",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "A-B-C with first-hop distractors and repeated supports; C graph-only",
+      "assertions": [
+        "hop2 gets reserved budget",
+        "C and necessary bridge support reach admission",
+        "first hop cannot consume all20 before hop2"
+      ]
+    },
+    {
+      "id": "B02",
+      "status": "planned_not_executed",
+      "kind": "two_hop",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "Single edge with20 support claims",
+      "assertions": [
+        "one distinct relation path consumes one path slot",
+        "canonical support deterministic",
+        "remaining supports available by IDs"
+      ]
+    },
+    {
+      "id": "B03",
+      "status": "planned_not_executed",
+      "kind": "eligibility",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "Remove bridge support; change bridge to pending/rejected; apply document/concept filters",
+      "assertions": [
+        "no propagation through ineligible support",
+        "research pending remains research",
+        "filters honored at every edge"
+      ]
+    },
+    {
+      "id": "B04",
+      "status": "planned_not_executed",
+      "kind": "bounds",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "100+ outgoing neighbors plus multi-seed frontier",
+      "assertions": [
+        "roots<=8; selected neighbors/node/layer<=4",
+        "adjacency reads/node<=32; total edge reads<=512",
+        "unique nodes<=64; support checks<=1024",
+        "ineligible/duplicate reads count toward limits"
+      ]
+    },
+    {
+      "id": "B05",
+      "status": "planned_not_executed",
+      "kind": "cycles",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "A-B-A cycle, reverse traversal, two roots sharing a bridge",
+      "assertions": [
+        "no repeated-node path",
+        "original direction preserved",
+        "legitimate distinct shared-bridge paths survive"
+      ]
+    },
+    {
+      "id": "B06",
+      "status": "planned_not_executed",
+      "kind": "budgets",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "graphDepth0/1/2 and graphBudget0/1/2/20/100",
+      "assertions": [
+        "all requested and hard limits hold",
+        "B1 effective depth1 reason visible",
+        "separate hop budget before reclaim",
+        "normal exhaustion not degraded"
+      ]
+    },
+    {
+      "id": "B07",
+      "status": "planned_not_executed",
+      "kind": "determinism",
+      "target": "test/graph-expansion-v2.test.mjs",
+      "fixture": "Same logical graph inserted in different row order",
+      "assertions": [
+        "stable seed/path/admission IDs",
+        "stable tie breaking",
+        "no dependence on database row order"
+      ]
+    },
+    {
+      "id": "B08",
+      "status": "planned_not_executed",
+      "kind": "path_packet",
+      "target": "test/graph-path-packet.test.mjs",
+      "fixture": "Two-edge path with conditions/exceptions/evidence for both steps",
+      "assertions": [
+        "all edge support IDs and sources present",
+        "association semantics retained",
+        "auxiliary bridge claims separately counted"
+      ]
+    },
+    {
+      "id": "B09",
+      "status": "planned_not_executed",
+      "kind": "path_packet",
+      "target": "test/graph-path-packet.test.mjs",
+      "fixture": "Small context fits terminal but not full path",
+      "assertions": [
+        "whole path deferred with follow-up",
+        "no complete-path success counter",
+        "all metadata counted in context budget"
+      ]
+    },
+    {
+      "id": "C01",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Graph optional cache preparation throws",
+      "assertions": [
+        "allowDegraded=true matches normalized T40 evidence",
+        "false returns GRAPH_UNAVAILABLE or GRAPH_EXECUTION_ERROR",
+        "no second embedding call"
+      ]
+    },
+    {
+      "id": "C02",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Iterator throws before first hop, during first hop, after second hop",
+      "assertions": [
+        "all partial graph state discarded",
+        "no graph ranks/anchors/paths in committed output",
+        "same text ordering and evidence as T40"
+      ]
+    },
+    {
+      "id": "C03",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Definition anchor selection throws after expansion",
+      "assertions": [
+        "all earlier graph expansion discarded",
+        "no pinned graph IDs",
+        "actual_channels reflects fallback"
+      ]
+    },
+    {
+      "id": "C04",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Computed graph output invalid but canonical corpus valid",
+      "assertions": [
+        "GRAPH_OUTPUT_INVALID is local",
+        "valid corpus not mislabeled corrupted",
+        "allowDegraded policy honored"
+      ]
+    },
+    {
+      "id": "C05",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Graph-only packet serialization/enrichment fails after reranking",
+      "assertions": [
+        "rollback uses text scores already computed",
+        "score tolerance and ranking equivalence verified",
+        "no rerun of lexical/dense or leakage of auxiliary path evidence"
+      ]
+    },
+    {
+      "id": "C06",
+      "status": "planned_not_executed",
+      "kind": "deadline",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Injected monotonic clock crosses deadline at known traversal position",
+      "assertions": [
+        "GRAPH_TIMEOUT",
+        "controlled fallback or strict error",
+        "deterministic test; not wall-clock flaky sleep",
+        "not Promise.race around synchronous loop"
+      ]
+    },
+    {
+      "id": "C07",
+      "status": "planned_not_executed",
+      "kind": "fatal",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Invalid request; canonical DB/version mismatch; canonical evidence missing; caller cancellation",
+      "assertions": [
+        "always fail/propagate cancellation even if allowDegraded=true",
+        "no synthetic successful packet"
+      ]
+    },
+    {
+      "id": "C08",
+      "status": "planned_not_executed",
+      "kind": "recovery",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Fail request1, then healthy request2; mixed queue",
+      "assertions": [
+        "no partially published cache",
+        "next healthy graph query succeeds",
+        "queue not poisoned"
+      ]
+    },
+    {
+      "id": "C09",
+      "status": "planned_not_executed",
+      "kind": "fault",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Graph plus dense failure; Graph plus reranker failure",
+      "assertions": [
+        "existing independent fallback policies preserved",
+        "all actual causes/channels reported",
+        "no claim of successful graph rerank"
+      ]
+    },
+    {
+      "id": "C10",
+      "status": "planned_not_executed",
+      "kind": "observability",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "source, zero depth, empty result, normal truncation, failed execution",
+      "assertions": [
+        "skipped/empty/budget_exhausted/failed separately recorded",
+        "attempted vs committed counts distinct",
+        "actual_channels never claims unused graph contribution"
+      ]
+    },
+    {
+      "id": "D01",
+      "status": "planned_not_executed",
+      "kind": "interfaces",
+      "target": "test/graph-degradation.test.mjs",
+      "fixture": "Same request via JS API, CLI, MCP and evidence continuation",
+      "assertions": [
+        "normalized evidence and error codes agree",
+        "contract fields and new budgets understood",
+        "legacy20/40 requests accepted"
+      ]
+    },
+    {
+      "id": "D02",
+      "status": "planned_not_executed",
+      "kind": "offline_package",
+      "target": "delivery verification",
+      "fixture": "Fresh extraction; public network unavailable; bundled models and source follow-up",
+      "assertions": [
+        "CLI/JS/MCP real runtime works",
+        "no external request required",
+        "program/profile/model/index/DB/contract hashes match receipt"
+      ]
+    },
+    {
+      "id": "Q01",
+      "status": "planned_not_executed",
+      "kind": "quality",
+      "target": "scripts/evaluate-graph-v2.mjs",
+      "fixture": "Frozen source/chain grouped new holdout with L,T40,T48,G1,G2 and G2-F",
+      "assertions": [
+        "Graph-only true-evidence gains measured independently of anchors",
+        "same-compute T48 comparison present",
+        "primary and auxiliary evidence metrics not conflated"
+      ]
+    },
+    {
+      "id": "P01",
+      "status": "planned_not_executed",
+      "kind": "performance",
+      "target": "scripts/evaluate-graph-v2.mjs",
+      "fixture": "Same host, prewarm;30 fixed queries x5 interleaved rounds plus cold launches",
+      "assertions": [
+        "end_to_end p95<=1.25*L and<=6000ms",
+        "graph p95<=50ms; hard cooperative deadline100ms",
+        "peak RSS<=2147483648; cold<=12000ms; max48 reranked",
+        "queue wait measured separately"
+      ]
+    },
+    {
+      "id": "A07",
+      "status": "planned_not_executed",
+      "kind": "routing",
+      "target": "test/graph-admission.test.mjs",
+      "fixture": "No query entity/alias root; explicit conceptId; paraphrase with no label; short/multiple-meaning label collision",
+      "assertions": [
+        "no anchor => skipped/no_query_anchor and no novel graph admissions",
+        "valid explicit roots respected and max8",
+        "paraphrase miss-trigger rate reported separately",
+        "literal collision negative relevance checked independently"
+      ]
+    }
+  ],
+  "required_future_artifacts": [
+    "evaluation/graph-v2/frozen-plan.json",
+    "evaluation/graph-v2/annotation-review.json",
+    "build/graph-v2/acceptance/per-query.jsonl",
+    "build/graph-v2/acceptance/metrics.json",
+    "build/graph-v2/acceptance/fault-results.json",
+    "build/graph-v2/acceptance/performance.json",
+    "build/graph-v2/acceptance/gate-results.json",
+    "build/graph-v2/acceptance/versions-and-hashes.json",
+    "fresh-extraction-delivery-receipt.json"
+  ],
+  "checker_contract": "Future verify-graph-v2-gates.mjs must exit nonzero for missing evidence, any planned/not_run status, or a failed required gate. This JSON is a specification and does not certify implementation.",
+  "research_executed": [
+    "admission-counterfactual.mjs on cached240 development queries; one-hop candidate coverage only"
+  ]
+}

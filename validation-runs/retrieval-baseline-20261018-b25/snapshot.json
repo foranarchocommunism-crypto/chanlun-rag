@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-10-17T17:35:46.530511+00:00",
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
+  "source_kb": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0",
+  "snapshot_directory": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\retrieval-baseline-20261018-b25",
+  "cases": 240,
+  "max_batch": 25,
+  "source_case_files": [
+    {
+      "name": "stage-g-batch-05.cases.jsonl",
+      "sha256": "ba34fcc3d9a12b9abe60a9c32aaeb8c044191e9802353937bfbd3c956357ae3d",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-07.cases.jsonl",
+      "sha256": "495b700cc03a8240ffe633c816c37c3abca827a438adf5a4021db283b82a1da8",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-08.cases.jsonl",
+      "sha256": "812299568f4b8741d3a89b0de114bc19a039150473ee81f6802abbfa84298fba",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-09.cases.jsonl",
+      "sha256": "2769be3b174792e0c7c464f7ec4ea36f6996f82ffa030db0ca0039b3a07c6565",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-10.cases.jsonl",
+      "sha256": "e2c06f8fa61795dc359a3107fe537a056259b3b94839c6e33912469a589e3343",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-11.cases.jsonl",
+      "sha256": "eda7de59e151928e3ca261563567f833ceef4eed2d57c7a1f59faa98d967752b",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-12.cases.jsonl",
+      "sha256": "224980b4692395691b542242cf221bd0a11921db33af6e34160cf5a5a19cd62b",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-13.cases.jsonl",
+      "sha256": "30a8245846e6eba64162a78329e3c6aa3479e28743881a8d3f70a75bd3869c37",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-14.cases.jsonl",
+      "sha256": "936f31c5e7b45f2600ca3ba52a3823321931fa27446c5b117738acf5cbe7bcbe",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-15.cases.jsonl",
+      "sha256": "fc95a3a6e46f55a8b3f8020bd5cbf2a143f08f72d33d981295e90320904858e5",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-16.cases.jsonl",
+      "sha256": "604af99d6d84f59c50c1109e80dfb0fb074b482c1f09a7240cc77ac2ea85b5e2",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-17.cases.jsonl",
+      "sha256": "72e9b3f055974260d3c48347213506bf68d985c40d2cbee5880dcb81faaf7468",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-18.cases.jsonl",
+      "sha256": "abacdb5681071de34733906f85efc18a1616cd88726269d09e6fef279c7bdff7",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-19.cases.jsonl",
+      "sha256": "338d0c7b1612b5d1524585c604807cd76e114012fa1341bf365dc8c79b1115e0",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-20.cases.jsonl",
+      "sha256": "c103400c5dfb952b2edcf88d607cbdd37e529ae3e761465f73f5775627cc1c2e",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-21.cases.jsonl",
+      "sha256": "43eacaf2a8ab97351ae5878fdde5a48b9606ae77804ea622a3d8aab539c2bc19",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-22.cases.jsonl",
+      "sha256": "4ecac091779bfec54e3656632acdd322c05ed9c8487d7c223de5c4a6a15e598c",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-23.cases.jsonl",
+      "sha256": "007f3301d1272507e1ad636991ddae33bab225518a6d42a506afaec881f2d75f",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-24.cases.jsonl",
+      "sha256": "3b84a17c3ea51f8287ebb7fcd7239c017b373820cd29900dcd0e4b3f5d42b247",
+      "cases": 12
+    },
+    {
+      "name": "stage-g-batch-25.cases.jsonl",
+      "sha256": "979d3ed83a56c5aa8a4dd04d9c259fc32256f5afc6a2958342bb0db3bcfe42b0",
+      "cases": 12
+    }
+  ],
+  "database_sha256": "4991b9b9cda84920066f146dfec184115287c9cd85bbe968bf88386ca5f04f1d",
+  "manifest_sha256": "d0531a265f5923d91cafd3b50a2cd586a3909a4535a2a40093071664efd158f2",
+  "cases_sha256": "a2e2287be836784e023d9dfbe5f6de6645fee46df23114bcb652e068528f292f",
+  "live_database_written": false,
+  "gold_review_status": "model_reviewed_development",
+  "human_gold_reviewed": false,
+  "independent_test_set": false,
+  "source_gold_files_written": false
+}

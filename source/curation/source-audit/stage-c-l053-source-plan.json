@@ -1,0 +1,353 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-58e2535c21e3",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0398-b008-s01",
+      "before": {
+        "published_at": "2007-05-2315:58:08"
+      },
+      "after": {
+        "published_at": "2007-05-23 15:58:08"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "925b53b288a5d774691a9c5054ef57e69aa5d07f887cd56f805118b532ad7cf8",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0398-b009",
+      "before": {
+        "published_at": "2007-05-2315:58:08"
+      },
+      "after": {
+        "published_at": "2007-05-23 15:58:08"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "f07eae8cdcf841e83705f783b0b46da221a34df6be46ce84aaf269ddd457a723",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0398-b010",
+      "before": {
+        "published_at": "2007-05-2315:58:08"
+      },
+      "after": {
+        "published_at": "2007-05-23 15:58:08"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "6cb7e996939a12cc748c019b55a5860f07fd57da4622cf67ecc3317a60bf971b",
+      "affected_references": [
+        {
+          "id": "evidence-f919e576b21e47dc",
+          "claim_id": "candidate-e416e5eb7fe8a1cb",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0398-b010-s01",
+      "before": {
+        "published_at": "2007-05-2316:10:00"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:10:00"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "346a9be99c9711e029abfd00dafa1935c6ed2ec6f2754173aa30b5781f55f922",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0398-b011",
+      "before": {
+        "published_at": "2007-05-2316:10:00"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:10:00"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "470bf91e16136d2d0674f56ba4921440a80cf116cdf7bad16c93b3368efd480e",
+      "affected_references": [
+        {
+          "id": "evidence-67c5d297a50445d7",
+          "claim_id": "candidate-e51a0b5a1e65dc07",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b000",
+      "before": {
+        "published_at": "2007-05-2316:10:00"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:10:00"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "ae4ad2633d346e6130f85dd0d52a7cee98aa7be649ea4fcfa2890ffe84c846cc",
+      "affected_references": [
+        {
+          "id": "evidence-b5246a270ca0d71e",
+          "claim_id": "candidate-3009838d8cf3904c",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b002-s01",
+      "before": {
+        "published_at": "2007-05-2316:12:37"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:12:37"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "b19e4748062eddde3a741686bacb52d6d06077c54ee165f526345761b46372e6",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b003",
+      "before": {
+        "published_at": "2007-05-2316:12:37"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:12:37"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "061ac508947849d1ff1fd9aafb467510f5cea7a78030a07ff4eb02f596276a28",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b005-s01",
+      "before": {
+        "published_at": "2007-05-2316:15:35"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:15:35"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "e685ac4aa64856195b3c853ea3de83d350cd6844edf17808015b8b6535813495",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b006",
+      "before": {
+        "published_at": "2007-05-2316:15:35"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:15:35"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "3b63bbec6f9b659cfe336e14a9913d806c49a44099ff824ba5c5ddabd7fc44d7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b008-s01",
+      "before": {
+        "published_at": "2007-05-2316:20:03"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:20:03"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "a4055700a0820a6a80843e54ce53ca41291267e15bb7b4e1765fc1dfcbfb51f3",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b009",
+      "before": {
+        "published_at": "2007-05-2316:20:03"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:20:03"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "30e7a0544cdc208c850afbf739c4e65afbc4267981909401d2656df39f8aadc4",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b011-s01",
+      "before": {
+        "published_at": "2007-05-2316:24:33"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:24:33"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "2ea01c9f830c46efc57ec8570bfd32c9a571376934cea33b74d01f4b34bb0344",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b012",
+      "before": {
+        "published_at": "2007-05-2316:24:33"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:24:33"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "fbfeafe9c2f68bc28b52d689f73397a20093f2c78b06fc7ad1dacd940163997e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b014-s01",
+      "before": {
+        "published_at": "2007-05-2316:26:36"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:26:36"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "37ca320b261a58501e6b95e783ac8e0e3b4f995e7e494a0b7b377774864de455",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b015",
+      "before": {
+        "published_at": "2007-05-2316:26:36"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:26:36"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "23de4675ede0d76f3af4e9312da4ec92f3160489d993ecfb10475c84d557c4e5",
+      "affected_references": [
+        {
+          "id": "evidence-b659dddf0cd6f904",
+          "claim_id": "candidate-eaa12c4a659bb2bf",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0399-b017-s01",
+      "before": {
+        "published_at": "2007-05-2316:28:55"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:28:55"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "fc3ff640a65783e440dbdbc09bbf445e8e68a984facd6880423795ec1e19cfbd",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0400-b000",
+      "before": {
+        "published_at": "2007-05-2316:28:55"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:28:55"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "a5f469858e2ab6ed5c8ac71784f6c2ddb63905a6bba45a25030762c5fdf685a1",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0400-b002-s01",
+      "before": {
+        "published_at": "2007-05-2316:30:04"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:30:04"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "647400eded1e52433513fae00fd796ef66516233289ef156f61611496d687d8b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0400-b003",
+      "before": {
+        "published_at": "2007-05-2316:30:04"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:30:04"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "cdf61d9f4b49acde079fe0390c3363378efd1ecea217ad4356ace84e3b7eb055",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0400-b005-s01",
+      "before": {
+        "published_at": "2007-05-2316:33:50"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:33:50"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "407457c716ae49729cf748d68c643505d16f61d244a310f5158828e34f2af41e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0400-b006",
+      "before": {
+        "published_at": "2007-05-2316:33:50"
+      },
+      "after": {
+        "published_at": "2007-05-23 16:33:50"
+      },
+      "reason": "实际核对PDF396至400作者署名及跨页承接，只补日期时刻空格；并触及/并一定要的原字、原文及几何映射均不改。",
+      "text_sha256": "157d94f27fc3215e8834b29c499b125b72c51524dcd5f3bc46a5e35132df83e1",
+      "affected_references": [
+        {
+          "id": "evidence-4cde3624f7c4e1c0",
+          "claim_id": "candidate-3d86968fe345026d",
+          "review_status": "pending"
+        }
+      ]
+    }
+  ],
+  "visual_pages": [
+    396,
+    397,
+    398,
+    399,
+    400
+  ],
+  "pending": [
+    "PDF397并触及与同段没有该级别第一类的字面张力、398并一定要原字均保留，不暗补未/不。",
+    "第二类形成更大级别中枢的相对级别与确认范围、复权跨课范围和100%获利/不用亏钱作者强语待核。"
+  ],
+  "reviewer": "Codex 主代理 / 53课固定级别、三类点用途、原字歧义和交易条件四轮复核"
+}

@@ -1,0 +1,92 @@
+{
+  "graph_version": "0.1.0-review-206b57a0a638",
+  "schema_version": "1.1.0",
+  "checks": [
+    "55条新增；一般划分非同级别，两重组依中枢成立，中枢优先而非任意三段九段",
+    "走势完成前提与相对危险保留；98仅加跨课歧义，旧文字/条件/证据及其他命题未改",
+    "30/5/1当前状态不互借，5分钟三卖两支与以后结束回拉才触30分钟三卖分层",
+    "一般数量即可执行与具体能力退出门槛并列，极小仓练习非无风险，小/大资金范围保留",
+    "日底雏形/成立/笔、日4391/周4695及中枢三买均不同确认对象，后期图不倒填",
+    "零轴必要用语与同篇非特殊、17非必要并列，作者低骗线频率未当实测胜率",
+    "分支按日筛除而非未来预知；减半/持有/换股依人群，3/4回中枢有当天文字",
+    "六图均后加，CHYS20091010及未来K线不作作者观点唯一证明，整体语义仍未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "中阴危险"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "中阴阶段",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "结合律",
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "完全分类",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-f71f318eaab6c599"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_2.pdf",
+        "page": 346
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "a+b+c+d+e+f",
+        "scope": "source"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "模块与CLI检查不是Windows成品离线、PDF高亮或实际界面验收。",
+    "同模型开发场景，不证明全部跨课范围已统一、完全分类可执行性、MACD必要性或作者收益/预测自述。"
+  ]
+}

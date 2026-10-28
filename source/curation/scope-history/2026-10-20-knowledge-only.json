@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-10-20T13:21:12.266854+00:00",
+  "source": "direct_user_instruction_in_current_chat",
+  "user_instruction": "知识库最终构建完成即可交付，不需要继续构建软件。",
+  "supersedes": "Original goal software deliverables and software acceptance requirements; knowledge-base corpus, provenance, curation and delivery requirements remain.",
+  "active_deliverable": "shared_knowledge_base_only",
+  "required": [
+    "固定两册PDF共907页及108课正文/可识别作者技术答疑完整处理，逐来源单元记录处理/待核/排除原因",
+    "SQLite唯一事实源，完整条件/级别/例外、身份/日期/坐标/原文映射、明说与推论、复核与歧义状态分别保留",
+    "涉及配图实际查看并记录原发/后加/未核来源，混合旁注和读者不能冒作者证据",
+    "最终同版本SQLite、原文资源、manifest、JSONL/Markdown及coverage导出",
+    "覆盖统计、来源与引文验证、未解决问题/已知检索工具限制及构建记录",
+    "知识库可交付目录或压缩包及校验信息"
+  ],
+  "excluded_software_deliverables": [
+    "独立Agent软件访问包及捆绑Node运行时/新启动器",
+    "Windows Electron应用继续开发、打包和软件交付",
+    "软件实际双击/离线交互、PDF缩放旋转/跨页高亮等验收"
+  ],
+  "existing_tooling_policy": "现有CLI/校验/导出工具可用于知识库构建验证；不继续扩展软件产品。现有检索回归应如实记录，不能改金标准或伪称已通过。",
+  "completion_rule": "知识库完成度按保留的语料/事实来源/完整处理/最终导出和交付证据审计；明确待核不等所有解释已统一，软件排除项不再作为未完成门槛。"
+}

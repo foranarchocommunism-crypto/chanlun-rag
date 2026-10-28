@@ -1,3 +1,3 @@
 @echo off
-call "%~dp0release\chan-kg-agent-0.4.0-windows-x64\chan-kg-mcp.cmd" %*
+call "%~dp0release\chanlun-rag-0.4.1-windows-x64\chan-kg-mcp.cmd" %*
 exit /b %errorlevel%

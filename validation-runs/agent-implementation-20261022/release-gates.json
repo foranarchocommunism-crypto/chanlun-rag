@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-23T02:44:30.602Z",
+  "local_release_gates_passed": true,
+  "scope": "Code/data/model/policy, frozen prospective quality/resource checks, contract tests, real MCP SDK roundtrip, sourced caller-agent examples. Artifact/ZIP validation follows packaging.",
+  "graph_version": "0.1.0-review-307029129712",
+  "profile_sha256": "fff766759d96c758d5b391e6e024ec9fe74665523aded4268ea52b288ecdba40",
+  "heldout": {
+    "cases": 24,
+    "independently_heldout_source_split": true,
+    "independent_human_annotation": false,
+    "quality_comparison_passed": true,
+    "aggregates": {
+      "actual": {
+        "at10": {
+          "recall": 1,
+          "ndcg_binary": 0.9554448565863914,
+          "all_annotated_evidence_found": 1
+        },
+        "at20": {
+          "recall": 1,
+          "ndcg_binary": 0.9554448565863914,
+          "all_annotated_evidence_found": 1
+        }
+      },
+      "lexical": {
+        "at10": {
+          "recall": 0.9583333333333334,
+          "ndcg_binary": 0.9039455099566315,
+          "all_annotated_evidence_found": 0.9583333333333334
+        },
+        "at20": {
+          "recall": 0.9583333333333334,
+          "ndcg_binary": 0.9039455099566315,
+          "all_annotated_evidence_found": 0.9583333333333334
+        }
+      }
+    },
+    "paired_difference_recall20": {
+      "mean": 0.041666666666666664,
+      "bootstrap_percentile95": [
+        0,
+        0.125
+      ],
+      "seed": 20261022,
+      "resamples": 5000,
+      "note": "Small source-disjoint model-annotated set; interval expresses sampling uncertainty, not independent human correctness."
+    }
+  },
+  "integrity_errors": 0,
+  "resources": {
+    "warm_query_p50_ms": 1634.6484999999993,
+    "warm_query_p95_ms": 2280.286400000001,
+    "cold_cli_ms": 7059.3606,
+    "process_peak_rss_bytes": 995618816
+  },
+  "resources_passed": true,
+  "canonical_inputs_unchanged": true,
+  "mcp": {
+    "real_stdio_sdk_client": true,
+    "native_gui_registration_tested": false,
+    "same_CLI_JS_MCP_data": true
+  },
+  "generated_examples": {
+    "cases": 4,
+    "path": "docs/agent-answer-examples.md",
+    "checked_evidence_ids": [
+      "evidence-53e646bde5c83836",
+      "evidence-e2f204b5ba5683d1",
+      "evidence-527d15f078213aa5",
+      "evidence-8594b23d2e79c6e4",
+      "evidence-0314033a1e0d0b19",
+      "evidence-0cdb778d0a898c46",
+      "evidence-43fafb8d9b822976",
+      "evidence-43d2caf1523ffb90",
+      "evidence-764295e3224a9cbe",
+      "evidence-cf1f6e37ebdb1ee2"
+    ],
+    "caller": "Current Codex agent, platform-described GPT-6 family; exact serving variant not separately exposed",
+    "independent_answer_review": false
+  },
+  "receipts": {
+    "m6-profile-freeze.json": "0341bf3c91efcffcb85073906f1265cbbd56233e4a6e2925da5bec83613391a2",
+    "m6-prospective-acceptance.json": "7fb132d4697630913d269bc68cdc93461f1ac3f43ac75c99ac075e8a8b313264",
+    "m5-default-mcp-roundtrip.json": "5d3e01e59a3473130994fd1da628f1e6484ba22418c87e2ba5629c09203d1101",
+    "pre-release-tests.log": "7736fd9b638cd88d9b1b6545dd765d7bc1ef08ad471f86835ab31771e2bf6dbc",
+    "m3-author-weights.json": "5c611d4424be4abe5a0ac336dadc07efc9f08f9b158b31cbd86df0ec6eaa5c42",
+    "m3-embedding-consistency.json": "33b89f11d2a715f0ce8cd006b61bb8fa96b4def5dc00576e43e33041ac00ad06"
+  },
+  "independent_windows_verified": false,
+  "independent_windows": "Deferred by direct user instruction: 暂时没有，先完成本机与交付件验证",
+  "full_independent_environment_acceptance_complete": false
+}

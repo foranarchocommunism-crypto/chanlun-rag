@@ -1,0 +1,73 @@
+{
+  "stage": "C",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-decdbfb1d167",
+  "lessons": [
+    75,
+    76,
+    77
+  ],
+  "document_id": "volume_2-5332cd1b6038",
+  "reviewer": "Codex 主代理 / 阶段C下册75至77课同模型四轮复核",
+  "passages_read": 234,
+  "claims": 75,
+  "evidence": 119,
+  "importance_counts": {
+    "3": 17,
+    "4": 21,
+    "1": 22,
+    "2": 15
+  },
+  "new_concepts": [],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
+  ],
+  "figure_objects_viewed": 10,
+  "neighboring_l074_figure_seen_but_excluded": "volume_2-5332cd1b6038-p0121-fig1",
+  "figure_origin_counts": {
+    "later_annotation": 7,
+    "unverified": 3
+  },
+  "pending": [
+    "lower-l075-l077-c-stage-pending-proof-bottom-branch-overlap",
+    "lower-l075-l077-c-stage-pending-finite-chain-proof",
+    "lower-l075-l077-c-stage-pending-62-63-unexpanded-answer",
+    "lower-l075-l077-c-stage-pending-74-75-no-marked-proof",
+    "lower-l075-l077-c-stage-pending-79-80-comparison-pair-unanswered",
+    "lower-l075-l077-c-stage-pending-measurement-equality-unspecified",
+    "lower-l075-l077-c-stage-pending-dream-talk-probability",
+    "lower-l075-l077-c-stage-pending-figure-dates-and-makers"
+  ],
+  "partial_resolutions": 1,
+  "source_passages_snapshot_sha256": "906caadf57f45e046e039638579dbea8dfeb0113ae1e168c1fc8e39f76bde3de",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": true,
+  "acceptance": "75条新增知识及119证据已发布，958条全量校验与两端查询模块一致性通过；8项待核、67课部分解除及未完成总目标均明确保留。",
+  "published_graph_version": "0.1.0-review-a80a4a9bf9cd"
+}

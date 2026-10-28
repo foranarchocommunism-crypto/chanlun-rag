@@ -1,0 +1,88 @@
+{
+  "graph_version": "0.1.0-review-7fa30c4809d4",
+  "schema_version": "1.1.0",
+  "checks": [
+    "42新增；先固定级别找最后已形成中枢非要求已结束，三位置/三点状态分类保技能例外；原第二种第2类买点衔接号差保歧义，瞬间精确点与足够小操作区间不冒预知/固定宽度",
+    "震荡一般收敛但可扩张更强而未三卖，三卖停止回补；三买前原枢震荡/完成上移持股/新枢再震荡区分，同级背驰退出不混所有小级；理想全仓不抹误判和新手部分、可直接三卖风险",
+    "两命名最大定理是作者陈述未附证明/执行假设，利润率平均利润除占资平均时间非年化且总体看频率；50%/10%和200%/500%无样本/审计，资金容量和小级无0成本限定不删",
+    "激进换股只三买/新枢退出，30例先5下后5上三择一退出不改成AND；无三买等待、最恶劣单边例外与频率条件保留，连接段补第三次级不冒高级中枢已完成，读者50/80抛法未认可",
+    "先比较段再MACD，观察周期不等信号级；49分笔面积与47柱长不静合，黄白柱/面子原字、0935/0931和3745上沿保来源，反问不冒已证无背驰，公司恶意不作事实，21时间仅补空格、83段全台账",
+    "7命题10关联4图逐项核，两流程原发未核不替正文校号/删例外，两4/27后K不证4/26预测或指标因果；只读模块一致非全书/真实Windows运行验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "利润率"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅第一利润最大定理",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "利润率",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-22b31dee1e823b04"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 356
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第二种第2类",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 7,
+    "associations": 10,
+    "unique_figures": 4
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同一模型边界/来源与模块一致性检查，非独立语义/回答质量或Windows实际运行。",
+    "最大定理未附证明，50/200/500未实证，编号/0931与0935/分笔面积与长度差异及完整执行条件未解决。",
+    "冻结g-b05-coincidence前20召回回归保持开放，未改金标准或核心排序规避。"
+  ]
+}

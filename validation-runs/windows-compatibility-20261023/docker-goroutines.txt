@@ -1,0 +1,648 @@
+HTTP/1.1 200 OK
+Api-Version: 1.55
+Content-Type: text/plain; charset=utf-8
+Docker-Experimental: false
+Ostype: windows
+Server: Docker/29.6.2 (windows)
+X-Content-Type-Options: nosniff
+Date: Fri, 23 Oct 2026 13:17:39 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+ad60
+goroutine 139 [running]:
+runtime/pprof.writeGoroutineStacks({0x163ffa26970, 0x3dde35db00c0})
+	/usr/local/go/src/runtime/pprof/pprof.go:819 +0x6b
+runtime/pprof.writeGoroutine({0x163ffa26970?, 0x3dde35db00c0?}, 0x3dde35b6c690?)
+	/usr/local/go/src/runtime/pprof/pprof.go:782 +0x25
+runtime/pprof.(*Profile).WriteTo(0x7ff7d82e6eb0?, {0x163ffa26970?, 0x3dde35db00c0?}, 0xc?)
+	/usr/local/go/src/runtime/pprof/pprof.go:408 +0x149
+net/http/pprof.handler.ServeHTTP({0x3dde35edc041, 0x9}, {0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0640)
+	/usr/local/go/src/net/http/pprof/pprof.go:273 +0x52a
+github.com/moby/moby/v2/daemon/server/router/debug.handlePprof({0x3dde35ac0360?, 0x7ff7d644cf98?}, {0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0640, 0x7ff7d3888d65?)
+	/go/src/github.com/docker/docker/daemon/server/router/debug/debug_routes.go:10 +0x53
+github.com/moby/moby/v2/daemon/server/middleware.(*ExperimentalMiddleware).WrapHandler.ExperimentalMiddleware.WrapHandler.func1({0x7ff7d65e00f0, 0x3dde35ac0600}, {0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0640, 0x3dde35ac03c0)
+	/go/src/github.com/docker/docker/daemon/server/middleware/experimental.go:26 +0xa3
+github.com/moby/moby/v2/daemon/server/middleware.(*VersionMiddleware).WrapHandler.VersionMiddleware.WrapHandler.func1({0x7ff7d65e00f0, 0x3dde35ac05d0}, {0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0640, 0x3dde35ac03c0)
+	/go/src/github.com/docker/docker/daemon/server/middleware/version.go:84 +0x2a4
+github.com/moby/moby/v2/pkg/authorization.(*Middleware).WrapHandler.func1({0x7ff7d65e00f0, 0x3dde35ac05d0}, {0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0640, 0x3dde35ac03c0)
+	/go/src/github.com/docker/docker/pkg/authorization/middleware.go:59 +0x333
+github.com/moby/moby/v2/daemon/server.(*Server).makeHTTPHandler.func1({0x7ff7d65d9f20, 0x3dde35db00c0}, 0x3dde35dc0500)
+	/go/src/github.com/docker/docker/daemon/server/server.go:76 +0x363
+net/http.HandlerFunc.ServeHTTP(0x7ff7d65e00f0?, {0x7ff7d65d9f20?, 0x3dde35db00c0?}, 0x7ff7d6598c80?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.(*middleware).serveHTTP(0x3dde35d115c0, {0x7ff7d65d28a0, 0x3dde35418ff0}, 0x3dde35dc03c0, {0x7ff7d65aa5c0, 0x3dde35d3d020})
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/handler.go:185 +0x12d8
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.NewMiddleware.func2.1({0x7ff7d65d28a0?, 0x3dde35418ff0?}, 0x7ff7d6591001?)
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/handler.go:67 +0x35
+net/http.HandlerFunc.ServeHTTP(0x7ff7d65e00f0?, {0x7ff7d65d28a0?, 0x3dde35418ff0?}, 0x7ff7d65910a0?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+net/http.HandlerFunc.ServeHTTP(0x3dde35dc0140?, {0x7ff7d65d28a0?, 0x3dde35418ff0?}, 0x3dde35ee7a48?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+github.com/gorilla/mux.(*Router).ServeHTTP(0x3dde353abb00, {0x7ff7d65d28a0, 0x3dde35418ff0}, 0x3dde35dc0000)
+	/go/src/github.com/docker/docker/vendor/github.com/gorilla/mux/mux.go:212 +0x1e2
+github.com/moby/moby/v2/daemon/command.(*httpHandler).ServeHTTP(0x7ff7d3888479?, {0x7ff7d65d28a0?, 0x3dde35418ff0?}, 0x3dde35ee7b68?)
+	/go/src/github.com/docker/docker/daemon/command/httphandler.go:39 +0x8d
+net/http.serverHandler.ServeHTTP({0x3dde35e2c000?}, {0x7ff7d65d28a0?, 0x3dde35418ff0?}, 0x1?)
+	/usr/local/go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x3dde35dc8000, {0x7ff7d65e00f0, 0x3dde35d3db90})
+	/usr/local/go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 59
+	/usr/local/go/src/net/http/server.go:3464 +0x485
+
+goroutine 1 [sync.WaitGroup.Wait, 48 minutes]:
+sync.runtime_SemacquireWaitGroup(0x3dde35d5b8f0?, 0x0?)
+	/usr/local/go/src/runtime/sema.go:114 +0x2e
+sync.(*WaitGroup).Wait(0x3dde35d47b70)
+	/usr/local/go/src/sync/waitgroup.go:206 +0x85
+github.com/moby/moby/v2/daemon/command.(*daemonCLI).start(0x3dde353cf130, {0x7ff7d65e00b8, 0x7ff7d83fcda0})
+	/go/src/github.com/docker/docker/daemon/command/daemon.go:398 +0x1953
+github.com/moby/moby/v2/daemon/command.runDaemon({0x7ff7d65e00b8, 0x7ff7d83fcda0}, 0x3dde353cf130)
+	/go/src/github.com/docker/docker/daemon/command/docker_windows.go:28 +0x89
+github.com/moby/moby/v2/daemon/command.newDaemonCommand.func1(0x3dde35802908, {0x3dde3581c390?, 0x7?, 0x7ff7d640eab7?})
+	/go/src/github.com/docker/docker/daemon/command/docker.go:48 +0xb9
+github.com/spf13/cobra.(*Command).execute(0x3dde35802908, {0x3dde35334090, 0x3, 0x3})
+	/go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1015 +0xb14
+github.com/spf13/cobra.(*Command).ExecuteC(0x3dde35802908)
+	/go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1148 +0x465
+github.com/spf13/cobra.(*Command).Execute(...)
+	/go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1071
+github.com/spf13/cobra.(*Command).ExecuteContext(...)
+	/go/src/github.com/docker/docker/vendor/github.com/spf13/cobra/command.go:1064
+github.com/moby/moby/v2/daemon/command.daemonRunner.Run({0x7ff7d65a8f60?}, {0x7ff7d65e00b8, 0x7ff7d83fcda0})
+	/go/src/github.com/docker/docker/daemon/command/docker.go:97 +0x6e
+main.main()
+	/go/src/github.com/docker/docker/cmd/dockerd/main.go:35 +0x112
+
+goroutine 17 [select, 48 minutes, locked to thread]:
+golang.org/x/sys/windows/svc.serviceMain(0x1, 0x163ba29a2b8)
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/svc/service.go:246 +0x35d
+
+goroutine 31 [select]:
+github.com/Microsoft/go-winio.(*win32PipeListener).makeConnectedServerPipe(0x3dde35830500)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:441 +0x14a
+github.com/Microsoft/go-winio.(*win32PipeListener).listenerRoutine(0x3dde35830500)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:471 +0xae
+created by github.com/Microsoft/go-winio.ListenPipe in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:536 +0x205
+
+goroutine 42 [select, 48 minutes]:
+io.(*pipe).read(0x3dde35338d20, {0x3dde357e2078, 0xff88, 0x0?})
+	/usr/local/go/src/io/pipe.go:57 +0xa7
+io.(*PipeReader).Read(0x3dde357e203c?, {0x3dde357e2078?, 0x3dde3572fe60?, 0x7ff7d3822b74?})
+	/usr/local/go/src/io/pipe.go:134 +0x1a
+bufio.(*Scanner).Scan(0x3dde3572ff28)
+	/usr/local/go/src/bufio/scan.go:219 +0x47b
+github.com/sirupsen/logrus.(*Entry).writerScanner(0x3dde35708690, 0x3dde35338d20, 0x3dde35820620)
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:86 +0x129
+created by github.com/sirupsen/logrus.(*Entry).WriterLevel in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:57 +0x31f
+
+goroutine 43 [select, 48 minutes]:
+io.(*pipe).read(0x3dde35338d80, {0x3dde35880000, 0x10000, 0x0?})
+	/usr/local/go/src/io/pipe.go:57 +0xa7
+io.(*PipeReader).Read(0x3dde3553fe08?, {0x3dde35880000?, 0x3dde358c0000?, 0x3dde3553fe60?})
+	/usr/local/go/src/io/pipe.go:134 +0x1a
+bufio.(*Scanner).Scan(0x3dde3553ff28)
+	/usr/local/go/src/bufio/scan.go:219 +0x47b
+github.com/sirupsen/logrus.(*Entry).writerScanner(0x3dde35708690, 0x3dde35338d80, 0x3dde35820630)
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:86 +0x129
+created by github.com/sirupsen/logrus.(*Entry).WriterLevel in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:57 +0x31f
+
+goroutine 44 [select, 48 minutes]:
+io.(*pipe).read(0x3dde35338de0, {0x3dde358ec000, 0x10000, 0x0?})
+	/usr/local/go/src/io/pipe.go:57 +0xa7
+io.(*PipeReader).Read(0x3dde35539e08?, {0x3dde358ec000?, 0x3dde3592c000?, 0x3dde35539e60?})
+	/usr/local/go/src/io/pipe.go:134 +0x1a
+bufio.(*Scanner).Scan(0x3dde35539f28)
+	/usr/local/go/src/bufio/scan.go:219 +0x47b
+github.com/sirupsen/logrus.(*Entry).writerScanner(0x3dde35708690, 0x3dde35338de0, 0x3dde35820640)
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:86 +0x129
+created by github.com/sirupsen/logrus.(*Entry).WriterLevel in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/sirupsen/logrus/writer.go:57 +0x31f
+
+goroutine 45 [syscall, 48 minutes]:
+syscall.syscalln(0x0?, 0x0?, {0x3dde3572bf30?, 0x7ff7d8308c30?, 0x3dde3572bee8?})
+	/usr/local/go/src/runtime/syscall_windows.go:431 +0x4e
+syscall.SyscallN(0x7ff7d8308c20?, {0x3dde3572bf30?, 0x0?, 0x7ff7d38a0801?})
+	/usr/local/go/src/syscall/dll_windows.go:99 +0x1e
+golang.org/x/sys/windows.StartServiceCtrlDispatcher(0x7ff7d64124b0?)
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/zsyscall_windows.go:1393 +0x65
+golang.org/x/sys/windows/svc.Run({0x7ff7d64124b0?, 0x0?}, {0x7ff7d65a9240, 0x3dde357076e0})
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/svc/service.go:300 +0x105
+github.com/moby/moby/v2/daemon/command.initService.func1()
+	/go/src/github.com/docker/docker/daemon/command/service_windows.go:268 +0x45
+created by github.com/moby/moby/v2/daemon/command.initService in goroutine 1
+	/go/src/github.com/docker/docker/daemon/command/service_windows.go:266 +0x326
+
+goroutine 46 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon/command.(*handler).Execute(0x3dde357076e0, {0x3dde3570a820?, 0x2?, 0x2?}, 0x3dde352fe770, 0x3dde352fe7e0)
+	/go/src/github.com/docker/docker/daemon/command/service_windows.go:316 +0x1ab
+golang.org/x/sys/windows/svc.serviceMain.func2()
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/svc/service.go:234 +0x3f
+created by golang.org/x/sys/windows/svc.serviceMain in goroutine 17
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/svc/service.go:233 +0x24d
+
+goroutine 32 [syscall, 48 minutes]:
+os/signal.signal_recv()
+	/usr/local/go/src/runtime/sigqueue.go:152 +0x98
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:23 +0x13
+created by os/signal.Notify.func1.1 in goroutine 1
+	/usr/local/go/src/os/signal/signal.go:152 +0x1f
+
+goroutine 33 [chan receive, 48 minutes]:
+github.com/moby/moby/v2/daemon/command/trap.Trap.func1()
+	/go/src/github.com/docker/docker/daemon/command/trap/trap.go:32 +0x45
+created by github.com/moby/moby/v2/daemon/command/trap.Trap in goroutine 1
+	/go/src/github.com/docker/docker/daemon/command/trap/trap.go:30 +0xc7
+
+goroutine 51 [chan receive, 48 minutes]:
+github.com/moby/moby/v2/daemon/command.(*daemonCLI).start.func3()
+	/go/src/github.com/docker/docker/daemon/command/daemon.go:224 +0x5c
+created by github.com/moby/moby/v2/daemon/command.(*daemonCLI).start in goroutine 1
+	/go/src/github.com/docker/docker/daemon/command/daemon.go:218 +0x929
+
+goroutine 52 [select, 2 minutes]:
+github.com/moby/buildkit/util/tracing/detect.(*TraceRecorder).gcLoop(0x3dde357e05d0, {0x7ff7d65e0128, 0x3dde35830640})
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/tracing/detect/recorder.go:108 +0x14b
+created by github.com/moby/buildkit/util/tracing/detect.NewTraceRecorder in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/tracing/detect/recorder.go:49 +0x157
+
+goroutine 47 [chan receive, 4 minutes]:
+github.com/moby/moby/v2/daemon.(*Daemon).execCommandGC(0x3dde354e6f08)
+	/go/src/github.com/docker/docker/daemon/exec.go:347 +0x5c
+created by github.com/moby/moby/v2/daemon.NewDaemon in goroutine 1
+	/go/src/github.com/docker/docker/daemon/daemon.go:1345 +0x4c25
+
+goroutine 54 [syscall, 48 minutes]:
+syscall.syscalln(0x0?, 0x0?, {0x3dde358d3d90?, 0x7ff7d830cdf0?, 0x3dde358d3d40?})
+	/usr/local/go/src/runtime/syscall_windows.go:431 +0x4e
+syscall.SyscallN(0x7ff7d830cde0?, {0x3dde358d3d90?, 0x0?, 0x3dde358d3da8?})
+	/usr/local/go/src/syscall/dll_windows.go:99 +0x1e
+golang.org/x/sys/windows.WaitForSingleObject(0x264, 0xffffffff)
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/zsyscall_windows.go:3641 +0x6a
+github.com/moby/moby/v2/daemon.(*Daemon).setupDumpStackTrap.func1()
+	/go/src/github.com/docker/docker/daemon/debugtrap_windows.go:37 +0xe5
+created by github.com/moby/moby/v2/daemon.(*Daemon).setupDumpStackTrap in goroutine 1
+	/go/src/github.com/docker/docker/daemon/debugtrap_windows.go:34 +0x25b
+
+goroutine 55 [sync.Cond.Wait, 48 minutes]:
+sync.runtime_notifyListWait(0x3dde358ab750, 0x0)
+	/usr/local/go/src/runtime/sema.go:617 +0x1b4
+sync.(*Cond).Wait(0x0?)
+	/usr/local/go/src/sync/cond.go:71 +0x73
+github.com/moby/moby/v2/daemon/stats.(*Collector).Run(0x3dde357e1500)
+	/go/src/github.com/docker/docker/daemon/stats/collector.go:92 +0x85
+created by github.com/moby/moby/v2/daemon.(*Daemon).newStatsCollector in goroutine 1
+	/go/src/github.com/docker/docker/daemon/stats_collector.go:24 +0x106
+
+goroutine 48 [sleep, 2 minutes]:
+time.Sleep(0x1bf08eb000)
+	/usr/local/go/src/runtime/time.go:363 +0x167
+github.com/moby/buildkit/solver/llbsolver/history.NewQueue.func2()
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/llbsolver/history/buildhistory.go:135 +0x35
+created by github.com/moby/buildkit/solver/llbsolver/history.NewQueue in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/llbsolver/history/buildhistory.go:131 +0x579
+
+goroutine 49 [chan receive (nil chan), 48 minutes]:
+github.com/moby/buildkit/solver/llbsolver/history.NewQueue.func3()
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/llbsolver/history/buildhistory.go:140 +0x32
+created by github.com/moby/buildkit/solver/llbsolver/history.NewQueue in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/llbsolver/history/buildhistory.go:139 +0x5bb
+
+goroutine 67 [sync.Cond.Wait, 48 minutes]:
+sync.runtime_notifyListWait(0x3dde35854e50, 0x0)
+	/usr/local/go/src/runtime/sema.go:617 +0x1b4
+sync.(*Cond).Wait(0x3dde352febd0?)
+	/usr/local/go/src/sync/cond.go:71 +0x73
+github.com/moby/buildkit/util/cond.(*StatefulCond).Wait(0x3dde35a85560)
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/cond/cond.go:28 +0x67
+github.com/moby/buildkit/solver.(*scheduler).loop(0x3dde35870fc0)
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/scheduler.go:92 +0x1c5
+created by github.com/moby/buildkit/solver.newScheduler in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/scheduler.go:26 +0x20d
+
+goroutine 68 [select, 48 minutes]:
+github.com/moby/buildkit/util/tracing/forwarder.(*Exporter).exportLoop(0x3dde358710a0, {0x7ff7d65e0128, 0x3dde353cf540}, 0x3dde35871110)
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/tracing/forwarder/forwarder.go:108 +0xf8
+github.com/moby/buildkit/util/tracing/forwarder.(*Exporter).Start.func1.1()
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/tracing/forwarder/forwarder.go:72 +0x53
+created by github.com/moby/buildkit/util/tracing/forwarder.(*Exporter).Start.func1 in goroutine 1
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/util/tracing/forwarder/forwarder.go:70 +0x186
+
+goroutine 56 [chan receive, 48 minutes]:
+github.com/moby/buildkit/solver.(*scheduler).loop.func2()
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/scheduler.go:67 +0x25
+created by github.com/moby/buildkit/solver.(*scheduler).loop in goroutine 67
+	/go/src/github.com/docker/docker/vendor/github.com/moby/buildkit/solver/scheduler.go:66 +0x7f
+
+goroutine 57 [select]:
+go.opentelemetry.io/otel/sdk/trace.(*batchSpanProcessor).processQueue(0x3dde353a1d90)
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/otel/sdk/trace/batch_span_processor.go:327 +0x10f
+go.opentelemetry.io/otel/sdk/trace.NewBatchSpanProcessor.func2()
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/otel/sdk/trace/batch_span_processor.go:127 +0x1c
+sync.(*WaitGroup).Go.func1()
+	/usr/local/go/src/sync/waitgroup.go:258 +0x4a
+created by sync.(*WaitGroup).Go in goroutine 1
+	/usr/local/go/src/sync/waitgroup.go:238 +0x73
+
+goroutine 58 [select]:
+go.opentelemetry.io/otel/sdk/trace.(*batchSpanProcessor).processQueue(0x3dde353a1e40)
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/otel/sdk/trace/batch_span_processor.go:327 +0x10f
+go.opentelemetry.io/otel/sdk/trace.NewBatchSpanProcessor.func2()
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/otel/sdk/trace/batch_span_processor.go:127 +0x1c
+sync.(*WaitGroup).Go.func1()
+	/usr/local/go/src/sync/waitgroup.go:258 +0x4a
+created by sync.(*WaitGroup).Go in goroutine 1
+	/usr/local/go/src/sync/waitgroup.go:238 +0x73
+
+goroutine 69 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon.(*Daemon).ProcessClusterNotifications(0x3dde354e6f08, {0x7ff7d65e0128, 0x3dde35830550}, 0x3dde35870070)
+	/go/src/github.com/docker/docker/daemon/events.go:98 +0xb0
+created by github.com/moby/moby/v2/daemon/command.(*daemonCLI).start in goroutine 1
+	/go/src/github.com/docker/docker/daemon/command/daemon.go:354 +0x162f
+
+goroutine 70 [syscall, 48 minutes]:
+syscall.syscalln(0x0?, 0x0?, {0x3dde35d6bf10?, 0x3dde35bac010?, 0x0?})
+	/usr/local/go/src/runtime/syscall_windows.go:431 +0x4e
+syscall.SyscallN(0x7ff7d5d59e00?, {0x3dde35d6bf10?, 0x0?, 0x3dde35d6bf28?})
+	/usr/local/go/src/syscall/dll_windows.go:99 +0x1e
+golang.org/x/sys/windows.WaitForSingleObject(0x368, 0xffffffff)
+	/go/src/github.com/docker/docker/vendor/golang.org/x/sys/windows/zsyscall_windows.go:3641 +0x6a
+github.com/moby/moby/v2/daemon/command.(*daemonCLI).setupConfigReloadTrap.func1()
+	/go/src/github.com/docker/docker/daemon/command/daemon_windows.go:91 +0x155
+created by github.com/moby/moby/v2/daemon/command.(*daemonCLI).setupConfigReloadTrap in goroutine 1
+	/go/src/github.com/docker/docker/daemon/command/daemon_windows.go:82 +0x4f
+
+goroutine 59 [chan receive]:
+github.com/Microsoft/go-winio.(*win32PipeListener).Accept(0x3dde35830500)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:559 +0xb2
+net/http.(*Server).Serve(0x3dde35287100, {0x7ff7d65d8b80, 0x3dde35830500})
+	/usr/local/go/src/net/http/server.go:3434 +0x30c
+github.com/moby/moby/v2/daemon/command.(*daemonCLI).start.func5()
+	/go/src/github.com/docker/docker/daemon/command/daemon.go:373 +0xf9
+sync.(*WaitGroup).Go.func1()
+	/usr/local/go/src/sync/waitgroup.go:258 +0x4a
+created by sync.(*WaitGroup).Go in goroutine 1
+	/usr/local/go/src/sync/waitgroup.go:238 +0x73
+
+goroutine 60 [syscall]:
+syscall.syscalln(0x0?, 0x0?, {0x3dde35d69f08?, 0x3dde35db2150?, 0x0?})
+	/usr/local/go/src/runtime/syscall_windows.go:431 +0x4e
+syscall.SyscallN(0x3e3?, {0x3dde35d69f08?, 0x0?, 0x3dde35cdc298?})
+	/usr/local/go/src/syscall/dll_windows.go:99 +0x1e
+github.com/Microsoft/go-winio.getQueuedCompletionStatus(0x370, 0x3dde35d69f8c?, 0x3dde35d69f90?, 0x3dde35d69f98?, 0xffffffff)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/zsyscall_windows.go:327 +0xac
+github.com/Microsoft/go-winio.ioCompletionProcessor(0x370)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:162 +0x85
+created by github.com/Microsoft/go-winio.initIO in goroutine 31
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:58 +0x5d
+
+goroutine 105 [select, 48 minutes]:
+net/http.(*persistConn).writeLoop(0x3dde35e3ca00)
+	/usr/local/go/src/net/http/transport.go:2652 +0xe6
+created by net/http.(*Transport).dialConn in goroutine 101
+	/usr/local/go/src/net/http/transport.go:1995 +0x16fe
+
+goroutine 104 [select, 48 minutes]:
+net/http.(*persistConn).readLoop(0x3dde35e3ca00)
+	/usr/local/go/src/net/http/transport.go:2450 +0xc05
+created by net/http.(*Transport).dialConn in goroutine 101
+	/usr/local/go/src/net/http/transport.go:1994 +0x16ac
+
+goroutine 88 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullSchema2Layers(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35a843f0}, {{0x3dde352f3c80, 0x2e}, 0x314, {0x3dde35b79b80, 0x47}, {0x0, 0x0, ...}, ...}, ...)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:633 +0xd7e
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullSchema2(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35a843f0}, {0x7ff7d65c2188?, 0x3dde35d53a60?}, 0x3dde35b61180, 0x3dde35e09d28)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:671 +0x165
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullManifestList(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35a843f0}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, 0x3dde35d551d0, 0x0)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:740 +0xb33
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullTag(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, 0x0)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:406 +0x7e6
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullRepository(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65c21b0, 0x3dde35d52dc0})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:95 +0xd8
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pull(0x3dde353393e0, {0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65c21b0, 0x3dde35d52dc0})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:88 +0x212
+github.com/moby/moby/v2/daemon/internal/distribution.Pull.func1({0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65c2160, 0x3dde35d52e80}, {0xc8?, 0x3dde35b8c510?, 0x3dde3562c000?})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull.go:21 +0x29f
+github.com/moby/moby/v2/daemon/internal/distribution.pullEndpoints({0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65d2a50, 0x3dde35822900}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, 0x3dde35f3e700)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull.go:111 +0x385
+github.com/moby/moby/v2/daemon/internal/distribution.Pull({0x7ff7d65e00f0, 0x3dde35b42c30}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, 0x3dde353c8630, {0x7ff7d65ea8c0?, 0x3dde358aa800?})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull.go:19 +0x9e
+github.com/moby/moby/v2/daemon/images.(*ImageService).pullImageWithReference(0x3dde35874000, {0x7ff7d65e00f0, 0x3dde358e9e60}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, 0x0, 0x3dde35b42150, 0x3dde35d6c240, {0x7ff7d65ab6c0, 0x3dde35d54730})
+	/go/src/github.com/docker/docker/daemon/images/image_pull.go:116 +0x585
+github.com/moby/moby/v2/daemon/images.(*ImageService).PullImage(0x3dde35874000, {0x7ff7d65e00f0, 0x3dde358e9e60}, {0x7ff7d65c21b0, 0x3dde35d52dc0}, {{0x0, 0x0, 0x0}, 0x3dde35b42150, 0x3dde35d6c240, ...})
+	/go/src/github.com/docker/docker/daemon/images/image_pull.go:39 +0x18d
+github.com/moby/moby/v2/daemon/server/router/image.(*imageRouter).postImagesCreate(0x3dde358aba40, {0x7ff7d65e00f0, 0x3dde358e9e60}, {0x7ff7d65d9f20, 0x3dde35d6c1e0}, 0x3dde3541edc0, 0x7ff7d644cf98?)
+	/go/src/github.com/docker/docker/daemon/server/router/image/image_routes.go:115 +0x14d1
+github.com/moby/moby/v2/daemon/server/middleware.(*ExperimentalMiddleware).WrapHandler.ExperimentalMiddleware.WrapHandler.func1({0x7ff7d65e00f0, 0x3dde358e9e60}, {0x7ff7d65d9f20, 0x3dde35d6c1e0}, 0x3dde3541edc0, 0x3dde358e9bc0)
+	/go/src/github.com/docker/docker/daemon/server/middleware/experimental.go:26 +0xa3
+github.com/moby/moby/v2/daemon/server/middleware.(*VersionMiddleware).WrapHandler.VersionMiddleware.WrapHandler.func1({0x7ff7d65e00f0, 0x3dde358e9dd0}, {0x7ff7d65d9f20, 0x3dde35d6c1e0}, 0x3dde3541edc0, 0x3dde358e9bc0)
+	/go/src/github.com/docker/docker/daemon/server/middleware/version.go:84 +0x2a4
+github.com/moby/moby/v2/pkg/authorization.(*Middleware).WrapHandler.func1({0x7ff7d65e00f0, 0x3dde358e9dd0}, {0x7ff7d65d9f20, 0x3dde35d6c1e0}, 0x3dde3541edc0, 0x3dde358e9bc0)
+	/go/src/github.com/docker/docker/pkg/authorization/middleware.go:59 +0x333
+github.com/moby/moby/v2/daemon/server.(*Server).makeHTTPHandler.func1({0x7ff7d65d9f20, 0x3dde35d6c1e0}, 0x3dde3541ea00)
+	/go/src/github.com/docker/docker/daemon/server/server.go:76 +0x363
+net/http.HandlerFunc.ServeHTTP(0x7ff7d65e00f0?, {0x7ff7d65d9f20?, 0x3dde35d6c1e0?}, 0x7ff7d6598c80?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.(*middleware).serveHTTP(0x3dde3535d2c0, {0x7ff7d65d28a0, 0x3dde35494ff0}, 0x3dde3541e500, {0x7ff7d65aa5c0, 0x3dde35ac0cf0})
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/handler.go:185 +0x12d8
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.NewMiddleware.func2.1({0x7ff7d65d28a0?, 0x3dde35494ff0?}, 0x7ff7d6591001?)
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/handler.go:67 +0x35
+net/http.HandlerFunc.ServeHTTP(0x7ff7d65e00f0?, {0x7ff7d65d28a0?, 0x3dde35494ff0?}, 0x7ff7d65910a0?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+net/http.HandlerFunc.ServeHTTP(0x3dde3541e140?, {0x7ff7d65d28a0?, 0x3dde35494ff0?}, 0x3dde35bffa48?)
+	/usr/local/go/src/net/http/server.go:2286 +0x29
+github.com/gorilla/mux.(*Router).ServeHTTP(0x3dde353abb00, {0x7ff7d65d28a0, 0x3dde35494ff0}, 0x3dde358afb80)
+	/go/src/github.com/docker/docker/vendor/github.com/gorilla/mux/mux.go:212 +0x1e2
+github.com/moby/moby/v2/daemon/command.(*httpHandler).ServeHTTP(0x7ff7d3888479?, {0x7ff7d65d28a0?, 0x3dde35494ff0?}, 0x3dde35bffb68?)
+	/go/src/github.com/docker/docker/daemon/command/httphandler.go:39 +0x8d
+net/http.serverHandler.ServeHTTP({0x3dde35b9d0c0?}, {0x7ff7d65d28a0?, 0x3dde35494ff0?}, 0x1?)
+	/usr/local/go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x3dde35b8c3f0, {0x7ff7d65e00f0, 0x3dde35d3db90})
+	/usr/local/go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 59
+	/usr/local/go/src/net/http/server.go:3464 +0x485
+
+goroutine 76 [select, 48 minutes]:
+github.com/Microsoft/go-winio.(*win32File).asyncIO(0x3dde354f3ce0, 0x3dde35814810, 0x3dde354f3d18, 0x0, {0x7ff7d65a9000, 0x7ff7d8224060})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:191 +0x15d
+github.com/Microsoft/go-winio.(*win32File).Read(0x3dde354f3ce0, {0x3dde35b9d0e1, 0x1, 0x1})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:234 +0x115
+github.com/Microsoft/go-winio.(*win32MessageBytePipe).Read(0x3dde35bc50a0, {0x3dde35b9d0e1?, 0x0?, 0x0?})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:181 +0x33
+net/http.(*connReader).backgroundRead(0x3dde35b9d0c0)
+	/usr/local/go/src/net/http/server.go:702 +0x33
+created by net/http.(*connReader).startBackgroundRead in goroutine 88
+	/usr/local/go/src/net/http/server.go:698 +0xb6
+
+goroutine 77 [chan receive]:
+github.com/moby/moby/v2/daemon/internal/distribution/utils.WriteDistributionProgress(0x3dde35badc30, {0x7ff7d65ab6c0, 0x3dde35d54730}, 0x3dde35532000)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/utils/progress.go:20 +0xe9
+github.com/moby/moby/v2/daemon/images.(*ImageService).pullImageWithReference.func1()
+	/go/src/github.com/docker/docker/daemon/images/image_pull.go:78 +0x2c
+created by github.com/moby/moby/v2/daemon/images.(*ImageService).pullImageWithReference in goroutine 88
+	/go/src/github.com/docker/docker/daemon/images/image_pull.go:77 +0x15a
+
+goroutine 115 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*LayerDownloadManager).Download(0x3dde358526f0, {0x7ff7d65e0128, 0x3dde35d55360}, {0x3dde35d53ac0, 0x2, 0x0?}, {0x7ff7d65ad620, 0x3dde35532000})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/download.go:198 +0xad2
+github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullSchema2Layers.func2()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:600 +0xef
+created by github.com/moby/moby/v2/daemon/internal/distribution.(*puller).pullSchema2Layers in goroutine 88
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:595 +0xc6a
+
+goroutine 131 [select, 48 minutes]:
+net/http.(*persistConn).writeLoop(0x3dde35dc1040)
+	/usr/local/go/src/net/http/transport.go:2652 +0xe6
+created by net/http.(*Transport).dialConn in goroutine 125
+	/usr/local/go/src/net/http/transport.go:1995 +0x16fe
+
+goroutine 116 [select]:
+io.(*pipe).read(0x3dde35e7c660, {0x3dde35e96000, 0x8000, 0x3dde35e96000?})
+	/usr/local/go/src/io/pipe.go:57 +0xa7
+io.(*PipeReader).Read(...)
+	/usr/local/go/src/io/pipe.go:134
+github.com/moby/moby/v2/pkg/ioutils.(*cancelReadCloser).Read(0x3dde35e49768?, {0x3dde35e96000?, 0x3dde35e497f0?, 0x7ff7d392dd0e?})
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:92 +0x1e
+github.com/moby/moby/v2/daemon/internal/progress.(*Reader).Read(0x3dde35e7c6c0, {0x3dde35e96000?, 0x7ff7d3940ed8?, 0x3dde3528c5b0?})
+	/go/src/github.com/docker/docker/daemon/internal/progress/progressreader.go:35 +0x29
+io.(*teeReader).Read(0x3dde358230a0, {0x3dde35e96000, 0x4000?, 0x8000})
+	/usr/local/go/src/io/io.go:628 +0x2e
+io.copyBuffer({0x7ff7d65a90c0, 0x3dde3528c5b0}, {0x7ff7d65a9820, 0x3dde358230a0}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:429 +0x190
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+os.genericReadFrom(0x3dde3562c5a0?, {0x7ff7d65a9820?, 0x3dde358230a0?})
+	/usr/local/go/src/os/file.go:205 +0x35
+os.(*File).ReadFrom(0x7ff7d82da150?, {0x7ff7d65a9820?, 0x3dde358230a0?})
+	/usr/local/go/src/os/file.go:181 +0x49
+io.copyBuffer({0x7ff7d65a8f60, 0x3dde3528c5b0}, {0x7ff7d65a9820, 0x3dde358230a0}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:415 +0x151
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+github.com/moby/moby/v2/daemon/internal/distribution.(*layerDescriptor).Download(0x3dde355b3500, {0x7ff7d65e0128, 0x3dde35ba7770}, {0x7ff7d65ad620, 0x3dde3562e930})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:249 +0xbf6
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*LayerDownloadManager).Download.(*LayerDownloadManager).makeDownloadFunc.func9.1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/download.go:275 +0x27c
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*LayerDownloadManager).Download.(*LayerDownloadManager).makeDownloadFunc.func9 in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/download.go:237 +0x185
+
+goroutine 117 [select]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).watch.func1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:192 +0x3b4
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).watch in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:165 +0x1d5
+
+goroutine 118 [select]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).broadcast(0x3dde35b975c0, 0x3dde3562e930)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:118 +0x172
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:358 +0x46a
+
+goroutine 119 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer.func1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:364 +0xc5
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:362 +0x574
+
+goroutine 120 [select]:
+io.(*pipe).read(0x3dde35ec5b60, {0x3dde35eb4000, 0x8000, 0x3dde35eb4000?})
+	/usr/local/go/src/io/pipe.go:57 +0xa7
+io.(*PipeReader).Read(...)
+	/usr/local/go/src/io/pipe.go:134
+github.com/moby/moby/v2/pkg/ioutils.(*cancelReadCloser).Read(0x3dde35ee5768?, {0x3dde35eb4000?, 0x3dde35ee57f0?, 0x7ff7d392dd0e?})
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:92 +0x1e
+github.com/moby/moby/v2/daemon/internal/progress.(*Reader).Read(0x3dde35ec5bc0, {0x3dde35eb4000?, 0x7ff7d3940ed8?, 0x3dde35383798?})
+	/go/src/github.com/docker/docker/daemon/internal/progress/progressreader.go:35 +0x29
+io.(*teeReader).Read(0x3dde35b32040, {0x3dde35eb4000, 0x4000?, 0x8000})
+	/usr/local/go/src/io/io.go:628 +0x2e
+io.copyBuffer({0x7ff7d65a90c0, 0x3dde35383798}, {0x7ff7d65a9820, 0x3dde35b32040}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:429 +0x190
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+os.genericReadFrom(0x20?, {0x7ff7d65a9820?, 0x3dde35b32040?})
+	/usr/local/go/src/os/file.go:205 +0x35
+os.(*File).ReadFrom(0x7ff7d82da150?, {0x7ff7d65a9820?, 0x3dde35b32040?})
+	/usr/local/go/src/os/file.go:181 +0x49
+io.copyBuffer({0x7ff7d65a8f60, 0x3dde35383798}, {0x7ff7d65a9820, 0x3dde35b32040}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:415 +0x151
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+github.com/moby/moby/v2/daemon/internal/distribution.(*layerDescriptor).Download(0x3dde355b3740, {0x7ff7d65e0128, 0x3dde35ba7810}, {0x7ff7d65ad620, 0x3dde3562ed20})
+	/go/src/github.com/docker/docker/daemon/internal/distribution/pull_v2.go:249 +0xbf6
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*LayerDownloadManager).Download.(*LayerDownloadManager).makeDownloadFunc.func8.1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/download.go:275 +0x27c
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*LayerDownloadManager).Download.(*LayerDownloadManager).makeDownloadFunc.func8 in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/download.go:237 +0x185
+
+goroutine 121 [select]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).watch.func1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:192 +0x3b4
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).watch in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:165 +0x1d5
+
+goroutine 122 [select]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*xfer).broadcast(0x3dde35b97680, 0x3dde3562ed20)
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:118 +0x172
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:358 +0x46a
+
+goroutine 123 [select, 48 minutes]:
+github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer.func1()
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:364 +0xc5
+created by github.com/moby/moby/v2/daemon/internal/distribution/xfer.(*transferManager).transfer in goroutine 115
+	/go/src/github.com/docker/docker/daemon/internal/distribution/xfer/transfer.go:362 +0x574
+
+goroutine 140 [select]:
+github.com/Microsoft/go-winio.(*win32File).asyncIO(0x3dde35874210, 0x3dde35ac00c0, 0x0, 0x0, {0x7ff7d65a9000, 0x7ff7d8224180})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:191 +0x15d
+github.com/Microsoft/go-winio.connectPipe(0x3dde35874210)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:548 +0x99
+github.com/Microsoft/go-winio.(*win32PipeListener).makeConnectedServerPipe.func1(0x3dde35e3d540?)
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:438 +0x1c
+created by github.com/Microsoft/go-winio.(*win32PipeListener).makeConnectedServerPipe in goroutine 31
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:437 +0xed
+
+goroutine 108 [runnable]:
+internal/poll.runtime_pollWait(0x163ffa27600, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85
+internal/poll.(*pollDesc).wait(0x3dde35b82090?, 0x7ff7d38180e6?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27
+internal/poll.(*FD).waitIO(0x7ff7d8306ea0?, 0x2ecda4688433e46c?)
+	/usr/local/go/src/internal/poll/fd_windows.go:228 +0x4c
+internal/poll.(*FD).execIO(0x3dde35c0b340, 0x72, 0x3dde35fb5768)
+	/usr/local/go/src/internal/poll/fd_windows.go:311 +0x365
+internal/poll.(*FD).Read(0x3dde35c0b340, {0x3dde35eaca68, 0x3598, 0x3598})
+	/usr/local/go/src/internal/poll/fd_windows.go:600 +0x20e
+net.(*netFD).Read(0x3dde35c0b340, {0x3dde35eaca68?, 0x3dde35ea6000?, 0x5?})
+	/usr/local/go/src/net/fd_posix.go:68 +0x25
+net.(*conn).Read(0x3dde35383758, {0x3dde35eaca68?, 0x163ff959780?, 0x163ba210108?})
+	/usr/local/go/src/net/net.go:196 +0x45
+crypto/tls.(*atLeastReader).Read(0x3dde35b6c2b8, {0x3dde35eaca68?, 0x3dde35d6f2c0?, 0x3dde35fb5930?})
+	/usr/local/go/src/crypto/tls/conn.go:815 +0x3b
+bytes.(*Buffer).ReadFrom(0x3dde35d2e9a8, {0x7ff7d65a9fa0, 0x3dde35b6c2b8})
+	/usr/local/go/src/bytes/buffer.go:229 +0x98
+crypto/tls.(*Conn).readFromUntil(0x3dde35d2e708, {0x163ffa27a40, 0x3dde35383758}, 0x3dde35fb5af0?)
+	/usr/local/go/src/crypto/tls/conn.go:837 +0xde
+crypto/tls.(*Conn).readRecordOrCCS(0x3dde35d2e708, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:677 +0xd45
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:588
+crypto/tls.(*Conn).Read(0x3dde35d2e708, {0x3dde35e9e000, 0x8000, 0x7ff7d38546c5?})
+	/usr/local/go/src/crypto/tls/conn.go:1393 +0x145
+net/http.(*persistConn).Read(0x3dde35e3ca00, {0x3dde35e9e000?, 0x802c?, 0xa000?})
+	/usr/local/go/src/net/http/transport.go:2174 +0x47
+bufio.(*Reader).Read(0x3dde35e61b00, {0x3dde35e9e000, 0x8000, 0x7ff7d3869d8b?})
+	/usr/local/go/src/bufio/bufio.go:231 +0xe2
+io.(*LimitedReader).Read(0x3dde35e19938, {0x3dde35e9e000?, 0x3dde35318db0?, 0x7ff7d3892557?})
+	/usr/local/go/src/io/io.go:479 +0x43
+net/http.(*body).readLocked(0x3dde35e2d580, {0x3dde35e9e000?, 0x3dde3562c5a0?, 0x3?})
+	/usr/local/go/src/net/http/transfer.go:845 +0x3b
+net/http.(*body).Read(0x2?, {0x3dde35e9e000?, 0x3dde35fb5e30?, 0xffffffffffffffff?})
+	/usr/local/go/src/net/http/transfer.go:837 +0xff
+net/http.(*bodyEOFSignal).Read(0x3dde35e2d5c0, {0x3dde35e9e000, 0x8000, 0x8000})
+	/usr/local/go/src/net/http/transport.go:3075 +0x13c
+github.com/docker/distribution/registry/client/transport.(*onEOFReader).Read(0x3dde35e19968, {0x3dde35e9e000?, 0x1?, 0x3dde35fb5ea0?})
+	/go/src/github.com/docker/docker/vendor/github.com/docker/distribution/registry/client/transport/transport.go:129 +0x29
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.(*wrappedBody).Read(0x3dde35e2d600, {0x3dde35e9e000?, 0x8000?, 0x0?})
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/transport.go:239 +0x38
+github.com/docker/distribution/registry/client/transport.(*httpReadSeeker).Read(0x3dde35db0540, {0x3dde35e9e000, 0x8000, 0x8000})
+	/go/src/github.com/docker/docker/vendor/github.com/docker/distribution/registry/client/transport/http_reader.go:85 +0xd0
+io.copyBuffer({0x7ff7d65a92c0, 0x3dde35e7c660}, {0x16380088248, 0x3dde35db0540}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:429 +0x190
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser.func1()
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:64 +0x73
+created by github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser in goroutine 116
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:63 +0x1a8
+
+goroutine 109 [select, 48 minutes]:
+github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser.func2()
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:77 +0xcf
+created by github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser in goroutine 116
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:75 +0x21b
+
+goroutine 132 [runnable]:
+internal/poll.runtime_pollWait(0x163ffa27200, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85
+internal/poll.(*pollDesc).wait(0x3dde35b820c0?, 0x7ff7d38180e6?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27
+internal/poll.(*FD).waitIO(0x7ff7d8306ea0?, 0x2249631dda72048e?)
+	/usr/local/go/src/internal/poll/fd_windows.go:228 +0x4c
+internal/poll.(*FD).execIO(0x3dde356f8620, 0x72, 0x3dde35bf5768)
+	/usr/local/go/src/internal/poll/fd_windows.go:311 +0x365
+internal/poll.(*FD).Read(0x3dde356f8620, {0x3dde35f872c4, 0x2d3c, 0x2d3c})
+	/usr/local/go/src/internal/poll/fd_windows.go:600 +0x20e
+net.(*netFD).Read(0x3dde356f8620, {0x3dde35f872c4?, 0x3dde35f80000?, 0x5?})
+	/usr/local/go/src/net/fd_posix.go:68 +0x25
+net.(*conn).Read(0x3dde353837e0, {0x3dde35f872c4?, 0x16380082ac0?, 0x163ba2109e0?})
+	/usr/local/go/src/net/net.go:196 +0x45
+crypto/tls.(*atLeastReader).Read(0x3dde35e181c8, {0x3dde35f872c4?, 0x3dde3562d860?, 0x3dde35bf5930?})
+	/usr/local/go/src/crypto/tls/conn.go:815 +0x3b
+bytes.(*Buffer).ReadFrom(0x3dde35d2f0a8, {0x7ff7d65a9fa0, 0x3dde35e181c8})
+	/usr/local/go/src/bytes/buffer.go:229 +0x98
+crypto/tls.(*Conn).readFromUntil(0x3dde35d2ee08, {0x163ffa27a40, 0x3dde353837e0}, 0x3dde35bf5af0?)
+	/usr/local/go/src/crypto/tls/conn.go:837 +0xde
+crypto/tls.(*Conn).readRecordOrCCS(0x3dde35d2ee08, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:677 +0xd45
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:588
+crypto/tls.(*Conn).Read(0x3dde35d2ee08, {0x3dde35f22000, 0x8000, 0x8000?})
+	/usr/local/go/src/crypto/tls/conn.go:1393 +0x145
+net/http.(*persistConn).Read(0x3dde35dc1040, {0x3dde35f22000?, 0x3dde3530bc08?, 0x7ff7d3889145?})
+	/usr/local/go/src/net/http/transport.go:2174 +0x47
+bufio.(*Reader).Read(0x3dde35ec5b00, {0x3dde35f22000, 0x8000, 0x7ff7d3869d8b?})
+	/usr/local/go/src/bufio/bufio.go:231 +0xe2
+io.(*LimitedReader).Read(0x3dde35ef41e0, {0x3dde35f22000?, 0x3dde35314b18?, 0x7ff7d3892557?})
+	/usr/local/go/src/io/io.go:479 +0x43
+net/http.(*body).readLocked(0x3dde35e2dc00, {0x3dde35f22000?, 0x3dde3562cd20?, 0x3?})
+	/usr/local/go/src/net/http/transfer.go:845 +0x3b
+net/http.(*body).Read(0x2?, {0x3dde35f22000?, 0x3dde35fb5e30?, 0xffffffffffffffff?})
+	/usr/local/go/src/net/http/transfer.go:837 +0xff
+net/http.(*bodyEOFSignal).Read(0x3dde35e2dc40, {0x3dde35f22000, 0x8000, 0x8000})
+	/usr/local/go/src/net/http/transport.go:3075 +0x13c
+github.com/docker/distribution/registry/client/transport.(*onEOFReader).Read(0x3dde35ef4210, {0x3dde35f22000?, 0x1?, 0x3dde35bf5ea0?})
+	/go/src/github.com/docker/docker/vendor/github.com/docker/distribution/registry/client/transport/transport.go:129 +0x29
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.(*wrappedBody).Read(0x3dde35e2dc80, {0x3dde35f22000?, 0x8000?, 0x0?})
+	/go/src/github.com/docker/docker/vendor/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/transport.go:239 +0x38
+github.com/docker/distribution/registry/client/transport.(*httpReadSeeker).Read(0x3dde35e61b60, {0x3dde35f22000, 0x8000, 0x8000})
+	/go/src/github.com/docker/docker/vendor/github.com/docker/distribution/registry/client/transport/http_reader.go:85 +0xd0
+io.copyBuffer({0x7ff7d65a92c0, 0x3dde35ec5b60}, {0x16380088248, 0x3dde35e61b60}, {0x0, 0x0, 0x0})
+	/usr/local/go/src/io/io.go:429 +0x190
+io.Copy(...)
+	/usr/local/go/src/io/io.go:388
+github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser.func1()
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:64 +0x73
+created by github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser in goroutine 120
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:63 +0x1a8
+
+goroutine 114 [select, 48 minutes]:
+net/http.(*persistConn).readLoop(0x3dde35dc1040)
+	/usr/local/go/src/net/http/transport.go:2450 +0xc05
+created by net/http.(*Transport).dialConn in goroutine 125
+	/usr/local/go/src/net/http/transport.go:1994 +0x16ac
+
+goroutine 133 [select, 48 minutes]:
+github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser.func2()
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:77 +0xcf
+created by github.com/moby/moby/v2/pkg/ioutils.NewCancelReadCloser in goroutine 120
+	/go/src/github.com/docker/docker/pkg/ioutils/readers.go:75 +0x21b
+
+goroutine 141 [select]:
+github.com/Microsoft/go-winio.(*win32File).asyncIO(0x3dde354f3e40, 0x3dde35ef2180, 0x3dde354f3e78, 0x0, {0x7ff7d65a9000, 0x7ff7d8224060})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:191 +0x15d
+github.com/Microsoft/go-winio.(*win32File).Read(0x3dde354f3e40, {0x3dde35e2c021, 0x1, 0x1})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/file.go:234 +0x115
+github.com/Microsoft/go-winio.(*win32MessageBytePipe).Read(0x3dde355423e0, {0x3dde35e2c021?, 0x0?, 0x3dde3534da00?})
+	/go/src/github.com/docker/docker/vendor/github.com/Microsoft/go-winio/pipe.go:181 +0x33
+net/http.(*connReader).backgroundRead(0x3dde35e2c000)
+	/usr/local/go/src/net/http/server.go:702 +0x33
+created by net/http.(*connReader).startBackgroundRead in goroutine 139
+	/usr/local/go/src/net/http/server.go:698 +0xb6
+
+0
+

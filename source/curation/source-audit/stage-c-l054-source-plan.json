@@ -1,0 +1,406 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-0a42d381d402",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b009-s01",
+      "before": {
+        "published_at": "2007-05-2415:54:48"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:54:48"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "73859b19609122fbaffa20c7950bdbec17623790e60f24cec629b289ef40b9df",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b010",
+      "before": {
+        "published_at": "2007-05-2415:54:48"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:54:48"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "367f7b091ba97ae01ab0893addb9936de8432873dbc95ff9b75c4d30e8b9db38",
+      "affected_references": [
+        {
+          "id": "evidence-f82c8f3b43195462",
+          "claim_id": "candidate-1dc4599ca4c43875",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b012-s01",
+      "before": {
+        "published_at": "2007-05-2415:43:17"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:43:17"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "b9024cd0d9f7e8f3401460f851571ea8c52b410ee93cfec90e81f2a9d74f263f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b013",
+      "before": {
+        "published_at": "2007-05-2415:43:17"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:43:17"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "16eba71f6e093878746b0f8c574904cd9c891f18a11a55937b110ecd68d8fa82",
+      "affected_references": [
+        {
+          "id": "evidence-da545b3fb81ba5e4",
+          "claim_id": "candidate-ec8634e6bf2aa5bd",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b015-s01",
+      "before": {
+        "published_at": "2007-05-2415:50:05"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:50:05"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "204d2b951e0251a74fdf0f57206ec9692fec0f947c997268ab4bb8cf0f804bec",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b016",
+      "before": {
+        "published_at": "2007-05-2415:50:05"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:50:05"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "41d0c68c5d0438bf9e760b76865e63dec28a62d212682e73854f9471caa39952",
+      "affected_references": [
+        {
+          "id": "evidence-110a5d2ba0220520",
+          "claim_id": "candidate-310ddfe2537b484b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0407-b017",
+      "before": {
+        "published_at": "2007-05-2415:50:05"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:50:05"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "48281fd30fe8567575ff28eac24555cff5b376bb3de4521fc85c000cdf9bc2ca",
+      "affected_references": [
+        {
+          "id": "evidence-60ce6b5db030b777",
+          "claim_id": "candidate-1a1d50d17f75ec65",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0408-b000",
+      "before": {
+        "published_at": "2007-05-2415:50:05"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:50:05"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "bb77c6c8284f50d170759e574285bc0f4e59c22bb713e3fc8e5da1ca8a3e4e28",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0408-b003-s01",
+      "before": {
+        "published_at": "2007-05-2415:52:02"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:52:02"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "b8369ea1ca449ffd5487d64567c493f7268e7ba9696f5bd1df44648338fc7a00",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0408-b004",
+      "before": {
+        "published_at": "2007-05-2415:52:02"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:52:02"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "849c36d937b452d16d80eec56512899c23a222d6fb084c4413f11879a4a3bfeb",
+      "affected_references": [
+        {
+          "id": "evidence-ec885fe44a98de27",
+          "claim_id": "candidate-19ff5a7f8d39bd3b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b002-s01",
+      "before": {
+        "published_at": "2007-05-2415:58:51"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:58:51"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "6b7753c5c9a34ecbe5927e8d39e6cb9b76a8b3ce6fe2807e607e902e835de2da",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b003",
+      "before": {
+        "published_at": "2007-05-2415:58:51"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:58:51"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "d0b5c27ad055eb57c497ac2f2dd81b4045c96a7f2c44f4e3417af8603ca6f98b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b004",
+      "before": {
+        "published_at": "2007-05-2415:58:51"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:58:51"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "9a6b52e2bdf54f02f8f96303bd300b4d01b18a2d0e43d71d01513885a7e317ef",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b005",
+      "before": {
+        "published_at": "2007-05-2415:58:51"
+      },
+      "after": {
+        "published_at": "2007-05-24 15:58:51"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "77a442905eb7bac024db14febcb9b9071cfbb8c0a043527e77aaed1c6166c680",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b007-s01",
+      "before": {
+        "published_at": "2007-05-2416:00:15"
+      },
+      "after": {
+        "published_at": "2007-05-24 16:00:15"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "3591910b057bdf579b35f36621b4d6e899e50c1a9d7366640f578de319f36509",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b008",
+      "before": {
+        "published_at": "2007-05-2416:00:15"
+      },
+      "after": {
+        "published_at": "2007-05-24 16:00:15"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "da7554b677d3345e815a34d895b2c3a1cd0526033f9ae099a504c7b2f33142ab",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b011-s01",
+      "before": {
+        "published_at": "2007-05-2416:04:41"
+      },
+      "after": {
+        "published_at": "2007-05-24 16:04:41"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "ca224e1283de9148c764c2d742747be94e00a0d13249d54a0f2a38cfd6ebbb81",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b012",
+      "before": {
+        "published_at": "2007-05-2416:04:41"
+      },
+      "after": {
+        "published_at": "2007-05-24 16:04:41"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "9ccdc87562bc00d3db2cf4875eaf7eb9627757aec3c34fda3dc13d0069031ef5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0409-b013",
+      "before": {
+        "published_at": "2007-05-2416:04:41"
+      },
+      "after": {
+        "published_at": "2007-05-24 16:04:41"
+      },
+      "reason": "实际核对PDF400至411作者署名/跨页承接，只补日期时刻空格，保5/24正文答复与5/25两段文章/解盘各自日期；原公式/字/几何均不改。",
+      "text_sha256": "af7c3e41a2f0b64c8935c05712945b95b1ea079e8bf2142b3bfc96269f404b12",
+      "affected_references": [
+        {
+          "id": "evidence-9fc4cd79069dd550",
+          "claim_id": "candidate-a5df3bc656c631c7",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0401-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "航天机电1分5/18图，g0图示18.59而正文设18.5，原制图/原发未核；作者文字与黄框重引独立，保d1=g2/d2=g4及g3首分解三卖，不以图反改原价。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0402-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "同一航天机电5/18图的结合律/MACD注释版本，原制图未核；g0g3原式右端止g2d3有端点张力，不按黄框静补d3g3。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0403-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "同一航天机电5/18图两分解与反弹说明版；两中枢无连接的禁式与三个次级合高一级不同，制图/原发未核，不以旁注变作者新增引文。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0404-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "航天机电首分解到g5确定5分[d2,g5]示意，d7g7含2/3回试与5/6小十字，属本图形识别不是任意K数等递归中枢；原制图未核。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0405-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "航天机电第二分解到g6确定5分[d3,g5]，g7非该分解三卖但MACD两返0不过/后红柱小互证；不把两分解区间/形成时刻/标签硬合，原制图未核。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0406-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分到2007/5/24收盘，10:00/11:15/14:12与当日15:34答前可得；原制图/原发未核，不以5/24已知后市证当时每个点可实际成交。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0408-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证5分图含5/25右端行情，插入1分5/24视图，晚于5/24 15:50问答；混大小级视角及后K仅供整理查证，不能作为作者当时预测证明。"
+      },
+      "reason": "主代理查看12整页与7幅整图，核5/18案例/5/24收评图和5/25后加图；保双分解不同区间、公式端点、正文设价与图值差，原发均未核。"
+    }
+  ],
+  "visual_pages": [
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411
+  ],
+  "pending": [
+    "7图6原发未核/1后加，不凭图改正文18.5或原g0g3等式，双分解g5/g6和[d2,g5]/[d3,g5]保持独立。",
+    "54连接同级中枢必须次级/同向与18可更低范围未统一；三卖后必下/极端幅度与理论前提、二买低一买/二卖高一卖少见许可、第二问没有什么更大级别短答均保上下文。"
+  ],
+  "reviewer": "Codex 主代理 / 54课双分解、连接方向、三类点与次级完整类型、原式/短答指代和7图四轮复核"
+}

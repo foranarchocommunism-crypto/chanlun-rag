@@ -1,0 +1,82 @@
+{
+  "graph_version": "0.1.0-review-2c7fb5f929d2",
+  "schema_version": "1.1.0",
+  "checks": [
+    "50新增；初始三与新增六共九，新增延伸至五为止的口径与32原九次级句分别保留，数量不代替完成/连续/重叠/波动，盘整相加可变级别",
+    "每笔成交递归与图周期模本分开，7分/15加60可选不是结构级别随意改名；1分过程用15分图，4小时非自然日历差，13:37/38原文不同不静合，合理多义不等任意划分",
+    "中枢回拉为另一释义而非已证物理方程，同向背驰同侧回轴与反向比较异侧穿轴分对象；两次同向离开不废三段构成方向，参照a+A+b或b不擅统一",
+    "周线未成两支与第一段日线范围保留，1500仅若形成且结束后的历史预测；扩张一个对象与20扩展两同级原词分开，旧中枢归大系统并非失效消失",
+    "三买定义不入中枢与不回GG更强分开，形成中被破坏非已成任意撤销；至少本级非只限直接次级，小信号回拉重要须5/30中枢且1分离开，观察池非持仓，交替只是未测参考",
+    "10解盘日期按3/5午/夜和3/6修，3/2原答及读者身份不改；12命题13图关联逐项核，7图6后加1未核，33有记录全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "新增六段，加上形成中枢本身三段"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "中枢回拉作用",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "走势多义性",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-bd5c48d5256882e8"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 253
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "两个同级中枢扩张后",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查、历史行情/测度论证明核验或Windows实际离线/PDF交互。",
+    "未验证中枢回拉作用的物理/数值模型、历史实盘/收益、所有周线构造及完整力度公式。"
+  ]
+}

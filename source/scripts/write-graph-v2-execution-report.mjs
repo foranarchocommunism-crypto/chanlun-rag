@@ -1,0 +1,97 @@
+import {readFileSync,writeFileSync,copyFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+const read=p=>JSON.parse(readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const d=read('build/graph-v2/development-natural/metrics.json'),f=read('build/graph-v2/development-findings.json'),p=read('build/graph-v2/acceptance/performance.json'),e=read('build/graph-v2/acceptance/fault-results.json'),r=read('fresh-extraction-delivery-receipt.json'),g=read('build/graph-v2/acceptance/gate-results.json');
+const pct=x=>(x*100).toFixed(3)+'%',ms=x=>x.toFixed(2)+' ms';
+const table=['L','T40','T48','G1','G2','G2-F'].map(a=>`| ${a} | ${pct(d.summary[a].recall)} | ${d.summary[a].failures} |`).join('\n');
+const text=`# Graph 检索改进与受控降级：实施执行报告
+
+日期：2026-10-25。当前候选版：${r.product_version}。工程修复、真实模型验证与新 ZIP 解压运行已完成；独立语义效果验收未通过，默认检索配置未切换。
+
+## 当前方案遵循的两项用户决定
+
+1. 学生作答已取消。用户认可转述准确，但两份原文多为共同概念下的不同内容，不能据此制造“必须同时用两份原文才能回答”的题目。50 组材料保留为准备记录，既不计验收通过，也不再列为学生待办。
+2. 二跳自然参与竞争。取消 12/8 路径配额、二跳候选保底名额、优先准入与特殊拼接重排文本；一跳、二跳共用同一个路径池和 Graph 候选池，二跳可以零入选。原方案的二跳专项 +5 个百分点门槛同时退役，不以它继续要求人为制造收益。完整依据见 evaluation/graph-v2/natural-competition-decision.json。
+
+原始方案与 acceptance-plan.json 作为历史审计依据保留；执行状态以本报告和 build/graph-v2/acceptance/case-results.json 为准。rc.1 是已被取代的实验，不是当前候选交付。
+
+## 实现结果
+
+- 保留文本前 40 个重排候选，所有 Graph 候选合计最多增补 8 个；预算 44 仅增补 4 个，20/40 不隐式扩容。Graph 找到新证据后能进入实际重排输入；最终结果由同一个重排器竞争，不给二跳最低名额。
+- 路径池统一排序采用种子排序、终点支持命题已有文本排序和稳定 ID，并按根节点轮转；候选准入对两种深度采用相同的新颖性、种子排序和稳定 ID 规则。所有候选使用自身文本、前提和例外评分，不拼接桥接文本来抬高终点分数。
+- 有明确实体、别名或 conceptId 才展开。深度最多 2；根节点最多 8；每节点每层最多选 4 个邻居、读 32 条邻接；共最多 64 个节点、512 次边读取、1024 次支持检查；100ms 合作式截止。
+- 完整路径必须保留每条边的方向、类型、状态和原文。支持候选按整组准入；辅助原文单独计数且与主结果共用上下文。放不下整条路径就推迟并提供继续查询入口，不制造残缺的完整路径。
+- Graph 缓存、遍历、锚点、验证、包装异常统一撤销 Graph 贡献。allowDegraded=true 时回到文本结果；默认严格模式报错。源库损坏、索引不匹配、参数错误和取消不会被伪装为成功。下一次正常请求可以恢复。
+- 默认策略也获得 Graph 故障边界。实验策略的包装后回退复用已算好的文本分数；旧策略若先前用锚点挤掉了文本候选，回退时仅补算缺失文本项，runtime 记录实际调用数，不宣称所有旧请求都只调用一次。
+- 修复接近 60,000 字时，最后追加预算统计字段导致超限报错的问题。评分依然表示相关性，不表示事实置信度。
+
+## 当前版本的实际验证
+
+全部 ${e.tests.total} 项自动测试通过，失败、跳过均为 0。新增自然竞争测试明确验证：第二跳可零入选、改变深度本身不改变准入顺序、重排文本格式完全一致。故障测试覆盖准备、第一/第二跳、锚点、输出验证、路径包装、超时、严格/宽松策略、后续恢复、并发队列，以及全局损坏与取消。
+
+隔离的合成语料使用实际本地向量模型、重排模型和新建索引。目标命题不在词法、向量各前 100 条中，但实际进入重排；所有候选输入统一。目标在最终主结果的位置为 ${e.real_model.primary_rank??'未进入前20条'}，这是自然竞争的观测，不保证终点必须入选。完整两跳包装由可控机制测试验证，合成语料不证明缠论语义质量。包装错误后文本分数最大差异 ${e.real_model.fallback_max_score_difference}。
+
+真实 JS、CLI、MCP 在 48/40/20 预算请求上返回相同证据，来源继续查询有效。240 个真实开发问题的注入 Graph 故障结果均与文本基线主结果一致。
+
+## 240 题对照结果
+
+L 是修改前快照；T40/T48 是当前纯文本检索；G1/G2 分别是新准入的一跳/自然竞争二跳；G2-F 是 Graph 注入失败后的回退。评价对象是前 20 条实际返回主命题的去重原文段落，辅助原文和争议组附加项不混入主结果成绩。
+
+| 方案 | 主结果原文召回均值 | 请求失败数 |
+|---|---:|---:|
+${table}
+
+这些是已经看过的开发题，不是新的独立验收。L 的 ${d.summary.L.failures} 次预算报错单列为可用性失败；与 L 的质量差分只比较双方成功的 ${d.differences.L.joint_success_cases} 题，不把修复报错计成 Graph 收益。G2 相对 T48：${d.differences.T48.improved} 题上升、${d.differences.T48.regressed} 题下降，均值差 ${(100*d.differences.T48.mean_difference).toFixed(3)} 个百分点。
+
+G2 中 ${f.counts.G2.queries_with_graph_only_primary} 题有完全来自 Graph 的新候选进入主结果，共 ${f.counts.G2.graph_only_primary_occurrences} 次；另有 ${f.counts.G2.rescued_primary_occurrences} 次是救回原本在文本候选尾部的命题。这证明准入发挥了作用，不能据此断言新增项都正确。${f.counts.G2.queries_with_two_hop_traversal} 题存在选中的二跳路径，而最终包内完整两跳路径为 ${f.counts.G2.queries_with_complete_two_hop_packet} 题；60,000 字预算下的完整路径可用性仍受限制，不能用“已遍历”替代“已返回”。
+
+下降样本详见 build/graph-v2/development-findings.json；不在这批题上反复调参后声称通过独立验收。
+
+## 性能与实际运行包
+
+重新使用当前版本，在同一主机预热后跑固定 30 题 × 5 轮，L/G2 交替，计 300 次调用；无评分缓存。开发评测的相同批次复用时间未用于性能判定。
+
+| 项目 | 实测 | 计划上限 |
+|---|---:|---:|
+| G2 热启动端到端 p95 | ${ms(p.G2.p95_ms)} | 6000 ms |
+| 相对 L p95 | ${(p.G2.p95_ms/p.L.p95_ms).toFixed(3)} 倍 | 1.25 倍 |
+| Graph p95 | ${ms(p.G2.graph_p95_ms)} | 50 ms |
+| 峰值内存 | ${(p.peak_rss_bytes/1073741824).toFixed(3)} GiB | 2 GiB |
+| 最慢冷启动 | ${ms(Math.max(...p.cold.map(x=>x.elapsed_ms)))} | 12000 ms |
+| 最大重排输入 | ${p.G2.max_rerank_count} | 48 |
+
+性能当前通过状态：${p.passed}。L 有 ${p.L.failures} 次失败，G2 有 ${p.G2.failures} 次失败；完整失败记录保留。队列等待独立记录。
+
+实际 ZIP：${r.archive}
+
+SHA-256：
+
+\`\`\`text
+${r.archive_sha256}
+\`\`\`
+
+ZIP 共 ${r.files} 个文件，${r.archive_bytes} 字节。全新解压到：${r.extracted_path}。用解压目录里的 node.exe 与程序完成 ${r.checks.length} 组检查，包含文件哈希、默认/实验 JS/CLI/MCP 一致性、真实模型、严格报错/受控回退/恢复、来源追查与本地依赖加载。
+
+运行检查通过预载方式禁用 Node 的 fetch/http/https/net/tls/dns，不改变主机网络设置；这是进程无法联网条件下的运行验证，不声称主机网卡断开。只验证当前 Windows x64 主机，不新增 ARM64、容器或干净虚拟机验证。
+
+此前 rc.1 在过深目录解压时碰到 Windows 路径长度限制，已保留失败日志，并用同一 rc.1 ZIP 在短目录完成验证。本次 rc.2 直接采用较短的中文及空格路径，完整解压并运行成功。建议解压到较短目录。旧 0.3.0 和 rc.1 均保留，未覆盖。
+
+源库、索引、政策和默认配置 9 个受保护文件未改；原始快照 26 个文件与旧交付的 23 个模型文件均通过哈希比对。新模型未下载，原库未重建。
+
+## 验收结论与复跑
+
+工程门槛通过：${g.gates.filter(x=>x.passed).map(x=>x.id).join('、')}。二跳专项提升门槛已按用户要求退役。一般语义质量和负例独立判断未获新证据，默认激活门槛仍返回失败码；这是保留真实边界，不是待学生补交作业。
+
+\`\`\`powershell
+node --test test/*.test.mjs
+node --import ./scripts/deny-network.mjs scripts/verify-graph-v2-real-model.mjs
+node --import ./scripts/deny-network.mjs scripts/verify-graph-v2-interfaces.mjs
+node --import ./scripts/deny-network.mjs scripts/evaluate-graph-v2.mjs --split development --out build/graph-v2/development-natural
+node --import ./scripts/deny-network.mjs scripts/benchmark-graph-v2.mjs
+node scripts/verify-graph-v2-gates.mjs
+\`\`\`
+
+最后一条预期退出码为 1，表示实验策略未获独立默认激活验收，不表示工程测试失败。全新解压证据在 fresh-extraction-delivery-receipt.json，ZIP 旁另附同内容回执和最终 gate-results。包内 gates-at-build 是构建时快照，最后状态以 ZIP 旁回执为准。
+`;
+const output=resolve('docs/research/2026-10-25-graph-retrieval-plan/实施执行报告.md');writeFileSync(output,text);
+copyFileSync(output,r.archive+'.实施执行报告.md');console.log(JSON.stringify({report:output,delivery:r.archive,tests:e.tests.total,default_activation_accepted:g.new_default_accepted}));

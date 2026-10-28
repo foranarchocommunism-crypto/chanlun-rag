@@ -1,0 +1,13 @@
+file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/build/graph-v2/baseline/app/src/retrieval.mjs:17
+const fail = (code, message, details) => { throw new RetrievalError(code, message, details); };
+                                                 ^
+
+RetrievalError: contextBudget cannot fit request metadata; increase it
+    at fail (file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/build/graph-v2/baseline/app/src/retrieval.mjs:17:50)
+    at RetrievalService.package (file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/build/graph-v2/baseline/app/src/retrieval.mjs:200:46)
+    at RetrievalService.retrieveInternal (file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/build/graph-v2/baseline/app/src/retrieval.mjs:291:25) {
+  code: 'INVALID_REQUEST',
+  details: {}
+}
+
+Node.js v24.15.0

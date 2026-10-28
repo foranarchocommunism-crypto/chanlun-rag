@@ -1,0 +1,13 @@
+{"packed": 2000, "total": 7791}
+{"packed": 4000, "total": 7791}
+{"packed": 6000, "total": 7791}
+Traceback (most recent call last):
+  File "C:\Users\13240\Desktop\RAG\chan-kg-agent\scripts\zip-graph-v2-candidate.py", line 30, in <module>
+    source.extractall(target)  # validates each member's CRC while extracting
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13240\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1757, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\13240\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1814, in _extract_member
+    open(targetpath, "wb") as target:
+    ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\graph-v2-20261025\\ȫ�½�ѹ ���ո�\\chan-kg-agent-0.4.0-rc.1-windows-x64-307029129712\\app\\node_modules\\@huggingface\\transformers\\types\\models\\audio_spectrogram_transformer\\feature_extraction_audio_spectrogram_transformer.d.ts.map'

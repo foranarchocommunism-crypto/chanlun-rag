@@ -1,0 +1,51 @@
+[
+  {
+    "source": "shared-knowledge\\v0.1.0\\graph.sqlite",
+    "package": "knowledge\\graph.sqlite",
+    "source_sha256": "3463D772E607C6E89104C17C02C6B3656CCA766F444D226C011FB9D8A9017271",
+    "package_sha256": "3463D772E607C6E89104C17C02C6B3656CCA766F444D226C011FB9D8A9017271",
+    "equal": true
+  },
+  {
+    "source": "shared-knowledge\\v0.1.0\\manifest.json",
+    "package": "knowledge\\manifest.json",
+    "source_sha256": "4EAFC2500D74089D2B8A113598AFB83470C4553D53748A5CA6207F614C238AAC",
+    "package_sha256": "4EAFC2500D74089D2B8A113598AFB83470C4553D53748A5CA6207F614C238AAC",
+    "equal": true
+  },
+  {
+    "source": "chan-kg-agent\\indexes\\lexical-1-307029129712\\manifest.json",
+    "package": "indexes\\active\\manifest.json",
+    "source_sha256": "5FFE4715E3B8D7A6FA3CFF9AA2DCAF04BD68BF56D036E8167C19AA1DC25C255B",
+    "package_sha256": "5FFE4715E3B8D7A6FA3CFF9AA2DCAF04BD68BF56D036E8167C19AA1DC25C255B",
+    "equal": true
+  },
+  {
+    "source": "chan-kg-agent\\indexes\\lexical-1-307029129712\\projection.sqlite",
+    "package": "indexes\\active\\projection.sqlite",
+    "source_sha256": "0686B13E61C145AFF2B638BD29A2FED27A8D56EFC6A2FD68061E656D8A66585E",
+    "package_sha256": "0686B13E61C145AFF2B638BD29A2FED27A8D56EFC6A2FD68061E656D8A66585E",
+    "equal": true
+  },
+  {
+    "source": "chan-kg-agent\\indexes\\lexical-1-307029129712\\vectors.f32",
+    "package": "indexes\\active\\vectors.f32",
+    "source_sha256": "9B98764FDA2F6DBB9A61417291A171A2B18E53F8C73CE1A7368A5CF9AB9516A8",
+    "package_sha256": "9B98764FDA2F6DBB9A61417291A171A2B18E53F8C73CE1A7368A5CF9AB9516A8",
+    "equal": true
+  },
+  {
+    "source": "chan-kg-agent\\profiles\\default.json",
+    "package": "profiles\\default.json",
+    "source_sha256": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40",
+    "package_sha256": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40",
+    "equal": true
+  },
+  {
+    "source": "chan-kg-agent\\policies\\ambiguity-issues.json",
+    "package": "policies\\ambiguity-issues.json",
+    "source_sha256": "AD3F55351BA2AFB7A5FD2679DF60E12C51F31299A51BD4AF3427C27F69CBBE93",
+    "package_sha256": "AD3F55351BA2AFB7A5FD2679DF60E12C51F31299A51BD4AF3427C27F69CBBE93",
+    "equal": true
+  }
+]

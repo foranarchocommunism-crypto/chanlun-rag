@@ -1,0 +1,80 @@
+{
+  "graph_version": "0.1.0-review-bb28763cfcd8",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "26新增；同级B0/A1/B1/A2/B2不低于含等号，交易化预期模型不冒测量心理，符合理论多解非任意画法，不预测不等不可预测。",
+    "理论每笔与有限操作精度分开，成本/通道/容量条件保；原至少1分钟以下线段不改字，45—46所有红面积及最严格小转大，与30分忽略46—47/持到5分背驰或突发破坏分层。",
+    "55盘背假一买仅类比，MACD先回零/新高/面积和高度弱联合，58—61新枢与收评从60起[4224,4254]原锚点分存；4224下1分三卖与次日1分回抽不触成5分三卖不同，不简化触价。",
+    "消息精确定位后0影响/小概率为作者强语非实测；并非每二卖要动，大级已破可盘中小级卖，快速小级空间足够可供30操作者5分入，不取消一般原级别或保证成交。",
+    "3作者跨页答时间只补空格、Abc仍reader，1分图可判年线不混图与走势；四股形态分别看，4192附近触46不添已成30分，短5日/中5周分开，独立PE法规不作现行规则。",
+    "38段全台账、13命题13图文关联4整图；2未核2后加，图右B2只画大于而等号由文字给出，原4067.85/重绘4068.20分存，后6/21不证前判断。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "B2"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "走势破坏",
+        "limit": 10
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "最低级别",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-571559c79e2ef224"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 453
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "多少分钟的图和多少分钟的级别",
+        "scope": "source",
+        "limit": 3
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 13,
+    "associations": 13,
+    "unique_figures": 4
+  },
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同代理四轮不是独立/人类金标准；两册未与原博客逐字核。",
+    "60最低级别/消息强语及中枢锚点待核，43/57夹注、54跨页上下文、61课及最终来源覆盖交付审计未完成。",
+    "软件构建和交付已排除，现有检索回归/生成回答评价边界仍如实保留。"
+  ]
+}

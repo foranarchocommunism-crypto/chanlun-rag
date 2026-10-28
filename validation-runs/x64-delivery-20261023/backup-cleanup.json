@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "finished_at": "2026-10-24T11:17:58.3530934+08:00",
+  "actions": [
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712",
+      "files": 7783,
+      "bytes": 1025160207.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\移位验收 空格路径\\chan-kg-agent-0.2.0-307029129712",
+      "files": 7783,
+      "bytes": 1025160207.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.1-307029129712",
+      "files": 7786,
+      "bytes": 1025169807.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712",
+      "files": 7815,
+      "bytes": 1201389397.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-knowledge-20261022-307029129712",
+      "files": 2164,
+      "bytes": 222481067.0
+    },
+    {
+      "action": "removed_superseded_archive",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712.zip",
+      "bytes": 522565336,
+      "sha256": "39e0fc6038f88fd6ebeb4145f80465ef0ddb394f4901c6a14ad6a62b90d9542b"
+    },
+    {
+      "action": "removed_superseded_archive",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712.zip",
+      "bytes": 591732627,
+      "sha256": "1d827fbfc168b16ef8de99ac689df2f8b737f3b7e9237eed4737a7e897ece4af"
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\windows-compatibility-20261023\\superseded-candidate",
+      "files": 7789,
+      "bytes": 1547740524.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\agent-implementation-20261022\\baseline-knowledge",
+      "files": 2,
+      "bytes": 71628025.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\portable-platforms\\arm64",
+      "files": 16,
+      "bytes": 99521866.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\windows-compatibility-20261023\\launcher probe 中文 空格",
+      "files": 1,
+      "bytes": 194.0
+    },
+    {
+      "action": "removed_redundant_or_cancelled_generated_tree",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\__pycache__",
+      "files": 4,
+      "bytes": 41009.0
+    }
+  ],
+  "removed_file_bytes": 7332590266.0,
+  "retained": [
+    "Current final x64 directory and ZIP",
+    "One previous usable x64 0.2.1 ZIP for rollback",
+    "Knowledge-only ZIP with unique historical audit files",
+    "Pre-implementation source backup and curation records",
+    "Canonical graph and fixed PDFs",
+    "Frozen evaluation, active models and source maintenance dependencies"
+  ],
+  "recycle_bin": "Not accessed or emptied"
+}

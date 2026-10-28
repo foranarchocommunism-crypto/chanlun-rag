@@ -1,0 +1,276 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-c5310a86c5bb",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0064-b004",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-1219:59:07"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "舞者",
+        "published_at": null
+      },
+      "reason": "实际PDF64：新的无时间“舞者”问题引作者前段再追问，不能沿用前条作者19:59身份/日期；末尾“缠中说禅：”仅为后答复头，原文不重切。",
+      "text_sha256": "c5a65596093795201a20147ecad01c2152a58bf07a3bf7d4b1896a92348e6423",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0064-b005",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-1219:59:07"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "舞者",
+        "published_at": null
+      },
+      "reason": "实际PDF64：新的无时间“舞者”问题引作者前段再追问，不能沿用前条作者19:59身份/日期；末尾“缠中说禅：”仅为后答复头，原文不重切。",
+      "text_sha256": "256c1a62486ca5a04d93d41e686fc524f4d0cefcf9c66a199801018d4572b433",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0064-b006",
+      "before": {
+        "published_at": "2006-12-1219:59:07"
+      },
+      "after": {
+        "published_at": null
+      },
+      "reason": "实际PDF64：紧邻读者追问后有明确无日期作者署名，回答身份仍为author_reply，但其时间未单独记载，不借用前条19:59:07。",
+      "text_sha256": "97ac23b64717adb57b900947f61701cd507a1c18297096e930b4e98628f8245a",
+      "affected_references": [
+        {
+          "id": "evidence-413e2d27b73b6c37",
+          "claim_id": "candidate-c468b3abfd54b52f",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0061-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：北辰30分钟行情栏2006/12/12，嵌12/11答复及12/7箭头，晚于解答；后加图，不能由文后K证明当时必反抽或固定幅度。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0062-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：雅戈尔5分钟行情栏2006/12/12，嵌12/11作者短线/不全仓说明，主图含后续K；后加图，6.3原价不改为图6.26，低周期不泛化大资金。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0064-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：中国高科日线横轴从2006年延至次年4月，嵌12/12答复；后加图，只以作者文字核柱波与DEA/DIFF结合，不以未来行情补确认。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0065-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：长江电力30分钟行情栏2006/12/13，嵌12/12问答及12/7光标，晚于回答；后加图，30分已背与日线未背分开。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0065-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：长江电力日线光标2006/12/12，横轴右端已到次年1月，嵌12/12答复；后加图，不据后续拉升将该日线“并不存在”改写。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0066-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：华菱15分钟行情栏2006/12/13、箱型框，晚于12/12答复；后加图，箱型买入不是标准一买，框的制作者未核。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0067-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：038004日线光标2006/08/18，主图右端至2007年且叠12/13操作、三角末段标注；后加图，不按早光标认截止或把作者成本0自述认证为账户事实。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0068-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：580991日线光标2006/07/03，右端见12/13标注并嵌当日12:28答复；无明确晚于当天答复的时间证据，制作者/原站未核，不仅凭叠字认定原作者图。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0069-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：038004日线行情栏2006/12/15，晚于12/13答复；33(T)、21(T)、34/21神奇数字等图注不全部归作者，正文只说三角第五波末与时间周期点。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0069-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：000928日线光标2006/03/02，主图右端越过2007标记，晚于12/13；后加图，平台式非三角/不补缺口原句与图注身份分开。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0070-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：000928周线光标2004/07/23，横轴右端至2007年、已攻上250周线；后加图，12/13当时250周线支撑有效条件不按后续改成已验证保证。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0071-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：六种组合以3行2列对应陷阱式、反转式、中继式，名称与正文相符；无制作者/制作时间，未核原作者；示意线不能证明概率各半、实际买卖可无风险执行。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0072-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：驰宏日线历史图至2005年底，光标2004/08/18；蓝字正文与2005/10/25中枢说明/额外箭头为未核图注，作者正文仅列7/27和12/8买点，原图源未核。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0073-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：北辰30分钟行情栏2006/12/8，嵌第16课文字并画21天/175(T)；所示行情早于12/14，不能仅据彩色/叠字判后发；21天计数与175(T)非正文已证明时间之窗定律，制作者未核。"
+      },
+      "reason": "实际检查原页、整图、行情栏、主图右端与示意图；明确文后行情才标后加，未明原发身份保留unverified；图注不替正文。"
+    }
+  ],
+  "pending": [
+    "第74页006-12读者日期沿用已核null，不补推定年份；64无时间追问/回答保留未知时间。"
+  ],
+  "visual_pages": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "reviewer": "Codex 主代理 / 第15至16课源身份与原图核对"
+}

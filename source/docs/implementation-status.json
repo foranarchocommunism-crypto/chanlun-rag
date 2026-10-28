@@ -1,0 +1,143 @@
+{
+  "plan": "../../完整实施计划.md",
+  "objective": "Implement all M0-M7 requirements; deliver independent offline Windows Agent package and ZIP",
+  "baseline_graph_version": "0.1.0-review-307029129712",
+  "baseline_receipt": "../../validation-runs/agent-implementation-20261022/baseline.json",
+  "stages": {
+    "M0": {
+      "status": "implemented_verified",
+      "evidence": [
+        "baseline.json",
+        "evaluation/acceptance-v1/manifest.json",
+        "contracts/retrieval-request.schema.json",
+        "contracts/evidence-packet.schema.json",
+        "contracts/retrieval-index.schema.sql",
+        "curation/delivery-scope.json"
+      ],
+      "limits": [
+        "Prospective test is source-disjoint and frozen before tuning, not independent human annotation"
+      ]
+    },
+    "M1": {
+      "status": "implemented_verified",
+      "evidence": [
+        "indexes/lexical-1-307029129712/manifest.json",
+        "policies/ambiguity-issues.json",
+        "m1-m2-tests.log",
+        "retrieval-contract-current.log"
+      ],
+      "reviewed_ambiguity_preserved": 473,
+      "pending_preserved": 2611,
+      "triage": [
+        2116,
+        61,
+        434
+      ],
+      "semantic_promotions": 0
+    },
+    "M2": {
+      "status": "implemented_verified",
+      "evidence": [
+        "m2-lexical-parity.json"
+      ],
+      "exact_baseline_matches": 240,
+      "recall10": 0.7200099206349208,
+      "recall20": 0.818888888888889
+    },
+    "M3": {
+      "status": "implemented_verified_development",
+      "evidence": [
+        "m3-embedding-consistency.json",
+        "m3-author-weights.json",
+        "m3-hybrid-development.json"
+      ],
+      "vector_rows": 23088,
+      "unique_vectors": 15520,
+      "hybrid_recall20": 0.8823611111111113,
+      "independent_acceptance_pending": false,
+      "source_disjoint_prospective_acceptance_verified": true
+    },
+    "M4": {
+      "status": "implemented_verified",
+      "evidence": [
+        "m4-graph-development.json",
+        "m4-rerank-development.json",
+        "m4-production-development.json",
+        "pre-release-tests.log"
+      ],
+      "default_rerank_budget": 40,
+      "development_recall20": 0.9214583333333335,
+      "remaining": []
+    },
+    "M5": {
+      "status": "implemented_stdio_client_verified",
+      "evidence": [
+        "m5-default-mcp-roundtrip.json",
+        "m5-agent-example-inputs.json",
+        "m7-extracted-verification.json"
+      ],
+      "native_gui_registration_tested": false,
+      "remaining": []
+    },
+    "M6": {
+      "status": "implemented_verified_with_annotation_limits",
+      "evidence": [
+        "m6-profile-freeze.json",
+        "m6-prospective-acceptance.json",
+        "release-gates.json"
+      ],
+      "heldout_cases": 24,
+      "source_disjoint_heldout_recall20": 1,
+      "independent_human_annotation": false,
+      "remaining": []
+    },
+    "M7": {
+      "status": "delivered_x64_and_temporary_environment_removed",
+      "evidence": [
+        "../../validation-runs/x64-delivery-20261023/native-guest-receipt.json",
+        "../../validation-runs/x64-delivery-20261023/native-portable-verification.json",
+        "../../validation-runs/x64-delivery-20261023/environment-cleanup.json",
+        "../../validation-runs/x64-delivery-20261023/backup-cleanup.json",
+        "../../validation-runs/x64-delivery-20261023/universal-completion-audit.json"
+      ],
+      "archive": "../../deliveries/chan-kg-agent-0.3.0-windows-x64-307029129712.zip",
+      "remaining": []
+    }
+  },
+  "release_complete": true,
+  "semantic_review_complete": false,
+  "old_desktop_archive_required": false,
+  "evidence_paths": "Run receipts are relative to ../../validation-runs/agent-implementation-20261022; source artifacts are relative to the agent repository.",
+  "independent_windows_environment": {
+    "status": "final_x64_standard_user_offline_actual_zip_passed",
+    "instruction": "Stop downloads; deliver x64; remove all task-installed/downloaded temporary environments.",
+    "required_architectures": [
+      "x64"
+    ],
+    "independent_environment_passed": true,
+    "all_required_environments_passed": true,
+    "ARM64_status": "cancelled_by_user",
+    "windows_container_status": "cancelled_by_user"
+  },
+  "updated_at": "2026-10-24T03:24:16.278860+00:00",
+  "local_delivery_complete": true,
+  "full_original_environment_acceptance_complete": false,
+  "final_report": "../../交付与验收报告.md",
+  "portability_followup": {
+    "candidate_version": "0.3.0",
+    "run_directory": "../../validation-runs/x64-delivery-20261023",
+    "local_complete_verifier_passed": true,
+    "independent_guest_passed": true,
+    "required_architectures": [
+      "x64"
+    ],
+    "windows_container_passed": false,
+    "windows_container_status": "cancelled_by_user",
+    "arm64_status": "cancelled_by_user",
+    "temporary_environment_removed": true,
+    "Windows_servicing_restart_pending": true,
+    "zip_sha256": "9f4554c74da8d92d0cac74f19fd72e04aea009501092e6d668dcba31493d0028"
+  },
+  "current_scope_environment_acceptance_complete": true,
+  "original_environment_scope_note": "Superseded by explicit user decision to deliver x64 and cancel ARM64/container validation."
+}

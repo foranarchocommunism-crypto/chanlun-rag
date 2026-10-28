@@ -1,0 +1,88 @@
+{
+  "graph_version": "0.1.0-review-4867e2d2c06f",
+  "schema_version": "1.1.0",
+  "checks": [
+    "35新增；异级结合不交换、多义非含糊；下标公式按原页释义而原文映射不动，两5分已完非30分完成，重分末项未完成",
+    "旧中枢上沿2858非波动高2888；新旧组合及其三买边界联动，未完第二中枢非两已完中枢；图文13:25/13:30和10:05/10:30差异不静合，不回写35旧时点",
+    "围绕中枢小级/缺口不混构成三段次级，m是段序数非K/日；早30分信号非日线三买仍可返回，安全为作者相对对象强词，若/往往/适量不改全仓规则",
+    "作者答A/C盘整背驰与C内部小背驰配合，非任选单项；IPO不顺短句原字及歧义保留，二三线为业绩价位俗称非官方/股本/指数身份",
+    "改革引文和第一次离开/回抽辩论均读者，作者末答独立；晚4/5中枢几乎百分百及IPO利润安全无样本，三买后趋势/更大中枢算法本课未给",
+    "附录5段只知3/14日级时点，晨帖和3/15独立；5命题11配图关联逐项确认，5图4后加1原发未核，读者270图不挂作者命题；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "采取哪种组合就按其图形意义"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "新股",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "走势类型连接",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-a3a1fc37ee1fa394"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 268
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "第一次回抽",
+        "scope": "source",
+        "limit": 12
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 5,
+    "associations": 11,
+    "unique_figures": 4,
+    "reader_context_figures_not_attached_to_author_claims": 1
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未给图文时分差唯一解释，未验证作者概率/IPO收益或补完所有扩展、最佳分解和日线三买判定算法。"
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "author_revision": "7999e1d3359715c523056ef9478215996d62a620",
+  "author_url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/resolve/7999e1d3359715c523056ef9478215996d62a620/model.safetensors?download=true",
+  "author_weights_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+  "onnx_fp32_sha256": "69a0b846f4f116b5e6aabf9546ea6754d02264f3211a13a1bd69b31b8040749a",
+  "comparison": "Exact tensor bytes with explicit transpose allowance; duplicate initializer values recorded, not an independent execution proof.",
+  "author_tensors": 72,
+  "exact_matching_tensors": 69,
+  "matched_elements": 23691264,
+  "total_elements": 23954432,
+  "element_coverage": 0.9890138075492668,
+  "matches": [
+    {
+      "author_tensor": "embeddings.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "embeddings.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "embeddings.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "embeddings.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "embeddings.position_embeddings.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "embeddings.position_embeddings.weight"
+      ],
+      "orientation": "direct",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "embeddings.token_type_embeddings.weight",
+      "shape": [
+        2,
+        512
+      ],
+      "onnx_initializers": [
+        "embeddings.token_type_embeddings.weight"
+      ],
+      "orientation": "direct",
+      "elements": 1024
+    },
+    {
+      "author_tensor": "embeddings.word_embeddings.weight",
+      "shape": [
+        21128,
+        512
+      ],
+      "onnx_initializers": [
+        "embeddings.word_embeddings.weight"
+      ],
+      "orientation": "direct",
+      "elements": 10817536
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.output.dense.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_551"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.key.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.self.key.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.key.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_542"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.query.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.self.query.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.query.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_541"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.value.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.attention.self.value.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.attention.self.value.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_545"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.0.intermediate.dense.bias",
+      "shape": [
+        2048
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.intermediate.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 2048
+    },
+    {
+      "author_tensor": "encoder.layer.0.intermediate.dense.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_552"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.0.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.0.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.0.output.dense.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_553"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.output.dense.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_564"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.key.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.self.key.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.key.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_555"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.query.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.self.query.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.query.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_554"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.value.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.attention.self.value.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.attention.self.value.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_558"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.1.intermediate.dense.bias",
+      "shape": [
+        2048
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.intermediate.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 2048
+    },
+    {
+      "author_tensor": "encoder.layer.1.intermediate.dense.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_565"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.1.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.1.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.1.output.dense.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_566"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.output.dense.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_577"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.key.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.self.key.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.key.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_568"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.query.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.self.query.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.query.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_567"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.value.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.attention.self.value.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.attention.self.value.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_571"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.2.intermediate.dense.bias",
+      "shape": [
+        2048
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.intermediate.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 2048
+    },
+    {
+      "author_tensor": "encoder.layer.2.intermediate.dense.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_578"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.2.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.2.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.2.output.dense.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_579"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.output.dense.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_590"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.key.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.self.key.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.key.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_581"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.query.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.self.query.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.query.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_580"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.value.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.attention.self.value.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.attention.self.value.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_584"
+      ],
+      "orientation": "transpose",
+      "elements": 262144
+    },
+    {
+      "author_tensor": "encoder.layer.3.intermediate.dense.bias",
+      "shape": [
+        2048
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.intermediate.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 2048
+    },
+    {
+      "author_tensor": "encoder.layer.3.intermediate.dense.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_591"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    },
+    {
+      "author_tensor": "encoder.layer.3.output.LayerNorm.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.output.LayerNorm.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.output.LayerNorm.weight",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.output.LayerNorm.weight"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.output.dense.bias",
+      "shape": [
+        512
+      ],
+      "onnx_initializers": [
+        "encoder.layer.3.output.dense.bias"
+      ],
+      "orientation": "direct",
+      "elements": 512
+    },
+    {
+      "author_tensor": "encoder.layer.3.output.dense.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "onnx_initializers": [
+        "onnx::MatMul_592"
+      ],
+      "orientation": "transpose",
+      "elements": 1048576
+    }
+  ],
+  "unmatched": [
+    {
+      "author_tensor": "embeddings.position_ids",
+      "shape": [
+        1,
+        512
+      ],
+      "elements": 512
+    },
+    {
+      "author_tensor": "pooler.dense.bias",
+      "shape": [
+        512
+      ],
+      "elements": 512
+    },
+    {
+      "author_tensor": "pooler.dense.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "elements": 262144
+    }
+  ],
+  "feature_output_names": [
+    "last_hidden_state"
+  ],
+  "pooler_nodes": [],
+  "used_encoder_parameter_element_coverage": 1.0,
+  "omission_explanation": "Feature graph returns last_hidden_state only, with no pooler nodes; CLS pooling ignores the original pooler. position_ids is a non-trainable indexing buffer, not an encoder weight.",
+  "unexpected_unmatched": [],
+  "onnx_runtime_fp32_vs_quantized_report": "m3-embedding-consistency.json",
+  "pytorch_output_equivalence_proven": false
+}

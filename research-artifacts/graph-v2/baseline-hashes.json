@@ -1,0 +1,106 @@
+[
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\package.json",
+    "sha256": "E170159EF8898CAAB847C1CBE21A0BEF8E5A645D29D4CE21F1B17F012AEAC346"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\bin\\chan-kg-mcp.mjs",
+    "sha256": "203D606DF620EF0E0430AAC69EB1D4B9D9F7A49207B206747B1142C24D68B51B"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\bin\\chan-kg.mjs",
+    "sha256": "5279C125DE78BBAE40EC2AC3FEC7B79FCB48814E68F182DB840B00B1AE3840EF"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\curation.schema.json",
+    "sha256": "E48DEC52072A28FCFCD3CE72EE4B0A7BF237FF46FDBCA7369BFDB7DC52CB9060"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\evidence-packet.schema.json",
+    "sha256": "4844060F80CBF4988E03CC31DE0E981059A121CF95F7F98F339DC0AEA1442F7D"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\retrieval-index.schema.sql",
+    "sha256": "E31784CA26C9ADBE36008E844E2D4FF120DE27378473282FC7899DC4CF02C59B"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\retrieval-request.schema.json",
+    "sha256": "C715EBB662621115EFA4E5FA72D8F0E73B24F15ACC8D761624956BCD7E66DC9B"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\schema.sql",
+    "sha256": "C4A74C67FD806CF309824A815A9AE026D227E42B91E44F6B7B8756C723D38429"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\profiles\\default.json",
+    "sha256": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\config.mjs",
+    "sha256": "BC34F2252C79D2C5BC1615905B72537C0A5AF53764169A35AF1ED1D07B54EAD0"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\core.mjs",
+    "sha256": "D89730FF65CA24A498E61CB4FF442CC955C733949B60A4EA55ECFDB1CBB801A6"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\corpus.mjs",
+    "sha256": "6D9DF0A42918A44B075DE180CC624CA82958E05AAD9A5174ED3A94081255A244"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\definition-anchors.mjs",
+    "sha256": "1871F1EF6110370363C983FCDC15E7177FB4DFFA72107DD2082E5F90B477594F"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\dense.mjs",
+    "sha256": "01A581AE1B37BC2177C97FACD0F9806D27E8B2B8BC49CBBF803197F32F65C6A5"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\embedding.mjs",
+    "sha256": "2C90B11C0E3445A4FF10171497B0F7CB955A9293B8B032CCA51FDA6EF5061212"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\graph-expansion.mjs",
+    "sha256": "A91DFC36DD2E564DC6BB924DECF8DA0005EBCAF0BB469541DFD1B1F13CBD4D11"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\index.mjs",
+    "sha256": "4017DC68F732DC3915863CE52FA8A51984C6E1A28C0A2B9F8D3D09CFF0883A9F"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\lexical.mjs",
+    "sha256": "50BF2716A95675D215217BB08C1556298B7F716DEE21E17B45A26BC71ECEC7CE"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\reranker.mjs",
+    "sha256": "B0D6156F830105174ABA7EAAA726971005874550B12FE055A21B6C2F78A617D9"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\retrieval.mjs",
+    "sha256": "5090C0E46B81EF4107F0FB79D5EAD282D206E9F81C868B6D27CD02C18B2DD674"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\corpus.test.mjs",
+    "sha256": "BCEF7DC2BB895E709BA15A6DDD51E99CE48CC9FBE91966F1CB53F1572E5A116B"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\curation_contract_test.py",
+    "sha256": "A078B1AC98383C98C689BA049A0B5CDAF111838A6EB86963B955A799F53721E9"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\hybrid-graph.test.mjs",
+    "sha256": "987C5CAF82C33F6B55EE5F9E61788581975354D2FDDF3884607ABBFCB3AE0535"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\retrieval-baselines.test.mjs",
+    "sha256": "ED9FD2CD286551DC0179B96D4E0C23B08086E65CA755882B8040F6A08D4641D0"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\retrieval-service.test.mjs",
+    "sha256": "6132ED1A0C56C8C0D87E5D725233BBB74CF5E28DE8F571700EB19DD114125CE4"
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\version-session.test.mjs",
+    "sha256": "B8E73A917D1C52187AAB4A6FC08FF2481959AAE440D5E682419ADAD7403651D9"
+  }
+]

@@ -1,0 +1,1 @@
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const w=fs.writeFileSync;let n=0;fs.writeFileSync=function(p,...a){if(String(p).endsWith('vector-progress.json')&&++n===2)throw Error('AUDIT_FSYNC_BEFORE_CHECKPOINT');return w.call(this,p,...a);};syncBuiltinESMExports();

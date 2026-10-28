@@ -1,0 +1,813 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-f1e255f24bc8",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0391-b008",
+      "before": {
+        "published_at": "2008-04-29 15:02:13"
+      },
+      "after": {
+        "published_at": "2008-04-30 15:17:52"
+      },
+      "text_sha256": "f5c605be0287b79a7b372bcda64b6f27fbf232046b2fdac864cd9de8627f6bf0",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-04-30 15:17:52"
+      },
+      "text_sha256": "9fdf7b0fa871fe13e9bd95b9dd933c77d84a0a93b6e4aa9f0fe56930f3a5715e",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "text_sha256": "d77c1ccd068b2de137a2cf144bbb4bd3c5b599639b4cec3dec94ad0f3db39d0f",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-06 13:25:02"
+      },
+      "text_sha256": "a3ad56d1bf43fbfd9a01e6c96cff7617a6a710732cfcee7b1a488ce57cb84225",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-06 13:25:02"
+      },
+      "text_sha256": "cfa2aab6f458f027afcd332d4fe44914d7ed0b64f2f4a9cf6e7018da7e1931db",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-07 15:06:22"
+      },
+      "text_sha256": "7003296761e5d4d0c7e6aa97416e399d48258d88f5a7fd48675409634d3f7ee9",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-08 14:45:00"
+      },
+      "text_sha256": "d58de0bc9a9de6038489b191935ab9ae1a6a5f63fe07d56366ee581ae8da5f9f",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-08 14:45:00"
+      },
+      "text_sha256": "f682d3fe531aa24b0968047b4d7df7836bd9f97e8ad91a6a963fe37bed28e474",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0392-b007",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-05-09 08:46:29"
+      },
+      "text_sha256": "779abb2275b10c648b8c03ab04d423f4b8dc27613804303975f745ca3674ee57",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "现在已经在全亚洲设备、水平最高的地方住下了，各位不用担心。",
+        "published_at": "2008-05-05 16:54:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-03 12:13:16"
+      },
+      "text_sha256": "854ae09cc378cc4e11967b6cb9200edfdda86f292d618ec9cbadbde6761d63ad",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-03 12:13:16"
+      },
+      "text_sha256": "7b9d4ad250263cdeb8ae5cc00036d76db1aacd4d85a977acf61e7441dceedeaa",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "text_sha256": "98a7cabf3b9290ecc48d22144995dd3079db9aa39f9de17a98823232cf6016d8",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b003",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-05 09:41:51"
+      },
+      "text_sha256": "8d14a7bab8c4a20179163695ae5883e576c681f60cf89c31bcfad167a962a23b",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b004",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-05 09:41:51"
+      },
+      "text_sha256": "893b039ded0ecd5a4e41b3a07d2570a45f6b932fc725ba47fd1f8e721e826ad3",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b005",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-06 09:52:47"
+      },
+      "text_sha256": "dd8d9383e938a7072b7772ff52662bd76730bb3df01b66ba63caa85b70da98de",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0393-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-06 09:52:47"
+      },
+      "text_sha256": "ccf3a2500f6447e172a50ec39eb2796fb69c9b0e5afdac017e83396798a35204",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0394-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-06 09:52:47"
+      },
+      "text_sha256": "777f3f069da81e719286a53b70cd6be0d29414c85c541319d2c93132b45daef7",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0394-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-06 09:52:47"
+      },
+      "text_sha256": "222b9adee491106d2bf0fbbb7bb111318f5e8e4a9ba304bd3147c95f7091d753",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0394-b002",
+      "before": {
+        "role": "reader",
+        "speaker": "今年什么多，早说了：井呀，井后是冈冈后山，这才是我们的井冈山。",
+        "published_at": "2008-06-04 15:14:21"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2008-06-06 09:52:47"
+      },
+      "text_sha256": "0ad5c9ef42ac6eaabe0811fcd75ad63195d78f75987110daa5915fd80d2f55b0",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0396-b004",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-12 15:23:31"
+      },
+      "text_sha256": "d1403f33a31f382dc1d6597605765a17f6309573f1bfdd9265c0702f0dd42dfd",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0396-b005",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-12 15:23:31"
+      },
+      "text_sha256": "19dc2e2dcdacef6328a8534983f6a0e18fd8ab1f3a7f389a917beb1d4423fc73",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0396-b006",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-12 15:23:31"
+      },
+      "text_sha256": "84ace5d109b769a711b1e41d3f82e72234b2685694a55a4a9ae039110f715457",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0396-b007",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-12 15:23:31"
+      },
+      "text_sha256": "6839cc8570ad47c9e88b8b9b40424fd2864977de1e430bed6fa4a17766079d76",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0396-b008",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-13 16:11:04"
+      },
+      "text_sha256": "09a70033fe94b6ea96a3ba1b23c8d0a3b67ddce5f0e089c6e3b9cd9797306d23",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b000",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-13 16:11:04"
+      },
+      "text_sha256": "fe25ecd8518d5913802a5ac5660a90b1a47fd54007c3ba246865dbfb58751fcf",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b001",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-13 16:11:04"
+      },
+      "text_sha256": "b86b5d7dec61a4ec40aca5442dee2c5ef14ef9b9e962cbfc741bb57105cb47a6",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b002",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-14 07:27:47"
+      },
+      "text_sha256": "33eea9d15aabae5fc343e047d959124b3613963d27bbd9ad14ba699863ee4f07",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b003",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-16 12:49:59"
+      },
+      "text_sha256": "e07a0bb4e4e8c101c1e136aadb867d28a6acabebef59b65eab9e0a9bc685d035",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b004",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-17 10:10:03"
+      },
+      "text_sha256": "75bc159b99cee96f7b81004b2fab3fad48e0d29c13b6e4a4a5054124802d34c4",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b005",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-18 08:04:09"
+      },
+      "text_sha256": "ae635ff4c96850f73aa195a77775a277652afb489c5666c7962c3823c279c87d",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b006",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-18 08:04:09"
+      },
+      "text_sha256": "a5868223c362990af3a28c7ec556ce2fae967b4b77756e2d7d442699f552094e",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b007",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-19 08:11:01"
+      },
+      "text_sha256": "bf36c02b4adb54ca35a94220f90ddb477296133764bc9e81c0628aec1125de22",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b008",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-19 08:11:01"
+      },
+      "text_sha256": "b86dd0bfd426d3e90ec1df01893a0c1502efcf435282bb07ad5b905a27c38527",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b009",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-20 21:37:15"
+      },
+      "text_sha256": "2be23a97c72a803812e90456d3146ba38768694ee373de524b1b9063695befe0",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0397-b010",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-23 18:52:18"
+      },
+      "text_sha256": "3c5a65a20bb8fcf04f9e8caa77ea026a2721fb8c548677ac96b2d902a99dd459",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b000",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-23 18:52:18"
+      },
+      "text_sha256": "80861ccc587ebcf3c87a9e979e30af1771dae68065d6b88840aff50913fc0575",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b001",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-25 18:47:38"
+      },
+      "text_sha256": "ee6415c0ad0facea49c7e96d6ae1b875b27f7874e93f7d105431b341f00d44ad",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b002",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-27 16:40:23"
+      },
+      "text_sha256": "20690c44e94f02dd5e15dc7b3aa33dd9cb97ce58dca1d68165c399b1edb554e3",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b003",
+      "before": {
+        "published_at": "2008-06-11 16:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-27 16:40:23"
+      },
+      "text_sha256": "ecf26be4203e9757f124aae3b2b30c12dfd7184db08ca86cdb20799f13efde37",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b004",
+      "before": {
+        "published_at": "2008-06-1116:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-30 18:16:51"
+      },
+      "text_sha256": "9282fc6c8c049f1d7c02acc4562d15cbe15fb1b1b1a779ac5c83f0239f74e626",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0398-b005",
+      "before": {
+        "published_at": "2008-06-1116:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-30 18:16:51"
+      },
+      "text_sha256": "bccd6a4976357cf55597fd65acd55956a684ae8e4bdf7da8fc29caf8db05c057",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0399-b000",
+      "before": {
+        "published_at": "2008-06-1116:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-30 18:16:51"
+      },
+      "text_sha256": "1a6e6dd6cb6af43346f2018831bd50c44cef8b6ac0d0809e848d41fd1e9fcb89",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0399-b001",
+      "before": {
+        "published_at": "2008-06-1116:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-30 18:16:51"
+      },
+      "text_sha256": "0ec1ef841082355b3c488c0ca991588d19568ba170e5b2139f66e3783014b216",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0399-b002",
+      "before": {
+        "published_at": "2008-06-1116:25:48"
+      },
+      "after": {
+        "published_at": "2008-06-30 18:16:51"
+      },
+      "text_sha256": "fd01ca9066cbc87e5703c6fa5b7d9b63b89aad209954d07a0823a71a7bc1e03f",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0401-b000",
+      "before": {
+        "published_at": "2008-07-02 15:35:56"
+      },
+      "after": {
+        "published_at": "2008-07-03 15:42:51"
+      },
+      "text_sha256": "8b1f7c50b91facc146426a5014c8a1effa42f5c6b8967e3c6fd04cc73ef3f4b1",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0401-b001",
+      "before": {
+        "published_at": "2008-07-0215:35:56"
+      },
+      "after": {
+        "published_at": "2008-07-04 16:04:21"
+      },
+      "text_sha256": "41c194e6e0c600cda2fe0cbc801f4ff01efee18f030ca46011d9b17eff00fae8",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0401-b002",
+      "before": {
+        "published_at": "2008-07-0215:35:56"
+      },
+      "after": {
+        "published_at": "2008-07-04 16:04:21"
+      },
+      "text_sha256": "95c72abdfdcb51c1d1b0ffeace5f44ea1f3e13c1844e0af0c2c57e96b349a486",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0401-b003",
+      "before": {
+        "published_at": "2008-07-0215:35:56"
+      },
+      "after": {
+        "published_at": "2008-07-09 16:06:27"
+      },
+      "text_sha256": "0b05fe5cf2ee53d9c5bcc590a6ade6442a8236c93ba0cd82834d1d5a70596ad2",
+      "reason": "实际查看PDF391至401连续缠中说禅解盘栏目：正文无独立读者署名；新日期作为下一段时间头，可能抽取到前段末尾。仅校身份/日期，不改前段日期或原文坐标。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0383-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "unverified",
+        "note": "实际查看原页与单图：机械流程图从30分钟底背驰开始，含5分钟背驰及二三买卖等分支，无作者署名或制作日期；与105短正文的分型/笔示范不同，不能把全流程与新增说明自动算作者程序。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0384-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "unverified",
+        "note": "实际查看原页与单图：机械化买卖程序大图含A至E段、区间套、盘背、加减仓与一买二买三买等旁注；制作者未核，不能据此生成作者认可的完整自动交易算法，须逐条找正文。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0385-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：4/15正文旁60分钟图行情已到4/16；3311.2为图上小数而正文3311，后加图不提前确认4/15下一日回试。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0387-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：4/18嵌文和光标但日图延至7月含2566.5；5522.8图标不改正文5524，三种力度反弹按当时文字，不能由未来行情自证预测。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0389-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：4/22嵌文而60分钟行情至4/25，含3658高点；3085成分型与回试成笔按当时原句，不能倒填4/22笔已成。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0391-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：4/25和4/28嵌文但60分钟主图到5/6、日图插图也有后续K；正文3656与图3658不同照存，不据未来图改当时60分钟向下笔未完或日笔状态。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0392-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：4/29、4/30、5/5、5/9嵌文而日图到7月含2566.5，后加；解盘日期以原页时间头校定，不以6/18光标覆盖各段日期。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0393-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：6/3、6/4、6/6嵌文，日图与布林通道都已到7月含2566.53；后加，不能以未来跌破提前确定6/4最后一跌分支。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0394-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：6/10嵌文及光标，日图延伸到7月含2566.5；图波浪编号为整理，不把借用波浪语言或沪深类比当作者严格理论同义证明。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0398-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：主图光标6/13，但日图行情到7月、2566.5低点已含，正文旁6月各日说明未给图制作身份；后加，不用未来第二中枢/背驰结果改当时概率。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0401-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看原页与单图：7/2和7/3嵌文与光标，日图延伸到9月后含1802.31低点；后加，70%倒T经验、2753/2945/3483依次确认不能被未来图证明或预知。"
+      },
+      "reason": "核对全图/插图右侧行情和嵌文日期；未知流程图保留来源未核，不以标题认作作者程序。"
+    }
+  ],
+  "pending": []
+}

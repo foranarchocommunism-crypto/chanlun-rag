@@ -1,0 +1,463 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-63d8b41da992",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0438-b004",
+      "before": {
+        "published_at": "2007-06-05 15:23:01"
+      },
+      "after": {
+        "published_at": "2007-06-06 16:52:09"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "5ecb7c6d9338af9e9adae030f510f92622b9f0e0804841945d31dfa2796f5522",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0438-b005",
+      "before": {
+        "published_at": "2007-06-07 15:04:21",
+        "role": "reader",
+        "speaker": "不多说了，离开这里。要去一次杭州见个有分量的人，估计周一才能回北京了。"
+      },
+      "after": {
+        "published_at": "2007-06-06 16:52:09",
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。PDF作者解盘连续语气/原署名、非读者问答；此处无读者署名，5段误reader修正。",
+      "text_sha256": "5f5f51e9b5cfbb0ce325fd24d66ce0697642b51f55470b6b93ae28c58e44d885",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0438-b006",
+      "before": {
+        "role": "reader",
+        "speaker": "不多说了，离开这里。要去一次杭州见个有分量的人，估计周一才能回北京了。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。PDF作者解盘连续语气/原署名、非读者问答；此处无读者署名，5段误reader修正。",
+      "text_sha256": "588de51700711cb806a8ab96aecdeb32cb288a88266d272f1b292856ef033677",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0439-b000",
+      "before": {
+        "role": "reader",
+        "speaker": "不多说了，离开这里。要去一次杭州见个有分量的人，估计周一才能回北京了。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。PDF作者解盘连续语气/原署名、非读者问答；此处无读者署名，5段误reader修正。",
+      "text_sha256": "a21c1b1776f0c9566a334c4c810f30f4d1e3a181a12f3d656869b79f4ed382ee",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0439-b001",
+      "before": {
+        "role": "reader",
+        "speaker": "不多说了，离开这里。要去一次杭州见个有分量的人，估计周一才能回北京了。"
+      },
+      "after": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。PDF作者解盘连续语气/原署名、非读者问答；此处无读者署名，5段误reader修正。",
+      "text_sha256": "fc3bac9fbd111195fad9e35502e0f0196ac945a1ff9a697a4a7d1051d5414acb",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0439-b002",
+      "before": {
+        "published_at": "2007-06-07 15:04:21",
+        "role": "reader",
+        "speaker": "不多说了，离开这里。要去一次杭州见个有分量的人，估计周一才能回北京了。"
+      },
+      "after": {
+        "published_at": "2007-06-08 15:13:42",
+        "role": "author_commentary",
+        "speaker": "缠中说禅"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。PDF作者解盘连续语气/原署名、非读者问答；此处无读者署名，5段误reader修正。",
+      "text_sha256": "28cdf5cd57be4fc4bef9f8d6dab997b06b80d59285728291d62fd336f700bc4b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0441-b003",
+      "before": {
+        "published_at": "2007-06-1215:46:25"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:49:07"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "e91f018fb06ba4b5f5e8fb3f4d35950e526c64c9c510e581eed71e8273b957c5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0441-b004",
+      "before": {
+        "published_at": "2007-06-1215:46:25"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:49:07"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "2b1e4029c7e2c27420d30f278a6c3017d3c841841d47352bc7be00c2b9136c57",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b000",
+      "before": {
+        "published_at": "2007-06-1215:46:25"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:49:07"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "5a201e63eba3057a5ed1e29ab470c4b8f799034e35d34aa1832ae5a141480a4f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b001",
+      "before": {
+        "published_at": "2007-06-1215:46:25"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:49:07"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "217f2dd10575f67717e8eb9395b048cce0acc599c8278931071ad57888d9fef9",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b002",
+      "before": {
+        "published_at": "2007-06-1215:46:25"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:49:07"
+      },
+      "reason": "原页438/439及441/442连续解盘：独立时间头管后文，尾部新日期不管前文；6/6、6/7、6/8、6/13分别存，原文及跨页坐标不动。",
+      "text_sha256": "c8081029e8d06293c01e67d4bfdcfb88ad0914b7b6c3bf88b85e425902f37f82",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b006-s01",
+      "before": {
+        "published_at": "2007-06-1215:54:35"
+      },
+      "after": {
+        "published_at": "2007-06-12 15:54:35"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "261485f465d6f64f7ae7111d8e3d2eac4c9f57d6070288528f1ac97281bbbd23",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b007",
+      "before": {
+        "published_at": "2007-06-1215:54:35"
+      },
+      "after": {
+        "published_at": "2007-06-12 15:54:35"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "7ffeb3c6939792d268a27b98af8d764080d40d6ea3921c3d2d99b68c60dd98bc",
+      "affected_references": [
+        {
+          "id": "evidence-f0576b5d1bde08e4",
+          "claim_id": "candidate-70bf806eb9a659c5",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b008",
+      "before": {
+        "published_at": "2007-06-1215:54:35"
+      },
+      "after": {
+        "published_at": "2007-06-12 15:54:35"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "1e08a50419503067c3cfbc9a3b12a5eab44bf17c5df83e0372e07767792b766a",
+      "affected_references": [
+        {
+          "id": "evidence-a9994dcf2a85c266",
+          "claim_id": "candidate-72f20c867ac73a73",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b010-s01",
+      "before": {
+        "published_at": "2007-06-1216:07:53"
+      },
+      "after": {
+        "published_at": "2007-06-12 16:07:53"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "afe9c3728bbb920bebdbdccbee789b20a97f555a012c7108fb321cc3b1ad62f7",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b011",
+      "before": {
+        "published_at": "2007-06-1216:07:53"
+      },
+      "after": {
+        "published_at": "2007-06-12 16:07:53"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "987f5c6f3044b159a6ec042a6390d78e8543f9c60d3d8db63ee0afd8aafe9752",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0442-b012",
+      "before": {
+        "published_at": "2007-06-1216:07:53"
+      },
+      "after": {
+        "published_at": "2007-06-12 16:07:53"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "32215fdd017943d26dc15a488a689b316f1bd5ee359d1a0741204b282893dd5b",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b000-s01",
+      "before": {
+        "published_at": "2007-06-1216:11:58"
+      },
+      "after": {
+        "published_at": "2007-06-12 16:11:58"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "d9ad255aff8c01ea722412d2e26911ae479159ca8fe313b1d85597cebbf36da2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b001",
+      "before": {
+        "published_at": "2007-06-1216:11:58"
+      },
+      "after": {
+        "published_at": "2007-06-12 16:11:58"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "b6c88c98f2ec6be50204181bbb4a3be795e1d886c94a5d88904e9c4b8da48897",
+      "affected_references": [
+        {
+          "id": "evidence-c08e5ad966b5be26",
+          "claim_id": "candidate-88c103950e029127",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b003-s01",
+      "before": {
+        "published_at": "2007-06-1315:57:01"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:57:01"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "a8b499cf384e30822491dc54fe1db4566f8f245235b4d4b27c77f8912b370da2",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b004",
+      "before": {
+        "published_at": "2007-06-1315:57:01"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:57:01"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "6f38b363ba8c6abb156f210d2657e295b12258c54d14756ccc86e84d5e1d6f92",
+      "affected_references": [
+        {
+          "id": "evidence-bdaae4547957d0d5",
+          "claim_id": "candidate-5ac778f4d58daa3a",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b005",
+      "before": {
+        "published_at": "2007-06-1315:57:01"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:57:01"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "93573058545fb5b8d67b8e6dd2555dd1edc0613ea4c6f0b4c9370fdb22b7ff36",
+      "affected_references": [
+        {
+          "id": "evidence-3fb0156603349a66",
+          "claim_id": "candidate-b04cba2d798fac76",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b006",
+      "before": {
+        "published_at": "2007-06-1315:57:01"
+      },
+      "after": {
+        "published_at": "2007-06-13 15:57:01"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "4a373e2cad954cae8ad62a8f3ed2802fa4ef1738cabd774642d2157b41ce059f",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b008-s01",
+      "before": {
+        "published_at": "2007-06-1316:10:02"
+      },
+      "after": {
+        "published_at": "2007-06-13 16:10:02"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "f392b60bc36207a32ada191dfae56d9a07aedefaf1679984fda6c1d3379c83b4",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0443-b009",
+      "before": {
+        "published_at": "2007-06-1316:10:02"
+      },
+      "after": {
+        "published_at": "2007-06-13 16:10:02"
+      },
+      "reason": "实际核作者署名与问答承接，只补日期时刻空格，不改原日时或原字。",
+      "text_sha256": "42f26f4c3275acd04987c758f1f20bbe9400851ae3606d7af81d411267fb9a68",
+      "affected_references": [
+        {
+          "id": "evidence-61eb8d93c7e5e467",
+          "claim_id": "candidate-87017d92fa5437e5",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0437-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "上证1分原样图到6/4收盘3659.32，含14-15内箭头与15/16，MACD24/52/9；可在6/4夜正文前取得但原作者/原发未核，保58缺口例外和前67非严格线段语境。"
+      },
+      "reason": "主代理实际核PDF436至443八整页和4整图：2当时可得原发未核，2多日合并后加；原参数/正文图值及图周期分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0438-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "重绘图完整到6/5收盘，按1分线段编号但图框标5分钟，图周期不能等同走势级别；17低3404.25而正文3404分别保，MACD12/26/9与437原图24/52/9不混，原发未核。"
+      },
+      "reason": "主代理实际核PDF436至443八整页和4整图：2当时可得原发未核，2多日合并后加；原参数/正文图值及图周期分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0439-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "头选6/6但全图到6/8收盘，合并6/6、6/7、6/8三日评论；对前两日含未来K，不能用后走势证明当时3858/4015判断。3858.19与4016.30图线不改正文3858/4015，底框5分钟及12/26/9不当走势级别定义。"
+      },
+      "reason": "主代理实际核PDF436至443八整页和4整图：2当时可得原发未核，2多日合并后加；原参数/正文图值及图周期分开。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0441-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "头选6/13并全图至6/13收盘，合并6/12与6/13评论；晚于6/12，不证前日轮动或政策预测。正文4015、4144、深圳13700和图4016.30各自保，编号32至53及图5分钟不是直接走势级别。"
+      },
+      "reason": "主代理实际核PDF436至443八整页和4整图：2当时可得原发未核，2多日合并后加；原参数/正文图值及图周期分开。"
+    }
+  ],
+  "visual_pages": [
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443
+  ],
+  "pending": [
+    "58缺口例外和相邻同向不重合延伸不作为后62/67严格线段定义替代；14-15内箭头非独立段/全14-15为一段。",
+    "背驰段可能与次日成立、4015严区间和4000概略强语、7的5分好转与最近1分枢三卖分别保条件；图参数/周期/小数差不静修。"
+  ],
+  "reviewer": "Codex 主代理 / 58课八页四图与四轮语义/来源/时序复核，知识库范围"
+}

@@ -1,0 +1,4773 @@
+{
+  "created_at": "2026-10-25T10:43:11.219Z",
+  "fixture": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\real-model-1792924953106",
+  "synthetic": true,
+  "semantic_quality_claim": false,
+  "real_index_build": true,
+  "real_embedding_model": true,
+  "real_reranker": true,
+  "network_policy": "child index builders deny Node network APIs; current model classes enforce local_files_only",
+  "graph_only": true,
+  "lexical_answer_rank": 0,
+  "dense_answer_rank": 0,
+  "actual_reranker_input": [
+    "n001",
+    "n004",
+    "n009",
+    "n010",
+    "n017",
+    "n006",
+    "n002",
+    "n011",
+    "n003",
+    "n013",
+    "n014",
+    "n015",
+    "n012",
+    "n019",
+    "n018",
+    "n005",
+    "n021",
+    "n007",
+    "n008",
+    "n020",
+    "n036",
+    "n016",
+    "n024",
+    "n040",
+    "n025",
+    "n000",
+    "n026",
+    "n065",
+    "n023",
+    "n071",
+    "n029",
+    "n043",
+    "n045",
+    "n070",
+    "n062",
+    "n049",
+    "n031",
+    "n027",
+    "n028",
+    "n073",
+    "bridge",
+    "answer"
+  ],
+  "baseline_primary": [
+    "n013",
+    "n062",
+    "n045",
+    "n024",
+    "n021",
+    "n049",
+    "n026",
+    "n019",
+    "n010",
+    "n028",
+    "n025",
+    "n014",
+    "n009",
+    "n017",
+    "n036",
+    "n043",
+    "n023",
+    "n070",
+    "n012",
+    "n011"
+  ],
+  "graph_primary": [
+    "n013",
+    "n062",
+    "n045",
+    "n024",
+    "bridge",
+    "n021",
+    "n049",
+    "n026",
+    "n019",
+    "n010",
+    "n028",
+    "n025",
+    "n014",
+    "n009",
+    "n017",
+    "n036",
+    "n043",
+    "n023",
+    "n070",
+    "n012"
+  ],
+  "complete_two_hop": false,
+  "fallback_primary_equal": true,
+  "fallback_reranker_calls": 1,
+  "fallback_max_score_difference": 0,
+  "graph": {
+    "contract_version": "1.0.0",
+    "request_id": "5bd84d89-5094-4822-8de1-03e01f32a20a",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.019923769923769923,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.6942427561604007
+              }
+            ],
+            "rerank_score": 8.61059284210205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n062",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n062",
+              "claim_id": "n062",
+              "passage_id": "p-n062",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 65,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n062"
+            }
+          ],
+          "retrieval": {
+            "id": "n062",
+            "score": 0.01497939636930616,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 63,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.6947577850442774
+              }
+            ],
+            "rerank_score": 8.536763191223145,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n045",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n045",
+              "claim_id": "n045",
+              "passage_id": "p-n045",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 48,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n045"
+            }
+          ],
+          "retrieval": {
+            "id": "n045",
+            "score": 0.01505193979224083,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 46,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 29,
+                "score": 0.6927614876582759
+              }
+            ],
+            "rerank_score": 8.517107963562012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.016919345057610672,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 37,
+                "score": 0.6908977224100639
+              }
+            ],
+            "rerank_score": 8.47727108001709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "bridge",
+          "text": "起点甲的最终校验口令采用桥接乙的登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [
+            "A",
+            "B"
+          ],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-bridge",
+              "claim_id": "bridge",
+              "passage_id": "p-bridge",
+              "quote": "起点甲的最终校验口令采用桥接乙的登记值。",
+              "quote_start": 0,
+              "quote_end": 20,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 1,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-bridge"
+            }
+          ],
+          "retrieval": {
+            "id": "bridge",
+            "score": 0.00819672131147541,
+            "graph_origin": "graph_rescued",
+            "reasons": [
+              {
+                "channel": "supported_graph_expansion",
+                "path_id": "A:r001/r002",
+                "depth": 2
+              }
+            ],
+            "rerank_score": 8.465540885925293,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.018147502903600465,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.6933253429688366
+              }
+            ],
+            "rerank_score": 8.46264362335205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n049",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n049",
+              "claim_id": "n049",
+              "passage_id": "p-n049",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 52,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n049"
+            }
+          ],
+          "retrieval": {
+            "id": "n049",
+            "score": 0.0148380355276907,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 50,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 27,
+                "score": 0.6929653476753509
+              }
+            ],
+            "rerank_score": 8.431658744812012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.0161671500698249,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.6895717603607757
+              }
+            ],
+            "rerank_score": 8.422327041625977,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n019",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n019",
+              "claim_id": "n019",
+              "passage_id": "p-n019",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 22,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n019"
+            }
+          ],
+          "retrieval": {
+            "id": "n019",
+            "score": 0.01916666666666667,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 15,
+                "score": 0.6945918146967641
+              }
+            ],
+            "rerank_score": 8.389564514160156,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.02084126379901028,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.6947249051399006
+              }
+            ],
+            "rerank_score": 8.363862991333008,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.014732458552683271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 29,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.685023404214912
+              }
+            ],
+            "rerank_score": 8.303268432617188,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.01652986776105791,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.690224715575992
+              }
+            ],
+            "rerank_score": 8.302083015441895,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.019826839826839828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 17,
+                "score": 0.6944458144575936
+              }
+            ],
+            "rerank_score": 8.27901554107666,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.02142857142857143,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.6951339817166479
+              }
+            ],
+            "rerank_score": 8.261592864990234,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020283199387677,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.6960660909899692
+              }
+            ],
+            "rerank_score": 8.249938011169434,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n036",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n036",
+              "claim_id": "n036",
+              "passage_id": "p-n036",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 39,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n036"
+            }
+          ],
+          "retrieval": {
+            "id": "n036",
+            "score": 0.017885035926273038,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 37,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.6961236496200659
+              }
+            ],
+            "rerank_score": 8.227760314941406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.015109890109890112,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.6925697698710985
+              }
+            ],
+            "rerank_score": 8.202570915222168,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.01575091575091575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 70,
+                "score": 0.6866760875406678
+              }
+            ],
+            "rerank_score": 8.192270278930664,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n070",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n070",
+              "claim_id": "n070",
+              "passage_id": "p-n070",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 73,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n070"
+            }
+          ],
+          "retrieval": {
+            "id": "n070",
+            "score": 0.01498652896273013,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 71,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.6959976839089592
+              }
+            ],
+            "rerank_score": 8.179192543029785,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n012",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n012",
+              "claim_id": "n012",
+              "passage_id": "p-n012",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 15,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n012"
+            }
+          ],
+          "retrieval": {
+            "id": "n012",
+            "score": 0.019254185692541857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 30,
+                "score": 0.6927419977901126
+              }
+            ],
+            "rerank_score": 8.17156982421875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [
+        {
+          "relation_id": "r001",
+          "relation_type": "related_to",
+          "source": "A",
+          "target": "B",
+          "traversal_direction": "source_to_target",
+          "original_review_status": "reviewed",
+          "supporting_claim_ids": [
+            "bridge"
+          ],
+          "support_claim_id": "bridge",
+          "support_review_status": "reviewed",
+          "support_evidence_ids": [
+            "e-bridge"
+          ],
+          "path_id": "A:r001",
+          "steps": [
+            {
+              "relation_id": "r001",
+              "relation_type": "related_to",
+              "source": "A",
+              "target": "B",
+              "traversal_direction": "source_to_target",
+              "original_review_status": "reviewed",
+              "supporting_claim_ids": [
+                "bridge"
+              ],
+              "support_claim_id": "bridge",
+              "support_review_status": "reviewed",
+              "support_evidence_ids": [
+                "e-bridge"
+              ]
+            }
+          ],
+          "depth": 1,
+          "concept_path": [
+            "A",
+            "B"
+          ],
+          "relation_path": [
+            "r001"
+          ],
+          "seed_claim_id": "bridge",
+          "seed_rank": 94,
+          "semantics": "evidence_supported_association_not_transitive_inference",
+          "depends_on_interpretation": false,
+          "auxiliary_claims": [],
+          "evidence_chain_complete": true
+        }
+      ],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 31368,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 782.6723000000056,
+      "queue_wait_ms": 0.007499999999708962,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.4830999999976484
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 5.736299999996845,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 1,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "promoted": [
+              {
+                "id": "bridge",
+                "origin": "graph_rescued"
+              },
+              {
+                "id": "answer",
+                "origin": "graph_only"
+              }
+            ],
+            "graph_only": 1,
+            "graph_rescued": 1,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "n001",
+              "n004",
+              "n009",
+              "n010",
+              "n017",
+              "n006",
+              "n002",
+              "n011",
+              "n003",
+              "n013",
+              "n014",
+              "n015",
+              "n012",
+              "n019",
+              "n018",
+              "n005",
+              "n021",
+              "n007",
+              "n008",
+              "n020",
+              "n036",
+              "n016",
+              "n024",
+              "n040",
+              "n025",
+              "n000",
+              "n026",
+              "n065",
+              "n023",
+              "n071",
+              "n029",
+              "n043",
+              "n045",
+              "n070",
+              "n062",
+              "n049",
+              "n031",
+              "n027",
+              "n028",
+              "n073",
+              "bridge",
+              "answer"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": [
+              "bridge"
+            ]
+          },
+          "elapsed_ms": 19.21730000000389
+        },
+        "rerank": {
+          "candidates": 42,
+          "calls": 1,
+          "input_ids": [
+            "n001",
+            "n004",
+            "n009",
+            "n010",
+            "n017",
+            "n006",
+            "n002",
+            "n011",
+            "n003",
+            "n013",
+            "n014",
+            "n015",
+            "n012",
+            "n019",
+            "n018",
+            "n005",
+            "n021",
+            "n007",
+            "n008",
+            "n020",
+            "n036",
+            "n016",
+            "n024",
+            "n040",
+            "n025",
+            "n000",
+            "n026",
+            "n065",
+            "n023",
+            "n071",
+            "n029",
+            "n043",
+            "n045",
+            "n070",
+            "n062",
+            "n049",
+            "n031",
+            "n027",
+            "n028",
+            "n073",
+            "bridge",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 742.8054000000047
+        }
+      },
+      "primary_result_ids": [
+        "n013",
+        "n062",
+        "n045",
+        "n024",
+        "bridge",
+        "n021",
+        "n049",
+        "n026",
+        "n019",
+        "n010",
+        "n028",
+        "n025",
+        "n014",
+        "n009",
+        "n017",
+        "n036",
+        "n043",
+        "n023",
+        "n070",
+        "n012"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 782.6798000000053
+    }
+  },
+  "baseline": {
+    "contract_version": "1.0.0",
+    "request_id": "da111d9c-013f-4b61-a497-1f5ccdac8905",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.019923769923769923,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.6942427561604007
+              }
+            ],
+            "rerank_score": 8.61059284210205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n062",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n062",
+              "claim_id": "n062",
+              "passage_id": "p-n062",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 65,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n062"
+            }
+          ],
+          "retrieval": {
+            "id": "n062",
+            "score": 0.01497939636930616,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 63,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.6947577850442774
+              }
+            ],
+            "rerank_score": 8.536763191223145,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n045",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n045",
+              "claim_id": "n045",
+              "passage_id": "p-n045",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 48,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n045"
+            }
+          ],
+          "retrieval": {
+            "id": "n045",
+            "score": 0.01505193979224083,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 46,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 29,
+                "score": 0.6927614876582759
+              }
+            ],
+            "rerank_score": 8.517107963562012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.016919345057610672,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 37,
+                "score": 0.6908977224100639
+              }
+            ],
+            "rerank_score": 8.47727108001709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.018147502903600465,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.6933253429688366
+              }
+            ],
+            "rerank_score": 8.46264362335205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n049",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n049",
+              "claim_id": "n049",
+              "passage_id": "p-n049",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 52,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n049"
+            }
+          ],
+          "retrieval": {
+            "id": "n049",
+            "score": 0.0148380355276907,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 50,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 27,
+                "score": 0.6929653476753509
+              }
+            ],
+            "rerank_score": 8.431658744812012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.0161671500698249,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.6895717603607757
+              }
+            ],
+            "rerank_score": 8.422327041625977,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n019",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n019",
+              "claim_id": "n019",
+              "passage_id": "p-n019",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 22,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n019"
+            }
+          ],
+          "retrieval": {
+            "id": "n019",
+            "score": 0.01916666666666667,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 15,
+                "score": 0.6945918146967641
+              }
+            ],
+            "rerank_score": 8.389564514160156,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.02084126379901028,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.6947249051399006
+              }
+            ],
+            "rerank_score": 8.363862991333008,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.014732458552683271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 29,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.685023404214912
+              }
+            ],
+            "rerank_score": 8.303268432617188,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.01652986776105791,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.690224715575992
+              }
+            ],
+            "rerank_score": 8.302083015441895,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.019826839826839828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 17,
+                "score": 0.6944458144575936
+              }
+            ],
+            "rerank_score": 8.27901554107666,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.02142857142857143,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.6951339817166479
+              }
+            ],
+            "rerank_score": 8.261592864990234,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020283199387677,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.6960660909899692
+              }
+            ],
+            "rerank_score": 8.249938011169434,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n036",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n036",
+              "claim_id": "n036",
+              "passage_id": "p-n036",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 39,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n036"
+            }
+          ],
+          "retrieval": {
+            "id": "n036",
+            "score": 0.017885035926273038,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 37,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.6961236496200659
+              }
+            ],
+            "rerank_score": 8.227760314941406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.015109890109890112,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.6925697698710985
+              }
+            ],
+            "rerank_score": 8.202570915222168,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.01575091575091575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 70,
+                "score": 0.6866760875406678
+              }
+            ],
+            "rerank_score": 8.192270278930664,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n070",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n070",
+              "claim_id": "n070",
+              "passage_id": "p-n070",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 73,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n070"
+            }
+          ],
+          "retrieval": {
+            "id": "n070",
+            "score": 0.01498652896273013,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 71,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.6959976839089592
+              }
+            ],
+            "rerank_score": 8.179192543029785,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n012",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n012",
+              "claim_id": "n012",
+              "passage_id": "p-n012",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 15,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n012"
+            }
+          ],
+          "retrieval": {
+            "id": "n012",
+            "score": 0.019254185692541857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 30,
+                "score": 0.6927419977901126
+              }
+            ],
+            "rerank_score": 8.17156982421875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n011仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n011仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.020061728395061727,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 21,
+                "score": 0.6935637717615016
+              }
+            ],
+            "rerank_score": 8.157332420349121,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 30600,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 2248.8376999999964,
+      "queue_wait_ms": 0.4956999999994878,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.6343999999953667
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 6.826199999995879,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "skipped",
+          "reason": "graph_disabled",
+          "committed_paths": 0,
+          "elapsed_ms": 0.6458999999958905
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "n001",
+            "n004",
+            "n009",
+            "n010",
+            "n017",
+            "n006",
+            "n002",
+            "n011",
+            "n003",
+            "n013",
+            "n014",
+            "n015",
+            "n012",
+            "n019",
+            "n018",
+            "n005",
+            "n021",
+            "n007",
+            "n008",
+            "n020",
+            "n036",
+            "n016",
+            "n024",
+            "n040",
+            "n025",
+            "n000",
+            "n026",
+            "n065",
+            "n023",
+            "n071",
+            "n029",
+            "n043",
+            "n045",
+            "n070",
+            "n062",
+            "n049",
+            "n031",
+            "n027",
+            "n028",
+            "n073"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 2223.9951
+        }
+      },
+      "primary_result_ids": [
+        "n013",
+        "n062",
+        "n045",
+        "n024",
+        "n021",
+        "n049",
+        "n026",
+        "n019",
+        "n010",
+        "n028",
+        "n025",
+        "n014",
+        "n009",
+        "n017",
+        "n036",
+        "n043",
+        "n023",
+        "n070",
+        "n012",
+        "n011"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 2249.333399999996
+    }
+  },
+  "fallback": {
+    "contract_version": "1.0.0",
+    "request_id": "de8e15b7-4b4b-4ff7-9f5b-eec793db1c7e",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "n013",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n013仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.019923769923769923,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 14,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.6942427561604007
+              }
+            ],
+            "rerank_score": 8.61059284210205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n062",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n062",
+              "claim_id": "n062",
+              "passage_id": "p-n062",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n062仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 65,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n062"
+            }
+          ],
+          "retrieval": {
+            "id": "n062",
+            "score": 0.01497939636930616,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 63,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 13,
+                "score": 0.6947577850442774
+              }
+            ],
+            "rerank_score": 8.536763191223145,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n045",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n045",
+              "claim_id": "n045",
+              "passage_id": "p-n045",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n045仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 48,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n045"
+            }
+          ],
+          "retrieval": {
+            "id": "n045",
+            "score": 0.01505193979224083,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 46,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 29,
+                "score": 0.6927614876582759
+              }
+            ],
+            "rerank_score": 8.517107963562012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n024仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.016919345057610672,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 25,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 37,
+                "score": 0.6908977224100639
+              }
+            ],
+            "rerank_score": 8.47727108001709,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n021",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n021",
+              "claim_id": "n021",
+              "passage_id": "p-n021",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n021仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 24,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n021"
+            }
+          ],
+          "retrieval": {
+            "id": "n021",
+            "score": 0.018147502903600465,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 24,
+                "score": 0.6933253429688366
+              }
+            ],
+            "rerank_score": 8.46264362335205,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n049",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n049",
+              "claim_id": "n049",
+              "passage_id": "p-n049",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n049仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 52,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n049"
+            }
+          ],
+          "retrieval": {
+            "id": "n049",
+            "score": 0.0148380355276907,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 50,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 27,
+                "score": 0.6929653476753509
+              }
+            ],
+            "rerank_score": 8.431658744812012,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n026仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.0161671500698249,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.6895717603607757
+              }
+            ],
+            "rerank_score": 8.422327041625977,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n019",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n019",
+              "claim_id": "n019",
+              "passage_id": "p-n019",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n019仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 22,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n019"
+            }
+          ],
+          "retrieval": {
+            "id": "n019",
+            "score": 0.01916666666666667,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 20,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 15,
+                "score": 0.6945918146967641
+              }
+            ],
+            "rerank_score": 8.389564514160156,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n010仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.02084126379901028,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 11,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.6947249051399006
+              }
+            ],
+            "rerank_score": 8.363862991333008,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n028",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n028",
+              "claim_id": "n028",
+              "passage_id": "p-n028",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n028仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 31,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n028"
+            }
+          ],
+          "retrieval": {
+            "id": "n028",
+            "score": 0.014732458552683271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 29,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 83,
+                "score": 0.685023404214912
+              }
+            ],
+            "rerank_score": 8.303268432617188,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n025仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.01652986776105791,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 42,
+                "score": 0.690224715575992
+              }
+            ],
+            "rerank_score": 8.302083015441895,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n014仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.019826839826839828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 17,
+                "score": 0.6944458144575936
+              }
+            ],
+            "rerank_score": 8.27901554107666,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n009",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n009",
+              "claim_id": "n009",
+              "passage_id": "p-n009",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n009仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 12,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n009"
+            }
+          ],
+          "retrieval": {
+            "id": "n009",
+            "score": 0.02142857142857143,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 10,
+                "score": 0.6951339817166479
+              }
+            ],
+            "rerank_score": 8.261592864990234,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n017",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n017",
+              "claim_id": "n017",
+              "passage_id": "p-n017",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n017仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 20,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n017"
+            }
+          ],
+          "retrieval": {
+            "id": "n017",
+            "score": 0.020283199387677,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 7,
+                "score": 0.6960660909899692
+              }
+            ],
+            "rerank_score": 8.249938011169434,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n036",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n036",
+              "claim_id": "n036",
+              "passage_id": "p-n036",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n036仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 39,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n036"
+            }
+          ],
+          "retrieval": {
+            "id": "n036",
+            "score": 0.017885035926273038,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 37,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.6961236496200659
+              }
+            ],
+            "rerank_score": 8.227760314941406,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n043",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n043",
+              "claim_id": "n043",
+              "passage_id": "p-n043",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n043仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 46,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n043"
+            }
+          ],
+          "retrieval": {
+            "id": "n043",
+            "score": 0.015109890109890112,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 44,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.6925697698710985
+              }
+            ],
+            "rerank_score": 8.202570915222168,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n023",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n023",
+              "claim_id": "n023",
+              "passage_id": "p-n023",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n023仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 26,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n023"
+            }
+          ],
+          "retrieval": {
+            "id": "n023",
+            "score": 0.01575091575091575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 70,
+                "score": 0.6866760875406678
+              }
+            ],
+            "rerank_score": 8.192270278930664,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n070",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n070",
+              "claim_id": "n070",
+              "passage_id": "p-n070",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n070仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 73,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n070"
+            }
+          ],
+          "retrieval": {
+            "id": "n070",
+            "score": 0.01498652896273013,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 71,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 8,
+                "score": 0.6959976839089592
+              }
+            ],
+            "rerank_score": 8.179192543029785,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n012",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n012",
+              "claim_id": "n012",
+              "passage_id": "p-n012",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n012仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 15,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n012"
+            }
+          ],
+          "retrieval": {
+            "id": "n012",
+            "score": 0.019254185692541857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 30,
+                "score": 0.6927419977901126
+              }
+            ],
+            "rerank_score": 8.17156982421875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "起点甲的最终校验口令采用登记值，维护事项n011仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "起点甲的最终校验口令采用登记值，维护事项n011仅说明操作界面。界面显示询问文字「校验口令是什么」，本条不保存登记值。",
+              "quote_start": 0,
+              "quote_end": 59,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.020061728395061727,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.3947918830009982
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 21,
+                "score": 0.6935637717615016
+              }
+            ],
+            "rerank_score": 8.157332420349121,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 30600,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": true,
+      "degradation_reasons": [
+        {
+          "code": "GRAPH_EXECUTION_ERROR",
+          "message": "Optional graph stage failed; text retrieval is available",
+          "stage": "graph",
+          "cause": "Optional graph stage failed; text retrieval is available"
+        }
+      ],
+      "elapsed_ms": 749.4738999999972,
+      "queue_wait_ms": 0.007299999997485429,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.3841000000029453
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 5.386800000000221,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "failed",
+          "reason": "GRAPH_EXECUTION_ERROR",
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "additional_candidates": 2,
+          "supported_paths": 0,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": null,
+          "elapsed_ms": 0.6047000000035041
+        },
+        "rerank": {
+          "candidates": 42,
+          "calls": 1,
+          "input_ids": [
+            "n001",
+            "n004",
+            "n009",
+            "n010",
+            "n017",
+            "n006",
+            "n002",
+            "n011",
+            "n003",
+            "n013",
+            "n014",
+            "n015",
+            "n012",
+            "n019",
+            "n018",
+            "n005",
+            "n021",
+            "n007",
+            "n008",
+            "n020",
+            "n036",
+            "n016",
+            "n024",
+            "n040",
+            "n025",
+            "n000",
+            "n026",
+            "n065",
+            "n023",
+            "n071",
+            "n029",
+            "n043",
+            "n045",
+            "n070",
+            "n062",
+            "n049",
+            "n031",
+            "n027",
+            "n028",
+            "n073",
+            "bridge",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 722.5687000000034
+        }
+      },
+      "primary_result_ids": [
+        "n013",
+        "n062",
+        "n045",
+        "n024",
+        "n021",
+        "n049",
+        "n026",
+        "n019",
+        "n010",
+        "n028",
+        "n025",
+        "n014",
+        "n009",
+        "n017",
+        "n036",
+        "n043",
+        "n023",
+        "n070",
+        "n012",
+        "n011"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 749.4811999999947
+    }
+  },
+  "fixture_db_sha256": "48999f8571a661184b71e5add755ab27ae79a02d7dc810ca1778003d32f254ed",
+  "passed": false
+}

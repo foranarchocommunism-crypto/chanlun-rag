@@ -1,0 +1,1088 @@
+{
+  "scope": "Read-only actual canonical graph; structural checks are not semantic entailment accuracy.",
+  "database_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+  "counts": {
+    "documents": 2,
+    "passages": 9650,
+    "concepts": 318,
+    "claims": 6008,
+    "evidence": 7225,
+    "relations": 692,
+    "reviews": 3459
+  },
+  "claim_status": {
+    "pending": 2611,
+    "rejected": 28,
+    "reviewed": 3369
+  },
+  "reviewed_kinds": {
+    "explicit": 3366,
+    "inferred": 3
+  },
+  "reviewed_ambiguity": 473,
+  "reviewed_evidence": 4584,
+  "reviewers": [
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册21至24课同模型四轮复核",
+      "n": 177
+    },
+    {
+      "reviewer": "GPT-6.1 Sol xhigh / source curation",
+      "n": 143
+    },
+    {
+      "reviewer": "GPT-6.1 Sol xhigh / 阶段C下册68至71课四轮复核",
+      "n": 122
+    },
+    {
+      "reviewer": "主代理 / 阶段C第65、66课四轮原文复核",
+      "n": 101
+    },
+    {
+      "reviewer": "GPT-6.1 Sol xhigh / 阶段C下册第72—74课四轮复核",
+      "n": 85
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册78至80课同模型四轮复核",
+      "n": 83
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册75至77课同模型四轮复核",
+      "n": 75
+    },
+    {
+      "reviewer": "GPT-6.1 Sol xhigh / 阶段C上册19至20课四轮复核",
+      "n": 67
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册89至90课同模型四轮复核",
+      "n": 66
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册105课同模型四轮复核",
+      "n": 66
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册10至12课同模型四轮复核",
+      "n": 61
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册92—93课同模型四轮复核",
+      "n": 60
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册1至8课同模型四轮审读",
+      "n": 60
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册15至16课同模型四轮复核",
+      "n": 60
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册101—102课同模型四轮复核",
+      "n": 59
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册97—98课同模型四轮复核",
+      "n": 56
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册82至84课同模型四轮复核",
+      "n": 56
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册99—100课同模型四轮复核",
+      "n": 55
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册106课同模型四轮复核",
+      "n": 55
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册107至108课同模型四轮复核",
+      "n": 54
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册103—104课同模型四轮复核",
+      "n": 53
+    },
+    {
+      "reviewer": "GPT-6.1 Sol xhigh / 阶段C下册第81课四轮复核",
+      "n": 51
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册85至87课同模型四轮复核",
+      "n": 51
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册33课同模型四轮复核",
+      "n": 50
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册25课同模型四轮复核",
+      "n": 50
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册28课同模型四轮复核",
+      "n": 49
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册94—96课同模型四轮复核",
+      "n": 48
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册91课同模型四轮复核",
+      "n": 47
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册31课同模型四轮复核",
+      "n": 47
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册26课同模型四轮复核",
+      "n": 47
+    },
+    {
+      "reviewer": "主代理 / 阶段C第67课四轮原文复核",
+      "n": 45
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册61课同模型四轮复核",
+      "n": 44
+    },
+    {
+      "reviewer": "Codex 主代理 / 早期试点64课全文、附带文章答疑和原图四轮复核",
+      "n": 44
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册49课同模型四轮复核",
+      "n": 42
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册35课同模型四轮复核",
+      "n": 42
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册54课同模型四轮复核",
+      "n": 41
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册45课同模型四轮复核",
+      "n": 41
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册32课同模型四轮复核",
+      "n": 41
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册13至14课同模型四轮复核",
+      "n": 41
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册38课同模型四轮复核",
+      "n": 40
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册55课同模型四轮复核",
+      "n": 39
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册52课同模型四轮复核",
+      "n": 39
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册48课同模型四轮复核",
+      "n": 39
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册37课同模型四轮复核",
+      "n": 39
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册29课同模型四轮复核",
+      "n": 38
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册51课同模型四轮复核",
+      "n": 37
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C下册88课同模型四轮复核",
+      "n": 36
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册47课同模型四轮复核",
+      "n": 36
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册27课同模型四轮复核",
+      "n": 36
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册58课同模型四轮复核",
+      "n": 35
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册57课同模型四轮复核",
+      "n": 35
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册36课同模型四轮复核",
+      "n": 35
+    },
+    {
+      "reviewer": "主代理 / 阶段C上册17至18课四轮复核",
+      "n": 34
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册40课同模型四轮复核",
+      "n": 34
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册46课同模型四轮复核",
+      "n": 33
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册44课同模型四轮复核",
+      "n": 33
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册43课同模型四轮复核",
+      "n": 32
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册50课同模型四轮复核",
+      "n": 31
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册53课同模型四轮复核",
+      "n": 30
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册41课同模型四轮复核",
+      "n": 30
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册42课同模型四轮复核",
+      "n": 29
+    },
+    {
+      "reviewer": "主代理 / 阶段C上册第9课四轮复核",
+      "n": 28
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册59课同模型四轮复核",
+      "n": 28
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册56课同模型四轮复核",
+      "n": 28
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册39课同模型四轮复核",
+      "n": 28
+    },
+    {
+      "reviewer": "主代理 / 阶段B固定汇编来源结构复核",
+      "n": 27
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册30课同模型四轮复核",
+      "n": 27
+    },
+    {
+      "reviewer": "Codex 主代理 / 早期试点62至63课逐段与原图复核",
+      "n": 27
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册60课同模型四轮复核",
+      "n": 26
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C上册34课同模型四轮复核",
+      "n": 16
+    },
+    {
+      "reviewer": "Codex 主代理 / 第31课配图关联显式修复",
+      "n": 5
+    },
+    {
+      "reviewer": "Codex 主代理 / 两处混合夹注来源拆分",
+      "n": 4
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段D两项已核别名",
+      "n": 2
+    },
+    {
+      "reviewer": "Codex 主代理 / 第54课完整问题上下文专项核对",
+      "n": 2
+    },
+    {
+      "reviewer": "主代理：核心定义比较及转述边界复核",
+      "n": 1
+    },
+    {
+      "reviewer": "主代理：原文定义及条件的逻辑对照复核",
+      "n": 1
+    },
+    {
+      "reviewer": "主代理 / 阶段C第20课中枢公式条件修订复核",
+      "n": 1
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段D第24/98/99课跨课范围复核",
+      "n": 1
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段D第105课标题别名",
+      "n": 1
+    },
+    {
+      "reviewer": "Codex 主代理 / 阶段C第78至80课关系复核",
+      "n": 1
+    }
+  ],
+  "relation_types": {
+    "composed_of": 20,
+    "requires": 111,
+    "defines": 20,
+    "qualifies": 380,
+    "distinguishes": 31,
+    "related": 128,
+    "illustrates": 2
+  },
+  "schema": {
+    "concepts": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "label",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "aliases",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'[]'",
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "description",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "''",
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "importance_level",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "importance_reason",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'待评定'",
+        "pk": 0
+      }
+    ],
+    "claims": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "text",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "kind",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "conditions",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'[]'",
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "exceptions",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'[]'",
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "concept_ids",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "review_status",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "ambiguity_status",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'none'",
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "review_note",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "''",
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "derivation",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'{}'",
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "importance_level",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "importance_reason",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'待评定'",
+        "pk": 0
+      }
+    ],
+    "relations": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "source",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "target",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "type",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "claim_ids",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "review_status",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "importance_level",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "importance_reason",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'待评定'",
+        "pk": 0
+      }
+    ],
+    "evidence": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "claim_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "passage_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "quote",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "quote_start",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "quote_end",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "source_spans",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "figure_ids",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": "'[]'",
+        "pk": 0
+      }
+    ],
+    "reviews": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "claim_id",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "reviewer",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "checked_at",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "checks",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "result",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "note",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ]
+  },
+  "concepts_with_aliases": 6,
+  "alias_count": 7,
+  "normalized_alias_conflicts": {},
+  "empty_concept_descriptions": 318,
+  "concept_id_label_hash_match": 318,
+  "self_loops": [],
+  "duplicate_triples": [],
+  "reverse_same_type_pair_count": 19,
+  "nontrivial_scc_sizes": [
+    97,
+    2
+  ],
+  "same_type_cycle_components": {
+    "composed_of": [],
+    "defines": [],
+    "distinguishes": [],
+    "illustrates": [],
+    "qualifies": [
+      [
+        "递归定义",
+        "线段",
+        "趋势",
+        "区间套",
+        "分解多样性",
+        "交易规则",
+        "理论成立前提",
+        "中枢回拉作用",
+        "中枢新生",
+        "有效跌破",
+        "同级别分解",
+        "小级别转大级别",
+        "指标对比",
+        "动力学",
+        "通道式上涨",
+        "动态建仓",
+        "操作策略",
+        "买卖点",
+        "分型",
+        "市场分力",
+        "市场合力",
+        "走势预测",
+        "当下",
+        "市场心理",
+        "操作熟练程度",
+        "第三类卖点",
+        "笔",
+        "缺口",
+        "中枢震荡",
+        "操作节奏",
+        "板块轮动",
+        "仓位",
+        "交易容量",
+        "T+1",
+        "买点",
+        "MACD",
+        "价格精度",
+        "周期K线图",
+        "最低级别",
+        "MACD柱波",
+        "盘整背驰",
+        "第一类买点",
+        "第三类买点",
+        "走势分解",
+        "完成",
+        "走势多义性",
+        "结合律",
+        "走势类型连接",
+        "走势类型",
+        "背驰",
+        "操作级别",
+        "第三类买卖点",
+        "次级别",
+        "中枢延伸",
+        "中枢扩展",
+        "盘整",
+        "均线系统",
+        "走势中枢"
+      ]
+    ],
+    "related": [
+      [
+        "唇吻",
+        "湿吻",
+        "飞吻",
+        "均线系统"
+      ]
+    ],
+    "requires": [
+      [
+        "背驰段",
+        "区间套",
+        "确认"
+      ],
+      [
+        "走势类型",
+        "走势中枢"
+      ]
+    ]
+  },
+  "largest_scc_labels": [
+    "均线系统",
+    "第一类买点",
+    "中枢延伸",
+    "价格精度",
+    "背驰",
+    "MACD柱波",
+    "T+1",
+    "第三类买点",
+    "操作级别",
+    "中枢连接",
+    "盘整背驰",
+    "走势多义性",
+    "均线",
+    "缠中说禅趋势力度",
+    "递归定义",
+    "重叠",
+    "缺口",
+    "最低级别",
+    "中枢扩展",
+    "机动资金",
+    "次级别",
+    "确认",
+    "走势预测",
+    "飞吻",
+    "笔",
+    "政策风险",
+    "笔破坏",
+    "中枢上移",
+    "当下",
+    "中枢扩张",
+    "资金管理",
+    "MACD",
+    "走势类型",
+    "上涨",
+    "第三类买卖点",
+    "板块轮动",
+    "小级别转大级别",
+    "顶分型",
+    "周期K线图",
+    "趋势转折",
+    "交易容量",
+    "买点",
+    "成本",
+    "线段",
+    "区间套",
+    "第三类卖点",
+    "同级别分解",
+    "特征序列",
+    "市场分力",
+    "非完全绝对趋同交易",
+    "交易规则",
+    "价格充分有效市场",
+    "下跌",
+    "分解多样性",
+    "湿吻",
+    "通道式上涨",
+    "底分型",
+    "理论成立前提",
+    "背驰段",
+    "底",
+    "盘整",
+    "走势延伸",
+    "几何结构",
+    "仓位",
+    "操作策略",
+    "趋势",
+    "唇吻",
+    "市场合力",
+    "标准特征序列",
+    "成交分笔",
+    "动力学",
+    "结合律",
+    "有效跌破",
+    "最小级别中枢",
+    "类背驰",
+    "中枢震荡",
+    "市场心理",
+    "指标对比",
+    "买卖点",
+    "包含关系",
+    "完全分类",
+    "能量结构",
+    "完成",
+    "走势中枢",
+    "中枢新生",
+    "走势分解",
+    "操作节奏",
+    "成交量",
+    "包含处理",
+    "动态建仓",
+    "中枢回拉作用",
+    "线段破坏",
+    "操作熟练程度",
+    "第一类买卖点",
+    "分型",
+    "赌徒心理",
+    "走势类型连接"
+  ],
+  "zero_relation_degree_nodes": [
+    "递归",
+    "公开信息",
+    "市场规律",
+    "次新股",
+    "放量突破",
+    "正趋势",
+    "收敛三角形",
+    "空间压缩",
+    "调整",
+    "补涨",
+    "走势级别延续",
+    "G",
+    "D",
+    "ZD",
+    "上升K线",
+    "下降K线",
+    "市场震荡",
+    "宏观市场判断",
+    "题材股",
+    "高点连线",
+    "金叉",
+    "三角形整理",
+    "指数走势背离",
+    "突破惯性",
+    "牛市阶段",
+    "指数期货",
+    "分段函数",
+    "宏观估值中枢",
+    "数据源一致性",
+    "基金激励机制",
+    "基金团队品牌",
+    "集合竞价",
+    "自组性",
+    "跨市场交易价值",
+    "乘法原则",
+    "比价关系",
+    "认购权证",
+    "行业龙头",
+    "硬调控",
+    "软调控",
+    "对冲",
+    "权证",
+    "安全线",
+    "年线",
+    "圆底",
+    "流动性",
+    "阻击",
+    "长庄",
+    "短庄",
+    "圆顶",
+    "倒T型K线",
+    "认沽权证",
+    "平台式调整",
+    "价值中枢",
+    "开放式基金",
+    "一线股",
+    "跌停",
+    "走势破坏",
+    "消息面",
+    "市盈率",
+    "增长率",
+    "利率",
+    "牛市三阶段",
+    "成分股",
+    "指数基金"
+  ],
+  "degree_distribution": {
+    "0": 65,
+    "1": 66,
+    "2": 46,
+    "3": 36,
+    "4": 15,
+    "5": 13,
+    "6": 13,
+    "7": 8,
+    "8": 11,
+    "9": 4,
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "13": 4,
+    "14": 2,
+    "15": 1,
+    "16": 3,
+    "17": 1,
+    "18": 4,
+    "19": 1,
+    "20": 2,
+    "21": 1,
+    "23": 1,
+    "24": 2,
+    "27": 2,
+    "39": 1,
+    "47": 1,
+    "51": 1
+  },
+  "highest_degree": [
+    {
+      "id": "concept-ca31d0f4fbdd0c07",
+      "label": "走势中枢",
+      "incident_edges": 51,
+      "reviewed_claim_links": 578
+    },
+    {
+      "id": "concept-1797a9de24c10e3f",
+      "label": "操作级别",
+      "incident_edges": 47,
+      "reviewed_claim_links": 515
+    },
+    {
+      "id": "concept-0b50cc9d63864652",
+      "label": "背驰",
+      "incident_edges": 39,
+      "reviewed_claim_links": 444
+    },
+    {
+      "id": "concept-12bfb6169db1ef08",
+      "label": "第三类买点",
+      "incident_edges": 27,
+      "reviewed_claim_links": 228
+    },
+    {
+      "id": "concept-6849acc5179cc00d",
+      "label": "线段",
+      "incident_edges": 27,
+      "reviewed_claim_links": 196
+    },
+    {
+      "id": "concept-3403e6e29ce58f3f",
+      "label": "次级别",
+      "incident_edges": 24,
+      "reviewed_claim_links": 213
+    },
+    {
+      "id": "concept-1fa200c542ecf079",
+      "label": "盘整背驰",
+      "incident_edges": 24,
+      "reviewed_claim_links": 132
+    },
+    {
+      "id": "concept-3afda9c1bd324f75",
+      "label": "笔",
+      "incident_edges": 23,
+      "reviewed_claim_links": 172
+    },
+    {
+      "id": "concept-52a9eab5f7eee9ff",
+      "label": "走势类型",
+      "incident_edges": 21,
+      "reviewed_claim_links": 150
+    },
+    {
+      "id": "concept-c0b3fbff51ccc40b",
+      "label": "完成",
+      "incident_edges": 20,
+      "reviewed_claim_links": 175
+    },
+    {
+      "id": "concept-02e499b556b0d4c8",
+      "label": "均线系统",
+      "incident_edges": 20,
+      "reviewed_claim_links": 111
+    },
+    {
+      "id": "concept-5e9baa6e76072d57",
+      "label": "周期K线图",
+      "incident_edges": 19,
+      "reviewed_claim_links": 161
+    },
+    {
+      "id": "concept-5210ff85f7fa7ee2",
+      "label": "MACD",
+      "incident_edges": 18,
+      "reviewed_claim_links": 194
+    },
+    {
+      "id": "concept-b25e1511731c6d20",
+      "label": "中枢震荡",
+      "incident_edges": 18,
+      "reviewed_claim_links": 258
+    },
+    {
+      "id": "concept-6912d5c0e563f45b",
+      "label": "区间套",
+      "incident_edges": 18,
+      "reviewed_claim_links": 67
+    }
+  ],
+  "relation_support_reference_errors": [],
+  "quote_mismatches": [],
+  "reviewed_evidence_wrong_speaker": [],
+  "missing_claim_concept_refs": [],
+  "fk_check": [],
+  "integrity_check": "ok"
+}

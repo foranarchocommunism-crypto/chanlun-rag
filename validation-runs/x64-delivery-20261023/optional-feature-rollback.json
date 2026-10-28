@@ -1,0 +1,79 @@
+{
+  "changes": [
+    {
+      "feature": "Containers",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-Management-PowerShell",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-Management-Clients",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-Tools-All",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-Services",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-Hypervisor",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V",
+      "before": "Enabled",
+      "restart_needed": true
+    },
+    {
+      "feature": "Microsoft-Hyper-V-All",
+      "before": "Enabled",
+      "restart_needed": true
+    }
+  ],
+  "host_restarted": false,
+  "after": [
+    {
+      "FeatureName": "Containers",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-All",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Tools-All",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Management-PowerShell",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Hypervisor",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Services",
+      "State": 0
+    },
+    {
+      "FeatureName": "Microsoft-Hyper-V-Management-Clients",
+      "State": 0
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "created_at": "2026-10-22T07:38:35.267832+00:00",
+  "objective": "Implement 完整实施计划.md, M0-M7; do not narrow delivery scope",
+  "baseline_graph_version": "0.1.0-review-307029129712",
+  "canonical_inputs": {
+    "shared-knowledge/v0.1.0/graph.sqlite": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+    "shared-knowledge/v0.1.0/manifest.json": "4eafc2500d74089d2b8a113598afb83470c4553d53748a5ca6207f614c238aac",
+    "volume_1.pdf": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+    "volume_2.pdf": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0"
+  },
+  "git_head": "3a7b51ef039c3dffab4c37dc35ff54defcee6f5a",
+  "git_status": [
+    "?? docs/",
+    "?? evaluation/stage-g-baselines-b24.analysis.json",
+    "?? evaluation/stage-g-baselines-b24.results.json",
+    "?? evaluation/stage-g-baselines-b25.results.json",
+    "?? scripts/analyze-retrieval-baselines.mjs",
+    "?? scripts/evaluate-retrieval-baselines.mjs",
+    "?? scripts/initialize-implementation.py",
+    "?? scripts/lib/",
+    "?? scripts/snapshot-retrieval-eval.py",
+    "?? test/retrieval-baselines.test.mjs"
+  ],
+  "protected_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 156,
+      "sha256": "f6b68d15b8a3a26e922ccd3b4cbb45050b1a28e17ff3715232691e167f55de9e"
+    },
+    {
+      "path": "chan-kg-agent/.gitignore",
+      "bytes": 157,
+      "sha256": "3e7b46ff48477ff39aa6e629246d605d65279877df51195cf158f838723b75af"
+    },
+    {
+      "path": "chan-kg-agent/AGENT_GUIDE.md",
+      "bytes": 1761,
+      "sha256": "1962b20c4f6260dca3b91e77e0b803a986f7735d5d842ade2e21635675f07272"
+    },
+    {
+      "path": "chan-kg-agent/AGENTS.md",
+      "bytes": 280,
+      "sha256": "658e611baff4f5169c79923236a3fb02052813d70468563845aca407f8764a41"
+    },
+    {
+      "path": "chan-kg-agent/bin/chan-kg.mjs",
+      "bytes": 2294,
+      "sha256": "e7304227d2c44f5540cac7f10585f05b89d9d312125c487feb7f258cc1e7a2dd"
+    },
+    {
+      "path": "chan-kg-agent/chan-kg.cmd",
+      "bytes": 150,
+      "sha256": "99eda3057f6d31e6a4fffc63eb69d149b037cf754014245b494eff5a81c32127"
+    },
+    {
+      "path": "chan-kg-agent/contracts/curation.schema.json",
+      "bytes": 5026,
+      "sha256": "e48dec52072a28fcfcd3ce72ee4b0a7bf237ff46fdbca7369bfdb7dc52cb9060"
+    },
+    {
+      "path": "chan-kg-agent/contracts/schema.sql",
+      "bytes": 3582,
+      "sha256": "c4a74c67fd806cf309824a815a9ae026d227e42b91e44f6b7b8756c723d38429"
+    },
+    {
+      "path": "chan-kg-agent/curation/delivery-scope.json",
+      "bytes": 1789,
+      "sha256": "4e9443441d4976eda8c16373f7cbe79bd77a945f44e24160e85efadf09d7ac18"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-academic-graph-rag.md",
+      "bytes": 16540,
+      "sha256": "260497ed53af3778f6995b86db1fe6f830ea720b4086e1e185cd883d990599e3"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-handling-policy.json",
+      "bytes": 4721,
+      "sha256": "ebfd79337b56d6c460a4a822eb4779ed711cd64abd68f8379eea3a0cc7f6a450"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-handling.md",
+      "bytes": 15150,
+      "sha256": "d15e5e6d7a443bbbeb09c312773eba3108370da549a7af5d6d2981aec51ceba6"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-methods.md",
+      "bytes": 20622,
+      "sha256": "f1986619b63d01b14849d6a8f30ab05d485a1bce9698cf624d4bfc3498fa8f29"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-pending-inventory.json",
+      "bytes": 10588382,
+      "sha256": "74e8a01535f8574a0048177804ffa6eec58be53bfc3f9d54f7cb18e166938dd9"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-pending-inventory.md",
+      "bytes": 13616,
+      "sha256": "19204566d109dd914a06e170229807b95595260c7757f6e5a66e8a5de613c68f"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-ambiguity-source-cases.md",
+      "bytes": 19681,
+      "sha256": "0f36660f868bfdc47772ef1eea49ae65cbc4edf5ac6d6de466cacecc78952234"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-industry-graph-rag.md",
+      "bytes": 15041,
+      "sha256": "6be3d3eef968cd672ad1bc358b498b27324b7dd18bb374b1ef3ccb34609a33c6"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-local-migration-evidence.md",
+      "bytes": 26956,
+      "sha256": "9483048f53ea23e84069a8eca4b0c8085869f6fe4f072057b28584a0574bdeb1"
+    },
+    {
+      "path": "chan-kg-agent/docs/research/2026-10-22-rag-kg-migration.md",
+      "bytes": 16546,
+      "sha256": "58bc2a064afb80b6f5ea43f68f7317e1b5733d4964370bb82b4c9ecbe9f1331e"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-baselines-b24.analysis.json",
+      "bytes": 196183,
+      "sha256": "ee71d1b7ce0202e7be3b765b52cb46a3a0796c263dba737b6ff0316077b82982"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-baselines-b24.results.json",
+      "bytes": 4128790,
+      "sha256": "0d6a98290e815d6d77c33317fec13e801d69e2c301e03746cd3e1fc3a33cb1ae"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-baselines-b25.results.json",
+      "bytes": 4349181,
+      "sha256": "f63addb1fd44edde79a83d94d9d1f61a632887d648741f55733fefac283e0b56"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-05.cases.jsonl",
+      "bytes": 19548,
+      "sha256": "ba34fcc3d9a12b9abe60a9c32aaeb8c044191e9802353937bfbd3c956357ae3d"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-05.results.json",
+      "bytes": 7803,
+      "sha256": "f3d58d4c57c2634afc76bc995a2aa51636a643842298b1924979aebb8566e2eb"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-07.cases.jsonl",
+      "bytes": 20690,
+      "sha256": "495b700cc03a8240ffe633c816c37c3abca827a438adf5a4021db283b82a1da8"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-07.results.json",
+      "bytes": 7947,
+      "sha256": "d31ac7132f11e90e1f90ba5cd8d9ef33c8ae9fb4477efa5a67c2611d75ce44e2"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-08.cases.jsonl",
+      "bytes": 21450,
+      "sha256": "812299568f4b8741d3a89b0de114bc19a039150473ee81f6802abbfa84298fba"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-08.results.json",
+      "bytes": 8582,
+      "sha256": "5e46afe32f1a0778da350c4a74fb9845baa838bf0dc7d6412a15db1ae5628ec3"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-09.cases.jsonl",
+      "bytes": 19691,
+      "sha256": "2769be3b174792e0c7c464f7ec4ea36f6996f82ffa030db0ca0039b3a07c6565"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-09.results.json",
+      "bytes": 8287,
+      "sha256": "e33747824e323bc5f7bfa070fe31b098cfbfe83bac20e668eb49d6f1be8edff3"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-10.cases.jsonl",
+      "bytes": 23573,
+      "sha256": "e2c06f8fa61795dc359a3107fe537a056259b3b94839c6e33912469a589e3343"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-10.results.json",
+      "bytes": 8910,
+      "sha256": "cd59da59af0c4cb6bcabad917ef82a75d250c14b18ee51770a52c1f9f295cd5f"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-11.cases.jsonl",
+      "bytes": 21339,
+      "sha256": "eda7de59e151928e3ca261563567f833ceef4eed2d57c7a1f59faa98d967752b"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-11.results.json",
+      "bytes": 8278,
+      "sha256": "10a93aaf37a6d4522a54ea15f2c3d3997c2355fa8ceb60a5e572283a99dfc5be"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-12.cases.jsonl",
+      "bytes": 23459,
+      "sha256": "224980b4692395691b542242cf221bd0a11921db33af6e34160cf5a5a19cd62b"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-12.initial-results.json",
+      "bytes": 9424,
+      "sha256": "7ee64c76ac30f3494423b974652a0ac742aa8d16019163e47ad5c51954f7216f"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-12.results.json",
+      "bytes": 9352,
+      "sha256": "5e51e2ff4146290072bb95b5c5784615583a8ccb3d26d01346ddbea06d84e190"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-13.cases.jsonl",
+      "bytes": 23449,
+      "sha256": "30a8245846e6eba64162a78329e3c6aa3479e28743881a8d3f70a75bd3869c37"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-13.results.json",
+      "bytes": 9567,
+      "sha256": "a503c0c17c684bd0802d337a0900ca556830fd087ff81c1891d57517d54c5b2b"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-14.cases.jsonl",
+      "bytes": 23228,
+      "sha256": "936f31c5e7b45f2600ca3ba52a3823321931fa27446c5b117738acf5cbe7bcbe"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-14.results.json",
+      "bytes": 9592,
+      "sha256": "6f2127941d9330f0db3fa151d651dbc9764973003365e71c991c8a9dfd8a3c0e"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-15.cases.jsonl",
+      "bytes": 26671,
+      "sha256": "fc95a3a6e46f55a8b3f8020bd5cbf2a143f08f72d33d981295e90320904858e5"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-15.results.json",
+      "bytes": 9298,
+      "sha256": "e74446d765aae8b035a23143d4982de92dc66e6589636f88e8403b9f942e00aa"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-16.cases.jsonl",
+      "bytes": 25805,
+      "sha256": "604af99d6d84f59c50c1109e80dfb0fb074b482c1f09a7240cc77ac2ea85b5e2"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-16.results.json",
+      "bytes": 10133,
+      "sha256": "57adbda168fe1edd14f8ce689bd6fc2f0b2d0dafeed8fabda987e397896679c2"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-17.cases.jsonl",
+      "bytes": 24514,
+      "sha256": "72e9b3f055974260d3c48347213506bf68d985c40d2cbee5880dcb81faaf7468"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-17.results.json",
+      "bytes": 10181,
+      "sha256": "1759b798699a298b83743bc1b989a3f439174f0e83eafc43d3879e63474e985c"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-18.cases.jsonl",
+      "bytes": 24050,
+      "sha256": "abacdb5681071de34733906f85efc18a1616cd88726269d09e6fef279c7bdff7"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-18.results.json",
+      "bytes": 10163,
+      "sha256": "4ebe8dbf125c41264734a7b30296bbce1538097fcdbc7db7b125cd27eec08533"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-19.cases.jsonl",
+      "bytes": 23873,
+      "sha256": "338d0c7b1612b5d1524585c604807cd76e114012fa1341bf365dc8c79b1115e0"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-19.results.json",
+      "bytes": 9363,
+      "sha256": "8b51a47defc3b1b294eb0ba2cb8f5057bfa91f1142732db3344a5ced6e93aa1f"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-20.cases.jsonl",
+      "bytes": 23165,
+      "sha256": "c103400c5dfb952b2edcf88d607cbdd37e529ae3e761465f73f5775627cc1c2e"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-20.results.json",
+      "bytes": 9339,
+      "sha256": "bed84d3f51ec04f77e80df90d048818852e40e6cb4b77dca29a66f8951d49a18"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-21.cases.jsonl",
+      "bytes": 24570,
+      "sha256": "43eacaf2a8ab97351ae5878fdde5a48b9606ae77804ea622a3d8aab539c2bc19"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-21.results.json",
+      "bytes": 10725,
+      "sha256": "53d0862bb4634ab63446fa22dd8c8056d884fe488b1d8f78d0cce5ce584a692e"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-22.cases.jsonl",
+      "bytes": 24864,
+      "sha256": "4ecac091779bfec54e3656632acdd322c05ed9c8487d7c223de5c4a6a15e598c"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-22.results.json",
+      "bytes": 10397,
+      "sha256": "419e19ed85a80abede9043efc88db5c309828d0b6f871c0b0a8aba01a12f92d2"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-23.cases.jsonl",
+      "bytes": 25194,
+      "sha256": "007f3301d1272507e1ad636991ddae33bab225518a6d42a506afaec881f2d75f"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-23.results.json",
+      "bytes": 10910,
+      "sha256": "21de1e6b2a3e6038aedae98309a4607df26c0c3de8959e0ad97c6d822dc95c2d"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-24.cases.jsonl",
+      "bytes": 24561,
+      "sha256": "3b84a17c3ea51f8287ebb7fcd7239c017b373820cd29900dcd0e4b3f5d42b247"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-24.results.json",
+      "bytes": 10646,
+      "sha256": "a6bbc19680b7c5d8bb4234590b6c627139f316b79b09196ee88351534496c9aa"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-25.cases.jsonl",
+      "bytes": 26970,
+      "sha256": "979d3ed83a56c5aa8a4dd04d9c259fc32256f5afc6a2958342bb0db3bcfe42b0"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-batch-25.results.json",
+      "bytes": 11081,
+      "sha256": "a399937e163302fff485bb1cca26b94c7e1f1a9870c3875fdab1505a9e90de6b"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-g-development-current.results.json",
+      "bytes": 240221,
+      "sha256": "6e94664d20747701ecc86e4024047d5378ea10c393dea8f2355257e2c13a3f41"
+    },
+    {
+      "path": "chan-kg-agent/evaluation/stage-h-final-baselines-307029129712.results.json",
+      "bytes": 4403506,
+      "sha256": "9d0ab45c1249c4618c8dcf91320310d6e40fa04f5cd0a2c451d2380c06e3bec2"
+    },
+    {
+      "path": "chan-kg-agent/licenses/NODE-LICENSE.txt",
+      "bytes": 157606,
+      "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+    },
+    {
+      "path": "chan-kg-agent/package.json",
+      "bytes": 493,
+      "sha256": "65ae4796eb0f7b3b8595167b7ae6a031d258f1315d989aaa83d91e21a0235423"
+    },
+    {
+      "path": "chan-kg-agent/README.md",
+      "bytes": 3372,
+      "sha256": "a360c48106b4ed36d6d2b4bc86042dd334ca0bea2d9d2b16dd8cb5e47e5a6e81"
+    },
+    {
+      "path": "chan-kg-agent/scripts/analyze-retrieval-baselines.mjs",
+      "bytes": 2622,
+      "sha256": "06acfd491b1ed32c07eabad67c6687d7bf1538eff0a9ef232df366352874fce4"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-development-cases.mjs",
+      "bytes": 4551,
+      "sha256": "fc3d6764b123588a8de8a6abd36018ad33e427fab3eb7ba218aaaebeee734ab7"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-retrieval-baselines.mjs",
+      "bytes": 10658,
+      "sha256": "2d783c2fa71e4ffc1ed73b7c5dc406afff336f963f4218120b8759737b2eadb0"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-05.mjs",
+      "bytes": 9583,
+      "sha256": "42ffd6469d61cc8a8c9c48681be7e1d49f9a6451aebb7db53b17335cd59da7b9"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-07.mjs",
+      "bytes": 9963,
+      "sha256": "3b939f26c56bfded5940759441195af529e856f1db4d529f2ecc305ebe645df5"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-08.mjs",
+      "bytes": 10447,
+      "sha256": "1987e0867cb6636eb964aac76fa8905f41ed3b937c9e16dfa935ba29b6a18a2c"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-09.mjs",
+      "bytes": 10930,
+      "sha256": "4a06e0d52d7d7507ad9a5b9e587d2e815dc6513ed34544597def1bebef4d9cc4"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-10.mjs",
+      "bytes": 10134,
+      "sha256": "664b3716599d311a4dba0a893199bdd71b9b7b79f15560127f3e923dc59549c4"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-11.mjs",
+      "bytes": 9212,
+      "sha256": "9300eee3b3fcec71fd9e6c09c37157392f32f1137113b6f919cb727bd7dae2fd"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-12.mjs",
+      "bytes": 10372,
+      "sha256": "c7cac888f6876720f2093c22a7ae6fb4de7fd1c6334b2c9d55050011ba3e6561"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-13.mjs",
+      "bytes": 9899,
+      "sha256": "263076dbae7a0b9ad056173810f0c1c253b6409f4ec94d8b27c887c421690971"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-14.mjs",
+      "bytes": 9719,
+      "sha256": "17249399dc93d6b369995dee612549b4159344b2905957fb4003bf43409d1365"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-15.mjs",
+      "bytes": 9531,
+      "sha256": "4e887c64cc6f297257b73792fa6f8d59fc14587262317944082b24a308d04930"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-16.mjs",
+      "bytes": 10219,
+      "sha256": "23a8bf481c41e74e2094d8199dfc953dcaa1d1a2bda1b857286e0da6a25bafd6"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-17.mjs",
+      "bytes": 9985,
+      "sha256": "0cf21ba8d079125c484e1809cbf89a7b57b13fca4e6ab38b125540aafc80088d"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-18.mjs",
+      "bytes": 10104,
+      "sha256": "27a9f653a5a68a167c8239f1251226bc0e2f142f3207957ad04a61fcd4843643"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-19.mjs",
+      "bytes": 9761,
+      "sha256": "06c93bfe9a83a579ebd5b2bb9bb04b3bb9e2682c094dfec21b1c70f91f05257d"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-20.mjs",
+      "bytes": 10207,
+      "sha256": "79fa36b9a56793fa769b75c6d3068693aefaa223cf85fc395c60d8bb81a3a41a"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-21.mjs",
+      "bytes": 10798,
+      "sha256": "d173dad1bb8ef42f1c2a4a26110f0cec936dc15cccb82af12d36cecdb74653ad"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-22.mjs",
+      "bytes": 11852,
+      "sha256": "c33785ba0d5f9623980aedbe097badb670ef8ab98469f8e53459fc28a6f4eef2"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-23.mjs",
+      "bytes": 12555,
+      "sha256": "f8e8a2ace35901fce6a7081ed32c91853e6157319bc39194511c3607d14eb4b1"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-24.mjs",
+      "bytes": 12588,
+      "sha256": "8ef8d9ab2f99fc0ce7164df108fd2db8fb43f86e69c5aa066449b2b27205e605"
+    },
+    {
+      "path": "chan-kg-agent/scripts/evaluate-reviewed-batch-25.mjs",
+      "bytes": 13166,
+      "sha256": "98bdc816f79e4cb229edc3e09492552a812bd217654f62d834044fec64b12c5a"
+    },
+    {
+      "path": "chan-kg-agent/scripts/export.mjs",
+      "bytes": 2097,
+      "sha256": "3c995c8fee2ab2719576c2810fcea81972219cdfd0f263138f20ce3ff8c42f67"
+    },
+    {
+      "path": "chan-kg-agent/scripts/initialize-implementation.py",
+      "bytes": 3634,
+      "sha256": "a99e845e06d128c9ad098f27d5f12fdac0b9da7f0e099971a8c0ab2a5428b768"
+    },
+    {
+      "path": "chan-kg-agent/scripts/lib/retrieval-baselines.mjs",
+      "bytes": 3869,
+      "sha256": "a473cc975c0bd9efef2b628b50dbc936695200ee1e77c4140c33eec589576771"
+    },
+    {
+      "path": "chan-kg-agent/scripts/package.mjs",
+      "bytes": 2232,
+      "sha256": "c92665b28ab95335d2371d4121675545f9ce761b0f853e87d55e80fff2a239e5"
+    },
+    {
+      "path": "chan-kg-agent/scripts/snapshot-retrieval-eval.py",
+      "bytes": 4367,
+      "sha256": "b03c26ca8468bee015506ccca85898ae0088c65c5ba754b02c08523954821f6f"
+    },
+    {
+      "path": "chan-kg-agent/scripts/validate.mjs",
+      "bytes": 1851,
+      "sha256": "4c4294cc028bc796c01be6a2f3ad5764d336824fb98a07a04908fa5f0f85ea30"
+    },
+    {
+      "path": "chan-kg-agent/src/core.mjs",
+      "bytes": 14843,
+      "sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6"
+    },
+    {
+      "path": "chan-kg-agent/test/corpus.test.mjs",
+      "bytes": 16137,
+      "sha256": "bcef7dc2bb895e709ba15a6ddd51e99ce48cc9fbe91966f1cb53f1572e5a116b"
+    },
+    {
+      "path": "chan-kg-agent/test/curation_contract_test.py",
+      "bytes": 9683,
+      "sha256": "a078b1ac98383c98c689ba049a0b5cdaf111838a6eb86963b955a799f53721e9"
+    },
+    {
+      "path": "chan-kg-agent/test/retrieval-baselines.test.mjs",
+      "bytes": 2337,
+      "sha256": "ed9fd2cd286551dc0179b96d4e0c23b08086e65ca755882b8040f6a08d4641d0"
+    },
+    {
+      "path": "chan-kg-agent/test/version-session.test.mjs",
+      "bytes": 1852,
+      "sha256": "b8e73a917d1c52187aab4a6fc08ff2481959aae440d5e682419adad7403651d9"
+    },
+    {
+      "path": "完整实施计划.md",
+      "bytes": 45284,
+      "sha256": "0daa663634cb534d68f333e9beabf76579a45c851cf4e12eb57d8893e0377b90"
+    }
+  ],
+  "source_backup": {
+    "path": "pre-implementation-source.zip",
+    "sha256": "034a37c69e2373f5c56894dbf866ba88db4b0fc51a79821d0e19c862874f819d"
+  },
+  "knowledge_backup": {
+    "path": "baseline-knowledge",
+    "database_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271"
+  },
+  "old_desktop_archive": "User moved to Recycle Bin; not required or restored",
+  "restore": "Extract source archive to a separate directory; compare paths/hashes before restoring only intended files. Canonical baseline is in baseline-knowledge."
+}

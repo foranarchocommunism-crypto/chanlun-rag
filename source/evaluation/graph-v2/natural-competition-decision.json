@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "authority": "direct_user_instruction",
+  "user_statement": "既然二跳不能证明明显的提高，那就不为其设计特殊通道和下限，让其自然参与竞争即可。",
+  "supersedes": "Hop-specific reservations and ranking-input treatment in the original plan and rc.1 implementation",
+  "hop2_reserved_path_slots": 0,
+  "hop2_reserved_candidate_slots": 0,
+  "hop2_minimum_primary_results": 0,
+  "hop2_special_rerank_input": false,
+  "selection": "Both depths share the same bounded path pool and Graph admission pool. Same claim text, conditions and exceptions for every reranker input. No depth-derived score or priority.",
+  "retained": ["text40 plus at most8 Graph additions shared across depths", "whole evidence bundles", "hard traversal limits", "controlled fallback", "explicit experimental profile"],
+  "retired_acceptance_requirements": ["Guaranteed reserved second-hop participation", "Two-hop-specific +5pp superiority gate", "Forced top20 terminal positive-control target"],
+  "replacement_acceptance_requirements": ["Second-hop may receive zero slots", "Changing depth alone cannot improve admission rank", "Every reranker input uses the same text policy", "Measure actual recall and regressions without claiming unproven gain"],
+  "student_annotation_status": "cancelled_by_user",
+  "default_activation_requested": false
+}

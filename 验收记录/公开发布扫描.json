@@ -1,0 +1,16 @@
+{
+  "files_scanned": 1849,
+  "unique_history_text_blobs_scanned": 1696,
+  "credential_pattern_hits": [],
+  "historical_blobs_above_50MB": [
+    {
+      "bytes": 59941081,
+      "path": "shared-knowledge/v0.1.0/exports/claims.jsonl"
+    },
+    {
+      "bytes": 71626752,
+      "path": "shared-knowledge/v0.1.0/graph.sqlite"
+    }
+  ],
+  "scope": "Common credential formats; not a guarantee of detecting arbitrary secrets"
+}

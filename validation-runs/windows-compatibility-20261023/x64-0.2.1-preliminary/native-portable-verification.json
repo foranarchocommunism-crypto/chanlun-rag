@@ -1,0 +1,186 @@
+{
+  "started_at": "2026-10-23T09:46:53.571Z",
+  "product_root": "C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712",
+  "passed": true,
+  "checks": [
+    {
+      "name": "all_file_checksums",
+      "passed": true,
+      "verified_files": 7785
+    },
+    {
+      "name": "status_from_bundled_runtime_isolated_PATH",
+      "passed": true,
+      "graph_version": "0.1.0-review-307029129712"
+    },
+    {
+      "name": "offline_default_retrieval",
+      "passed": true,
+      "elapsed_ms_cli": 37131.169,
+      "runtime": {
+        "requested_profile": "hybrid-graph-rerank",
+        "actual_channels": [
+          "structured_lexical",
+          "semantic_vector",
+          "supported_graph_expansion",
+          "graph_definition_anchor",
+          "cross_encoder_rerank"
+        ],
+        "degraded": false,
+        "degradation_reasons": [],
+        "elapsed_ms": 33167.5314,
+        "stages": {
+          "lexical": {
+            "candidates": 100,
+            "elapsed_ms": 571.0311999999999
+          },
+          "dense": {
+            "candidates": 100,
+            "elapsed_ms": 772.1134000000002,
+            "query_tokens": 36,
+            "query_truncated": false,
+            "query_instruction_enabled": true
+          },
+          "graph": {
+            "additional_candidates": 17,
+            "supported_paths": 20,
+            "truncated": true,
+            "elapsed_ms": 24.476000000000113
+          },
+          "definition_anchors": {
+            "claims": [
+              "upper-l017-center-definition"
+            ],
+            "source": "concept aliases, exact subject predicate and reviewed structural relations"
+          },
+          "rerank": {
+            "candidates": 40,
+            "truncated_inputs": 0,
+            "elapsed_ms": 31759.561200000004
+          }
+        }
+      }
+    },
+    {
+      "name": "ambiguity_research_source_modes",
+      "passed": true
+    },
+    {
+      "name": "native_dependencies_loaded_from_portable_runtime",
+      "passed": true,
+      "modules": [
+        "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140.dll",
+        "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140.dll",
+        "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140_1.dll",
+        "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_1.dll",
+        "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_ATOMIC_WAIT.dll"
+      ]
+    },
+    {
+      "name": "bundled_MCP_JS_CLI_equality_and_evidence_followup",
+      "passed": true,
+      "server_version": "0.2.1",
+      "stdout_parse_errors": 0,
+      "stderr": ""
+    },
+    {
+      "name": "canonical_files_unchanged",
+      "passed": true
+    }
+  ],
+  "environment": {
+    "hostname": "chan-kg-clean-w",
+    "os_release": "10.0.20348",
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v24.15.0",
+    "executable": "C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\runtime\\node.exe",
+    "cpu": "Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz",
+    "current_directory": "C:\\Windows\\system32",
+    "independent_clean_windows_verified": false,
+    "context": "Actual portable artifact; independent environment identity requires separate review"
+  },
+  "network_policy": "Node fetch/http/https/net/tls/dns disabled by verification preload; OS connection state is not changed or claimed disconnected",
+  "native_runtime_modules": [
+    "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140.dll",
+    "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140.dll",
+    "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\VCRUNTIME140_1.dll",
+    "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_1.dll",
+    "\\\\?\\C:\\validation\\work\\移位验收 空格路径\\chan-kg-agent-0.2.1-307029129712\\app\\node_modules\\onnxruntime-node\\bin\\napi-v6\\win32\\x64\\MSVCP140_ATOMIC_WAIT.dll"
+  ],
+  "examples": {
+    "definition": [
+      {
+        "id": "upper-l017-center-definition",
+        "text": "走势中枢是某级别走势类型中，至少三个连续次级别走势类型所重叠的部分。",
+        "conditions": [
+          "至少三个",
+          "连续",
+          "次级别走势类型",
+          "前三个次级别走势类型均已完成"
+        ],
+        "citations": [
+          {
+            "id": "evidence-6d07bb0f0b247d01",
+            "filename": "volume_1.pdf",
+            "pdf_page": 76,
+            "quote": "为了深入研究这复杂问题，必须先引入缠中说禅走势中枢的概念：某级别走势类型中，被至少三个连续次级别走势类型所重叠的部分，称为缠中说禅走势中枢。换言之，缠中说禅走势中枢就是至少三个连续次级别走势类型重叠部分所构成。这里有一个递归的问题，就是这次级别不能无限下去，就像有些半吊子哲学胡诌什么“一分为二”，而“分”不是无限的，按照量子力学，物质之分是有极限的，同样，级别之次也不可能无限，在实际之中，对最后不能分解的级别，其缠中说禅走势中枢就不能用“至少三个连续次级别走势类型所重叠”定义，而定义为至少三个该级别单位K线重叠部分。一般来说，对实际操作，都把这最低的不可分解级别设定为1分钟或5分钟线，当然，也可以设定为1秒种线，但这都没有太大区别。",
+            "role": "author_body"
+          },
+          {
+            "id": "evidence-f76973ddd057981e",
+            "filename": "volume_1.pdf",
+            "pdf_page": 82,
+            "quote": "缠中说禅走势中枢：某级别走势类型中，被至少三个连续次级别走势类型所重叠的部分。具体的计算以前三个连续次级别的重叠为准，严格的公式可以这样表示：次级别的连续三个走势类型A、B、C，分别的高、低点是a1\\a2,b1\\b2,c1\\c2。则，中枢的区间就是（max（a2,b2,c2），min（a1,b1,c1））而实际上用目测就可以，不用这么复杂。注意，次级别的前三个走势类型都是完成的才构成该级别的缠中说禅走势中枢，完成的走势类型，在次级别图上是很明显的，根本就不用着再看次级别下面级别的图了。",
+            "role": "author_body"
+          }
+        ]
+      },
+      {
+        "id": "upper-l020-center-formula-reduced",
+        "text": "中枢区间[max(a2,b2,c2),min(a1,b1,c1)]在回升或回调形成的三段结构中，可化为[max(a2,c2),min(a1,c1)]。",
+        "conditions": [
+          "A/B/C高低点分别a1/a2、b1/b2、c1/c2",
+          "以下两种形成情形择一适用：回升形成时a1=b1、b2=c2；或回调形成时a2=b2、b1=c1；不是要求两组等式同时成立"
+        ],
+        "citations": [
+          {
+            "id": "evidence-7d2db211b0452a2d",
+            "filename": "volume_1.pdf",
+            "pdf_page": 98,
+            "quote": "有了上面的定理，就可以很精确地讨论走势中枢的问题了：根据走势中枢的数学表达式：A、B、C，分别的高、低点是a1\\a2,b1\\b2,c1\\c2，则中枢的区间就是[max（a2,b2,c2），min（a1,b1,c1）]。而中枢的形成无非两种，一种是回升形成的，一种是回调形成的。对于第一种有a1=b1,b2=c2；对第二种有a2=b2,b1=c1。但无论是哪种情况，中枢的公式都可以简化为[max（a2,c2），min（a1,c1）]。显然，A、C段，其方向与中枢形成的方向",
+            "role": "author_body"
+          }
+        ]
+      },
+      {
+        "id": "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+        "text": "同级背驰必回该级最后中枢，作者称比小转大条件更强；若实际顶背驰级别正是操作级别，可直接全部卖出，小转大则需复杂程序。",
+        "conditions": [
+          "背驰级别等于当下走势类型级别",
+          "该级别同时是自己的操作级别、实际顶背驰已成立"
+        ],
+        "citations": [
+          {
+            "id": "evidence-56a148306ee5494b",
+            "filename": "volume_1.pdf",
+            "pdf_page": 317,
+            "quote": "显然，这个定理比起“背驰级别等于当下的走势级别”必然回来最后一个该级别中枢的情况要弱一点，但这是很正常的，因为这种情况毕竟少见点而且要复杂得多。因此，在具体的操作中，必须有更复杂的程序来对付这种情况。而对于“背驰级别等于当下的走势级别”，如果你刚好是该级别为操作级别的，只要在顶背驰时直接全部卖出就可以。",
+            "role": "author_body"
+          }
+        ]
+      }
+    ],
+    "ambiguity": {
+      "issue_id": "issue-connection-level-scope",
+      "resolution_status": "unresolved",
+      "claims": [
+        "upper-l054-c-stage-same-level-centers-must-have-sublevel-connection-in-this-decomposition",
+        "upper-l018-center-theorem-one",
+        "upper-l018-c-stage-center-connection-not-necessarily-trend"
+      ]
+    },
+    "research_candidate_status": "pending"
+  },
+  "finished_at": "2026-10-23T09:49:08.538Z"
+}

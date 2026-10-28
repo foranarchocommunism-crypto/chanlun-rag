@@ -1,0 +1,560 @@
+[
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0\\graph.sqlite",
+    "expected": "3463D772E607C6E89104C17C02C6B3656CCA766F444D226C011FB9D8A9017271",
+    "actual": "3463D772E607C6E89104C17C02C6B3656CCA766F444D226C011FB9D8A9017271",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0\\manifest.json",
+    "expected": "4EAFC2500D74089D2B8A113598AFB83470C4553D53748A5CA6207F614C238AAC",
+    "actual": "4EAFC2500D74089D2B8A113598AFB83470C4553D53748A5CA6207F614C238AAC",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\manifest.json",
+    "expected": "5FFE4715E3B8D7A6FA3CFF9AA2DCAF04BD68BF56D036E8167C19AA1DC25C255B",
+    "actual": "5FFE4715E3B8D7A6FA3CFF9AA2DCAF04BD68BF56D036E8167C19AA1DC25C255B",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\projection.sqlite",
+    "expected": "0686B13E61C145AFF2B638BD29A2FED27A8D56EFC6A2FD68061E656D8A66585E",
+    "actual": "0686B13E61C145AFF2B638BD29A2FED27A8D56EFC6A2FD68061E656D8A66585E",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\vectors.f32",
+    "expected": "9B98764FDA2F6DBB9A61417291A171A2B18E53F8C73CE1A7368A5CF9AB9516A8",
+    "actual": "9B98764FDA2F6DBB9A61417291A171A2B18E53F8C73CE1A7368A5CF9AB9516A8",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\indexes\\lexical-1-307029129712\\vector-rows.json",
+    "expected": "2A55299D410092160326E8A3ECE9A5A7770F9816338C44885CB6FB915DF1E5E7",
+    "actual": "2A55299D410092160326E8A3ECE9A5A7770F9816338C44885CB6FB915DF1E5E7",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\profiles\\default.json",
+    "expected": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40",
+    "actual": "FFF766759D96C758D5B391E6E024EC9FE74665523ADED4268EA52B288ECDBA40",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\policies\\ambiguity-issues.json",
+    "expected": "AD3F55351BA2AFB7A5FD2679DF60E12C51F31299A51BD4AF3427C27F69CBBE93",
+    "actual": "AD3F55351BA2AFB7A5FD2679DF60E12C51F31299A51BD4AF3427C27F69CBBE93",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\config.mjs",
+    "expected": "BC34F2252C79D2C5BC1615905B72537C0A5AF53764169A35AF1ED1D07B54EAD0",
+    "actual": "BC34F2252C79D2C5BC1615905B72537C0A5AF53764169A35AF1ED1D07B54EAD0",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\core.mjs",
+    "expected": "D89730FF65CA24A498E61CB4FF442CC955C733949B60A4EA55ECFDB1CBB801A6",
+    "actual": "D89730FF65CA24A498E61CB4FF442CC955C733949B60A4EA55ECFDB1CBB801A6",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\corpus.mjs",
+    "expected": "6D9DF0A42918A44B075DE180CC624CA82958E05AAD9A5174ED3A94081255A244",
+    "actual": "6D9DF0A42918A44B075DE180CC624CA82958E05AAD9A5174ED3A94081255A244",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\definition-anchors.mjs",
+    "expected": "1871F1EF6110370363C983FCDC15E7177FB4DFFA72107DD2082E5F90B477594F",
+    "actual": "1871F1EF6110370363C983FCDC15E7177FB4DFFA72107DD2082E5F90B477594F",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\dense.mjs",
+    "expected": "01A581AE1B37BC2177C97FACD0F9806D27E8B2B8BC49CBBF803197F32F65C6A5",
+    "actual": "01A581AE1B37BC2177C97FACD0F9806D27E8B2B8BC49CBBF803197F32F65C6A5",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\embedding.mjs",
+    "expected": "2C90B11C0E3445A4FF10171497B0F7CB955A9293B8B032CCA51FDA6EF5061212",
+    "actual": "2C90B11C0E3445A4FF10171497B0F7CB955A9293B8B032CCA51FDA6EF5061212",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\graph-expansion.mjs",
+    "expected": "A91DFC36DD2E564DC6BB924DECF8DA0005EBCAF0BB469541DFD1B1F13CBD4D11",
+    "actual": "A91DFC36DD2E564DC6BB924DECF8DA0005EBCAF0BB469541DFD1B1F13CBD4D11",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\index.mjs",
+    "expected": "4017DC68F732DC3915863CE52FA8A51984C6E1A28C0A2B9F8D3D09CFF0883A9F",
+    "actual": "4017DC68F732DC3915863CE52FA8A51984C6E1A28C0A2B9F8D3D09CFF0883A9F",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\lexical.mjs",
+    "expected": "50BF2716A95675D215217BB08C1556298B7F716DEE21E17B45A26BC71ECEC7CE",
+    "actual": "50BF2716A95675D215217BB08C1556298B7F716DEE21E17B45A26BC71ECEC7CE",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\reranker.mjs",
+    "expected": "B0D6156F830105174ABA7EAAA726971005874550B12FE055A21B6C2F78A617D9",
+    "actual": "B0D6156F830105174ABA7EAAA726971005874550B12FE055A21B6C2F78A617D9",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\src\\retrieval.mjs",
+    "expected": "5090C0E46B81EF4107F0FB79D5EAD282D206E9F81C868B6D27CD02C18B2DD674",
+    "actual": "5090C0E46B81EF4107F0FB79D5EAD282D206E9F81C868B6D27CD02C18B2DD674",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\activate-agent-scope.mjs",
+    "expected": "1BEA7A644B7B6328C2CE49A3C808BC4BAF905956B841BEFEDE2556DB39456957",
+    "actual": "1BEA7A644B7B6328C2CE49A3C808BC4BAF905956B841BEFEDE2556DB39456957",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\analyze-retrieval-baselines.mjs",
+    "expected": "06ACFD491B1ED32C07EABAD67C6687D7BF1538EFF0A9EF232DF366352874FCE4",
+    "actual": "06ACFD491B1ED32C07EABAD67C6687D7BF1538EFF0A9EF232DF366352874FCE4",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\arm64-validation-environment.py",
+    "expected": "74EF543DE3F808B2DC5BC141ABD724FE28B2CC533B01C75B2784EE3DC3BD7543",
+    "actual": "74EF543DE3F808B2DC5BC141ABD724FE28B2CC533B01C75B2784EE3DC3BD7543",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\audit-redundant-artifacts.py",
+    "expected": "C3A39EF567A6C8F9AFB033D4389AD4919D541F0F38524954DD9DF300706ABD23",
+    "actual": "C3A39EF567A6C8F9AFB033D4389AD4919D541F0F38524954DD9DF300706ABD23",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\build-index.mjs",
+    "expected": "261BD5EC30896407D154B2CEA800CB5DC20D0809DA310181FBA8578C501AA261",
+    "actual": "261BD5EC30896407D154B2CEA800CB5DC20D0809DA310181FBA8578C501AA261",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\build-release-gates.mjs",
+    "expected": "DB67C884250A8362934596DFF2B6C2AA3582DF15C922A10CB5BB0ED0BD6746FE",
+    "actual": "DB67C884250A8362934596DFF2B6C2AA3582DF15C922A10CB5BB0ED0BD6746FE",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\build-vectors.mjs",
+    "expected": "4182498E82565BCAD19718D58A1880F5E8B4D014DDC5BD92D5BE9CE76B501175",
+    "actual": "4182498E82565BCAD19718D58A1880F5E8B4D014DDC5BD92D5BE9CE76B501175",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\cleanup-implementation.ps1",
+    "expected": "17F3163A969BFC64F24F2F196F8BB51207F3992DED0E8AA158B5E73A0386EBC0",
+    "actual": "17F3163A969BFC64F24F2F196F8BB51207F3992DED0E8AA158B5E73A0386EBC0",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\cleanup-redundant-artifacts.ps1",
+    "expected": "CD73F002433263217107C80536C61AE994A6FD63EDF1231D2C7D41ACF4837C86",
+    "actual": "CD73F002433263217107C80536C61AE994A6FD63EDF1231D2C7D41ACF4837C86",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\cleanup-validation-environment.ps1",
+    "expected": "1CFF10A6D4D1870896887B4018A5822312BB7A792AD4AEF4341FD3E23A467969",
+    "actual": "1CFF10A6D4D1870896887B4018A5822312BB7A792AD4AEF4341FD3E23A467969",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\collect-licenses.py",
+    "expected": "45D7AA9FF23F1FC8673B3FBBA2B7E136FAE568559687695F391446B1D67766C9",
+    "actual": "45D7AA9FF23F1FC8673B3FBBA2B7E136FAE568559687695F391446B1D67766C9",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\collect-native-runtime.ps1",
+    "expected": "1DFCE20ADB14198FC2F67936D7A68CF8419BB2082420B0C7780B6B8840E654B1",
+    "actual": "1DFCE20ADB14198FC2F67936D7A68CF8419BB2082420B0C7780B6B8840E654B1",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\deny-network.mjs",
+    "expected": "02AC0987EBE12DD0CF352031C3527D2B442D8A97DC9CF17A45C8289F2B0A85C7",
+    "actual": "02AC0987EBE12DD0CF352031C3527D2B442D8A97DC9CF17A45C8289F2B0A85C7",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\doctor.ps1",
+    "expected": "48E7705AAB3C4F9CEDB6489DC038539BA091159036F77CB2252F0F3463707994",
+    "actual": "48E7705AAB3C4F9CEDB6489DC038539BA091159036F77CB2252F0F3463707994",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\download-models.py",
+    "expected": "559D1E9451D4D172DE674490F2D637471404977A28F7F35B25EA308875D9002D",
+    "actual": "559D1E9451D4D172DE674490F2D637471404977A28F7F35B25EA308875D9002D",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\download-verified-media.py",
+    "expected": "CC16276DE2004989DBC86A741C0D3F9C8E5841422E446839061FBDCACEF81F0C",
+    "actual": "CC16276DE2004989DBC86A741C0D3F9C8E5841422E446839061FBDCACEF81F0C",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-acceptance.mjs",
+    "expected": "4103BC3FCEDD06179841C53169C24D294D923CCBCD59678C9437EA0F505B67DD",
+    "actual": "4103BC3FCEDD06179841C53169C24D294D923CCBCD59678C9437EA0F505B67DD",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-development-cases.mjs",
+    "expected": "FC3D6764B123588A8DE8A6ABD36018AD33E427FAB3EB7BA218AAAEBEEE734AB7",
+    "actual": "FC3D6764B123588A8DE8A6ABD36018AD33E427FAB3EB7BA218AAAEBEEE734AB7",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-graph-development.mjs",
+    "expected": "7C35523A6B577190FF64295145FC6C4BEBCE1D6D958997C6D82C9AA6FD67B906",
+    "actual": "7C35523A6B577190FF64295145FC6C4BEBCE1D6D958997C6D82C9AA6FD67B906",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-hybrid-development.mjs",
+    "expected": "10D809BD4FF7BADBCC3BFEF12AA73B691EA1B4D9F4931FA2CEC122BFA1FB4FDB",
+    "actual": "10D809BD4FF7BADBCC3BFEF12AA73B691EA1B4D9F4931FA2CEC122BFA1FB4FDB",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-production-development.mjs",
+    "expected": "1078313C1573BCB639CF64B7DE4A0EFFEE927462C12BA3D8DA5263FF9CA57DDD",
+    "actual": "1078313C1573BCB639CF64B7DE4A0EFFEE927462C12BA3D8DA5263FF9CA57DDD",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-rerank-development.mjs",
+    "expected": "D479F9D732D323F4B5D5C36BBD1356346C795C55041B38217251C50F6B3E8708",
+    "actual": "D479F9D732D323F4B5D5C36BBD1356346C795C55041B38217251C50F6B3E8708",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-retrieval-baselines.mjs",
+    "expected": "2D783C2FA71E4FFC1ED73B7C5DC406AFFF336F963F4218120B8759737B2EADB0",
+    "actual": "2D783C2FA71E4FFC1ED73B7C5DC406AFFF336F963F4218120B8759737B2EADB0",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-05.mjs",
+    "expected": "42FFD6469D61CC8A8C9C48681BE7E1D49F9A6451AEBB7DB53B17335CD59DA7B9",
+    "actual": "42FFD6469D61CC8A8C9C48681BE7E1D49F9A6451AEBB7DB53B17335CD59DA7B9",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-07.mjs",
+    "expected": "3B939F26C56BFDED5940759441195AF529E856F1DB4D529F2ECC305EBE645DF5",
+    "actual": "3B939F26C56BFDED5940759441195AF529E856F1DB4D529F2ECC305EBE645DF5",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-08.mjs",
+    "expected": "1987E0867CB6636EB964AAC76FA8905F41ED3B937C9E16DFA935BA29B6A18A2C",
+    "actual": "1987E0867CB6636EB964AAC76FA8905F41ED3B937C9E16DFA935BA29B6A18A2C",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-09.mjs",
+    "expected": "4A06E0D52D7D7507AD9A5B9E587D2E815DC6513ED34544597DEF1BEBEF4D9CC4",
+    "actual": "4A06E0D52D7D7507AD9A5B9E587D2E815DC6513ED34544597DEF1BEBEF4D9CC4",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-10.mjs",
+    "expected": "664B3716599D311A4DBA0A893199BDD71B9B7B79F15560127F3E923DC59549C4",
+    "actual": "664B3716599D311A4DBA0A893199BDD71B9B7B79F15560127F3E923DC59549C4",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-11.mjs",
+    "expected": "9300EEE3B3FCEC71FD9E6C09C37157392F32F1137113B6F919CB727BD7DAE2FD",
+    "actual": "9300EEE3B3FCEC71FD9E6C09C37157392F32F1137113B6F919CB727BD7DAE2FD",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-12.mjs",
+    "expected": "C7CAC888F6876720F2093C22A7AE6FB4DE7FD1C6334B2C9D55050011BA3E6561",
+    "actual": "C7CAC888F6876720F2093C22A7AE6FB4DE7FD1C6334B2C9D55050011BA3E6561",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-13.mjs",
+    "expected": "263076DBAE7A0B9AD056173810F0C1C253B6409F4EC94D8B27C887C421690971",
+    "actual": "263076DBAE7A0B9AD056173810F0C1C253B6409F4EC94D8B27C887C421690971",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-14.mjs",
+    "expected": "17249399DC93D6B369995DEE612549B4159344B2905957FB4003BF43409D1365",
+    "actual": "17249399DC93D6B369995DEE612549B4159344B2905957FB4003BF43409D1365",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-15.mjs",
+    "expected": "4E887C64CC6F297257B73792FA6F8D59FC14587262317944082B24A308D04930",
+    "actual": "4E887C64CC6F297257B73792FA6F8D59FC14587262317944082B24A308D04930",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-16.mjs",
+    "expected": "23A8BF481C41E74E2094D8199DFC953DCAA1D1A2BDA1B857286E0DA6A25BAFD6",
+    "actual": "23A8BF481C41E74E2094D8199DFC953DCAA1D1A2BDA1B857286E0DA6A25BAFD6",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-17.mjs",
+    "expected": "0CF21BA8D079125C484E1809CBF89A7B57B13FCA4E6AB38B125540AAFC80088D",
+    "actual": "0CF21BA8D079125C484E1809CBF89A7B57B13FCA4E6AB38B125540AAFC80088D",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-18.mjs",
+    "expected": "27A9F653A5A68A167C8239F1251226BC0E2F142F3207957AD04A61FCD4843643",
+    "actual": "27A9F653A5A68A167C8239F1251226BC0E2F142F3207957AD04A61FCD4843643",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-19.mjs",
+    "expected": "06C93BFE9A83A579EBD5B2BB9BB04B3BB9E2682C094DFEC21B1C70F91F05257D",
+    "actual": "06C93BFE9A83A579EBD5B2BB9BB04B3BB9E2682C094DFEC21B1C70F91F05257D",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-20.mjs",
+    "expected": "79FA36B9A56793FA769B75C6D3068693AEFAA223CF85FC395C60D8BB81A3A41A",
+    "actual": "79FA36B9A56793FA769B75C6D3068693AEFAA223CF85FC395C60D8BB81A3A41A",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-21.mjs",
+    "expected": "D173DAD1BB8EF42F1C2A4A26110F0CEC936DC15CCCB82AF12D36CECDB74653AD",
+    "actual": "D173DAD1BB8EF42F1C2A4A26110F0CEC936DC15CCCB82AF12D36CECDB74653AD",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-22.mjs",
+    "expected": "C33785BA0D5F9623980AEDBE097BADB670EF8AB98469F8E53459FC28A6F4EEF2",
+    "actual": "C33785BA0D5F9623980AEDBE097BADB670EF8AB98469F8E53459FC28A6F4EEF2",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-23.mjs",
+    "expected": "F8E8A2ACE35901FCE6A7081ED32C91853E6157319BC39194511C3607D14EB4B1",
+    "actual": "F8E8A2ACE35901FCE6A7081ED32C91853E6157319BC39194511C3607D14EB4B1",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-24.mjs",
+    "expected": "8EF8D9AB2F99FC0CE7164DF108FD2DB8FB43F86E69C5AA066449B2B27205E605",
+    "actual": "8EF8D9AB2F99FC0CE7164DF108FD2DB8FB43F86E69C5AA066449B2B27205E605",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\evaluate-reviewed-batch-25.mjs",
+    "expected": "98BDC816F79E4CB229EDC3E09492552A812BD217654F62D834044FEC64B12C5A",
+    "actual": "98BDC816F79E4CB229EDC3E09492552A812BD217654F62D834044FEC64B12C5A",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\export.mjs",
+    "expected": "3C995C8FEE2AB2719576C2810FCEA81972219CDFD0F263138F20CE3FF8C42F67",
+    "actual": "3C995C8FEE2AB2719576C2810FCEA81972219CDFD0F263138F20CE3FF8C42F67",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\final-audit.mjs",
+    "expected": "BC6E48F40D9D80F14419BAD77FECB3C6227377C7C4E7B67F515DFD1F0E1F4D48",
+    "actual": "BC6E48F40D9D80F14419BAD77FECB3C6227377C7C4E7B67F515DFD1F0E1F4D48",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\freeze-acceptance.mjs",
+    "expected": "B6DA6F4E06E02F5CA59A2908F9765DB5810B509677B3A458F9C9713DDF7665AE",
+    "actual": "B6DA6F4E06E02F5CA59A2908F9765DB5810B509677B3A458F9C9713DDF7665AE",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\freeze-release-profile.mjs",
+    "expected": "16C4CE0B6EBC460938D64CAEA14E5CBA9628315A5AC0D0A7E1EB1EB4F38526DA",
+    "actual": "16C4CE0B6EBC460938D64CAEA14E5CBA9628315A5AC0D0A7E1EB1EB4F38526DA",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\initialize-implementation.py",
+    "expected": "A99E845E06D128C9AD098F27D5F12FDAC0B9DA7F0E099971A8C0AB2A5428B768",
+    "actual": "A99E845E06D128C9AD098F27D5F12FDAC0B9DA7F0E099971A8C0AB2A5428B768",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\package-portable.mjs",
+    "expected": "BFDC363BD0B9F6FB67CEC3B8384E57735390B0A0EDAEDEDAA12D744C3405BD4A",
+    "actual": "BFDC363BD0B9F6FB67CEC3B8384E57735390B0A0EDAEDEDAA12D744C3405BD4A",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\package.mjs",
+    "expected": "C92665B28AB95335D2371D4121675545F9CE761B0F853E87D55E80FFF2A239E5",
+    "actual": "C92665B28AB95335D2371D4121675545F9CE761B0F853E87D55E80FFF2A239E5",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\prepare-arm64-validation.ps1",
+    "expected": "B4C43394D4D4CF6C679D6E6070BC4A26588EB84789BD607CD4AAF058571948F3",
+    "actual": "B4C43394D4D4CF6C679D6E6070BC4A26588EB84789BD607CD4AAF058571948F3",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\probe-mcp-launcher.mjs",
+    "expected": "296E0D47FC25DD2F35E69F1F05B39E0EC23E1ED23EF8A26BF8221D4390C36CF6",
+    "actual": "296E0D47FC25DD2F35E69F1F05B39E0EC23E1ED23EF8A26BF8221D4390C36CF6",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\seal-package.mjs",
+    "expected": "A399EF50C4D8DFACDB5742857B5550882AFA383CA70BF2865343AAC671DCD685",
+    "actual": "A399EF50C4D8DFACDB5742857B5550882AFA383CA70BF2865343AAC671DCD685",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\seed-research-policy.mjs",
+    "expected": "D286F2B5E6E6D65F73933EA93E9592BF08D521C5797CEDBDF432B3FD2CD92DBA",
+    "actual": "D286F2B5E6E6D65F73933EA93E9592BF08D521C5797CEDBDF432B3FD2CD92DBA",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\snapshot-retrieval-eval.py",
+    "expected": "B03C26CA8468BEE015506CCCA85898AE0088C65C5BA754B02C08523954821F6F",
+    "actual": "B03C26CA8468BEE015506CCCA85898AE0088C65C5BA754B02C08523954821F6F",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\stage-arm64-assets.py",
+    "expected": "A01E8D1742A92550EDA9C8A0D7C293D3FE6AADE318BD271475075E32C788E4BA",
+    "actual": "A01E8D1742A92550EDA9C8A0D7C293D3FE6AADE318BD271475075E32C788E4BA",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\validate.mjs",
+    "expected": "4C4294CC028BC796C01BE6A2F3AD5764D336824FB98A07A04908FA5F0F85EA30",
+    "actual": "4C4294CC028BC796C01BE6A2F3AD5764D336824FB98A07A04908FA5F0F85EA30",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\validation-guest-container.ps1",
+    "expected": "5B532DF6B3CCCDDDDB31DBE3819C2B13FCEBD2BC5B213CA08724856D9E5044B7",
+    "actual": "5B532DF6B3CCCDDDDB31DBE3819C2B13FCEBD2BC5B213CA08724856D9E5044B7",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\validation-guest-native.ps1",
+    "expected": "EFBD709DC3D63527080C8558721EA082109C2910A232EEB187941688713A38B8",
+    "actual": "EFBD709DC3D63527080C8558721EA082109C2910A232EEB187941688713A38B8",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\validation-registry-proxy.py",
+    "expected": "BC7903BC59FC761078EA85D51E485DCF9C6E14CC47128CEC5FA9C04686237011",
+    "actual": "BC7903BC59FC761078EA85D51E485DCF9C6E14CC47128CEC5FA9C04686237011",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\verify-embedding.mjs",
+    "expected": "00AD6B8DD5B7C2492250D879FE8E46D975F4D1BE79A6FD314CF06354F40917DF",
+    "actual": "00AD6B8DD5B7C2492250D879FE8E46D975F4D1BE79A6FD314CF06354F40917DF",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\verify-lexical-production.mjs",
+    "expected": "89FFB3C2F059B7A66FD9B562F5A87BC60D962894D7F549D923B9EF980ED21F36",
+    "actual": "89FFB3C2F059B7A66FD9B562F5A87BC60D962894D7F549D923B9EF980ED21F36",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\verify-mcp.mjs",
+    "expected": "E6EC84F00DCBA8FE6F592D9DF43A45CE477511CD1759CD107B45C622CA795DD4",
+    "actual": "E6EC84F00DCBA8FE6F592D9DF43A45CE477511CD1759CD107B45C622CA795DD4",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\verify-original-weights.py",
+    "expected": "62EB5EB5ADC3B159BA987104D42FB4BCD8F7F24C0B57BEBDA9E518DEED42CA43",
+    "actual": "62EB5EB5ADC3B159BA987104D42FB4BCD8F7F24C0B57BEBDA9E518DEED42CA43",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\verify-portable.mjs",
+    "expected": "E35CC68CCED7E32DF94DF6572AE20EA18FC57D06B2C287D7DB0A1DA94680955C",
+    "actual": "E35CC68CCED7E32DF94DF6572AE20EA18FC57D06B2C287D7DB0A1DA94680955C",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\windows-validation-environment.py",
+    "expected": "7B26E9E60E337ABDD9341C2D6862AD8C0D2D16EF896254EEB9A7F1C6EBA09894",
+    "actual": "7B26E9E60E337ABDD9341C2D6862AD8C0D2D16EF896254EEB9A7F1C6EBA09894",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\write-delivery-report.py",
+    "expected": "09931E450829ABE38A1672CB993DE13E8FECD62E1F6D15073301559A8457807F",
+    "actual": "09931E450829ABE38A1672CB993DE13E8FECD62E1F6D15073301559A8457807F",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\zip-and-extract.py",
+    "expected": "9990F0FA95F11C31B224A187F3C5B59C00C38486083240791A631CB7FC337227",
+    "actual": "9990F0FA95F11C31B224A187F3C5B59C00C38486083240791A631CB7FC337227",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\scripts\\zip-portable.py",
+    "expected": "D5DDE144A294EBB89F35E35564CEE4D8F2E4A8BADBBC2436FAE13AE05B317B7B",
+    "actual": "D5DDE144A294EBB89F35E35564CEE4D8F2E4A8BADBBC2436FAE13AE05B317B7B",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\contracts\\curation.schema.json",
+    "expected": "E48DEC52072A28FCFCD3CE72EE4B0A7BF237FF46FDBCA7369BFDB7DC52CB9060",
+    "actual": "E48DEC52072A28FCFCD3CE72EE4B0A7BF237FF46FDBCA7369BFDB7DC52CB9060",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\contracts\\evidence-packet.schema.json",
+    "expected": "4844060F80CBF4988E03CC31DE0E981059A121CF95F7F98F339DC0AEA1442F7D",
+    "actual": "4844060F80CBF4988E03CC31DE0E981059A121CF95F7F98F339DC0AEA1442F7D",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\contracts\\retrieval-index.schema.sql",
+    "expected": "E31784CA26C9ADBE36008E844E2D4FF120DE27378473282FC7899DC4CF02C59B",
+    "actual": "E31784CA26C9ADBE36008E844E2D4FF120DE27378473282FC7899DC4CF02C59B",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\contracts\\retrieval-request.schema.json",
+    "expected": "C715EBB662621115EFA4E5FA72D8F0E73B24F15ACC8D761624956BCD7E66DC9B",
+    "actual": "C715EBB662621115EFA4E5FA72D8F0E73B24F15ACC8D761624956BCD7E66DC9B",
+    "unchanged": true
+  },
+  {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\contracts\\schema.sql",
+    "expected": "C4A74C67FD806CF309824A815A9AE026D227E42B91E44F6B7B8756C723D38429",
+    "actual": "C4A74C67FD806CF309824A815A9AE026D227E42B91E44F6B7B8756C723D38429",
+    "unchanged": true
+  }
+]

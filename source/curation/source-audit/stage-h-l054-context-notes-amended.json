@@ -1,0 +1,36 @@
+{
+  "stage": "H-context-caveat-correction",
+  "base_graph_version": "0.1.0-review-9e9b5c45a7a4",
+  "graph_version": "0.1.0-review-a837c6e53243",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261021T061722650428Z-context-note-amendment",
+  "changes": [
+    {
+      "id": "upper-l054-c-stage-rare-second-buy-below-first-or-second-sell-above-first-approved",
+      "before_review_note": "语境：第54课；PDF409 author_reply 2007-05-24 15:58:51。适用条件：指向读者volume_1-a53e99c37ca5-p0408-b008的编号1问题：二买低一买/二卖高一卖；编号1作者认可可能性且很少见，不独立验证读者举例所有结构。四轮：通读全部段落并核对实际页面；拆分原子命题与联合条件；比对既有概念及跨课范围；回查证据、量词、时序和配图。问题具体文字在读者408-b008，作者原引只有1.当然有可能，虽然很少见；不得把读者创新高盘背推理全文改成作者原话。近邻API上下文未覆盖跨页整组问题，研究时须连读PDF408/409及本条条件。。同一主代理四轮，不称独立复核；固定汇编边界，未核原博客。",
+      "after_review_note": "语境：第54课；PDF409 author_reply 2007-05-24 15:58:51。适用条件：指向读者volume_1-a53e99c37ca5-p0408-b008的编号1问题：二买低一买/二卖高一卖；编号1作者认可可能性且很少见，不独立验证读者举例所有结构。四轮：通读全部段落并核对实际页面；拆分原子命题与联合条件；比对既有概念及跨课范围；回查证据、量词、时序和配图。问题具体文字在读者408-b008，作者原引只有1.当然有可能，虽然很少见；不得把读者创新高盘背推理全文改成作者原话。2026-10-21专项复核：当前evidence返回PDF408至410，已核包含完整编号问题；仍须按问题编号/本条条件联读，不能把读者前提冒作者明说。。同一主代理四轮，不称独立复核；固定汇编边界，未核原博客。"
+    },
+    {
+      "id": "upper-l054-c-stage-second-center-guarantee-no-larger-level-wording-reader-item-two",
+      "before_review_note": "语境：第54课；PDF409 author_reply 2007-05-24 15:58:51。适用条件：指向读者volume_1-a53e99c37ca5-p0408-b009、p0408-b010、p0409-b000编号2提问；绝对保证/没有什么更大级别为作者原答，比较基准与形成时序仍待核。四轮：通读全部段落并核对实际页面；拆分原子命题与联合条件；比对既有概念及跨课范围；回查证据、量词、时序和配图。原短答原字保留；问题在读者408-b009/b010和409-b000，不能把没有什么更大级别擅解为已撤销53整句或已给完整无限时间证明，当前API邻段不自动覆盖整个跨页问题须按ID联读。。同一主代理四轮，不称独立复核；固定汇编边界，未核原博客。",
+      "after_review_note": "语境：第54课；PDF409 author_reply 2007-05-24 15:58:51。适用条件：指向读者volume_1-a53e99c37ca5-p0408-b009、p0408-b010、p0409-b000编号2提问；绝对保证/没有什么更大级别为作者原答，比较基准与形成时序仍待核。四轮：通读全部段落并核对实际页面；拆分原子命题与联合条件；比对既有概念及跨课范围；回查证据、量词、时序和配图。原短答原字保留；问题在读者408-b009/b010和409-b000，不能把没有什么更大级别擅解为已撤销53整句或已给完整无限时间证明，2026-10-21专项复核：当前evidence返回PDF408至410，已核包含完整编号问题；仍须按问题编号/本条条件联读，不能把读者前提冒作者明说。。同一主代理四轮，不称独立复核；固定汇编边界，未核原博客。"
+    }
+  ],
+  "proof_file": "stage-h-annotation-split-verification.json",
+  "proof": "现有evidence的三条编号短答均返回所需全部PDF408/409问题段；未修改任何查询代码。",
+  "claim_text_conditions_exceptions_and_all_evidence_unchanged": true,
+  "all_source_rows_unchanged": true,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9650,
+    "figures": 528,
+    "concepts": 309,
+    "claims": 5951,
+    "evidence": 7146,
+    "relations": 683,
+    "reviews": 3388
+  },
+  "delivery_scope": "shared_knowledge_base_only",
+  "pass": true
+}

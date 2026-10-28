@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-23T03:43:20.421801+00:00",
+  "cleanup_not_executed": true,
+  "gated_by": "Final project delivery receipt plus independent VM/container verification",
+  "candidates": [
+    {
+      "directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712",
+      "retained_archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712.zip",
+      "files_identical": 7783,
+      "bytes": 1025160207,
+      "disposition": "remove_only_after_final_project_delivery",
+      "basis": "all files byte-identical to retained CRC-readable ZIP"
+    },
+    {
+      "directory": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-knowledge-20261022-307029129712",
+      "retained_archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-knowledge-20261022-307029129712.zip",
+      "files_identical": 2164,
+      "bytes": 222481067,
+      "disposition": "remove_only_after_final_project_delivery",
+      "basis": "all files byte-identical to retained CRC-readable ZIP"
+    },
+    {
+      "directory": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\移位验收 空格路径\\chan-kg-agent-0.2.0-307029129712",
+      "retained_archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.0-307029129712.zip",
+      "files_identical": 7783,
+      "bytes": 1025160207,
+      "disposition": "remove_only_after_final_project_delivery",
+      "basis": "all files byte-identical to retained CRC-readable ZIP"
+    },
+    {
+      "directory": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\agent-implementation-20261022\\baseline-knowledge",
+      "identical_to_current_files": 2,
+      "unique_or_changed_files": [],
+      "disposition": "do_not_remove_until_every_unique_file_is_classified"
+    }
+  ]
+}

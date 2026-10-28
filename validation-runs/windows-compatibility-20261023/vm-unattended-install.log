@@ -1,0 +1,37 @@
+VBoxManage.exe: info: Starting unattended installation of Windows2022_64 in machine 'chan-kg-clean-win2022' (bd74f9ee-3207-49aa-8993-1acc26001d37).
+VBoxManage.exe: info: Using values:
+                           isoPath = C:\Users\13240\.codex\containers\chan-kg\SERVER_EVAL_x64FRE_en-us.iso
+                              user = validator
+                          password = [REDACTED]
+                     user-password = [REDACTED]
+                    admin-password = [REDACTED]
+                      fullUserName = Chan KG Validation
+                        productKey = 
+                  additionsIsoPath = C:\Program Files\Oracle\VirtualBox/VBoxGuestAdditions.iso
+             installGuestAdditions = true
+              validationKitIsoPath = 
+            installTestExecService = false
+                            locale = en_US
+                           country = US
+                          timeZone = UTC
+                             proxy = 
+                          hostname = chan-kg-clean-win2022.test.local
+       packageSelectionAdjustments = 
+                 auxiliaryBasePath = C:\Users\13240\.codex\containers\chan-kg\vms\chan-kg-clean-win2022\Unattended-bd74f9ee-3207-49aa-8993-1acc26001d37-
+                        imageIndex = 1
+                scriptTemplatePath = C:\Program Files\Oracle\VirtualBox\UnattendedTemplates\win_nt6_unattended.xml
+     postInstallScriptTemplatePath = C:\Program Files\Oracle\VirtualBox\UnattendedTemplates\win_postinstall.cmd
+                postInstallCommand = 
+      extraInstallKernelParameters = 
+                          language = en-US
+                  detectedOSTypeId = Windows2022_64
+                 detectedOSVersion = 10.0.20348.587
+                  detectedOSFlavor = ServerStandardEval
+               detectedOSLanguages = en-US
+                   detectedOSHints = 
+                 detectedImage[0]* = #1: Windows Server 2022 Standard Evaluation (10.0.20348.587 / x64 / en-US)
+                  detectedImage[1] = #2: Windows Server 2022 Standard Evaluation (Desktop Experience) (10.0.20348.587 / x64 / en-US)
+                  detectedImage[2] = #3: Windows Server 2022 Datacenter Evaluation (10.0.20348.587 / x64 / en-US)
+                  detectedImage[3] = #4: Windows Server 2022 Datacenter Evaluation (Desktop Experience) (10.0.20348.587 / x64 / en-US)
+VBoxManage.exe: info: Waiting for VM 'chan-kg-clean-win2022' to power on...
+VBoxManage.exe: info: VM 'chan-kg-clean-win2022' (bd74f9ee-3207-49aa-8993-1acc26001d37) has been successfully started.

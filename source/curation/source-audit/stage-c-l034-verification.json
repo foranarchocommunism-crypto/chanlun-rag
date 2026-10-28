@@ -1,0 +1,87 @@
+{
+  "graph_version": "0.1.0-review-20e3aa53bf69",
+  "schema_version": "1.1.0",
+  "checks": [
+    "16新增命题；四正为本课当下释义，走势一切秘密和同归零概率保留作者主张及未核边界，不当实证定理",
+    "退出条件是选定级别实际反向而非每秒噪音，野兽反应不保证预知风险；5分主升的小信号范围不抹33中枢回拉下次1可重要",
+    "3/7联合确认及两分支、3/8已判三买与压力突破待确认分对象；原30分2858和未来新30分分开，2915不偷换ZG",
+    "复合问句和前后短答留歧义，不造a+A+b中枢裸规则；次级内部确认不扩成读者价点、半仓或固定K数均获作者认可",
+    "原a+B+b记号和具体例面积非峰高不改写全局黄白线/多级优先；作者说前晚已成5分中枢，不背书读者两中枢完整拼法",
+    "5跨日来源日期修正而3/7段不改；4命题8配图关联逐项确认，5本课图全后加，254前课图不重复计入；全书未完成"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "正闻、正见、正学、正行"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "正闻正见正学正行",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "正闻正见正学正行",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-cc6fff89103575f3"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 259
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "a+A+b",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 4,
+    "associations": 8,
+    "unique_figures": 5
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型边界检查与模块一致性，不是独立语义审查或Windows实际离线/PDF交互。",
+    "未验证作者信息完备或同归零概率主张、历史实盘收益及后图原博客身份。"
+  ]
+}

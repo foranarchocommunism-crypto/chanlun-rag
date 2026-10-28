@@ -1,0 +1,4753 @@
+{
+  "created_at": "2026-10-25T11:52:54.901Z",
+  "fixture": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\real-model-1792929132750",
+  "synthetic": true,
+  "semantic_quality_claim": false,
+  "real_index_build": true,
+  "real_embedding_model": true,
+  "real_reranker": true,
+  "network_policy": "child index builders deny Node network APIs; current model classes enforce local_files_only",
+  "graph_only": true,
+  "lexical_answer_rank": 0,
+  "dense_answer_rank": 0,
+  "actual_reranker_input": [
+    "bridge",
+    "n001",
+    "n000",
+    "n009",
+    "n010",
+    "n016",
+    "n015",
+    "n014",
+    "n012",
+    "n011",
+    "n007",
+    "n013",
+    "n006",
+    "n005",
+    "n027",
+    "n026",
+    "n008",
+    "n017",
+    "n023",
+    "n024",
+    "n046",
+    "n038",
+    "n019",
+    "n022",
+    "n020",
+    "n039",
+    "n025",
+    "n043",
+    "n002",
+    "n037",
+    "n029",
+    "n003",
+    "n053",
+    "n004",
+    "n045",
+    "n041",
+    "n028",
+    "n036",
+    "n033",
+    "n056",
+    "answer"
+  ],
+  "baseline_primary": [
+    "bridge",
+    "n008",
+    "n024",
+    "n053",
+    "n014",
+    "n011",
+    "n013",
+    "n033",
+    "n002",
+    "n020",
+    "n022",
+    "n003",
+    "n026",
+    "n016",
+    "n015",
+    "n006",
+    "n029",
+    "n007",
+    "n010",
+    "n025"
+  ],
+  "graph_primary": [
+    "bridge",
+    "n008",
+    "n024",
+    "n053",
+    "n014",
+    "n011",
+    "n013",
+    "n033",
+    "n002",
+    "n020",
+    "n022",
+    "n003",
+    "n026",
+    "n016",
+    "n015",
+    "n006",
+    "n029",
+    "n007",
+    "n010",
+    "n025"
+  ],
+  "uniform_rerank_inputs": true,
+  "terminal_primary_rank": null,
+  "no_terminal_top20_floor": true,
+  "complete_two_hop": false,
+  "fallback_primary_equal": true,
+  "fallback_reranker_calls": 1,
+  "fallback_max_score_difference": 0,
+  "graph": {
+    "contract_version": "1.0.0",
+    "request_id": "bfcce3e9-0b3a-4dbb-a733-9b954565ddf2",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "bridge",
+          "text": "起点甲的最终校验口令采用桥接乙的登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [
+            "A",
+            "B"
+          ],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-bridge",
+              "claim_id": "bridge",
+              "passage_id": "p-bridge",
+              "quote": "起点甲的最终校验口令采用桥接乙的登记值。",
+              "quote_start": 0,
+              "quote_end": 20,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 1,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-bridge"
+            }
+          ],
+          "retrieval": {
+            "id": "bridge",
+            "score": 0.02459016393442623,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 1,
+                "score": 55.74193447665907
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7335031110569766
+              }
+            ],
+            "rerank_score": 8.386932373046875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n008",
+          "text": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n008",
+              "claim_id": "n008",
+              "passage_id": "p-n008",
+              "quote": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 11,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n008"
+            }
+          ],
+          "retrieval": {
+            "id": "n008",
+            "score": 0.017908902691511387,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.5257471886502213
+              }
+            ],
+            "rerank_score": 2.6445729732513428,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.01630080417300587,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.53064164936762
+              }
+            ],
+            "rerank_score": 2.563605546951294,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n053",
+          "text": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n053",
+              "claim_id": "n053",
+              "passage_id": "p-n053",
+              "quote": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 56,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n053"
+            }
+          ],
+          "retrieval": {
+            "id": "n053",
+            "score": 0.015274599542334096,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 55,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 16,
+                "score": 0.5374053659286698
+              }
+            ],
+            "rerank_score": 2.4788317680358887,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.02040427154843631,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.5391542479115675
+              }
+            ],
+            "rerank_score": 2.435227394104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.02010888654724271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.5367939303291465
+              }
+            ],
+            "rerank_score": 2.434177875518799,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.018827838827838828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.5340170642845125
+              }
+            ],
+            "rerank_score": 2.4183833599090576,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01397459165154265,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.5248312093556983
+              }
+            ],
+            "rerank_score": 2.399766445159912,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n002",
+          "text": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n002",
+              "claim_id": "n002",
+              "passage_id": "p-n002",
+              "quote": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 5,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n002"
+            }
+          ],
+          "retrieval": {
+            "id": "n002",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.372349739074707,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.016071090943467575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 69,
+                "score": 0.526827528333334
+              }
+            ],
+            "rerank_score": 2.3543860912323,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01607142857142857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.5283989683319069
+              }
+            ],
+            "rerank_score": 2.353247880935669,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015384615384615385,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 5,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.3306586742401123,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.01812039312039312,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 28,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.5382348109629389
+              }
+            ],
+            "rerank_score": 2.311349391937256,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020757020757020756,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 3,
+                "score": 0.5442654318554108
+              }
+            ],
+            "rerank_score": 2.309152603149414,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n015",
+          "text": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n015",
+              "claim_id": "n015",
+              "passage_id": "p-n015",
+              "quote": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 18,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n015"
+            }
+          ],
+          "retrieval": {
+            "id": "n015",
+            "score": 0.02067932067932068,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 5,
+                "score": 0.5428594414336649
+              }
+            ],
+            "rerank_score": 2.2956111431121826,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n006",
+          "text": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n006",
+              "claim_id": "n006",
+              "passage_id": "p-n006",
+              "quote": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 9,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n006"
+            }
+          ],
+          "retrieval": {
+            "id": "n006",
+            "score": 0.018493761140819964,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 72,
+                "score": 0.5261476769952044
+              }
+            ],
+            "rerank_score": 2.261777400970459,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015413789750072937,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 53,
+                "score": 0.5298507487459031
+              }
+            ],
+            "rerank_score": 2.2601118087768555,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.019492753623188405,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 9,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 40,
+                "score": 0.5315280213095168
+              }
+            ],
+            "rerank_score": 2.2566981315612793,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.021464646464646464,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.5426698690255766
+              }
+            ],
+            "rerank_score": 2.224487066268921,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.015731541009156438,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 58,
+                "score": 0.5286825861175308
+              }
+            ],
+            "rerank_score": 2.2180800437927246,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [
+        {
+          "relation_id": "r001",
+          "relation_type": "related_to",
+          "source": "A",
+          "target": "B",
+          "traversal_direction": "source_to_target",
+          "original_review_status": "reviewed",
+          "supporting_claim_ids": [
+            "bridge"
+          ],
+          "support_claim_id": "bridge",
+          "support_review_status": "reviewed",
+          "support_evidence_ids": [
+            "e-bridge"
+          ],
+          "path_id": "A:r001",
+          "steps": [
+            {
+              "relation_id": "r001",
+              "relation_type": "related_to",
+              "source": "A",
+              "target": "B",
+              "traversal_direction": "source_to_target",
+              "original_review_status": "reviewed",
+              "supporting_claim_ids": [
+                "bridge"
+              ],
+              "support_claim_id": "bridge",
+              "support_review_status": "reviewed",
+              "support_evidence_ids": [
+                "e-bridge"
+              ]
+            }
+          ],
+          "depth": 1,
+          "concept_path": [
+            "A",
+            "B"
+          ],
+          "relation_path": [
+            "r001"
+          ],
+          "seed_claim_id": "bridge",
+          "seed_rank": 1,
+          "semantics": "evidence_supported_association_not_transitive_inference",
+          "depends_on_interpretation": false,
+          "auxiliary_claims": [],
+          "evidence_chain_complete": true
+        }
+      ],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 30785,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 1944.5570999999982,
+      "queue_wait_ms": 0.01209999999991851,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 4.025000000001455
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 24.457500000004075,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "success",
+          "reason": null,
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "selection_policy": "shared_pool_no_hop_reservations",
+          "hop1_discovered": 1,
+          "hop2_discovered": 1,
+          "additional_candidates": 2,
+          "supported_paths": 2,
+          "attempted_paths": 2,
+          "committed_paths": 1,
+          "truncated": false,
+          "admission": {
+            "capacity": 48,
+            "text_protected": 40,
+            "graph_allowance": 8,
+            "selection_policy": "shared_pool_no_hop_reservations",
+            "promoted": [
+              {
+                "id": "answer",
+                "origin": "graph_only"
+              }
+            ],
+            "graph_only": 1,
+            "graph_rescued": 0,
+            "definition_anchors": 0,
+            "rerank_input_ids": [
+              "bridge",
+              "n001",
+              "n000",
+              "n009",
+              "n010",
+              "n016",
+              "n015",
+              "n014",
+              "n012",
+              "n011",
+              "n007",
+              "n013",
+              "n006",
+              "n005",
+              "n027",
+              "n026",
+              "n008",
+              "n017",
+              "n023",
+              "n024",
+              "n046",
+              "n038",
+              "n019",
+              "n022",
+              "n020",
+              "n039",
+              "n025",
+              "n043",
+              "n002",
+              "n037",
+              "n029",
+              "n003",
+              "n053",
+              "n004",
+              "n045",
+              "n041",
+              "n028",
+              "n036",
+              "n033",
+              "n056",
+              "answer"
+            ],
+            "deferred": [],
+            "reason": null,
+            "final_primary_ids": []
+          },
+          "elapsed_ms": 5.624700000000303
+        },
+        "rerank": {
+          "candidates": 41,
+          "calls": 1,
+          "input_ids": [
+            "bridge",
+            "n001",
+            "n000",
+            "n009",
+            "n010",
+            "n016",
+            "n015",
+            "n014",
+            "n012",
+            "n011",
+            "n007",
+            "n013",
+            "n006",
+            "n005",
+            "n027",
+            "n026",
+            "n008",
+            "n017",
+            "n023",
+            "n024",
+            "n046",
+            "n038",
+            "n019",
+            "n022",
+            "n020",
+            "n039",
+            "n025",
+            "n043",
+            "n002",
+            "n037",
+            "n029",
+            "n003",
+            "n053",
+            "n004",
+            "n045",
+            "n041",
+            "n028",
+            "n036",
+            "n033",
+            "n056",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 1877.2473000000027
+        }
+      },
+      "primary_result_ids": [
+        "bridge",
+        "n008",
+        "n024",
+        "n053",
+        "n014",
+        "n011",
+        "n013",
+        "n033",
+        "n002",
+        "n020",
+        "n022",
+        "n003",
+        "n026",
+        "n016",
+        "n015",
+        "n006",
+        "n029",
+        "n007",
+        "n010",
+        "n025"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "supported_graph_expansion",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 1944.569199999998
+    }
+  },
+  "baseline": {
+    "contract_version": "1.0.0",
+    "request_id": "d303638c-315b-47c9-b48c-3ba22311962c",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "bridge",
+          "text": "起点甲的最终校验口令采用桥接乙的登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [
+            "A",
+            "B"
+          ],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-bridge",
+              "claim_id": "bridge",
+              "passage_id": "p-bridge",
+              "quote": "起点甲的最终校验口令采用桥接乙的登记值。",
+              "quote_start": 0,
+              "quote_end": 20,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 1,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-bridge"
+            }
+          ],
+          "retrieval": {
+            "id": "bridge",
+            "score": 0.02459016393442623,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 1,
+                "score": 55.74193447665907
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7335031110569766
+              }
+            ],
+            "rerank_score": 8.386932373046875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n008",
+          "text": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n008",
+              "claim_id": "n008",
+              "passage_id": "p-n008",
+              "quote": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 11,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n008"
+            }
+          ],
+          "retrieval": {
+            "id": "n008",
+            "score": 0.017908902691511387,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.5257471886502213
+              }
+            ],
+            "rerank_score": 2.6445729732513428,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.01630080417300587,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.53064164936762
+              }
+            ],
+            "rerank_score": 2.563605546951294,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n053",
+          "text": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n053",
+              "claim_id": "n053",
+              "passage_id": "p-n053",
+              "quote": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 56,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n053"
+            }
+          ],
+          "retrieval": {
+            "id": "n053",
+            "score": 0.015274599542334096,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 55,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 16,
+                "score": 0.5374053659286698
+              }
+            ],
+            "rerank_score": 2.4788317680358887,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.02040427154843631,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.5391542479115675
+              }
+            ],
+            "rerank_score": 2.435227394104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.02010888654724271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.5367939303291465
+              }
+            ],
+            "rerank_score": 2.434177875518799,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.018827838827838828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.5340170642845125
+              }
+            ],
+            "rerank_score": 2.4183833599090576,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01397459165154265,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.5248312093556983
+              }
+            ],
+            "rerank_score": 2.399766445159912,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n002",
+          "text": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n002",
+              "claim_id": "n002",
+              "passage_id": "p-n002",
+              "quote": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 5,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n002"
+            }
+          ],
+          "retrieval": {
+            "id": "n002",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.372349739074707,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.016071090943467575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 69,
+                "score": 0.526827528333334
+              }
+            ],
+            "rerank_score": 2.3543860912323,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01607142857142857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.5283989683319069
+              }
+            ],
+            "rerank_score": 2.353247880935669,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015384615384615385,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 5,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.3306586742401123,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.01812039312039312,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 28,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.5382348109629389
+              }
+            ],
+            "rerank_score": 2.311349391937256,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020757020757020756,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 3,
+                "score": 0.5442654318554108
+              }
+            ],
+            "rerank_score": 2.309152603149414,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n015",
+          "text": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n015",
+              "claim_id": "n015",
+              "passage_id": "p-n015",
+              "quote": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 18,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n015"
+            }
+          ],
+          "retrieval": {
+            "id": "n015",
+            "score": 0.02067932067932068,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 5,
+                "score": 0.5428594414336649
+              }
+            ],
+            "rerank_score": 2.2956111431121826,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n006",
+          "text": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n006",
+              "claim_id": "n006",
+              "passage_id": "p-n006",
+              "quote": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 9,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n006"
+            }
+          ],
+          "retrieval": {
+            "id": "n006",
+            "score": 0.018493761140819964,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 72,
+                "score": 0.5261476769952044
+              }
+            ],
+            "rerank_score": 2.261777400970459,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015413789750072937,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 53,
+                "score": 0.5298507487459031
+              }
+            ],
+            "rerank_score": 2.2601118087768555,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.019492753623188405,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 9,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 40,
+                "score": 0.5315280213095168
+              }
+            ],
+            "rerank_score": 2.2566981315612793,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.021464646464646464,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.5426698690255766
+              }
+            ],
+            "rerank_score": 2.224487066268921,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.015731541009156438,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 58,
+                "score": 0.5286825861175308
+              }
+            ],
+            "rerank_score": 2.2180800437927246,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29925,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": false,
+      "degradation_reasons": [],
+      "elapsed_ms": 3874.8297999999995,
+      "queue_wait_ms": 1.135600000001432,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.4936000000016065
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 32.75370000000112,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "skipped",
+          "reason": "graph_disabled",
+          "committed_paths": 0,
+          "elapsed_ms": 0.8897999999971944
+        },
+        "rerank": {
+          "candidates": 40,
+          "calls": 1,
+          "input_ids": [
+            "bridge",
+            "n001",
+            "n000",
+            "n009",
+            "n010",
+            "n016",
+            "n015",
+            "n014",
+            "n012",
+            "n011",
+            "n007",
+            "n013",
+            "n006",
+            "n005",
+            "n027",
+            "n026",
+            "n008",
+            "n017",
+            "n023",
+            "n024",
+            "n046",
+            "n038",
+            "n019",
+            "n022",
+            "n020",
+            "n039",
+            "n025",
+            "n043",
+            "n002",
+            "n037",
+            "n029",
+            "n003",
+            "n053",
+            "n004",
+            "n045",
+            "n041",
+            "n028",
+            "n036",
+            "n033",
+            "n056"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 3765.906799999997
+        }
+      },
+      "primary_result_ids": [
+        "bridge",
+        "n008",
+        "n024",
+        "n053",
+        "n014",
+        "n011",
+        "n013",
+        "n033",
+        "n002",
+        "n020",
+        "n022",
+        "n003",
+        "n026",
+        "n016",
+        "n015",
+        "n006",
+        "n029",
+        "n007",
+        "n010",
+        "n025"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 3875.965400000001
+    }
+  },
+  "fallback": {
+    "contract_version": "1.0.0",
+    "request_id": "b1200bbd-619d-45df-b5d6-425ee4cde87e",
+    "schema_version": "1.1.0",
+    "graph_version": "graph-v2-isolated-model-fixture",
+    "index_version": "hybrid-1",
+    "policy_version": "synthetic-v2",
+    "data": {
+      "query": "起点甲的最终校验口令是什么？",
+      "mode": "knowledge",
+      "status": "found",
+      "answer_support": "not_assessed_by_retrieval",
+      "reviewed": [
+        {
+          "id": "bridge",
+          "text": "起点甲的最终校验口令采用桥接乙的登记值。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [
+            "A",
+            "B"
+          ],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-bridge",
+              "claim_id": "bridge",
+              "passage_id": "p-bridge",
+              "quote": "起点甲的最终校验口令采用桥接乙的登记值。",
+              "quote_start": 0,
+              "quote_end": 20,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 1,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-bridge"
+            }
+          ],
+          "retrieval": {
+            "id": "bridge",
+            "score": 0.02459016393442623,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 1,
+                "score": 55.74193447665907
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 1,
+                "score": 0.7335031110569766
+              }
+            ],
+            "rerank_score": 8.386932373046875,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n008",
+          "text": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n008",
+              "claim_id": "n008",
+              "passage_id": "p-n008",
+              "quote": "索引词汇记录n008：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 11,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n008"
+            }
+          ],
+          "retrieval": {
+            "id": "n008",
+            "score": 0.017908902691511387,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 10,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 78,
+                "score": 0.5257471886502213
+              }
+            ],
+            "rerank_score": 2.6445729732513428,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n024",
+          "text": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n024",
+              "claim_id": "n024",
+              "passage_id": "p-n024",
+              "quote": "索引词汇记录n024：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 27,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n024"
+            }
+          ],
+          "retrieval": {
+            "id": "n024",
+            "score": 0.01630080417300587,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 26,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 47,
+                "score": 0.53064164936762
+              }
+            ],
+            "rerank_score": 2.563605546951294,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n053",
+          "text": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n053",
+              "claim_id": "n053",
+              "passage_id": "p-n053",
+              "quote": "索引词汇记录n053：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 56,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n053"
+            }
+          ],
+          "retrieval": {
+            "id": "n053",
+            "score": 0.015274599542334096,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 55,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 16,
+                "score": 0.5374053659286698
+              }
+            ],
+            "rerank_score": 2.4788317680358887,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n014",
+          "text": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n014",
+              "claim_id": "n014",
+              "passage_id": "p-n014",
+              "quote": "索引词汇记录n014：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 17,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n014"
+            }
+          ],
+          "retrieval": {
+            "id": "n014",
+            "score": 0.02040427154843631,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 16,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 9,
+                "score": 0.5391542479115675
+              }
+            ],
+            "rerank_score": 2.435227394104004,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n011",
+          "text": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n011",
+              "claim_id": "n011",
+              "passage_id": "p-n011",
+              "quote": "索引词汇记录n011：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 14,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n011"
+            }
+          ],
+          "retrieval": {
+            "id": "n011",
+            "score": 0.02010888654724271,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 13,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 18,
+                "score": 0.5367939303291465
+              }
+            ],
+            "rerank_score": 2.434177875518799,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n013",
+          "text": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n013",
+              "claim_id": "n013",
+              "passage_id": "p-n013",
+              "quote": "索引词汇记录n013：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 16,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n013"
+            }
+          ],
+          "retrieval": {
+            "id": "n013",
+            "score": 0.018827838827838828,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 15,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 31,
+                "score": 0.5340170642845125
+              }
+            ],
+            "rerank_score": 2.4183833599090576,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n033",
+          "text": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n033",
+              "claim_id": "n033",
+              "passage_id": "p-n033",
+              "quote": "索引词汇记录n033：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 36,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n033"
+            }
+          ],
+          "retrieval": {
+            "id": "n033",
+            "score": 0.01397459165154265,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 35,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 85,
+                "score": 0.5248312093556983
+              }
+            ],
+            "rerank_score": 2.399766445159912,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n002",
+          "text": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n002",
+              "claim_id": "n002",
+              "passage_id": "p-n002",
+              "quote": "索引词汇记录n002：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 5,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n002"
+            }
+          ],
+          "retrieval": {
+            "id": "n002",
+            "score": 0.015625,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 4,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.372349739074707,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n020",
+          "text": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n020",
+              "claim_id": "n020",
+              "passage_id": "p-n020",
+              "quote": "索引词汇记录n020：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 23,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n020"
+            }
+          ],
+          "retrieval": {
+            "id": "n020",
+            "score": 0.016071090943467575,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 22,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 69,
+                "score": 0.526827528333334
+              }
+            ],
+            "rerank_score": 2.3543860912323,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n022",
+          "text": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n022",
+              "claim_id": "n022",
+              "passage_id": "p-n022",
+              "quote": "索引词汇记录n022：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 25,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n022"
+            }
+          ],
+          "retrieval": {
+            "id": "n022",
+            "score": 0.01607142857142857,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 24,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 60,
+                "score": 0.5283989683319069
+              }
+            ],
+            "rerank_score": 2.353247880935669,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n003",
+          "text": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n003",
+              "claim_id": "n003",
+              "passage_id": "p-n003",
+              "quote": "索引词汇记录n003：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 6,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n003"
+            }
+          ],
+          "retrieval": {
+            "id": "n003",
+            "score": 0.015384615384615385,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 5,
+                "score": 0.07825113507449692
+              }
+            ],
+            "rerank_score": 2.3306586742401123,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n026",
+          "text": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n026",
+              "claim_id": "n026",
+              "passage_id": "p-n026",
+              "quote": "索引词汇记录n026：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 29,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n026"
+            }
+          ],
+          "retrieval": {
+            "id": "n026",
+            "score": 0.01812039312039312,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 28,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 14,
+                "score": 0.5382348109629389
+              }
+            ],
+            "rerank_score": 2.311349391937256,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n016",
+          "text": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n016",
+              "claim_id": "n016",
+              "passage_id": "p-n016",
+              "quote": "索引词汇记录n016：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 19,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n016"
+            }
+          ],
+          "retrieval": {
+            "id": "n016",
+            "score": 0.020757020757020756,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 18,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 3,
+                "score": 0.5442654318554108
+              }
+            ],
+            "rerank_score": 2.309152603149414,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n015",
+          "text": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n015",
+              "claim_id": "n015",
+              "passage_id": "p-n015",
+              "quote": "索引词汇记录n015：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 18,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n015"
+            }
+          ],
+          "retrieval": {
+            "id": "n015",
+            "score": 0.02067932067932068,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 17,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 5,
+                "score": 0.5428594414336649
+              }
+            ],
+            "rerank_score": 2.2956111431121826,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n006",
+          "text": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n006",
+              "claim_id": "n006",
+              "passage_id": "p-n006",
+              "quote": "索引词汇记录n006：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 9,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n006"
+            }
+          ],
+          "retrieval": {
+            "id": "n006",
+            "score": 0.018493761140819964,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 8,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 72,
+                "score": 0.5261476769952044
+              }
+            ],
+            "rerank_score": 2.261777400970459,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n029",
+          "text": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n029",
+              "claim_id": "n029",
+              "passage_id": "p-n029",
+              "quote": "索引词汇记录n029：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 32,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n029"
+            }
+          ],
+          "retrieval": {
+            "id": "n029",
+            "score": 0.015413789750072937,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 31,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 53,
+                "score": 0.5298507487459031
+              }
+            ],
+            "rerank_score": 2.2601118087768555,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n007",
+          "text": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n007",
+              "claim_id": "n007",
+              "passage_id": "p-n007",
+              "quote": "索引词汇记录n007：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 10,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n007"
+            }
+          ],
+          "retrieval": {
+            "id": "n007",
+            "score": 0.019492753623188405,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 9,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 40,
+                "score": 0.5315280213095168
+              }
+            ],
+            "rerank_score": 2.2566981315612793,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n010",
+          "text": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n010",
+              "claim_id": "n010",
+              "passage_id": "p-n010",
+              "quote": "索引词汇记录n010：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 13,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n010"
+            }
+          ],
+          "retrieval": {
+            "id": "n010",
+            "score": 0.021464646464646464,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 12,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 6,
+                "score": 0.5426698690255766
+              }
+            ],
+            "rerank_score": 2.224487066268921,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        },
+        {
+          "id": "n025",
+          "text": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+          "kind": "explicit",
+          "conditions": [
+            "仅适用于隔离测试语料"
+          ],
+          "exceptions": [],
+          "concept_ids": [],
+          "review_status": "reviewed",
+          "ambiguity_status": "none",
+          "review_note": "",
+          "derivation": {},
+          "importance_level": 2,
+          "importance_reason": "synthetic fixture",
+          "evidence": [
+            {
+              "id": "e-n025",
+              "claim_id": "n025",
+              "passage_id": "p-n025",
+              "quote": "索引词汇记录n025：关键词为起点甲、最终、校验、口令。记录用途为词汇统计，不定义设备参数。",
+              "quote_start": 0,
+              "quote_end": 46,
+              "source_spans": [],
+              "figure_ids": [],
+              "unit_id": "fixture-unit",
+              "document_id": "fixture-doc",
+              "pdf_page": 1,
+              "block_index": 28,
+              "role": "author_body",
+              "speaker": "synthetic fixture",
+              "published_at": null,
+              "boxes": [],
+              "printed_page": null,
+              "page_width": 600,
+              "page_height": 800,
+              "filename": "SYNTHETIC-GRAPH-TEST.pdf",
+              "document_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "resource_path": "SYNTHETIC-GRAPH-TEST.pdf",
+              "unit_title": "隔离测试，不是作者知识",
+              "kind": "explicit",
+              "review_status": "reviewed",
+              "offset_unit": "unicode_codepoint",
+              "context_semantic_review": "not_asserted",
+              "evidence_review_basis": "owner_claim_and_exact_quote_only",
+              "source_context_id": "p-n025"
+            }
+          ],
+          "retrieval": {
+            "id": "n025",
+            "score": 0.015731541009156438,
+            "reasons": [
+              {
+                "channel": "structured_lexical",
+                "rank": 27,
+                "score": 0.07825113507449692
+              },
+              {
+                "channel": "semantic_vector",
+                "rank": 58,
+                "score": 0.5286825861175308
+              }
+            ],
+            "rerank_score": 2.2180800437927246,
+            "rerank_score_meaning": "raw_cross_encoder_logit_relevance_not_truth_probability",
+            "score_meaning": "relevance_only_not_truth_confidence"
+          }
+        }
+      ],
+      "research_leads": [],
+      "source_context": [],
+      "issues": [],
+      "relation_paths": [],
+      "deferred": [],
+      "budget": {
+        "unit": "unicode_codepoints_in_JSON_data_object",
+        "context_limit": 60000,
+        "requested_results": 20,
+        "candidate_limit": 100,
+        "graph_limit": 20,
+        "issue_limit": 0,
+        "used_codepoints": 29925,
+        "truncated": true,
+        "returned_primary": 20,
+        "returned_issue_claims": 0,
+        "deferred_count": 0,
+        "deferred_list_truncated": false
+      }
+    },
+    "runtime": {
+      "requested_profile": "hybrid-graph-v2-rerank",
+      "actual_channels": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "degraded": true,
+      "degradation_reasons": [
+        {
+          "code": "GRAPH_EXECUTION_ERROR",
+          "message": "Optional graph stage failed; text retrieval is available",
+          "stage": "graph",
+          "cause": "Optional graph stage failed; text retrieval is available"
+        }
+      ],
+      "elapsed_ms": 1108.3487999999998,
+      "queue_wait_ms": 0.009500000000116415,
+      "stages": {
+        "lexical": {
+          "candidates": 100,
+          "elapsed_ms": 1.5437999999994645
+        },
+        "dense": {
+          "candidates": 100,
+          "elapsed_ms": 13.337800000001153,
+          "query_tokens": 35,
+          "query_truncated": false,
+          "query_instruction_enabled": true
+        },
+        "graph": {
+          "status": "failed",
+          "reason": "GRAPH_EXECUTION_ERROR",
+          "attempted_depth": 2,
+          "completed_depth": 2,
+          "edge_reads": 3,
+          "support_checks": 2,
+          "nodes": 3,
+          "seed_nodes": 1,
+          "hop1_paths": 1,
+          "hop2_paths": 1,
+          "max_adjacency_reads": 2,
+          "max_fanout": 1,
+          "truncation_reasons": [],
+          "selection_policy": "shared_pool_no_hop_reservations",
+          "hop1_discovered": 1,
+          "hop2_discovered": 1,
+          "additional_candidates": 2,
+          "supported_paths": 0,
+          "attempted_paths": 2,
+          "committed_paths": 0,
+          "truncated": false,
+          "admission": null,
+          "elapsed_ms": 0.6136999999944237
+        },
+        "rerank": {
+          "candidates": 41,
+          "calls": 1,
+          "input_ids": [
+            "bridge",
+            "n001",
+            "n000",
+            "n009",
+            "n010",
+            "n016",
+            "n015",
+            "n014",
+            "n012",
+            "n011",
+            "n007",
+            "n013",
+            "n006",
+            "n005",
+            "n027",
+            "n026",
+            "n008",
+            "n017",
+            "n023",
+            "n024",
+            "n046",
+            "n038",
+            "n019",
+            "n022",
+            "n020",
+            "n039",
+            "n025",
+            "n043",
+            "n002",
+            "n037",
+            "n029",
+            "n003",
+            "n053",
+            "n004",
+            "n045",
+            "n041",
+            "n028",
+            "n036",
+            "n033",
+            "n056",
+            "answer"
+          ],
+          "truncated_inputs": 0,
+          "elapsed_ms": 1042.0000999999975
+        }
+      },
+      "primary_result_ids": [
+        "bridge",
+        "n008",
+        "n024",
+        "n053",
+        "n014",
+        "n011",
+        "n013",
+        "n033",
+        "n002",
+        "n020",
+        "n022",
+        "n003",
+        "n026",
+        "n016",
+        "n015",
+        "n006",
+        "n029",
+        "n007",
+        "n010",
+        "n025"
+      ],
+      "effective_pipeline": [
+        "structured_lexical",
+        "semantic_vector",
+        "cross_encoder_rerank"
+      ],
+      "end_to_end_ms": 1108.3582999999999
+    }
+  },
+  "fixture_db_sha256": "bcf47b6992605a9e9bad20be4c0f1f98c8505f5d6de07cb2c2aac6d5d5c696de",
+  "passed": true
+}

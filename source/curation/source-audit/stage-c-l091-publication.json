@@ -1,0 +1,72 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-7b0331dc59ea",
+  "graph_version": "0.1.0-review-e5c1e73cef63",
+  "scope": "第91课119段，PDF277至290共14页与9图；五图后期，四笔状态、转换限制及跨周期/中枢级别边界分别保留",
+  "new_claims": 47,
+  "new_evidence": 73,
+  "relation_supports_added": 8,
+  "reviewed_before": 1250,
+  "reviewed_after": 1297,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 201,
+    "claims": 3936,
+    "evidence": 4459,
+    "relations": 207,
+    "reviews": 1356
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l091.reviewed.jsonl": "e2cc514bb66048bd15d92298f49fe3f7f924b7880e1863ba91033733839e4577"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T143449628960Z-curation-l091",
+  "reviewer": "Codex 主代理 / 阶段C下册91课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l091-c-stage-pending-stroke-center-cross-lesson",
+    "lower-l091-c-stage-pending-zero-state-reference",
+    "lower-l091-c-stage-pending-matrix-reachability-and-profit",
+    "lower-l091-c-stage-pending-figure-makers-and-late",
+    "lower-l091-c-stage-pending-confirmation-scope",
+    "lower-l091-c-stage-pending-divergence-and-nine-segment-scope",
+    "lower-l091-c-stage-pending-forecast-and-numeric-reference"
+  ],
+  "source_structure_changes": "stage-c-l091-figure-applied.json",
+  "checks_run": [
+    "47条JSON Schema及引用/身份/映射/坐标预检",
+    "119段原文哈希及全段台账一致",
+    "原1250条已复核命题及其全部证据未改",
+    "27项Node工程检查通过；1297条全量引用0错误",
+    "8组笔状态/转换/矩阵/跨课边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1297命题/201概念/207关系同版本导出",
+    "新增12题后96/96开发取证计划及来源身份检查通过；旧题与证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线评分未完成",
+    "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
+    "其余61课完整语义及全书图源核查未完成",
+    "四态识别完备性、联合状态可达性和自动获利设想未证明"
+  ],
+  "acceptance": "47条增量已发布，7项待核与五张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第92至93课229段，实际PDF290至310，从p0290-b002开始；先顺读正文及解盘，再检查所有原图。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-e5c1e73cef63",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1297,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 96,
+    "development_cases_total": 96,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

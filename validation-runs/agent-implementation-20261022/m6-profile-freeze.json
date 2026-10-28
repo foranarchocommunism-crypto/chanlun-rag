@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-10-23T02:38:17.019Z",
+  "prospective_acceptance_already_run": false,
+  "profile_sha256": "fff766759d96c758d5b391e6e024ec9fe74665523aded4268ea52b288ecdba40",
+  "index_manifest_sha256": "5ffe4715e3b8d7a6fa3cff9aa2dcaf04bd68bf56d036e8167c19aa1dc25c255b",
+  "canonical_database_sha256": "3463d772e607c6e89104c17c02c6b3656cca766f444d226c011fb9d8a9017271",
+  "source_files": {
+    "src/config.mjs": "bc34f2252c79d2c5bc1615905b72537c0a5af53764169a35af1ed1d07b54ead0",
+    "src/core.mjs": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+    "src/corpus.mjs": "6d9df0a42918a44b075de180cc624ca82958e05aad9a5174ed3a94081255a244",
+    "src/definition-anchors.mjs": "1871f1ef6110370363c983fcdc15e7177fb4dffa72107dd2082e5f90b477594f",
+    "src/dense.mjs": "01a581ae1b37bc2177c97facd0f9806d27e8b2b8bc49cbbf803197f32f65c6a5",
+    "src/embedding.mjs": "2c90b11c0e3445a4ff10171497b0f7cb955a9293b8b032cca51fda6ef5061212",
+    "src/graph-expansion.mjs": "a91dfc36dd2e564dc6bb924decf8da0005ebcaf0bb469541dfd1b1f13cbd4d11",
+    "src/index.mjs": "4017dc68f732dc3915863ce52fa8a51984c6e1a28c0a2b9f8d3d09cff0883a9f",
+    "src/lexical.mjs": "50bf2716a95675d215217bb08c1556298b7f716dee21e17b45a26bc71ecec7ce",
+    "src/reranker.mjs": "b0d6156f830105174aba7eaaa726971005874550b12fe055a21b6c2f78a617d9",
+    "src/retrieval.mjs": "5090c0e46b81ef4107f0fb79d5ead282d206e9f81c868b6d27cd02c18b2dd674",
+    "bin/chan-kg-mcp.mjs": "1bd20a9c72920c46ea87655e00ff2ff4c28f909791a8475f32f9e97902badeab",
+    "bin/chan-kg.mjs": "5279c125de78bbae40ec2ac3fec7b79fcb48814e68f182db840b00b1ae3840ef",
+    "contracts/curation.schema.json": "e48dec52072a28fcfcd3ce72ee4b0a7bf237ff46fdbca7369bfdb7dc52cb9060",
+    "contracts/evidence-packet.schema.json": "4844060f80cbf4988e03cc31de0e981059a121cf95f7f98f339dc0aea1442f7d",
+    "contracts/retrieval-index.schema.sql": "e31784ca26c9adbe36008e844e2d4ff120de27378473282fc7899dc4cf02c59b",
+    "contracts/retrieval-request.schema.json": "c715ebb662621115efa4e5fa72d8f0e73b24f15acc8d761624956bcd7e66dc9b",
+    "contracts/schema.sql": "c4a74c67fd806cf309824a815a9ae026d227e42b91e44f6b7b8756c723d38429"
+  },
+  "heldout_cases_sha256": "6b1bcffe7c4be4861b6178543f348ca9934cdf14e6fa9af4c367b2c677024abf",
+  "resources": {
+    "environment": "CPU i5-1038NG7 / Windows10 x64 / about16GiB",
+    "warm_query_p95_ms_max": 6000,
+    "cold_cli_ms_max": 12000,
+    "process_peak_rss_bytes_max": 2147483648,
+    "basis": "CPU development run 240 real API calls: warm p95 about2076ms and peakRSS about1.315GB; conservative limits frozen before held-out execution."
+  },
+  "quality_rule": "Pair same final K and context budget against strong lexical baseline. Selected default must have no identity/condition/path gate errors, and report held-out paired recall, complete groups, wins/losses and uncertainty without tuning on this set.",
+  "independent_annotation": false,
+  "independent_windows": "Deferred by user; local and extracted artifact verification still required."
+}

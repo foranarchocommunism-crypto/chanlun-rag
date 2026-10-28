@@ -1,0 +1,1 @@
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const write=fs.writeFileSync;fs.writeFileSync=function(path,...args){if(String(path).endsWith('manifest.json'))throw new Error('AUDIT_INDEX_MANIFEST_WRITE_FAILURE');return write.call(this,path,...args);};syncBuiltinESMExports();

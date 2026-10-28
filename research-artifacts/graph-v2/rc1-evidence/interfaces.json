@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-10-25T11:33:23.278Z",
+  "passed": true,
+  "checks": [
+    {
+      "query": "中枢是什么，成立需要什么条件？",
+      "budget": 48,
+      "passed": true,
+      "graph_status": "budget_exhausted",
+      "primary": [
+        "upper-l017-center-definition",
+        "upper-l020-center-formula-reduced",
+        "lower-l089-c-stage-center-extension-or-third-point",
+        "upper-l044-c-stage-actual-same-level-top-own-operation-full-exit-versus-small-complexity",
+        "lower-l083-c-stage-center-complexity-aftereffects"
+      ]
+    },
+    {
+      "query": "如何烤披萨？",
+      "budget": 40,
+      "passed": true,
+      "graph_status": "skipped",
+      "primary": [
+        "lower-l100-c-stage-capacity-gate-and-tiny-practice",
+        "upper-l016-c-stage-first-buy-then-reduce-consolidation-general"
+      ]
+    },
+    {
+      "query": "背驰与买卖点有哪些关系？",
+      "budget": 20,
+      "passed": true,
+      "graph_status": "budget_exhausted",
+      "primary": [
+        "upper-l024-c-stage-divergence-points-theorem",
+        "upper-l052-c-stage-all-points-root-first-first-root-divergence-not-same-level-collapse",
+        "upper-l024-c-stage-all-points-reducible-to-first"
+      ]
+    }
+  ],
+  "invalid_boolean_rejected": true,
+  "node_network_apis_denied": true,
+  "completed_at": "2026-10-25T11:33:48.589Z",
+  "diagnostics": ""
+}

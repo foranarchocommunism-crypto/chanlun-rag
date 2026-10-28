@@ -1,0 +1,78 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-dff8f3235efe",
+  "lessons": [
+    15,
+    16
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册15至16课同模型四轮复核",
+  "passages_read": 194,
+  "claims": 60,
+  "evidence": 83,
+  "importance_counts": {
+    "1": 49,
+    "2": 7,
+    "3": 4
+  },
+  "new_concepts": [
+    "MACD柱波",
+    "下跌+上涨买卖法",
+    "中继式走势",
+    "价值中枢",
+    "反转式走势",
+    "周期图走势分类",
+    "平台式调整",
+    "缠中说禅MACD定律",
+    "缠中说禅趋势力度",
+    "缠中说禅趋势平均力度",
+    "认沽权证",
+    "陷阱式走势",
+    "顺势平台"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "figure_objects_viewed": 14,
+  "figure_origin_counts": {
+    "later_annotation": 10,
+    "unverified": 4
+  },
+  "pending": [
+    "upper-l015-l016-c-stage-pending-early-high-low-definition-platform-and-equality",
+    "upper-l015-l016-c-stage-pending-no-trend-scope-first-kiss-and-consolidation",
+    "upper-l015-l016-c-stage-pending-ma-force-area-average-and-instant-boundaries",
+    "upper-l015-l016-c-stage-pending-macd-histogram-peaks-lines-and-law",
+    "upper-l015-l016-c-stage-pending-exit-profit-half-probability-return-and-time",
+    "upper-l015-l016-c-stage-pending-warrant-trades-zero-cost-gap-cycle",
+    "upper-l015-l016-c-stage-pending-reader-headers-and-truncated-year",
+    "upper-l015-l016-c-stage-pending-figure-origin-and-extra-annotations"
+  ],
+  "source_passages_snapshot_sha256": "a82977934861d2c63253c37ae70522b9a97e431805c942cd760f0915a30d9cd4",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "15至16课194段18页14图同模型四轮；3源段身份/时间修正、早期分类/顺势平台限制、力度定义/柱波/均线系统及不盘整策略保留，待预检。"
+}

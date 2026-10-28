@@ -1,0 +1,53 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-afc32eabfb0a",
+  "lessons": [
+    42
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册42课同模型四轮复核",
+  "passages_read": 64,
+  "claims": 29,
+  "evidence": 43,
+  "importance_counts": {
+    "1": 12,
+    "2": 13,
+    "4": 3,
+    "3": 1
+  },
+  "new_concepts": [
+    "历史密集区"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    306,
+    307,
+    308,
+    309,
+    310,
+    311
+  ],
+  "figure_objects_viewed": 4,
+  "figure_origin_counts": {
+    "later_annotation": 3,
+    "unverified": 1
+  },
+  "pending": [
+    "upper-l042-c-stage-pending-behavior-ten-types-current-not-permanent-or-clinical",
+    "upper-l042-c-stage-pending-historical-forecast-moving-lines-and-anonymous-market-parties",
+    "upper-l042-c-stage-pending-daily-first-zero-return-must-rebuy-and-fourteen-stock-profit",
+    "upper-l042-c-stage-pending-two-points-MACD-and-large-energy-not-fully-answered",
+    "upper-l042-c-stage-pending-historical-dense-zone-holder-data-and-turnover",
+    "upper-l042-c-stage-pending-consolidation-divergence-must-break-direction-target-and-a-prime-B",
+    "upper-l042-c-stage-pending-source-dates-figures-and-unverified-reassurance-entities"
+  ],
+  "source_passages_snapshot_sha256": "93f7787742d224805f4501fc9420c27e85b276dcecff34fadc8908930d19efad",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "42课64段6页4图及前后边界同模型四轮；6跨日与18空格规范、4图3后加1未核；十类行为与当下调节、历史密集区及归零/破位强答范围分层，待预检。"
+}

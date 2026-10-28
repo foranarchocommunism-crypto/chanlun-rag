@@ -1,0 +1,250 @@
+{
+  "created_at": "2026-10-25T11:38:29.779Z",
+  "original_plan_unchanged": true,
+  "scope_decision": "evaluation/graph-v2/scope-decision-2026-10-25.json",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "passed",
+      "evidence": [
+        "A01 Graph-only candidates reach the actual scoring call despite 100 text candidates"
+      ]
+    },
+    {
+      "id": "A02",
+      "status": "passed",
+      "evidence": [
+        "build/graph-v2/real-model-receipt.json"
+      ]
+    },
+    {
+      "id": "A03",
+      "status": "passed",
+      "evidence": [
+        "A03 duplicated paths and an already present anchor do not consume multiple seats"
+      ]
+    },
+    {
+      "id": "A04",
+      "status": "passed",
+      "evidence": [
+        "A04 exact capacity R=20, C=20",
+        "A04 exact capacity R=20, C=40",
+        "A04 exact capacity R=20, C=100",
+        "A04 exact capacity R=40, C=20",
+        "A04 exact capacity R=40, C=40",
+        "A04 exact capacity R=40, C=100",
+        "A04 exact capacity R=44, C=20",
+        "A04 exact capacity R=44, C=40",
+        "A04 exact capacity R=44, C=100",
+        "A04 exact capacity R=48, C=20",
+        "A04 exact capacity R=48, C=40",
+        "A04 exact capacity R=48, C=100"
+      ]
+    },
+    {
+      "id": "A05",
+      "status": "passed",
+      "evidence": [
+        "A05 empty graph does not pad the scoring input"
+      ]
+    },
+    {
+      "id": "A06",
+      "status": "passed",
+      "evidence": [
+        "A06 a two-claim bundle cannot enter one remaining slot"
+      ]
+    },
+    {
+      "id": "B01",
+      "status": "passed",
+      "evidence": [
+        "B01/B02 duplicate edge supports and a busy first hop cannot starve the second hop"
+      ]
+    },
+    {
+      "id": "B02",
+      "status": "passed",
+      "evidence": [
+        "B01/B02 duplicate edge supports and a busy first hop cannot starve the second hop"
+      ]
+    },
+    {
+      "id": "B03",
+      "status": "passed",
+      "evidence": [
+        "B03 an absent or unreviewed bridge cannot propagate",
+        "B03 all edge supports honor request eligibility, including document filtering",
+        "B03 research can traverse a pending bridge only with an explicit research pool"
+      ]
+    },
+    {
+      "id": "B04",
+      "status": "passed",
+      "evidence": [
+        "B04 high fanout, rejected entries and large support lists respect counted hard limits"
+      ]
+    },
+    {
+      "id": "B05",
+      "status": "passed",
+      "evidence": [
+        "B05 cycles do not become paths, reverse direction and shared bridge are preserved"
+      ]
+    },
+    {
+      "id": "B06",
+      "status": "passed",
+      "evidence": [
+        "B06 bounded depth=0 budget=0",
+        "B06 bounded depth=0 budget=1",
+        "B06 bounded depth=0 budget=2",
+        "B06 bounded depth=0 budget=20",
+        "B06 bounded depth=0 budget=100",
+        "B06 bounded depth=1 budget=0",
+        "B06 bounded depth=1 budget=1",
+        "B06 bounded depth=1 budget=2",
+        "B06 bounded depth=1 budget=20",
+        "B06 bounded depth=1 budget=100",
+        "B06 bounded depth=2 budget=0",
+        "B06 bounded depth=2 budget=1",
+        "B06 bounded depth=2 budget=2",
+        "B06 bounded depth=2 budget=20",
+        "B06 bounded depth=2 budget=100"
+      ]
+    },
+    {
+      "id": "B07",
+      "status": "passed",
+      "evidence": [
+        "B07 row ordering does not alter path identity and canonical supports"
+      ]
+    },
+    {
+      "id": "B08",
+      "status": "passed",
+      "evidence": [
+        "B08 two-hop packet contains every edge source and separately identified bridge evidence"
+      ]
+    },
+    {
+      "id": "B09",
+      "status": "passed",
+      "evidence": [
+        "B09 small context defers whole paths with all relation continuation commands"
+      ]
+    },
+    {
+      "id": "C01",
+      "status": "passed",
+      "evidence": [
+        "C01-C05 prepare failure has atomic fallback, strict mode and next-request recovery"
+      ]
+    },
+    {
+      "id": "C02",
+      "status": "passed",
+      "evidence": [
+        "C01-C05 expand failure has atomic fallback, strict mode and next-request recovery",
+        "C02 failure during actual traversal support lookup: bridge",
+        "C02 failure during actual traversal support lookup: answer"
+      ]
+    },
+    {
+      "id": "C03",
+      "status": "passed",
+      "evidence": [
+        "C01-C05 anchors failure has atomic fallback, strict mode and next-request recovery"
+      ]
+    },
+    {
+      "id": "C04",
+      "status": "passed",
+      "evidence": [
+        "C01-C05 validate failure has atomic fallback, strict mode and next-request recovery",
+        "C04 invalid computed graph evidence fails validation but canonical corrupt errors propagate"
+      ]
+    },
+    {
+      "id": "C05",
+      "status": "passed",
+      "evidence": [
+        "C01-C05 packagePath failure has atomic fallback, strict mode and next-request recovery"
+      ]
+    },
+    {
+      "id": "C06",
+      "status": "passed",
+      "evidence": [
+        "C06 deterministic monotonic deadline produces GRAPH_TIMEOUT"
+      ]
+    },
+    {
+      "id": "C07",
+      "status": "passed",
+      "evidence": [
+        "C07 invalid request, version errors and cancellation cannot be swallowed"
+      ]
+    },
+    {
+      "id": "C08",
+      "status": "passed",
+      "evidence": [
+        "C08 failed queued request does not poison the next request"
+      ]
+    },
+    {
+      "id": "C09",
+      "status": "passed",
+      "evidence": [
+        "C09 independent dense and graph failures preserve lexical fallback and all reasons",
+        "C09 reranker failure cannot turn graph seats into forced final positions"
+      ]
+    },
+    {
+      "id": "C10",
+      "status": "passed",
+      "evidence": [
+        "C10 normal budget exhaustion is visible without degradation"
+      ]
+    },
+    {
+      "id": "D01",
+      "status": "passed",
+      "evidence": [
+        "build/graph-v2/interfaces.json"
+      ]
+    },
+    {
+      "id": "D02",
+      "status": "not_run",
+      "evidence": [
+        "fresh-extraction-delivery-receipt.json"
+      ]
+    },
+    {
+      "id": "Q01",
+      "status": "cancelled_human_annotation_not_accepted",
+      "evidence": [
+        "evaluation/graph-v2/scope-decision-2026-10-25.json",
+        "build/graph-v2/development-complete/metrics.json"
+      ]
+    },
+    {
+      "id": "P01",
+      "status": "passed",
+      "evidence": [
+        "build/graph-v2/acceptance/performance.json"
+      ]
+    },
+    {
+      "id": "A07",
+      "status": "mechanism_passed_semantic_not_accepted",
+      "evidence": [
+        "A07 source, zero graph budget, no query root and explicit concept root are observable",
+        "No independent literal-collision/paraphrase relevance labels; no semantic pass inferred from literal routing tests."
+      ]
+    }
+  ]
+}

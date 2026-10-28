@@ -1,0 +1,10 @@
+{
+  "decided_at": "2026-10-23T23:16:25.4067317+08:00",
+  "user_instruction": "别下了，直接交付x64，清除虚拟机容器等等本次安装下载的环境，全部清除。",
+  "required_architectures": [
+    "x64"
+  ],
+  "ARM64_validation": "cancelled_by_user",
+  "windows_container_validation": "cancelled_by_user",
+  "cleanup": "Remove all task-installed/downloaded temporary infrastructure; preserve the usable product, canonical data, source, models and audit evidence."
+}

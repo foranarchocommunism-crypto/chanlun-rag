@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
+  "built_at": "2026-10-13T02:53:39.632701+00:00",
+  "stage": "semantic_review_in_progress",
+  "sources": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 238,
+    "claims": 4604,
+    "relations": 292,
+    "reviews": 2026
+  },
+  "review_policy": "reviewed_only_by_default",
+  "fixed_corpus": true,
+  "role_parser_revision": 2,
+  "reviewed_claims": 1965,
+  "updated_at": "2026-10-17T17:22:41.897595+00:00",
+  "importance_levels": {
+    "1": "基础核心",
+    "2": "主要方法",
+    "3": "补充深化",
+    "4": "背景细节"
+  },
+  "source_structure_revision": 1
+}

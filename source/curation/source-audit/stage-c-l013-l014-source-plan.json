@@ -1,0 +1,492 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-fc861cf23919",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0045-b002",
+      "before": {
+        "published_at": "2006-12-04 13:24:23"
+      },
+      "after": {
+        "published_at": "2006-12-04 15:35:32"
+      },
+      "reason": "实际PDF45：13:24解盘末的15:35:32裸时间只支配后段，前段保持13:24。",
+      "text_sha256": "794414904315b31571667ce6f8e4623ca7139f60319fe41efcaae8d2e52c186a",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0047-b000",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-0415:12:37"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "瞎鼓捣",
+        "published_at": null
+      },
+      "reason": "实际PDF47为读者瞎鼓捣署名与600058提问，后有独立作者12/4 15:23:17答复；问题没有记载时间，不能沿用前位作者15:12。",
+      "text_sha256": "098b5bec70d140a4863e718968ba90c720b5827ad3a81f14bacec0afabc88747",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0047-b001",
+      "before": {
+        "role": "author_reply",
+        "speaker": "缠中说禅",
+        "published_at": "2006-12-0415:12:37"
+      },
+      "after": {
+        "role": "reader",
+        "speaker": "瞎鼓捣",
+        "published_at": null
+      },
+      "reason": "实际PDF47为读者瞎鼓捣署名与600058提问，后有独立作者12/4 15:23:17答复；问题没有记载时间，不能沿用前位作者15:12。",
+      "text_sha256": "a7eb902d8e0d9f140c0a2eefbdc8a3faf3e92b4759f2021afa529f58e0a66747",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0051-b003-s01",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "179d4dcfd610fa21c7f29befb59c0b87cd39abb66cf87d3ff1b0fd2092600cca",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0051-b004",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-11-29 15:14:38"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "49ee6a492b289fff6764fe14da001f099e36b00d5a95bd75b23164514bb691f5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b000",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-06 11:55:52"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "c6ef52100ce96f338287441ced8dc7ff7119a4e6a44503ed55d5cccaf5d63e80",
+      "affected_references": [
+        {
+          "id": "evidence-2fb1195e86f8a908",
+          "claim_id": "candidate-1e90bec6bc22c86d",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b001",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-11-2915:14:38"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-06 11:55:52"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "45ca84540972d0c19cd6d5eac039033507694fc50152fa1cb83938155fae9903",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b001-s01",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0513:46:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-05 13:46:42"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "5e9958e957935efb218c1ba3e9f5343bf20fb1b2fb316ac0b0ded7d8496ce17e",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b002",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0513:46:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-05 13:46:42"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "421a135c6c5642165d8f5a7e3001d034344a350ec5b78905155eebc09cad1dcc",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b003",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0513:46:42"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-05 13:46:42"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "45ca84540972d0c19cd6d5eac039033507694fc50152fa1cb83938155fae9903",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b003-s01",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0115:02:23"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "71f9732211fbed853a96154d4de4992191dbde19f2beab1649900d3f05dcb5e5",
+      "affected_references": []
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b004",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0115:02:23"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "3410a7a8c4a988d440f0e19b33a1df4a406f71460250b3dc7519392c8e3570f7",
+      "affected_references": [
+        {
+          "id": "evidence-b72712089516005d",
+          "claim_id": "candidate-ba98b4067494a8c3",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b005",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0115:02:23"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-01 15:02:23"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "6201146321ea7fc5cbb344eb4707e1b7e928baa579861ed09cb16eb72f1629fe",
+      "affected_references": [
+        {
+          "id": "evidence-b80369131c4e85ca",
+          "claim_id": "candidate-d9c8027fcf944c8b",
+          "review_status": "pending"
+        }
+      ]
+    },
+    {
+      "table": "passages",
+      "id": "volume_1-a53e99c37ca5-p0052-b006",
+      "before": {
+        "role": "author_reply",
+        "published_at": "2006-12-0115:02:23"
+      },
+      "after": {
+        "role": "author_commentary",
+        "published_at": "2006-12-06 15:01:20"
+      },
+      "reason": "实际PDF51至52解盘栏目有明确引用与多层引号：11/29建议、12/5再引12/1、外层12/6午/晚分别保存；引用不是新读者答复，末尾裸日期只管下一段。",
+      "text_sha256": "196bafdd195533017ca012f4a2d6049adba371b7ca328117d9e6f58f670738ff",
+      "affected_references": []
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0046-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：600058周线光标2006/04/07，嵌12/4读者/作者问答，右端主图延至2007年1至2月；后加图。4/7一买及均线分析的“以上为个人理解”另有制作者署名边界，不归作者。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0048-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台复权周线黑白5/10图，光标20030926，标三吻与女上第一吻/两买点，横轴到2004年；未见明确文后时间证据，原作者与标注制作者未核，不仅凭黑白图式认证原博客图。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0048-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台周线彩色重绘、光标2004/07/16并叠正文，三吻/9/26/6/4标签；图示历史早于文章，制作人/制作时间仍未核，不凭彩色或叠文自动认作者或确定后发。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0049-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台复权日线黑白图、光标20040618，三次吻、第一买点和MACD过零轴/柱缩标注；原作者/制作时间未核，价格复权口径不能和后图直接比较。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0049-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台日线彩色历史重绘至2004年秋，光标6/18、叠正文/除权说明及三个吻；无足够文章后时间证据，制作人未核，不将黄框/箭头作为唯一作者证据。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0050-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台日线黑白复权图，光标20030926，多个吻箭头及后续背驰卖标记、横轴至2004年；来源未核，不由箭头给出唯一可执行九吻算法。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0050-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：彩色日线历史重绘、光标2004/02/25，3/26吻与4/8背驰卖，正文9/26和图附9/23分别保留；参数/制作者未核，不能按图补作者具体MACD周期。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0051-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：彩色茅台日线历史重绘至2005年底，嵌正文日线买卖序列；10/27、12/22、4/26、12/13等标注可见，未见2006/12/5之后行情，原发/制作者未核。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0052-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：浦东金桥日线光标2006/12/5，嵌读者红柱缩/作者否定答复，主图右端已跨到次年1月；后加图，后续回跌不反填12/5已经背驰。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0053-fig1",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：茅台日线历史重绘至2006年秋，光标5/26，标37.68与8/7；12/5问答叠字，未核制作人/制作时间，正文37元多/未破前低不改成精确37.68一般阈值。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0053-fig2",
+      "before": {
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "note": "实际查看整图：2004/12至2005/6日线历史重绘，4/13与4/26及两MACD面板12/26/9和12/26/9/2可见；作者只说周期长一倍，不能用未知面板设置断言作者已给24/52/18算法。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0054-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：大冷股份日线光标2006/12/5，右端主图至次年1月；读者吸筹判断与作者可以/最好用买点分析分框，不把笼统可以视为逐项认定资金事实。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0054-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：茅台30分钟图行情栏2006/12/8，嵌12/6问答及12/1 13:30卖、12/6 13:30回零轴箭头；后加，周/日背驰未成不以文后价格改写。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0055-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：000503三十分钟图行情栏2006/12/7，嵌12/6问答和12/1卖点，晚于答复；后加图，9.7/9.2是作者原例，不能证明所有系统效率最优。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0056-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：000503五分钟图行情栏2006/12/7、光标12/6 11:00，标12/5 10:25回买并有后续K；晚于12/6答复，后加图，时间及级别以正文独立核查。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0056-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：中国联通历史周线重绘带2011/08/09行情栏，嵌12/6问答与2005/6/3、10/21、2006/8/7标注；后加图，不能用重绘价替正文两次2.43或2.19。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0057-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：中国联通30分钟图行情栏2006/12/8，光标11/24，标11/14 13:30 2.68后有12/8行情；后加图，原答复截至12/6未有一卖的状态不倒填。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_1-a53e99c37ca5-p0057-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "实际查看整图：中兴通讯历史周线重绘带2011/08/09行情栏；读者99年4/30/03年1/2与作者99年4/30二买、03年1/3一买分框，图另标99年5/14；后加图，不按图覆写作者原日期/12.69。"
+      },
+      "reason": "主代理实际查看PDF原页、整图、行情栏、右端与标注身份；未确认图源与后加证据分别记录，文字命题不只靠配图。"
+    }
+  ],
+  "pending": [],
+  "visual_pages": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "reviewer": "Codex 主代理 / 第13至14课来源及配图核对",
+  "adjacent_figure_unchanged": "volume_1-a53e99c37ca5-p0043-fig1"
+}

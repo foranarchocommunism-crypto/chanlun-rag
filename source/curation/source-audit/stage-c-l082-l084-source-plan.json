@@ -1,0 +1,711 @@
+{
+  "stage": "C/E-source-provenance",
+  "plan_format": 1,
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-3e11d6872cf2",
+  "documents": [
+    {
+      "id": "volume_1-a53e99c37ca5",
+      "filename": "volume_1.pdf",
+      "sha256": "a53e99c37ca500917ee5edf1d21efcb58f1b8e4363af2b4978dbdff920d18d4b",
+      "page_count": 475,
+      "resource_path": "sources/volume_1.pdf"
+    },
+    {
+      "id": "volume_2-5332cd1b6038",
+      "filename": "volume_2.pdf",
+      "sha256": "5332cd1b60381c47ceb81358db6bbb47882efd074fc5c869dcc3002aaed1b5c0",
+      "page_count": 432,
+      "resource_path": "sources/volume_2.pdf"
+    }
+  ],
+  "new_units": [],
+  "operations": [
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0209-b005",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "ed0d3c3881b29c2a79fdf981b94e6ee4e452d5a6f9f08e93958823a43dfdbb46",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0209-b006",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "1c7a0a38ffb4b36b176f1dac6e5d66cc69cd65eea21c31ea8306ea617253cfa8",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0209-b007",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "b2c5f5bd4b94aeab7f5fc69054971710dffc11d9ab2ffdbb0eeae2870c8721bb",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0209-b008",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "7cce0fddcf13c86c182e98d39ea7303243364621a4871549b47bfccb259b1b0b",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0209-b009",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "9c9db7514a5d280c7322376b4c38137806e19e140a7ea152ec9efe7575b5ac37",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b000",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "eea42b3fa61a00b2601c700a76c48d74325334574ff75396155c3decdc98dfb4",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b001",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "3c7519d54b153f5af80810d3e519bad1488e9056d81c4038c29a6b687d9e7a07",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b002",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "ac3e8779ff90c6faa27538f4072f864b9dfad8653197641282447b8a3a0ab69d",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b003",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "922c9635eda74c4036f19c810fa70de566c04674f26e5048e379755800b53872",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b004",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "d76a3445dd980a917105283d7689da43bd95f44a5a28d20070600f3a65e6dd1a",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b005",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "e006085f276a47831e794fefded7f95e412a08583c36b247da54ae1194808ca4",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b006",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "653215a0bb78ed0aa45421d65541cbd24084911948eb6ae19a76175359abe7ca",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b007",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "f2ca3bc8127c9cbc0274971c9b0a0f3b442de3cd2fb493fbbbe79b2a1e0ee38c",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b008",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "03d8636c28b7fd2df7d2a2a441c89b9ed9e6b68e002b25821f63de5728509dea",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b009",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "3304e8473b73867cd01ad277aee0000b5d5f90ece20e8a81257de3d0f174eccd",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b010",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "c4eaf67e5a66d0252b63d350dcc950f26c9e01dfdcfb792ee16e8e24576e845b",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b011",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "622e041a18d3aa359225ed2dc5b16c3a37cc36bccb4db797f3cf14513ecd91cd",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b012",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "7c90e8f2e88668be1b8d20dda51cefc2a696e142f0e27dfe8febe1092c7b9e82",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b013",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "28578864dd7708a2d4db7aa02b0f4d2b4f332ced926d0b4c57614f0d4ed62022",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0210-b014",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "a52b303fdb810fbf6ecd005b8fce23a35d1fb5f5aa7a08e729fc30d8dee85f94",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b000",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "8e8cc9486320399d86af04179d504564546bfb9a59c7a859a61d3602aec24bc9",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b001",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "68711e20c2faf8890f87750f3fdf06e99d119ac1fd2130e41e02066261e12428",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b002",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "a0bac66bae6a013810f9e16b70aaf85c2102761fda6e227083ca4d0b1e7828b4",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b003",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "549e9e4b92da5369e9caaff416cc8201ac4b2f83f439cc775ae78a108567dd26",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b004",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "9bd1e5fc7e5d600abab2d862e0474cfca17933c281e3c26623b325601708951d",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b005",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "9d861f1d1c0e9673d8f498d2a4bab146c85156ec1469e1720328cd802938ce28",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b006",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "64f87e78e7bfe9c61a60e954be3965df884d9859c2f35dcfef158692818d9417",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b007",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "f833e9df78b52ee0c2f469a3305c1e0dd9fc377f42b1d1673888afcb6c2599e7",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b008",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "835d42b46c8bf668d4a0421d788ba7653fd4ad5dd96c0f7de3afeaa662619781",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b009",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "eba6949ff4fa58a47cf5d623a20d1c79b377e46fc029577457e40ebf6229de86",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b010",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "aecd8360a3416a99c9958d5cebc5a3d91b899732e48560c48d8c36b750072068",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b011",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "b80b608c8ce1e79f9cbdc642140c9c3818c16e35bff80d0ecc1a5006ada12b6d",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b012",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "33d68e75abe4e1ed06eccd099dfc430089d6bb7dc6e7250698d96dd21ca87973",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0211-b013",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "e16de117ae121b4c3fdc2dcb09e77f16fce13157553485e596c23794c5a900a3",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0212-b000",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "52c0aa35416f2b6bea057ad9cc30fa9cafd0789050460ac58f84cbf0cbfc4241",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0212-b001",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "57b7d8339fc2c2afd9013b9747fd02555791486aeae8c9769c20c12d7eac37b3",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0212-b002",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "1c1106870ffab2614d1691b2a1a3ac2ccc5a27214f353a8445f1923199b64163",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0212-b003",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "3821a8eb0aa1752e40e7996e3c6d4850cc3a771d836f3bc71ec607467c0258f5",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "passages",
+      "id": "volume_2-5332cd1b6038-p0212-b004",
+      "before": {
+        "role": "author_commentary",
+        "speaker": "缠中说禅",
+        "published_at": "2007-10-10 21:58:41"
+      },
+      "after": {
+        "role": "unknown",
+        "speaker": "转载文（含华生访谈，原文作者未核）",
+        "published_at": "2007-10-10"
+      },
+      "text_sha256": "ab3de4fdce263ebae017e8fc18ed4be21b1efe3f662520f1cf5d137a3655e758",
+      "reason": "逐段及原页核对：作者209-b004明确说转帖；209-b005为华生访谈标题，212-b003署华生/第一财经日报，212-b004分隔后212-b005才恢复作者新文章。转载记者叙述及华生引语不归缠中说禅，具体原文作者未核；日期取转载正文印刷日期，不把转贴时刻当原文发表时刻。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0191-fig2",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证日线截图包含2007年10月行情和6124.04，晚于9月24日82课；顶部2007/09/24为光标而非全图时点。 已查看原页及单图；制图人未核，正文证据独立复核。"
+      },
+      "reason": "原图有晚于正文的明确日期、行情或后续标号，不把光标时刻视为全图时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0203-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "图内复制10月8日139段尚未确认走完的文字，但横轴已到10/09，出现140和141标记；后期数据不能倒填作者10/8已确认。 已查看原页及单图；制图人未核，正文证据独立复核。"
+      },
+      "reason": "原图有晚于正文的明确日期、行情或后续标号，不把光标时刻视为全图时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0204-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "上证日线图含6124.04及10月中旬行情，晚于图内10月8日附文；不据此验证当时4335条件或顶部预言。 已查看原页及单图；制图人未核，正文证据独立复核。"
+      },
+      "reason": "原图有晚于正文的明确日期、行情或后续标号，不把光标时刻视为全图时间。"
+    },
+    {
+      "table": "figures",
+      "id": "volume_2-5332cd1b6038-p0220-fig1",
+      "before": {
+        "origin_status": "unverified",
+        "note": "汇编内配图，未核实原始作者"
+      },
+      "after": {
+        "origin_status": "later_annotation",
+        "note": "30分钟图顶部2007/10/24，横轴至10/25，晚于内嵌2007-10-22文字；图标最高6123.64与作者文本6124.04差异原样保留，不静默改数据。 已查看原页及单图；制图人未核，正文证据独立复核。"
+      },
+      "reason": "原图有晚于正文的明确日期、行情或后续标号，不把光标时刻视为全图时间。"
+    }
+  ],
+  "pending": [],
+  "checks_run": [
+    "341段及33页已读；13图逐项查看",
+    "39段转载从作者身份剥离；保留作者引言及下一篇边界",
+    "四图未被旧reviewed证据引用；原文字/映射/坐标不变"
+  ],
+  "checks_not_run": [
+    "转载原作者及原网页未核",
+    "图像制作者未核"
+  ]
+}

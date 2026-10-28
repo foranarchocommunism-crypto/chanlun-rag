@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "client_audit_date": "2026-10-26",
+  "client_timezone": "Asia/Shanghai",
+  "generated_at_host_utc": "2026-10-26T00:54:49.573Z",
+  "purpose": "Read-only architecture final review against original six remediation groups",
+  "product_version": "0.4.0-rc.2",
+  "default_profile": "hybrid-graph-rerank",
+  "experimental_profile_enabled_by_default": false,
+  "verdict": "partially_closed",
+  "architecture_acceptance_passed": false,
+  "counts": {
+    "resolved": 1,
+    "partially_resolved": 3,
+    "unresolved": 2
+  },
+  "issues": [
+    {
+      "original_group": 1,
+      "name": "普通 Graph 新候选被 RRF 截断",
+      "status": "partially_resolved",
+      "reason": "实验配置已证明候选实际准入；默认仍为旧路径，整体质量优势未证实。"
+    },
+    {
+      "original_group": 2,
+      "name": "图通道异常没有受控回退",
+      "status": "resolved",
+      "reason": "新旧配置均通过严格报错、显式允许降级时与文本基线一致的实测；全局数据错误仍拒绝继续。"
+    },
+    {
+      "original_group": 3,
+      "name": "构建检查点和 manifest 非原子",
+      "status": "unresolved",
+      "priority": "P1",
+      "reason": "本次重新复现检查点间隙、projection 中断、半截 manifest 三种重试失败。"
+    },
+    {
+      "original_group": 4,
+      "name": "快照与可写 WAL 边界",
+      "status": "unresolved",
+      "priority": "P1",
+      "reason": "同版本 WAL 提交尚未 checkpoint 时，新文本与旧向量可同时被接受；需要可写数据库这一前提。"
+    },
+    {
+      "original_group": 5,
+      "name": "二跳预算及本体治理",
+      "status": "partially_resolved",
+      "reason": "实验配置已限制资源并自然竞争；默认路径和本体治理仍有原缺口。二跳保底及专项收益已由用户取消。"
+    },
+    {
+      "original_group": 6,
+      "name": "独立质量及 trace",
+      "status": "partially_resolved",
+      "reason": "观测、降级、排队、路径包装已改善；完整排名重放和广泛语义准确性仍不能证明。学生流程已取消。"
+    }
+  ],
+  "scope_decisions": {
+    "student_question_and_review_workflow": "cancelled_by_user_not_passed_not_pending",
+    "two_hop_special_channel_floor_and_quality_gate": "retired_by_user",
+    "two_hop_current_selection": "natural_competition_shared_pool",
+    "no_subagents": true,
+    "no_html": true,
+    "no_production_edits": true
+  },
+  "limitations": [
+    "Static local read-only use remains the assessed deployment boundary; no online-write consistency or arbitrary interruption recovery certification.",
+    "Current source/rc.2 review does not update an older 0.3.0 client.",
+    "240-case development and prior delivery/performance evidence were inspected and identity-checked, not rerun in full during this review.",
+    "Traversal, candidate admission, complete returned path and retrieval quality are separate claims."
+  ],
+  "current_verification": {
+    "identity": {
+      "name": "current_code_matches_verified_rc2",
+      "matches": true,
+      "version": "0.4.0-rc.2",
+      "package_matches": true,
+      "canonical_matches": true
+    },
+    "tests": {
+      "tests": 109,
+      "pass": 109,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "canonical_validation": {
+      "graph_version": "0.1.0-review-307029129712",
+      "reviewed_claims": 3369,
+      "errors": [],
+      "coverage": {
+        "documents": 2,
+        "pages": 907,
+        "units": 110,
+        "passages": 9650,
+        "figures": 528,
+        "concepts": 318,
+        "claims": 6008,
+        "relations": 692
+      },
+      "pass": true
+    },
+    "protected_file_count": 24,
+    "protected_files_unchanged_after_tests": true,
+    "live_probe_results": {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-final-review-20261026\\run-1792975456546\\results.json",
+      "sha256": "4de532c4c7d47d3469de24accc4eb243a528c9be727c68813fade29c7bc2a961"
+    },
+    "live_probe_script": {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-final-review-20261026\\checks.mjs",
+      "sha256": "13a08cebbcdc1675e79978403e0c33e9b890db92f1ce463342ec8a0f065afb0e"
+    },
+    "test_log": {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-final-review-20261026\\current-tests.tap",
+      "sha256": "f69c301d84ab9ab5c719cf7db93a9f53518e454f036b716cff31715830fc145f"
+    },
+    "canonical_log": {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-final-review-20261026\\current-canonical-validation.json",
+      "sha256": "8fa6a1ac0f4ae7591904e283a50614e054b8bd6ab87dce1787f8874b1cefc726"
+    }
+  },
+  "reused_evidence": [
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\development-natural\\metrics.json",
+      "sha256": "7ddf533702639deb0ef47b26a4dcf35550f2e1997792dbba55c44725940e682f"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\development-findings.json",
+      "sha256": "5b272276fc50b1c7a67b4e47f76de74830dcf512034c71c0c2db0c238f61fecb"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\acceptance\\performance.json",
+      "sha256": "fdaf0f855968d275ab295faf7fc6fc0fe3614f36cb2450723e842e1fb58422df"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\acceptance\\gate-results.json",
+      "sha256": "6a5008bfdd89a24abb16d992ebf873106f1b7babefc8d7fbf003de5e1074d5d7"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\fresh-extraction-delivery-receipt.json",
+      "sha256": "184270a8fb8e5837ff18d3352eda45d0ec4b4d2b45a3ea7c71896b9dd987096d"
+    }
+  ],
+  "original_report": {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-review-20261025\\架构技术审查报告.md",
+    "sha256": "eca60a0cce49ceee5e921b0656dd0df6c4177edf521e54b382db5a546d470bd1"
+  },
+  "final_report": {
+    "path": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-final-review-20261026\\架构终审报告.md",
+    "sha256": "c61aff6a44e86ad415d1968f2bd4c612f5e50b22a7eeefc4d770411372183b2f"
+  }
+}

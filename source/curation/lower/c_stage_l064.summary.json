@@ -1,0 +1,70 @@
+{
+  "stage": "H early pilot64 completion",
+  "graph_version": "0.1.0-review-2ac69fd77eec",
+  "schema_version": "1.1.0",
+  "document_id": "volume_2-5332cd1b6038",
+  "lessons": [
+    64
+  ],
+  "reviewer": "Codex 主代理 / 早期试点64课全文、附带文章答疑和原图四轮复核",
+  "claims": 42,
+  "evidence": 62,
+  "relation_supports": 8,
+  "passages_read": 223,
+  "existing_claims_retained": 16,
+  "review_notes_amended": 2,
+  "source_passages_snapshot_sha256": "2f58951d8592a4412a2e2cfc12704edf9c94fa93672e8e012e2d6d8064d2481d",
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "figure_objects_viewed": 5,
+  "figure_origin_counts": {
+    "unverified": 1,
+    "later_annotation": 4
+  },
+  "new_concepts": [
+    "利率",
+    "增长率",
+    "市盈率",
+    "成分股",
+    "指数基金",
+    "消息面",
+    "牛市三阶段",
+    "选股",
+    "风险承受能力"
+  ],
+  "pending": [
+    "lower-l064-c-stage-pending-sudden-reverse-gap-early-analogy-not-universal-exception",
+    "lower-l064-c-stage-pending-micro-center-running-form-and-execution-boundaries",
+    "lower-l064-c-stage-pending-figure-provenance-future-bars-and-reader-overlay",
+    "lower-l064-c-stage-pending-historical-valuation-growth-fund-and-return-strong-claims",
+    "lower-l064-c-stage-pending-precision-old-stroke-and-cross-lesson-definitions"
+  ],
+  "database_mode": "ro",
+  "formal_import": false,
+  "delivery_scope": "shared_knowledge_base_only"
+}

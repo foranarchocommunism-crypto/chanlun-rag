@@ -1,0 +1,51 @@
+{
+  "stage": "C/E",
+  "schema_version": "1.1.0",
+  "graph_version": "0.1.0-review-b7ad1428b890",
+  "lessons": [
+    30
+  ],
+  "document_id": "volume_1-a53e99c37ca5",
+  "reviewer": "Codex 主代理 / 阶段C上册30课同模型四轮复核",
+  "passages_read": 60,
+  "claims": 27,
+  "evidence": 32,
+  "importance_counts": {
+    "1": 13,
+    "2": 10,
+    "3": 2,
+    "4": 2
+  },
+  "new_concepts": [
+    "交易延异性",
+    "交易时间不可逆",
+    "创业投资"
+  ],
+  "whole_lesson_semantic_read_complete": true,
+  "technical_extraction_complete": false,
+  "four_round_review": true,
+  "independent_review_claimed": false,
+  "visual_pdf_pages": [
+    213,
+    214,
+    215,
+    216,
+    217,
+    218
+  ],
+  "figure_objects_viewed": 0,
+  "figure_origin_counts": {},
+  "pending": [
+    "upper-l030-c-stage-pending-two-premises-and-later-dynamics-qualification",
+    "upper-l030-c-stage-pending-axiomatization-fixed-point-and-vector-metaphors",
+    "upper-l030-c-stage-pending-entered-leg-breakage-versus-guaranteed-result",
+    "upper-l030-c-stage-pending-center-level-count-and-third-buy-completion",
+    "upper-l030-c-stage-pending-lowest-consecutive-k-direction-and-subsequent-recursion",
+    "upper-l030-c-stage-pending-dated-commentary-cases-and-novice-selection"
+  ],
+  "source_passages_snapshot_sha256": "bfb93bc01534626c83ecfae43bd0331970cbdf45a919773d6d2dbe0e66878d2a",
+  "retained_source_links_in_ledger_only": true,
+  "database_mode": "ro",
+  "formal_import": false,
+  "acceptance": "30课60段6页无图同模型四轮；1跨页解盘日期修正，理论前提/绝对性与72动力学范围、当下结构变动、三买完成和最低三K连续方向条件保留，待预检。"
+}

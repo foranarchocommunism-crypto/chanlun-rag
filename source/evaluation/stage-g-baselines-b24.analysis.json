@@ -1,0 +1,6639 @@
+{
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
+  "cases": 228,
+  "categories": {
+    "equal_rrf_reduces_recall_at10": 53,
+    "gold_partly_outside_reviewed_claim_evidence": 8,
+    "structured_has_no_top10_annotated_hit": 28,
+    "fusion_recovers_first_hit_at10": 19,
+    "structured_ranking_miss_with_covered_gold": 22
+  },
+  "case_analysis": [
+    {
+      "query_id": "g-b05-coincidence",
+      "query_text": "二买和三买在什么条件下重合，重合后能保证形成大级别上涨吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-same-level",
+      "query_text": "上涨趋势确定后，第21课排除一买二买的说法能推广到更低级别吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-platform",
+      "query_text": "第三买点是否就是任意平台突破后的回档确认？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-three-levels",
+      "query_text": "定位日线第三买点时，30分钟和5分钟分别起什么作用？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-standard-structure",
+      "query_text": "标准MACD背驰只比较两波红柱面积就足够吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-consolidation",
+      "query_text": "盘整背驰上破中枢后，回跌进入原中枢和未进入时如何分别处理？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-b-center",
+      "query_text": "本课标准趋势背驰发生后，回跌至少到哪里，盘整背驰能照搬吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-estimate",
+      "query_text": "柱面积乘二的盘中估计能否当作C已经完成或百分之百准确的信号？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-zero-axis",
+      "query_text": "MACD回抽零轴必须穿到零轴以下才算吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-end-low",
+      "query_text": "第三买点的结束位置必然是整个次级别回拉最低价吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-source-code",
+      "query_text": "第24课所问600217的回复为何写6000217，工具是否静默改过原引文？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b05-unanswered",
+      "query_text": "第24课PDF143读者问一个单位价格重叠是否中枢，紧接的作者回复明确认可了吗？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_1-a53e99c37ca5-p0143-b000"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-equal-boundaries",
+      "query_text": "相邻K线只有一个对应端点相同，或两端都相同，算不算包含？可以加EPS吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-one-price-limit",
+      "query_text": "一字涨停合成一根K线后，作者是否说任何定义下都没有最小级别中枢？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-uncompleted",
+      "query_text": "三买后的上涨只稍回落又上涨，能拿中途段与已完成离开段比较盘整背驰吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-return-force",
+      "query_text": "第三类买卖点只要回拉力度比离开小，就必然成立吗？回拉没出现能提前判定吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-gap-complete",
+      "query_text": "缺口区间触及任意一点就算全部回补吗？缺口是否必须三天回补？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-gap-level",
+      "query_text": "日K线上的衰竭缺口必然对应日线走势及周线调整吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-old-stroke",
+      "query_text": "第77课旧笔标准只要求相邻顶底吗？还缺什么联合条件？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-proof-wording",
+      "query_text": "第77课唯一性证明第二个底分支原文是不低于还是不高于？项目证明已经通过了吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.16666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-first-second",
+      "query_text": "所有线段破坏都必须找第二特征序列吗？第二种找不到又怎样？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-provisional-abc",
+      "query_text": "第77课A、B、C在破坏关系确认前都已经是完成线段吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-later-annotation",
+      "query_text": "第77课81—82图中蓝字新笔是否就是作者9月5日原定义？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b07-pair-unanswered",
+      "query_text": "第76课79—80该与77—78还是75—76比较，作者这次回复明选了哪对？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_2-5332cd1b6038-p0136-b013"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-prior-confirmation",
+      "query_text": "B出现笔破坏后回落可以直接判B延续吗？B与前段的关系及首段例外是什么？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.75,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-second-inclusion",
+      "query_text": "第二种情况的第二特征序列可以照用第一种跨分界点禁包含的要求吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-normalize",
+      "query_text": "线段高低点不在真实端点时，标准化是否意味着改掉原分段和证据坐标？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-trend-outside-legs",
+      "query_text": "1分钟上涨必须在两中枢前后各有一段走势吗？第78课怎样答A+b+B？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-right-unfinished",
+      "query_text": "第79课右图10—11一笔是否已经确认第三段？9跌破7、10不变时又如何？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-method-capacity",
+      "query_text": "第79课散户第三买点法适合谁？上移背驰能否人人全出？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-first-center-preference",
+      "query_text": "第79课只做第一个中枢三买，是绝对禁止第二中枢，还是方法偏好？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-fractal-one-way",
+      "query_text": "有小级别一二买卖点就必然有大级别分型吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-quote-boundary",
+      "query_text": "下册PDF162表扬网友后，哪些段属于网友，作者的这就如同下棋仍是网友吗？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_2-5332cd1b6038-p0162-b003",
+        "volume_2-5332cd1b6038-p0162-b004",
+        "volume_2-5332cd1b6038-p0162-b005"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-corrected-level",
+      "query_text": "9月13日为何改96—99分段？更正后93起回抽已是1分钟走势吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-pure-center",
+      "query_text": "后期笔线段定义推翻了前55课的纯理论中枢吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b08-later-explicit-completion",
+      "query_text": "第80课都一段的简答是否完整？第81课如何按5与7补全两图？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-fractal-word",
+      "query_text": "分型就是数学分形在股票上的应用吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-inclusion-psychology",
+      "query_text": "所有包含关系都代表犹豫吗？阴吞阳是否有例外？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-third-no-expansion",
+      "query_text": "第82课小级别三卖后就必然成日线笔吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-break-top-third-buy",
+      "query_text": "日顶不成笔并有效破顶，某级别三买是必要还是充分条件？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-stroke-base",
+      "query_text": "作者说绝对不允许用笔构最小中枢，还是可设计但较不稳定？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-rename",
+      "query_text": "第84课为何把自相似性结构改称自同构性结构，是否改掉了早课原引文？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-different-functions",
+      "query_text": "递归的起始f1和后续f2必须是相同函数，且f1前还得递归吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-replace-unique",
+      "query_text": "能随便换成收盘价或成交量入口吗？更高级别还必须数笔吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-level-duration",
+      "query_text": "走势生长足够多年后必然升级吗？级别与K线时间怎样区分？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-reprint-identity",
+      "query_text": "下册PDF211证券法10%与华生访谈，是否都是缠中说禅亲自发言？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_2-5332cd1b6038-p0211-b008"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-three-phrase",
+      "query_text": "第83课写三个特征序列分型，能据此把破坏规则改成必须三个分型吗？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_2-5332cd1b6038-p0196-b009"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b09-late-confirmation",
+      "query_text": "10月8日139段已经确认完了吗？配图有140/141能否反填确认？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-upshift-small-sell",
+      "query_text": "大级别中枢上移中见小三卖，就必须当成大级别上涨结束吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-downshift-shorting",
+      "query_text": "第86课大级别下移中的小三卖没有操作价值，连卖空也算吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-nesting-not-second-type",
+      "query_text": "大买点后第二次小买点介入就是正式二买吗，而且必然最精确吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.75,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.75,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-intermediate-large-sell",
+      "query_text": "大买点后小卖点，能跳过中间是否有大卖点的检查吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-analogy-first-second",
+      "query_text": "大中枢震荡次级别点有大操作意义，便是真正大级别一买二买吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-small-level-wording",
+      "query_text": "下册PDF226到底写不具有小级别还是大级别操作意义，能否默改？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-unformed-center",
+      "query_text": "10月30日预期上方新中枢，后期图有后续行情，就能说当时已成吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-late-sell-probability",
+      "query_text": "195以后卖出仍可能继续跌，是否还能理论百分百保证？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-t1-not-safe-floor",
+      "query_text": "高开低走新股首下降线段结束后，41.7就绝对安全、T+1必赚吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-class-third",
+      "query_text": "中石油41.2的类第三类卖点，是严格1分钟中枢三卖吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-three-days-buffer",
+      "query_text": "5555争夺战至少3天和上下3%，可作为所有有效跌破的统一算法吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b10-dream-zero-cost",
+      "query_text": "第87课零负成本最安全能当作独立验证的零风险事实吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.16666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.8333333333333334,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-intermediate-definition",
+      "query_text": "中阴阶段从何时开始、何时结束，可以直接把第一次反向波动当新类型吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-stage-shape",
+      "query_text": "中阴截出来看像盘整，所以后面的新走势类型一定是盘整吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-stage-direction",
+      "query_text": "中阴结束就必定反转原方向，上涨后只能下跌吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-195-old-context",
+      "query_text": "195后分析重心移到191之后，是全级别都可以删除之前的走势吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-marks-completion",
+      "query_text": "Xn、Yn等如何标？每加一段线段是否就能加一个1分钟标号？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-return-region",
+      "query_text": "第88课底背驰反弹最低幅度，是回最后中枢自身区间还是其波动区间？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-214-level-gate",
+      "query_text": "195退出到214考虑回补，5分钟以上操作者也必须同样买回吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-internal-nesting",
+      "query_text": "214三重区间套的内部笔已经由图谱独立重算了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-retest-no-touch",
+      "query_text": "对5462—5555颈线的反抽确认，价格至少必须碰到5462吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-month-versus-day",
+      "query_text": "月顶分型5月均线，与日底分型5日线，可以当同一个条件吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.2,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.4,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.4,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-hypothetical-10000",
+      "query_text": "作者说日线笔延伸到10000不反对，是预测必须涨到10000吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b11-petro-near-centers",
+      "query_text": "中石油两个1分钟中枢太近，就已经确认升成更大中枢了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-boll-auxiliary",
+      "query_text": "第90课说BOLL近100%，便是绝对判据或项目实测准确率吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-first-point-sequence",
+      "query_text": "碰到或越过一根BOLL轨道就能确认一类买卖点吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-contraction-two-results",
+      "query_text": "BOLL一收口，就一定是同级中阴已经结束且三类点已确认吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-period-not-six-times",
+      "query_text": "5分钟中阴看30分钟BOLL，是所有级别固定六倍的公式吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-must-center-not-direction",
+      "query_text": "第89课必经5分钟中枢能提前预定方向吗？5分钟以上操作者也都必须管它吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.16666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.8333333333333334,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.16666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-consolidation-amplitude",
+      "query_text": "盘整只能窄幅横着走，而且一定比多中枢趋势弱吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-small-large-third",
+      "query_text": "11月22日小1分钟三卖已有，是否等于大5分钟三卖确认？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-future-fact-5032",
+      "query_text": "11月29日将形成30分钟中枢的展望，可以直接当成已完成事实吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-trap-and-force",
+      "query_text": "跌破一个价位但随后涨回去，就能不看中枢与力度认定陷阱吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-formed-versus-confirmed",
+      "query_text": "12月12日日顶形成就确认下笔了吗？12月14日周底构成就已确立了吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-monday-not-fulfilled",
+      "query_text": "12月14日预计下周一先构成日底，12月17日就一定完成了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b12-red-market-shortcut",
+      "query_text": "第90课12月17日不红盘就不能成日底，可以直接编成通用算法吗？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_2-5332cd1b6038-p0276-b002"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-stroke-center-scope",
+      "query_text": "91课说笔不能构中枢，是否可以删除83课可设计笔构最小中枢程序的话？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-zero-not-reversal",
+      "query_text": "笔状态(1,0)代表已经在向下笔延伸，还是上笔中的顶分型构造？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-no-direct-jump",
+      "query_text": "(1,1)能跳过零态直接到(-1,1)或(-1,0)吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-small-warning-or-usual",
+      "query_text": "5分钟上延要改变，小图必须无例外先转为下笔延伸吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-one-bar-versus-confirmation",
+      "query_text": "一个5分钟K内的一分钟警告，就足以确认5分钟向下笔了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-fourth-not-automatic-entry",
+      "query_text": "周日均(-1,0)是第四种情况，图写值得参与就能说作者无条件建议买入吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-matrix-not-profit-proof",
+      "query_text": "8行四态有4^8候选，是否证明所有组合可达且能自动永动赚钱？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-second-center-timeline",
+      "query_text": "12月24日已经有第二个1分钟中枢吗？5210与5209可以按误差当同点吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-strong-exception",
+      "query_text": "12月25日三支以后是否全部无例外都必形成更大中枢？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-boll-structure-choice",
+      "query_text": "BOLL收口是否必突破单一方向，且任何周期收口都有效？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.2,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.8,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-nine-and-divergence-scope",
+      "query_text": "本课九线段回5240与三买后顶背驰，能推广成任何九段必升级、所有盘整背驰须三买吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b13-wine-not-target",
+      "query_text": "中石油24元和14元，在第91课分别是必达目标和确定买点吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-zn-scope",
+      "query_text": "第92课的Zn是20课Z走势段，还是88课周线编号？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.75,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-cross-not-third",
+      "query_text": "Zn越过A或B是否已经确认第三类买卖点？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-extension-not-certain",
+      "query_text": "Zn越界但没有三类点，就必然100%扩展中枢吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-smooth-not-exact",
+      "query_text": "可按Zn平滑变动精确算出下一高低点吗？九点就是九根K线吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-secondary-trend-conjunction",
+      "query_text": "次级走势为趋势，就单独足以断言该中枢立刻变盘吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-unfinished-300",
+      "query_text": "12月28日新5分钟中枢已经形成，是否图300也已完成且完整5分钟上涨确定？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-zero-cost-conditions",
+      "query_text": "(1,0)一出现，任何人都能不管盈亏先取本留利润吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-skilled-no-rebuy",
+      "query_text": "按93课先卖后买做短差，市场选择(-1,1)还须最后回补吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-weekly-not-fixed-level",
+      "query_text": "周线(1,1)到(1,0)必然对应30分钟上涨吗？用最后中枢判断的前提是什么？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-not-must-5675",
+      "query_text": "剧本说5462—5675间看政策，是否大盘必须先到5675才允许改变？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-stroke-not-segment",
+      "query_text": "1月17日早盘急拉有向上笔，是否下跌线段已经破坏？类背驰是否都在两类中枢间？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b14-channel-future-not-confirmation",
+      "query_text": "1月19日通道图画了四支点，能说明作者当时第四点已确认且通道必成功吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-prepare-and-skip",
+      "query_text": "当机立断是否见任何机会都必须无准备参与？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.2,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.8,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-t1-no-same-day-exit",
+      "query_text": "第94课线段机会存在，就保证T+1能获利退出吗？下午是否绝对安全？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-beginner-ma-conjunction",
+      "query_text": "初学者均线约束是任意跌破5日线都走吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-jan22-versus-23",
+      "query_text": "1月22日第二1分钟中枢已经确定，且没有回5100例外吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-zero-not-no-initial-money",
+      "query_text": "0投入是否等于从没用初始资金、任何后来投入都绝对不准？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-retry-not-unlimited",
+      "query_text": "第96课允许输光后无限补资金再试吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-gambler-target",
+      "query_text": "亏了便规定必须反弹到我的成本才走，按第96课是什么问题？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-wait-versus-early",
+      "query_text": "94课等底确认与96课说确认后太晚，能删掉前者并要求所有人提前买吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-third-unfinished",
+      "query_text": "1月24日数线段题，答案三个都是已经完成吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-put-not-call-not-recommendation",
+      "query_text": "580989教学例是认购权证推荐一般人追涨吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.2857142857142857,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.2857142857142857,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-macd-not-divergence",
+      "query_text": "只会MACD信号，就等于已经看出背驰了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b15-three-steps-not-price-predictor",
+      "query_text": "96课操作三步是否只要预测明天的精确点位时间就完成？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.1,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-expert-deviation",
+      "query_text": "97课允许偏离买卖点，是所有初学者也可随意忽略规则吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-theory-not-application",
+      "query_text": "97课说诊断1/10开方9/10，是否医学统计且懂分类就保证获利？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-daily-forming-dates",
+      "query_text": "1/31日中枢形成中与2/14盘整条件再成日中枢，能直接认为全都已完成？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-grid-not-axis",
+      "query_text": "1/31的3600就是日中枢中轴价吗？第二压力能改成5224吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-revision-not-silence",
+      "query_text": "97课如何支持中石油判断修改？只要后来不提就可全图谱自动确认吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-return-not-stop-or-news",
+      "query_text": "背驰回原中枢是否必停并反向？没有利好则该次背驰不能成立吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-numbered-361-exception",
+      "query_text": "2/4编号364后破坏线段是否无条件卖出？361是指数价格吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-slightly-leading-vs-inverse",
+      "query_text": "比大盘稍先的股票等同完全逆势吗？新股只要有新资金就都稳吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-position-not-empty",
+      "query_text": "不确定时控制仓位就是必须全部空仓，并有统一百分比吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-direction-not-uptrend",
+      "query_text": "2/14后向上30分钟类型一定是上涨，且日下跌第一中枢已经完成吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-stock-method-not-chase",
+      "query_text": "600795估算9元、风险10%—15%是否当前现价和保证最大亏损，拉起后仍推荐买？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.2,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b16-red-not-confirmed",
+      "query_text": "2/18有MACD红柱就无忧且结构上涨已成吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-general-vs-same-level",
+      "query_text": "中阴不能明确划分，是说同级别划分也不能做，且第一个1分钟中枢锁定最终类型？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-recompose-two-cases",
+      "query_text": "d+e+f与f+g+h两种中阴重组，可以不管是否成中枢直接互换吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-complete-before-larger",
+      "query_text": "每个5分钟K收盘就必产生30分钟中枢震荡吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-relative-danger",
+      "query_text": "原下跌的中阴危险，对多头也一定坏吗？第二中枢能自动改倒数第二吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-return-scope-annotated",
+      "query_text": "98课无论盘整背驰均回原中枢，是否与24课三买支完全无歧义？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-three-current-states",
+      "query_text": "2/25已有1分钟下跌，是否5分钟和30分钟都已确认下跌新状态？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-five-to-thirty-chain",
+      "query_text": "1分钟回拉成5分钟三卖，就立即确认30分钟三卖吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-capacity-vs-quantity",
+      "query_text": "100课只需减少数量就能让任何人安全参与所有机会吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-fractal-not-stroke-levels",
+      "query_text": "2/27过4331底分型成立，是否日笔已确，3/3突破4391就等周笔已确？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-macd-zero-scope",
+      "query_text": "100课所有真正行情需MACD回0轴，是否明确撤回17课指标非必要？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-branch-timeline",
+      "query_text": "2/22第二第三都可，2/25就三支全排除并确定最终底了吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.2,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b17-third-buy-still-absent",
+      "query_text": "3/3已突破4391且图有5F框，是否真三买已出、不可能回4331？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-second-buy-three-forms",
+      "query_text": "二买是否必须高于一买，二三买又能否在同一点？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-second-third-not-adjacent",
+      "query_text": "二三买之间还能震荡吗？中间每个震荡买点都是严格新二买吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-strong-coincidence-not-guarantee",
+      "query_text": "101说二三合一最强，是否保证大级别上涨、不能只扩张中枢？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-a0-not-any-algorithm",
+      "query_text": "101说分型a0可随意设计，是否证明任意有歧义入口也合格？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-unique-author-claim-not-proof",
+      "query_text": "101、102的唯一分解和完美结构是否已经由项目形式证明？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.8,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-control-current-not-intervention",
+      "query_text": "102说走势可控，是说能预测或干预价格？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-three-layer-not-weighted-model",
+      "query_text": "a1A1+a5A5+a30A30能直接编成已定义的加权收益模型吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-timeline-third-sell-not-full-down",
+      "query_text": "3/10三卖出现，是否当时1分钟下跌完整确认，3/11周线缺口也已补完？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-one-minute-not-thirty-bottom",
+      "query_text": "3/11有1分钟下跌、3/13盼30分钟反弹，是否真正30分钟背驰已完成？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-sixty-chart-reference-frame",
+      "query_text": "102说60分钟图连1分钟中枢都没形成，是否否定同篇之前的1分钟中枢？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-explicit-stroke-correction",
+      "query_text": "3/17反抽笔未出，3/19足够一笔，是否只因晚日期就覆盖旧判断？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b18-divergence-leg-fractal-stroke",
+      "query_text": "3/19见60分钟底分型及背驰段，就能确认笔和完整底背驰都结束吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-macd-skilled-exception",
+      "query_text": "103零轴下回避是否禁止任何高手在背驰时介入？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-lowest-period-chosen",
+      "query_text": "103是否规定所有人统一用1分钟或60分钟作最低周期？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-physics-program-not-model",
+      "query_text": "104是否已经提供可复现的现代物理能量方程证明市场预测？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-price-rhythm-rounding",
+      "query_text": "600、1345与6124至5522、4778是精确价差恒等式吗，3600是中轴价吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-three-percent-not-epsilon",
+      "query_text": "104上下3%能直接加进笔极值、中枢交集和EPS比较吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-3424-bottom-not-final",
+      "query_text": "3/28说3424初显威力，就等日底分型和最终底部都确认吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-five-thirty-vs-fifteen",
+      "query_text": "3/25的5分钟带30预期与3/26只带15记录，是否应校成相同周期？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-fund-stage-t1-tail",
+      "query_text": "大资金沉淀筹码是否从5522开始一直要求，前日尾盘是否取消T+1风险？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-homework-author-vs-annotation",
+      "query_text": "4/3作业答案是图括注下降趋势线还是作者后来3396底分型解释？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-apr7-sixty-not-week-complete",
+      "query_text": "4/7已有60分钟向上笔，是否日笔周底周笔都已完全确认？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-apr11-three-chart-boundaries",
+      "query_text": "4/11周底已成是否等周笔已成，3533、3613、3840能合为同一位置？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b19-warrant-risk-not-profit-license",
+      "query_text": "580989有所谓高收益案例，是否一般人就应在0.8附近追入？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-mechanical-title-alias",
+      "query_text": "105课机械操作是什么意思，是否任意分类规则或电脑自动交易都等价？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-corrected-author-date",
+      "query_text": "3840前提那段和5月5日补涨趋弱，是读者说的且都在4月29日吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-half-vs-partial",
+      "query_text": "4/16必然半仓是否意味着7/2主动买套也必须所有人固定半仓？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-strength-grade-not-structural-time",
+      "query_text": "4/18第一级别与第二级别反弹可直接标为5分钟、1分钟吗？5524能改5522.8吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-apr22-fractal-not-stroke",
+      "query_text": "4/22突破3085确认小底，就等向上笔也已确认、不用看回试吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-jul3-jul4-containing-bars",
+      "query_text": "7/3和7/4底分型状态一样吗？2753、2945、3483可直接跳到最后一关？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-entry-nesting-not-2917",
+      "query_text": "6/19应等2917站稳再进，还是区间套成立进、2917观察是否退出？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-theory-2990-empirical-3700",
+      "query_text": "7/1反弹3700是100%理论保证吗？到2990后就不许再跌了吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-active-no-risk-author-claim",
+      "query_text": "主动买套实际无风险和最后一跌99%，是否项目统计和所有人安全执行的证明？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-inverted-t-not-theory",
+      "query_text": "倒T型K线70%和7/1的经验90%能当理论买点100%吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-different-gaps-and-buyback",
+      "query_text": "3300缺口不回补才买筹码，与6/10新缺口能补才继续，是否作者自相矛盾的同一缺口？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b20-moving-average-homework-deferred",
+      "query_text": "7/9均线分类是否本课已经给了具体公式，可直接把383/384流程当其答案？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-eight-parameters-history-system",
+      "query_text": "106的均线系统是否包含8日线、且无条件适合未来所有行情？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-history-classification-not-current-count",
+      "query_text": "八线九类是否只数当前股价站上几根线？最强一定当前高于全部线吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-sector-average-not-weighted-return",
+      "query_text": "缠中说禅板块强弱指标取什么平均，是否市值加权收益越大越好就能单独买入？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-averages-level-and-unverified-corrections",
+      "query_text": "均线周期可直接当走势级别吗？图疑144和600578类6是否作者撤回233、类7？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-six-bars-vs-new-stroke",
+      "query_text": "106六根K线可成笔是否明确撤回81新笔的两个联合条件？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-rotation-t1-and-buy-sell-points",
+      "query_text": "有板块类别均值就能忽略个股买卖点，T+1也不限制理论最精确短线吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-boundary-not-best-entry",
+      "query_text": "8/14说分型边沿站稳是最好买点吗？不同级分型区间套等于单看边沿吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-dates-next-header-not-previous-paragraph",
+      "query_text": "7/14解盘末抽出7/16时间头，是否应把7/14的T+1说明整段改标7/16？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-first-leg-not-whole-type",
+      "query_text": "8/6第一段结束和8/13第二级别反弹是否都等2924整个下跌结束？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-a-b-without-c-still-down",
+      "query_text": "a+A+b+B+c没有c，就只能盘整、不能下跌吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-major-center-not-just-price-break",
+      "query_text": "指数跌价就能确认7月3日大中枢三卖、彻底破坏吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b21-probability-conditioning-not-eighties",
+      "query_text": "两个不超10%能直接推出标准情形80%，四次探底95%是项目回测概率吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-running-fees-and-decomposition",
+      "query_text": "30分钟反弹都等上下上完再卖，首上低点买入能保证收益吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-t1-second-sell-alternatives",
+      "query_text": "107分段安全是否消除T+1？低开后第二类卖点的两个条件是且吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-formation-versus-completed",
+      "query_text": "首中枢后三买并非背驰是不是已经完成两中枢上涨？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-partition-directions",
+      "query_text": "107反弹上下上是否否定64课标准上涨中枢下上下？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-rotation-capacity-not-half",
+      "query_text": "平均效率更高是否要求所有人一半底仓、另一半全仓轮动？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-bottom-precise-failure-and-coarse",
+      "query_text": "第一类买点出现就底部成功吗？分型底部是否等于精确走势类型？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-fractal-confirmation-versus-entry",
+      "query_text": "分型上沿有效站住就是最佳买点和严格走势类型完成吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-month-candidate-and-confirmation",
+      "query_text": "8/29给2284/2952是不是保证9月已确认月线行情？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-week-day-exception",
+      "query_text": "周2284/2601与日2284/2455是否一个区间，2523有何例外？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-sep12-role-and-ninety",
+      "query_text": "9/12是读者声称90%还是作者解盘？90%是库内回测概率吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-new-level-day-week-confirmation",
+      "query_text": "9/25日笔无问题能否视周笔已成？9/11下一买点为何换视角？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b22-aesthetic-period-and-macd-open",
+      "query_text": "一年最美、17/18月与月MACD回零轴能保证某月见底吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-lip-wet-definition",
+      "query_text": "唇吻与湿吻是否都要求短线已穿长线、而湿吻一定反复多次？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-flying-strong-qualitative",
+      "query_text": "飞吻怎样定义，是否在强趋势里反而不常有，概率有实测吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-position-relative-system",
+      "query_text": "女上位和男上位何指？5日强10日弱矛盾吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-wet-first-exception-no-risk-free",
+      "query_text": "长期男上位后湿吻下跌就必能抄底获利吗？第一次有没有例外？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-average-points-not-strict-only",
+      "query_text": "第12课两个买点等严格一二类买点吗？其他点都绝对禁止吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.6,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-second-buy-first-sell",
+      "query_text": "均线系统买二卖一何指？第一第二卖点怎么分？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-first-continuation-last-reversal",
+      "query_text": "首次女上缠绕只看次数就100%中继吗？男上最后一次事前能确定吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-early-entry-no-t0-exceptions",
+      "query_text": "没有T+0是否所有人任何早盘都不能买？30天持有无例外吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-position-context-full-small",
+      "query_text": "600028/600019追高后作者要求全部卖吗？原介入期限重要吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-news-and-personal-standard",
+      "query_text": "问美元大跌影响或股票调整到位，作者怎样重构问题？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.75,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-replay-source-identity",
+      "query_text": "2005喜欢数学的女孩转载能标成普通读者，或直接当已外证的作者原博客吗？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence",
+        "structured_has_no_top10_annotated_hit",
+        "fusion_recovers_first_hit_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_1-a53e99c37ca5-p0033-b004",
+        "volume_1-a53e99c37ca5-p0033-b005",
+        "volume_1-a53e99c37ca5-p0033-b006",
+        "volume_1-a53e99c37ca5-p0034-b000",
+        "volume_1-a53e99c37ca5-p0034-b001",
+        "volume_1-a53e99c37ca5-p0034-b002"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b23-weekly-case-no-year-invention",
+      "query_text": "000958例子原文给2005年吗？最好点已过是绝对不能买吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-active-passive-two-meanings",
+      "query_text": "主动带套是不是只指容忍亏损，大资金一直补就行？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-invalid-entry-two-branches",
+      "query_text": "均线系统第一和第二买点分别在何种情况程序失效？盈利就可以不走吗？",
+      "categories": [
+        "structured_has_no_top10_annotated_hit",
+        "structured_ranking_miss_with_covered_gold"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-half-and-maotai-prior-low",
+      "query_text": "一半的位置可以直接写成50%公式吗？茅台8/7是破二买前低吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-tcl-case-lot-and-topup",
+      "query_text": "TCL答复是否要求所有股票一次全补、原仓永不卖？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-ninety-and-no-speculative-switch",
+      "query_text": "强市90%以上是已验证胜率吗？没卖点换后更好是否证明该换？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0.6666666666666666,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-law-kiss-and-corresponding-next",
+      "query_text": "第14课缠绕只湿吻吗？大级别二买能随意跳到任意小级一买吗？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-short-program-order-and-specific-level",
+      "query_text": "短差是先回补再减仓吗？000503的30分卖与5分买怎么记录？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.25,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-macd-doubled-not-fixed-priority",
+      "query_text": "MACD长一倍是否已给24/52/18，柱和线冲突时固定优先哪个？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-week-day-thirty-not-same-confirmation",
+      "query_text": "12/6茅台30分钟有卖点是否周日都已背驰？",
+      "categories": [
+        "equal_rrf_reduces_recall_at10"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 0.5,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-divergence-amplitude-and-equal-low",
+      "query_text": "背驰承诺调整多长多大吗？600050等低2.43是失败的标准一买吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-reader-identity",
+      "query_text": "600058自称按程序选股那句话是谁说的？作者是否确认图里个人理解所有细节？",
+      "categories": [
+        "gold_partly_outside_reviewed_claim_evidence"
+      ],
+      "annotated_gold_not_in_reviewed_evidence": [
+        "volume_1-a53e99c37ca5-p0047-b000",
+        "volume_1-a53e99c37ca5-p0047-b001"
+      ],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "D_lexical_fusion": {
+          "recall": 0.3333333333333333,
+          "hit": 1,
+          "all_annotated_evidence_found": 0
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    },
+    {
+      "query_id": "g-b24-000063-correction",
+      "query_text": "000063读者一二三点计数与作者纠正、图上标日一致吗？",
+      "categories": [],
+      "annotated_gold_not_in_reviewed_evidence": [],
+      "at10": {
+        "A_source_lexical": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        },
+        "C_structured_lexical": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "D_lexical_fusion": {
+          "recall": 1,
+          "hit": 1,
+          "all_annotated_evidence_found": 1
+        },
+        "production_search_control": {
+          "recall": 0,
+          "hit": 0,
+          "all_annotated_evidence_found": 0
+        }
+      }
+    }
+  ],
+  "automatic_categories_only": true,
+  "limits": [
+    "来源未被reviewed命题覆盖与排序漏召回分开；分类不证明其余返回段不相关。",
+    "RRF退化/救回按当前已标注集合计算，不为每道题调权或用gold改写查询。"
+  ]
+}

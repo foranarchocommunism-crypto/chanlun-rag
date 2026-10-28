@@ -1,0 +1,83 @@
+{
+  "graph_version": "0.1.0-review-a38ea0d31c7c",
+  "schema_version": "1.1.0",
+  "checks": [
+    "60新增；早期高低点且/或、顺势平台与作者不严格限定保留，价值中枢不合并宏观估值，日图一段与小图趋势不同",
+    "两均线面积/平均面积除时间与MACD柱面积分开；等再次吻确认有滞后，平均力度将形成非已确认，未补积分或长度算法",
+    "柱片内峰转与前波峰比较、线柱/回轴组合分别记录；关注不是完成背驰，30分已背不升级日线",
+    "买一/买二按能力，首次非最后只限趋势并有周月盘整例外；000932箱型不事后升级，同级两段同向是背驰联合前提",
+    "早期MACD定律保留条件，038004认沽非认购且教学禁买边界不删，成本0不作账户证明，缺口原词已经未静默改以及",
+    "一般先减与特定拒绝盘整全退分开，第二跌一买入/再盘整退三步完整，排除不等不能盈利；半概率/必盈利/300%未实证",
+    "64读者/无时间作者回复和74截断年份null保留；14图10后加4未核，两课仍with_pending，全书语义false"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "同一级别图存在两段同方向趋势"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "缠中说禅趋势平均力度",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "下跌+上涨买卖法",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-0242672956d29000"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 64
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "顺势平台",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "非Windows真实离线、打包和PDF交互验收。",
+    "同模型边界检查不是独立审查、MACD/均线定律形式证明、半概率/300%收益回测或所有历史解释已统一。"
+  ]
+}

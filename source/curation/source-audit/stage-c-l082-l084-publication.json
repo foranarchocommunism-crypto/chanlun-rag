@@ -1,0 +1,62 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-87a6461088c9",
+  "graph_version": "0.1.0-review-b19951bdb3de",
+  "scope": "第82至84课341段，PDF189至221共33页与13图；39段转载独立隔离，作者转贴引言保留",
+  "new_claims": 56,
+  "new_evidence": 84,
+  "relation_supports_added": 6,
+  "reviewed_before": 1041,
+  "reviewed_after": 1097,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 194,
+    "claims": 3736,
+    "evidence": 4133,
+    "relations": 173,
+    "reviews": 1154
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l082_l084.reviewed.jsonl": "419c7d9d329fef6f376c310988db95d0f67027391ab901c5dc66d6de559e0648"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T151752649449Z-curation-l082-l084",
+  "reviewer": "Codex 主代理 / 阶段C下册82至84课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l082-l084-c-stage-pending-non-inclusion-wording",
+    "lower-l082-l084-c-stage-pending-time-level-context",
+    "lower-l082-l084-c-stage-pending-three-feature-fractals-phrase",
+    "lower-l082-l084-c-stage-pending-probability-and-psychology",
+    "lower-l082-l084-c-stage-pending-fractal-and-replace-entry-uniqueness",
+    "lower-l082-l084-c-stage-pending-repost-original-author",
+    "lower-l082-l084-c-stage-pending-figure-makers-late-and-price",
+    "lower-l082-l084-c-stage-pending-effective-break-not-parameterized"
+  ],
+  "third_party_reprint_passages_excluded": 39,
+  "source_structure_changes": "stage-c-l082-l084-source-applied.json",
+  "checks_run": [
+    "56条JSON Schema及引用/身份/映射/坐标预检",
+    "341段原文哈希及全段台账一致",
+    "原1041条已复核命题及其全部证据未改",
+    "转载unknown身份的作者证据负例被只读预检拒绝",
+    "26项Node工程检查全通过",
+    "validate.mjs全量1097条默认知识0错误",
+    "6组边界及8组CLI/共享核心/桌面vendor一致性通过；查询未改数据文件",
+    "1097命题、194概念、173关系及coverage/Markdown同版本导出",
+    "新增12条开发题，四批48条当前版本48/48取证计划及文档/页码/角色/已指定发言者检查通过，旧题与证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答评分及检索基线对比未完成；48条仅为同模型开发题",
+    "Electron界面及Windows成品离线、缩放/旋转/跨页高亮实际交互未验收",
+    "剩余68课未完整语义审读，全书关系与图源审查未完成"
+  ],
+  "acceptance": "56条增量及84证据发布，39段转载隔离且负例拒绝通过；1097条全量引用及两端查询模块检查通过，8项待核与总目标未完成均保留。",
+  "next_action": "继续下册85至87课219段，实际PDF221至239，起点p0221-b007；先顺序读完整课程和答疑，再核原图。"
+}

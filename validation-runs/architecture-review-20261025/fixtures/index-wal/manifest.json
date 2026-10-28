@@ -1,0 +1,58 @@
+{
+  "index_version": "hybrid-1",
+  "index_schema_version": "1.0.0",
+  "graph_version": "audit-v0",
+  "schema_version": "1.1.0",
+  "canonical_source_sha256": "323b0f2acc0575f8874d87b55b2529b4bb7e0b954cefa8b5726df5a0dfa77ef7",
+  "canonical_manifest_sha256": "ebaa3aa524f979e3448d32705065991897aed1c13bb167225aabca5aaea45fb4",
+  "indexed_snapshot_sha256": "323b0f2acc0575f8874d87b55b2529b4bb7e0b954cefa8b5726df5a0dfa77ef7",
+  "policy_version": "audit-1",
+  "policy_sha256": "d231c333c2e674f0f7db31dd89b8c1e5fefaecab8b221fcfca45ae0a99a2e582",
+  "projection_sha256": "bb47dfb2e650f99ffa48efff1d505dc0d412f0c5f4fd747932091fe06f687609",
+  "created_at": "2026-10-25T02:14:54.170Z",
+  "text_processing": {
+    "normalization": "NFKC-lowercase-v1",
+    "tokenizer": "Han-2/3gram-ascii-binary-tf-v1",
+    "windows": {
+      "codepoints": 400,
+      "overlap": 80
+    },
+    "offset_unit": "unicode_codepoint"
+  },
+  "counts": {
+    "claims": 36,
+    "reviewed": 36,
+    "pending": 0,
+    "evidence_windows": 36,
+    "source_windows": 36,
+    "triage": {
+      "full_quote_coverage": 0,
+      "partial_quote_coverage": 0,
+      "no_reviewed_quote": 0
+    }
+  },
+  "models": {
+    "embedding": {
+      "model_manifest_sha256": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+      "projection_sha256": "bb47dfb2e650f99ffa48efff1d505dc0d412f0c5f4fd747932091fe06f687609",
+      "dimensions": 512,
+      "dtype": "q8",
+      "pooling": "cls",
+      "normalize": true,
+      "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+      "input_normalization": "NFKC",
+      "text_rows": 108,
+      "unique_vectors": 72,
+      "unique_text_hash": "55e4fa6cf232519f0905e3de647b67a88a9724d0d9b9081f220b8d96eae3bd82",
+      "repo": "Xenova/bge-small-zh-v1.5",
+      "revision": "75c43b069aac4d136ba6bc1122f995fedcfd2781",
+      "vectors_sha256": "b10cd83b12acd238dfc9edb3617728a8c691354ea41204cddac69040ec722e3b",
+      "rows_sha256": "19ada68a2d61c1530fd627dbe5c8282356af7e0576309c060750bd2fd7498aac",
+      "byte_order": "little_endian",
+      "query_instruction_enabled": true
+    }
+  },
+  "build_status": "validated",
+  "semantic_review_changed": false,
+  "vector_built_at": "2026-10-25T02:14:57.828Z"
+}

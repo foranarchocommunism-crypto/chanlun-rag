@@ -1,0 +1,94 @@
+{
+  "graph_version": "0.1.0-review-63d8b41da992",
+  "schema_version": "1.1.0",
+  "checks": [
+    "35新增；最小分析粗视角全部以下线段化与精确次级离返不同，缺口真实比23更低不强合原级；45/56完整次级才判4077三卖，弱段另类标准须全图一致，9:30无未来段不回看改规则，线段比喻非后特征序列定义",
+    "精细56须技艺反应通道三条件；67幅小但时长/绿柱回0不可忽略亦非黄白0轴；另一34-45-56枢不硬套原边界，回附近/若7一买/不新低或盘背/内部更低级均保，5分三组九段不说十段裸相交",
+    "不熟勿全仓/部分练习，年周持有例非实测期限、预设30持有理想不逃避实际小转大；局部上涨卖点非必高于前收，未见买点90%是读者且T+1风险/分批须保，半仓默认或技好且资小可全出非固定反弹点位，40/20例不证必回本",
+    "11段6/4独立文章从6/1回复改为author_commentary/仅日期不造时分，2段按尾头15:47:30且前段时间不串；432备注作者引文排除，但原段source仍可含未核备注且角色混合，已列阻断待核，不伪称来源隔离完成",
+    "原5月均线参数不借未核备注补5期，3600/3540分时点、3734/3434与图值不改，MACD0轴非价格目标；读者失真/90%/期货保险/反弹幅度不升作者事实，铜矿/政策舆论/国债/自述没作技术实证，期货有风险不等所有对冲无效",
+    "11命题11关联5图逐项核，3当时可得未核/2后加，431右端7月/434右端6月13不证当时预测；23段身份/时间与5图元数据授权变化、66段全台账不等全书或实际Windows验收"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "时间换空间"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "次级别",
+        "limit": 20
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "时间换空间",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-83686649456c158a"
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 432
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "必须建立与资本市场发展阶段相适应",
+        "scope": "source",
+        "limit": 8
+      },
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true,
+      "desktop_module_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 11,
+    "associations": 11,
+    "unique_figures": 5
+  },
+  "mixed_annotation_status": {
+    "passage": "volume_1-a53e99c37ca5-p0432-b001",
+    "reviewed_author_quote_excludes_annotation": true,
+    "source_search_context_still_mixed": true,
+    "source_span_split_complete": false
+  },
+  "core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "desktop_core_sha256": "d89730ff65ca24a498e61cb4ff442cc955c733949b60a4ea55ecfdb1cbb801a6",
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同模型语义边界/来源和模块一致检查，不是独立或人类金标准/真实Windows运行。",
+    "432备注仍混合来源，作者引用避开不等原文搜索隔离完成；与43夹注及54跨页编号context后续修。",
+    "粗视角/精次级和弱段标准、30持有理想/反弹资金强语、原5月均线及图文数差仍待核；冻结召回回归/完整G及产品交付未完成。"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "completed_at": "2026-10-23T02:59:14.2248356Z",
+  "actions": [
+    {
+      "action": "removed_regenerable_incomplete_package",
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\pre-native-runtime-package",
+      "bytes": 1022248292.0,
+      "basis": "Created during this implementation; final package directory now passes all checks. Source and baseline backups retained."
+    },
+    {
+      "action": "retained_failed_build_outside_canonical_package",
+      "source": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\v0.1.0\\building.failed-01.sqlite",
+      "destination": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\agent-implementation-20261022\\retained-build-residue\\building.failed-01.sqlite",
+      "sha256": "90d0565d033125ab0e21123cbb8701bf2adac48263c5319996418906baa8a5f6",
+      "basis": "Known failed-build residue; no active code references found; not graph.sqlite"
+    },
+    {
+      "action": "retained_failed_derived_index",
+      "source": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\failed-index-20261022-column-count",
+      "destination": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\agent-implementation-20261022\\retained-build-residue\\failed-index-20261022-column-count"
+    }
+  ],
+  "old_desktop_archive": "User moved to Recycle Bin; not restored",
+  "preserved": [
+    "Canonical graph.sqlite and fixed PDFs",
+    "Pre-implementation source/knowledge backups",
+    "Original knowledge-only delivery",
+    "Version-bound development snapshots still used by evaluation",
+    "Curation/source-research records",
+    "Fixed local models and runtime production dependencies"
+  ],
+  "runtime_exclusions": [
+    "Desktop app",
+    "Full curation/source project",
+    "Original test/build directories",
+    "Development software installers"
+  ]
+}

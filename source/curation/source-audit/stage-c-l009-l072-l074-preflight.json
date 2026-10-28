@@ -1,0 +1,14 @@
+{
+  "run_mode": "readonly",
+  "graph_version": "0.1.0-review-7f715744fc41",
+  "records_checked": 113,
+  "batch_sha256": {
+    "curation\\upper\\07-l009-complete.reviewed.jsonl": "8e1858f92476489421a1a6d720df83218423769a0359776969e727e242942204",
+    "curation\\lower\\c_stage_l072_l074_sol61.jsonl": "4bd15a82c5cfd64bc485d76690f78752997e7a15ccc99bd4c57e5a596d612cc9"
+  },
+  "machine_checks_pass": true,
+  "semantic_entailment_proven": false,
+  "visual_interpretation_proven": false,
+  "writes": false,
+  "db_and_manifest_hash_unchanged": true
+}

@@ -1,0 +1,121 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-bea3ae6349aa",
+  "graph_version": "0.1.0-review-ebd7062c0ca7",
+  "scope": "第48课130段，PDF347至355九页一图；4跨日时间/55空格规范与1后图，零成本容量、有效跌破三卖、首修正中枢及趋势/小转大边界",
+  "new_claims": 39,
+  "new_evidence": 50,
+  "relation_supports_added": 12,
+  "reviewed_before": 2818,
+  "reviewed_after": 2857,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 291,
+    "claims": 5496,
+    "evidence": 6585,
+    "relations": 535,
+    "reviews": 2927
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l048.reviewed.jsonl": "adc98cf90eb767b49f399de1a34eba1e6bdaac79a8f6f1a4e89efab1d64936aa"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261019T193152408931Z-curation-l048",
+  "reviewer": "Codex 主代理 / 阶段C上册48课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l048-c-stage-pending-bull-crash-large-top-twenty-year-and-historical-numbers",
+    "upper-l048-c-stage-pending-zero-cost-absolute-risk-accounting-software-capacity-and-turnover",
+    "upper-l048-c-stage-pending-commentary-dates-3692-3699-and-later-figure",
+    "upper-l048-c-stage-pending-effective-break-third-sell-not-three-five-bars-or-all-boundaries",
+    "upper-l048-c-stage-pending-two-centers-can-end-level-mismatch-and-first-correction-center",
+    "upper-l048-c-stage-pending-C-extension-short-reply-no-endpoint-or-comparison-endorsement",
+    "upper-l048-c-stage-pending-first-segment-range-third-contains-not-single-center",
+    "upper-l048-c-stage-pending-force-calculable-no-formula-and-c-stronger-small-to-large",
+    "upper-l048-c-stage-pending-fear-position-skill-mean-line-and-sector-claims"
+  ],
+  "source_structure_changes": "stage-c-l048-source-applied.json",
+  "checks_run": [
+    "39条Schema/引用/身份/坐标预检，130段台账、9页1整图实际视觉审查",
+    "原2818命题3896证据未改；2文907页9647段528图逐行比对只59时间和1图来源字段授权变化",
+    "33项Node工程测试通过，串行运行",
+    "2857命题全量引用校验0错误",
+    "6组语义/来源/条件边界与7组CLI/共享/桌面模块一致，5命题5关联1图逐项核；查询只读哈希不变",
+    "240冻结开发题执行，239取证计划通过/240身份通过；g-b05-coincidence前20召回仍失败，未改题或核心排序，见47截断诊断",
+    "2857命题/291概念/535关系、Markdown和coverage同版本导出",
+    "7条旧待核新增来源但全部保持开放；本批9待核"
+  ],
+  "checks_not_run": [
+    "冻结前20召回回归尚未修；240完整类别/自然问题基线/生成回答质量/消融对抗未完成，开发计划不冒充完整G",
+    "49至61共13课尚未完整语义审读，全书交叉/43混合夹注/数值与图源未全解决",
+    "独立Agent实际打包运行与Windows离线/PDF缩放旋转跨页交互未验收"
+  ],
+  "acceptance": "48课39命题50证据发布；2857引用及33工程通过，冻结240题239计划/240身份通过，1条召回回归开放，语义及产品目标未完成。",
+  "next_action": "接续49课利润率最大的操作模式，实际PDF355页标题；完整审读固定级别、仓位/资金效率与操作模式范围，保留作者答疑和图源。",
+  "updated_at": "2026-10-19T19:36:47.225688+00:00",
+  "exports": {
+    "claims": {
+      "rows": 2857,
+      "graph_version": "0.1.0-review-ebd7062c0ca7",
+      "sha256": "88eff4d3ff2110f61aa2e878cb08c7399688f1bb0ac89711cad824920c253962"
+    },
+    "concepts": {
+      "rows": 291,
+      "graph_version": "0.1.0-review-ebd7062c0ca7",
+      "sha256": "8add5663b6a45414861edaa33abcd744cc0bcd01f1d3afb99360443440ee4ca2"
+    },
+    "relations": {
+      "rows": 535,
+      "graph_version": "0.1.0-review-ebd7062c0ca7",
+      "sha256": "44e3ebfbb083378fea36e41b7ac68e2e447eae5a4933dd2beca15dbc22de066e"
+    }
+  },
+  "final_sha256": {
+    "database": "69db76eb1e9b53a1f68681df6d0e22a5508575ab4fee34b6ada90392e7887095",
+    "manifest": "c23e6b62ad9fc58d7e24ec1de9d5e82ea7122ee4f9dbee9d7552cedcc6edf166"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_passed_on_current_graph": 239,
+    "source_identity_passed_on_current_graph": 240,
+    "open_retrieval_regressions": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 27,
+            "truncated": true,
+            "elapsed_ms": 36.3199
+          }
+        ]
+      }
+    ],
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "固定题未改，全部身份通过；一条重合前20召回仍失败，分页找到不算原计划通过。"
+  },
+  "partial_pending_followups": 7,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false
+}

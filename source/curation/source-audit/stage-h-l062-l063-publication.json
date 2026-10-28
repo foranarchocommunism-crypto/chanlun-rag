@@ -1,0 +1,113 @@
+{
+  "stage": "H early pilot completion",
+  "base_graph_version": "0.1.0-review-a837c6e53243",
+  "graph_version": "0.1.0-review-2ac69fd77eec",
+  "schema_version": "1.1.0",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261021T134825161661Z-curation-l062-l063",
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l062_l063.reviewed.jsonl": "7d5028ea8f3da5966ac1ca5cc6597f40b11d00cb1b1520fcd027d9145381a09a"
+  },
+  "new_claims": 15,
+  "new_evidence": 17,
+  "reviewed_claims": 3327,
+  "reviewed_evidence": 4522,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9650,
+    "figures": 528,
+    "concepts": 309,
+    "claims": 5966,
+    "evidence": 7163,
+    "relations": 687,
+    "reviews": 3415
+  },
+  "passages_read": 33,
+  "figure_objects_viewed": 6,
+  "figure_origin_counts": {
+    "later_annotation": 4,
+    "unverified": 2
+  },
+  "original_reviewed_claims_unchanged": 3312,
+  "old_evidence_preserved_except_8_explicit_figure_links": true,
+  "all_source_text_geometry_mapping_unchanged": true,
+  "pending": [
+    "lower-l062-c-stage-pending-figure-origin-and-early-segment-definition",
+    "lower-l063-c-stage-pending-110-111-pen-fractal-and-center-homework-not-fully-given",
+    "lower-l063-c-stage-pending-historical-execution-precision-and-strong-profit-claims"
+  ],
+  "formal_import": "passed",
+  "semantic_completion": false,
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks_run": [
+    "15条Schema和引用/身份/映射/坐标预检",
+    "33段逐段台账全覆盖且哈希一致",
+    "6图来源记录与8旧证据图关联显式修订，原3312命题/4505引文定位保持",
+    "907页9650段逐行不变；528图仅6项来源注记变化",
+    "3327命题全引用检查0错误；33项现有测试通过",
+    "5组知识边界、3个现有CLI/共享读取一致，6处新图文关联及8处旧图关联核对通过",
+    "冻结240开发题239计划/240来源身份，原重合前20截断问题开放",
+    "3327命题309概念687关系及Markdown/coverage同版导出"
+  ],
+  "checks_not_run": [
+    "64课223段仍缺逐段台账，正文110/111图例和附带答疑/操作纪律须核",
+    "全书最终来源/图文/条件质量审计及最终知识库目录、归档/哈希未完成",
+    "63具体分型/笔/递归中枢练习原文未给完整答案，需64后文联读；来源未核与强收益/历史执行边界保留",
+    "固定开发检索原重合前20召回仍未通过；非独立/人类金标准且未评分生成回答"
+  ],
+  "exports": {
+    "claims": {
+      "rows": 3327,
+      "graph_version": "0.1.0-review-2ac69fd77eec",
+      "sha256": "cfc4a8825e3cfd76962d853f57af48bdfc833f8cba96d662a2a8428c30a13463"
+    },
+    "concepts": {
+      "rows": 309,
+      "graph_version": "0.1.0-review-2ac69fd77eec",
+      "sha256": "74683f81c1b6da1414c3400a4acb1d565a79b6e2c6e6aaad8f5797d25c12ead2"
+    },
+    "relations": {
+      "rows": 687,
+      "graph_version": "0.1.0-review-2ac69fd77eec",
+      "sha256": "30f8a66740daba1c734419374ead5689bd8283dc208ba24082711f82dd63b5a4"
+    }
+  },
+  "final_sha256": {
+    "database": "6b84c883e41947cdac2303ac4ba37ac6ec8eebe091010066d288bf12fbab3eef",
+    "manifest": "89ab27a89a33f0fe1cd2f06b6099544772d7551a04d9e0374e58d21464f0ed60"
+  },
+  "development_evaluation": {
+    "cases": 240,
+    "retrieval_plan_pass": 239,
+    "source_identity_pass": 240,
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "known_retrieval_failures": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 35,
+            "truncated": true,
+            "elapsed_ms": 48.010999999999996
+          }
+        ]
+      }
+    ]
+  },
+  "next_action": "继续64课223段PDF12至32正文、图例、答疑与附带操作纪律逐段核对。",
+  "acceptance": "62/63课33段15命题17引文6图完成补录，同版导出；64课及全书最终交付审计仍未完成。",
+  "updated_at": "2026-10-21T13:56:51.297582+00:00"
+}

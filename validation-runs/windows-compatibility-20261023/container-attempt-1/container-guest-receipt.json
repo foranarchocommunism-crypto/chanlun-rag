@@ -1,0 +1,8 @@
+﻿{
+    "passed":  false,
+    "started_at":  "2026-10-23T05:18:12.2258601-07:00",
+    "network":  "none",
+    "isolation":  "process",
+    "error":  "Error response from daemon: Get \"https://mcr.microsoft.com/v2/\": net/http: TLS handshake timeout",
+    "finished_at":  "2026-10-23T05:18:36.2002837-07:00"
+}

@@ -1,0 +1,13 @@
+{
+  "Time": "2026-10-23T12:35:25.8424425+08:00",
+  "UserConfirmed": "Windows 10/11，x64＋ARM64（推荐）",
+  "RequiredArchitectures": [
+    "x64",
+    "arm64"
+  ],
+  "DefaultProduct": "One relocatable package with architecture-aware launchers and both native dependency sets",
+  "KeepFrozenRetrievalQuality": true,
+  "IndependentWindowsX64Passed": false,
+  "IndependentWindowsARM64Passed": false,
+  "CleanupAfterEntireProjectDelivery": true
+}

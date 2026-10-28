@@ -1,0 +1,71 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-1b5c9b3a81d2",
+  "graph_version": "0.1.0-review-c66162c1fc73",
+  "scope": "第85至87课219段，PDF221至239共19页与4图；三图后期，跨级别条件与梦话故事身份分别保留",
+  "new_claims": 51,
+  "new_evidence": 94,
+  "relation_supports_added": 9,
+  "reviewed_before": 1097,
+  "reviewed_after": 1148,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 195,
+    "claims": 3787,
+    "evidence": 4227,
+    "relations": 182,
+    "reviews": 1205
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l085_l087.reviewed.jsonl": "496f2b531e8263e741d1a75557a0016e8ddfa2ac347d916a2e35aa0b7212f809"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T024930918881Z-curation-l085-l087",
+  "reviewer": "Codex 主代理 / 阶段C下册85至87课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l085-l087-c-stage-pending-small-level-wording",
+    "lower-l085-l087-c-stage-pending-next-sublevel-time",
+    "lower-l085-l087-c-stage-pending-three-segments-minimum",
+    "lower-l085-l087-c-stage-pending-stories-and-performance",
+    "lower-l085-l087-c-stage-pending-figure-makers-and-late",
+    "lower-l085-l087-c-stage-pending-hedge-safety",
+    "lower-l085-l087-c-stage-pending-neckline-confirmation-scope"
+  ],
+  "source_structure_changes": "stage-c-l085-l087-figure-applied.json",
+  "checks_run": [
+    "51条JSON Schema及引用/身份/映射/坐标预检",
+    "219段原文哈希及全段台账一致",
+    "原1097条已复核命题及其全部证据未改",
+    "26项Node工程检查通过；1148条全量引用校验0错误",
+    "8组边界与8组CLI/共享/桌面vendor查询一致性通过；数据库及清单查询前后哈希不变",
+    "1148命题/195概念/182关系同版本导出",
+    "新增12条开发题，累计60/60当前图谱取证计划及来源身份检查通过"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及各基线评分未完成",
+    "Windows真实成品离线及PDF缩放旋转跨页交互未验收",
+    "其余65课完整语义审读及全书图文核查未完成"
+  ],
+  "acceptance": "51条增量已发布，7项待核与三张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第88课124段、PDF239至250，再处理89/90课；先完整顺读正文与问答再核图。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-c66162c1fc73",
+    "engineering_tests_passed": 26,
+    "reviewed_claims_validated": 1148,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 60,
+    "development_cases_total": 60,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

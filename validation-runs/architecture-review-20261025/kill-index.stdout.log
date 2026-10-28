@@ -1,0 +1,38 @@
+{
+  "output": "C:\\Users\\13240\\Desktop\\RAG\\validation-runs\\architecture-review-20261025\\fixtures\\index-kill",
+  "index_version": "lexical-1",
+  "index_schema_version": "1.0.0",
+  "graph_version": "audit-v0",
+  "schema_version": "1.1.0",
+  "canonical_source_sha256": "f34dd09511b0edc48276dc702077cf611eacfb57db1d3ab0a689a4c880a070c2",
+  "canonical_manifest_sha256": "ebaa3aa524f979e3448d32705065991897aed1c13bb167225aabca5aaea45fb4",
+  "indexed_snapshot_sha256": "f34dd09511b0edc48276dc702077cf611eacfb57db1d3ab0a689a4c880a070c2",
+  "policy_version": "audit-1",
+  "policy_sha256": "d231c333c2e674f0f7db31dd89b8c1e5fefaecab8b221fcfca45ae0a99a2e582",
+  "projection_sha256": "bb47dfb2e650f99ffa48efff1d505dc0d412f0c5f4fd747932091fe06f687609",
+  "created_at": "2026-10-25T02:15:04.191Z",
+  "text_processing": {
+    "normalization": "NFKC-lowercase-v1",
+    "tokenizer": "Han-2/3gram-ascii-binary-tf-v1",
+    "windows": {
+      "codepoints": 400,
+      "overlap": 80
+    },
+    "offset_unit": "unicode_codepoint"
+  },
+  "counts": {
+    "claims": 36,
+    "reviewed": 36,
+    "pending": 0,
+    "evidence_windows": 36,
+    "source_windows": 36,
+    "triage": {
+      "full_quote_coverage": 0,
+      "partial_quote_coverage": 0,
+      "no_reviewed_quote": 0
+    }
+  },
+  "models": {},
+  "build_status": "validated",
+  "semantic_review_changed": false
+}

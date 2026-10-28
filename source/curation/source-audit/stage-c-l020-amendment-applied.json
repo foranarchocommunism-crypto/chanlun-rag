@@ -1,0 +1,22 @@
+{
+  "stage": "C",
+  "base_graph_version": "0.1.0-review-e5333df86a40",
+  "graph_version": "0.1.0-review-b8840ae38391",
+  "changed_claim_id": "upper-l020-center-formula-reduced",
+  "changed_fields": [
+    "conditions",
+    "review_note"
+  ],
+  "review_id": "review-a599b3afa2639a32",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261014T053458726072Z-l020-reviewed-amendment",
+  "evidence_preserved": true,
+  "dependent_inferences": 0,
+  "dependent_relations": 0,
+  "reviewed_claims_added": 0,
+  "other_532_reviewed_claims_unchanged": true,
+  "all_533_claims_evidence_unchanged": true,
+  "checks_run": [
+    "26项Node工程测试通过",
+    "validate.mjs：533条默认知识无错误"
+  ]
+}

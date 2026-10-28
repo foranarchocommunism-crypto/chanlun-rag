@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-23T12:36:37.466091+00:00",
+  "classification": "progress, followed by verified waits on live download and scheduled container task",
+  "project_delivered": false,
+  "cleanup_started": false,
+  "zip": {
+    "archive": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-307029129712.zip",
+    "sha256": "1d827fbfc168b16ef8de99ac689df2f8b737f3b7e9237eed4737a7e897ece4af",
+    "bytes": 591732627,
+    "files": 7815,
+    "created_at": "2026-10-23T12:07:47.705402+00:00",
+    "crc_checked": true,
+    "independent_vm_and_container_verification": "pending_actual_zip_execution"
+  },
+  "verified": {
+    "source_tests": 47,
+    "x64_host_full_verifier": true,
+    "x64_clean_guest_standard_user_offline_actual_zip": true,
+    "frozen_retrieval_preserved": true,
+    "ARM64_native_assets_static_and_signature_audits": true
+  },
+  "pending": {
+    "ARM64_native_Windows_execution": true,
+    "Windows_network_none_container_execution": true,
+    "final_delivery_and_cleanup": true
+  },
+  "live_handles": {
+    "ARM64_media_download_exec_session": 1589,
+    "loopback_registry_relay_exec_session": 63981,
+    "container_guest_scheduled_task": "ChanKGContainer-universal-0.3.0",
+    "container_last_observed_state": "Running"
+  },
+  "ARM64_download_snapshot": {
+    "assembled_iso_exists": false,
+    "received_part_bytes": 3697142337,
+    "expected_bytes": 8528523264,
+    "official_signed_link_expires_UTC": "2026-10-24T04:34:27.7065354Z"
+  },
+  "resume_order": [
+    "Poll the same live download session and guest scheduled task; never restart merely because observation times out.",
+    "python chan-kg-agent/scripts/windows-validation-environment.py container-status --guest-root C:\\validation\\universal-0.3.0; collect final reports only for current task run.",
+    "After verified ISO SHA256, execute prepare-arm64-validation.ps1 with current ZIP and its SHA256; the VHDX creation is guarded against replacement.",
+    "After x64 container verification, save the x64 VM to free RAM, then start native ARM64 Windows with scripts/arm64-validation-environment.py start.",
+    "Collect ARM64 standard-user receipt and full portable report after authoritative guest shutdown; static PE checks are not execution evidence.",
+    "Complete current-state requirement audit and final report/delivery receipt. Only after project delivery, uninstall VirtualBox and QEMU, remove VM/container/images/proxy/installers, revert added host features, and delete proved duplicate backups."
+  ],
+  "ARM64_preparation_not_yet_executed": true,
+  "user_pause_rule": "没有可做的就静默中断，我到时候看下完了再告诉你",
+  "reason_for_pause": "All currently executable independent implementation and local/x64 native checks are complete; next environment actions require the active media downloads."
+}

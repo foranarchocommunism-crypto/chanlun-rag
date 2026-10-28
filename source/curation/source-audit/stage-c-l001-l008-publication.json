@@ -1,0 +1,57 @@
+{
+  "stage": "C",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-5b278dccfccb",
+  "graph_version": "0.1.0-review-2b771977d4aa",
+  "scope": "第1至8课全部126段，实际PDF8至22共15页，7图对象",
+  "new_claims": 60,
+  "new_evidence": 73,
+  "reviewed_before": 646,
+  "reviewed_after": 706,
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 183,
+    "claims": 3345,
+    "evidence": 3566,
+    "relations": 151,
+    "reviews": 761
+  },
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\06-l001-l008-complete.reviewed.jsonl": "659c007aa89faeaf76453cbae113d222ca9cb524485dfa91ac6f174f09329f8a"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261015T084253138061Z-curation-l001-l008",
+  "reviewer": "Codex 主代理 / 阶段C上册1至8课同模型四轮审读",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l001-l008-c-stage-pending-l006-warrant-numeric-conflict",
+    "upper-l001-l008-c-stage-pending-l006-attached-terms-origin",
+    "upper-l001-l008-c-stage-pending-l006-warrant-floor-proof",
+    "upper-l001-l008-c-stage-pending-l007-origin",
+    "upper-l001-l008-c-stage-pending-l008-failure-percentages",
+    "upper-l001-l008-c-stage-pending-l008-classification-joint-example",
+    "upper-l001-l008-c-stage-pending-l008-monthly-case-annotation",
+    "upper-l001-l008-c-stage-pending-l004-chart-origin"
+  ],
+  "checks_run": [
+    "60条JSON Schema和只读证据/身份/坐标/推论检查",
+    "126段源文本哈希与逐段台账一致",
+    "原646条已复核命题及所有证据未改",
+    "26项Node工程检查全通过",
+    "validate.mjs：706条默认知识0错误",
+    "同版本706命题、183概念、151关系及Markdown/coverage导出",
+    "5组来源语义场景通过；8组CLI/共享模块/桌面vendor模块结果相同；查询前后数据库及清单哈希未变"
+  ],
+  "checks_not_run": [
+    "240条真实检索评测未完成",
+    "Electron界面及打包后离线验收未完成",
+    "全书语义复核尚未完成"
+  ],
+  "acceptance": "本批60条已复核命题已发布；8项待核单独保留；整个工程尚未验收",
+  "next_action": "接续第21至24课375段旧草稿，先核对旧版本依赖和来源，再完成复核及批次输出"
+}

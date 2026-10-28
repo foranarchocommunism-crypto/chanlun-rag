@@ -1,0 +1,74 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-2b91564c23df",
+  "graph_version": "0.1.0-review-31363ab15fab",
+  "scope": "第97—98课179段，PDF323至338共16页与6图；五图后期，类比与应用能力、回中枢后分类、新闻指标与风险限制分别保留",
+  "new_claims": 56,
+  "new_evidence": 101,
+  "relation_supports_added": 5,
+  "reviewed_before": 1405,
+  "reviewed_after": 1461,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4100,
+    "evidence": 4763,
+    "relations": 225,
+    "reviews": 1520
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l097_l098.reviewed.jsonl": "517fb15278867517e703361b1ad6bc5ddb57beffdb89b741b1bdca94f8175a94"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261016T164453635235Z-curation-l097-l098",
+  "reviewer": "Codex 主代理 / 阶段C下册97—98课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l097-l098-c-stage-pending-metaphor-and-completeness",
+    "lower-l097-l098-c-stage-pending-skilled-point-deviation-limit",
+    "lower-l097-l098-c-stage-pending-daily-center-completion-cross-date",
+    "lower-l097-l098-c-stage-pending-numerical-grid-and-360",
+    "lower-l097-l098-c-stage-pending-petro-revision-and-silence",
+    "lower-l097-l098-c-stage-pending-return-guarantee-and-news-scope",
+    "lower-l097-l098-c-stage-pending-t1-leading-stock-and-capacity",
+    "lower-l097-l098-c-stage-pending-indicator-status-vs-structure",
+    "lower-l097-l098-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l097-l098-figure-applied.json",
+  "checks_run": [
+    "56条JSON Schema及引用/身份/映射/坐标预检",
+    "179段原文哈希及全段台账一致",
+    "原1405条已复核命题及其全部证据未改",
+    "27项Node工程检查通过；1461条全量引用0错误",
+    "8组类比/级别/修订/背驰/仓位/指标边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1461命题/205概念/225关系同版本导出",
+    "新增12题后132/132开发取证计划及来源身份检查通过；旧题及证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线评分未完成",
+    "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
+    "其余54课完整语义及全书图源核查未完成",
+    "医学类比、机会全覆盖、作者预测/获利自述未独立证明；熟练偏移/仓位/确认阈值未完整参数化"
+  ],
+  "acceptance": "56条增量已发布，9项待核与五张后期图分别保留；全书和Windows交付未完成",
+  "next_action": "接续第99至100课155段，实际PDF338至352，从p0338-b011开始；顺读中阴表里和操作分类续论，核对递归级别、确认层次及图源。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-31363ab15fab",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1461,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 132,
+    "development_cases_total": 132,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

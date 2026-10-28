@@ -1,0 +1,10 @@
+
+file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/checkpoint.mjs:1
+import fs from 'node:fs';import {syncBuiltinESMExports} from 'node:module';const w=fs.writeFileSync;let n=0;fs.writeFileSync=function(p,...a){if(String(p).endsWith('vector-progress.json')&&++n===2)throw Error('AUDIT_FSYNC_BEFORE_CHECKPOINT');return w.call(this,p,...a);};syncBuiltinESMExports();
+                                                                                                                                                                                                           ^
+
+Error: AUDIT_FSYNC_BEFORE_CHECKPOINT
+    at fs.writeFileSync (file:///C:/Users/13240/Desktop/RAG/validation-runs/architecture-final-review-20261026/run-1792975456546/checkpoint.mjs:1:204)
+    at file:///C:/Users/13240/Desktop/RAG/chan-kg-agent/scripts/build-vectors.mjs:59:5
+
+Node.js v24.15.0

@@ -1,0 +1,23 @@
+{
+  "stage": "C-source-invariants",
+  "graph_version": "0.1.0-review-a4f759f80fae",
+  "source_base_graph_version": "0.1.0-review-e7c4870b7d7e",
+  "compared_source_rows": {
+    "documents": 2,
+    "pages": 907,
+    "passages": 9647,
+    "figures": 528
+  },
+  "authorized_passage_operations": 13,
+  "authorized_figure_operations": 6,
+  "all_other_source_columns_unchanged": true,
+  "original_reviewed_claims_unchanged": 2782,
+  "original_reviewed_evidence_unchanged": 3855,
+  "stable_source_content_sha256": "41173b059468dba605994daf3679ae04a13f2b048054cebb54a0c09a9ce82cbd",
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261019T183738202874Z-source-structure",
+  "writes_to_database": false,
+  "pass": true,
+  "limits": [
+    "行级一致性证明原文与几何未改，不代替语义蕴含或图像解释。"
+  ]
+}

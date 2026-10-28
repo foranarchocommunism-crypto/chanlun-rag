@@ -1,0 +1,249 @@
+{
+  "baseline_files": [
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\package.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\bin\\chan-kg-mcp.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\bin\\chan-kg.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\curation.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\evidence-packet.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\retrieval-index.schema.sql",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\retrieval-request.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\contracts\\schema.sql",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\profiles\\default.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\config.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\core.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\corpus.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\definition-anchors.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\dense.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\embedding.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\graph-expansion.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\index.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\lexical.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\reranker.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\src\\retrieval.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\corpus.test.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\curation_contract_test.py",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\hybrid-graph.test.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\retrieval-baselines.test.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\retrieval-service.test.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\build\\graph-v2\\baseline\\app\\test\\version-session.test.mjs",
+      "unchanged": true
+    }
+  ],
+  "models_compared_to_previous_release": [
+    {
+      "sha": "2ccb3f72b5eb6205316c0b9dde944d6f944ec4a87b85706ce07ef9d9d02b4690",
+      "path": "models/Xenova/bge-reranker-base/README.md",
+      "current_sha256": "2ccb3f72b5eb6205316c0b9dde944d6f944ec4a87b85706ce07ef9d9d02b4690",
+      "unchanged": true
+    },
+    {
+      "sha": "b6575b9d5be20d6747417c8e20c5a0db1636356e0b6d422d7244c628423c4d4c",
+      "path": "models/Xenova/bge-reranker-base/config.json",
+      "current_sha256": "b6575b9d5be20d6747417c8e20c5a0db1636356e0b6d422d7244c628423c4d4c",
+      "unchanged": true
+    },
+    {
+      "sha": "bd44acbb2d09bf23065ac917feefd10565e8b300c1294e452615c957cfafe392",
+      "path": "models/Xenova/bge-reranker-base/model-manifest.json",
+      "current_sha256": "bd44acbb2d09bf23065ac917feefd10565e8b300c1294e452615c957cfafe392",
+      "unchanged": true
+    },
+    {
+      "sha": "dd98f3e67837d23210a6b7550c08cced4f61845b940ac45be3565840a10f3244",
+      "path": "models/Xenova/bge-reranker-base/onnx/model_quantized.onnx",
+      "current_sha256": "dd98f3e67837d23210a6b7550c08cced4f61845b940ac45be3565840a10f3244",
+      "unchanged": true
+    },
+    {
+      "sha": "b4223c8c1e95538f8c79168afc501f8b2da06c63221f013b79b28af78b59366d",
+      "path": "models/Xenova/bge-reranker-base/original-metadata/README.md",
+      "current_sha256": "b4223c8c1e95538f8c79168afc501f8b2da06c63221f013b79b28af78b59366d",
+      "unchanged": true
+    },
+    {
+      "sha": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708",
+      "path": "models/Xenova/bge-reranker-base/original-metadata/config.json",
+      "current_sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708",
+      "unchanged": true
+    },
+    {
+      "sha": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "path": "models/Xenova/bge-reranker-base/sentencepiece.bpe.model",
+      "current_sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "unchanged": true
+    },
+    {
+      "sha": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535",
+      "path": "models/Xenova/bge-reranker-base/special_tokens_map.json",
+      "current_sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535",
+      "unchanged": true
+    },
+    {
+      "sha": "48564c5c7d3fa64d85d95e65414a542385f88b0f128fd8d4163fd7a57f2be05c",
+      "path": "models/Xenova/bge-reranker-base/tokenizer.json",
+      "current_sha256": "48564c5c7d3fa64d85d95e65414a542385f88b0f128fd8d4163fd7a57f2be05c",
+      "unchanged": true
+    },
+    {
+      "sha": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+      "path": "models/Xenova/bge-reranker-base/tokenizer_config.json",
+      "current_sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+      "unchanged": true
+    },
+    {
+      "sha": "cb22054df1a98f7ee9d5b281d023e67c27cc316e1733baf03fc994d95c3048ab",
+      "path": "models/Xenova/bge-small-zh-v1.5/README.md",
+      "current_sha256": "cb22054df1a98f7ee9d5b281d023e67c27cc316e1733baf03fc994d95c3048ab",
+      "unchanged": true
+    },
+    {
+      "sha": "d4193ead3a810fd694fa8a31d7fc72fbaebc0668b603e398734bf2f6538ff42f",
+      "path": "models/Xenova/bge-small-zh-v1.5/config.json",
+      "current_sha256": "d4193ead3a810fd694fa8a31d7fc72fbaebc0668b603e398734bf2f6538ff42f",
+      "unchanged": true
+    },
+    {
+      "sha": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+      "path": "models/Xenova/bge-small-zh-v1.5/model-manifest.json",
+      "current_sha256": "63cfea187f96cdb49d74472ac1f9f2c9dc1c2a758e9744bcef44f5608a4ec7d6",
+      "unchanged": true
+    },
+    {
+      "sha": "69a0b846f4f116b5e6aabf9546ea6754d02264f3211a13a1bd69b31b8040749a",
+      "path": "models/Xenova/bge-small-zh-v1.5/onnx/model.onnx",
+      "current_sha256": "69a0b846f4f116b5e6aabf9546ea6754d02264f3211a13a1bd69b31b8040749a",
+      "unchanged": true
+    },
+    {
+      "sha": "15b717c382bcb518ba457b93ea6850ede7f4f1cd8937454aa06972366cd19bcc",
+      "path": "models/Xenova/bge-small-zh-v1.5/onnx/model_quantized.onnx",
+      "current_sha256": "15b717c382bcb518ba457b93ea6850ede7f4f1cd8937454aa06972366cd19bcc",
+      "unchanged": true
+    },
+    {
+      "sha": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6",
+      "path": "models/Xenova/bge-small-zh-v1.5/original-metadata/1_Pooling/config.json",
+      "current_sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6",
+      "unchanged": true
+    },
+    {
+      "sha": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+      "path": "models/Xenova/bge-small-zh-v1.5/original-metadata/README.md",
+      "current_sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+      "unchanged": true
+    },
+    {
+      "sha": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a",
+      "path": "models/Xenova/bge-small-zh-v1.5/original-metadata/config.json",
+      "current_sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a",
+      "unchanged": true
+    },
+    {
+      "sha": "2cc488b20fa05fe86aba2fdc2be44d24827e11e2b7c7a0753d1427da6797b46f",
+      "path": "models/Xenova/bge-small-zh-v1.5/quantize_config.json",
+      "current_sha256": "2cc488b20fa05fe86aba2fdc2be44d24827e11e2b7c7a0753d1427da6797b46f",
+      "unchanged": true
+    },
+    {
+      "sha": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "path": "models/Xenova/bge-small-zh-v1.5/special_tokens_map.json",
+      "current_sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "unchanged": true
+    },
+    {
+      "sha": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+      "path": "models/Xenova/bge-small-zh-v1.5/tokenizer.json",
+      "current_sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+      "unchanged": true
+    },
+    {
+      "sha": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+      "path": "models/Xenova/bge-small-zh-v1.5/tokenizer_config.json",
+      "current_sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+      "unchanged": true
+    },
+    {
+      "sha": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "path": "models/Xenova/bge-small-zh-v1.5/vocab.txt",
+      "current_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "unchanged": true
+    }
+  ],
+  "passed": true
+}

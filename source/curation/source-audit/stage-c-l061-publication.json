@@ -1,0 +1,129 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-205e2adedcd4",
+  "graph_version": "0.1.0-review-135f4fcad3e3",
+  "scope": "第61课83段，PDF457至470十四页11图；8来源日期与7未核4后加图，区间套四重/结合律至少五次级、仓量容量、嵌套旧答/原字编号/三精度算法与时效",
+  "new_claims": 44,
+  "new_evidence": 52,
+  "relation_supports_added": 14,
+  "reviewed_before": 3268,
+  "reviewed_after": 3312,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 309,
+    "claims": 5951,
+    "evidence": 7144,
+    "relations": 683,
+    "reviews": 3382
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\upper\\c_stage_l061.reviewed.jsonl": "2ebe339ebe4ead7f52713f6211722a1703a20c5857ee918f3e2d371729dc5625"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261021T021630705207Z-curation-l061",
+  "reviewer": "Codex 主代理 / 阶段C上册61课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "upper-l061-c-stage-pending-recursive-hypothesis-four-nests-and-no-newhigh-boundaries",
+    "upper-l061-c-stage-pending-74-associativity-atleast-five-subsegments-and-4244-structure",
+    "upper-l061-c-stage-pending-operation-grade-sell-quantity-capacity-and-return-strong-claims",
+    "upper-l061-c-stage-pending-nested-may22-quote-restored-jun22-and-eleven-figure-provenance",
+    "upper-l061-c-stage-pending-thirty-center-third-leg-unfinished-103-vs102-and-down-high-low-literal",
+    "upper-l061-c-stage-pending-precision4022-truncation-vs-rounding-henceforth-scope",
+    "upper-l061-c-stage-pending-historical-key-levels-midnight-session-monthly-weekly-and105-minimum"
+  ],
+  "source_structure_changes": "stage-c-l061-source-applied.json",
+  "checks_run": [
+    "44命题52证据预检；83段全台账、457至470十四页和11整图实际查看",
+    "原3268命题4453证据未改；全2文907页9647段528图逐行仅8身份/日期和11图元数据授权变化，原字/几何/映射保持",
+    "3312命题全引用0错误，33现有测试通过",
+    "6边界组、7现有CLI/共享读取一致与25命题26图文关联11图核对通过，查询哈希不变",
+    "冻结240题239计划/240来源身份通过，原重合前20召回仍失败，固定题未改",
+    "3312命题309概念683关系及Markdown/coverage同版本导出",
+    "上下册台账按旧lesson/full_lesson与新lesson_number/whole_lesson字段归一，108课均有完整阅读记录；3旧待核补来源仍开放、本批7待核"
+  ],
+  "checks_not_run": [
+    "全书来源/引用/覆盖及最终交付审计未完成；108课阅读记录不等所有技术外围已抽取，早期62至64试点需专项核对其未抽取/未图审项",
+    "43/57混合夹注来源拆分和54长编号答完整跨页来源关联尚未完成",
+    "61原103未完/要102完、跌段后高低于前低、30分枢第三段完成张力、精度及强收益/执行语继续显式待核",
+    "现有冻结召回回归/完整G和自然查询/生成回答评价未完，如实披露；同一代理复核非独立/人类金标准",
+    "最终知识库目录/归档和哈希清单未组装；两册未核原博客或历史政策/收益/可成交外部事实，软件已排除"
+  ],
+  "delivery_scope": "shared_knowledge_base_only",
+  "acceptance": "61课44命题52证据发布，3312引用/33测试/6边界/7现有读取一致及25命题26图文关联通过，同版导出；108课均有阅读记录。全书来源/早期试点抽取覆盖/最终交付审计仍待完成。",
+  "next_action": "转全书最终知识库审计：核62至64早期试点剩余技术/图文覆盖，拆分43/57未核夹注且保原字符映射/旧证据，补54跨页编号答的完整问题来源；逐要求核覆盖、引用和同版导出，整理待核及工具限制，再组装知识库目录/哈希。",
+  "updated_at": "2026-10-21T02:56:49.295315+00:00",
+  "exports": {
+    "claims": {
+      "rows": 3312,
+      "graph_version": "0.1.0-review-135f4fcad3e3",
+      "sha256": "405eda9142ec3d73b5930f21ea9b0f9682d546051c3804ba245fa727e87204f4"
+    },
+    "concepts": {
+      "rows": 309,
+      "graph_version": "0.1.0-review-135f4fcad3e3",
+      "sha256": "2e06bf1fa7d7591c4d300391a1535ac22132af655455db2bb95b32b7c6e2c5b8"
+    },
+    "relations": {
+      "rows": 683,
+      "graph_version": "0.1.0-review-135f4fcad3e3",
+      "sha256": "33f197b86955c8944ff16ae11fe9420adaa7a3a263475bb7f8ddf14bb12ad9c7"
+    }
+  },
+  "final_sha256": {
+    "database": "765dc5af09a397bc8b37b23b8cde586640f4a2122739ee093fcc584f249e6a51",
+    "manifest": "efd4be603efa399e0fd48edde7a1991aac4933dc5d35d6e4d5ed9bdc7d0690c9"
+  },
+  "development_evaluation": {
+    "executable_development_cases": 240,
+    "target": 240,
+    "gold_review_status": "model_reviewed_development",
+    "human_gold_reviewed": false,
+    "independent_test_set": false,
+    "generated_answers_scored": false,
+    "retrieval_plan_passed_on_current_graph": 239,
+    "source_identity_passed_on_current_graph": 240,
+    "open_retrieval_regressions": [
+      {
+        "query_id": "g-b05-coincidence",
+        "missing": [
+          "upper-l021-c-stage-second-third-coincidence-no-guaranteed-trend"
+        ],
+        "queries": [
+          {
+            "request": {
+              "command": "search",
+              "args": {
+                "query": "重合",
+                "limit": 20
+              }
+            },
+            "total": 35,
+            "truncated": true,
+            "elapsed_ms": 53.32130000000001
+          }
+        ]
+      }
+    ],
+    "full_stage_g_acceptance_complete": false,
+    "new_project_gold_cases_created_in_this_batch": 0,
+    "note": "固定题和gold未改，重合前20仍失败；现有评价不冒知识本体/生成回答质量证明，软件已排除。"
+  },
+  "partial_pending_followups": 3,
+  "semantic_completion": false,
+  "writes_to_knowledge_graph_by_this_finalizer": false,
+  "complete_reading_records": 108,
+  "remaining_never_read_lessons": 0,
+  "delivery_scope_file": "curation/delivery-scope.json",
+  "excluded_software_deliverables": [
+    "独立Agent软件访问包及捆绑Node运行时/新启动器",
+    "Windows Electron应用继续开发、打包和软件交付",
+    "软件实际双击/离线交互、PDF缩放旋转/跨页高亮等验收"
+  ]
+}

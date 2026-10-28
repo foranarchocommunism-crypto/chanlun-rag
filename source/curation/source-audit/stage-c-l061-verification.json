@@ -1,0 +1,80 @@
+{
+  "graph_version": "0.1.0-review-135f4fcad3e3",
+  "schema_version": "1.1.0",
+  "delivery_scope": "shared_knowledge_base_only",
+  "checks": [
+    "44新增；65起先假设/强于前段否定/未否定继续递归不是已确认；69未新高、70无盘背而细级例外、71无盘背只是上移必要要求，四重是本例非所有转折固定四层。",
+    "74二三卖须69—72枢合法结合而非70—73，至少五次级完整分组不简化五笔；二三重合往往非保证，69/73同4244不同点且需三类结构。",
+    "72卖量按级别/容量分，大级非全清，原级别保60例外；16只示例不必跟买、0成本/100%非实证，震荡买不一定、105无明确一分枢仅盘中且费用/非T+0/技能条件保。",
+    "嵌套5/22旧答闭引后六段恢复6/22文章，两旧答日期空格修正，6/21只有日不造时分；30分枢已构成/第三段未确认、103未完/要102完和跌段后高低于前低原字保张力，不静改。",
+    "4022精度三方案：两位无破、截整可重、舍入不同；6/29以后选择不倒写59算法或抹64自选。凌晨发布时间/前交易日、6/4引述3600/原5月/5周及4144/次月4159分时点。",
+    "83段全台账、25命题26图文关联11整图核；7原发未核4后加，464手绘等/不等/小转大不造参数；原87/后89、3819诸小数/105原3780.84与重绘3779.81分存，未来K不证前瞻。"
+  ],
+  "parity": [
+    {
+      "command": "search",
+      "args": {
+        "query": "4022.69"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "concept",
+      "args": {
+        "id": "区间套",
+        "limit": 10
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "neighbors",
+      "args": {
+        "id": "结合律",
+        "depth": 1,
+        "limit": 100
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "evidence",
+      "args": {
+        "id": "evidence-006ed366c0b78f63"
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "page",
+      "args": {
+        "documentId": "volume_1.pdf",
+        "page": 461
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "search",
+      "args": {
+        "query": "还有一只是600569",
+        "scope": "source",
+        "limit": 3
+      },
+      "cli_matches_shared": true
+    },
+    {
+      "command": "coverage",
+      "args": {},
+      "cli_matches_shared": true
+    }
+  ],
+  "intended_figure_links_checked": {
+    "claims": 25,
+    "associations": 26,
+    "unique_figures": 11
+  },
+  "database_and_manifest_unchanged": true,
+  "pass": true,
+  "limits": [
+    "同代理四轮不是独立/人类金标准；未核原博客和逐笔真实成交。",
+    "108课均有阅读记录不等全部解释统一；43/57混合旁注、54跨页完整问题和全书覆盖来源/交付审计未完成。",
+    "软件交付已排除；现有检索回归和生成回答评价边界如实披露。"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "stage": "C/E",
+  "run_mode": "authorized_execution",
+  "schema_version": "1.1.0",
+  "base_graph_version": "0.1.0-review-9e728bdbb688",
+  "graph_version": "0.1.0-review-d536de7be067",
+  "scope": "第99—100课155段，PDF338至352共15页与6图；六图后加，中阴重组/相对危险与多层级状态、能力/指标范围分别保留",
+  "new_claims": 55,
+  "new_evidence": 95,
+  "relation_supports_added": 5,
+  "reviewed_before": 1461,
+  "reviewed_after": 1516,
+  "counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4155,
+    "evidence": 4858,
+    "relations": 229,
+    "reviews": 1575
+  },
+  "original_reviewed_claims_and_evidence_unchanged": true,
+  "batch_sha256": {
+    "C:\\Users\\13240\\Desktop\\RAG\\chan-kg-agent\\curation\\lower\\c_stage_l099_l100.reviewed.jsonl": "8c76124a7fb55ec138d256483d1015f5f8a52ec947b6f454aac041bf7f3e0a57"
+  },
+  "backup_directory": "C:\\Users\\13240\\Desktop\\RAG\\shared-knowledge\\backups\\20261017T082533174335Z-curation-l099-l100",
+  "reviewer": "Codex 主代理 / 阶段C下册99—100课同模型四轮复核",
+  "formal_import": "passed",
+  "pending": [
+    "lower-l099-l100-c-stage-pending-intermediate-partition-recomposition",
+    "lower-l099-l100-c-stage-pending-completed-type-return-cross-lesson",
+    "lower-l099-l100-c-stage-pending-health-center-number-relative-direction",
+    "lower-l099-l100-c-stage-pending-macd-necessary-vs-auxiliary",
+    "lower-l099-l100-c-stage-pending-general-executability-and-capability",
+    "lower-l099-l100-c-stage-pending-fractal-stroke-level-confirmation",
+    "lower-l099-l100-c-stage-pending-historical-returns-fundamental-causality",
+    "lower-l099-l100-c-stage-pending-figure-makers-and-late"
+  ],
+  "source_structure_changes": "stage-c-l099-l100-figure-applied.json",
+  "checks_run": [
+    "55条JSON Schema及引用/身份/映射/坐标预检",
+    "155段原文哈希及全段台账一致",
+    "原1461条已复核命题及其全部证据未改",
+    "第98课一条仅补跨课歧义及复核说明，原文字/条件/证据及其他命题、源层、概念、关系未改；独立备份与复核记录完整",
+    "27项Node工程检查通过；1516条全量引用0错误",
+    "8组划分/相对危险/层级状态/分型/指标边界及8组CLI/共享/桌面vendor一致性通过；查询未改数据库清单",
+    "1516命题/205概念/229关系最终同版本导出",
+    "新增12题后144/144开发取证计划及来源身份检查通过；旧题及证据ID保留"
+  ],
+  "checks_not_run": [
+    "240题完整评测、生成回答及检索基线评分未完成",
+    "Windows成品离线与PDF缩放旋转跨页真实交互未验收",
+    "其余52课完整语义及全书图源核查未完成",
+    "盘整背驰回中枢、MACD必要性、完全分类执行能力等跨课范围尚未统一；作者收益/预测未独立验证"
+  ],
+  "acceptance": "55条增量及95证据已发布，98一条范围歧义显式补注；8项待核、旧待核及全书/Windows未完成保留。",
+  "next_action": "接续第101至102课161段，实际PDF353至366，从p0353-b000开始；答疑先核提问/作者身份与条件，再顺读续课正文并查配图。",
+  "final_graph_version": "0.1.0-review-206b57a0a638",
+  "final_counts": {
+    "documents": 2,
+    "pages": 907,
+    "units": 110,
+    "passages": 9647,
+    "figures": 528,
+    "concepts": 205,
+    "claims": 4155,
+    "evidence": 4858,
+    "relations": 229,
+    "reviews": 1576
+  },
+  "post_import_annotation": "stage-d-l024-l098-l099-return-scope.json",
+  "import_invariant_scope": "original_reviewed_claims_and_evidence_unchanged记录导入瞬间；后续只改98一条ambiguity_status/review_note，全文及证据不变，见单独D复核记录。",
+  "post_publication_verification": {
+    "graph_version": "0.1.0-review-206b57a0a638",
+    "engineering_tests_passed": 27,
+    "reviewed_claims_validated": 1516,
+    "validation_errors": 0,
+    "boundary_groups_passed": 8,
+    "cli_shared_desktop_parity_queries_passed": 8,
+    "development_retrieval_cases_passed": 144,
+    "development_cases_total": 144,
+    "same_version_exports_complete": true,
+    "generated_answers_scored": false,
+    "windows_ui_acceptance_complete": false
+  }
+}

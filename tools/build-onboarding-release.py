@@ -25,7 +25,7 @@ if sys.argv[1:] == ['--seal']:
     assert sum(line.endswith('  release-manifest.json') for line in lines) == 1
     # Only this manifest changes after the initial complete hash pass.
     lines = [sha(stage / 'release-manifest.json')+'  release-manifest.json' if line.endswith('  release-manifest.json') else line for line in lines]
-    (stage / 'checksums.sha256').write_text('\n'.join(lines)+'\n', encoding='utf-8')
+    (stage / 'checksums.sha256').write_text('\n'.join(lines)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps({'sealed': str(stage), 'source_commit': manifest['code_commit']}), flush=True)
     raise SystemExit()
 
@@ -78,5 +78,5 @@ manifest['entrypoints'] += ['开始连接.cmd', '检查是否正常.cmd', '合�
 for p in (repo / 'source/src').glob('*.mjs'):
     assert sha(p) == sha(stage / 'app/src' / p.name), p.name
 files = sorted(p for p in stage.rglob('*') if p.is_file() and p.name != 'checksums.sha256')
-(stage / 'checksums.sha256').write_text(''.join(sha(p)+'  '+p.relative_to(stage).as_posix()+'\n' for p in files), encoding='utf-8')
+(stage / 'checksums.sha256').write_text(''.join(sha(p)+'  '+p.relative_to(stage).as_posix()+'\n' for p in files), encoding='utf-8', newline='\n')
 print(json.dumps({'stage': str(stage), 'files': len(files), 'version': '0.4.1'}, ensure_ascii=False), flush=True)

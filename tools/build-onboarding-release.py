@@ -14,6 +14,18 @@ stage = repo / 'source/build/onboarding' / name
 archive = repo / 'archives' / (name + '.zip')
 sha = lambda path: hashlib.file_digest(path.open('rb'), 'sha256').hexdigest()
 
+if sys.argv[1:] == ['--seal']:
+    manifest = json.loads((stage / 'release-manifest.json').read_text(encoding='utf-8'))
+    manifest['code_commit'] = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=repo, text=True).strip()
+    manifest['onboarding_patch']['source_tree_commit'] = manifest['code_commit']
+    manifest['fixed_corpus']['engineering_gates'] = None
+    manifest['onboarding_patch']['base_engineering_reference'] = 'docs/fixed-release-gates.json (0.4.0 reference; new artifact execution has separate receipts)'
+    (stage / 'release-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    files = sorted(p for p in stage.rglob('*') if p.is_file() and p.name != 'checksums.sha256' and '连接资料' not in p.relative_to(stage).parts)
+    (stage / 'checksums.sha256').write_text(''.join(sha(p)+'  '+p.relative_to(stage).as_posix()+'\n' for p in files), encoding='utf-8')
+    print(json.dumps({'sealed': str(stage), 'source_commit': manifest['code_commit']}), flush=True)
+    raise SystemExit()
+
 if sys.argv[1:] == ['--zip']:
     report = json.loads((repo / '验收记录/0.4.1-打包目录运行验证.json').read_text(encoding='utf-8'))
     assert report['passed'] and Path(report['product_root']).resolve() == stage.resolve()

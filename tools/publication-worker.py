@@ -17,6 +17,8 @@ gh = lambda *args: subprocess.check_output(['gh', *args], encoding='utf-8')
 sha = lambda p: hashlib.file_digest(p.open('rb'), 'sha256').hexdigest()
 expected_manifest = os.environ['MANIFEST_SHA256']
 assert re.fullmatch('[0-9a-f]{64}', expected_manifest)
+release = next(r for r in json.loads(gh('api', 'repos/' + repo + '/releases')) if r['tag_name'] == tag)
+assert release['draft'], 'Transfer may only modify the unpublished draft'
 gh('release', 'download', tag, '--repo', repo, '--pattern', 'publication-manifest.json', '--dir', str(root))
 manifest_path = root / 'publication-manifest.json'
 assert sha(manifest_path) == expected_manifest
@@ -63,6 +65,8 @@ assert all(remote.get(ref) == value for ref, value in manifest['refs'].items())
 print('All source/history/tag refs match the verified bundle', flush=True)
 
 runtime = next(f for f in manifest['files'] if f['name'].endswith('.zip'))
+release = json.loads(gh('api', 'repos/' + repo + '/releases/' + str(release['id'])))
+assert release['draft'], 'Do not replace an already published runtime'
 gh('release', 'upload', tag, str(root / runtime['name']), '--repo', repo, '--clobber')
 release = json.loads(gh('api', 'repos/' + repo + '/releases'))
 release = next(r for r in release if r['tag_name'] == tag)

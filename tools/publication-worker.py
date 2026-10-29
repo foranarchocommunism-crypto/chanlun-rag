@@ -1,0 +1,81 @@
+"""GitHub-side transfer: verify bytes and Git refs, then publish the existing artifact."""
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+import subprocess
+import hashlib
+import json
+import os
+import re
+import time
+
+repo = os.environ['GITHUB_REPOSITORY']
+assert repo == 'foranarchocommunism-crypto/chanlun-rag'
+tag = 'v0.4.1'
+root = Path(os.environ['RUNNER_TEMP']) / 'verified-publication'
+root.mkdir()
+gh = lambda *args: subprocess.check_output(['gh', *args], encoding='utf-8')
+sha = lambda p: hashlib.file_digest(p.open('rb'), 'sha256').hexdigest()
+expected_manifest = os.environ['MANIFEST_SHA256']
+assert re.fullmatch('[0-9a-f]{64}', expected_manifest)
+gh('release', 'download', tag, '--repo', repo, '--pattern', 'publication-manifest.json', '--dir', str(root))
+manifest_path = root / 'publication-manifest.json'
+assert sha(manifest_path) == expected_manifest
+manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+allowed_refs = {'refs/heads/main', 'refs/heads/archive/development-main', 'refs/tags/v0.4.0', 'refs/tags/v0.4.1'}
+assert set(manifest['refs']) == allowed_refs
+assert all(re.fullmatch('[0-9a-f]{40}', v) for v in manifest['refs'].values())
+parts = [p for f in manifest['files'] for p in f['parts']]
+assert len({p['name'] for p in parts}) == len(parts)
+
+def download(part):
+    assert re.fullmatch(r'transfer-(bundle|runtime)-\d{4}\.part', part['name'])
+    gh('release', 'download', tag, '--repo', repo, '--pattern', part['name'], '--dir', str(root))
+    p = root / part['name']
+    assert p.stat().st_size == part['bytes'] and sha(p) == part['sha256'], part['name']
+    return p
+
+with ThreadPoolExecutor(max_workers=6) as workers:
+    list(workers.map(download, parts))
+print(f'Verified {len(parts)} uploaded parts', flush=True)
+for file in manifest['files']:
+    assert file['name'] in {'chanlun-publication.bundle', 'chanlun-rag-0.4.1-windows-x64.zip'}
+    target = root / file['name']
+    with target.open('xb') as output:
+        for part in file['parts']:
+            with (root / part['name']).open('rb') as stream:
+                while data := stream.read(1024 * 1024): output.write(data)
+    assert target.stat().st_size == file['bytes'] and sha(target) == file['sha256']
+print('Combined bundle and runtime ZIP hashes match local originals', flush=True)
+
+bare = root / 'repository.git'
+def git(*args):
+    return subprocess.check_output(['git', '--git-dir', str(bare), *args], encoding='utf-8')
+subprocess.run(['git', 'init', '--bare', str(bare)], check=True)
+git('bundle', 'verify', str(root / 'chanlun-publication.bundle'))
+git('fetch', str(root / 'chanlun-publication.bundle'), *[ref + ':' + ref for ref in sorted(allowed_refs)])
+for ref, expected in manifest['refs'].items(): assert git('rev-parse', ref).strip() == expected
+git('fsck', '--full')
+gh('auth', 'setup-git', '--hostname', 'github.com')
+git('remote', 'add', 'origin', 'https://github.com/' + repo + '.git')
+git('push', '--atomic', 'origin', *sorted(allowed_refs))
+remote = {line.split()[1]: line.split()[0] for line in git('ls-remote', '--refs', 'origin').splitlines()}
+assert all(remote.get(ref) == value for ref, value in manifest['refs'].items())
+print('All source/history/tag refs match the verified bundle', flush=True)
+
+runtime = next(f for f in manifest['files'] if f['name'].endswith('.zip'))
+gh('release', 'upload', tag, str(root / runtime['name']), '--repo', repo, '--clobber')
+release = json.loads(gh('api', 'repos/' + repo + '/releases'))
+release = next(r for r in release if r['tag_name'] == tag)
+asset = next(a for a in release['assets'] if a['name'] == runtime['name'])
+assert asset['digest'] == 'sha256:' + runtime['sha256'] and asset['size'] == runtime['bytes']
+print('GitHub runtime asset digest verified', flush=True)
+
+# Only remove transfer files named by this checked manifest, while the release is still a draft.
+assert release['draft']
+temporary_names = {p['name'] for p in parts} | {'publication-manifest.json'}
+for asset in release['assets']:
+    if asset['name'] in temporary_names:
+        gh('api', '--method', 'DELETE', 'repos/' + repo + '/releases/assets/' + str(asset['id']))
+        time.sleep(0.85)
+gh('release', 'edit', tag, '--repo', repo, '--draft=false', '--latest')
+print('Published verified v0.4.1; temporary transfer parts removed', flush=True)

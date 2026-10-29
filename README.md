@@ -1,0 +1,3 @@
+# Publication transfer
+
+The product repository is being transferred from a verified local Git bundle. The final default branch will be main.

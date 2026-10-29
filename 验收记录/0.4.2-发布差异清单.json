@@ -1,0 +1,22 @@
+{
+  "repository": "foranarchocommunism-crypto/chanlun-rag",
+  "tag": "v0.4.2",
+  "tag_commit": "da280f088503c0a9fb417ebd942e251b9532b973",
+  "source_build_commit": "558d69241bac1b2b9c647cee6b4462cf051037c6",
+  "base": {
+    "tag": "v0.4.1",
+    "name": "chanlun-rag-0.4.1-windows-x64.zip",
+    "sha256": "957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1"
+  },
+  "target": {
+    "name": "chanlun-rag-0.4.2-windows-x64.zip",
+    "bytes": 525052324,
+    "sha256": "b0c8d352899f2c62b4f50a8df2f89c4f14b014e6f8b1ae173af3a0100d4ea136"
+  },
+  "patch": {
+    "name": "documentation-update.patch",
+    "bytes": 4877724,
+    "sha256": "26493d61a631f4b17a40cb38402529b0007e676d99fe40c780a819180e515296"
+  },
+  "local_binary_patch_roundtrip_passed": true
+}

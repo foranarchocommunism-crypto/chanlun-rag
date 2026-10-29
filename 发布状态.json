@@ -1,5 +1,5 @@
 {
-  "status": "artifact_verified_publication_pending",
+  "status": "released",
   "display_name": "缠论RAG",
   "version": "0.4.2",
   "source_commit": "558d69241bac1b2b9c647cee6b4462cf051037c6",
@@ -12,10 +12,10 @@
   "knowledge_and_retrieval_core_changed": false,
   "ready_to_use": true,
   "release_url": "https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.2",
-  "published_at": null,
-  "publication_workflow": null,
-  "publication_receipt": null,
+  "published_at": "2026-10-29T12:44:03Z",
+  "publication_workflow": "https://github.com/foranarchocommunism-crypto/chanlun-rag/actions/runs/40875540823",
+  "publication_receipt": "验收记录/0.4.2-GitHub发布核对.json",
   "local_install_guide_included": true,
   "guide_network_required": false,
-  "public_release_verified": false
+  "public_release_verified": true
 }

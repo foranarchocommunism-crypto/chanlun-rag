@@ -1,0 +1,123 @@
+{
+  "requested_at": "2026-10-29T13:17:36.530487+00:00",
+  "status": "complete",
+  "current_version": "0.4.2",
+  "local_deleted": [
+    {
+      "path": "archives/chan-kg-agent-0.4.0-windows-x64.zip",
+      "bytes": 522573430,
+      "sha256": "7780ab2e580ad5782e71a231e4e676b35c622ed86934045201cad2e61af793cf"
+    },
+    {
+      "path": "archives/chan-kg-agent-0.4.0-windows-x64.zip.sha256",
+      "bytes": 103,
+      "sha256": "bbb154e4864a79580cc6ecd13be86b197090430c356fe8aa20c25a4b0ba910f4"
+    },
+    {
+      "path": "archives/chanlun-rag-0.4.1-windows-x64.zip",
+      "bytes": 522553827,
+      "sha256": "957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1"
+    },
+    {
+      "path": "archives/chanlun-rag-0.4.1-windows-x64.zip.sha256",
+      "bytes": 101,
+      "sha256": "6438da09c1c54261175e89baa6b9a4a2c443b76bfd9833634dad1edcebed5852"
+    },
+    {
+      "path": "source/build/docs-delta/base/runtime.zip",
+      "bytes": 522553827,
+      "sha256": "957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1"
+    },
+    {
+      "path": "source/build/docs-delta/target/runtime.zip",
+      "bytes": 525052324,
+      "sha256": "b0c8d352899f2c62b4f50a8df2f89c4f14b014e6f8b1ae173af3a0100d4ea136"
+    },
+    {
+      "path": "source/build/docs-delta/apply/runtime.zip",
+      "bytes": 525052324,
+      "sha256": "b0c8d352899f2c62b4f50a8df2f89c4f14b014e6f8b1ae173af3a0100d4ea136"
+    },
+    {
+      "path": "source/build/zipdelta-probe/base/runtime.zip",
+      "bytes": 524288,
+      "sha256": "68c0fa179d9e13f75fee7dd208571310d15369f0be9b2f48c6890ac2841b599a"
+    },
+    {
+      "path": "source/build/zipdelta-probe/target/runtime.zip",
+      "bytes": 524289,
+      "sha256": "c809135e643cbb944da549fa5c11a21ad56a2db224989f5bdf07ddd3fdb7576f"
+    },
+    {
+      "path": "source/build/zipdelta-probe/apply/runtime.zip",
+      "bytes": 524289,
+      "sha256": "c809135e643cbb944da549fa5c11a21ad56a2db224989f5bdf07ddd3fdb7576f"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.4.0-rc.2-windows-x64-307029129712.zip",
+      "bytes": 522849966,
+      "sha256": "1b853a74ad859338fec8ab26f3bae0f912aa4738bca1501654547de6c0b5d57d",
+      "kind": "old_development_runtime_delivery"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.4.0-rc.2-windows-x64-307029129712.zip.sha256",
+      "bytes": 121,
+      "sha256": "740fa25931251aadcc4d5ab4c3379a2de91d0d161b17ed065b3660dcad88817a"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.4.0-rc.1-windows-x64-307029129712.zip",
+      "bytes": 522849673,
+      "sha256": "54d1f0fa9ed6f189062b28e362a78dab6d18b5c4df4b2414cc851969c3286ddb",
+      "kind": "old_development_runtime_delivery"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.4.0-rc.1-windows-x64-307029129712.zip.sha256",
+      "bytes": 121,
+      "sha256": "e0f3ba5f1b1957b1b23c1e696d334c1144c0cf31ea3ed560c2f91ad94a28e96d"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-windows-x64-307029129712.zip",
+      "bytes": 522757897,
+      "sha256": "9f4554c74da8d92d0cac74f19fd72e04aea009501092e6d668dcba31493d0028",
+      "kind": "old_development_runtime_delivery"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.3.0-windows-x64-307029129712.zip.sha256",
+      "bytes": 116,
+      "sha256": "cf3c8d900ca437201ba8ecddb2af71fac546c4f18edb3c31758f46af6eeff7f9"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.1-307029129712.zip",
+      "bytes": 522570531,
+      "sha256": "18677eed84f8d4cfd2690a28ce2e2eb1acd4857e0a9ba51a9d2e04c9850502a7",
+      "kind": "old_development_runtime_delivery"
+    },
+    {
+      "path": "C:\\Users\\13240\\Desktop\\RAG\\deliveries\\chan-kg-agent-0.2.1-307029129712.zip.sha256",
+      "bytes": 104,
+      "sha256": "db0cff54b4154e7f8a44806426df15b5c78e3a6197987b499c3a421fa1784d18"
+    }
+  ],
+  "remote_deleted": [
+    {
+      "id": 687991470,
+      "name": "chanlun-rag-0.4.1-windows-x64.zip",
+      "size": 522553827,
+      "digest": "sha256:957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1"
+    },
+    {
+      "id": 683785850,
+      "name": "chanlun-rag-0.4.1-windows-x64.zip.sha256",
+      "size": 101,
+      "digest": "sha256:6438da09c1c54261175e89baa6b9a4a2c443b76bfd9833634dad1edcebed5852"
+    }
+  ],
+  "scope": "Old runtime archives in the formal and original development repositories, owned publication ZIP copies, and old GitHub runtime assets; source, knowledge archives and history retained",
+  "retained_archive_sha256": "b0c8d352899f2c62b4f50a8df2f89c4f14b014e6f8b1ae173af3a0100d4ea136",
+  "local_bytes_freed": 4710387331,
+  "completed_at": "2026-10-29T13:24:15.440886+00:00",
+  "retained_non_runtime_archives": [
+    "deliveries/chan-knowledge-20261022-307029129712.zip",
+    "validation-runs/agent-implementation-20261022/pre-implementation-source.zip"
+  ]
+}

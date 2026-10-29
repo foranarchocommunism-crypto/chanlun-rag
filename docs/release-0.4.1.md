@@ -1,5 +1,8 @@
 # 缠论RAG 0.4.1｜Windows直接使用版
 
+> **历史版本：旧运行ZIP和配套校验文件已按用户要求撤下。**
+> 请使用[0.4.2本地AI安装指南版](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.2)。源码标签和验收记录保留；以下为原发布说明。
+
 ## 先让AI帮你安装
 
 打开[项目首页](https://github.com/foranarchocommunism-crypto/chanlun-rag#让ai帮你安装)，复制安装提示词，发送给正在使用的AI桌面客户端，例如Codex、Claude Desktop、WorkBuddy等等。

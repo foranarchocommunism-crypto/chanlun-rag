@@ -17,5 +17,10 @@
   "publication_receipt": "验收记录/0.4.2-GitHub发布核对.json",
   "local_install_guide_included": true,
   "guide_network_required": false,
-  "public_release_verified": true
+  "public_release_verified": true,
+  "available_runtime_archive_versions": [
+    "0.4.2"
+  ],
+  "old_runtime_archives_removed": true,
+  "archive_cleanup_receipt": "验收记录/0.4.2-旧运行包清理.json"
 }

@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "public_repository_with_main_default",
+      "passed": true
+    },
+    {
+      "name": "exact_refs/heads/main",
+      "passed": true
+    },
+    {
+      "name": "exact_refs/heads/archive/development-main",
+      "passed": true
+    },
+    {
+      "name": "exact_refs/tags/v0.4.0",
+      "passed": true
+    },
+    {
+      "name": "exact_refs/tags/v0.4.1",
+      "passed": true
+    },
+    {
+      "name": "release_published",
+      "passed": true
+    },
+    {
+      "name": "runtime_size_and_server_sha256",
+      "passed": true
+    },
+    {
+      "name": "checksum_asset",
+      "passed": true
+    },
+    {
+      "name": "only_user_runtime_and_checksum_assets",
+      "passed": true
+    },
+    {
+      "name": "anonymous_download_head",
+      "passed": true
+    }
+  ],
+  "problems": [],
+  "remote_refs": {
+    "refs/heads/archive/development-main": "3a7b51ef039c3dffab4c37dc35ff54defcee6f5a",
+    "refs/heads/main": "4c6df16240ffd374a639e6166966c46034ba8239",
+    "refs/heads/publication-tools": "c1dfbd47955bcd5d016d82c80563a9a399f3df41",
+    "refs/tags/v0.4.0": "eb6da76b2c9e5d1ae836902bd2c9684af9d62cc5",
+    "refs/tags/v0.4.1": "4c6df16240ffd374a639e6166966c46034ba8239"
+  },
+  "release_url": "https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.1",
+  "archive_sha256": "sha256:957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1"
+}

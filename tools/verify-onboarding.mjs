@@ -5,6 +5,7 @@ import { resolve, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { pathToFileURL } from 'node:url';
 const root = resolve(process.argv[2]), reportFile = resolve(process.argv[3]);
+const expectedVersion = JSON.parse(readFileSync(resolve(root, 'release-manifest.json'), 'utf8')).product_version;
 const node = resolve(root, 'runtime/x64/node.exe'), helper = resolve(root, 'onboarding/connect.mjs');
 const call = (mode, input) => spawnSync(node, [helper, mode], { input, encoding: 'utf8', windowsHide: true, timeout: 300000, cwd: tmpdir() });
 const launch = label => spawnSync(resolve(process.env.SystemRoot, 'System32/cmd.exe'),
@@ -37,7 +38,7 @@ try {
     PATH: resolve(root, 'runtime/x64') + ';' + process.env.SystemRoot + '\\System32', NODE_PATH: '', NODE_OPTIONS: '--import=' + deny } });
   client = new Client({ name: 'new-user-config-verifier', version: '1.0.0' }, { capabilities: {} });
   await client.connect(transport);
-  assert.equal(client.getServerVersion().version, '0.4.1');
+  assert.equal(client.getServerVersion().version, expectedVersion);
   const resultMCP = await client.callTool({ name: 'retrieve', arguments: { query: '中枢是什么，成立需要什么条件？', limit: 5 } }, undefined, { timeout: 300000 });
   assert.ok(!resultMCP.isError); assert.ok(resultMCP.structuredContent.data.reviewed.some(x => x.id === 'upper-l017-center-definition'));
   report.checks.push('generated_command_and_args_real_MCP_retrieve_with_network_denied');

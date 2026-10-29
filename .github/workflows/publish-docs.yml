@@ -1,0 +1,32 @@
+name: Publish verified documentation patch
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag
+        required: true
+        type: string
+      manifest_sha256:
+        description: SHA256 of the verified documentation transfer manifest
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: documentation-publication-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: ${{ inputs.tag }}
+      MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+    steps:
+      - name: Load worker from this immutable workflow commit
+        shell: bash
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/contents/tools/publish-docs-worker.py?ref=$GITHUB_SHA" --jq .content | base64 --decode > "$RUNNER_TEMP/publish-docs-worker.py"
+      - name: Restore and verify the exact tested ZIP before publication
+        run: python "$RUNNER_TEMP/publish-docs-worker.py"

@@ -11,9 +11,9 @@
 
 [![AI协助安装](https://img.shields.io/badge/开始使用-让AI帮你安装-0f766e)](#让ai帮你安装)
 [![Windows x64](https://img.shields.io/badge/Windows-10%20%2F%2011-2563eb)](#开始之前)
-[![版本](https://img.shields.io/badge/版本-0.4.1-475569)](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.1)
+[![版本](https://img.shields.io/badge/版本-0.4.2-475569)](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/tag/v0.4.2)
 
-**[复制安装提示词](#让ai帮你安装)** · **[下载Windows运行包](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/download/v0.4.1/chanlun-rag-0.4.1-windows-x64.zip)** · **[给Agent的安装指南](INSTALL_FOR_AGENT.md)**
+**[复制安装提示词](#让ai帮你安装)** · **[下载Windows运行包](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/download/v0.4.2/chanlun-rag-0.4.2-windows-x64.zip)** · **[给Agent的安装指南](INSTALL_FOR_AGENT.md)**
 
 </div>
 
@@ -21,24 +21,21 @@
 
 ## 让AI帮你安装
 
-打开你正在使用的AI桌面客户端，例如Codex、Claude Desktop、WorkBuddy等等，**把下面整段文字复制进去发送**。不需要先学习命令和配置文件。
+先[下载Windows运行包](https://github.com/foranarchocommunism-crypto/chanlun-rag/releases/download/v0.4.2/chanlun-rag-0.4.2-windows-x64.zip)，右键选择“全部解压”。把解压文件夹里的 **INSTALL_FOR_AGENT.md** 拖给你使用的AI，再复制下面整段提示词发送。客户端例如Codex、Claude Desktop、WorkBuddy等等。
 
 ```text
-我不懂编程，请帮我安装并连接“缠论RAG”，让它能在我现在使用的AI客户端里查资料。
+我已经下载并解压了“缠论RAG”，请帮我把它连接到我现在使用的AI客户端。
 
-请先阅读给AI的安装指南：
-https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/INSTALL_FOR_AGENT.md
+请先读取解压文件夹里的 INSTALL_FOR_AGENT.md，使用我附上的本地文档，不要联网查找安装指南。如果你还不知道解压文件夹的位置，请先让我提供文件夹路径。
 
-你能代办的步骤请直接完成；需要我登录、确认或重启时，一次只告诉我一个动作，说明点哪里、完成后应该看到什么。
+你能代办的步骤请直接完成；需要我确认或重启时，一次只告诉我一个动作，说明点哪里、完成后应该看到什么。
 
-安装后，请实际查一次“中枢是什么，成立需要什么条件？”，给出原文出处，并确认这次确实调用了缠论RAG。如果还没有连接成功，请直接说明还差哪一步。
-
-如果你打不开指南链接，请先告诉我，我会把文档内容发给你。
+连接后，请实际查一次“中枢是什么，成立需要什么条件？”，给出原文出处，并确认这次确实调用了缠论RAG。如果还没有连接成功，请直接说明还差哪一步。
 ```
 
-有电脑操作权限的Agent可以直接帮你下载、解压、检查和连接。没有这些权限的AI会一步一步带你做；需要你操作时，照着它的提示完成即可。
+安装指南已放在运行压缩包里，读取指南和本地安装不需要上网。有电脑操作权限的Agent可以直接帮你检查和连接；没有这些权限的AI会一步一步带你做。AI客户端自身的在线对话仍按其使用方式联网。
 
-如果AI打不开链接，打开[给Agent的安装指南](INSTALL_FOR_AGENT.md)，把文档内容发给它。也可以使用[单独的提示词文本](AI安装提示词.txt)。
+如果AI读不到附件，就把解压文件夹的路径发给它，或将本地指南内容复制给它。解压包内另有 **AI安装提示词.txt**，可以直接打开复制。
 
 ## 它能帮你做什么
 
@@ -47,7 +44,11 @@ https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/INSTALL_FOR_
 | 你想做的事 | 可以这样问 |
 | --- | --- |
 | 学一个概念 | “中枢是什么，成立需要什么条件？请查缠论RAG并给出处。” |
-| 检查是否漏了条件 | “这里的三个次级别走势类型需要已经完成吗？请回到原文。” |
+| 理解联系 | “形态学与动力学如何统一于同一套分析框架？” |
+| 逻辑推导 | “走势必完美如何推导出可操作的结构定理？” |
+| 关系界定 | “级别递归于区间套的区别与联系是什么？” |
+| 细节难点 | “线段如何划分？具体规则如何理解？”<br>• “某处背驰到底该怎么判断”<br>• “走势多义性，那这里到底怎么划分？” |
+| 分析实际案例 | “【截图这里】这段走势应该怎么分析？请结合图中结构，核对成立条件，并给出原文依据。” |
 | 对照不同课次 | “第18课和第54课关于中枢连接级别的表述有什么不同？请保留分歧。” |
 | 核对AI的说法 | “请给出支持这个解释的原文、PDF文件名和PDF页码。” |
 
@@ -55,7 +56,7 @@ https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/INSTALL_FOR_
 
 资料来自随包提供的两册固定PDF。默认采用本项目已经复核的条目；有争议的解释保留争议。知识库现已固定，后续不安排新增资料。
 
-**使用边界：** 本项目提供查证材料，最终回答由AI客户端组织。它不能保证AI每句话都正确，也不提供行情、自动交易或收益承诺。
+**使用边界： 本项目提供查证材料，最终回答由AI客户端组织。它不能保证AI每句话都正确，也不提供行情、自动交易或收益承诺。**
 
 ## 开始之前
 
@@ -85,12 +86,12 @@ AI确认连接成功后，新开一段对话，试着发送：
 | 你遇到的情况 | 可以这样处理 |
 | --- | --- |
 | AI说不能操作这台电脑 | 告诉它：“请按安装指南一步一步带我做，一次只说一个动作。” |
-| AI打不开指南链接 | 打开[安装指南](INSTALL_FOR_AGENT.md)，把文档内容发给它 |
+| AI读不到本地指南 | 把解压文件夹路径发给AI，或把本地INSTALL_FOR_AGENT.md的内容复制给它 |
 | AI只说配置已保存 | 告诉它：“请继续检查连接，并实际查一次原文，确认能用了再告诉我。” |
 | 重启后不知道怎么继续 | 告诉它：“我已重启，请读取刚才保存的安装进度，继续检查缠论RAG。” |
 | 换了文件夹后不能使用 | 告诉它：“资料位置变了，请更新连接位置并重新试查。” |
 
-详细说明见[开始使用](开始使用.md)。如果自己下载文件，选择Release中的 **Windows运行ZIP**；GitHub绿色Code按钮里的Download ZIP和Source code是开发资料。
+分析实际案例时，把图表截图附在提问旁边即可。详细说明见[开始使用](开始使用.md)。如果自己下载文件，选择Release中的 **Windows运行ZIP**；GitHub绿色Code按钮里的Download ZIP和Source code是开发资料。
 
 <details>
 <summary><strong>开发者与资料核对</strong></summary>

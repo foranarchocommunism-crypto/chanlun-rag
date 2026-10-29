@@ -1,18 +1,28 @@
 # 缠论RAG 0.4.1｜Windows直接使用版
 
-普通用户下载附件 **chanlun-rag-0.4.1-windows-x64.zip**，右键“全部解压”，从里面的 **检查是否正常.cmd** 开始。不要下载Source code来直接运行。
+## 先让AI帮你安装
 
-这次增加：
+打开[项目首页](https://github.com/foranarchocommunism-crypto/chanlun-rag#让ai帮你安装)，复制安装提示词，发送给正在使用的AI桌面客户端，例如Codex、Claude Desktop、WorkBuddy等等。
 
-- 面向初学者的中文README和逐步教程，覆盖Codex、Claude Desktop、WorkBuddy。
-- “开始连接”：自动生成当前解压位置的连接信息，减少手抄路径错误。
-- “检查是否正常”：用中文显示知识、模型和实际检索的检查结果。
-- “合并已有配置”：先备份，再添加本项目，保留其他连接；拒绝重复连接或无效内容。
+有电脑操作权限的Agent可以直接帮你下载、检查和连接；没有这些权限的AI会一步一步带你做。完成后应实际查到缠论原文。
 
-无需另装Node.js、Python、Docker或虚拟机。AI客户端需自行安装、登录；在线对话的网络和费用要求以客户端说明为准。
+- [给Agent的安装指南](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/INSTALL_FOR_AGENT.md)
+- [安装提示词文本](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/AI安装提示词.txt)
 
-源码117项测试及打包目录、新ZIP解压件各11项实际运行检查通过。中文和空格路径、实际MCP连接、Graph故障处理及知识未改动均有记录。三个客户端登录后的完整GUI验收、全新Windows系统验收尚未完成，详见仓库的[验证记录](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/验收记录/入门发布验证.md)。
+## 下载运行包
 
-知识内容和检索核心沿用0.4.0。没有新增两跳专用通道或最低名额。完整审校资料和历史记录保存在代码仓库，用户运行ZIP不包含这些开发档案。
+附件 **chanlun-rag-0.4.1-windows-x64.zip** 是普通用户可直接使用的Windows运行包，已带运行环境、模型、知识和索引。Source code是开发资料。
 
-校验文件 `chanlun-rag-0.4.1-windows-x64.zip.sha256` 与运行ZIP一起提供。
+无需另装Node.js、Python、Docker或虚拟机。AI客户端需自行安装、登录，其网络和费用要求以客户端说明为准。
+
+校验文件 `chanlun-rag-0.4.1-windows-x64.zip.sha256` 与运行ZIP一起提供。完整审校资料和开发历史保存在代码仓库。
+
+## 版本内容与验证
+
+0.4.1提供中文本机检查、连接信息生成和配置合并助手。源码117项测试、打包目录及新ZIP解压件各11项实际运行检查已有记录；实际连接配置和中文、空格路径均有验证。
+
+三个客户端登录后的完整GUI验收、全新Windows系统验收尚未完成，详见[验证记录](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/验收记录/入门发布验证.md)。在线安装文档已更新为AI协助安装流程，运行包附带的手动说明可作为备查。
+
+## 手动配置参考
+
+希望自行操作时，查看[在线教程末尾的详细步骤](https://github.com/foranarchocommunism-crypto/chanlun-rag/blob/main/开始使用.md#手动配置参考)。其中以Codex、Claude Desktop、WorkBuddy等等为例，其他支持本地工具的客户端可让AI参照实际设置完成连接。

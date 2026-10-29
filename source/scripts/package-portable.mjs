@@ -93,7 +93,11 @@ try {
   // Tutorial assets are included in new builds as well as the verified-base patch build.
   if (existsSync(resolve(source, 'onboarding'))) {
     cpSync(resolve(source, 'onboarding'), resolve(output, 'onboarding'), { recursive: true });
-    copyFileSync(resolve(workspace, '开始使用.md'), resolve(output, '开始使用.md'));
+    for (const guide of ['开始使用.md', 'INSTALL_FOR_AGENT.md', 'AI安装提示词.txt']) {
+      copyFileSync(resolve(workspace, guide), resolve(output, guide));
+    }
+    mkdirSync(resolve(output, 'docs/assets'), { recursive: true });
+    copyFileSync(resolve(workspace, 'docs/assets/readme-cover.png'), resolve(output, 'docs/assets/readme-cover.png'));
     for (const [label, mode] of [['开始连接', 'generate'], ['检查是否正常', 'check'], ['合并已有配置', 'merge']]) {
       writeFileSync(resolve(output, `${label}.cmd`), `@echo off\r\nsetlocal\r\nchcp 65001 >nul\r\n"%~dp0runtime\\x64\\node.exe" "%~dp0onboarding\\connect.mjs" ${mode}\r\nset "CHANLUN_RESULT=%errorlevel%"\r\npause\r\nexit /b %CHANLUN_RESULT%\r\n`);
     }

@@ -1,0 +1,13 @@
+{
+  "root": "C:\\Users\\13240\\Desktop\\program\\股票\\缠论RAG\\release\\0.4.2 本地指南验收",
+  "passed": true,
+  "checks": [
+    "local_agent_guide_prompt_and_cover_present_without_remote_guide_urls",
+    "paths_generated_from_actual_extracted_directory",
+    "existing_connections_preserved_exact_backup_duplicate_and_invalid_json_refused",
+    "generated_command_and_args_real_MCP_retrieve_with_network_denied",
+    "plain_language_self_check_real_models_and_definition"
+  ],
+  "independent_clean_windows_verified": false,
+  "gui_clients_verified": []
+}

@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import sys
 import time
+import zipfile
 
 root = Path(__file__).resolve().parents[1]
 repo = 'foranarchocommunism-crypto/chanlun-rag'
@@ -48,14 +49,17 @@ try:
         new = root / 'archives/chanlun-rag-0.4.2-windows-x64.zip'
         assert sha(old) == '957abe459d0e227ff93cdfe23c3caf8a2e30c39853796520e4dc17ddd7c300f1'
         shutil.copy2(old, work / 'base/runtime.zip'); shutil.copy2(new, work / 'target/runtime.zip')
-        diff = subprocess.run(['git','-c','core.bigFileThreshold=2g','diff','--no-index','--binary','--full-index','--no-ext-diff','--no-textconv','base/runtime.zip','target/runtime.zip'], cwd=work, capture_output=True)
+        diff = subprocess.run(['git','-c','core.bigFileThreshold=2g','diff','--no-index','--binary','--full-index','--no-color','--no-ext-diff','--no-textconv','base/runtime.zip','target/runtime.zip'], cwd=work, capture_output=True)
         assert diff.returncode == 1, diff.stderr
         patch = transport / 'documentation-update.patch'; patch.write_bytes(diff.stdout)
         assert patch.stat().st_size < 64 * 1024 * 1024, 'Unexpectedly large delta; do not upload silently'
         shutil.copy2(old, work / 'apply/runtime.zip')
         subprocess.run(['git','apply','--binary','-p2','--directory=source/build/docs-delta/apply',str(patch)], cwd=root, check=True)
         assert sha(work / 'apply/runtime.zip') == sha(new)
+        with zipfile.ZipFile(new) as zipped:
+            product=json.loads(zipped.read(new.stem+'/release-manifest.json'))
         m = {'repository':repo,'tag':tag,'tag_commit':run(['git','rev-parse',tag]),
+             'source_build_commit':product['code_commit'],
              'base':{'tag':'v0.4.1','name':old.name,'sha256':sha(old)},
              'target':{'name':new.name,'bytes':new.stat().st_size,'sha256':sha(new)},
              'patch':{'name':patch.name,'bytes':patch.stat().st_size,'sha256':sha(patch)},
@@ -74,9 +78,15 @@ try:
             if not active or active[0]['status']=='completed':
                 gh('release','upload',tag,str(transport / m['patch']['name']),str(manifest_path),'--repo',repo,'--clobber')
                 save('server_restoring_verified_zip')
-                gh('workflow','run','publish-docs.yml','--repo',repo,'--ref','main','-f','tag='+tag,'-f','manifest_sha256='+sha(manifest_path))
-                time.sleep(8)
-                active=json.loads(gh('run','list','--repo',repo,'--workflow','publish-docs.yml','--limit','1','--json','databaseId,status,url'))
+                previous_ids={r['databaseId'] for r in active}
+                # A dispatch timeout can still create a run. Confirm its ID before any retry.
+                dispatched=subprocess.run(['gh','workflow','run','publish-docs.yml','--repo',repo,'--ref','main','-f','tag='+tag,'-f','manifest_sha256='+sha(manifest_path)],cwd=root,capture_output=True)
+                for _ in range(12):
+                    time.sleep(10)
+                    recent=json.loads(gh('run','list','--repo',repo,'--workflow','publish-docs.yml','--limit','5','--json','databaseId,status,url'))
+                    active=[r for r in recent if r['databaseId'] not in previous_ids]
+                    if active: break
+                if not active: raise RuntimeError('Unable to confirm workflow dispatch: '+dispatched.stderr.decode('utf-8',errors='replace'))
             assert active
             run_id=str(active[0]['databaseId']); save('waiting_for_server_verification',workflow_url=active[0]['url'])
             while True:
@@ -93,9 +103,20 @@ try:
         (root/'验收记录/0.4.2-GitHub发布核对.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         shutil.copy2(manifest_path,root/'验收记录/0.4.2-发布差异清单.json')
         status=json.loads((root/'发布状态.json').read_text(encoding='utf-8'))
-        status.update(status='released',version=version,release_tag=tag,archive_sha256=m['target']['sha256'],release_url=current['html_url'],published_at=current['published_at'],publication_receipt='验收记录/0.4.2-GitHub发布核对.json',receipt='验收记录/0.4.2-ZIP与全新解压.json',local_install_guide_included=True)
+        status.update(status='released',version=version,source_commit=m['source_build_commit'],release_tag=tag,archive_sha256=m['target']['sha256'],release_url=current['html_url'],published_at=current['published_at'],publication_workflow=state.get('workflow_url'),publication_receipt='验收记录/0.4.2-GitHub发布核对.json',receipt='验收记录/0.4.2-ZIP与全新解压.json',local_install_guide_included=True,public_release_verified=True)
         (root/'发布状态.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-        save('complete',status='complete',release_url=current['html_url'])
+        own=['发布状态.json','验收记录/0.4.2-GitHub发布核对.json','验收记录/0.4.2-发布差异清单.json']
+        assert run(['git','rev-parse','HEAD'])==m['tag_commit'] and run(['git','branch','--show-current'])=='main'
+        assert not run(['git','diff','--cached','--name-only']), 'Existing staged changes need manual bookkeeping'
+        assert set(run(['git','-c','core.quotepath=false','diff','--name-only']).splitlines())<=set(own), 'Unrelated user changes need manual bookkeeping'
+        run(['git','add','--',*own])
+        subprocess.run([sys.executable,'tools/seal-repository.py'],cwd=root,check=True)
+        run(['git','add','--','仓库文件清单.sha256'])
+        run(['git','commit','-m','Record verified offline-guide release 0.4.2'])
+        run(['git','-c','http.version=HTTP/1.1','-c','http.lowSpeedTime=60','-c','http.lowSpeedLimit=1024','push','origin','main'])
+        remote=run(['git','ls-remote','origin','refs/heads/main']).split()[0]
+        assert remote==run(['git','rev-parse','HEAD'])
+        save('complete',status='complete',release_url=current['html_url'],remote_main=remote)
     else: raise SystemExit('Use prepare or publish')
 except Exception as error:
     save('needs_attention',status='failed',error=type(error).__name__+': '+str(error))

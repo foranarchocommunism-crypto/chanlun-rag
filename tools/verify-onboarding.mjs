@@ -14,6 +14,15 @@ const launch = label => spawnSync(resolve(process.env.SystemRoot, 'System32/cmd.
 const report = { root, passed: false, checks: [], independent_clean_windows_verified: false, gui_clients_verified: [] };
 let client;
 try {
+  const localGuide = resolve(root, 'INSTALL_FOR_AGENT.md');
+  if (existsSync(localGuide)) {
+    const prompt = readFileSync(resolve(root, 'AI安装提示词.txt'), 'utf8');
+    const guide = readFileSync(localGuide, 'utf8');
+    assert.ok(!/https?:\/\//i.test(guide + prompt));
+    assert.ok(prompt.includes('INSTALL_FOR_AGENT.md'));
+    assert.ok(existsSync(resolve(root, 'docs/assets/readme-cover.png')));
+    report.checks.push('local_agent_guide_prompt_and_cover_present_without_remote_guide_urls');
+  }
   const result = launch('开始连接'); assert.equal(result.status, 0, result.stderr);
   const generated = JSON.parse(readFileSync(resolve(root, '连接资料/客户端配置.json'), 'utf8'));
   const server = generated.mcpServers['chanlun-rag'];
